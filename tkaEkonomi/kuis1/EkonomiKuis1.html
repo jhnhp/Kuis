@@ -13,16 +13,23 @@
       font-family: 'Plus Jakarta Sans', sans-serif; 
       -webkit-tap-highlight-color: transparent;
     }
+    /* Scrollbar halus untuk desktop */
     .custom-scrollbar::-webkit-scrollbar { width: 5px; height: 5px; }
     .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 6px; }
     .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 6px; }
     .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    
+    /* Sentuhan mulus di mobile */
+    .touch-scroll {
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-y: contain;
+    }
   </style>
 </head>
-<body class="bg-slate-100 text-slate-800 h-screen flex flex-col overflow-hidden selection:bg-indigo-500 selection:text-white relative">
+<body class="bg-slate-100 text-slate-800 min-h-screen md:h-screen flex flex-col selection:bg-indigo-500 selection:text-white relative">
 
   <!-- HEADER -->
-  <header class="bg-white/90 backdrop-blur-md border-b border-slate-200/80 z-20 flex-shrink-0">
+  <header class="bg-white/95 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-30 flex-shrink-0">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center gap-3">
       <div class="flex items-center gap-2.5 min-w-0">
         <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 text-white flex items-center justify-center font-bold text-base shadow-sm shadow-indigo-200 flex-shrink-0">
@@ -34,11 +41,10 @@
         </div>
       </div>
 
-      <!-- Right Header Actions -->
       <div class="flex items-center gap-2">
-        <!-- Tombol Pop-up Navigasi (Hanya muncul di HP / Layar Kecil) -->
-        <button id="btn-mobile-nav-toggle" onclick="toggleMobilePalette()" class="md:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 text-indigo-700 font-semibold text-xs border border-indigo-200 active:bg-indigo-100 transition-colors">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        <!-- Tombol Buka Soal Header (Khusus HP) -->
+        <button id="btn-mobile-header-nav" onclick="openMobilePalette()" class="md:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs border border-indigo-200 active:bg-indigo-100 transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           <span id="mobile-counter-header">0 / 0</span>
         </button>
 
@@ -48,8 +54,8 @@
   </header>
 
   <!-- SCREEN 1: START SCREEN -->
-  <main id="start-screen" class="flex-grow flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200/80 shadow-xl shadow-slate-200/50 max-w-md w-full text-center relative overflow-hidden">
+  <main id="start-screen" class="flex-grow flex items-center justify-center p-4 py-8 overflow-y-auto">
+    <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200/80 shadow-xl shadow-slate-200/50 max-w-md w-full text-center relative overflow-hidden my-auto">
       <div class="absolute -top-16 -right-16 w-32 h-32 bg-indigo-50 rounded-full blur-2xl pointer-events-none"></div>
       
       <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-semibold uppercase tracking-wider mb-4" id="start-badge">
@@ -71,27 +77,28 @@
   </main>
 
   <!-- SCREEN 2: QUIZ INTERFACE -->
-  <main id="quiz-screen" class="flex-grow hidden max-w-6xl mx-auto w-full p-3 sm:p-6 gap-6 h-full overflow-hidden">
+  <main id="quiz-screen" class="flex-grow hidden max-w-6xl mx-auto w-full p-2 sm:p-6 gap-6 h-auto md:h-full md:overflow-hidden pb-20 md:pb-6">
     
-    <!-- Left Column (Laptop) / Full Screen (HP): Area Soal -->
+    <!-- Kolom Soal: Full width di mobile, fleksibel di desktop -->
     <div class="flex-1 bg-white rounded-2xl border border-slate-200/80 shadow-sm flex flex-col h-full overflow-hidden">
-      <!-- Top Meta Bar -->
-      <div class="flex justify-between items-center px-4 sm:px-6 py-3 sm:py-3.5 border-b border-slate-100 flex-shrink-0 bg-white">
+      
+      <!-- Top Meta Info -->
+      <div class="flex justify-between items-center px-4 sm:px-6 py-3 border-b border-slate-100 flex-shrink-0 bg-white">
         <span id="q-topic-tag" class="text-xs font-bold uppercase tracking-wider text-slate-500 truncate max-w-[200px]">Materi</span>
         <span id="q-difficulty" class="text-[11px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider"></span>
       </div>
 
-      <!-- Question & Options Area -->
-      <div class="p-4 sm:p-8 flex-grow overflow-y-auto custom-scrollbar">
+      <!-- Area Pertanyaan & Pilihan: Scroll Mandiri dan Halus di HP -->
+      <div id="quiz-scroll-area" class="p-4 sm:p-8 flex-grow overflow-y-auto touch-scroll custom-scrollbar">
         <div class="flex items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-          <div id="q-number" class="w-8 h-8 sm:w-9 sm:h-9 flex-shrink-0 bg-indigo-50 text-indigo-700 font-extrabold flex items-center justify-center rounded-lg sm:rounded-xl text-sm sm:text-base">1</div>
-          <p id="q-text" class="text-slate-800 text-sm sm:text-lg font-medium leading-relaxed pt-0.5"></p>
+          <div id="q-number" class="w-8 h-8 sm:w-9 sm:h-9 flex-shrink-0 bg-indigo-50 text-indigo-700 font-extrabold flex items-center justify-center rounded-lg sm:rounded-xl text-sm sm:text-base mt-0.5">1</div>
+          <p id="q-text" class="text-slate-800 text-sm sm:text-lg font-medium leading-relaxed"></p>
         </div>
 
-        <div id="options-container" class="space-y-2.5 sm:space-y-3 pl-0 sm:pl-12"></div>
+        <div id="options-container" class="space-y-3 pl-0 sm:pl-12 pb-4"></div>
 
-        <!-- Explanation Box -->
-        <div id="explanation-box" class="hidden mt-6 sm:mt-8 rounded-xl bg-slate-50 border border-slate-200/80 p-4 sm:p-5">
+        <!-- Box Pembahasan -->
+        <div id="explanation-box" class="hidden mt-4 sm:mt-8 rounded-xl bg-slate-50 border border-slate-200/80 p-4 sm:p-5">
           <div class="flex items-center gap-2 text-indigo-700 font-bold text-xs sm:text-sm mb-1.5">
             <svg class="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             <span>Pembahasan</span>
@@ -100,24 +107,25 @@
         </div>
       </div>
 
-      <!-- Bottom Control Bar -->
-      <div class="px-4 sm:px-6 py-3 sm:py-3.5 border-t border-slate-100 flex justify-between items-center bg-slate-50/80 flex-shrink-0">
-        <button onclick="prevQuestion()" id="btn-prev" class="px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-700 font-semibold text-xs sm:text-sm hover:bg-slate-100 disabled:opacity-30 transition-colors shadow-2xs">
+      <!-- Bottom Nav Bar (Tetap menempel di bawah container) -->
+      <div class="px-4 sm:px-6 py-3 border-t border-slate-100 flex justify-between items-center bg-slate-50/90 flex-shrink-0 z-10">
+        <button onclick="prevQuestion()" id="btn-prev" class="px-4 sm:px-5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-700 font-semibold text-xs sm:text-sm hover:bg-slate-100 active:scale-95 disabled:opacity-30 transition-all shadow-2xs">
           Sebelumnya
         </button>
 
-        <!-- Tombol Buka Lembar Soal di HP pada Footer -->
-        <button onclick="toggleMobilePalette()" class="md:hidden px-3.5 py-2 rounded-xl bg-slate-200 text-slate-700 font-semibold text-xs active:bg-slate-300">
-          Daftar Soal
+        <!-- Tombol Pembuka Pop-up Soal di HP -->
+        <button onclick="openMobilePalette()" class="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-xl bg-indigo-50 border border-indigo-200 text-indigo-700 font-bold text-xs active:bg-indigo-100">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+          <span>Nomor Soal</span>
         </button>
 
-        <button onclick="nextQuestion()" id="btn-next" class="px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs sm:text-sm transition-colors shadow-sm">
+        <button onclick="nextQuestion()" id="btn-next" class="px-4 sm:px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs sm:text-sm active:scale-95 transition-all shadow-sm">
           Selanjutnya
         </button>
       </div>
     </div>
 
-    <!-- Right Column (KHUSUS LAPTOP / DESKTOP): Navigasi Soal Samping -->
+    <!-- Panel Kanan: Tetap Eksklusif untuk Layar PC / Laptop -->
     <div class="w-80 hidden md:flex flex-col h-full flex-shrink-0">
       <div class="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-5 flex flex-col h-full overflow-hidden">
         <div class="flex items-center justify-between mb-4 flex-shrink-0">
@@ -138,24 +146,28 @@
     </div>
   </main>
 
-  <!-- POP-UP DRAWER NAVIGASI SOAL (KHUSUS HP / MOBILE) -->
-  <div id="mobile-nav-modal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs z-40 hidden md:hidden flex flex-col justify-end transition-opacity">
-    <div class="bg-white rounded-t-3xl max-h-[80vh] flex flex-col shadow-2xl p-5 border-t border-slate-100 animate-in slide-in-from-bottom duration-200">
+  <!-- POP-UP MODAL BOTTOM SHEET NAVIGASI SOAL (MOBILE) -->
+  <div id="mobile-nav-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-50 hidden md:hidden flex flex-col justify-end transition-opacity duration-200" onclick="closeMobilePaletteOnBackdrop(event)">
+    <div id="mobile-sheet-content" class="bg-white rounded-t-3xl max-h-[82vh] flex flex-col shadow-2xl p-5 border-t border-slate-100 transform translate-y-0 transition-transform duration-300" onclick="event.stopPropagation()">
+      
+      <!-- Drag Bar & Header -->
+      <div class="w-12 h-1.5 bg-slate-200 rounded-full mx-auto mb-3 flex-shrink-0"></div>
       <div class="flex items-center justify-between pb-3 border-b border-slate-100 flex-shrink-0">
         <div>
           <h3 class="font-bold text-slate-900 text-base">Lembar Nomor Soal</h3>
           <p class="text-slate-400 text-xs" id="answered-counter-mobile">0 / 0 terjawab</p>
         </div>
-        <button onclick="toggleMobilePalette()" class="w-8 h-8 rounded-full bg-slate-100 text-slate-500 flex items-center justify-center font-bold text-sm">✕</button>
+        <button onclick="closeMobilePalette()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 flex items-center justify-center font-bold text-sm">✕</button>
       </div>
 
-      <!-- Grid Tombol Nomor Versi HP -->
-      <div class="flex-grow overflow-y-auto custom-scrollbar py-4">
+      <!-- Grid Tombol Nomor -->
+      <div class="flex-grow overflow-y-auto touch-scroll py-4 pr-1">
         <div id="nav-grid-mobile" class="grid grid-cols-5 gap-2.5"></div>
       </div>
 
+      <!-- Tombol Selesaikan Kuis di Mobile Sheet -->
       <div class="pt-3 border-t border-slate-100 flex-shrink-0">
-        <button id="btn-submit-mobile" onclick="toggleMobilePalette(); showSubmitModal();" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-xl shadow-md text-sm">
+        <button id="btn-submit-mobile" onclick="closeMobilePalette(); showSubmitModal();" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow-md text-sm active:scale-98 transition-all">
           Selesaikan & Kumpulkan Kuis
         </button>
       </div>
@@ -163,13 +175,13 @@
   </div>
 
   <!-- SCREEN 3: HASIL EVALUASI -->
-  <main id="result-screen" class="flex-grow hidden items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200/80 shadow-xl shadow-slate-200/50 max-w-md w-full text-center">
+  <main id="result-screen" class="flex-grow hidden items-center justify-center p-4 py-8 overflow-y-auto">
+    <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200/80 shadow-xl shadow-slate-200/50 max-w-md w-full text-center my-auto">
       <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-5 shadow-inner">
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
       </div>
       <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 mb-1">Kuis Selesai!</h2>
-      <p class="text-slate-500 text-xs sm:text-sm mb-6">Nilai Anda telah otomatis tersimpan ke sistem rekap guru.</p>
+      <p class="text-slate-500 text-xs sm:text-sm mb-6">Nilai Anda telah otomatis tersimpan ke spreadsheet sistem.</p>
       
       <div class="bg-slate-50 rounded-xl p-5 mb-6 border border-slate-100">
         <p class="text-xs uppercase font-bold tracking-wider text-slate-400 mb-1">Skor Akhir</p>
@@ -191,13 +203,13 @@
   </main>
 
   <!-- FOOTER CREDIT (Kanan Bawah) -->
-  <footer class="fixed bottom-2 right-3 sm:right-4 z-30 pointer-events-none">
-    <p class="text-[10px] sm:text-[11px] font-medium text-slate-400 bg-white/70 backdrop-blur-xs px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md border border-slate-200/50 shadow-2xs">
+  <footer class="fixed bottom-2 right-3 sm:right-4 z-20 pointer-events-none">
+    <p class="text-[10px] sm:text-[11px] font-medium text-slate-400 bg-white/80 backdrop-blur-xs px-2.5 py-1 rounded-md border border-slate-200/60 shadow-2xs">
       Dibuat oleh Johan Herdi Putra, 2026
     </p>
   </footer>
 
-  <!-- MODAL: ALERT -->
+  <!-- ALERT MODAL -->
   <div id="alert-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-sm w-full mx-4" id="alert-content">
       <div class="flex items-center gap-2.5 mb-3 text-amber-600">
@@ -209,11 +221,11 @@
     </div>
   </div>
 
-  <!-- MODAL: KONFIRMASI SUBMIT -->
+  <!-- SUBMIT MODAL -->
   <div id="submit-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-md w-full mx-4">
       <h3 class="text-lg font-bold text-slate-900 mb-2">Kumpulkan Jawaban?</h3>
-      <p id="submit-confirm-msg" class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">Pastikan semua soal telah terjawab. Jawaban akan langsung dikirim dan dinilai.</p>
+      <p id="submit-confirm-msg" class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">Pastikan semua soal telah terjawab. Nilai Anda akan langsung dihitung dan disimpan.</p>
       <div class="flex justify-end gap-3">
         <button onclick="hideSubmitModal()" class="px-4 py-2.5 rounded-xl text-slate-600 font-medium text-xs sm:text-sm hover:bg-slate-100 transition-colors">Batal</button>
         <button onclick="processSubmit()" class="px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-medium text-xs sm:text-sm hover:bg-emerald-700 transition-colors shadow-sm">Ya, Kumpulkan</button>
@@ -262,9 +274,18 @@
       document.getElementById('start-badge').innerText = `${kuisData.total_questions} Soal`;
     }
 
-    function toggleMobilePalette() {
-      const modal = document.getElementById('mobile-nav-modal');
-      modal.classList.toggle('hidden');
+    function openMobilePalette() {
+      document.getElementById('mobile-nav-modal').classList.remove('hidden');
+    }
+
+    function closeMobilePalette() {
+      document.getElementById('mobile-nav-modal').classList.add('hidden');
+    }
+
+    function closeMobilePaletteOnBackdrop(event) {
+      if (event.target.id === 'mobile-nav-modal') {
+        closeMobilePalette();
+      }
     }
 
     function customAlert(message) {
@@ -326,7 +347,7 @@
       for (let i = 0; i < kuisData.total_questions; i++) {
         if (userAnswers[i] !== null) answeredCount++;
 
-        let baseClass = "aspect-square rounded-xl text-xs font-bold border transition-all flex items-center justify-center ";
+        let baseClass = "aspect-square rounded-xl text-xs sm:text-xs font-bold border transition-all flex items-center justify-center ";
         
         if (reviewMode) {
           const isCorrect = userAnswers[i] === kuisData.questions[i].answer;
@@ -357,10 +378,10 @@
         // Element untuk Mobile Drawer
         const btnMobile = document.createElement('button');
         btnMobile.innerText = i + 1;
-        btnMobile.className = "w-full py-2.5 " + baseClass;
+        btnMobile.className = "w-full py-3 text-sm active:scale-95 " + baseClass;
         btnMobile.onclick = () => {
           renderQuestion(i);
-          toggleMobilePalette();
+          closeMobilePalette();
         };
         gridMobile.appendChild(btnMobile);
       }
@@ -395,10 +416,10 @@
       
       for (const [key, value] of Object.entries(q.options)) {
         const optDiv = document.createElement('div');
-        let optClass = "flex items-start p-3 sm:p-4 rounded-xl border-2 transition-all cursor-pointer text-xs sm:text-sm leading-relaxed ";
+        let optClass = "flex items-start p-3.5 sm:p-4 rounded-xl border-2 transition-all cursor-pointer text-xs sm:text-sm leading-relaxed ";
         
         if (reviewMode) {
-          optClass = "flex items-start p-3 sm:p-4 rounded-xl border-2 transition-all text-xs sm:text-sm leading-relaxed ";
+          optClass = "flex items-start p-3.5 sm:p-4 rounded-xl border-2 transition-all text-xs sm:text-sm leading-relaxed ";
           if (key === q.answer) {
             optClass += "bg-emerald-50 border-emerald-500 text-emerald-900 font-medium"; 
           } else if (userAnswers[index] === key && key !== q.answer) {
@@ -417,7 +438,7 @@
 
         optDiv.className = optClass;
         optDiv.innerHTML = `
-          <span class="w-5 sm:w-6 font-bold mr-2.5 sm:mr-3 text-center flex-shrink-0 ${reviewMode && key === q.answer ? 'text-emerald-700 font-black' : 'text-slate-400'}">${key}</span>
+          <span class="w-6 font-bold mr-2 text-center flex-shrink-0 ${reviewMode && key === q.answer ? 'text-emerald-700 font-black' : 'text-slate-400'}">${key}</span>
           <span class="flex-grow">${value}</span>
         `;
         container.appendChild(optDiv);
@@ -434,6 +455,10 @@
       document.getElementById('btn-prev').disabled = (index === 0);
       document.getElementById('btn-next').disabled = (index === kuisData.total_questions - 1);
       
+      // Auto-scroll ke bagian paling atas pertanyaan saat ganti nomor di mobile
+      const scrollArea = document.getElementById('quiz-scroll-area');
+      if (scrollArea) scrollArea.scrollTop = 0;
+
       renderNavGrids();
     }
 
@@ -445,7 +470,7 @@
       if (currentIndex < kuisData.total_questions - 1) {
         setTimeout(() => {
           renderQuestion(currentIndex + 1);
-        }, 200);
+        }, 180);
       }
     }
 
