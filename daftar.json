@@ -1,59 +1,60 @@
 {
-  "generated": null,
+  "generated": "2026-10-02T17:59:40",
   "kuis": [
     {
-      "title": "Diagnostic Test",
-      "topic": "",
-      "questions": null,
+      "title": "PR Biologi Rendra",
+      "topic": "Sistem Organ, Hormon, serta Pertumbuhan dan Perkembangan Manusia",
+      "questions": 20,
       "mapel": "Biologi",
       "sub": [
         "Kelas 9",
         "Diagnostic Test"
       ],
-      "url": "Biologi/Kelas9/DiagnosticTest/Kuis.html"
+      "url": "Biologi/Kelas9/DiagnosticTest/"
     },
     {
-      "title": "Diagnostic Test",
-      "topic": "",
-      "questions": null,
+      "title": "TKA Ekonomi - Mikroekonomi dan Makroekonomi",
+      "topic": "Mikroekonomi dan Makroekonomi",
+      "questions": 40,
+      "mapel": "Ekonomi",
+      "sub": [
+        "TKA SMA",
+        "Latihan 1"
+      ],
+      "url": "Ekonomi/TKA SMA/Latihan1/"
+    },
+    {
+      "title": "PR Fisika Rendra",
+      "topic": "Listrik Statis dan Listrik Dinamis",
+      "questions": 20,
       "mapel": "Fisika",
       "sub": [
         "Kelas 9",
         "Diagnostic Test"
       ],
-      "url": "Fisika/Kelas9/DiagnosticTest/Kuis.html"
+      "url": "Fisika/Kelas9/DiagnosticTest/"
     },
     {
-      "title": "Perbandingan",
-      "topic": "",
-      "questions": null,
+      "title": "Latihan Soal Perbandingan",
+      "topic": "Perbandingan",
+      "questions": 40,
       "mapel": "Matematika",
       "sub": [
         "Kelas 7",
         "Perbandingan"
       ],
-      "url": "Matematika/Kelas7/Perbandingan/Kuis.html"
+      "url": "Matematika/Kelas7/Perbandingan/"
     },
     {
-      "title": "Diagnostic Test",
-      "topic": "",
-      "questions": null,
+      "title": "PR Matematika Rendra",
+      "topic": "Latihan Matematika",
+      "questions": 20,
       "mapel": "Matematika",
       "sub": [
         "Kelas 9",
         "Diagnostic Test"
       ],
-      "url": "Matematika/Kelas9/DiagnosticTest/Kuis.html"
-    },
-    {
-      "title": "Kuis 1",
-      "topic": "",
-      "questions": null,
-      "mapel": "TKA Ekonomi",
-      "sub": [
-        "Kuis 1"
-      ],
-      "url": "tkaEkonomi/kuis1/EkonomiKuis1.html"
+      "url": "Matematika/Kelas9/DiagnosticTest/"
     }
   ]
 }

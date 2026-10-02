@@ -79,7 +79,7 @@ def main():
 
         parts = posix.split("/")
         for jname, d in jsons.items():
-            url = f"{posix}/{html}"
+            url = f"{posix}/"
             if jname != DEFAULT_JSON:
                 url += f"?data={jname}"
             entries.append({
