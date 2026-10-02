@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title>Nalarin Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --surface-2: #f8fafc;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #4f46e5;
+      --primary-dark: #4338ca;
+      --primary-soft: #eef2ff;
+      --success: #059669;
+      --success-soft: #ecfdf5;
+      --danger: #e11d48;
+      --danger-soft: #fff1f2;
+      --warning: #d97706;
+      --warning-soft: #fffbeb;
+      --shadow-sm: 0 1px 2px rgba(15, 23, 42, .04), 0 8px 24px rgba(15, 23, 42, .04);
+      --shadow-lg: 0 20px 60px rgba(15, 23, 42, .10);
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(99,102,241,.08), transparent 30rem),
+        var(--bg);
+      color: var(--text);
+      -webkit-tap-highlight-color: transparent;
+      text-rendering: optimizeLegibility;
+    }
+    button, input { font: inherit; }
+    button { -webkit-tap-highlight-color: transparent; }
+    button:focus-visible, input:focus-visible {
+      outline: 3px solid rgba(99,102,241,.25);
+      outline-offset: 2px;
+    }
+    ::selection { background: #6366f1; color: white; }
+
+    .app-header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(255,255,255,.88);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(226,232,240,.9);
+    }
+    .header-inner {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      min-height: 68px;
+      padding: 10px clamp(16px, 3vw, 36px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-width: 0;
+    }
+    .brand-mark {
+      width: 40px; height: 40px;
+      border-radius: 13px;
+      display: grid; place-items: center;
+      color: white;
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      box-shadow: 0 8px 20px rgba(79,70,229,.20);
+      flex: 0 0 auto;
+    }
+    .brand-copy { min-width: 0; }
+    .eyebrow {
+      margin: 0 0 2px;
+      color: var(--primary);
+      font-size: 10px;
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .header-title {
+      margin: 0;
+      max-width: min(55vw, 600px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+    .student-badge {
+      max-width: 220px;
+      padding: 7px 11px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface-2);
+      color: #475569;
+      font-size: 11px;
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .mobile-progress {
+      display: none;
+      min-height: 40px;
+      padding: 0 12px;
+      border: 1px solid #c7d2fe;
+      border-radius: 12px;
+      background: var(--primary-soft);
+      color: #4338ca;
+      font-size: 11px;
+      font-weight: 800;
+      align-items: center;
+      gap: 7px;
+      white-space: nowrap;
+    }
+
+    .screen {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+    }
+    #start-screen, #result-screen {
+      min-height: calc(100dvh - 68px);
+      padding: clamp(24px, 5vw, 64px) 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .welcome-card, .result-card {
+      width: min(100%, 520px);
+      padding: clamp(24px, 5vw, 44px);
+      background: rgba(255,255,255,.96);
+      border: 1px solid rgba(226,232,240,.9);
+      border-radius: 28px;
+      box-shadow: var(--shadow-lg);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .welcome-card::before {
+      content: "";
+      position: absolute;
+      width: 220px; height: 220px;
+      top: -130px; right: -90px;
+      background: #eef2ff;
+      border-radius: 50%;
+      filter: blur(5px);
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 28px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: #4338ca;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      position: relative;
+    }
+    .welcome-card h2, .result-card h2 {
+      margin: 14px 0 8px;
+      font-size: clamp(24px, 5vw, 34px);
+      line-height: 1.12;
+      letter-spacing: -.03em;
+    }
+    .welcome-card > p, .result-card > p {
+      margin: 0 auto 26px;
+      max-width: 430px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+    .field {
+      text-align: left;
+      margin: 0 0 18px;
+    }
+    .field label {
+      display: block;
+      margin: 0 0 8px;
+      color: #475569;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+    .field input {
+      width: 100%;
+      min-height: 52px;
+      padding: 0 15px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #f8fafc;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      transition: .2s ease;
+    }
+    .field input::placeholder { color: #94a3b8; }
+    .field input:focus {
+      background: white;
+      border-color: #818cf8;
+      box-shadow: 0 0 0 4px rgba(99,102,241,.10);
+      outline: none;
+    }
+
+    .primary-btn, .success-btn, .dark-btn, .secondary-btn {
+      border: 0;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 800;
+      transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
+    }
+    .primary-btn {
+      width: 100%;
+      color: white;
+      background: var(--primary);
+      box-shadow: 0 10px 22px rgba(79,70,229,.20);
+    }
+    .primary-btn:hover { background: var(--primary-dark); }
+    .primary-btn:active, .success-btn:active, .dark-btn:active, .secondary-btn:active { transform: scale(.98); }
+
+    #quiz-screen {
+      display: none;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 18px;
+      height: calc(100dvh - 68px);
+      padding: 18px clamp(14px, 3vw, 36px) 24px;
+      overflow: hidden;
+    }
+    .quiz-card, .navigator {
+      min-width: 0;
+      background: rgba(255,255,255,.97);
+      border: 1px solid rgba(226,232,240,.9);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+    .quiz-card {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      min-height: 0;
+    }
+    .question-meta {
+      min-height: 58px;
+      padding: 0 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid #f1f5f9;
+      flex: 0 0 auto;
+    }
+    .topic {
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .difficulty {
+      flex: 0 0 auto;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+    #quiz-scroll-area {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      padding: clamp(20px, 4vw, 42px);
+    }
+    #quiz-scroll-area::-webkit-scrollbar, .nav-scroll::-webkit-scrollbar, .mobile-grid-wrap::-webkit-scrollbar { width: 6px; }
+    #quiz-scroll-area::-webkit-scrollbar-thumb, .nav-scroll::-webkit-scrollbar-thumb, .mobile-grid-wrap::-webkit-scrollbar-thumb {
+      background: #cbd5e1; border-radius: 99px;
+    }
+    .question-heading {
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+      max-width: 980px;
+      margin-bottom: 24px;
+    }
+    .question-number {
+      width: 42px; height: 42px;
+      display: grid; place-items: center;
+      border-radius: 13px;
+      background: var(--primary-soft);
+      color: #4338ca;
+      font-size: 15px;
+      font-weight: 900;
+    }
+    #q-text {
+      margin: 0;
+      color: #1e293b;
+      font-size: clamp(15px, 1.35vw, 19px);
+      line-height: 1.72;
+      font-weight: 650;
+    }
+    #options-container {
+      display: grid;
+      gap: 10px;
+      max-width: 980px;
+      padding-left: 56px;
+    }
+    .option {
+      min-height: 58px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 15px 16px;
+      border: 2px solid var(--border);
+      border-radius: 15px;
+      background: white;
+      color: #334155;
+      font-size: 13px;
+      line-height: 1.55;
+      cursor: pointer;
+      user-select: none;
+      touch-action: manipulation;
+      transition: border-color .16s ease, background .16s ease, box-shadow .16s ease, transform .12s ease;
+    }
+    .option:hover { border-color: #cbd5e1; background: #f8fafc; }
+    .option:active { transform: scale(.995); }
+    .option-key {
+      width: 28px; height: 28px;
+      flex: 0 0 28px;
+      display: grid; place-items: center;
+      border: 1px solid #e2e8f0;
+      border-radius: 9px;
+      color: #64748b;
+      background: #f8fafc;
+      font-size: 11px;
+      font-weight: 900;
+    }
+    .option.selected {
+      border-color: #6366f1;
+      background: #eef2ff;
+      color: #1e1b4b;
+      box-shadow: 0 5px 18px rgba(79,70,229,.09);
+    }
+    .option.selected .option-key {
+      border-color: #6366f1;
+      background: #6366f1;
+      color: white;
+    }
+    .option.correct {
+      border-color: #10b981;
+      background: var(--success-soft);
+      color: #065f46;
+    }
+    .option.wrong {
+      border-color: #fb7185;
+      background: var(--danger-soft);
+      color: #9f1239;
+    }
+    .option.dimmed { opacity: .55; }
+    #explanation-box {
+      max-width: 980px;
+      margin: 24px 0 0 56px;
+      padding: 17px 18px;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      background: #f8fafc;
+    }
+    .explanation-title {
+      display: flex; align-items: center; gap: 8px;
+      margin-bottom: 7px;
+      color: #4338ca;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    #explanation-text {
+      margin: 0;
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    .quiz-footer {
+      min-height: 70px;
+      padding: 10px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      border-top: 1px solid #f1f5f9;
+      background: rgba(248,250,252,.90);
+      flex: 0 0 auto;
+    }
+    .footer-group { display: flex; align-items: center; gap: 8px; }
+    .secondary-btn {
+      color: #475569;
+      background: white;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 2px rgba(15,23,42,.03);
+    }
+    .secondary-btn:hover { background: #f8fafc; }
+    .nav-mobile-btn {
+      display: none;
+      color: #4338ca;
+      background: var(--primary-soft);
+      border: 1px solid #c7d2fe;
+    }
+    .success-btn {
+      width: 100%;
+      color: white;
+      background: var(--success);
+      box-shadow: 0 8px 18px rgba(5,150,105,.16);
+    }
+    .success-btn:hover { background: #047857; }
+    .dark-btn {
+      width: 100%;
+      color: white;
+      background: #0f172a;
+    }
+    .dark-btn:hover { background: #1e293b; }
+
+    .navigator {
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 18px;
+    }
+    .navigator-head {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 10px; margin-bottom: 14px;
+    }
+    .navigator h3 {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 900;
+    }
+    .counter {
+      padding: 5px 8px;
+      border-radius: 8px;
+      background: #f1f5f9;
+      color: #64748b;
+      font-size: 10px;
+      font-weight: 800;
+    }
+    .nav-scroll {
+      min-height: 0;
+      flex: 1;
+      overflow-y: auto;
+      padding-right: 3px;
+    }
+    #nav-grid-pc, #nav-grid-mobile {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0,1fr));
+      gap: 8px;
+    }
+    .nav-number {
+      width: 100%;
+      aspect-ratio: 1;
+      border: 1px solid var(--border);
+      border-radius: 11px;
+      background: white;
+      color: #475569;
+      font-size: 11px;
+      font-weight: 900;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: .15s ease;
+    }
+    .nav-number:hover { background: #f8fafc; }
+    .nav-number.current {
+      background: var(--primary);
+      border-color: var(--primary-dark);
+      color: white;
+      box-shadow: 0 0 0 3px #e0e7ff;
+    }
+    .nav-number.answered {
+      background: var(--primary-soft);
+      border-color: #c7d2fe;
+      color: #4338ca;
+    }
+    .nav-number.correct { background: #10b981; border-color: #059669; color: white; }
+    .nav-number.wrong { background: #f43f5e; border-color: #e11d48; color: white; }
+    .navigator-bottom {
+      margin-top: 15px;
+      padding-top: 14px;
+      border-top: 1px solid #f1f5f9;
+    }
+
+    .mobile-sheet {
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      display: none;
+      align-items: flex-end;
+      background: rgba(15,23,42,.58);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .sheet {
+      width: 100%;
+      max-height: min(82dvh, 720px);
+      display: flex;
+      flex-direction: column;
+      padding: 12px 18px calc(18px + env(safe-area-inset-bottom));
+      background: white;
+      border-radius: 24px 24px 0 0;
+      box-shadow: 0 -20px 60px rgba(15,23,42,.20);
+    }
+    .drag-handle {
+      width: 42px; height: 5px;
+      margin: 0 auto 14px;
+      border-radius: 99px;
+      background: #cbd5e1;
+    }
+    .sheet-head {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 13px;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .sheet-title { margin: 0; font-size: 15px; font-weight: 900; }
+    .sheet-subtitle { margin: 3px 0 0; color: #94a3b8; font-size: 10px; font-weight: 700; }
+    .icon-btn {
+      width: 40px; height: 40px;
+      display: grid; place-items: center;
+      border: 0; border-radius: 12px;
+      background: #f1f5f9; color: #64748b;
+      cursor: pointer;
+    }
+    .mobile-grid-wrap {
+      min-height: 0;
+      overflow-y: auto;
+      padding: 16px 2px;
+      -webkit-overflow-scrolling: touch;
+    }
+    #nav-grid-mobile { gap: 9px; }
+    #nav-grid-mobile .nav-number {
+      min-height: 48px;
+      aspect-ratio: auto;
+    }
+
+    .result-icon {
+      width: 72px; height: 72px;
+      margin: 0 auto 18px;
+      display: grid; place-items: center;
+      border-radius: 22px;
+      background: var(--success-soft);
+      color: var(--success);
+    }
+    .score-card {
+      margin: 22px 0;
+      padding: 20px;
+      border: 1px solid #eef2f7;
+      border-radius: 18px;
+      background: #f8fafc;
+    }
+    .score-label {
+      margin: 0 0 4px;
+      color: #94a3b8;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    #final-score {
+      margin: 0 0 16px;
+      color: var(--primary);
+      font-size: 52px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: -.05em;
+    }
+    .result-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 9px;
+    }
+    .stat {
+      padding: 10px;
+      border-radius: 11px;
+      font-size: 11px;
+      font-weight: 800;
+    }
+    .stat.correct { background: #ecfdf5; color: #047857; border: 1px solid #d1fae5; }
+    .stat.wrong { background: #fff1f2; color: #be123c; border: 1px solid #ffe4e6; }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      background: rgba(15,23,42,.48);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .modal-card {
+      width: min(100%, 440px);
+      padding: 22px;
+      border-radius: 20px;
+      background: white;
+      box-shadow: 0 24px 80px rgba(15,23,42,.22);
+    }
+    .modal-title { margin: 0 0 8px; font-size: 18px; font-weight: 900; }
+    .modal-text { margin: 0 0 20px; color: #64748b; font-size: 12px; line-height: 1.7; }
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 9px;
+    }
+    .modal-actions button { min-height: 44px; }
+
+    .loading {
+      position: fixed;
+      inset: 0;
+      z-index: 120;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,.94);
+      backdrop-filter: blur(8px);
+    }
+    .spinner {
+      width: 42px; height: 42px;
+      margin-bottom: 14px;
+      border: 4px solid #c7d2fe;
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin .75s linear infinite;
+    }
+    .loading p { margin: 0; color: #475569; font-size: 12px; font-weight: 800; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .credit {
+      position: fixed;
+      right: 14px;
+      bottom: max(10px, env(safe-area-inset-bottom));
+      z-index: 20;
+      padding: 5px 8px;
+      border: 1px solid rgba(226,232,240,.8);
+      border-radius: 8px;
+      background: rgba(255,255,255,.78);
+      color: #94a3b8;
+      font-size: 9px;
+      font-weight: 600;
+      backdrop-filter: blur(8px);
+      pointer-events: none;
+    }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 900px) {
+      #quiz-screen {
+        grid-template-columns: 1fr;
+        height: calc(100dvh - 68px);
+        padding: 10px;
+      }
+      .navigator { display: none; }
+      .mobile-progress { display: flex; }
+      .nav-mobile-btn { display: inline-flex; align-items: center; justify-content: center; }
+      .quiz-footer { padding-bottom: max(10px, env(safe-area-inset-bottom)); }
+    }
+
+    @media (max-width: 600px) {
+      .app-header { position: sticky; }
+      .header-inner { min-height: 60px; padding: 8px 12px; gap: 8px; }
+      .brand-mark { width: 36px; height: 36px; border-radius: 11px; }
+      .brand-mark svg { width: 18px; height: 18px; }
+      .eyebrow { font-size: 9px; }
+      .header-title { max-width: 45vw; font-size: 12px; }
+      .student-badge { display: none !important; }
+
+      #start-screen, #result-screen {
+        min-height: calc(100dvh - 60px);
+        padding: 18px 12px;
+      }
+      .welcome-card, .result-card {
+        border-radius: 22px;
+        padding: 25px 19px;
+      }
+      .welcome-card h2, .result-card h2 { font-size: 25px; }
+      .welcome-card > p, .result-card > p { font-size: 12px; margin-bottom: 22px; }
+      .field input { min-height: 54px; }
+      .primary-btn { min-height: 52px; }
+
+      #quiz-screen {
+        height: calc(100dvh - 60px);
+        padding: 7px;
+        gap: 0;
+      }
+      .quiz-card { border-radius: 17px; }
+      .question-meta {
+        min-height: 50px;
+        padding: 0 13px;
+      }
+      .topic { font-size: 9px; max-width: 58%; }
+      .difficulty { font-size: 9px; padding: 5px 8px; }
+      #quiz-scroll-area {
+        padding: 18px 14px 20px;
+      }
+      .question-heading {
+        grid-template-columns: 38px minmax(0,1fr);
+        gap: 10px;
+        margin-bottom: 17px;
+      }
+      .question-number { width: 38px; height: 38px; border-radius: 11px; font-size: 13px; }
+      #q-text { font-size: 15px; line-height: 1.65; }
+      #options-container {
+        padding-left: 0;
+        gap: 9px;
+      }
+      .option {
+        min-height: 56px;
+        padding: 13px 12px;
+        gap: 10px;
+        border-radius: 14px;
+        font-size: 12.5px;
+      }
+      .option-key { width: 27px; height: 27px; flex-basis: 27px; }
+      #explanation-box { margin-left: 0; margin-top: 18px; }
+      .quiz-footer {
+        min-height: 65px;
+        padding: 8px 10px;
+        gap: 7px;
+      }
+      .quiz-footer .secondary-btn, .quiz-footer .nav-mobile-btn, .quiz-footer .primary-btn {
+        min-height: 46px;
+        padding: 0 12px;
+        border-radius: 13px;
+        font-size: 11px;
+      }
+      .footer-group { gap: 6px; }
+      #btn-next { min-width: 105px; }
+      #btn-prev { min-width: 80px; }
+      .credit { display: none; }
+
+      .mobile-sheet { display: flex; }
+      .modal { align-items: flex-end; padding: 0; }
+      .modal-card {
+        width: 100%;
+        border-radius: 22px 22px 0 0;
+        padding: 20px 17px calc(20px + env(safe-area-inset-bottom));
+      }
+      .modal-actions { display: grid; grid-template-columns: 1fr 1fr; }
+      .modal-actions button { width: 100%; }
+    }
+
+    @media (min-width: 901px) and (max-height: 760px) {
+      .header-inner { min-height: 60px; }
+      #quiz-screen { height: calc(100dvh - 60px); padding-top: 12px; padding-bottom: 14px; }
+      #quiz-scroll-area { padding-top: 25px; padding-bottom: 25px; }
+    }
+
+    @media (pointer: coarse) {
+      .option, .nav-number, button, input { touch-action: manipulation; }
+      .nav-number { min-height: 44px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 6.25v13m0-13C10.83 5.48 9.25 5 7.5 5S4.17 5.48 3 6.25v13C4.17 18.48 5.75 18 7.5 18s3.33.48 4.5 1.25m0-13C13.17 5.48 14.75 5 16.5 5c1.75 0 3.33.48 4.5 1.25v13c-1.17-.77-2.75-1.25-4.5-1.25-1.75 0-3.33.48-4.5 1.25"/>
+          </svg>
+        </div>
+        <div class="brand-copy">
+          <p class="eyebrow" id="header-badge">Nalarin Quiz</p>
+          <h1 class="header-title" id="quiz-title">Memuat Judul Kuis...</h1>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="btn-mobile-header-nav" class="mobile-progress" onclick="openMobilePalette()" aria-label="Buka navigasi soal">
+          <span>☰</span>
+          <span id="mobile-counter-header">0 / 0</span>
+        </button>
+        <div id="student-badge" class="student-badge hidden"></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="start-screen" class="screen">
+    <section class="welcome-card">
+      <div class="pill" id="start-badge">... Soal</div>
+      <h2 id="start-title">Memuat Kuis...</h2>
+      <p id="start-subtitle">Pastikan koneksi internet stabil sebelum mulai mengerjakan kuis.</p>
+
+      <div class="field">
+        <label for="student-name">Nama Lengkap Siswa</label>
+        <input type="text" id="student-name" autocomplete="name" placeholder="Ketik nama lengkap Anda...">
+      </div>
+
+      <button class="primary-btn" onclick="startQuiz()">
+        Mulai Kerjakan <span aria-hidden="true">→</span>
+      </button>
+    </section>
+  </main>
+
+  <main id="quiz-screen" class="screen">
+    <section class="quiz-card">
+      <div class="question-meta">
+        <span id="q-topic-tag" class="topic">Materi</span>
+        <span id="q-difficulty" class="difficulty"></span>
+      </div>
+
+      <div id="quiz-scroll-area">
+        <div class="question-heading">
+          <div id="q-number" class="question-number">1</div>
+          <p id="q-text"></p>
+        </div>
+
+        <div id="options-container"></div>
+
+        <div id="explanation-box" class="hidden">
+          <div class="explanation-title">
+            <span>ⓘ</span>
+            <span>Pembahasan</span>
+          </div>
+          <p id="explanation-text"></p>
+        </div>
+      </div>
+
+      <div class="quiz-footer">
+        <div class="footer-group">
+          <button onclick="prevQuestion()" id="btn-prev" class="secondary-btn">Sebelumnya</button>
+          <button onclick="openMobilePalette()" class="secondary-btn nav-mobile-btn">☰ <span>Nomor</span></button>
+        </div>
+        <button onclick="nextQuestion()" id="btn-next" class="primary-btn" style="width:auto; min-width:120px;">Selanjutnya</button>
+      </div>
+    </section>
+
+    <aside class="navigator">
+      <div class="navigator-head">
+        <h3>Navigasi Soal</h3>
+        <span id="answered-counter-pc" class="counter">0 / 0</span>
+      </div>
+      <div class="nav-scroll">
+        <div id="nav-grid-pc"></div>
+      </div>
+      <div class="navigator-bottom">
+        <button id="btn-submit-pc" onclick="showSubmitModal()" class="success-btn">Selesaikan Kuis</button>
+      </div>
+    </aside>
+  </main>
+
+  <div id="mobile-nav-modal" class="mobile-sheet hidden" onclick="closeMobilePaletteOnBackdrop(event)">
+    <div id="mobile-sheet-content" class="sheet" onclick="event.stopPropagation()">
+      <div class="drag-handle"></div>
+      <div class="sheet-head">
+        <div>
+          <h3 class="sheet-title">Lembar Nomor Soal</h3>
+          <p class="sheet-subtitle" id="answered-counter-mobile">0 / 0 terjawab</p>
+        </div>
+        <button onclick="closeMobilePalette()" class="icon-btn" aria-label="Tutup">✕</button>
+      </div>
+
+      <div class="mobile-grid-wrap">
+        <div id="nav-grid-mobile"></div>
+      </div>
+
+      <button id="btn-submit-mobile" onclick="closeMobilePalette(); showSubmitModal();" class="success-btn">
+        Selesaikan & Kumpulkan Kuis
+      </button>
+    </div>
+  </div>
+
+  <main id="result-screen" class="screen hidden">
+    <section class="result-card">
+      <div class="result-icon">
+        <svg width="34" height="34" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m5 13 4 4L19 7"/>
+        </svg>
+      </div>
+      <h2>Kuis Selesai!</h2>
+      <p>Nilai Anda telah otomatis tersimpan ke spreadsheet sistem.</p>
+
+      <div class="score-card">
+        <p class="score-label">Skor Akhir</p>
+        <p id="final-score">0</p>
+        <div class="result-stats">
+          <div class="stat correct"><span id="final-correct">0</span> Benar</div>
+          <div class="stat wrong"><span id="final-wrong">0</span> Salah</div>
+        </div>
+      </div>
+
+      <button onclick="startReview()" class="dark-btn">Lihat Kunci & Pembahasan</button>
+    </section>
+  </main>
+
+  <footer class="credit">Dibuat oleh Johan Herdi Putra, 2026</footer>
+
+  <div id="alert-modal" class="modal hidden">
+    <div class="modal-card" id="alert-content">
+      <h3 class="modal-title">Perhatian</h3>
+      <p id="alert-message" class="modal-text"></p>
+      <button onclick="closeAlert()" class="secondary-btn" style="width:100%;">Mengerti</button>
+    </div>
+  </div>
+
+  <div id="submit-modal" class="modal hidden">
+    <div class="modal-card">
+      <h3 class="modal-title">Kumpulkan Jawaban?</h3>
+      <p id="submit-confirm-msg" class="modal-text">Pastikan semua soal telah terjawab. Nilai Anda akan langsung dihitung dan disimpan.</p>
+      <div class="modal-actions">
+        <button onclick="hideSubmitModal()" class="secondary-btn">Batal</button>
+        <button onclick="processSubmit()" class="success-btn">Ya, Kumpulkan</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading-overlay" class="loading hidden">
+    <div class="spinner"></div>
+    <p>Menyimpan nilai ke Google Sheets...</p>
+  </div>
+
+  <script>
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwD3dPZLvKoetvCoANn6TFnqKzhD982gNIIVnCd7ZlbAjRg70iBj41eNAklrqJyZtgl/exec';
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const JSON_PATH = urlParams.get('data') || 'soal.json';
+
+    let kuisData = null; window.__nalarinKuisData = null;
+    let studentName = "";
+    let currentIndex = 0;
+    let userAnswers = []; window.__nalarinUserAnswers = userAnswers;
+    let reviewMode = false; window.__nalarinReviewMode = reviewMode;
+    let startTime = null;
+
+    async function loadQuizData() {
+      try {
+        const response = await fetch(JSON_PATH);
+        if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
+        kuisData = await response.json(); window.__nalarinKuisData = kuisData;
+        userAnswers = new Array(kuisData.total_questions).fill(null); window.__nalarinUserAnswers = userAnswers;
+        applyInitialMeta();
+      } catch (err) {
+        console.error("Gagal load file JSON:", err);
+        document.getElementById('start-title').innerText = "Gagal Memuat Kuis";
+        document.getElementById('start-subtitle').innerHTML = `<span class="text-rose-600 font-medium">Gagal membaca data <code>${JSON_PATH}</code>.</span> Pastikan repositori GitHub Pages atau folder lokal sudah sinkron.`;
+      }
+    }
+
+    function applyInitialMeta() {
+      document.title = `${kuisData.title || 'Kuis'} | Nalarin Quiz`;
+      document.getElementById('quiz-title').innerText = kuisData.title || "Nalarin Quiz";
+      document.getElementById('start-title').innerText = kuisData.topic || kuisData.title;
+      document.getElementById('start-subtitle').innerText = kuisData.difficulty_summary || kuisData.subtitle || "";
+      document.getElementById('start-badge').innerText = `${kuisData.total_questions} Soal`;
+    }
+
+    function openMobilePalette() {
+      document.getElementById('mobile-nav-modal').classList.remove('hidden');
+    }
+
+    function closeMobilePalette() {
+      document.getElementById('mobile-nav-modal').classList.add('hidden');
+    }
+
+    function closeMobilePaletteOnBackdrop(event) {
+      if (event.target.id === 'mobile-nav-modal') {
+        closeMobilePalette();
+      }
+    }
+
+    function customAlert(message) {
+      document.getElementById('alert-message').innerText = message;
+      document.getElementById('alert-modal').classList.remove('hidden');
+    }
+    
+    function closeAlert() {
+      document.getElementById('alert-modal').classList.add('hidden');
+    }
+
+    function showSubmitModal() {
+      const unanswered = userAnswers.filter(a => a === null).length;
+      let msg = "Pastikan semua soal telah terjawab. Nilai dan jawaban Anda akan langsung disimpan ke sistem.";
+      if (unanswered > 0) {
+        msg = `Masih ada ${unanswered} nomor yang belum dijawab. Anda yakin ingin mengumpulkannya sekarang?`;
+      }
+      document.getElementById('submit-confirm-msg').innerText = msg;
+      document.getElementById('submit-modal').classList.remove('hidden');
+    }
+    
+    function hideSubmitModal() {
+      document.getElementById('submit-modal').classList.add('hidden');
+    }
+
+    function startQuiz() {
+      if (!kuisData) {
+        customAlert("Data soal belum siap dimuat.");
+        return;
+      }
+      const nameInput = document.getElementById('student-name').value.trim();
+      if (!nameInput) {
+        customAlert("Silakan ketik nama lengkap Anda sebelum memulai.");
+        return;
+      }
+      studentName = nameInput;
+      startTime = new Date();
+
+      document.getElementById('start-screen').classList.add('hidden');
+      document.getElementById('quiz-screen').classList.remove('hidden');
+      document.getElementById('quiz-screen').classList.add('flex');
+      
+      const badge = document.getElementById('student-badge');
+      badge.innerText = studentName;
+      badge.classList.remove('hidden');
+
+      renderNavGrids();
+      renderQuestion(0);
+    }
+
+    function renderNavGrids() {
+      const gridPC = document.getElementById('nav-grid-pc');
+      const gridMobile = document.getElementById('nav-grid-mobile');
+      gridPC.innerHTML = '';
+      gridMobile.innerHTML = '';
+      
+      let answeredCount = 0;
+
+      for (let i = 0; i < kuisData.total_questions; i++) {
+        if (userAnswers[i] !== null) answeredCount++;
+
+        let baseClass = "aspect-square rounded-xl text-xs sm:text-xs font-bold border transition-all flex items-center justify-center ";
+        
+        if (reviewMode) {
+          const isCorrect = userAnswers[i] === kuisData.questions[i].answer;
+          if (userAnswers[i] === null) {
+            baseClass += "bg-slate-100 text-slate-400 border-slate-200";
+          } else if (isCorrect) {
+            baseClass += "bg-emerald-500 text-white border-emerald-600";
+          } else {
+            baseClass += "bg-rose-500 text-white border-rose-600";
+          }
+        } else {
+          if (i === currentIndex) {
+            baseClass += "bg-indigo-600 text-white border-indigo-700 ring-2 ring-indigo-200";
+          } else if (userAnswers[i] !== null) {
+            baseClass += "bg-indigo-50 text-indigo-700 border-indigo-200";
+          } else {
+            baseClass += "bg-white text-slate-600 border-slate-200 hover:bg-slate-50";
+          }
+        }
+        
+        // Element untuk PC
+        const btnPC = document.createElement('button');
+        btnPC.innerText = i + 1;
+        btnPC.className = "w-full " + baseClass;
+        btnPC.onclick = () => renderQuestion(i);
+        gridPC.appendChild(btnPC);
+
+        // Element untuk Mobile Drawer
+        const btnMobile = document.createElement('button');
+        btnMobile.innerText = i + 1;
+        btnMobile.className = "w-full py-3 text-sm active:scale-95 " + baseClass;
+        btnMobile.onclick = () => {
+          renderQuestion(i);
+          closeMobilePalette();
+        };
+        gridMobile.appendChild(btnMobile);
+      }
+
+      // Update counters
+      const counterText = `${answeredCount} / ${kuisData.total_questions}`;
+      document.getElementById('answered-counter-pc').innerText = counterText;
+      document.getElementById('mobile-counter-header').innerText = counterText;
+      document.getElementById('answered-counter-mobile').innerText = `${counterText} terjawab`;
+    }
+
+    function renderQuestion(index) {
+      currentIndex = index;
+      const q = kuisData.questions[index];
+      
+      document.getElementById('q-number').innerText = q.number;
+      document.getElementById('q-topic-tag').innerText = kuisData.topic || "Soal Kuis";
+      document.getElementById('q-text').innerText = q.question;
+      
+      const diffTag = document.getElementById('q-difficulty');
+      diffTag.innerText = q.difficulty;
+      if (q.difficulty.toLowerCase() === 'mudah') {
+        diffTag.className = "text-[11px] sm:text-xs font-bold px-2 sm:px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200/60";
+      } else if (q.difficulty.toLowerCase() === 'sedang') {
+        diffTag.className = "text-[11px] sm:text-xs font-bold px-2 sm:px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-amber-50 text-amber-700 border border-amber-200/60";
+      } else {
+        diffTag.className = "text-[11px] sm:text-xs font-bold px-2 sm:px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-rose-50 text-rose-700 border border-rose-200/60";
+      }
+
+      const container = document.getElementById('options-container');
+      container.innerHTML = '';
+      
+      for (const [key, value] of Object.entries(q.options)) {
+        const optDiv = document.createElement('div');
+        let optClass = "flex items-start p-3.5 sm:p-4 rounded-xl border-2 transition-all cursor-pointer text-xs sm:text-sm leading-relaxed ";
+        
+        if (reviewMode) {
+          optClass = "flex items-start p-3.5 sm:p-4 rounded-xl border-2 transition-all text-xs sm:text-sm leading-relaxed ";
+          if (key === q.answer) {
+            optClass += "bg-emerald-50 border-emerald-500 text-emerald-900 font-medium"; 
+          } else if (userAnswers[index] === key && key !== q.answer) {
+            optClass += "bg-rose-50 border-rose-400 text-rose-900 font-medium"; 
+          } else {
+            optClass += "bg-white border-slate-200 text-slate-400 opacity-60"; 
+          }
+        } else {
+          if (userAnswers[index] === key) {
+            optClass += "bg-indigo-50/70 border-indigo-600 text-indigo-950 font-medium shadow-2xs";
+          } else {
+            optClass += "bg-white border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 active:bg-slate-100";
+          }
+          optDiv.onclick = () => selectOption(key);
+        }
+
+        optDiv.className = optClass;
+        optDiv.innerHTML = `
+          <span class="w-6 font-bold mr-2 text-center flex-shrink-0 ${reviewMode && key === q.answer ? 'text-emerald-700 font-black' : 'text-slate-400'}">${key}</span>
+          <span class="flex-grow">${value}</span>
+        `;
+        container.appendChild(optDiv);
+      }
+
+      const expBox = document.getElementById('explanation-box');
+      if (reviewMode) {
+        document.getElementById('explanation-text').innerText = q.explanation || "Tidak ada pembahasan tambahan.";
+        expBox.classList.remove('hidden');
+      } else {
+        expBox.classList.add('hidden');
+      }
+
+      document.getElementById('btn-prev').disabled = (index === 0);
+      document.getElementById('btn-next').disabled = (index === kuisData.total_questions - 1);
+      
+      // Auto-scroll ke bagian paling atas pertanyaan saat ganti nomor di mobile
+      const scrollArea = document.getElementById('quiz-scroll-area');
+      if (scrollArea) scrollArea.scrollTop = 0;
+
+      renderNavGrids();
+    }
+
+    function selectOption(key) {
+      if (reviewMode) return;
+      userAnswers[currentIndex] = key;
+      renderQuestion(currentIndex);
+      
+      if (currentIndex < kuisData.total_questions - 1) {
+        setTimeout(() => {
+          renderQuestion(currentIndex + 1);
+        }, 180);
+      }
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) renderQuestion(currentIndex - 1);
+    }
+
+    function nextQuestion() {
+      if (currentIndex < kuisData.total_questions - 1) renderQuestion(currentIndex + 1);
+    }
+
+    function processSubmit() {
+      hideSubmitModal();
+      document.getElementById('loading-overlay').classList.remove('hidden');
+
+      let durasiStr = "-";
+      if (startTime) {
+        const elapsedSeconds = Math.floor((new Date() - startTime) / 1000);
+        const minutes = Math.floor(elapsedSeconds / 60);
+        const seconds = elapsedSeconds % 60;
+        durasiStr = `${minutes} menit ${seconds} detik`;
+      }
+
+      let correctCount = 0;
+      let detailJawaban = [];
+
+      kuisData.questions.forEach((q, i) => {
+        let ans = userAnswers[i];
+        let isCorrect = (ans === q.answer);
+        if (isCorrect) correctCount++;
+        
+        detailJawaban.push({
+          jawaban: ans ? ans : "-",
+          benar: isCorrect
+        });
+      });
+
+      const totalSoal = kuisData.total_questions || 40;
+      const skorAkhir = Number(((correctCount / totalSoal) * 100).toFixed(1));
+      const salahCount = totalSoal - correctCount;
+
+      const payload = {
+        nama: studentName,
+        topik: kuisData.topic || kuisData.title || "Nalarin Quiz",
+        durasi: durasiStr,
+        skor: skorAkhir,
+        benar: correctCount,
+        salah: salahCount,
+        detailJawaban: detailJawaban
+      };
+
+      fetch(SCRIPT_URL, {
+        method: 'POST',
+        body: JSON.stringify(payload)
+      })
+      .then(res => res.json())
+      .then(result => {
+        document.getElementById('loading-overlay').classList.add('hidden');
+        showResultScreen(skorAkhir, correctCount, salahCount);
+      })
+      .catch(err => {
+        console.warn("Permintaan tersimpan:", err);
+        document.getElementById('loading-overlay').classList.add('hidden');
+        showResultScreen(skorAkhir, correctCount, salahCount);
+      });
+    }
+
+    function showResultScreen(skor, benar, salah) {
+      document.getElementById('quiz-screen').classList.add('hidden');
+      document.getElementById('quiz-screen').classList.remove('flex');
+      
+      const resScreen = document.getElementById('result-screen');
+      resScreen.classList.remove('hidden');
+      resScreen.classList.add('flex');
+      
+      document.getElementById('final-score').innerText = skor;
+      document.getElementById('final-correct').innerText = benar;
+      document.getElementById('final-wrong').innerText = salah;
+    }
+
+    function startReview() {
+      reviewMode = true; window.__nalarinReviewMode = reviewMode;
+      const resScreen = document.getElementById('result-screen');
+      resScreen.classList.remove('flex');
+      resScreen.classList.add('hidden');
+      
+      const quizScreen = document.getElementById('quiz-screen');
+      quizScreen.classList.remove('hidden');
+      quizScreen.classList.add('flex');
+      
+      document.getElementById('btn-submit-pc').classList.add('hidden');
+      document.getElementById('btn-submit-mobile').classList.add('hidden');
+      document.getElementById('header-badge').innerText = "Mode Review";
+      document.getElementById('student-badge').innerText = `Pembahasan: ${studentName}`;
+
+      renderNavGrids();
+      renderQuestion(0);
+    }
+
+    window.addEventListener('DOMContentLoaded', loadQuizData);
+  </script>
+
+  <script>
+    // Visual layer adapters: the original quiz logic creates utility classes.
+    // These adapters keep its DOM behavior while mapping it to the redesigned UI.
+    (function () {
+      const originalRenderNavGrids = window.renderNavGrids;
+      const originalRenderQuestion = window.renderQuestion;
+
+      window.renderNavGrids = function () {
+        originalRenderNavGrids();
+        document.querySelectorAll('#nav-grid-pc button, #nav-grid-mobile button').forEach(btn => {
+          btn.classList.add('nav-number');
+          btn.classList.remove('aspect-square', 'rounded-xl', 'text-xs', 'sm:text-xs', 'font-bold', 'border',
+            'transition-all', 'flex', 'items-center', 'justify-center', 'w-full', 'py-3', 'text-sm', 'active:scale-95');
+        });
+      };
+
+      window.renderQuestion = function (index) {
+        originalRenderQuestion(index);
+
+        const q = window.kuisData?.questions?.[index];
+        if (!q) return;
+
+        document.querySelectorAll('#options-container > div').forEach((el, i) => {
+          el.classList.add('option');
+          const key = Object.keys(q.options || {})[i];
+          if (!key) return;
+
+          el.classList.remove('flex', 'items-start', 'p-3.5', 'sm:p-4', 'rounded-xl', 'border-2',
+            'transition-all', 'cursor-pointer', 'text-xs', 'sm:text-sm', 'leading-relaxed',
+            'bg-white', 'border-slate-200', 'hover:border-slate-300', 'hover:bg-slate-50',
+            'text-slate-700', 'active:bg-slate-100', 'bg-indigo-50/70', 'border-indigo-600',
+            'text-indigo-950', 'font-medium', 'shadow-2xs');
+
+          const keySpan = el.querySelector('span:first-child');
+          const textSpan = el.querySelector('span:last-child');
+          if (keySpan) {
+            keySpan.classList.add('option-key');
+            keySpan.classList.remove('w-6', 'font-bold', 'mr-2', 'text-center', 'flex-shrink-0', 'text-slate-400', 'font-black');
+          }
+
+          if (window.reviewMode) {
+            if (key === q.answer) el.classList.add('correct');
+            else if (window.userAnswers[index] === key) el.classList.add('wrong');
+            else el.classList.add('dimmed');
+          } else if (window.userAnswers[index] === key) {
+            el.classList.add('selected');
+          }
+        });
+
+        const diff = document.getElementById('q-difficulty');
+        if (diff) {
+          const d = String(q.difficulty || '').toLowerCase();
+          diff.className = 'difficulty';
+          if (d === 'mudah') {
+            diff.style.background = '#ecfdf5';
+            diff.style.color = '#047857';
+            diff.style.border = '1px solid #a7f3d0';
+          } else if (d === 'sedang') {
+            diff.style.background = '#fffbeb';
+            diff.style.color = '#b45309';
+            diff.style.border = '1px solid #fde68a';
+          } else {
+            diff.style.background = '#fff1f2';
+            diff.style.color = '#be123c';
+            diff.style.border = '1px solid #fecdd3';
+          }
+        }
+      };
+
+      // Expose state used by the adapter without changing the original app logic.
+      Object.defineProperty(window, 'kuisData', {
+        configurable: true,
+        get() { return window.__nalarinKuisData; },
+        set(v) { window.__nalarinKuisData = v; }
+      });
+      Object.defineProperty(window, 'userAnswers', {
+        configurable: true,
+        get() { return window.__nalarinUserAnswers; },
+        set(v) { window.__nalarinUserAnswers = v; }
+      });
+      Object.defineProperty(window, 'reviewMode', {
+        configurable: true,
+        get() { return window.__nalarinReviewMode || false; },
+        set(v) { window.__nalarinReviewMode = v; }
+      });
+    })();
+  </script>
+</body>
+</html>
