@@ -4,7 +4,7 @@
   "topic": "Contoh: Membaca & Kebahasaan",
   "difficulty_summary": "Soal dummy dengan teks bacaan bersama, gambar opsional, dan soal kebahasaan.",
   "total_questions": 10,
-  "image_folder": "gambar/soal-bahasa",
+  "image_folder": "gambar",
   "passages": [
     {
       "id": "teks1",
