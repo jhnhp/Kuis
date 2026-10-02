@@ -1,0 +1,529 @@
+{
+  "title": "Latihan Fisika Kelas 11 - Vektor",
+  "topic": "Vektor",
+  "subtitle": "Latihan Mandiri 40 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 40,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "sedang",
+      "question": "Seorang siswa berjalan 8 m ke timur kemudian 6 m ke utara. Besar perpindahan siswa tersebut adalah ....",
+      "options": {
+        "A": "10 m",
+        "B": "12 m",
+        "C": "14 m",
+        "D": "48 m"
+      },
+      "answer": "A",
+      "explanation": "Kedua perpindahan saling tegak lurus, sehingga besar perpindahan = √(8² + 6²) = √100 = 10 m."
+    },
+    {
+      "number": 2,
+      "difficulty": "mudah",
+      "question": "Sebuah vektor gaya 10 N membentuk sudut 60° terhadap sumbu +x. Komponen gaya pada sumbu x adalah ....",
+      "options": {
+        "A": "5 N",
+        "B": "5√3 N",
+        "C": "10 N",
+        "D": "8,66 N"
+      },
+      "answer": "A",
+      "explanation": "Komponen pada sumbu x = 10 cos 60° = 5 N."
+    },
+    {
+      "number": 3,
+      "difficulty": "mudah",
+      "question": "Jika dua vektor A dan B memiliki besar yang sama tetapi arahnya berlawanan, maka resultan A + B adalah ....",
+      "options": {
+        "A": "vektor nol",
+        "B": "dua kali A",
+        "C": "dua kali B",
+        "D": "sebesar A + B tanpa arah"
+      },
+      "answer": "A",
+      "explanation": "Dua vektor yang sama besar dan berlawanan arah saling meniadakan, sehingga A + B = 0."
+    },
+    {
+      "number": 4,
+      "difficulty": "sedang",
+      "question": "Sebuah vektor F memiliki titik pangkal (−3, 4) dan titik ujung (5, −2). Bentuk komponen vektor F adalah ....",
+      "options": {
+        "A": "8i − 6j",
+        "B": "2i + 2j",
+        "C": "−8i + 6j",
+        "D": "5i − 2j"
+      },
+      "answer": "A",
+      "explanation": "Komponen x = 5 − (−3) = 8 dan komponen y = −2 − 4 = −6, sehingga F = 8i − 6j."
+    },
+    {
+      "number": 5,
+      "difficulty": "mudah",
+      "question": "Sebuah gaya 12 N membentuk sudut 30° terhadap sumbu +x. Komponen gaya pada sumbu y adalah ....",
+      "options": {
+        "A": "6 N",
+        "B": "6√3 N",
+        "C": "12 N",
+        "D": "3 N"
+      },
+      "answer": "A",
+      "explanation": "Komponen y = 12 sin 30° = 6 N."
+    },
+    {
+      "number": 6,
+      "difficulty": "sedang",
+      "question": "Dua vektor masing-masing 10 N memiliki sudut apit 120°. Besar resultannya adalah ....",
+      "options": {
+        "A": "10 N",
+        "B": "10√3 N",
+        "C": "20 N",
+        "D": "5 N"
+      },
+      "answer": "A",
+      "explanation": "R² = 10² + 10² + 2(10)(10)cos 120° = 100, sehingga R = 10 N."
+    },
+    {
+      "number": 7,
+      "difficulty": "mudah",
+      "question": "Sebuah gaya 15 N ke timur bekerja bersama gaya 9 N ke barat. Resultan kedua gaya adalah ....",
+      "options": {
+        "A": "6 N ke timur",
+        "B": "6 N ke barat",
+        "C": "24 N ke timur",
+        "D": "24 N ke barat"
+      },
+      "answer": "A",
+      "explanation": "Karena berlawanan arah, resultan = 15 − 9 = 6 N dan arahnya ke timur."
+    },
+    {
+      "number": 8,
+      "difficulty": "sedang",
+      "question": "Sebuah vektor A memiliki besar 10 N dan membentuk sudut 37° terhadap sumbu +x. Jika sin 37° = 0,6 dan cos 37° = 0,8, komponen A pada sumbu x adalah ....",
+      "options": {
+        "A": "6 N",
+        "B": "8 N",
+        "C": "10 N",
+        "D": "4 N"
+      },
+      "answer": "B",
+      "explanation": "Komponen x = A cos 37° = 10(0,8) = 8 N."
+    },
+    {
+      "number": 9,
+      "difficulty": "sedang",
+      "question": "Diketahui A = 3i − 4j dan B = −5i + 2j. Vektor A + B adalah ....",
+      "options": {
+        "A": "−2i − 2j",
+        "B": "8i − 6j",
+        "C": "−2i + 6j",
+        "D": "2i − 2j"
+      },
+      "answer": "A",
+      "explanation": "Komponen x = 3 − 5 = −2 dan komponen y = −4 + 2 = −2, sehingga A + B = −2i − 2j."
+    },
+    {
+      "number": 10,
+      "difficulty": "mudah",
+      "question": "Dua gaya saling tegak lurus masing-masing 6 N dan 8 N. Besar resultan kedua gaya adalah ....",
+      "options": {
+        "A": "10 N",
+        "B": "14 N",
+        "C": "2 N",
+        "D": "48 N"
+      },
+      "answer": "A",
+      "explanation": "R = √(6² + 8²) = √100 = 10 N."
+    },
+    {
+      "number": 11,
+      "difficulty": "sedang",
+      "question": "Dua gaya masing-masing 10 N membentuk sudut 60°. Besar resultannya adalah ....",
+      "options": {
+        "A": "10√3 N",
+        "B": "10 N",
+        "C": "20 N",
+        "D": "5√3 N"
+      },
+      "answer": "A",
+      "explanation": "R² = 100 + 100 + 200 cos 60° = 300, sehingga R = 10√3 N."
+    },
+    {
+      "number": 12,
+      "difficulty": "mudah",
+      "question": "Sebuah vektor gaya 20 N membentuk sudut 150° terhadap sumbu +x. Komponen-komponennya adalah ....",
+      "options": {
+        "A": "Fx = −10 N, Fy = 10√3 N",
+        "B": "Fx = 10 N, Fy = −10√3 N",
+        "C": "Fx = −10√3 N, Fy = 10 N",
+        "D": "Fx = 10√3 N, Fy = 10 N"
+      },
+      "answer": "A",
+      "explanation": "cos 150° = −1/2 dan sin 150° = √3/2, sehingga Fx = −10 N dan Fy = 10√3 N."
+    },
+    {
+      "number": 13,
+      "difficulty": "mudah",
+      "question": "Sebuah vektor memiliki komponen x = 0 dan komponen y = 7 N. Arah vektor tersebut adalah ....",
+      "options": {
+        "A": "sumbu +x",
+        "B": "sumbu −x",
+        "C": "sumbu +y",
+        "D": "sumbu −y"
+      },
+      "answer": "C",
+      "explanation": "Komponen x nol berarti tidak ada komponen horizontal, sedangkan komponen y positif menunjukkan arah sumbu +y."
+    },
+    {
+      "number": 14,
+      "difficulty": "mudah",
+      "question": "Sebuah vektor F = 8i + 6j N. Besar vektor F adalah ....",
+      "options": {
+        "A": "10 N",
+        "B": "14 N",
+        "C": "2 N",
+        "D": "48 N"
+      },
+      "answer": "A",
+      "explanation": "|F| = √(8² + 6²) = √100 = 10 N."
+    },
+    {
+      "number": 15,
+      "difficulty": "sedang",
+      "question": "Sebuah vektor F memiliki titik pangkal (2, −1) dan titik ujung (8, 7). Besar vektor F adalah ....",
+      "options": {
+        "A": "10 satuan",
+        "B": "8 satuan",
+        "C": "14 satuan",
+        "D": "6 satuan"
+      },
+      "answer": "A",
+      "explanation": "Komponen vektor = (8 − 2, 7 − (−1)) = (6, 8). Besarnya = √(6² + 8²) = 10 satuan."
+    },
+    {
+      "number": 16,
+      "difficulty": "sedang",
+      "question": "Sebuah gaya 20 N memiliki cos θ = 3/5 dan sin θ = 4/5 terhadap sumbu +x. Komponen gaya pada sumbu x dan y berturut-turut adalah ....",
+      "options": {
+        "A": "12 N dan 16 N",
+        "B": "16 N dan 12 N",
+        "C": "15 N dan 20 N",
+        "D": "4 N dan 3 N"
+      },
+      "answer": "A",
+      "explanation": "Fx = 20(3/5) = 12 N dan Fy = 20(4/5) = 16 N."
+    },
+    {
+      "number": 17,
+      "difficulty": "sedang",
+      "question": "Diketahui A = 4i + 3j dan B = i − 5j. Hasil A − B adalah ....",
+      "options": {
+        "A": "3i + 8j",
+        "B": "5i − 2j",
+        "C": "3i − 2j",
+        "D": "5i + 8j"
+      },
+      "answer": "A",
+      "explanation": "A − B = (4 − 1)i + (3 − (−5))j = 3i + 8j."
+    },
+    {
+      "number": 18,
+      "difficulty": "sulit",
+      "question": "Tiga gaya bekerja pada sebuah benda: 5 N ke timur, 12 N ke utara, dan gaya ketiga agar benda berada dalam keseimbangan. Besar dan arah gaya ketiga adalah ....",
+      "options": {
+        "A": "13 N ke barat daya",
+        "B": "13 N ke timur laut",
+        "C": "17 N ke barat",
+        "D": "7 N ke selatan"
+      },
+      "answer": "A",
+      "explanation": "Resultan dua gaya pertama adalah √(5² + 12²) = 13 N ke timur laut. Gaya penyeimbang harus 13 N berlawanan arah, yaitu ke barat daya."
+    },
+    {
+      "number": 19,
+      "difficulty": "sulit",
+      "question": "Tiga vektor masing-masing memiliki besar 3 N: satu ke barat, satu membentuk sudut 60° di atas sumbu +x, dan satu membentuk sudut 60° di bawah sumbu +x. Resultannya adalah ....",
+      "options": {
+        "A": "0 N",
+        "B": "3 N",
+        "C": "3√3 N",
+        "D": "6 N"
+      },
+      "answer": "A",
+      "explanation": "Dua vektor miring menghasilkan komponen horizontal total 3 N ke timur dan komponen vertikal yang saling meniadakan. Vektor 3 N ke barat kemudian membatalkan komponen tersebut."
+    },
+    {
+      "number": 20,
+      "difficulty": "sulit",
+      "question": "Diketahui dua vektor A = 6i + 8j dan B = −6i + 8j. Pernyataan yang benar adalah ....",
+      "options": {
+        "A": "A + B = 16j",
+        "B": "Besar A = 10",
+        "C": "Besar B = 14",
+        "D": "A dan B memiliki besar yang berbeda"
+      },
+      "answer": "A",
+      "explanation": "A + B = 16j karena komponen x saling meniadakan. Besar A dan B sama-sama √(6² + 8²) = 10."
+    },
+    {
+      "number": 21,
+      "difficulty": "sedang",
+      "question": "Seseorang berjalan 12 m ke timur, kemudian 5 m ke barat. Besar perpindahan akhirnya adalah ....",
+      "options": {
+        "A": "7 m ke timur",
+        "B": "7 m ke barat",
+        "C": "17 m ke timur",
+        "D": "17 m ke barat"
+      },
+      "answer": "A",
+      "explanation": "Kedua perpindahan segaris dan berlawanan arah, sehingga resultan = 12 − 5 = 7 m ke timur."
+    },
+    {
+      "number": 22,
+      "difficulty": "sedang",
+      "question": "Sebuah gaya 20 N membentuk sudut 37° terhadap sumbu +x. Jika sin 37° = 0,6 dan cos 37° = 0,8, komponen gaya pada sumbu x dan y adalah ....",
+      "options": {
+        "A": "12 N dan 16 N",
+        "B": "16 N dan 12 N",
+        "C": "10 N dan 10 N",
+        "D": "20 N dan 0 N"
+      },
+      "answer": "B",
+      "explanation": "Fx = 20(0,8) = 16 N dan Fy = 20(0,6) = 12 N."
+    },
+    {
+      "number": 23,
+      "difficulty": "mudah",
+      "question": "Dua vektor yang memiliki arah sama dan besar masing-masing 4 N dan 7 N memiliki resultan sebesar ....",
+      "options": {
+        "A": "3 N",
+        "B": "11 N",
+        "C": "28 N",
+        "D": "49 N"
+      },
+      "answer": "B",
+      "explanation": "Untuk dua vektor searah, besar resultan adalah jumlah keduanya: 4 + 7 = 11 N."
+    },
+    {
+      "number": 24,
+      "difficulty": "sedang",
+      "question": "Sebuah vektor A = 5i + 12j. Sudut yang dibentuk vektor A terhadap sumbu +x adalah ....",
+      "options": {
+        "A": "37°",
+        "B": "45°",
+        "C": "53,1°",
+        "D": "67,4°"
+      },
+      "answer": "D",
+      "explanation": "tan θ = 12/5, sehingga θ ≈ 67,4° terhadap sumbu +x."
+    },
+    {
+      "number": 25,
+      "difficulty": "sedang",
+      "question": "Sebuah gaya 10 N ke utara dan gaya 10 N ke selatan bekerja pada benda. Resultan gaya tersebut adalah ....",
+      "options": {
+        "A": "0 N",
+        "B": "10 N ke utara",
+        "C": "10 N ke selatan",
+        "D": "20 N ke utara"
+      },
+      "answer": "A",
+      "explanation": "Kedua gaya sama besar dan berlawanan arah, sehingga resultannya nol."
+    },
+    {
+      "number": 26,
+      "difficulty": "sulit",
+      "question": "Dua vektor A dan B masing-masing memiliki besar 8 N dan 6 N. Jika besar resultannya 10 N, sudut antara A dan B adalah ....",
+      "options": {
+        "A": "30°",
+        "B": "60°",
+        "C": "90°",
+        "D": "120°"
+      },
+      "answer": "C",
+      "explanation": "R² = A² + B² + 2AB cos θ. Karena 10² = 8² + 6² + 2(8)(6)cos θ, diperoleh cos θ = 0 sehingga θ = 90°."
+    },
+    {
+      "number": 27,
+      "difficulty": "mudah",
+      "question": "Vektor yang memiliki besar tetapi juga memiliki arah disebut ....",
+      "options": {
+        "A": "besaran skalar",
+        "B": "besaran vektor",
+        "C": "besaran pokok",
+        "D": "besaran turunan"
+      },
+      "answer": "B",
+      "explanation": "Besaran vektor ditentukan oleh besar dan arah, sedangkan skalar hanya memiliki besar."
+    },
+    {
+      "number": 28,
+      "difficulty": "sedang",
+      "question": "Sebuah gaya F = 10 N ke timur dan gaya G = 10 N membentuk sudut 120° terhadap F. Besar resultan F + G adalah ....",
+      "options": {
+        "A": "5 N",
+        "B": "10 N",
+        "C": "10√3 N",
+        "D": "20 N"
+      },
+      "answer": "B",
+      "explanation": "R² = 10² + 10² + 2(10)(10)cos 120° = 100, sehingga R = 10 N."
+    },
+    {
+      "number": 29,
+      "difficulty": "sedang",
+      "question": "Sebuah vektor gaya 25 N membentuk sudut 53° terhadap sumbu +x. Jika sin 53° = 0,8 dan cos 53° = 0,6, besar komponen vertikal gaya adalah ....",
+      "options": {
+        "A": "10 N",
+        "B": "15 N",
+        "C": "20 N",
+        "D": "25 N"
+      },
+      "answer": "C",
+      "explanation": "Komponen vertikal = 25 sin 53° = 25(0,8) = 20 N."
+    },
+    {
+      "number": 30,
+      "difficulty": "sulit",
+      "question": "Sebuah benda dikenai tiga gaya: F₁ = 10 N ke timur, F₂ = 10 N dengan arah 120° dari timur, dan F₃ = 10 N dengan arah 240° dari timur. Besar resultan ketiga gaya tersebut adalah ....",
+      "options": {
+        "A": "0 N",
+        "B": "10 N",
+        "C": "10√3 N",
+        "D": "30 N"
+      },
+      "answer": "A",
+      "explanation": "Ketiga vektor memiliki besar sama dan arah terpisah 120°. Komponen x dan y seluruhnya saling meniadakan sehingga resultannya 0 N."
+    },
+    {
+      "number": 31,
+      "difficulty": "sedang",
+      "question": "Diketahui vektor A = 7i − 24j. Besar vektor A adalah ....",
+      "options": {
+        "A": "17",
+        "B": "25",
+        "C": "31",
+        "D": "49"
+      },
+      "answer": "B",
+      "explanation": "|A| = √(7² + (−24)²) = √625 = 25."
+    },
+    {
+      "number": 32,
+      "difficulty": "sulit",
+      "question": "Dua gaya F₁ = 8 N dan F₂ = 15 N bekerja pada sebuah benda. Jika resultan kedua gaya adalah 17 N, sudut antara kedua gaya tersebut adalah ....",
+      "options": {
+        "A": "30°",
+        "B": "60°",
+        "C": "90°",
+        "D": "120°"
+      },
+      "answer": "C",
+      "explanation": "17² = 8² + 15² + 2(8)(15)cos θ. Karena 289 = 64 + 225 + 240 cos θ, maka cos θ = 0 sehingga θ = 90°."
+    },
+    {
+      "number": 33,
+      "difficulty": "sedang",
+      "question": "Sebuah vektor 10 N memiliki komponen x = −6 N dan komponen y positif. Besar komponen y adalah ....",
+      "options": {
+        "A": "4 N",
+        "B": "6 N",
+        "C": "8 N",
+        "D": "16 N"
+      },
+      "answer": "C",
+      "explanation": "10² = (−6)² + Fy², sehingga Fy² = 100 − 36 = 64 dan karena komponen y positif, Fy = 8 N."
+    },
+    {
+      "number": 34,
+      "difficulty": "sedang",
+      "question": "Dua gaya masing-masing 20 N bekerja saling berlawanan arah. Jika salah satu gaya dikurangi menjadi 12 N, besar resultan keduanya adalah ....",
+      "options": {
+        "A": "8 N",
+        "B": "12 N",
+        "C": "20 N",
+        "D": "32 N"
+      },
+      "answer": "A",
+      "explanation": "Kedua gaya berlawanan arah, sehingga resultan = |20 − 12| = 8 N."
+    },
+    {
+      "number": 35,
+      "difficulty": "mudah",
+      "question": "Jika sebuah vektor perpindahan memiliki arah ke barat, komponen x vektor tersebut bernilai ....",
+      "options": {
+        "A": "positif",
+        "B": "negatif",
+        "C": "nol selalu",
+        "D": "tidak dapat ditentukan"
+      },
+      "answer": "B",
+      "explanation": "Dengan konvensi sumbu x positif ke timur, arah barat berarti komponen x bernilai negatif."
+    },
+    {
+      "number": 36,
+      "difficulty": "sedang",
+      "question": "Sebuah gaya 50 N membentuk sudut 37° terhadap sumbu +x. Jika sin 37° = 0,6 dan cos 37° = 0,8, besar komponen gaya yang sejajar sumbu x adalah ....",
+      "options": {
+        "A": "20 N",
+        "B": "30 N",
+        "C": "40 N",
+        "D": "50 N"
+      },
+      "answer": "C",
+      "explanation": "Komponen x = 50 cos 37° = 50(0,8) = 40 N."
+    },
+    {
+      "number": 37,
+      "difficulty": "sulit",
+      "question": "Sebuah benda mendapat gaya 12 N ke timur dan 5 N ke utara. Agar resultan gaya menjadi 0 N, gaya ketiga harus memiliki besar dan arah ....",
+      "options": {
+        "A": "13 N ke barat daya",
+        "B": "13 N ke timur laut",
+        "C": "17 N ke barat",
+        "D": "7 N ke selatan"
+      },
+      "answer": "A",
+      "explanation": "Resultan dua gaya pertama = √(12² + 5²) = 13 N ke timur laut. Gaya ketiga harus sama besar dan berlawanan arah, yaitu 13 N ke barat daya."
+    },
+    {
+      "number": 38,
+      "difficulty": "sedang",
+      "question": "Dua vektor A = 9i + 12j dan B = −3i + 4j. Besar vektor A + B adalah ....",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "√292",
+        "D": "20"
+      },
+      "answer": "C",
+      "explanation": "A + B = (9 − 3)i + (12 + 4)j = 6i + 16j. Besarnya = √(6² + 16²) = √292."
+    },
+    {
+      "number": 39,
+      "difficulty": "sulit",
+      "question": "Dua vektor A dan B memiliki besar 10 N dan 14 N. Jika resultan maksimum keduanya adalah 24 N dan resultan minimum 4 N, maka ketika sudut antara keduanya 60°, besar resultannya adalah ....",
+      "options": {
+        "A": "2√109 N",
+        "B": "√296 N",
+        "C": "2√74 N",
+        "D": "20 N"
+      },
+      "answer": "A",
+      "explanation": "R² = 10² + 14² + 2(10)(14)cos 60° = 436, sehingga R = √436 = 2√109 N."
+    },
+    {
+      "number": 40,
+      "difficulty": "mudah",
+      "question": "Sebuah gaya 30 N diarahkan 60° di atas sumbu +x. Gaya kedua 20 N diarahkan 30° di bawah sumbu +x. Besar komponen x resultan kedua gaya adalah ....",
+      "options": {
+        "A": "15 + 10√3 N",
+        "B": "15 + 5√3 N",
+        "C": "25√3 N",
+        "D": "35 N"
+      },
+      "answer": "A",
+      "explanation": "Fx = 30 cos 60° + 20 cos 30° = 15 + 10√3 N."
+    }
+  ]
+}

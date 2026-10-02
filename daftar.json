@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T17:59:40",
+  "generated": "2026-10-02T19:38:23",
   "kuis": [
     {
       "title": "PR Biologi Rendra",
@@ -33,6 +33,17 @@
         "Diagnostic Test"
       ],
       "url": "Fisika/Kelas9/DiagnosticTest/"
+    },
+    {
+      "title": "Latihan Fisika Kelas 11 - Vektor",
+      "topic": "Vektor",
+      "questions": 40,
+      "mapel": "Fisika",
+      "sub": [
+        "Kelas 11",
+        "Vektor"
+      ],
+      "url": "Fisika/Kelas11/Vektor/?data=soal_vektor.json"
     },
     {
       "title": "Latihan Soal Perbandingan",
