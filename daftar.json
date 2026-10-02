@@ -1,0 +1,59 @@
+{
+  "generated": null,
+  "kuis": [
+    {
+      "title": "Diagnostic Test",
+      "topic": "",
+      "questions": null,
+      "mapel": "Biologi",
+      "sub": [
+        "Kelas 9",
+        "Diagnostic Test"
+      ],
+      "url": "Biologi/Kelas9/DiagnosticTest/Kuis.html"
+    },
+    {
+      "title": "Diagnostic Test",
+      "topic": "",
+      "questions": null,
+      "mapel": "Fisika",
+      "sub": [
+        "Kelas 9",
+        "Diagnostic Test"
+      ],
+      "url": "Fisika/Kelas9/DiagnosticTest/Kuis.html"
+    },
+    {
+      "title": "Perbandingan",
+      "topic": "",
+      "questions": null,
+      "mapel": "Matematika",
+      "sub": [
+        "Kelas 7",
+        "Perbandingan"
+      ],
+      "url": "Matematika/Kelas7/Perbandingan/Kuis.html"
+    },
+    {
+      "title": "Diagnostic Test",
+      "topic": "",
+      "questions": null,
+      "mapel": "Matematika",
+      "sub": [
+        "Kelas 9",
+        "Diagnostic Test"
+      ],
+      "url": "Matematika/Kelas9/DiagnosticTest/Kuis.html"
+    },
+    {
+      "title": "Kuis 1",
+      "topic": "",
+      "questions": null,
+      "mapel": "TKA Ekonomi",
+      "sub": [
+        "Kuis 1"
+      ],
+      "url": "tkaEkonomi/kuis1/EkonomiKuis1.html"
+    }
+  ]
+}
