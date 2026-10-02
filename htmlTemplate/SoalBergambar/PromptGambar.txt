@@ -1,0 +1,22 @@
+Buatkan gambar untuk soal kuis berikut.
+
+Soal nomor: [nomor]
+Isi soal: [tempel teks soal]
+Gambar harus menampilkan: [deskripsi detail: objek, jumlah, warna, label, dsb.]
+Gaya: [diagram sederhana / ilustrasi flat / foto realistis / grafik / peta]
+Ukuran: [mis. 840x520 px], latar [putih/transparan]
+
+Aturan:
+- Jika gambar berisi angka, jumlah objek, grafik, atau teks yang harus akurat, buat dengan Python (matplotlib atau Pillow), bukan generator gambar AI.
+- Jangan tampilkan jawaban benar di dalam gambar.
+- Teks harus mudah dibaca di layar HP (minimal setara 16 px pada lebar 400 px).
+
+Format dan konversi:
+- Format yang dibutuhkan: [png / jpg / webp / gif]
+- Beri nama file [nomor].[ekstensi], misalnya 5.webp
+- Gunakan Python (Pillow) untuk konversi:
+  - jpg: convert("RGB"), quality=90
+  - webp: quality=90
+  - png: optimize=True
+- Jika butuh SVG: jangan konversi dari gambar raster (hasilnya tidak vektor sungguhan). Tulis kode SVG langsung, atau buat dengan matplotlib lalu simpan dengan savefig("x.svg").
+- Verifikasi file hasil dengan membukanya kembali, lalu berikan file untuk diunduh (jika banyak, dalam satu ZIP).
