@@ -1,576 +1,542 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Nalarin Quiz</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    body { 
-      font-family: 'Plus Jakarta Sans', sans-serif; 
-      -webkit-tap-highlight-color: transparent;
-    }
-    /* Scrollbar halus untuk desktop */
-    .custom-scrollbar::-webkit-scrollbar { width: 5px; height: 5px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 6px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 6px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-    
-    /* Sentuhan mulus di mobile */
-    .touch-scroll {
-      -webkit-overflow-scrolling: touch;
-      overscroll-behavior-y: contain;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#4f46e5">
+<title>Nalarin Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f7fb; --surface:#fff; --ink:#0f172a; --muted:#64748b; --line:#e2e8f0;
+  --brand:#4f46e5; --brand-ink:#fff; --brand-soft:#eef2ff;
+  --flag:#d97706; --flag-soft:#fffbeb;
+  --ok:#059669; --ok-soft:#ecfdf5; --bad:#e11d48; --bad-soft:#fff1f2;
+  --r:20px; --font:'Figtree',system-ui,sans-serif; --display:'Bricolage Grotesque','Figtree',sans-serif;
+}
+:root[data-theme="dark"]{
+  --bg:#0b1020; --surface:#131a2e; --ink:#e8ecf8; --muted:#94a0bd; --line:#263050;
+  --brand:#a5b4fc; --brand-ink:#1e1b4b; --brand-soft:#212a55;
+  --flag:#fbbf24; --flag-soft:#3a2d0e;
+  --ok:#34d399; --ok-soft:#10302a; --bad:#fb7185; --bad-soft:#3b1a25;
+}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%}
+body{font-family:var(--font);background:radial-gradient(circle at 10% 0%,rgba(99,102,241,.08),transparent 30rem),var(--bg);color:var(--ink);font-size:16px;line-height:1.5;
+  -webkit-tap-highlight-color:transparent;display:flex;flex-direction:column;min-height:100dvh}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+button:focus-visible,input:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.hidden{display:none!important}
+
+/* header */
+header{background:var(--surface);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top);position:sticky;top:0;z-index:20}
+.hbar{max-width:1120px;margin:auto;display:flex;align-items:center;gap:12px;padding:10px 16px}
+.logo{width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,#4f46e5,#7c3aed);box-shadow:0 8px 20px rgba(79,70,229,.2);color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:19px;flex:none}
+.htitle{min-width:0;flex:1}
+.htitle small{display:block;color:var(--muted);font-size:12px;line-height:1.2}
+.htitle strong{display:block;font-family:var(--display);font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:var(--bg);border:1px solid var(--line);font-size:13px;font-weight:600;white-space:nowrap}
+.chip.name{max-width:150px;overflow:hidden;text-overflow:ellipsis;display:block}
+.icon-btn{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;border:1px solid var(--line);flex:none}
+.icon-btn:hover{background:var(--bg)}
+.progress{height:4px;background:var(--line)}
+.progress i{display:block;height:100%;width:0;background:var(--brand);transition:width .25s}
+
+/* cards / buttons */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:12px;font-weight:700;border:1px solid var(--line);background:var(--surface);transition:transform .08s,background .15s}
+.btn:active{transform:scale(.97)}
+.btn:disabled{opacity:.35;pointer-events:none}
+.btn.primary{background:var(--brand);color:var(--brand-ink);border-color:var(--brand);box-shadow:0 10px 22px rgba(79,70,229,.2)}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.finish{background:var(--ok);color:#fff;border-color:var(--ok);box-shadow:0 8px 18px rgba(5,150,105,.16)}
+#review.finish{background:#0f172a;border-color:#0f172a}
+:root[data-theme="dark"] #review.finish{background:#e8ecf8;color:#0b1020;border-color:#e8ecf8}
+.btn.block{width:100%}
+
+/* start + result */
+.center{flex:1;display:grid;place-items:center;padding:20px 16px}
+.panel{width:100%;max-width:440px;padding:28px}
+.panel h2{font-family:var(--display);font-size:clamp(26px,6vw,34px);line-height:1.1;letter-spacing:-.02em;margin:6px 0 8px}
+.panel p.sub{color:var(--muted);font-size:15px;margin-bottom:22px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.field label{display:block;font-weight:600;font-size:14px;margin-bottom:6px}
+.field input{width:100%;min-height:50px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;margin-bottom:16px}
+.resume{background:var(--brand-soft);border-radius:12px;padding:10px 14px;font-size:14px;margin-bottom:16px}
+
+/* quiz layout */
+#quiz{flex:1;width:100%;max-width:1120px;margin:auto;padding:16px;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:16px;align-items:start}
+.qcard{display:flex;flex-direction:column;min-height:0}
+.qtop{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 20px;border-bottom:1px solid var(--line)}
+.qtop .left{display:flex;align-items:center;gap:10px;min-width:0}
+.qnum{font-family:var(--display);font-weight:800;font-size:15px}
+.diff{font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px}
+.diff.mudah{background:var(--ok-soft);color:var(--ok)}
+.diff.sedang{background:var(--flag-soft);color:var(--flag)}
+.diff.sulit{background:var(--bad-soft);color:var(--bad)}
+.flag{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:var(--muted);padding:8px 12px;border-radius:10px;border:1px solid var(--line)}
+.flag.on{background:var(--flag-soft);color:var(--flag);border-color:var(--flag)}
+.qbody{padding:22px 20px}
+.qtext{font-size:clamp(17px,2.4vw,20px);font-weight:500;line-height:1.55;margin-bottom:22px;max-width:70ch;white-space:pre-line}
+.opts{display:grid;gap:10px}
+.opt{display:flex;gap:14px;align-items:flex-start;text-align:left;width:100%;padding:14px 16px;border:2px solid var(--line);border-radius:14px;background:var(--surface);min-height:56px;transition:border-color .12s,background .12s,transform .08s}
+.opt:not(:disabled):hover{border-color:var(--muted)}
+.opt:active:not(:disabled){transform:scale(.99)}
+.opt .k{flex:none;width:30px;height:30px;border-radius:9px;background:var(--bg);display:grid;place-items:center;font-weight:700;font-size:14px;border:1px solid var(--line)}
+.opt .t{padding-top:3px;flex:1}
+.opt.sel{border-color:var(--brand);background:var(--brand-soft)}
+.opt.sel .k{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.right .k{background:var(--ok);color:#fff;border-color:var(--ok)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.wrong .k{background:var(--bad);color:#fff;border-color:var(--bad)}
+.opt.dim{opacity:.55}
+.tag{font-size:12px;font-weight:700;margin-left:auto;padding-top:5px;white-space:nowrap}
+.expl{margin-top:20px;padding:16px;border-radius:14px;background:var(--bg);border-left:4px solid var(--brand)}
+.expl b{display:block;margin-bottom:4px}
+.expl p{color:var(--muted);font-size:15px;white-space:pre-line}
+.qnav{display:flex;gap:10px;padding:14px 20px;border-top:1px solid var(--line)}
+.qnav .btn{flex:1}
+.qnav .pal{display:none}
+.hint{color:var(--muted);font-size:12px;text-align:center;padding:0 20px 14px}
+
+/* side panel */
+.side{position:sticky;top:90px;padding:18px;display:flex;flex-direction:column;gap:14px;max-height:calc(100dvh - 110px)}
+.side h3{font-family:var(--display);font-size:17px}
+.sidehead{display:flex;justify-content:space-between;align-items:center}
+.stats{display:flex;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;overflow-y:auto;padding:2px}
+.cell{aspect-ratio:1;min-height:42px;border-radius:11px;border:1.5px solid var(--line);font-weight:700;font-size:14px;position:relative;background:var(--surface)}
+.cell.done{background:var(--brand-soft);border-color:var(--brand);color:var(--brand)}
+.cell.cur{background:var(--brand);color:var(--brand-ink);border-color:var(--brand);box-shadow:0 0 0 3px var(--brand-soft)}
+.cell.flagged::after{content:"";position:absolute;top:4px;right:4px;width:8px;height:8px;border-radius:50%;background:var(--flag)}
+.cell.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.cell.no{background:var(--bad);border-color:var(--bad);color:#fff}
+.cell.skip{color:var(--muted);background:var(--bg)}
+
+/* sheet (mobile) */
+.sheet-wrap{position:fixed;inset:0;z-index:50;background:rgba(10,20,17,.55);display:flex;align-items:flex-end;justify-content:center}
+.sheet{width:100%;max-width:560px;max-height:85dvh;background:var(--surface);border-radius:24px 24px 0 0;padding:12px 18px calc(18px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px;animation:up .22s ease-out}
+@keyframes up{from{transform:translateY(40px);opacity:0}}
+.sheet .grab{width:44px;height:5px;border-radius:9px;background:var(--line);margin:0 auto}
+.sheet .grid{grid-template-columns:repeat(6,1fr)}
+
+/* modal */
+.modal{position:fixed;inset:0;z-index:60;background:rgba(10,20,17,.55);display:grid;place-items:center;padding:16px}
+.modal .box{max-width:400px;width:100%;padding:24px}
+.modal h3{font-family:var(--display);font-size:20px;margin-bottom:6px}
+.modal p{color:var(--muted);margin-bottom:20px;font-size:15px}
+.modal .row{display:flex;gap:10px;justify-content:flex-end}
+
+/* result */
+.ring{--p:0;width:150px;height:150px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%),var(--line) 0)}
+.ring div{width:122px;height:122px;border-radius:50%;background:var(--surface);display:grid;place-items:center;align-content:center}
+.ring b{font-family:var(--display);font-size:38px;line-height:1}
+.ring span{font-size:12px;color:var(--muted)}
+.res{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.res div{padding:10px 4px;border-radius:12px;font-size:13px;font-weight:600}
+.res b{display:block;font-size:20px;font-family:var(--display)}
+.res .a{background:var(--ok-soft);color:var(--ok)} .res .b{background:var(--bad-soft);color:var(--bad)} .res .c{background:var(--brand-soft);color:var(--muted)}
+.save{font-size:13px;margin-bottom:16px;padding:10px 12px;border-radius:12px;background:var(--bg);color:var(--muted)}
+.save.fail{background:var(--bad-soft);color:var(--bad)} .save.ok{background:var(--ok-soft);color:var(--ok)}
+.save button{font-weight:700;text-decoration:underline;margin-left:6px}
+.spin{width:44px;height:44px;border:5px solid var(--line);border-top-color:var(--brand);border-radius:50%;animation:s .8s linear infinite;margin:0 auto 14px}
+@keyframes s{to{transform:rotate(360deg)}}
+
+footer{text-align:center;color:var(--muted);font-size:11px;padding:6px 12px calc(6px + env(safe-area-inset-bottom))}
+
+/* mobile */
+@media (max-width:820px){
+  #quiz{grid-template-columns:1fr;padding:10px 10px 0;gap:0}
+  .side{display:none}
+  .qcard{border-radius:var(--r)}
+  .qnav{position:sticky;bottom:0;background:var(--surface);padding:10px 12px calc(10px + env(safe-area-inset-bottom));border-radius:0 0 var(--r) var(--r);z-index:10}
+  .qnav .pal{display:inline-flex;flex:none;width:52px;padding:0}
+  .qnav .btn{min-height:52px}
+  .hint{display:none}
+  .qtop{padding:12px 14px} .qbody{padding:18px 14px 12px}
+  .htitle strong{font-size:15px}
+  .chip.name{display:none}
+  footer{display:none}
+}
+@media (min-width:821px){ .only-m{display:none!important} }
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
 </head>
-<body class="bg-slate-100 text-slate-800 min-h-screen md:h-screen flex flex-col selection:bg-indigo-500 selection:text-white relative">
+<body>
 
-  <!-- HEADER -->
-  <header class="bg-white/95 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-30 flex-shrink-0">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center gap-3">
-      <div class="flex items-center gap-2.5 min-w-0">
-        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 text-white flex items-center justify-center font-bold text-base shadow-sm shadow-indigo-200 flex-shrink-0">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-        </div>
-        <div class="truncate">
-          <p class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-indigo-600" id="header-badge">Nalarin Quiz</p>
-          <h1 class="text-sm sm:text-base font-bold text-slate-800 truncate" id="quiz-title">Memuat Judul Kuis...</h1>
-        </div>
-      </div>
+<header>
+  <div class="hbar">
+    <div class="logo">N</div>
+    <div class="htitle"><small id="badge">Nalarin Quiz</small><strong id="title">Memuat kuis…</strong></div>
+    <span id="timer" class="chip hidden" aria-label="Waktu pengerjaan">00:00</span>
+    <span id="who" class="chip name hidden"></span>
+    <button class="icon-btn" id="theme" aria-label="Ganti tema terang/gelap">◐</button>
+  </div>
+  <div class="progress"><i id="bar"></i></div>
+</header>
 
-      <div class="flex items-center gap-2">
-        <!-- Tombol Buka Soal Header (Khusus HP) -->
-        <button id="btn-mobile-header-nav" onclick="openMobilePalette()" class="md:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs border border-indigo-200 active:bg-indigo-100 transition-colors">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-          <span id="mobile-counter-header">0 / 0</span>
-        </button>
-
-        <div id="student-badge" class="hidden px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-semibold border border-slate-200 truncate max-w-[120px] sm:max-w-[200px]"></div>
-      </div>
+<!-- Start -->
+<main id="start" class="center">
+  <div class="card panel">
+    <div class="meta"><span class="chip" id="s-count">… soal</span></div>
+    <h2 id="s-title">Memuat kuis…</h2>
+    <p class="sub" id="s-sub">Pastikan koneksi internet stabil sebelum mulai.</p>
+    <div id="resume" class="resume hidden"></div>
+    <div class="field">
+      <label for="name">Nama lengkap</label>
+      <input id="name" type="text" autocomplete="name" placeholder="Tulis namamu" enterkeyhint="go">
     </div>
-  </header>
+    <button class="btn primary block" id="go">Mulai mengerjakan</button>
+  </div>
+</main>
 
-  <!-- SCREEN 1: START SCREEN -->
-  <main id="start-screen" class="flex-grow flex items-center justify-center p-4 py-8 overflow-y-auto">
-    <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200/80 shadow-xl shadow-slate-200/50 max-w-md w-full text-center relative overflow-hidden my-auto">
-      <div class="absolute -top-16 -right-16 w-32 h-32 bg-indigo-50 rounded-full blur-2xl pointer-events-none"></div>
-      
-      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-semibold uppercase tracking-wider mb-4" id="start-badge">
-        ... Soal
-      </div>
-      <h2 id="start-title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-2">Memuat Kuis...</h2>
-      <p id="start-subtitle" class="text-slate-500 text-xs sm:text-sm mb-6 sm:mb-8 leading-relaxed">Pastikan koneksi internet stabil sebelum mulai mengerjakan kuis.</p>
-      
-      <div class="text-left mb-6">
-        <label for="student-name" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Nama Lengkap Siswa</label>
-        <input type="text" id="student-name" placeholder="Ketik nama lengkap Anda..." class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white transition-all text-sm font-medium">
-      </div>
-      
-      <button onclick="startQuiz()" class="w-full bg-indigo-600 hover:bg-indigo-700 active:scale-[0.99] text-white font-semibold py-3.5 px-6 rounded-xl transition-all shadow-md shadow-indigo-100 flex items-center justify-center gap-2 group text-sm sm:text-base">
-        <span>Mulai Kerjakan</span>
-        <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-      </button>
+<!-- Quiz -->
+<main id="quiz" class="hidden">
+  <section class="card qcard">
+    <div class="qtop">
+      <div class="left"><span class="qnum" id="qn">Soal 1</span><span class="diff" id="qd"></span></div>
+      <button class="flag" id="flag" aria-pressed="false">⚑ Ragu-ragu</button>
     </div>
-  </main>
-
-  <!-- SCREEN 2: QUIZ INTERFACE -->
-  <main id="quiz-screen" class="flex-grow hidden max-w-6xl mx-auto w-full p-2 sm:p-6 gap-6 h-auto md:h-full md:overflow-hidden pb-20 md:pb-6">
-    
-    <!-- Kolom Soal: Full width di mobile, fleksibel di desktop -->
-    <div class="flex-1 bg-white rounded-2xl border border-slate-200/80 shadow-sm flex flex-col h-full overflow-hidden">
-      
-      <!-- Top Meta Info -->
-      <div class="flex justify-between items-center px-4 sm:px-6 py-3 border-b border-slate-100 flex-shrink-0 bg-white">
-        <span id="q-topic-tag" class="text-xs font-bold uppercase tracking-wider text-slate-500 truncate max-w-[200px]">Materi</span>
-        <span id="q-difficulty" class="text-[11px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider"></span>
-      </div>
-
-      <!-- Area Pertanyaan & Pilihan: Scroll Mandiri dan Halus di HP -->
-      <div id="quiz-scroll-area" class="p-4 sm:p-8 flex-grow overflow-y-auto touch-scroll custom-scrollbar">
-        <div class="flex items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-          <div id="q-number" class="w-8 h-8 sm:w-9 sm:h-9 flex-shrink-0 bg-indigo-50 text-indigo-700 font-extrabold flex items-center justify-center rounded-lg sm:rounded-xl text-sm sm:text-base mt-0.5">1</div>
-          <p id="q-text" class="text-slate-800 text-sm sm:text-lg font-medium leading-relaxed"></p>
-        </div>
-
-        <div id="options-container" class="space-y-3 pl-0 sm:pl-12 pb-4"></div>
-
-        <!-- Box Pembahasan -->
-        <div id="explanation-box" class="hidden mt-4 sm:mt-8 rounded-xl bg-slate-50 border border-slate-200/80 p-4 sm:p-5">
-          <div class="flex items-center gap-2 text-indigo-700 font-bold text-xs sm:text-sm mb-1.5">
-            <svg class="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <span>Pembahasan</span>
-          </div>
-          <p id="explanation-text" class="text-slate-600 text-xs sm:text-sm leading-relaxed"></p>
-        </div>
-      </div>
-
-      <!-- Bottom Nav Bar (Tetap menempel di bawah container) -->
-      <div class="px-4 sm:px-6 py-3 border-t border-slate-100 flex justify-between items-center bg-slate-50/90 flex-shrink-0 z-10">
-        <button onclick="prevQuestion()" id="btn-prev" class="px-4 sm:px-5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-700 font-semibold text-xs sm:text-sm hover:bg-slate-100 active:scale-95 disabled:opacity-30 transition-all shadow-2xs">
-          Sebelumnya
-        </button>
-
-        <!-- Tombol Pembuka Pop-up Soal di HP -->
-        <button onclick="openMobilePalette()" class="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-xl bg-indigo-50 border border-indigo-200 text-indigo-700 font-bold text-xs active:bg-indigo-100">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
-          <span>Nomor Soal</span>
-        </button>
-
-        <button onclick="nextQuestion()" id="btn-next" class="px-4 sm:px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs sm:text-sm active:scale-95 transition-all shadow-sm">
-          Selanjutnya
-        </button>
-      </div>
+    <div class="qbody">
+      <p class="qtext" id="qt"></p>
+      <div class="opts" id="opts"></div>
+      <div class="expl hidden" id="expl"><b>Pembahasan</b><p id="expl-t"></p></div>
     </div>
-
-    <!-- Panel Kanan: Tetap Eksklusif untuk Layar PC / Laptop -->
-    <div class="w-80 hidden md:flex flex-col h-full flex-shrink-0">
-      <div class="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-5 flex flex-col h-full overflow-hidden">
-        <div class="flex items-center justify-between mb-4 flex-shrink-0">
-          <h3 class="font-bold text-slate-900 text-sm">Navigasi Soal</h3>
-          <span id="answered-counter-pc" class="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-600">0 / 0</span>
-        </div>
-        
-        <div class="flex-grow overflow-y-auto custom-scrollbar pr-1 pb-2">
-          <div id="nav-grid-pc" class="grid grid-cols-5 gap-2"></div>
-        </div>
-
-        <div class="mt-4 pt-3 border-t border-slate-100 flex-shrink-0">
-          <button id="btn-submit-pc" onclick="showSubmitModal()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-xl transition-all shadow-md shadow-emerald-100 text-sm">
-            Selesaikan Kuis
-          </button>
-        </div>
-      </div>
+    <div class="qnav">
+      <button class="btn" id="prev">Sebelumnya</button>
+      <button class="btn pal only-m" id="open-pal" aria-label="Buka daftar nomor soal">☷</button>
+      <button class="btn primary" id="next">Selanjutnya</button>
     </div>
-  </main>
+    <p class="hint">Pintasan: A–E pilih jawaban · ← → pindah soal · F tandai ragu-ragu</p>
+  </section>
 
-  <!-- POP-UP MODAL BOTTOM SHEET NAVIGASI SOAL (MOBILE) -->
-  <div id="mobile-nav-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-50 hidden md:hidden flex flex-col justify-end transition-opacity duration-200" onclick="closeMobilePaletteOnBackdrop(event)">
-    <div id="mobile-sheet-content" class="bg-white rounded-t-3xl max-h-[82vh] flex flex-col shadow-2xl p-5 border-t border-slate-100 transform translate-y-0 transition-transform duration-300" onclick="event.stopPropagation()">
-      
-      <!-- Drag Bar & Header -->
-      <div class="w-12 h-1.5 bg-slate-200 rounded-full mx-auto mb-3 flex-shrink-0"></div>
-      <div class="flex items-center justify-between pb-3 border-b border-slate-100 flex-shrink-0">
-        <div>
-          <h3 class="font-bold text-slate-900 text-base">Lembar Nomor Soal</h3>
-          <p class="text-slate-400 text-xs" id="answered-counter-mobile">0 / 0 terjawab</p>
-        </div>
-        <button onclick="closeMobilePalette()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 flex items-center justify-center font-bold text-sm">✕</button>
-      </div>
+  <aside class="card side">
+    <div class="sidehead"><h3>Nomor soal</h3><span class="chip" id="cnt">0 / 0</span></div>
+    <div class="stats" id="stats"></div>
+    <div class="grid" id="grid"></div>
+    <button class="btn finish block" id="finish">Kumpulkan jawaban</button>
+  </aside>
+</main>
 
-      <!-- Grid Tombol Nomor -->
-      <div class="flex-grow overflow-y-auto touch-scroll py-4 pr-1">
-        <div id="nav-grid-mobile" class="grid grid-cols-5 gap-2.5"></div>
-      </div>
+<!-- Result -->
+<main id="result" class="center hidden">
+  <div class="card panel" style="text-align:center">
+    <h2>Kuis selesai</h2>
+    <p class="sub" id="r-sub"></p>
+    <div class="ring" id="ring"><div><b id="r-score">0</b><span>dari 100</span></div></div>
+    <div class="res">
+      <div class="a"><b id="r-ok">0</b>Benar</div>
+      <div class="b"><b id="r-no">0</b>Salah</div>
+      <div class="c"><b id="r-skip">0</b>Kosong</div>
+    </div>
+    <div class="save" id="save"></div>
+    <button class="btn finish block" id="review">Lihat kunci &amp; pembahasan</button>
+  </div>
+</main>
 
-      <!-- Tombol Selesaikan Kuis di Mobile Sheet -->
-      <div class="pt-3 border-t border-slate-100 flex-shrink-0">
-        <button id="btn-submit-mobile" onclick="closeMobilePalette(); showSubmitModal();" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow-md text-sm active:scale-98 transition-all">
-          Selesaikan & Kumpulkan Kuis
-        </button>
-      </div>
+<footer>Dibuat oleh Johan Herdi Putra, 2026</footer>
+
+<!-- Mobile sheet -->
+<div class="sheet-wrap hidden" id="sheet-wrap">
+  <div class="sheet" role="dialog" aria-label="Nomor soal">
+    <div class="grab"></div>
+    <div class="sidehead"><h3 style="font-family:var(--display)">Nomor soal</h3><span class="chip" id="cnt-m">0 / 0</span></div>
+    <div class="stats" id="stats-m"></div>
+    <div class="grid" id="grid-m"></div>
+    <button class="btn finish block" id="finish-m">Kumpulkan jawaban</button>
+  </div>
+</div>
+
+<!-- Confirm -->
+<div class="modal hidden" id="confirm">
+  <div class="card box">
+    <h3>Kumpulkan jawaban?</h3>
+    <p id="confirm-msg"></p>
+    <div class="row">
+      <button class="btn" id="c-no">Kembali</button>
+      <button class="btn primary" id="c-yes">Ya, kumpulkan</button>
     </div>
   </div>
+</div>
 
-  <!-- SCREEN 3: HASIL EVALUASI -->
-  <main id="result-screen" class="flex-grow hidden items-center justify-center p-4 py-8 overflow-y-auto">
-    <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200/80 shadow-xl shadow-slate-200/50 max-w-md w-full text-center my-auto">
-      <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-5 shadow-inner">
-        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-      </div>
-      <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 mb-1">Kuis Selesai!</h2>
-      <p class="text-slate-500 text-xs sm:text-sm mb-6">Nilai Anda telah otomatis tersimpan ke spreadsheet sistem.</p>
-      
-      <div class="bg-slate-50 rounded-xl p-5 mb-6 border border-slate-100">
-        <p class="text-xs uppercase font-bold tracking-wider text-slate-400 mb-1">Skor Akhir</p>
-        <p id="final-score" class="text-4xl sm:text-5xl font-black text-indigo-600 mb-4 tracking-tight">0</p>
-        <div class="grid grid-cols-2 gap-3 text-xs sm:text-sm">
-          <div class="p-2.5 rounded-lg bg-emerald-50 text-emerald-700 font-semibold border border-emerald-100">
-            <span id="final-correct">0</span> Benar
-          </div>
-          <div class="p-2.5 rounded-lg bg-rose-50 text-rose-700 font-semibold border border-rose-100">
-            <span id="final-wrong">0</span> Salah
-          </div>
-        </div>
-      </div>
-
-      <button onclick="startReview()" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3.5 px-6 rounded-xl transition-all shadow-md text-sm">
-        Lihat Kunci & Pembahasan
-      </button>
-    </div>
-  </main>
-
-  <!-- FOOTER CREDIT (Kanan Bawah) -->
-  <footer class="fixed bottom-2 right-3 sm:right-4 z-20 pointer-events-none">
-    <p class="text-[10px] sm:text-[11px] font-medium text-slate-400 bg-white/80 backdrop-blur-xs px-2.5 py-1 rounded-md border border-slate-200/60 shadow-2xs">
-      Dibuat oleh Johan Herdi Putra, 2026
-    </p>
-  </footer>
-
-  <!-- ALERT MODAL -->
-  <div id="alert-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
-    <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-sm w-full mx-4" id="alert-content">
-      <div class="flex items-center gap-2.5 mb-3 text-amber-600">
-        <svg class="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-        <h3 class="font-bold text-slate-900 text-base">Perhatian</h3>
-      </div>
-      <p id="alert-message" class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed"></p>
-      <button onclick="closeAlert()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors text-sm">Mengerti</button>
-    </div>
+<!-- Alert -->
+<div class="modal hidden" id="alert">
+  <div class="card box">
+    <h3>Perhatian</h3>
+    <p id="alert-msg"></p>
+    <div class="row"><button class="btn primary" id="a-ok">Mengerti</button></div>
   </div>
+</div>
 
-  <!-- SUBMIT MODAL -->
-  <div id="submit-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
-    <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-md w-full mx-4">
-      <h3 class="text-lg font-bold text-slate-900 mb-2">Kumpulkan Jawaban?</h3>
-      <p id="submit-confirm-msg" class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">Pastikan semua soal telah terjawab. Nilai Anda akan langsung dihitung dan disimpan.</p>
-      <div class="flex justify-end gap-3">
-        <button onclick="hideSubmitModal()" class="px-4 py-2.5 rounded-xl text-slate-600 font-medium text-xs sm:text-sm hover:bg-slate-100 transition-colors">Batal</button>
-        <button onclick="processSubmit()" class="px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-medium text-xs sm:text-sm hover:bg-emerald-700 transition-colors shadow-sm">Ya, Kumpulkan</button>
-      </div>
-    </div>
-  </div>
+<!-- Saving -->
+<div class="modal hidden" id="saving" style="background:var(--bg)">
+  <div style="text-align:center"><div class="spin"></div><b>Menyimpan nilai…</b></div>
+</div>
 
-  <!-- LOADING OVERLAY -->
-  <div id="loading-overlay" class="fixed inset-0 bg-white/95 backdrop-blur-xs z-50 hidden flex flex-col items-center justify-center">
-    <div class="w-10 h-10 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mb-4"></div>
-    <p class="text-slate-600 font-semibold text-xs sm:text-sm">Menyimpan nilai ke Google Sheets...</p>
-  </div>
+<script>
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwD3dPZLvKoetvCoANn6TFnqKzhD982gNIIVnCd7ZlbAjRg70iBj41eNAklrqJyZtgl/exec';
+const JSON_PATH = new URLSearchParams(location.search).get('data') || 'soal.json';
+const KEY = 'nalarin:' + JSON_PATH;
+const $ = id => document.getElementById(id);
 
-  <script>
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwD3dPZLvKoetvCoANn6TFnqKzhD982gNIIVnCd7ZlbAjRg70iBj41eNAklrqJyZtgl/exec';
+let data = null, name = '', idx = 0, answers = [], flags = [], review = false, startedAt = null, timerId = null, lastPayload = null;
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const JSON_PATH = urlParams.get('data') || 'soal.json';
+/* ---------- storage (safe) ---------- */
+const store = {
+  get(){ try{ return JSON.parse(localStorage.getItem(KEY)); }catch(e){ return null; } },
+  set(v){ try{ localStorage.setItem(KEY, JSON.stringify(v)); }catch(e){} },
+  del(){ try{ localStorage.removeItem(KEY); }catch(e){} }
+};
+function persist(){ if(!review) store.set({name, idx, answers, flags, startedAt}); }
 
-    let kuisData = null;
-    let studentName = "";
-    let currentIndex = 0;
-    let userAnswers = [];
-    let reviewMode = false;
-    let startTime = null;
+/* ---------- theme ---------- */
+(function(){
+  let t = null; try{ t = localStorage.getItem('nalarin:theme'); }catch(e){}
+  if(!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.dataset.theme = t;
+})();
+$('theme').onclick = () => {
+  const t = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try{ localStorage.setItem('nalarin:theme', t); }catch(e){}
+};
 
-    async function loadQuizData() {
-      try {
-        const response = await fetch(JSON_PATH);
-        if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
-        kuisData = await response.json();
-        userAnswers = new Array(kuisData.total_questions).fill(null);
-        applyInitialMeta();
-      } catch (err) {
-        console.error("Gagal load file JSON:", err);
-        document.getElementById('start-title').innerText = "Gagal Memuat Kuis";
-        document.getElementById('start-subtitle').innerHTML = `<span class="text-rose-600 font-medium">Gagal membaca data <code>${JSON_PATH}</code>.</span> Pastikan repositori GitHub Pages atau folder lokal sudah sinkron.`;
-      }
+/* ---------- load ---------- */
+async function load(){
+  try{
+    const r = await fetch(JSON_PATH);
+    if(!r.ok) throw new Error(r.status);
+    data = await r.json();
+    data.total_questions = data.total_questions || data.questions.length;
+    answers = new Array(data.total_questions).fill(null);
+    flags = new Array(data.total_questions).fill(false);
+    $('title').textContent = data.title || 'Nalarin Quiz';
+    document.title = (data.title || 'Kuis') + ' | Nalarin Quiz';
+    $('s-title').textContent = data.topic || data.title || 'Kuis';
+    $('s-sub').textContent = data.difficulty_summary || data.subtitle || 'Pastikan koneksi internet stabil sebelum mulai.';
+    $('s-count').textContent = data.total_questions + ' soal';
+    const saved = store.get();
+    if(saved && saved.name && saved.answers && saved.answers.length === data.total_questions){
+      $('name').value = saved.name;
+      const n = saved.answers.filter(a => a !== null).length;
+      $('resume').textContent = `Ada pengerjaan sebelumnya (${n} soal terjawab). Tekan "Lanjutkan" untuk meneruskan.`;
+      $('resume').classList.remove('hidden');
+      $('go').textContent = 'Lanjutkan mengerjakan';
     }
+  }catch(e){
+    $('s-title').textContent = 'Kuis tidak bisa dimuat';
+    $('s-sub').textContent = `File ${JSON_PATH} tidak terbaca. Periksa nama file dan pastikan sudah ter-upload ke GitHub Pages atau folder lokal.`;
+    $('go').disabled = true;
+  }
+}
 
-    function applyInitialMeta() {
-      document.title = `${kuisData.title || 'Kuis'} | Nalarin Quiz`;
-      document.getElementById('quiz-title').innerText = kuisData.title || "Nalarin Quiz";
-      document.getElementById('start-title').innerText = kuisData.topic || kuisData.title;
-      document.getElementById('start-subtitle').innerText = kuisData.difficulty_summary || kuisData.subtitle || "";
-      document.getElementById('start-badge').innerText = `${kuisData.total_questions} Soal`;
+/* ---------- dialogs ---------- */
+function say(msg){ $('alert-msg').textContent = msg; $('alert').classList.remove('hidden'); $('a-ok').focus(); }
+$('a-ok').onclick = () => $('alert').classList.add('hidden');
+
+/* ---------- start ---------- */
+function start(){
+  const n = $('name').value.trim();
+  if(!n) return say('Tulis nama lengkapmu dulu sebelum mulai.');
+  name = n;
+  const saved = store.get();
+  if(saved && saved.name === n && saved.answers && saved.answers.length === data.total_questions){
+    answers = saved.answers; flags = saved.flags || flags; idx = Math.min(saved.idx || 0, data.total_questions - 1);
+    startedAt = saved.startedAt || Date.now();
+  } else { startedAt = Date.now(); idx = 0; }
+  show('quiz');
+  $('who').textContent = name; $('who').classList.remove('hidden');
+  $('timer').classList.remove('hidden');
+  tick(); timerId = setInterval(tick, 1000);
+  render();
+}
+function tick(){
+  const s = Math.floor((Date.now() - startedAt) / 1000);
+  $('timer').textContent = String(Math.floor(s/60)).padStart(2,'0') + ':' + String(s%60).padStart(2,'0');
+}
+function show(which){
+  ['start','quiz','result'].forEach(s => $(s).classList.add('hidden'));
+  $(which).classList.remove('hidden');
+  window.scrollTo(0,0);
+}
+
+/* ---------- render ---------- */
+function render(){
+  const q = data.questions[idx], N = data.total_questions;
+  $('qn').textContent = `Soal ${q.number || idx+1} dari ${N}`;
+  $('qt').textContent = q.question;
+  const d = (q.difficulty || '').toLowerCase();
+  $('qd').textContent = q.difficulty || '';
+  $('qd').className = 'diff ' + (['mudah','sedang'].includes(d) ? d : 'sulit');
+  $('qd').classList.toggle('hidden', !q.difficulty);
+
+  const box = $('opts'); box.innerHTML = '';
+  Object.entries(q.options).forEach(([k, v]) => {
+    const b = document.createElement('button');
+    b.className = 'opt';
+    b.innerHTML = `<span class="k">${k}</span><span class="t">${v}</span>`;
+    const mine = answers[idx] === k;
+    if(review){
+      b.disabled = true;
+      if(k === q.answer){ b.classList.add('right'); b.insertAdjacentHTML('beforeend', `<span class="tag" style="color:var(--ok)">${mine?'Jawabanmu · benar':'Kunci'}</span>`); }
+      else if(mine){ b.classList.add('wrong'); b.insertAdjacentHTML('beforeend', '<span class="tag" style="color:var(--bad)">Jawabanmu</span>'); }
+      else b.classList.add('dim');
+    } else {
+      if(mine) b.classList.add('sel');
+      b.setAttribute('aria-pressed', mine);
+      b.onclick = () => choose(k);
     }
+    box.appendChild(b);
+  });
 
-    function openMobilePalette() {
-      document.getElementById('mobile-nav-modal').classList.remove('hidden');
-    }
+  $('expl').classList.toggle('hidden', !review);
+  if(review) $('expl-t').textContent = q.explanation || 'Tidak ada pembahasan tambahan.';
 
-    function closeMobilePalette() {
-      document.getElementById('mobile-nav-modal').classList.add('hidden');
-    }
+  const f = $('flag');
+  f.classList.toggle('hidden', review);
+  f.classList.toggle('on', flags[idx]);
+  f.setAttribute('aria-pressed', flags[idx]);
 
-    function closeMobilePaletteOnBackdrop(event) {
-      if (event.target.id === 'mobile-nav-modal') {
-        closeMobilePalette();
-      }
-    }
+  $('prev').disabled = idx === 0;
+  $('next').disabled = idx === N - 1;
+  window.scrollTo({top:0});
+  drawNav();
+}
 
-    function customAlert(message) {
-      document.getElementById('alert-message').innerText = message;
-      document.getElementById('alert-modal').classList.remove('hidden');
-    }
-    
-    function closeAlert() {
-      document.getElementById('alert-modal').classList.add('hidden');
-    }
-
-    function showSubmitModal() {
-      const unanswered = userAnswers.filter(a => a === null).length;
-      let msg = "Pastikan semua soal telah terjawab. Nilai dan jawaban Anda akan langsung disimpan ke sistem.";
-      if (unanswered > 0) {
-        msg = `Masih ada ${unanswered} nomor yang belum dijawab. Anda yakin ingin mengumpulkannya sekarang?`;
-      }
-      document.getElementById('submit-confirm-msg').innerText = msg;
-      document.getElementById('submit-modal').classList.remove('hidden');
-    }
-    
-    function hideSubmitModal() {
-      document.getElementById('submit-modal').classList.add('hidden');
-    }
-
-    function startQuiz() {
-      if (!kuisData) {
-        customAlert("Data soal belum siap dimuat.");
-        return;
-      }
-      const nameInput = document.getElementById('student-name').value.trim();
-      if (!nameInput) {
-        customAlert("Silakan ketik nama lengkap Anda sebelum memulai.");
-        return;
-      }
-      studentName = nameInput;
-      startTime = new Date();
-
-      document.getElementById('start-screen').classList.add('hidden');
-      document.getElementById('quiz-screen').classList.remove('hidden');
-      document.getElementById('quiz-screen').classList.add('flex');
-      
-      const badge = document.getElementById('student-badge');
-      badge.innerText = studentName;
-      badge.classList.remove('hidden');
-
-      renderNavGrids();
-      renderQuestion(0);
-    }
-
-    function renderNavGrids() {
-      const gridPC = document.getElementById('nav-grid-pc');
-      const gridMobile = document.getElementById('nav-grid-mobile');
-      gridPC.innerHTML = '';
-      gridMobile.innerHTML = '';
-      
-      let answeredCount = 0;
-
-      for (let i = 0; i < kuisData.total_questions; i++) {
-        if (userAnswers[i] !== null) answeredCount++;
-
-        let baseClass = "aspect-square rounded-xl text-xs sm:text-xs font-bold border transition-all flex items-center justify-center ";
-        
-        if (reviewMode) {
-          const isCorrect = userAnswers[i] === kuisData.questions[i].answer;
-          if (userAnswers[i] === null) {
-            baseClass += "bg-slate-100 text-slate-400 border-slate-200";
-          } else if (isCorrect) {
-            baseClass += "bg-emerald-500 text-white border-emerald-600";
-          } else {
-            baseClass += "bg-rose-500 text-white border-rose-600";
-          }
-        } else {
-          if (i === currentIndex) {
-            baseClass += "bg-indigo-600 text-white border-indigo-700 ring-2 ring-indigo-200";
-          } else if (userAnswers[i] !== null) {
-            baseClass += "bg-indigo-50 text-indigo-700 border-indigo-200";
-          } else {
-            baseClass += "bg-white text-slate-600 border-slate-200 hover:bg-slate-50";
-          }
-        }
-        
-        // Element untuk PC
-        const btnPC = document.createElement('button');
-        btnPC.innerText = i + 1;
-        btnPC.className = "w-full " + baseClass;
-        btnPC.onclick = () => renderQuestion(i);
-        gridPC.appendChild(btnPC);
-
-        // Element untuk Mobile Drawer
-        const btnMobile = document.createElement('button');
-        btnMobile.innerText = i + 1;
-        btnMobile.className = "w-full py-3 text-sm active:scale-95 " + baseClass;
-        btnMobile.onclick = () => {
-          renderQuestion(i);
-          closeMobilePalette();
-        };
-        gridMobile.appendChild(btnMobile);
-      }
-
-      // Update counters
-      const counterText = `${answeredCount} / ${kuisData.total_questions}`;
-      document.getElementById('answered-counter-pc').innerText = counterText;
-      document.getElementById('mobile-counter-header').innerText = counterText;
-      document.getElementById('answered-counter-mobile').innerText = `${counterText} terjawab`;
-    }
-
-    function renderQuestion(index) {
-      currentIndex = index;
-      const q = kuisData.questions[index];
-      
-      document.getElementById('q-number').innerText = q.number;
-      document.getElementById('q-topic-tag').innerText = kuisData.topic || "Soal Kuis";
-      document.getElementById('q-text').innerText = q.question;
-      
-      const diffTag = document.getElementById('q-difficulty');
-      diffTag.innerText = q.difficulty;
-      if (q.difficulty.toLowerCase() === 'mudah') {
-        diffTag.className = "text-[11px] sm:text-xs font-bold px-2 sm:px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200/60";
-      } else if (q.difficulty.toLowerCase() === 'sedang') {
-        diffTag.className = "text-[11px] sm:text-xs font-bold px-2 sm:px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-amber-50 text-amber-700 border border-amber-200/60";
+function drawNav(){
+  const N = data.total_questions;
+  const done = answers.filter(a => a !== null).length;
+  let ok = 0, no = 0;
+  ['grid','grid-m'].forEach(id => {
+    const g = $(id); g.innerHTML = '';
+    for(let i = 0; i < N; i++){
+      const c = document.createElement('button');
+      c.className = 'cell'; c.textContent = i + 1;
+      c.setAttribute('aria-label', 'Soal ' + (i+1));
+      if(review){
+        if(answers[i] === null) c.classList.add('skip');
+        else c.classList.add(answers[i] === data.questions[i].answer ? 'ok' : 'no');
+        if(i === idx) c.style.boxShadow = '0 0 0 3px var(--brand-soft), 0 0 0 5px var(--brand)';
       } else {
-        diffTag.className = "text-[11px] sm:text-xs font-bold px-2 sm:px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-rose-50 text-rose-700 border border-rose-200/60";
+        if(answers[i] !== null) c.classList.add('done');
+        if(flags[i]) c.classList.add('flagged');
+        if(i === idx) c.classList.add('cur');
       }
-
-      const container = document.getElementById('options-container');
-      container.innerHTML = '';
-      
-      for (const [key, value] of Object.entries(q.options)) {
-        const optDiv = document.createElement('div');
-        let optClass = "flex items-start p-3.5 sm:p-4 rounded-xl border-2 transition-all cursor-pointer text-xs sm:text-sm leading-relaxed ";
-        
-        if (reviewMode) {
-          optClass = "flex items-start p-3.5 sm:p-4 rounded-xl border-2 transition-all text-xs sm:text-sm leading-relaxed ";
-          if (key === q.answer) {
-            optClass += "bg-emerald-50 border-emerald-500 text-emerald-900 font-medium"; 
-          } else if (userAnswers[index] === key && key !== q.answer) {
-            optClass += "bg-rose-50 border-rose-400 text-rose-900 font-medium"; 
-          } else {
-            optClass += "bg-white border-slate-200 text-slate-400 opacity-60"; 
-          }
-        } else {
-          if (userAnswers[index] === key) {
-            optClass += "bg-indigo-50/70 border-indigo-600 text-indigo-950 font-medium shadow-2xs";
-          } else {
-            optClass += "bg-white border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 active:bg-slate-100";
-          }
-          optDiv.onclick = () => selectOption(key);
-        }
-
-        optDiv.className = optClass;
-        optDiv.innerHTML = `
-          <span class="w-6 font-bold mr-2 text-center flex-shrink-0 ${reviewMode && key === q.answer ? 'text-emerald-700 font-black' : 'text-slate-400'}">${key}</span>
-          <span class="flex-grow">${value}</span>
-        `;
-        container.appendChild(optDiv);
-      }
-
-      const expBox = document.getElementById('explanation-box');
-      if (reviewMode) {
-        document.getElementById('explanation-text').innerText = q.explanation || "Tidak ada pembahasan tambahan.";
-        expBox.classList.remove('hidden');
-      } else {
-        expBox.classList.add('hidden');
-      }
-
-      document.getElementById('btn-prev').disabled = (index === 0);
-      document.getElementById('btn-next').disabled = (index === kuisData.total_questions - 1);
-      
-      // Auto-scroll ke bagian paling atas pertanyaan saat ganti nomor di mobile
-      const scrollArea = document.getElementById('quiz-scroll-area');
-      if (scrollArea) scrollArea.scrollTop = 0;
-
-      renderNavGrids();
+      c.onclick = () => { go(i); closeSheet(); };
+      g.appendChild(c);
     }
+  });
+  const nf = flags.filter(Boolean).length;
+  $('cnt').textContent = $('cnt-m').textContent = `${done} / ${N}`;
+  const st = review
+    ? `<span><i class="dot" style="background:var(--ok)"></i>Benar</span><span><i class="dot" style="background:var(--bad)"></i>Salah</span><span><i class="dot" style="background:var(--line)"></i>Kosong</span>`
+    : `<span>${N - done} belum dijawab</span>${nf ? `<span><i class="dot" style="background:var(--flag)"></i>${nf} ragu-ragu</span>` : ''}`;
+  $('stats').innerHTML = $('stats-m').innerHTML = st;
+  $('bar').style.width = (review ? (idx+1)/N : done/N) * 100 + '%';
+  $('finish').classList.toggle('hidden', review);
+  $('finish-m').classList.toggle('hidden', review);
+}
 
-    function selectOption(key) {
-      if (reviewMode) return;
-      userAnswers[currentIndex] = key;
-      renderQuestion(currentIndex);
-      
-      if (currentIndex < kuisData.total_questions - 1) {
-        setTimeout(() => {
-          renderQuestion(currentIndex + 1);
-        }, 180);
-      }
-    }
+/* ---------- actions ---------- */
+function go(i){ if(i >= 0 && i < data.total_questions){ idx = i; persist(); render(); } }
+function choose(k){
+  if(review) return;
+  answers[idx] = k;
+  persist(); render();
+  if(idx < data.total_questions - 1) setTimeout(() => { if(!review) go(idx + 1); }, 220);
+}
+$('flag').onclick = () => { flags[idx] = !flags[idx]; persist(); render(); };
+$('prev').onclick = () => go(idx - 1);
+$('next').onclick = () => go(idx + 1);
+$('go').onclick = start;
+$('name').addEventListener('keydown', e => { if(e.key === 'Enter') start(); });
 
-    function prevQuestion() {
-      if (currentIndex > 0) renderQuestion(currentIndex - 1);
-    }
+function openSheet(){ $('sheet-wrap').classList.remove('hidden'); }
+function closeSheet(){ $('sheet-wrap').classList.add('hidden'); }
+$('open-pal').onclick = openSheet;
+$('sheet-wrap').onclick = e => { if(e.target === $('sheet-wrap')) closeSheet(); };
 
-    function nextQuestion() {
-      if (currentIndex < kuisData.total_questions - 1) renderQuestion(currentIndex + 1);
-    }
+function askSubmit(){
+  closeSheet();
+  const left = answers.filter(a => a === null).length;
+  const nf = flags.filter(Boolean).length;
+  let m = 'Semua soal sudah terjawab. Nilaimu akan dihitung dan disimpan.';
+  if(left) m = `Masih ada ${left} soal yang belum dijawab. Yakin ingin mengumpulkan sekarang?`;
+  else if(nf) m = `Ada ${nf} soal yang kamu tandai ragu-ragu. Yakin ingin mengumpulkan sekarang?`;
+  $('confirm-msg').textContent = m;
+  $('confirm').classList.remove('hidden');
+}
+$('finish').onclick = $('finish-m').onclick = askSubmit;
+$('c-no').onclick = () => $('confirm').classList.add('hidden');
+$('c-yes').onclick = submit;
 
-    function processSubmit() {
-      hideSubmitModal();
-      document.getElementById('loading-overlay').classList.remove('hidden');
+/* keyboard (desktop) */
+document.addEventListener('keydown', e => {
+  if($('quiz').classList.contains('hidden') || e.target.tagName === 'INPUT' || e.metaKey || e.ctrlKey) return;
+  if(!$('confirm').classList.contains('hidden') || !$('alert').classList.contains('hidden')) return;
+  const k = e.key.toUpperCase();
+  if(e.key === 'ArrowRight') go(idx + 1);
+  else if(e.key === 'ArrowLeft') go(idx - 1);
+  else if(k === 'F' && !review){ flags[idx] = !flags[idx]; persist(); render(); }
+  else if(!review && Object.keys(data.questions[idx].options).includes(k)) choose(k);
+  else if(!review && /^[1-9]$/.test(k)){ const keys = Object.keys(data.questions[idx].options); if(keys[+k-1]) choose(keys[+k-1]); }
+});
 
-      let durasiStr = "-";
-      if (startTime) {
-        const elapsedSeconds = Math.floor((new Date() - startTime) / 1000);
-        const minutes = Math.floor(elapsedSeconds / 60);
-        const seconds = elapsedSeconds % 60;
-        durasiStr = `${minutes} menit ${seconds} detik`;
-      }
+/* ---------- submit ---------- */
+function submit(){
+  $('confirm').classList.add('hidden');
+  clearInterval(timerId);
+  const s = Math.floor((Date.now() - startedAt) / 1000);
+  const durasi = `${Math.floor(s/60)} menit ${s%60} detik`;
+  let benar = 0, kosong = 0;
+  const detail = data.questions.map((q, i) => {
+    const a = answers[i], ok = a === q.answer;
+    if(ok) benar++; if(a === null) kosong++;
+    return { jawaban: a || '-', benar: ok };
+  });
+  const N = data.total_questions;
+  const skor = Number(((benar / N) * 100).toFixed(1));
+  lastPayload = { nama: name, topik: data.topic || data.title || 'Nalarin Quiz', durasi, skor, benar, salah: N - benar, detailJawaban: detail };
 
-      let correctCount = 0;
-      let detailJawaban = [];
+  $('r-score').textContent = skor;
+  $('ring').style.setProperty('--p', skor);
+  $('r-ok').textContent = benar; $('r-no').textContent = N - benar - kosong; $('r-skip').textContent = kosong;
+  $('r-sub').textContent = `${name} · selesai dalam ${durasi}`;
+  show('result');
+  $('timer').classList.add('hidden');
+  save();
+}
 
-      kuisData.questions.forEach((q, i) => {
-        let ans = userAnswers[i];
-        let isCorrect = (ans === q.answer);
-        if (isCorrect) correctCount++;
-        
-        detailJawaban.push({
-          jawaban: ans ? ans : "-",
-          benar: isCorrect
-        });
-      });
+let saving = false;
+function save(){
+  if(saving) return; saving = true;
+  $('saving').classList.remove('hidden');
+  fetch(SCRIPT_URL, { method: 'POST', body: JSON.stringify(lastPayload) })
+    .then(r => r.json())
+    .then(() => { setSave('ok', 'Nilai sudah tersimpan ke spreadsheet.'); store.del(); })
+    .catch(() => setSave('fail', 'Nilai belum terkirim ke spreadsheet. Pastikan internet aktif, lalu', true))
+    .finally(() => { saving = false; $('saving').classList.add('hidden'); });
+}
+function setSave(type, msg, retry){
+  const el = $('save'); el.className = 'save ' + type; el.textContent = msg;
+  if(retry){ const b = document.createElement('button'); b.textContent = 'coba kirim lagi'; b.onclick = save; el.appendChild(b); }
+}
 
-      const totalSoal = kuisData.total_questions || 40;
-      const skorAkhir = Number(((correctCount / totalSoal) * 100).toFixed(1));
-      const salahCount = totalSoal - correctCount;
+/* ---------- review ---------- */
+$('review').onclick = () => {
+  review = true; idx = 0;
+  $('badge').textContent = 'Mode pembahasan';
+  $('who').textContent = name; $('who').classList.remove('hidden');
+  show('quiz'); render();
+};
 
-      const payload = {
-        nama: studentName,
-        topik: kuisData.topic || kuisData.title || "Nalarin Quiz",
-        durasi: durasiStr,
-        skor: skorAkhir,
-        benar: correctCount,
-        salah: salahCount,
-        detailJawaban: detailJawaban
-      };
-
-      fetch(SCRIPT_URL, {
-        method: 'POST',
-        body: JSON.stringify(payload)
-      })
-      .then(res => res.json())
-      .then(result => {
-        document.getElementById('loading-overlay').classList.add('hidden');
-        showResultScreen(skorAkhir, correctCount, salahCount);
-      })
-      .catch(err => {
-        console.warn("Permintaan tersimpan:", err);
-        document.getElementById('loading-overlay').classList.add('hidden');
-        showResultScreen(skorAkhir, correctCount, salahCount);
-      });
-    }
-
-    function showResultScreen(skor, benar, salah) {
-      document.getElementById('quiz-screen').classList.add('hidden');
-      document.getElementById('quiz-screen').classList.remove('flex');
-      
-      const resScreen = document.getElementById('result-screen');
-      resScreen.classList.remove('hidden');
-      resScreen.classList.add('flex');
-      
-      document.getElementById('final-score').innerText = skor;
-      document.getElementById('final-correct').innerText = benar;
-      document.getElementById('final-wrong').innerText = salah;
-    }
-
-    function startReview() {
-      reviewMode = true;
-      const resScreen = document.getElementById('result-screen');
-      resScreen.classList.remove('flex');
-      resScreen.classList.add('hidden');
-      
-      const quizScreen = document.getElementById('quiz-screen');
-      quizScreen.classList.remove('hidden');
-      quizScreen.classList.add('flex');
-      
-      document.getElementById('btn-submit-pc').classList.add('hidden');
-      document.getElementById('btn-submit-mobile').classList.add('hidden');
-      document.getElementById('header-badge').innerText = "Mode Review";
-      document.getElementById('student-badge').innerText = `Pembahasan: ${studentName}`;
-
-      renderNavGrids();
-      renderQuestion(0);
-    }
-
-    window.addEventListener('DOMContentLoaded', loadQuizData);
-  </script>
+load();
+</script>
 </body>
 </html>
