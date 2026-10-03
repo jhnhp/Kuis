@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T15:12:07",
+  "generated": "2026-10-03T15:49:36",
   "kuis": [
     {
       "title": "Diagnostic Test Biologi Kelas 9",
@@ -76,8 +76,8 @@
       "path": "Fisika/Kelas11/Vektor/soal_vektor.json"
     },
     {
-      "title": "Latihan Fisika SMA - Fluida",
-      "topic": "Fluida",
+      "title": "Latihan Fisika SMA - Fluida, Bunyi, dan Cahaya",
+      "topic": "Fluida, Bunyi, dan Cahaya",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 40,
       "mapel": "Fisika",
