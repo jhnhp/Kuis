@@ -1,135 +1,241 @@
-# Kuis Nalarin: Kumpulan Kuis
+# Nalarin Quiz
 
-Folder ini berisi semua kuis (Biologi, Fisika, Matematika, TKA Ekonomi, dan seterusnya) beserta halaman depan `index.html` yang menampilkan daftar kuis dengan pencarian dan filter mata pelajaran.
+Satu file `index.html` untuk semuanya: menu pilihan kuis **dan** halaman mengerjakan kuis. Semua kuis cukup berupa folder berisi `soal.json` (dan folder `gambar/` jika perlu). Tidak perlu lagi menyalin file HTML ke tiap folder.
 
 ## Struktur folder
 
 ```
 Kuis/
-├── index.html            ← halaman depan (daftar semua kuis)
-├── daftar.json           ← data daftar kuis (dibuat otomatis, jangan diedit manual)
-├── buat-daftar.py        ← skrip pembuat daftar.json
+├── index.html          ← satu-satunya file HTML (menu + kuis)
+├── daftar.json         ← daftar kuis (dibuat otomatis)
+├── buat-daftar.py      ← pembuat daftar.json
 ├── README.md
+├── .github/workflows/daftar.yml   ← (opsional) pembaruan otomatis di GitHub
 │
 ├── Biologi/
 │   └── Kelas9/DiagnosticTest/
-│       ├── Kuis.html
 │       └── soal.json
-├── Fisika/…
 ├── Matematika/
 │   ├── Kelas7/Perbandingan/
-│   └── Kelas9/DiagnosticTest/
+│   │   ├── soal.json
+│   │   └── gambar/          ← gambar kuis ini (jika ada)
+│   └── Kelas9/DiagnosticTest/soal.json
 ├── tkaEkonomi/
-│   └── kuis1/
-│       ├── EkonomiKuis1.html
-│       └── soal.json
+│   └── kuis1/soal.json
 │
-└── htmlTemplate/         ← bahan membuat kuis baru (tidak tampil di index)
-    ├── SoalBergambar/
-    ├── SoalTeks/
-    └── TemplateAwal/
+└── _template/          ← contoh soal teks, bergambar, dan bahasa (tidak tampil di menu)
 ```
 
-Pola yang dipakai: `Mata pelajaran / Kelas / Nama kuis /`. Kedalamannya bebas, tidak harus tiga tingkat (contoh: `tkaEkonomi/kuis1/` hanya dua tingkat).
+Pola yang dikenali: `Mapel / Kelas / Topik / soal.json`. Kedalaman boleh berbeda (contoh: `tkaEkonomi/kuis1/` tidak punya kelas, akan masuk ke filter **Umum**).
 
-## Cara kerja halaman depan
+## Cara kerja
 
-GitHub Pages dan browser tidak bisa membaca isi folder secara langsung. Karena itu:
+1. `buat-daftar.py` memindai semua file `.json` yang punya kunci `"questions"` lalu menulis `daftar.json`.
+2. Tanpa parameter, `index.html` menampilkan menu dari `daftar.json`: filter **Mata pelajaran** → filter **Kelas** → daftar topik, plus kolom pencarian. Daftar yang panjang ditampilkan 40 per halaman dengan tombol "Tampilkan lebih banyak". Filter terakhir diingat saat siswa kembali dari kuis.
+3. Saat topik dipilih, `index.html` membuka kuis dengan alamat seperti:
 
-1. `buat-daftar.py` memindai semua folder dan menulis `daftar.json`.
-2. `index.html` membaca `daftar.json` lalu menampilkan kartu kuis yang dikelompokkan per mata pelajaran.
+```
+index.html?kuis=Matematika/Kelas7/Perbandingan/soal.json
+```
 
-Sebuah folder dianggap **kuis** jika berisi:
-- minimal satu file `.html`, dan
-- minimal satu file `.json` yang punya kunci `"questions"`.
+Alamat ini bisa dibagikan langsung ke siswa. Gambar kuis otomatis dicari di folder `gambar/` di samping `soal.json` itu.
 
-Informasi di kartu diambil otomatis:
-
-| Tampilan | Sumber |
-|---|---|
-| Kelompok (mata pelajaran) | Nama folder tingkat pertama |
-| Label kecil (Kelas 9, Diagnostic Test) | Nama folder tingkat berikutnya, dirapikan otomatis |
-| Judul kartu | `title` di `soal.json` (jika kosong: `topic`, lalu nama folder) |
-| Keterangan | `topic` di `soal.json` |
-| Jumlah soal | `total_questions`, atau jumlah item di `questions` |
+Browser tidak bisa membaca isi folder sendiri, jadi `daftar.json` perlu dibuat ulang setiap kali ada kuis yang ditambah, dihapus, atau diganti namanya (lihat bagian berikut).
 
 ## Menambah kuis baru
 
-1. Buat folder baru mengikuti pola, misalnya `Kimia/Kelas10/Stoikiometri/`.
-2. Salin template yang sesuai dari `htmlTemplate/` ke folder itu:
-   - soal teks biasa: `TemplateAwal/` (pilih salah satu HTML-nya)
-   - soal bergambar: `SoalBergambar/`
-   - soal bahasa dengan teks bacaan: `SoalTeks/`
-3. Ganti nama file menjadi `Kuis.html` dan `soal.json`. Jika file soal tidak bernama `soal.json`, kuis harus dibuka dengan `?data=nama-file.json`. Skrip akan menambahkan parameter itu otomatis di daftar.
-4. Isi `soal.json`. Jika kuis memakai gambar, taruh di folder `gambar/` di sebelah `Kuis.html`.
-5. Jika perlu mengirim nilai ke spreadsheet, periksa `SCRIPT_URL` di dalam `Kuis.html`.
-6. Perbarui daftar (lihat di bawah).
-
-## Memperbarui daftar
-
-Setiap kali menambah, menghapus, atau mengganti nama kuis, jalankan dari folder `Kuis/`:
+1. Buat folder sesuai pola, misalnya `Kimia/Kelas10/Stoikiometri/`.
+2. Letakkan `soal.json` di dalamnya. Mulai dari contoh di `_template/`:
+   - `SoalTeks/`: soal teks biasa
+   - `SoalBergambar/`: soal dengan gambar
+   - `SoalBahasa/`: teks bacaan bersama, gambar opsional
+3. Jika ada gambar, taruh di `gambar/` di sebelah `soal.json`.
+4. Perbarui daftar:
 
 ```bash
 python3 buat-daftar.py
 ```
 
-Skrip menampilkan ringkasan kuis yang ditemukan, misalnya:
+Skrip menampilkan ringkasan kuis yang ditemukan dan **memeriksa isi soal**: jumlah pilihan kurang dari dua, kunci `answer` yang tidak ada di `options`, teks soal kosong, atau `total_questions` yang tidak cocok. Bagian *Perhatian* di akhir hasil menunjukkan file dan nomor soal yang bermasalah.
 
-```
-5 kuis ditemukan -> daftar.json
+Satu folder boleh berisi lebih dari satu file soal (misalnya `soal-a.json` dan `soal-b.json`). Masing-masing menjadi satu kuis, dan nama filenya ditambahkan ke label topik.
 
-  [Biologi] Kelas 9 / Diagnostic Test  |  Diagnostic Test Biologi  (20 soal)
-  ...
-Perhatian:
-  - Fisika/Kelas9/Latihan: ada file .html tetapi tidak ada JSON soal yang valid
-```
+### Pembaruan otomatis di GitHub (opsional)
 
-Bagian **Perhatian** muncul jika ada folder yang tidak lengkap (misalnya HTML tanpa JSON, atau JSON yang formatnya rusak), sehingga kesalahan mudah ketahuan.
+File `.github/workflows/daftar.yml` menjalankan `buat-daftar.py` setiap kali ada `push` ke cabang `main` atau `master`, lalu menyimpan `daftar.json` yang baru. Dengan ini cukup tambah folder kuis dan `push`. Skrip hanya menulis ulang `daftar.json` jika isinya benar-benar berubah.
 
-Agar tidak lupa, jalankan skrip ini sebelum `git push`.
+## Pengaturan menu
 
-## Pengaturan di `buat-daftar.py`
+Dari nama folder:
 
-Bagian atas skrip bisa diubah:
+| Tampilan | Sumber |
+|---|---|
+| Mata pelajaran | Folder tingkat pertama |
+| Kelas | Folder bernama seperti `Kelas7`, `Kelas 9`, `Fase D`, `X`, `XI`. Jika tidak ada, folder tingkat kedua dipakai bila masih ada folder di bawahnya |
+| Topik | Folder sisanya |
+| Judul | `title` di JSON (jika kosong: `topic`, lalu nama folder) |
+
+Nama folder dirapikan otomatis (`Kelas9` → Kelas 9, `DiagnosticTest` → Diagnostic Test).
+
+Untuk menimpa dari dalam `soal.json`, tambahkan kolom opsional `"mapel"`, `"kelas"`, atau `"topik"`.
+
+Pengaturan di bagian atas `buat-daftar.py`:
 
 | Pengaturan | Fungsi |
 |---|---|
-| `EXCLUDE` | Folder yang tidak didaftarkan. Bawaan: `htmlTemplate`, `gambar`, `node_modules`. Folder berawalan `.` atau `_` juga selalu diabaikan |
-| `LABELS` | Nama tampilan khusus. Contoh: `"tkaEkonomi": "TKA Ekonomi"`. Tanpa ini, nama dirapikan otomatis (`Kelas9` → `Kelas 9`, `DiagnosticTest` → `Diagnostic Test`) |
-| `DEFAULT_JSON` | Nama file soal bawaan (`soal.json`) |
-| `PREFERRED_HTML` | Urutan pilihan file HTML jika satu folder punya beberapa (`Kuis.html`, lalu `index.html`) |
+| `LABELS` | Nama tampilan khusus per folder, misalnya `"tkaEkonomi": "TKA Ekonomi"` |
+| `EXCLUDE` | Folder yang dilewati. Bawaan: `htmlTemplate`, `gambar`, `node_modules` |
 
-Kiat:
-- **Menyembunyikan kuis** (misalnya belum siap): ganti nama foldernya dengan awalan `_` (`_Kimia`), atau tambahkan namanya ke `EXCLUDE`, lalu jalankan ulang skrip.
-- **Satu folder, beberapa file soal** (misalnya `soal-a.json` dan `soal-b.json`): masing-masing muncul sebagai kartu sendiri. Pastikan `title` di tiap JSON berbeda agar mudah dibedakan.
-- **Folder `gambar/`** otomatis diabaikan, jadi aman diletakkan di dalam folder kuis.
+Folder berawalan `_` atau `.` selalu dilewati. Untuk menyembunyikan kuis yang belum siap, ganti nama foldernya menjadi `_Kimia`.
+
+## Format `soal.json`
+
+```json
+{
+  "title": "Diagnostic Test Biologi",
+  "topic": "Sel dan Jaringan",
+  "difficulty_summary": "3 soal mudah, 4 sedang, 3 sulit.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Organ yang menghasilkan empedu adalah ...",
+      "options": { "A": "Lambung", "B": "Hati", "C": "Pankreas", "D": "Usus halus" },
+      "answer": "B",
+      "explanation": "Empedu dihasilkan oleh hati."
+    }
+  ]
+}
+```
+
+| Kolom | Wajib | Keterangan |
+|---|---|---|
+| `title` | disarankan | Judul kuis |
+| `topic` | tidak | Judul besar di halaman awal dan data topik yang dikirim ke spreadsheet |
+| `difficulty_summary` | tidak | Keterangan singkat di halaman awal |
+| `total_questions` | tidak | Jika kosong, dihitung dari jumlah soal |
+| `questions[].number` | disarankan | Nomor soal. Juga dipakai sebagai nama file gambar |
+| `questions[].difficulty` | tidak | `Mudah`, `Sedang`, atau `Sulit` |
+| `questions[].question` | ya | Teks soal |
+| `questions[].options` | ya | Pilihan jawaban. Kuncinya bebas (A–D, boleh lebih) |
+| `questions[].answer` | ya | Harus sama persis dengan salah satu kunci di `options` |
+| `questions[].explanation` | tidak | Pembahasan di mode review |
+
+**Format teks.** Semua teks (soal, pilihan, pembahasan, teks bacaan) menerima tag dasar `<b> <i> <u> <em> <strong> <sub> <sup> <br> <code> <mark> <small>`. Tag lain ditampilkan apa adanya sebagai teks, sehingga simbol seperti `a < b` aman ditulis langsung. Entitas HTML seperti `&lt;` dan `&amp;` tetap berfungsi. Baris baru (`\n`) dihormati.
+
+## Gambar
+
+Gambar dicari otomatis dari nomor soal di folder `gambar/` di samping `soal.json`:
+
+- Soal nomor 1 mencari `1.jpg`, `1.png`, `1.jpeg`, `1.webp`, `1.gif`, `1.svg`, `1.avif` (campur format diperbolehkan).
+- Gunakan ekstensi huruf kecil, karena GitHub Pages membedakan huruf besar dan kecil.
+- Jika tidak ada file, soal tampil tanpa gambar dan tanpa pesan error.
+- Gambar bisa diketuk atau diklik untuk diperbesar (tutup dengan ketuk lagi atau `Esc`).
+
+Pengaturan per soal:
+
+| Di JSON | Hasil |
+|---|---|
+| (tidak ditulis) | Mencari gambar sesuai nomor soal |
+| `"image": "segitiga.png"` | Memakai file bernama khusus (subfolder boleh: `"bangun/segitiga.png"`). Jika tidak ditemukan, muncul kotak merah berisi nama file yang dicari |
+| `"image": false` | Soal ini tanpa gambar |
+
+Pengaturan tingkat kuis:
+
+| Di JSON | Hasil |
+|---|---|
+| `"image_folder": "img"` | Folder gambar selain `gambar/` (relatif terhadap `soal.json`) |
+| `"warn_missing_image": true` | Tampilkan kotak merah untuk semua gambar yang tidak ditemukan (berguna untuk kuis yang semua soalnya bergambar, saat menyusun soal) |
+
+## Teks bacaan (soal bahasa)
+
+Tulis teks sekali di `passages`, lalu panggil dari soal dengan `passage`:
+
+```json
+{
+  "passages": [
+    {
+      "id": "teks1",
+      "title": "Bank Sampah di Sekolah Kami",
+      "text": ["Paragraf pertama ...", "Paragraf kedua ..."],
+      "image": "poster-lomba"
+    }
+  ],
+  "questions": [
+    { "number": 1, "passage": "teks1", "question": "...", "options": {}, "answer": "B" },
+    { "number": 2, "passage": "teks1", "question": "...", "options": {}, "answer": "C" },
+    { "number": 3, "question": "Soal tanpa teks bacaan ...", "options": {}, "answer": "A" }
+  ]
+}
+```
+
+| Kolom `passages` | Wajib | Keterangan |
+|---|---|---|
+| `id` | ya | Nama pengenal, dipanggil lewat `"passage"` |
+| `title` | tidak | Judul di atas teks |
+| `text` | ya | Array paragraf, atau satu string dengan paragraf dipisah baris kosong |
+| `image` | tidak | Gambar milik teks (ekstensi boleh dihilangkan). Disimpan di folder `gambar/` dengan nama bebas, hindari nama berupa angka agar tidak tertukar dengan gambar soal |
+
+Di PC, teks bacaan tampil di kolom kiri dan tetap terlihat saat halaman digulir. Di HP, teks tampil di atas soal dengan tombol **Sembunyikan teks**. Keterangan "Teks ini dipakai untuk soal 1–4" muncul otomatis.
+
+## Menyimpan nilai ke Google Sheets
+
+Nilai dikirim ke Google Apps Script lewat konstanta `SCRIPT_URL` di dalam `index.html`. Ganti nilainya dengan alamat web app milikmu. Data yang dikirim (`POST`, isi JSON):
+
+```json
+{
+  "nama": "Nama siswa",
+  "topik": "Sel dan Jaringan",
+  "durasi": "12 menit 30 detik",
+  "skor": 80,
+  "benar": 8,
+  "salah": 2,
+  "detailJawaban": [ { "jawaban": "B", "benar": true }, { "jawaban": "-", "benar": false } ]
+}
+```
+
+Skor = jumlah benar ÷ total soal × 100. Soal kosong dicatat `"-"` dan dihitung salah. Jika pengiriman gagal, layar hasil menampilkan tombol **coba kirim lagi**.
+
+## Fitur siswa
+
+- Timer, tanda **Ragu-ragu**, navigasi nomor soal, mode gelap, dan mode review (kunci, jawaban sendiri, pembahasan).
+- Progres tersimpan otomatis di browser per kuis. Jika halaman dimuat ulang, siswa bisa melanjutkan dengan nama yang sama. Progres dihapus setelah nilai berhasil terkirim.
+- Nama siswa diingat untuk kuis berikutnya.
+- Pintasan PC: `A`–`E` atau `1`–`9` memilih jawaban, `←` `→` pindah soal, `F` tandai ragu-ragu, `Esc` tutup gambar.
 
 ## Menjalankan
 
 **Lokal.** Browser memblokir pembacaan JSON jika halaman dibuka langsung dari file, jadi jalankan server sederhana di folder `Kuis/`:
 
 ```bash
+python3 buat-daftar.py
 python3 -m http.server 8000
 ```
 
 Lalu buka `http://localhost:8000`.
 
-**Online.** Unggah seluruh folder ke GitHub Pages. Jika repositori hanya berisi folder `Kuis/`, alamatnya akan seperti `https://username.github.io/nama-repo/`. Folder `htmlTemplate` boleh ikut diunggah, tetapi tidak muncul di daftar. Jika tidak ingin template terbuka untuk umum, jangan sertakan di repositori publik.
+**Online.** Unggah folder ke GitHub Pages. Folder `_template` boleh ikut diunggah tetapi tidak tampil di menu.
+
+## Pindah dari struktur lama
+
+- File `Kuis.html` dan `EkonomiKuis1.html` di tiap folder tidak diperlukan lagi dan boleh dihapus. Cukup simpan `soal.json`.
+- Tautan lama ke `.../Kuis.html` tidak berlaku lagi. Gunakan `index.html?kuis=.../soal.json` atau pilih dari menu.
+- Jika `SCRIPT_URL` di kuis lama berbeda dengan yang ada di `index.html`, samakan dulu.
+- Folder `htmlTemplate` lama aman dibiarkan, karena otomatis dilewati.
 
 ## Pemecahan masalah
 
 | Masalah | Penyebab dan solusi |
 |---|---|
-| Muncul pesan "Daftar kuis belum bisa dimuat" | `daftar.json` belum ada, atau halaman dibuka langsung dari file. Jalankan `buat-daftar.py` dan buka lewat server |
-| Kuis baru tidak muncul | Daftar belum diperbarui. Jalankan `python3 buat-daftar.py`. Periksa juga bagian Perhatian di hasil skrip |
-| Kuis lama masih muncul padahal sudah dihapus | Jalankan ulang `buat-daftar.py`, lalu segarkan browser (Ctrl+F5) |
-| Judul kartu hanya nama folder | `title` dan `topic` di `soal.json` kosong. Isi salah satunya |
-| Kartu terbuka tetapi kuis "tidak bisa dimuat" | Nama file soal tidak cocok dengan yang dibaca `Kuis.html`. Ganti nama menjadi `soal.json` atau buka dengan `?data=` |
-| Gambar tidak muncul di kuis | Periksa folder `gambar/`, nama file sesuai nomor soal, dan `image_folder` di JSON (template `SoalBergambar` lama memakai `gambar/soal-gambar`) |
-
-## Dokumentasi format soal
-
-Format `soal.json`, aturan penamaan gambar, teks bacaan, dan pengiriman nilai ke Google Sheets dijelaskan di README template. Jika kamu menyimpannya, letakkan di `htmlTemplate/README.md`.
+| "Daftar kuis belum bisa dimuat" | `daftar.json` belum ada, atau halaman dibuka langsung dari file. Jalankan `buat-daftar.py` dan buka lewat server |
+| Kuis baru tidak muncul di menu | Daftar belum diperbarui. Jalankan `python3 buat-daftar.py` dan lihat bagian *Perhatian* |
+| Kuis yang sudah dihapus masih muncul | Jalankan ulang `buat-daftar.py`, lalu segarkan browser (Ctrl+F5) |
+| Kuis berada di kelompok yang salah | Periksa nama folder, atau isi `"mapel"`, `"kelas"`, `"topik"` di JSON |
+| "Kuis tidak bisa dimuat" setelah memilih | JSON rusak (koma atau kurung salah). Skrip menampilkan file yang rusak |
+| Gambar tidak muncul | Cek nama file sesuai nomor soal, ekstensi huruf kecil, dan lokasinya di `gambar/` di samping `soal.json` |
+| Jawaban benar dianggap salah | `answer` harus sama persis dengan kunci di `options` (huruf besar/kecil berpengaruh) |
+| Nilai tidak masuk spreadsheet | Periksa `SCRIPT_URL` dan akses web app Apps Script, lalu gunakan **coba kirim lagi** |
 
 ## Kredit
 

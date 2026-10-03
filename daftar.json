@@ -1,93 +1,103 @@
 {
-  "generated": "2026-10-03T12:32:38",
+  "generated": "2026-10-03T13:23:52",
   "kuis": [
     {
       "title": "Diagnostic Test Biologi Kelas 9",
       "topic": "Sistem Organ, Hormon, serta Pertumbuhan dan Perkembangan Manusia",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit",
       "questions": 20,
       "mapel": "Biologi",
-      "sub": [
-        "Kelas 9",
+      "kelas": "Kelas 9",
+      "topik": [
         "Diagnostic Test"
       ],
-      "url": "Biologi/Kelas9/DiagnosticTest/"
+      "path": "Biologi/Kelas9/DiagnosticTest/soal.json"
     },
     {
       "title": "TKA Ekonomi - Mikroekonomi dan Makroekonomi",
       "topic": "Mikroekonomi dan Makroekonomi",
+      "summary": "Kerjakanlah dengan jujur dan teliti.",
       "questions": 40,
       "mapel": "Ekonomi",
-      "sub": [
-        "TKA SMA",
+      "kelas": "TKA SMA",
+      "topik": [
         "Latihan 1"
       ],
-      "url": "Ekonomi/TKA SMA/Latihan1/"
+      "path": "Ekonomi/TKA SMA/Latihan1/soal.json"
     },
     {
       "title": "TKA Ekonomi - Ekonomi Internasional dan Akuntansi Keuangan Dasar",
       "topic": "Bab 3 Ekonomi Internasional dan Bab 4 Akuntansi Keuangan Dasar",
+      "summary": "Kerjakanlah dengan jujur dan teliti.",
       "questions": 40,
       "mapel": "Ekonomi",
-      "sub": [
-        "TKA SMA",
+      "kelas": "TKA SMA",
+      "topik": [
         "Latihan 2"
       ],
-      "url": "Ekonomi/TKA SMA/Latihan 2/"
+      "path": "Ekonomi/TKA SMA/Latihan 2/soal.json"
     },
     {
       "title": "Diagnostic Test Fisika Kelas 9",
       "topic": "Listrik Statis dan Listrik Dinamis",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit",
       "questions": 20,
       "mapel": "Fisika",
-      "sub": [
-        "Kelas 9",
+      "kelas": "Kelas 9",
+      "topik": [
         "Diagnostic Test"
       ],
-      "url": "Fisika/Kelas9/DiagnosticTest/"
+      "path": "Fisika/Kelas9/DiagnosticTest/soal.json"
     },
     {
       "title": "Latihan Fisika Kelas 11 - Gerak dan Gaya",
       "topic": "Gerak dan Gaya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 20,
       "mapel": "Fisika",
-      "sub": [
-        "Kelas 11",
-        "Kinematika Dan Dinamika"
+      "kelas": "Kelas 11",
+      "topik": [
+        "Kinematika Dan Dinamika",
+        "Soal Gerak Dan Gaya"
       ],
-      "url": "Fisika/Kelas11/Kinematika dan Dinamika/?data=soal_gerak_dan_gaya.json"
+      "path": "Fisika/Kelas11/Kinematika dan Dinamika/soal_gerak_dan_gaya.json"
     },
     {
       "title": "Latihan Fisika Kelas 11 - Vektor",
       "topic": "Vektor",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 40,
       "mapel": "Fisika",
-      "sub": [
-        "Kelas 11",
-        "Vektor"
+      "kelas": "Kelas 11",
+      "topik": [
+        "Vektor",
+        "Soal Vektor"
       ],
-      "url": "Fisika/Kelas11/Vektor/?data=soal_vektor.json"
+      "path": "Fisika/Kelas11/Vektor/soal_vektor.json"
     },
     {
       "title": "Latihan Soal Perbandingan",
       "topic": "Perbandingan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 40,
       "mapel": "Matematika",
-      "sub": [
-        "Kelas 7",
+      "kelas": "Kelas 7",
+      "topik": [
         "Perbandingan"
       ],
-      "url": "Matematika/Kelas7/Perbandingan/"
+      "path": "Matematika/Kelas7/Perbandingan/soal.json"
     },
     {
       "title": "Diagnostic Test Matematika Kelas 9",
       "topic": "Latihan Matematika",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit",
       "questions": 20,
       "mapel": "Matematika",
-      "sub": [
-        "Kelas 9",
+      "kelas": "Kelas 9",
+      "topik": [
         "Diagnostic Test"
       ],
-      "url": "Matematika/Kelas9/DiagnosticTest/"
+      "path": "Matematika/Kelas9/DiagnosticTest/soal.json"
     }
   ]
 }

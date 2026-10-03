@@ -1,10 +1,9 @@
 {
-  "_catatan": "Gambar diambil dari folder image_folder dengan nama sesuai nomor soal (1.jpg, 2.png, 3.webp, dst). Format yang didukung: jpg, jpeg, png, webp, gif, svg, avif. Untuk soal tanpa gambar tulis \"image\": false. Untuk nama file khusus tulis \"image\": \"nama-file.png\".",
+  "_catatan": "Gambar diambil dari folder gambar/ dengan nama sesuai nomor soal (1.jpg, 2.png, 3.webp, dst). Format yang didukung: jpg, jpeg, png, webp, gif, svg, avif. Untuk soal tanpa gambar tulis \"image\": false. Untuk nama file khusus tulis \"image\": \"nama-file.png\".",
   "title": "Template Soal Bergambar",
   "topic": "Contoh: Berhitung Bangun Datar",
   "difficulty_summary": "Soal dummy dengan gambar pendukung. 3 mudah, 4 sedang, 3 sulit.",
   "total_questions": 10,
-  "image_folder": "gambar/soal-gambar",
   "questions": [
     {
       "number": 1,

@@ -1,10 +1,9 @@
 {
-  "_catatan": "Teks bacaan ditulis di \"passages\" lalu dipanggil dengan \"passage\":\"id\" pada soal; satu teks bisa dipakai banyak soal. Gambar soal otomatis dicari dengan nama nomor soal (7.png, dll) di image_folder; jika tidak ada, soal tampil tanpa gambar. Gambar teks bacaan: isi \"image\" pada passage (mis. \"poster-lomba\"; ekstensi boleh dihilangkan). Soal dan teks boleh memakai tag HTML seperti <u>, <i>, <b>.",
+  "_catatan": "Teks bacaan ditulis di \"passages\" lalu dipanggil dengan \"passage\":\"id\" pada soal; satu teks bisa dipakai banyak soal. Gambar soal otomatis dicari dengan nama nomor soal (7.png, dll) di folder gambar/; jika tidak ada, soal tampil tanpa gambar. Gambar teks bacaan: isi \"image\" pada passage (mis. \"poster-lomba\"; ekstensi boleh dihilangkan). Soal dan teks boleh memakai tag HTML seperti <u>, <i>, <b>.",
   "title": "Template Soal Bahasa Indonesia",
   "topic": "Contoh: Membaca & Kebahasaan",
   "difficulty_summary": "Soal dummy dengan teks bacaan bersama, gambar opsional, dan soal kebahasaan.",
   "total_questions": 10,
-  "image_folder": "gambar",
   "passages": [
     {
       "id": "teks1",
