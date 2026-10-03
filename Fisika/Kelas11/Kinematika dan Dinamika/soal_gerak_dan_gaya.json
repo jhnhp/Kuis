@@ -1,0 +1,269 @@
+{
+  "title": "Latihan Fisika Kelas 11 - Gerak dan Gaya",
+  "topic": "Gerak dan Gaya",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 20,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "sedang",
+      "question": "Sebuah mobil mula-mula bergerak dengan kecepatan 10 m/s. Mobil kemudian dipercepat secara konstan sebesar 2 m/s² selama 5 s. Kecepatan akhir mobil adalah ....",
+      "options": {
+        "A": "15 m/s",
+        "B": "20 m/s",
+        "C": "25 m/s",
+        "D": "30 m/s"
+      },
+      "answer": "B",
+      "explanation": "v = v₀ + at = 10 + 2(5) = 20 m/s."
+    },
+    {
+      "number": 2,
+      "difficulty": "mudah",
+      "question": "Sebuah benda bergerak lurus dengan kecepatan konstan 12 m/s selama 10 s. Jarak yang ditempuh benda adalah ....",
+      "options": {
+        "A": "1,2 m",
+        "B": "22 m",
+        "C": "120 m",
+        "D": "144 m"
+      },
+      "answer": "C",
+      "explanation": "s = vt = 12(10) = 120 m."
+    },
+    {
+      "number": 3,
+      "difficulty": "sulit",
+      "question": "Sebuah mobil bergerak dengan kecepatan 20 m/s lalu direm dengan perlambatan konstan 4 m/s². Jarak yang ditempuh sejak mulai direm hingga berhenti adalah ....",
+      "options": {
+        "A": "25 m",
+        "B": "40 m",
+        "C": "50 m",
+        "D": "80 m"
+      },
+      "answer": "C",
+      "explanation": "v² = v₀² + 2as. Dengan v = 0, diperoleh 0 = 400 − 8s sehingga s = 50 m."
+    },
+    {
+      "number": 4,
+      "difficulty": "sedang",
+      "question": "Sebuah benda dijatuhkan bebas dari ketinggian 45 m. Jika g = 10 m/s² dan hambatan udara diabaikan, waktu yang diperlukan benda untuk mencapai tanah adalah ....",
+      "options": {
+        "A": "2 s",
+        "B": "3 s",
+        "C": "4 s",
+        "D": "5 s"
+      },
+      "answer": "B",
+      "explanation": "h = ½gt², sehingga 45 = 5t² dan t = 3 s."
+    },
+    {
+      "number": 5,
+      "difficulty": "mudah",
+      "question": "Hukum II Newton menyatakan bahwa ....",
+      "options": {
+        "A": "resultan gaya pada benda selalu nol",
+        "B": "percepatan benda berbanding lurus dengan resultan gaya dan berbanding terbalik dengan massa",
+        "C": "setiap gaya selalu menghasilkan kecepatan konstan",
+        "D": "gaya tidak dipengaruhi massa benda"
+      },
+      "answer": "B",
+      "explanation": "Hukum II Newton dirumuskan ΣF = ma."
+    },
+    {
+      "number": 6,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 5 kg dikenai gaya horizontal 20 N pada permukaan licin. Percepatan benda adalah ....",
+      "options": {
+        "A": "2 m/s²",
+        "B": "4 m/s²",
+        "C": "5 m/s²",
+        "D": "10 m/s²"
+      },
+      "answer": "B",
+      "explanation": "a = F/m = 20/5 = 4 m/s²."
+    },
+    {
+      "number": 7,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 10 kg dikenai gaya 50 N ke kanan dan 20 N ke kiri. Percepatan benda adalah ....",
+      "options": {
+        "A": "2 m/s² ke kiri",
+        "B": "3 m/s² ke kanan",
+        "C": "5 m/s² ke kanan",
+        "D": "7 m/s² ke kanan"
+      },
+      "answer": "B",
+      "explanation": "Resultan gaya = 50 − 20 = 30 N ke kanan, sehingga a = 3 m/s² ke kanan."
+    },
+    {
+      "number": 8,
+      "difficulty": "mudah",
+      "question": "Sebuah benda bermassa 2 kg berada di permukaan bumi. Jika g = 10 m/s², berat benda tersebut adalah ....",
+      "options": {
+        "A": "5 N",
+        "B": "10 N",
+        "C": "20 N",
+        "D": "200 N"
+      },
+      "answer": "C",
+      "explanation": "w = mg = 2(10) = 20 N."
+    },
+    {
+      "number": 9,
+      "difficulty": "sulit",
+      "question": "Balok A bermassa 4 kg berada di atas meja licin dan dihubungkan dengan tali melalui katrol licin ke balok B bermassa 6 kg yang tergantung. Jika g = 10 m/s², percepatan sistem adalah ....",
+      "options": {
+        "A": "2 m/s²",
+        "B": "4 m/s²",
+        "C": "6 m/s²",
+        "D": "10 m/s²"
+      },
+      "answer": "C",
+      "explanation": "a = mB g/(mA + mB) = 6(10)/(4 + 6) = 6 m/s²."
+    },
+    {
+      "number": 10,
+      "difficulty": "mudah",
+      "question": "Sebuah benda bermassa 4 kg bergerak dengan percepatan 3 m/s². Besar resultan gaya yang bekerja pada benda adalah ....",
+      "options": {
+        "A": "7 N",
+        "B": "12 N",
+        "C": "16 N",
+        "D": "24 N"
+      },
+      "answer": "B",
+      "explanation": "ΣF = ma = 4(3) = 12 N."
+    },
+    {
+      "number": 11,
+      "difficulty": "sedang",
+      "question": "Sebuah benda dilempar vertikal ke atas dengan kecepatan awal 30 m/s. Jika g = 10 m/s², tinggi maksimum yang dicapai benda adalah ....",
+      "options": {
+        "A": "30 m",
+        "B": "45 m",
+        "C": "60 m",
+        "D": "90 m"
+      },
+      "answer": "B",
+      "explanation": "Di titik tertinggi v = 0. 0 = 30² − 2(10)h, sehingga h = 45 m."
+    },
+    {
+      "number": 12,
+      "difficulty": "mudah",
+      "question": "Jika resultan gaya yang bekerja pada sebuah benda sama dengan nol, maka benda yang semula diam akan ....",
+      "options": {
+        "A": "selalu bergerak dipercepat",
+        "B": "tetap diam",
+        "C": "bergerak melingkar",
+        "D": "selalu bergerak dengan kecepatan bertambah"
+      },
+      "answer": "B",
+      "explanation": "Menurut Hukum I Newton, jika ΣF = 0 benda mempertahankan keadaan geraknya."
+    },
+    {
+      "number": 13,
+      "difficulty": "sedang",
+      "question": "Sebuah balok bermassa 5 kg berada pada bidang miring licin dengan sudut kemiringan 30°. Jika g = 10 m/s², komponen berat yang sejajar bidang adalah ....",
+      "options": {
+        "A": "15 N",
+        "B": "20 N",
+        "C": "25 N",
+        "D": "50 N"
+      },
+      "answer": "C",
+      "explanation": "W sejajar = mg sin 30° = 5(10)(0,5) = 25 N."
+    },
+    {
+      "number": 14,
+      "difficulty": "sulit",
+      "question": "Sebuah balok bermassa 10 kg ditarik mendatar dengan gaya 50 N di atas lantai kasar. Koefisien gesek kinetik 0,2 dan g = 10 m/s². Percepatan balok adalah ....",
+      "options": {
+        "A": "1 m/s²",
+        "B": "2 m/s²",
+        "C": "3 m/s²",
+        "D": "5 m/s²"
+      },
+      "answer": "C",
+      "explanation": "f = μN = 0,2(100) = 20 N. Resultan = 50 − 20 = 30 N, sehingga a = 3 m/s²."
+    },
+    {
+      "number": 15,
+      "difficulty": "sedang",
+      "question": "Sebuah lift bergerak ke atas dengan percepatan 2 m/s². Penumpang bermassa 60 kg berdiri di atas timbangan. Jika g = 10 m/s², pembacaan timbangan adalah ....",
+      "options": {
+        "A": "480 N",
+        "B": "600 N",
+        "C": "720 N",
+        "D": "840 N"
+      },
+      "answer": "C",
+      "explanation": "N = m(g + a) = 60(12) = 720 N."
+    },
+    {
+      "number": 16,
+      "difficulty": "mudah",
+      "question": "Satuan SI untuk gaya adalah ....",
+      "options": {
+        "A": "joule",
+        "B": "watt",
+        "C": "newton",
+        "D": "pascal"
+      },
+      "answer": "C",
+      "explanation": "Satuan SI gaya adalah newton (N), dengan 1 N = 1 kg·m/s²."
+    },
+    {
+      "number": 17,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 2 kg ditarik dengan gaya 10 N pada bidang datar. Jika gaya gesek yang bekerja sebesar 4 N berlawanan arah gerak, percepatan benda adalah ....",
+      "options": {
+        "A": "2 m/s²",
+        "B": "3 m/s²",
+        "C": "5 m/s²",
+        "D": "7 m/s²"
+      },
+      "answer": "B",
+      "explanation": "Resultan gaya = 10 − 4 = 6 N, sehingga a = 6/2 = 3 m/s²."
+    },
+    {
+      "number": 18,
+      "difficulty": "sulit",
+      "question": "Dua balok bermassa 2 kg dan 3 kg dihubungkan dengan tali melalui katrol licin. Balok 2 kg berada di atas meja licin, sedangkan balok 3 kg tergantung. Jika g = 10 m/s², besar tegangan tali adalah ....",
+      "options": {
+        "A": "6 N",
+        "B": "10 N",
+        "C": "12 N",
+        "D": "18 N"
+      },
+      "answer": "C",
+      "explanation": "a = 3(10)/(2 + 3) = 6 m/s². Untuk balok 2 kg, T = ma = 2(6) = 12 N."
+    },
+    {
+      "number": 19,
+      "difficulty": "sedang",
+      "question": "Sebuah mobil mula-mula diam lalu bergerak dengan percepatan tetap 4 m/s² selama 6 s. Jarak yang ditempuh mobil adalah ....",
+      "options": {
+        "A": "24 m",
+        "B": "48 m",
+        "C": "72 m",
+        "D": "96 m"
+      },
+      "answer": "C",
+      "explanation": "s = ½at² = ½(4)(6²) = 72 m."
+    },
+    {
+      "number": 20,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 4 kg ditarik gaya 30 N membentuk sudut 37° terhadap horizontal pada lantai kasar. Koefisien gesek kinetik 0,2, sin 37° = 0,6, cos 37° = 0,8, dan g = 10 m/s². Besar percepatan benda adalah ....",
+      "options": {
+        "A": "4,0 m/s²",
+        "B": "4,5 m/s²",
+        "C": "4,9 m/s²",
+        "D": "6,0 m/s²"
+      },
+      "answer": "C",
+      "explanation": "Fx = 30(0,8)=24 N; N = 40−30(0,6)=22 N; f=0,2(22)=4,4 N; a=(24−4,4)/4=4,9 m/s²."
+    }
+  ]
+}
