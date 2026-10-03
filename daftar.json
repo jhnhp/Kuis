@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T19:38:23",
+  "generated": "2026-10-03T11:42:41",
   "kuis": [
     {
       "title": "Diagnostic Test Biologi Kelas 9",
@@ -24,7 +24,7 @@
       "url": "Ekonomi/TKA SMA/Latihan1/"
     },
     {
-      "title": "Diagnostic Test Fisika Kelas 9",
+      "title": "Diagnostic Test Biologi Kelas 9",
       "topic": "Listrik Statis dan Listrik Dinamis",
       "questions": 20,
       "mapel": "Fisika",
@@ -33,6 +33,17 @@
         "Diagnostic Test"
       ],
       "url": "Fisika/Kelas9/DiagnosticTest/"
+    },
+    {
+      "title": "Latihan Fisika Kelas 11 - Gerak dan Gaya",
+      "topic": "Gerak dan Gaya",
+      "questions": 20,
+      "mapel": "Fisika",
+      "sub": [
+        "Kelas 11",
+        "Kinematika Dan Dinamika"
+      ],
+      "url": "Fisika/Kelas11/Kinematika dan Dinamika/?data=soal_gerak_dan_gaya.json"
     },
     {
       "title": "Latihan Fisika Kelas 11 - Vektor",
