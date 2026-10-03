@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T11:42:41",
+  "generated": "2026-10-03T12:32:38",
   "kuis": [
     {
       "title": "Diagnostic Test Biologi Kelas 9",
@@ -22,6 +22,17 @@
         "Latihan 1"
       ],
       "url": "Ekonomi/TKA SMA/Latihan1/"
+    },
+    {
+      "title": "TKA Ekonomi - Ekonomi Internasional dan Akuntansi Keuangan Dasar",
+      "topic": "Bab 3 Ekonomi Internasional dan Bab 4 Akuntansi Keuangan Dasar",
+      "questions": 40,
+      "mapel": "Ekonomi",
+      "sub": [
+        "TKA SMA",
+        "Latihan 2"
+      ],
+      "url": "Ekonomi/TKA SMA/Latihan 2/"
     },
     {
       "title": "Diagnostic Test Biologi Kelas 9",
