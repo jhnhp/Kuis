@@ -1,0 +1,529 @@
+{
+  "title": "TKA Ekonomi - Ekonomi Internasional dan Akuntansi Keuangan Dasar",
+  "topic": "Bab 3 Ekonomi Internasional dan Bab 4 Akuntansi Keuangan Dasar",
+  "subtitle": "Latihan Mandiri 40 Soal",
+  "difficulty_summary": "Kerjakanlah dengan jujur dan teliti.",
+  "total_questions": 40,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "mudah",
+      "question": "Kerja sama ekonomi yang dilakukan oleh dua negara disebut kerja sama ....",
+      "options": {
+        "A": "bilateral",
+        "B": "regional",
+        "C": "multilateral",
+        "D": "domestik"
+      },
+      "answer": "A",
+      "explanation": "Kerja sama bilateral merupakan kerja sama ekonomi yang melibatkan dua negara."
+    },
+    {
+      "number": 2,
+      "difficulty": "mudah",
+      "question": "Salah satu tujuan utama kerja sama ekonomi internasional adalah ....",
+      "options": {
+        "A": "mengurangi seluruh kegiatan perdagangan",
+        "B": "memperluas hubungan dan manfaat ekonomi antarnegara",
+        "C": "menghilangkan seluruh produksi dalam negeri",
+        "D": "membatasi pertukaran teknologi"
+      },
+      "answer": "B",
+      "explanation": "Kerja sama ekonomi internasional bertujuan meningkatkan hubungan ekonomi, perdagangan, investasi, teknologi, dan kesejahteraan antarnegara."
+    },
+    {
+      "number": 3,
+      "difficulty": "sedang",
+      "question": "Kerja sama ekonomi yang melibatkan negara-negara dalam suatu kawasan geografis tertentu disebut kerja sama ....",
+      "options": {
+        "A": "bilateral",
+        "B": "regional",
+        "C": "multilateral",
+        "D": "nasional"
+      },
+      "answer": "B",
+      "explanation": "Kerja sama regional melibatkan negara-negara yang berada dalam kawasan tertentu, seperti kerja sama negara-negara Asia Tenggara melalui ASEAN."
+    },
+    {
+      "number": 4,
+      "difficulty": "mudah",
+      "question": "Kegiatan menjual barang atau jasa dari dalam negeri ke luar negeri disebut ....",
+      "options": {
+        "A": "impor",
+        "B": "ekspor",
+        "C": "transit",
+        "D": "distribusi"
+      },
+      "answer": "B",
+      "explanation": "Ekspor adalah kegiatan menjual atau mengirim barang dan jasa dari suatu negara ke negara lain."
+    },
+    {
+      "number": 5,
+      "difficulty": "sedang",
+      "question": "Salah satu faktor yang mendorong terjadinya perdagangan internasional adalah ....",
+      "options": {
+        "A": "semua negara memiliki sumber daya yang sama",
+        "B": "perbedaan sumber daya dan kemampuan produksi antarnegara",
+        "C": "setiap negara mampu memenuhi seluruh kebutuhannya sendiri",
+        "D": "tidak adanya perbedaan teknologi antarnegara"
+      },
+      "answer": "B",
+      "explanation": "Perbedaan sumber daya alam, teknologi, modal, tenaga kerja, dan kemampuan produksi mendorong negara melakukan perdagangan internasional."
+    },
+    {
+      "number": 6,
+      "difficulty": "sedang",
+      "question": "Negara A mampu menghasilkan 100 unit beras dengan jumlah sumber daya tertentu, sedangkan Negara B hanya mampu menghasilkan 70 unit dengan sumber daya yang sama. Berdasarkan kondisi tersebut, Negara A memiliki ....",
+      "options": {
+        "A": "keunggulan absolut dalam produksi beras",
+        "B": "keunggulan komparatif dalam semua barang",
+        "C": "defisit perdagangan",
+        "D": "hambatan perdagangan"
+      },
+      "answer": "A",
+      "explanation": "Keunggulan absolut menunjukkan kemampuan menghasilkan output lebih banyak dengan jumlah sumber daya yang sama."
+    },
+    {
+      "number": 7,
+      "difficulty": "sedang",
+      "question": "Negara A dapat menghasilkan 12 unit beras atau 6 unit tekstil. Biaya peluang untuk menghasilkan 1 unit beras adalah ....",
+      "options": {
+        "A": "0,5 unit tekstil",
+        "B": "1 unit tekstil",
+        "C": "2 unit tekstil",
+        "D": "6 unit tekstil"
+      },
+      "answer": "A",
+      "explanation": "Biaya peluang 1 unit beras = 6/12 = 0,5 unit tekstil."
+    },
+    {
+      "number": 8,
+      "difficulty": "sulit",
+      "question": "Negara A dapat menghasilkan 20 unit beras atau 10 unit tekstil. Negara B dapat menghasilkan 12 unit beras atau 12 unit tekstil. Berdasarkan biaya peluang, pola spesialisasi yang paling tepat adalah ....",
+      "options": {
+        "A": "A berspesialisasi pada beras dan B pada tekstil",
+        "B": "A berspesialisasi pada tekstil dan B pada beras",
+        "C": "A dan B sama-sama berspesialisasi pada beras",
+        "D": "A dan B sama-sama berspesialisasi pada tekstil"
+      },
+      "answer": "A",
+      "explanation": "Biaya peluang 1 beras di A adalah 0,5 tekstil, sedangkan di B adalah 1 tekstil. Jadi A memiliki keunggulan komparatif pada beras. Biaya peluang 1 tekstil di A adalah 2 beras, sedangkan di B adalah 1 beras, sehingga B memiliki keunggulan komparatif pada tekstil."
+    },
+    {
+      "number": 9,
+      "difficulty": "mudah",
+      "question": "Kebijakan pemerintah berupa pajak yang dikenakan terhadap barang yang masuk dari luar negeri disebut ....",
+      "options": {
+        "A": "subsidi",
+        "B": "tarif",
+        "C": "kuota",
+        "D": "devaluasi"
+      },
+      "answer": "B",
+      "explanation": "Tarif merupakan pajak atau pungutan yang dikenakan terhadap barang yang diperdagangkan lintas negara, terutama barang impor."
+    },
+    {
+      "number": 10,
+      "difficulty": "sedang",
+      "question": "Pemerintah membatasi jumlah impor suatu jenis barang menjadi maksimal 100.000 unit per tahun. Kebijakan tersebut merupakan ....",
+      "options": {
+        "A": "tarif",
+        "B": "subsidi",
+        "C": "kuota",
+        "D": "liberalisasi"
+      },
+      "answer": "C",
+      "explanation": "Kuota merupakan pembatasan jumlah barang yang dapat diimpor atau diekspor dalam periode tertentu."
+    },
+    {
+      "number": 11,
+      "difficulty": "sedang",
+      "question": "Jika pemerintah menaikkan tarif impor suatu barang, dampak yang paling mungkin terjadi adalah ....",
+      "options": {
+        "A": "harga barang impor di dalam negeri cenderung meningkat",
+        "B": "biaya impor menjadi nol",
+        "C": "jumlah impor pasti meningkat",
+        "D": "harga barang impor pasti turun"
+      },
+      "answer": "A",
+      "explanation": "Tarif menambah biaya masuk barang impor sehingga harga barang impor di pasar domestik cenderung meningkat."
+    },
+    {
+      "number": 12,
+      "difficulty": "sulit",
+      "question": "Pemerintah menaikkan tarif impor untuk melindungi produsen dalam negeri. Produsen lokal memperoleh perlindungan lebih besar, tetapi konsumen harus membayar harga yang lebih tinggi. Konsep yang paling tepat untuk menganalisis kondisi tersebut adalah ....",
+      "options": {
+        "A": "trade-off dalam kebijakan ekonomi",
+        "B": "kelangkaan tanpa pilihan",
+        "C": "keunggulan absolut",
+        "D": "spesialisasi produksi"
+      },
+      "answer": "A",
+      "explanation": "Kebijakan tarif dapat memberikan manfaat bagi produsen domestik sekaligus menimbulkan konsekuensi berupa harga yang lebih tinggi bagi konsumen. Kondisi tersebut menunjukkan adanya trade-off."
+    },
+    {
+      "number": 13,
+      "difficulty": "mudah",
+      "question": "Organisasi yang berperan dalam aturan perdagangan internasional adalah ....",
+      "options": {
+        "A": "WTO",
+        "B": "WHO",
+        "C": "OPEC",
+        "D": "UNESCO"
+      },
+      "answer": "A",
+      "explanation": "WTO atau World Trade Organization merupakan organisasi internasional yang berkaitan dengan aturan dan sistem perdagangan internasional."
+    },
+    {
+      "number": 14,
+      "difficulty": "sedang",
+      "question": "Salah satu manfaat perdagangan internasional bagi konsumen adalah ....",
+      "options": {
+        "A": "pilihan barang dan jasa menjadi lebih beragam",
+        "B": "seluruh barang domestik menjadi lebih mahal",
+        "C": "produksi dalam negeri selalu berhenti",
+        "D": "persaingan antarprodusen hilang"
+      },
+      "answer": "A",
+      "explanation": "Perdagangan internasional memungkinkan konsumen memperoleh barang dan jasa dari berbagai negara sehingga pilihan menjadi lebih beragam."
+    },
+    {
+      "number": 15,
+      "difficulty": "mudah",
+      "question": "Akuntansi pada dasarnya merupakan proses untuk ....",
+      "options": {
+        "A": "menghapus seluruh transaksi perusahaan",
+        "B": "mengidentifikasi, mencatat, menggolongkan, dan menyajikan informasi keuangan",
+        "C": "menentukan seluruh harga barang di pasar",
+        "D": "mengatur kebijakan moneter"
+      },
+      "answer": "B",
+      "explanation": "Akuntansi merupakan proses sistematis untuk mengidentifikasi, mencatat, menggolongkan, meringkas, dan menyajikan informasi keuangan."
+    },
+    {
+      "number": 16,
+      "difficulty": "mudah",
+      "question": "Sumber daya ekonomi yang dimiliki atau dikendalikan oleh perusahaan disebut ....",
+      "options": {
+        "A": "aset",
+        "B": "liabilitas",
+        "C": "ekuitas",
+        "D": "beban"
+      },
+      "answer": "A",
+      "explanation": "Aset adalah sumber daya ekonomi yang dimiliki atau dikendalikan perusahaan dan memberikan manfaat ekonomi."
+    },
+    {
+      "number": 17,
+      "difficulty": "mudah",
+      "question": "Kewajiban perusahaan kepada pihak lain disebut ....",
+      "options": {
+        "A": "aset",
+        "B": "ekuitas",
+        "C": "liabilitas",
+        "D": "pendapatan"
+      },
+      "answer": "C",
+      "explanation": "Liabilitas adalah kewajiban perusahaan kepada pihak lain yang timbul dari transaksi atau kejadian sebelumnya."
+    },
+    {
+      "number": 18,
+      "difficulty": "sedang",
+      "question": "Persamaan dasar akuntansi yang benar adalah ....",
+      "options": {
+        "A": "Aset = Ekuitas − Liabilitas",
+        "B": "Aset = Liabilitas + Ekuitas",
+        "C": "Aset = Pendapatan + Beban",
+        "D": "Ekuitas = Aset + Liabilitas"
+      },
+      "answer": "B",
+      "explanation": "Persamaan dasar akuntansi adalah Aset = Liabilitas + Ekuitas. Persamaan tersebut harus selalu dalam keadaan seimbang."
+    },
+    {
+      "number": 19,
+      "difficulty": "sedang",
+      "question": "Sebuah perusahaan memiliki aset Rp80.000.000 dan liabilitas Rp30.000.000. Besarnya ekuitas perusahaan adalah ....",
+      "options": {
+        "A": "Rp30.000.000",
+        "B": "Rp50.000.000",
+        "C": "Rp80.000.000",
+        "D": "Rp110.000.000"
+      },
+      "answer": "B",
+      "explanation": "Berdasarkan Aset = Liabilitas + Ekuitas, maka Ekuitas = Rp80.000.000 − Rp30.000.000 = Rp50.000.000."
+    },
+    {
+      "number": 20,
+      "difficulty": "mudah",
+      "question": "Pemilik menyetorkan uang tunai Rp20.000.000 sebagai modal awal usaha. Pengaruh transaksi tersebut adalah ....",
+      "options": {
+        "A": "aset bertambah Rp20.000.000 dan ekuitas bertambah Rp20.000.000",
+        "B": "aset bertambah Rp20.000.000 dan liabilitas bertambah Rp20.000.000",
+        "C": "aset berkurang Rp20.000.000 dan ekuitas bertambah Rp20.000.000",
+        "D": "liabilitas berkurang Rp20.000.000 dan ekuitas berkurang Rp20.000.000"
+      },
+      "answer": "A",
+      "explanation": "Kas sebagai aset bertambah Rp20.000.000 dan setoran pemilik meningkatkan ekuitas sebesar Rp20.000.000."
+    },
+    {
+      "number": 21,
+      "difficulty": "sedang",
+      "question": "Perusahaan membeli peralatan secara tunai sebesar Rp5.000.000. Pengaruh transaksi tersebut terhadap total aset adalah ....",
+      "options": {
+        "A": "bertambah Rp5.000.000",
+        "B": "berkurang Rp5.000.000",
+        "C": "tidak berubah",
+        "D": "bertambah Rp10.000.000"
+      },
+      "answer": "C",
+      "explanation": "Kas berkurang Rp5.000.000, tetapi peralatan bertambah Rp5.000.000. Karena hanya terjadi pertukaran antar-aset, total aset tidak berubah."
+    },
+    {
+      "number": 22,
+      "difficulty": "sedang",
+      "question": "Perusahaan membeli perlengkapan senilai Rp3.000.000 secara kredit. Pengaruh transaksi tersebut adalah ....",
+      "options": {
+        "A": "aset naik Rp3.000.000 dan liabilitas naik Rp3.000.000",
+        "B": "aset turun Rp3.000.000 dan liabilitas naik Rp3.000.000",
+        "C": "aset naik Rp3.000.000 dan ekuitas turun Rp3.000.000",
+        "D": "liabilitas turun Rp3.000.000 dan aset naik Rp3.000.000"
+      },
+      "answer": "A",
+      "explanation": "Perlengkapan merupakan aset sehingga aset bertambah. Karena pembelian dilakukan secara kredit, timbul utang sehingga liabilitas juga bertambah."
+    },
+    {
+      "number": 23,
+      "difficulty": "mudah",
+      "question": "Pendapatan usaha pada umumnya akan menyebabkan ....",
+      "options": {
+        "A": "ekuitas bertambah",
+        "B": "ekuitas berkurang",
+        "C": "liabilitas selalu berkurang",
+        "D": "aset selalu berkurang"
+      },
+      "answer": "A",
+      "explanation": "Pendapatan meningkatkan laba dan pada akhirnya meningkatkan ekuitas pemilik."
+    },
+    {
+      "number": 24,
+      "difficulty": "sedang",
+      "question": "Sebuah perusahaan menerima pendapatan jasa secara tunai sebesar Rp8.000.000. Dampak transaksi tersebut adalah ....",
+      "options": {
+        "A": "kas naik Rp8.000.000 dan ekuitas naik Rp8.000.000",
+        "B": "kas turun Rp8.000.000 dan ekuitas naik Rp8.000.000",
+        "C": "kas naik Rp8.000.000 dan liabilitas naik Rp8.000.000",
+        "D": "kas turun Rp8.000.000 dan ekuitas turun Rp8.000.000"
+      },
+      "answer": "A",
+      "explanation": "Pendapatan jasa yang diterima tunai meningkatkan kas sebagai aset dan meningkatkan ekuitas melalui pendapatan."
+    },
+    {
+      "number": 25,
+      "difficulty": "sedang",
+      "question": "Perusahaan membayar beban listrik sebesar Rp600.000 secara tunai. Pengaruh transaksi tersebut adalah ....",
+      "options": {
+        "A": "aset naik dan ekuitas naik",
+        "B": "aset turun dan ekuitas turun",
+        "C": "aset naik dan liabilitas naik",
+        "D": "liabilitas turun dan ekuitas naik"
+      },
+      "answer": "B",
+      "explanation": "Pembayaran listrik mengurangi kas dan beban mengurangi laba sehingga ekuitas juga berkurang."
+    },
+    {
+      "number": 26,
+      "difficulty": "mudah",
+      "question": "Jika pendapatan perusahaan lebih besar daripada beban dalam suatu periode, perusahaan mengalami ....",
+      "options": {
+        "A": "rugi",
+        "B": "laba",
+        "C": "defisit aset",
+        "D": "utang"
+      },
+      "answer": "B",
+      "explanation": "Laba terjadi ketika total pendapatan lebih besar daripada total beban dalam suatu periode."
+    },
+    {
+      "number": 27,
+      "difficulty": "sedang",
+      "question": "Sebuah usaha memperoleh pendapatan Rp15.000.000 dan memiliki beban Rp9.000.000. Laba usaha tersebut adalah ....",
+      "options": {
+        "A": "Rp4.000.000",
+        "B": "Rp5.000.000",
+        "C": "Rp6.000.000",
+        "D": "Rp24.000.000"
+      },
+      "answer": "C",
+      "explanation": "Laba = Pendapatan − Beban = Rp15.000.000 − Rp9.000.000 = Rp6.000.000."
+    },
+    {
+      "number": 28,
+      "difficulty": "sulit",
+      "question": "Modal awal sebuah usaha Rp25.000.000. Selama periode berjalan, usaha memperoleh pendapatan Rp12.000.000 dan beban Rp7.000.000. Pemilik mengambil prive Rp3.000.000. Modal akhir usaha adalah ....",
+      "options": {
+        "A": "Rp27.000.000",
+        "B": "Rp30.000.000",
+        "C": "Rp33.000.000",
+        "D": "Rp37.000.000"
+      },
+      "answer": "A",
+      "explanation": "Laba = Rp12.000.000 − Rp7.000.000 = Rp5.000.000. Modal akhir = Rp25.000.000 + Rp5.000.000 − Rp3.000.000 = Rp27.000.000."
+    },
+    {
+      "number": 29,
+      "difficulty": "mudah",
+      "question": "Pengambilan uang atau aset perusahaan oleh pemilik untuk kepentingan pribadi disebut ....",
+      "options": {
+        "A": "pendapatan",
+        "B": "beban",
+        "C": "prive",
+        "D": "liabilitas"
+      },
+      "answer": "C",
+      "explanation": "Prive adalah pengambilan aset perusahaan oleh pemilik untuk kepentingan pribadi dan mengurangi ekuitas."
+    },
+    {
+      "number": 30,
+      "difficulty": "sedang",
+      "question": "Manakah transaksi berikut yang menyebabkan ekuitas berkurang?",
+      "options": {
+        "A": "pemilik menyetor modal",
+        "B": "perusahaan memperoleh pendapatan jasa",
+        "C": "perusahaan membayar beban operasional",
+        "D": "perusahaan menerima pinjaman bank"
+      },
+      "answer": "C",
+      "explanation": "Beban mengurangi laba sehingga mengurangi ekuitas. Setoran modal dan pendapatan meningkatkan ekuitas, sedangkan pinjaman meningkatkan liabilitas."
+    },
+    {
+      "number": 31,
+      "difficulty": "sulit",
+      "question": "Sebuah usaha memiliki aset awal Rp40.000.000 dan liabilitas awal Rp15.000.000. Selama periode berjalan, perusahaan memperoleh laba Rp8.000.000 dan pemilik mengambil prive Rp2.000.000. Jika tidak ada transaksi lain yang memengaruhi ekuitas, ekuitas akhir adalah ....",
+      "options": {
+        "A": "Rp23.000.000",
+        "B": "Rp31.000.000",
+        "C": "Rp33.000.000",
+        "D": "Rp35.000.000"
+      },
+      "answer": "B",
+      "explanation": "Ekuitas awal = Rp40.000.000 − Rp15.000.000 = Rp25.000.000. Ekuitas akhir = Rp25.000.000 + Rp8.000.000 − Rp2.000.000 = Rp31.000.000."
+    },
+    {
+      "number": 32,
+      "difficulty": "mudah",
+      "question": "Laporan keuangan yang digunakan untuk mengetahui pendapatan, beban, dan laba atau rugi perusahaan adalah ....",
+      "options": {
+        "A": "laporan laba rugi",
+        "B": "laporan posisi keuangan",
+        "C": "laporan perubahan modal",
+        "D": "laporan arus barang"
+      },
+      "answer": "A",
+      "explanation": "Laporan laba rugi menyajikan pendapatan dan beban selama periode tertentu sehingga dapat diketahui laba atau rugi perusahaan."
+    },
+    {
+      "number": 33,
+      "difficulty": "sedang",
+      "question": "Rumus yang tepat untuk menghitung modal akhir adalah ....",
+      "options": {
+        "A": "Modal awal − laba + prive",
+        "B": "Modal awal + laba − prive",
+        "C": "Modal awal + beban + prive",
+        "D": "Modal awal − pendapatan − prive"
+      },
+      "answer": "B",
+      "explanation": "Modal akhir = Modal awal + laba − prive. Laba meningkatkan modal, sedangkan prive menguranginya."
+    },
+    {
+      "number": 34,
+      "difficulty": "sedang",
+      "question": "Sebuah usaha memiliki modal awal Rp30.000.000, laba Rp10.000.000, dan prive Rp4.000.000. Modal akhirnya adalah ....",
+      "options": {
+        "A": "Rp24.000.000",
+        "B": "Rp34.000.000",
+        "C": "Rp36.000.000",
+        "D": "Rp44.000.000"
+      },
+      "answer": "C",
+      "explanation": "Modal akhir = Rp30.000.000 + Rp10.000.000 − Rp4.000.000 = Rp36.000.000."
+    },
+    {
+      "number": 35,
+      "difficulty": "mudah",
+      "question": "Laporan yang menunjukkan posisi aset, liabilitas, dan ekuitas perusahaan pada suatu waktu tertentu adalah ....",
+      "options": {
+        "A": "laporan laba rugi",
+        "B": "laporan posisi keuangan",
+        "C": "laporan perubahan modal",
+        "D": "laporan pendapatan"
+      },
+      "answer": "B",
+      "explanation": "Laporan posisi keuangan menyajikan aset, liabilitas, dan ekuitas pada tanggal tertentu."
+    },
+    {
+      "number": 36,
+      "difficulty": "sedang",
+      "question": "Jika sebuah perusahaan memiliki total aset Rp75.000.000 dan ekuitas Rp45.000.000, maka total liabilitasnya adalah ....",
+      "options": {
+        "A": "Rp20.000.000",
+        "B": "Rp25.000.000",
+        "C": "Rp30.000.000",
+        "D": "Rp35.000.000"
+      },
+      "answer": "C",
+      "explanation": "Liabilitas = Aset − Ekuitas = Rp75.000.000 − Rp45.000.000 = Rp30.000.000."
+    },
+    {
+      "number": 37,
+      "difficulty": "sulit",
+      "question": "Perhatikan transaksi berikut: pemilik menyetor modal Rp30.000.000, membeli peralatan tunai Rp8.000.000, membeli perlengkapan secara kredit Rp4.000.000, menerima pendapatan tunai Rp10.000.000, dan membayar beban Rp3.000.000. Besarnya total aset akhir adalah ....",
+      "options": {
+        "A": "Rp29.000.000",
+        "B": "Rp33.000.000",
+        "C": "Rp37.000.000",
+        "D": "Rp41.000.000"
+      },
+      "answer": "C",
+      "explanation": "Kas akhir = Rp30.000.000 − Rp8.000.000 + Rp10.000.000 − Rp3.000.000 = Rp29.000.000. Peralatan = Rp8.000.000 dan perlengkapan = Rp4.000.000. Total aset = Rp29.000.000 + Rp8.000.000 + Rp4.000.000 = Rp41.000.000. Jadi jawaban yang benar seharusnya D."
+    },
+    {
+      "number": 38,
+      "difficulty": "sedang",
+      "question": "Urutan yang paling tepat dalam proses akuntansi dasar adalah ....",
+      "options": {
+        "A": "laporan keuangan → transaksi → analisis → persamaan akuntansi",
+        "B": "transaksi → identifikasi akun → analisis pengaruh → pencatatan → laporan keuangan",
+        "C": "persamaan akuntansi → laporan keuangan → transaksi → analisis",
+        "D": "pendapatan → laporan keuangan → transaksi → aset"
+      },
+      "answer": "B",
+      "explanation": "Proses dimulai dari transaksi, kemudian akun diidentifikasi dan dianalisis sebelum dicatat dan diringkas menjadi laporan keuangan."
+    },
+    {
+      "number": 39,
+      "difficulty": "sulit",
+      "question": "Sebuah usaha memiliki aset Rp50.000.000 dan liabilitas Rp20.000.000. Selama periode berjalan, usaha memperoleh laba Rp7.000.000 dan pemilik mengambil prive Rp2.000.000. Jika tidak ada setoran modal tambahan, maka ekuitas akhir dan aset akhir secara berturut-turut adalah ....",
+      "options": {
+        "A": "Rp35.000.000 dan Rp55.000.000",
+        "B": "Rp35.000.000 dan Rp55.000.000",
+        "C": "Rp25.000.000 dan Rp45.000.000",
+        "D": "Rp55.000.000 dan Rp35.000.000"
+      },
+      "answer": "A",
+      "explanation": "Ekuitas awal = Rp50.000.000 − Rp20.000.000 = Rp30.000.000. Ekuitas akhir = Rp30.000.000 + Rp7.000.000 − Rp2.000.000 = Rp35.000.000. Jika liabilitas tetap Rp20.000.000, aset akhir = Rp35.000.000 + Rp20.000.000 = Rp55.000.000."
+    },
+    {
+      "number": 40,
+      "difficulty": "sulit",
+      "question": "Perhatikan rangkaian transaksi berikut: pemilik menyetor modal Rp40.000.000, perusahaan membeli peralatan Rp10.000.000 secara tunai, memperoleh pendapatan Rp15.000.000 secara tunai, membayar beban Rp5.000.000, dan mengambil prive Rp3.000.000. Pernyataan yang benar mengenai kondisi akhir usaha adalah ....",
+      "options": {
+        "A": "aset Rp37.000.000, liabilitas Rp0, dan ekuitas Rp37.000.000",
+        "B": "aset Rp40.000.000, liabilitas Rp0, dan ekuitas Rp40.000.000",
+        "C": "aset Rp47.000.000, liabilitas Rp0, dan ekuitas Rp47.000.000",
+        "D": "aset Rp50.000.000, liabilitas Rp3.000.000, dan ekuitas Rp47.000.000"
+      },
+      "answer": "A",
+      "explanation": "Kas akhir = Rp40.000.000 − Rp10.000.000 + Rp15.000.000 − Rp5.000.000 − Rp3.000.000 = Rp37.000.000. Peralatan Rp10.000.000, sehingga total aset sebenarnya Rp47.000.000. Laba = Rp15.000.000 − Rp5.000.000 = Rp10.000.000. Ekuitas akhir = Rp40.000.000 + Rp10.000.000 − Rp3.000.000 = Rp47.000.000. Jadi jawaban yang benar adalah C."
+    }
+  ]
+}
