@@ -1,6 +1,6 @@
 {
-  "title": "Latihan Fisika SMA - Fluida",
-  "topic": "Fluida",
+  "title": "Latihan Fisika SMA - Fluida, Bunyi, dan Cahaya",
+  "topic": "Fluida, Bunyi, dan Cahaya",
   "subtitle": "Latihan Mandiri 40 Soal",
   "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
   "total_questions": 40,
@@ -290,6 +290,240 @@
       },
       "answer": "B",
       "explanation": "Kontinuitas memberi v2 = (A1/A2)v1 = (6/2)(2) = 6 m/s. Karena pipa horizontal dan v2 lebih besar, Bernoulli menunjukkan P2 < P1."
+    },
+    {
+      "number": 23,
+      "difficulty": "mudah",
+      "question": "Sebuah gelombang bunyi memiliki frekuensi 500 Hz dan panjang gelombang 0,68 m. Cepat rambat bunyi tersebut adalah ....",
+      "options": {
+        "A": "170 m/s",
+        "B": "250 m/s",
+        "C": "340 m/s",
+        "D": "500 m/s"
+      },
+      "answer": "C",
+      "explanation": "v = fλ = 500(0,68) = 340 m/s."
+    },
+    {
+      "number": 24,
+      "difficulty": "sedang",
+      "question": "Dua sumber bunyi identik memancarkan daya yang sama. Pendengar A berada 4 m dari sumber, sedangkan pendengar B berada 8 m dari sumber. Perbandingan intensitas yang diterima A terhadap B adalah ....",
+      "options": {
+        "A": "1 : 4",
+        "B": "1 : 2",
+        "C": "2 : 1",
+        "D": "4 : 1"
+      },
+      "answer": "D",
+      "explanation": "I berbanding terbalik dengan r². IA/IB = rB²/rA² = 8²/4² = 4, sehingga perbandingannya 4 : 1."
+    },
+    {
+      "number": 25,
+      "difficulty": "sedang",
+      "question": "Cahaya dengan frekuensi tetap berpindah dari udara ke kaca. Jika cepat rambat cahaya di udara 3,0 × 10⁸ m/s dan di kaca 2,0 × 10⁸ m/s, perbandingan panjang gelombang di kaca terhadap di udara adalah ....",
+      "options": {
+        "A": "2 : 3",
+        "B": "3 : 2",
+        "C": "1 : 2",
+        "D": "1 : 3"
+      },
+      "answer": "A",
+      "explanation": "Karena frekuensi tetap dan v = fλ, perbandingan panjang gelombang sama dengan perbandingan cepat rambat. λkaca/λudara = 2,0 × 10⁸ / 3,0 × 10⁸ = 2/3."
+    },
+    {
+      "number": 26,
+      "difficulty": "sedang",
+      "question": "Sinar datang dari udara dengan sudut datang 30° menuju kaca yang memiliki indeks bias 1,5. Jika indeks bias udara dianggap 1 dan sin 30° = 0,5, maka sin sudut bias adalah ....",
+      "options": {
+        "A": "0,20",
+        "B": "0,33",
+        "C": "0,50",
+        "D": "0,75"
+      },
+      "answer": "B",
+      "explanation": "n1 sinθ1 = n2 sinθ2, sehingga sinθ2 = (1 × 0,5)/1,5 = 1/3 ≈ 0,33."
+    },
+    {
+      "number": 27,
+      "difficulty": "sulit",
+      "question": "Sebuah lensa cembung memiliki fokus 12 cm. Benda mula-mula berada 36 cm di depan lensa. Kemudian benda digeser mendekati lensa hingga berada 18 cm di depan lensa. Perbandingan besar perbesaran bayangan akhir terhadap awal adalah ....",
+      "options": {
+        "A": "1 : 2",
+        "B": "2 : 1",
+        "C": "3 : 2",
+        "D": "4 : 1"
+      },
+      "answer": "D",
+      "explanation": "Awal: 1/12 = 1/36 + 1/s', sehingga s' = 18 cm dan |M1| = 18/36 = 0,5. Akhir: 1/12 = 1/18 + 1/s', sehingga s' = 36 cm dan |M2| = 36/18 = 2. Jadi M2/M1 = 2/0,5 = 4, atau 4 : 1."
+    },
+    {
+      "number": 28,
+      "difficulty": "sedang",
+      "question": "Sebuah cermin cekung memiliki fokus 20 cm. Sebuah benda diletakkan 60 cm di depan cermin. Jarak bayangan dari cermin adalah ....",
+      "options": {
+        "A": "15 cm",
+        "B": "20 cm",
+        "C": "30 cm",
+        "D": "60 cm"
+      },
+      "answer": "C",
+      "explanation": "1/f = 1/s + 1/s'. Maka 1/20 = 1/60 + 1/s', sehingga 1/s' = 2/60 dan s' = 30 cm."
+    },
+    {
+      "number": 29,
+      "difficulty": "sulit",
+      "question": "Sebuah pipa horizontal dialiri air. Di titik 1 luas penampang 4 cm² dan tekanan 150 kPa, sedangkan di titik 2 luas penampang 2 cm² dan tekanan 120 kPa. Jika massa jenis air 1.000 kg/m³, kecepatan air di titik 1 adalah ....",
+      "options": {
+        "A": "2 m/s",
+        "B": "4 m/s",
+        "C": "√20 m/s",
+        "D": "8 m/s"
+      },
+      "answer": "C",
+      "explanation": "Kontinuitas memberi v2 = 2v1. Bernoulli: 30.000 = 1/2(1.000)(4v1² − v1²) = 1.500v1², sehingga v1² = 20 dan v1 = √20 m/s."
+    },
+    {
+      "number": 30,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa jenis 800 kg/m³ terapung di air yang massa jenisnya 1.000 kg/m³. Fraksi volume benda yang tercelup adalah ....",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "80%",
+        "D": "100%"
+      },
+      "answer": "C",
+      "explanation": "Untuk benda terapung, ρbenda Vtotal g = ρair Vtercelup g. Jadi Vtercelup/Vtotal = 800/1.000 = 0,8 = 80%."
+    },
+    {
+      "number": 31,
+      "difficulty": "mudah",
+      "question": "Sebuah sumber bunyi menghasilkan frekuensi 500 Hz di udara dengan cepat rambat 340 m/s. Ketika gelombang masuk ke medium lain, cepat rambatnya menjadi 680 m/s. Panjang gelombang di medium baru adalah ....",
+      "options": {
+        "A": "0,34 m",
+        "B": "0,68 m",
+        "C": "1,02 m",
+        "D": "1,36 m"
+      },
+      "answer": "D",
+      "explanation": "Frekuensi tetap 500 Hz. Dengan v = fλ, λ = 680/500 = 1,36 m."
+    },
+    {
+      "number": 32,
+      "difficulty": "sedang",
+      "question": "Sebuah sumber bunyi memiliki daya tetap. Jika jarak pendengar dari sumber berubah dari 5 m menjadi 10 m, taraf intensitas bunyi berubah sebesar ....",
+      "options": {
+        "A": "−3 dB",
+        "B": "−6 dB",
+        "C": "−10 dB",
+        "D": "+6 dB"
+      },
+      "answer": "B",
+      "explanation": "Jarak menjadi 2 kali sehingga intensitas menjadi 1/4. Perubahan taraf intensitas = 10 log(1/4) ≈ −6,02 dB, yaitu sekitar −6 dB."
+    },
+    {
+      "number": 33,
+      "difficulty": "mudah",
+      "question": "Pada cermin cembung, bayangan benda nyata selalu bersifat ....",
+      "options": {
+        "A": "nyata, terbalik, diperbesar",
+        "B": "maya, tegak, diperkecil",
+        "C": "nyata, tegak, sama besar",
+        "D": "maya, terbalik, diperbesar"
+      },
+      "answer": "B",
+      "explanation": "Cermin cembung menghasilkan bayangan maya, tegak, dan diperkecil untuk benda nyata."
+    },
+    {
+      "number": 34,
+      "difficulty": "sedang",
+      "question": "Sebuah lensa cekung memiliki fokus 20 cm. Benda diletakkan 60 cm di depan lensa. Jarak bayangan yang terbentuk adalah ....",
+      "options": {
+        "A": "−30 cm",
+        "B": "−15 cm",
+        "C": "15 cm",
+        "D": "30 cm"
+      },
+      "answer": "B",
+      "explanation": "Untuk lensa cekung f = −20 cm. 1/f = 1/s + 1/s' memberi −1/20 = 1/60 + 1/s', sehingga 1/s' = −1/15 dan s' = −15 cm."
+    },
+    {
+      "number": 35,
+      "difficulty": "sulit",
+      "question": "Sebuah benda terapung di air dengan 60% volumenya tercelup. Jika massa jenis air 1.000 kg/m³, massa jenis benda adalah ....",
+      "options": {
+        "A": "400 kg/m³",
+        "B": "600 kg/m³",
+        "C": "1.000 kg/m³",
+        "D": "1.667 kg/m³"
+      },
+      "answer": "B",
+      "explanation": "Untuk benda terapung, ρbenda/ρair = Vtercelup/Vtotal = 0,60. Jadi ρbenda = 0,60(1.000) = 600 kg/m³."
+    },
+    {
+      "number": 36,
+      "difficulty": "mudah",
+      "question": "Sebuah lensa cembung menghasilkan bayangan nyata 30 cm di belakang lensa ketika benda berada 60 cm di depan lensa. Fokus lensa tersebut adalah ....",
+      "options": {
+        "A": "10 cm",
+        "B": "15 cm",
+        "C": "20 cm",
+        "D": "30 cm"
+      },
+      "answer": "C",
+      "explanation": "1/f = 1/60 + 1/30 = 3/60 = 1/20, sehingga f = 20 cm."
+    },
+    {
+      "number": 37,
+      "difficulty": "mudah",
+      "question": "Satuan SI untuk tekanan adalah ....",
+      "options": {
+        "A": "newton",
+        "B": "joule",
+        "C": "pascal",
+        "D": "watt"
+      },
+      "answer": "C",
+      "explanation": "Satuan SI tekanan adalah pascal (Pa), setara dengan N/m²."
+    },
+    {
+      "number": 38,
+      "difficulty": "mudah",
+      "question": "Sebuah gelombang bunyi merambat dari udara ke air. Frekuensinya tetap, sedangkan cepat rambat di air lebih besar daripada di udara. Panjang gelombang di air akan ....",
+      "options": {
+        "A": "lebih kecil",
+        "B": "lebih besar",
+        "C": "tetap sama",
+        "D": "menjadi nol"
+      },
+      "answer": "B",
+      "explanation": "Karena v = fλ dan frekuensi tetap, peningkatan cepat rambat menyebabkan panjang gelombang menjadi lebih besar."
+    },
+    {
+      "number": 39,
+      "difficulty": "sulit",
+      "question": "Sebuah sumber bunyi titik memiliki daya tetap. Pada jarak r, taraf intensitasnya 70 dB. Pada jarak 4r, taraf intensitasnya menjadi ....",
+      "options": {
+        "A": "52 dB",
+        "B": "58 dB",
+        "C": "64 dB",
+        "D": "76 dB"
+      },
+      "answer": "B",
+      "explanation": "Jarak menjadi 4 kali sehingga intensitas menjadi 1/16. Perubahan taraf = 10 log(1/16) ≈ −12,04 dB. Jadi taraf baru sekitar 58 dB."
+    },
+    {
+      "number": 40,
+      "difficulty": "mudah",
+      "question": "Sebuah benda diletakkan 15 cm di depan lensa cembung yang memiliki fokus 10 cm. Sifat bayangan yang terbentuk adalah ....",
+      "options": {
+        "A": "maya, tegak, diperkecil",
+        "B": "maya, tegak, diperbesar",
+        "C": "nyata, terbalik, diperkecil",
+        "D": "nyata, terbalik, diperbesar"
+      },
+      "answer": "D",
+      "explanation": "Karena f < s < 2f (10 cm < 15 cm < 20 cm), bayangan lensa cembung bersifat nyata, terbalik, dan diperbesar."
     }
   ]
 }
