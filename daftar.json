@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T15:49:36",
+  "generated": "2026-10-03T15:51:27",
   "kuis": [
     {
       "title": "Diagnostic Test Biologi Kelas 9",
@@ -83,10 +83,10 @@
       "mapel": "Fisika",
       "kelas": "TKA Fisika",
       "topik": [
-        "Fluida",
-        "Soal Fluida"
+        "Fluida Dan Gelombang",
+        "Soal Fluida Bunyi Cahaya"
       ],
-      "path": "Fisika/TKA Fisika/Fluida/soal_fluida.json"
+      "path": "Fisika/TKA Fisika/Fluida dan Gelombang/soal_fluida_bunyi_cahaya.json"
     },
     {
       "title": "Latihan Soal Perbandingan",
