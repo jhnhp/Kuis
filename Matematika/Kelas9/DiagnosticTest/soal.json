@@ -146,7 +146,7 @@
         "D": "91"
       },
       "answer": "B",
-      "explanation": "Barisan aritmetika memiliki suku pertama 7 dan beda 4. Suku ke-20 = 7 + (20 − 1) × 4 = 7 + 76 = 83."
+      "explanation": "Barisan aritmetika memiliki suku pertama 7 dan beda 4. Suku ke-20 = 7 + (20 − 1) × 4 = 83."
     },
     {
       "number": 12,
@@ -171,8 +171,8 @@
         "C": "180 m²",
         "D": "196 m²"
       },
-      "answer": "B",
-      "explanation": "Karena jalur dibuat di bagian dalam pada keempat sisi, ukuran bagian tengah menjadi 16 m × 10 m. Luas = 16 × 10 = 160 m². Jadi jawaban yang benar seharusnya A."
+      "answer": "A",
+      "explanation": "Jalur selebar 1 m dibuat pada keempat sisi bagian dalam. Panjang bagian tengah = 18 − 2 = 16 m dan lebarnya = 12 − 2 = 10 m. Luas = 16 × 10 = 160 m²."
     },
     {
       "number": 14,
@@ -184,8 +184,8 @@
         "C": "20",
         "D": "25"
       },
-      "answer": "B",
-      "explanation": "Sudut dalam berseberangan pada dua garis sejajar besarnya sama. Jadi 3x + 15 = 5x − 25. Diperoleh 40 = 2x, sehingga x = 20. Jadi jawaban yang benar seharusnya C."
+      "answer": "C",
+      "explanation": "Sudut dalam berseberangan pada dua garis sejajar besarnya sama. Jadi 3x + 15 = 5x − 25. Diperoleh 40 = 2x, sehingga x = 20."
     },
     {
       "number": 15,
@@ -197,8 +197,8 @@
         "C": "Rp440.000",
         "D": "Rp450.000"
       },
-      "answer": "B",
-      "explanation": "Setelah diskon 20%, harga menjadi Rp500.000 × 80% = Rp400.000. Pajak 10% = Rp40.000. Total pembayaran = Rp440.000. Jadi jawaban yang benar seharusnya C."
+      "answer": "C",
+      "explanation": "Setelah diskon 20%, harga menjadi Rp500.000 × 80% = Rp400.000. Pajak 10% = Rp40.000. Total pembayaran = Rp400.000 + Rp40.000 = Rp440.000."
     },
     {
       "number": 16,
@@ -210,8 +210,8 @@
         "C": "630",
         "D": "660"
       },
-      "answer": "C",
-      "explanation": "Barisan memiliki a = 12, b = 4, dan n = 15. Suku ke-15 = 12 + 14 × 4 = 68. Jumlah = 15/2 × (12 + 68) = 600. Jadi jawaban yang benar seharusnya B."
+      "answer": "B",
+      "explanation": "Barisan memiliki a = 12, b = 4, dan n = 15. Suku ke-15 = 12 + 14 × 4 = 68. Jumlah = 15/2 × (12 + 68) = 600."
     },
     {
       "number": 17,
@@ -236,34 +236,34 @@
         "C": "56",
         "D": "65"
       },
-      "answer": "A",
-      "explanation": "Misalkan digit puluhan x dan satuan y. x + y = 11. Selisih bilangan setelah digit ditukar adalah 9(y − x) = 27, sehingga y − x = 3. Dari kedua persamaan diperoleh x = 4 dan y = 7. Jadi bilangan semula adalah 47. Jawaban yang benar seharusnya B."
+      "answer": "B",
+      "explanation": "Misalkan digit puluhan x dan satuan y. x + y = 11. Selisih bilangan setelah digit ditukar adalah 9(y − x) = 27, sehingga y − x = 3. Diperoleh x = 4 dan y = 7. Jadi bilangan semula adalah 47."
     },
     {
       "number": 19,
       "difficulty": "sulit",
-      "question": "Sebuah balok memiliki volume 1.080 cm³. Panjangnya 15 cm dan lebarnya 9 cm. Balok tersebut akan dipotong menjadi kubus-kubus kecil dengan panjang rusuk 3 cm. Banyak kubus kecil yang dapat dibuat adalah ....",
+      "question": "Sebuah balok memiliki panjang 18 cm, lebar 12 cm, dan tinggi 9 cm. Balok tersebut akan dipotong menjadi kubus-kubus kecil dengan panjang rusuk 3 cm. Banyak kubus kecil yang dapat dibuat adalah ....",
       "options": {
-        "A": "20",
-        "B": "30",
-        "C": "40",
-        "D": "45"
+        "A": "54",
+        "B": "72",
+        "C": "108",
+        "D": "162"
       },
-      "answer": "C",
-      "explanation": "Tinggi balok = 1.080 ÷ (15 × 9) = 8 cm. Namun tinggi 8 cm tidak merupakan kelipatan 3, sehingga balok tidak dapat dipotong seluruhnya menjadi kubus rusuk 3 cm tanpa sisa. Soal ini tidak memiliki kondisi yang tepat untuk menghasilkan salah satu pilihan."
+      "answer": "B",
+      "explanation": "Banyak kubus sepanjang panjang = 18 ÷ 3 = 6, sepanjang lebar = 12 ÷ 3 = 4, dan sepanjang tinggi = 9 ÷ 3 = 3. Jadi banyak kubus = 6 × 4 × 3 = 72. Dengan demikian jawaban yang benar adalah B."
     },
     {
       "number": 20,
       "difficulty": "sulit",
-      "question": "Sebuah pola ubin membentuk barisan. Pada pola ke-1 digunakan 5 ubin, pola ke-2 menggunakan 9 ubin, pola ke-3 menggunakan 15 ubin, dan pola ke-4 menggunakan 23 ubin. Jika pola berlanjut dengan aturan yang sama, banyak ubin pada pola ke-10 adalah ....",
+      "question": "Sebuah pola ubin menggunakan 5 ubin pada pola ke-1, 9 ubin pada pola ke-2, 15 ubin pada pola ke-3, dan 23 ubin pada pola ke-4. Jika pola berlanjut dengan aturan yang sama, banyak ubin pada pola ke-10 adalah ....",
       "options": {
-        "A": "105",
-        "B": "109",
-        "C": "113",
-        "D": "119"
+        "A": "121",
+        "B": "127",
+        "C": "131",
+        "D": "135"
       },
       "answer": "C",
-      "explanation": "Selisihnya adalah 4, 6, 8, sehingga selisih bertambah 2 setiap kali. Pola ini dapat ditulis sebagai Un = n² + 3n + 1. Untuk n = 10, U10 = 100 + 30 + 1 = 131. Jadi tidak ada pilihan jawaban yang sesuai."
+      "explanation": "Selisih antar suku adalah 4, 6, 8, sehingga selisih berikutnya bertambah 2. Polanya dapat dinyatakan Un = n² + 3n + 1. Untuk n = 10, U10 = 100 + 30 + 1 = 131."
     }
   ]
 }
