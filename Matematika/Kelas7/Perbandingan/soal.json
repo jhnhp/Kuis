@@ -145,8 +145,8 @@
         "C": "5 siswa",
         "D": "6 siswa"
       },
-      "answer": "C",
-      "explanation": "Jumlah bagian = 13, sehingga 1 bagian = 39 ÷ 13 = 3 siswa. Selisihnya 7 - 6 = 1 bagian = 3 siswa."
+      "answer": "B",
+      "explanation": "Jumlah bagian = 6 + 7 = 13. Satu bagian = 39 ÷ 13 = 3 siswa. Selisih laki-laki dan perempuan = (7 − 6) × 3 = 3 siswa."
     },
     {
       "number": 12,
@@ -268,7 +268,7 @@
     {
       "number": 21,
       "difficulty": "sulit",
-      "question": "Diketahui sebuah mobil melaju dari Kota P ke Kota Q dengan kecepatan 80 km/jam dalam waktu 3 3/8 jam. Jika mobil tersebut melaju dengan kecepatan 60 km/jam, maka mobil akan sampai di Kota B dalam waktu ....",
+      "question": "Diketahui sebuah mobil melaju dari Kota P ke Kota Q dengan kecepatan 80 km/jam dalam waktu 3 3/8 jam. Jika mobil tersebut melaju dengan kecepatan 60 km/jam, maka mobil akan sampai di Kota Q dalam waktu ....",
       "options": {
         "A": "5 jam",
         "B": "4 3/4 jam",
@@ -322,13 +322,13 @@
       "difficulty": "sulit",
       "question": "Azizah menggambar sebuah menara di buku gambarnya. Jika skala yang digunakan 1 : 250 dan tinggi menara sebenarnya 250 m, maka tinggi menara pada gambar adalah ....",
       "options": {
-        "A": "50 cm",
-        "B": "25 cm",
-        "C": "20 cm",
-        "D": "12,5 cm"
+        "A": "100 cm",
+        "B": "50 cm",
+        "C": "25 cm",
+        "D": "20 cm"
       },
-      "answer": null,
-      "explanation": "Dengan skala 1 : 250, tinggi gambar = 250 m ÷ 250 = 1 m = 100 cm. Hasil ini tidak tersedia pada pilihan jawaban, sehingga soal pada sumber tidak memiliki opsi yang sesuai."
+      "answer": "A",
+      "explanation": "Tinggi menara sebenarnya 250 m = 25.000 cm. Dengan skala 1 : 250, tinggi pada gambar = 25.000 ÷ 250 = 100 cm."
     },
     {
       "number": 26,
@@ -398,7 +398,7 @@
     {
       "number": 31,
       "difficulty": "sulit",
-      "question": "Ayah akan membagikan uang sejumlah Rp500.000 kepada kedua anaknya dengan perbandingan 2 : 3 yang mana jumlah uang kakak lebih besar daripada adik. Jumlah uang yang diterima adik adalah ....",
+      "question": "Ayah akan membagikan uang sejumlah Rp500.000 kepada kedua anaknya. Uang adik dan kakak berbanding 2 : 3, sehingga jumlah uang kakak lebih besar daripada adik. Jumlah uang yang diterima adik adalah ....",
       "options": {
         "A": "Rp200.000",
         "B": "Rp300.000",
@@ -406,7 +406,7 @@
         "D": "Rp450.000"
       },
       "answer": "A",
-      "explanation": "Karena uang kakak lebih besar, perbandingan adik : kakak dipahami sebagai 2 : 3. Total 5 bagian, sehingga adik menerima 2/5 × Rp500.000 = Rp200.000."
+      "explanation": "Perbandingan adik : kakak = 2 : 3. Total bagian = 5. Uang adik = 2/5 × Rp500.000 = Rp200.000."
     },
     {
       "number": 32,
@@ -452,13 +452,13 @@
       "difficulty": "sulit",
       "question": "Untuk membuat sebuah jembatan diperlukan pekerja sebanyak 24 orang yang dapat diselesaikan selama 72 hari. Setelah dikerjakan 32 hari, pekerjaan dihentikan selama 4 hari. Jika kemampuan bekerja setiap orang sama dan agar pekerjaan tersebut selesai sesuai jadwal semula, maka banyak pekerja tambahan yang diperlukan adalah ....",
       "options": {
-        "A": "22 orang",
-        "B": "24 orang",
-        "C": "42 orang",
-        "D": "48 orang"
+        "A": "2 orang",
+        "B": "3 orang",
+        "C": "4 orang",
+        "D": "6 orang"
       },
-      "answer": null,
-      "explanation": "Jika pekerjaan dihentikan 4 hari setelah 32 hari bekerja, waktu efektif yang tersisa sampai hari ke-72 adalah 36 hari. Sisa pekerjaan = 24 × (72 - 32) = 960 orang-hari, sehingga diperlukan 960 ÷ 36 = 26 2/3 pekerja, atau tambahan 2 2/3 pekerja. Tidak ada pilihan jawaban yang sesuai, sehingga soal pada sumber tampaknya memiliki ketidaksesuaian data atau pilihan."
+      "answer": "B",
+      "explanation": "Total pekerjaan = 24 × 72 = 1.728 orang-hari. Setelah 32 hari, pekerjaan yang tersisa = 1.728 − (24 × 32) = 960 orang-hari. Karena pekerjaan berhenti 4 hari, waktu efektif yang tersisa sampai hari ke-72 adalah 72 − 32 − 4 = 36 hari. Pekerja yang diperlukan = 960 ÷ 36 = 26 2/3 orang, sehingga harus tersedia 27 pekerja. Tambahan pekerja = 27 − 24 = 3 orang."
     },
     {
       "number": 36,
