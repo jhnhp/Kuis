@@ -207,6 +207,19 @@ a.btn{text-decoration:none;color:inherit}
 .b-note{padding:16px;border-radius:14px;margin-top:18px;background:var(--bad-soft);color:var(--bad);font-size:15px}
 .b-note code{background:rgba(0,0,0,.07);padding:1px 6px;border-radius:6px}
 #more{margin-top:16px}
+.b-crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:14px;margin-bottom:14px;color:var(--muted)}
+.b-crumbs a{color:var(--brand);text-decoration:none;font-weight:600;padding:4px 2px}
+.b-crumbs a:hover{text-decoration:underline}
+.b-crumbs .cur{color:var(--ink);font-weight:700}
+.b-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-top:22px}
+.b-card{display:flex;flex-direction:column;justify-content:center;gap:6px;min-height:116px;padding:18px 20px;border:1px solid var(--line);border-radius:20px;background:var(--surface);text-decoration:none;color:inherit;transition:border-color .15s,transform .1s,box-shadow .15s}
+.b-card:hover{border-color:var(--brand);box-shadow:0 10px 28px rgba(79,70,229,.1)}
+.b-card:active{transform:scale(.98)}
+.b-card b{font-family:var(--display);font-size:26px;line-height:1.1;letter-spacing:-.01em}
+.b-card span{color:var(--muted);font-size:14px}
+.b-ctx{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:4px}
+.b-ctx span{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--brand-soft);color:var(--brand)}
+@media (max-width:520px){.b-cards{grid-template-columns:1fr 1fr}.b-card{min-height:96px;padding:14px}.b-card b{font-size:21px}}
 footer{text-align:center;color:var(--muted);font-size:11px;padding:6px 12px calc(6px + env(safe-area-inset-bottom))}
 
 /* mobile */
@@ -242,15 +255,14 @@ footer{text-align:center;color:var(--muted);font-size:11px;padding:6px 12px calc
 
 <!-- Daftar kuis -->
 <main id="browse" class="bwrap hidden">
-  <h1>Pilih kuis</h1>
-  <p class="b-lead">Pilih mata pelajaran dan kelas, lalu pilih topik ujian.</p>
-  <div class="b-frow"><span>Mata pelajaran</span><div class="b-chips" id="f-mapel"></div></div>
-  <div class="b-frow"><span>Kelas</span><div class="b-chips" id="f-kelas"></div></div>
-  <input class="b-search" id="search" type="search" placeholder="Cari topik ujian…" aria-label="Cari topik ujian">
-  <p class="b-count" id="bcount"></p>
+  <nav class="b-crumbs hidden" id="crumbs" aria-label="Posisi"></nav>
+  <h1 id="b-h1">Pilih kelas</h1>
+  <p class="b-lead" id="b-lead"></p>
+  <input class="b-search" id="search" type="search" placeholder="Cari kuis…" aria-label="Cari kuis">
+  <p class="b-count hidden" id="bcount"></p>
   <div id="blist"></div>
   <button class="btn block hidden" id="more">Tampilkan lebih banyak</button>
-  <p class="b-empty hidden" id="bempty">Tidak ada kuis yang cocok. Coba ganti filter atau kata kunci.</p>
+  <p class="b-empty hidden" id="bempty">Tidak ada kuis yang cocok.</p>
   <div class="b-note hidden" id="berr"></div>
 </main>
 
@@ -266,7 +278,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;padding:6px 12px calc
       <input id="name" type="text" autocomplete="name" placeholder="Tulis namamu" enterkeyhint="go">
     </div>
     <button class="btn primary block" id="go">Mulai mengerjakan</button>
-    <a class="btn block" href="?" style="margin-top:10px">← Semua kuis</a>
+    <a class="btn block" href="?" data-back style="margin-top:10px">← Kembali ke daftar kuis</a>
   </div>
 </main>
 
@@ -320,7 +332,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;padding:6px 12px calc
     </div>
     <div class="save" id="save"></div>
     <button class="btn finish block" id="review">Lihat kunci &amp; pembahasan</button>
-    <a class="btn block" href="?" style="margin-top:10px">Kembali ke daftar kuis</a>
+    <a class="btn block" href="?" data-back style="margin-top:10px">Kembali ke daftar kuis</a>
   </div>
 </main>
 
@@ -419,6 +431,7 @@ async function load(){
     $('s-title').textContent = data.topic || data.title || 'Kuis';
     $('s-sub').textContent = data.difficulty_summary || data.subtitle || 'Pastikan koneksi internet stabil sebelum mulai.';
     $('s-count').textContent = data.total_questions + ' soal';
+    setBack();
     try{ $('name').value = localStorage.getItem('nalarin:nama') || ''; }catch(e){}
     const saved = store.get();
     if(saved && saved.name && saved.answers && saved.answers.length === data.total_questions){
@@ -468,13 +481,12 @@ function show(which){
 
 /* ---------- gambar ---------- */
 const EXTS = ['jpg','png','jpeg','webp','gif','svg','avif','JPG','PNG','JPEG'];
-const WARN_MISSING = () => data.warn_missing_image === true;
 const imgCache = {};
 const folder = () => BASE_DIR + (data.image_folder || 'gambar').replace(/\/+$/, '');
 function baseOf(q, i){
-  if(q.image === false) return null;
-  if(typeof q.image === 'string' && q.image) return q.image;
-  return String(q.number || i + 1);
+  if(typeof q.image === 'string' && q.image.trim()) return q.image.trim();
+  if(q.image === true) return String(q.number || i + 1);
+  return null;   // tidak ada atribut "image" = tidak ada gambar, tidak ada permintaan ke server
 }
 function loadImg(base){
   return new Promise(res => {
@@ -540,7 +552,7 @@ function renderPassage(q){
 }
 
 function renderMedia(q){
-  drawFigure($('fig'), baseOf(q, idx), typeof q.image === 'string' || WARN_MISSING());
+  drawFigure($('fig'), baseOf(q, idx), true);
   renderPassage(q);
   const nx = data.questions[idx + 1];
   if(nx){ const b = baseOf(nx, idx + 1); if(b) loadImg(b); }
@@ -717,89 +729,107 @@ $('review').onclick = () => {
   show('quiz'); render();
 };
 
-/* ---------- daftar kuis ---------- */
-let LIST = [];
-const BS = {mapel:'', kelas:'', q:'', limit:40};
-const NONE = '__umum';
-const saveBS = () => { try{ sessionStorage.setItem('nalarin:filter', JSON.stringify({mapel:BS.mapel, kelas:BS.kelas})); }catch(e){} };
+/* ---------- daftar kuis: Kelas > Mapel > Kuis ---------- */
+let LIST = [], QRY = '', LIMIT = 40;
 const mk = (tag, cls, text) => { const e = document.createElement(tag); if(cls) e.className = cls; if(text != null) e.textContent = text; return e; };
 const nat = (a, b) => a.localeCompare(b, 'id', {numeric: true});
+const goto = (kelas, mapel) => '?' + (kelas ? 'kelas=' + encodeURIComponent(kelas) : '') + (mapel ? '&mapel=' + encodeURIComponent(mapel) : '');
+const plural = (n, w) => n + ' ' + w;
 
-function chipRow(box, items, current, pick){
-  box.innerHTML = '';
-  items.forEach(it => {
-    const b = mk('button', 'fchip' + (it.value === current ? ' on' : ''), it.label);
-    b.type = 'button';
-    b.appendChild(mk('small', '', it.count));
-    b.onclick = () => pick(it.value);
-    box.appendChild(b);
-  });
+function setBack(){
+  fetch('daftar.json').then(r => r.json()).then(d => {
+    const e = (d.kuis || []).find(k => k.path === JSON_PATH);
+    if(e) document.querySelectorAll('a[data-back]').forEach(a => a.href = goto(e.kelas, e.mapel));
+  }).catch(() => {});
 }
-function drawFilters(){
-  const cnt = (arr, key) => arr.reduce((m, k) => (m[key(k)] = (m[key(k)] || 0) + 1, m), {});
-  const mapelC = cnt(LIST, k => k.mapel);
-  chipRow($('f-mapel'),
-    [{value:'', label:'Semua', count:LIST.length}, ...Object.keys(mapelC).sort(nat).map(m => ({value:m, label:m, count:mapelC[m]}))],
-    BS.mapel, v => { BS.mapel = v; BS.kelas = ''; BS.limit = 40; saveBS(); drawFilters(); drawList(); });
-  const inMapel = LIST.filter(k => !BS.mapel || k.mapel === BS.mapel);
-  const kelasC = cnt(inMapel, k => k.kelas || NONE);
-  const keys = Object.keys(kelasC).filter(k => k !== NONE).sort(nat);
-  if(kelasC[NONE]) keys.push(NONE);
-  if(BS.kelas && !kelasC[BS.kelas]) BS.kelas = '';
-  chipRow($('f-kelas'),
-    [{value:'', label:'Semua', count:inMapel.length}, ...keys.map(k => ({value:k, label:k === NONE ? 'Umum' : k, count:kelasC[k]}))],
-    BS.kelas, v => { BS.kelas = v; BS.limit = 40; saveBS(); drawFilters(); drawList(); });
+
+function card(href, title, meta){
+  const a = mk('a', 'b-card'); a.href = href;
+  a.appendChild(mk('b', '', title)); a.appendChild(mk('span', '', meta));
+  return a;
 }
-function drawList(){
-  const term = BS.q.trim().toLowerCase();
-  const rows = LIST.filter(k =>
-    (!BS.mapel || k.mapel === BS.mapel) &&
-    (!BS.kelas || (BS.kelas === NONE ? !k.kelas : k.kelas === BS.kelas)) &&
-    (!term || [k.title, k.topic, k.summary, k.mapel, k.kelas, ...(k.topik || [])].join(' ').toLowerCase().includes(term)));
-  $('bcount').textContent = rows.length + ' kuis';
-  $('bempty').classList.toggle('hidden', rows.length > 0);
-  const shown = rows.slice(0, BS.limit);
-  $('more').classList.toggle('hidden', rows.length <= BS.limit);
-  const groups = new Map();
-  shown.forEach(k => { const g = k.mapel + '\u0000' + (k.kelas || ''); if(!groups.has(g)) groups.set(g, []); groups.get(g).push(k); });
+function row(k, withCtx){
+  const a = mk('a', 'b-item');
+  a.href = '?kuis=' + k.path.split('/').map(encodeURIComponent).join('/');
+  const n = mk('div', 'b-n', k.questions || '–'); n.appendChild(mk('small', '', 'soal')); a.appendChild(n);
+  const main = mk('div', 'b-main');
+  if(withCtx){ const c = mk('div', 'b-ctx'); c.appendChild(mk('span', '', k.kelas)); c.appendChild(mk('span', '', k.mapel)); main.appendChild(c); }
+  main.appendChild(mk('div', 'b-title', k.title));
+  const meta = k.topic && !k.title.toLowerCase().includes(k.topic.toLowerCase()) ? k.topic : '';
+  if(meta) main.appendChild(mk('div', 'b-meta', meta));
+  a.appendChild(main); a.appendChild(mk('div', 'b-go', '›'));
+  return a;
+}
+
+function draw(){
+  const kelas = _P.get('kelas') || '', mapel = _P.get('mapel') || '';
+  const scope = LIST.filter(k => (!kelas || k.kelas === kelas) && (!mapel || k.mapel === mapel));
+  const term = QRY.trim().toLowerCase();
   const box = $('blist'); box.innerHTML = '';
-  groups.forEach((items, g) => {
-    const [m, kl] = g.split('\u0000');
-    const sec = mk('section', 'b-group'), h = mk('h2', '', m + (kl ? ' · ' + kl : ''));
-    h.appendChild(mk('small', '', rows.filter(k => k.mapel === m && (k.kelas || '') === kl).length + ' kuis'));
-    sec.appendChild(h);
-    const ul = mk('div', 'b-list');
-    items.forEach(k => {
-      const a = mk('a', 'b-item');
-      a.href = '?kuis=' + k.path.split('/').map(encodeURIComponent).join('/');
-      const n = mk('div', 'b-n', k.questions || '–'); n.appendChild(mk('small', '', 'soal')); a.appendChild(n);
-      const main = mk('div', 'b-main'); main.appendChild(mk('div', 'b-title', k.title));
-      const meta = [k.topic && k.topic !== k.title ? k.topic : '', (k.topik || []).join(' › ')].filter(Boolean).join(' · ');
-      if(meta) main.appendChild(mk('div', 'b-meta', meta));
-      a.appendChild(main); a.appendChild(mk('div', 'b-go', '›'));
-      ul.appendChild(a);
-    });
-    sec.appendChild(ul); box.appendChild(sec);
-  });
+  $('more').classList.add('hidden'); $('bempty').classList.add('hidden'); $('bcount').classList.add('hidden');
+
+  // jejak
+  const cr = $('crumbs'); cr.innerHTML = '';
+  cr.classList.toggle('hidden', !kelas);
+  if(kelas){
+    const add = (t, href) => { if(cr.children.length) cr.appendChild(mk('span', '', '›')); if(href){ const a = mk('a', '', t); a.href = href; cr.appendChild(a); } else cr.appendChild(mk('span', 'cur', t)); };
+    add('Semua kelas', '?');
+    add(kelas, mapel ? goto(kelas) : null);
+    if(mapel) add(mapel, null);
+  }
+  $('b-h1').textContent = !kelas ? 'Pilih kelas' : !mapel ? kelas : kelas + ' · ' + mapel;
+  $('b-lead').textContent = !kelas ? 'Pilih kelas, lalu mata pelajaran, lalu kuis yang ingin dikerjakan.'
+    : !mapel ? 'Pilih mata pelajaran.' : 'Pilih kuis yang ingin dikerjakan.';
+  $('search').placeholder = !kelas ? 'Cari kuis di semua kelas…' : 'Cari kuis di ' + (mapel ? kelas + ' · ' + mapel : kelas) + '…';
+
+  if(kelas && !scope.length){
+    $('bempty').textContent = 'Belum ada kuis untuk pilihan ini.'; $('bempty').classList.remove('hidden'); return;
+  }
+
+  // pencarian: daftar datar di dalam cakupan yang sedang dibuka
+  if(term){
+    const hits = scope.filter(k => [k.title, k.topic, k.summary, k.kelas, k.mapel, ...(k.topik || [])].join(' ').toLowerCase().includes(term));
+    $('bcount').textContent = hits.length + ' kuis ditemukan'; $('bcount').classList.remove('hidden');
+    if(!hits.length){ $('bempty').textContent = 'Tidak ada kuis yang cocok.'; $('bempty').classList.remove('hidden'); return; }
+    const ul = mk('div', 'b-list'); ul.style.marginTop = '14px';
+    hits.slice(0, LIMIT).forEach(k => ul.appendChild(row(k, !mapel)));
+    box.appendChild(ul);
+    $('more').classList.toggle('hidden', hits.length <= LIMIT);
+    return;
+  }
+
+  if(!kelas){                               // langkah 1: kelas
+    const g = new Map();
+    scope.forEach(k => { if(!g.has(k.kelas)) g.set(k.kelas, {m: new Set(), n: 0}); const o = g.get(k.kelas); o.m.add(k.mapel); o.n++; });
+    const grid = mk('div', 'b-cards');
+    [...g.keys()].sort(nat).forEach(c => grid.appendChild(card(goto(c), c, g.get(c).m.size + ' mapel · ' + g.get(c).n + ' kuis')));
+    box.appendChild(grid);
+  } else if(!mapel){                        // langkah 2: mapel
+    const g = new Map();
+    scope.forEach(k => g.set(k.mapel, (g.get(k.mapel) || 0) + 1));
+    const grid = mk('div', 'b-cards');
+    [...g.keys()].sort(nat).forEach(m => grid.appendChild(card(goto(kelas, m), m, g.get(m) + ' kuis')));
+    box.appendChild(grid);
+  } else {                                  // langkah 3: kuis
+    $('bcount').textContent = scope.length + ' kuis'; $('bcount').classList.remove('hidden');
+    const ul = mk('div', 'b-list'); ul.style.marginTop = '14px';
+    scope.slice(0, LIMIT).forEach(k => ul.appendChild(row(k, false)));
+    box.appendChild(ul);
+    $('more').classList.toggle('hidden', scope.length <= LIMIT);
+  }
 }
+
 function browse(){
   $('title').textContent = 'Pilih kuis';
   document.title = 'Nalarin Quiz';
   show('browse');
-  try{ const f = JSON.parse(sessionStorage.getItem('nalarin:filter') || '{}'); BS.mapel = f.mapel || ''; BS.kelas = f.kelas || ''; }catch(e){}
-  $('search').oninput = e => { BS.q = e.target.value; BS.limit = 40; drawList(); };
-  $('more').onclick = () => { BS.limit += 40; drawList(); };
+  $('search').oninput = e => { QRY = e.target.value; LIMIT = 40; draw(); };
+  $('more').onclick = () => { LIMIT += 40; draw(); };
   fetch('daftar.json', {cache: 'no-cache'})
     .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(d => {
-      LIST = d.kuis || [];
-      if(!LIST.length) throw new Error('kosong');
-      if(BS.mapel && !LIST.some(k => k.mapel === BS.mapel)) BS.mapel = '';
-      drawFilters(); drawList();
-    })
+    .then(d => { LIST = d.kuis || []; if(!LIST.length) throw new Error('kosong'); draw(); })
     .catch(() => {
-      ['search','f-mapel','f-kelas','bcount'].forEach(i => $(i).classList.add('hidden'));
-      document.querySelectorAll('.b-frow').forEach(e => e.classList.add('hidden'));
+      ['search','b-lead','b-h1'].forEach(i => $(i).classList.add('hidden'));
       const e = $('berr'); e.classList.remove('hidden');
       e.innerHTML = 'Daftar kuis belum bisa dimuat. Jalankan <code>python3 buat-daftar.py</code> di folder ini, lalu buka halaman lewat server (bukan langsung dari file).';
     });

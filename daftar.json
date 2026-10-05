@@ -1,128 +1,125 @@
 {
-  "generated": "2026-10-05T02:52:38",
+  "generated": "2026-10-05T03:03:17",
   "kuis": [
+    {
+      "title": "Latihan Soal Perbandingan",
+      "topic": "Perbandingan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 7",
+      "mapel": "Matematika",
+      "topik": [
+        "Perbandingan"
+      ],
+      "path": "Kelas7/Matematika/Perbandingan/soal.json"
+    },
     {
       "title": "Diagnostic Test Biologi Kelas 9",
       "topic": "Sistem Organ, Hormon, serta Pertumbuhan dan Perkembangan Manusia",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit",
       "questions": 20,
-      "mapel": "Biologi",
       "kelas": "Kelas 9",
+      "mapel": "Biologi",
       "topik": [
         "Diagnostic Test"
       ],
-      "path": "Biologi/Kelas9/DiagnosticTest/soal.json"
-    },
-    {
-      "title": "TKA Ekonomi - Mikroekonomi dan Makroekonomi",
-      "topic": "Mikroekonomi dan Makroekonomi",
-      "summary": "Kerjakanlah dengan jujur dan teliti.",
-      "questions": 40,
-      "mapel": "Ekonomi",
-      "kelas": "TKA SMA",
-      "topik": [
-        "Latihan 1"
-      ],
-      "path": "Ekonomi/TKA SMA/Latihan1/soal.json"
-    },
-    {
-      "title": "TKA Ekonomi - Ekonomi Internasional dan Akuntansi Keuangan Dasar",
-      "topic": "Bab 3 Ekonomi Internasional dan Bab 4 Akuntansi Keuangan Dasar",
-      "summary": "Kerjakanlah dengan jujur dan teliti.",
-      "questions": 40,
-      "mapel": "Ekonomi",
-      "kelas": "TKA SMA",
-      "topik": [
-        "Latihan 2"
-      ],
-      "path": "Ekonomi/TKA SMA/Latihan 2/soal.json"
+      "path": "Kelas9/Biologi/DiagnosticTest/soal.json"
     },
     {
       "title": "Diagnostic Test Fisika Kelas 9",
       "topic": "Listrik Statis dan Listrik Dinamis",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit",
       "questions": 20,
-      "mapel": "Fisika",
       "kelas": "Kelas 9",
+      "mapel": "Fisika",
       "topik": [
         "Diagnostic Test"
       ],
-      "path": "Fisika/Kelas9/DiagnosticTest/soal.json"
-    },
-    {
-      "title": "Latihan Fisika Kelas 11 - Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
-      "topic": "Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
-      "questions": 40,
-      "mapel": "Fisika",
-      "kelas": "Kelas 11",
-      "topik": [
-        "Kinematika Dan Dinamika 2"
-      ],
-      "path": "Fisika/Kelas11/Kinematika dan Dinamika 2/soal.json"
-    },
-    {
-      "title": "Latihan Fisika Kelas 11 - Gerak dan Gaya",
-      "topic": "Gerak dan Gaya",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
-      "questions": 20,
-      "mapel": "Fisika",
-      "kelas": "Kelas 11",
-      "topik": [
-        "Kinematika Dan Dinamika",
-        "Soal Gerak Dan Gaya"
-      ],
-      "path": "Fisika/Kelas11/Kinematika dan Dinamika/soal_gerak_dan_gaya.json"
-    },
-    {
-      "title": "Latihan Fisika Kelas 11 - Vektor",
-      "topic": "Vektor",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
-      "questions": 40,
-      "mapel": "Fisika",
-      "kelas": "Kelas 11",
-      "topik": [
-        "Vektor",
-        "Soal Vektor"
-      ],
-      "path": "Fisika/Kelas11/Vektor/soal_vektor.json"
-    },
-    {
-      "title": "Latihan Fisika SMA - Fluida, Bunyi, dan Cahaya",
-      "topic": "Fluida, Bunyi, dan Cahaya",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
-      "questions": 40,
-      "mapel": "Fisika",
-      "kelas": "TKA Fisika",
-      "topik": [
-        "Fluida Dan Gelombang",
-        "Soal Fluida Bunyi Cahaya"
-      ],
-      "path": "Fisika/TKA Fisika/Fluida dan Gelombang/soal_fluida_bunyi_cahaya.json"
-    },
-    {
-      "title": "Latihan Soal Perbandingan",
-      "topic": "Perbandingan",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
-      "questions": 40,
-      "mapel": "Matematika",
-      "kelas": "Kelas 7",
-      "topik": [
-        "Perbandingan"
-      ],
-      "path": "Matematika/Kelas7/Perbandingan/soal.json"
+      "path": "Kelas9/Fisika/DiagnosticTest/soal.json"
     },
     {
       "title": "Diagnostic Test Matematika Kelas 9",
       "topic": "Latihan Matematika",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit",
       "questions": 20,
-      "mapel": "Matematika",
       "kelas": "Kelas 9",
+      "mapel": "Matematika",
       "topik": [
         "Diagnostic Test"
       ],
-      "path": "Matematika/Kelas9/DiagnosticTest/soal.json"
+      "path": "Kelas9/Matematika/DiagnosticTest/soal.json"
+    },
+    {
+      "title": "Latihan Fisika Kelas 11 - Gerak dan Gaya",
+      "topic": "Gerak dan Gaya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Fisika",
+      "topik": [
+        "Kinematika dan Dinamika"
+      ],
+      "path": "Kelas11/Fisika/Kinematika dan Dinamika/soal_gerak_dan_gaya.json"
+    },
+    {
+      "title": "Latihan Fisika Kelas 11 - Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
+      "topic": "Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 11",
+      "mapel": "Fisika",
+      "topik": [
+        "Kinematika dan Dinamika 2"
+      ],
+      "path": "Kelas11/Fisika/Kinematika dan Dinamika 2/soal.json"
+    },
+    {
+      "title": "Latihan Fisika Kelas 11 - Vektor",
+      "topic": "Vektor",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 11",
+      "mapel": "Fisika",
+      "topik": [
+        "Vektor"
+      ],
+      "path": "Kelas11/Fisika/Vektor/soal_vektor.json"
+    },
+    {
+      "title": "TKA Ekonomi - Mikroekonomi dan Makroekonomi",
+      "topic": "Mikroekonomi dan Makroekonomi",
+      "summary": "Kerjakanlah dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "Latihan 1"
+      ],
+      "path": "TKA/Ekonomi/Latihan1/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Ekonomi Internasional dan Akuntansi Keuangan Dasar",
+      "topic": "Bab 3 Ekonomi Internasional dan Bab 4 Akuntansi Keuangan Dasar",
+      "summary": "Kerjakanlah dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "Latihan 2"
+      ],
+      "path": "TKA/Ekonomi/Latihan 2/soal.json"
+    },
+    {
+      "title": "Latihan Fisika SMA - Fluida, Bunyi, dan Cahaya",
+      "topic": "Fluida, Bunyi, dan Cahaya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA",
+      "mapel": "Fisika",
+      "topik": [
+        "Fluida dan Gelombang"
+      ],
+      "path": "TKA/Fisika/Fluida dan Gelombang/soal_fluida_bunyi_cahaya.json"
     }
   ]
 }

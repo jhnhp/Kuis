@@ -1,5 +1,5 @@
 {
-  "_catatan": "Teks bacaan ditulis di \"passages\" lalu dipanggil dengan \"passage\":\"id\" pada soal; satu teks bisa dipakai banyak soal. Gambar soal otomatis dicari dengan nama nomor soal (7.png, dll) di folder gambar/; jika tidak ada, soal tampil tanpa gambar. Gambar teks bacaan: isi \"image\" pada passage (mis. \"poster-lomba\"; ekstensi boleh dihilangkan). Soal dan teks boleh memakai tag HTML seperti <u>, <i>, <b>.",
+  "_catatan": "Teks bacaan ditulis di \"passages\" lalu dipanggil dengan \"passage\":\"id\" pada soal. Gambar hanya dimuat jika ada atribut \"image\" (pada soal maupun pada passage), misalnya \"image\": \"7.png\". Soal dan teks boleh memakai tag dasar <u>, <i>, <b>, <sub>, <sup>.",
   "title": "Template Soal Bahasa Indonesia",
   "topic": "Contoh: Membaca & Kebahasaan",
   "difficulty_summary": "Soal dummy dengan teks bacaan bersama, gambar opsional, dan soal kebahasaan.",
@@ -21,7 +21,7 @@
         "Dalam rangka memperingati Hari Peduli Sampah, OSIS mengadakan lomba kebersihan kelas. Lomba diikuti oleh seluruh kelas VII, VIII, dan IX. Penilaian dilakukan pada Senin, 19 Oktober 2026, pukul 09.00 WIB oleh tim juri yang terdiri atas guru dan pengurus OSIS.",
         "Pemenang akan mendapatkan piala bergilir dan hadiah buku. Setiap wali kelas diminta mendaftarkan kelasnya paling lambat Jumat, 16 Oktober 2026 kepada pengurus OSIS."
       ],
-      "image": "poster-lomba"
+      "image": "poster-lomba.png"
     }
   ],
   "questions": [
@@ -120,7 +120,8 @@
         "D": "Sampah di sini harus dibuang."
       },
       "answer": "B",
-      "explanation": "Rambu bertuliskan \"Dilarang buang sampah di sini\", sehingga kalimat larangannya menggunakan kata \"dilarang\"."
+      "explanation": "Rambu bertuliskan \"Dilarang buang sampah di sini\", sehingga kalimat larangannya menggunakan kata \"dilarang\".",
+      "image": "7.png"
     },
     {
       "number": 8,
