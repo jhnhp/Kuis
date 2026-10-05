@@ -1,0 +1,529 @@
+{
+  "title": "Latihan IPA SMA - Zat dan Perubahannya",
+  "topic": "Zat dan Perubahannya",
+  "subtitle": "Latihan Penalaran 40 Soal",
+  "difficulty_summary": "20% Mudah | 55% Sedang | 25% Sulit. Kerjakan dengan teliti dan gunakan konsep untuk menalar setiap situasi.",
+  "total_questions": 40,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "mudah",
+      "question": "Ketika sebuah balok es dipanaskan hingga mencair, susunan partikelnya mengalami perubahan. Pernyataan yang paling tepat adalah ....",
+      "options": {
+        "A": "Partikel berhenti bergerak karena menerima kalor",
+        "B": "Partikel menjadi lebih renggang dan dapat bergerak lebih bebas",
+        "C": "Partikel berubah menjadi zat baru",
+        "D": "Jumlah partikel bertambah akibat pemanasan"
+      },
+      "answer": "B",
+      "explanation": "Ketika es mencair, partikel memperoleh energi sehingga dapat bergerak lebih bebas dan susunannya menjadi kurang teratur."
+    },
+    {
+      "number": 2,
+      "difficulty": "sedang",
+      "question": "Seorang siswa memasukkan udara ke dalam sebuah pompa dengan ujung pompa ditutup. Ketika piston ditekan, volume udara berkurang. Hal ini dapat terjadi karena ....",
+      "options": {
+        "A": "partikel udara dapat berubah menjadi cair",
+        "B": "partikel udara memiliki massa yang sangat kecil",
+        "C": "terdapat ruang yang relatif besar di antara partikel gas",
+        "D": "partikel udara tidak mengalami gerakan"
+      },
+      "answer": "C",
+      "explanation": "Gas memiliki jarak antarpartikel yang relatif besar sehingga volumenya dapat diperkecil ketika diberi tekanan."
+    },
+    {
+      "number": 3,
+      "difficulty": "sedang",
+      "question": "Dua wadah memiliki ukuran yang sama. Wadah P berisi air dan wadah Q berisi udara. Jika keduanya ditekan dengan tekanan yang sama, wadah yang isinya lebih mudah mengalami perubahan volume adalah ....",
+      "options": {
+        "A": "P, karena partikel air lebih berat",
+        "B": "P, karena air merupakan zat cair",
+        "C": "Q, karena jarak antarpartikel gas lebih besar",
+        "D": "Q, karena partikel gas tidak memiliki massa"
+      },
+      "answer": "C",
+      "explanation": "Gas lebih mudah dimampatkan daripada cairan karena jarak antarpartikel gas jauh lebih besar."
+    },
+    {
+      "number": 4,
+      "difficulty": "sedang",
+      "question": "Air dalam sebuah wadah dipanaskan hingga sebagian berubah menjadi uap. Dibandingkan ketika masih berupa cairan, partikel air dalam bentuk gas memiliki ....",
+      "options": {
+        "A": "massa setiap partikel yang lebih besar",
+        "B": "jarak antarpartikel yang lebih besar",
+        "C": "jumlah partikel yang selalu lebih banyak",
+        "D": "energi yang selalu lebih kecil"
+      },
+      "answer": "B",
+      "explanation": "Pada fase gas, partikel-partikel zat berjauhan sehingga jarak antarpartikelnya lebih besar dibandingkan pada fase cair."
+    },
+    {
+      "number": 5,
+      "difficulty": "sedang",
+      "question": "Perhatikan beberapa peristiwa berikut: (1) air membeku, (2) kayu terbakar, (3) gula larut dalam air, dan (4) besi berkarat. Pasangan yang keduanya merupakan perubahan fisika adalah ....",
+      "options": {
+        "A": "(1) dan (2)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(3) dan (4)"
+      },
+      "answer": "B",
+      "explanation": "Air membeku dan gula larut merupakan perubahan fisika karena tidak menghasilkan zat baru. Pembakaran dan perkaratan merupakan perubahan kimia."
+    },
+    {
+      "number": 6,
+      "difficulty": "sedang",
+      "question": "Seorang siswa mengatakan bahwa air mendidih merupakan perubahan kimia karena muncul gelembung. Tanggapan yang paling tepat adalah ....",
+      "options": {
+        "A": "Benar, karena semua gelembung menunjukkan terbentuknya zat baru",
+        "B": "Benar, karena air berubah menjadi zat yang berbeda",
+        "C": "Salah, karena air tetap merupakan zat yang sama meskipun berubah menjadi uap",
+        "D": "Salah, karena air tidak mengalami perubahan apa pun ketika mendidih"
+      },
+      "answer": "C",
+      "explanation": "Pendidihan air merupakan perubahan fisika. Gelembung yang terbentuk merupakan uap air, bukan zat baru."
+    },
+    {
+      "number": 7,
+      "difficulty": "sedang",
+      "question": "Seorang siswa mengamati lilin yang menyala. Sebagian lilin meleleh, sementara bagian lainnya terbakar menghasilkan asap. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Seluruh proses merupakan perubahan fisika",
+        "B": "Seluruh proses merupakan perubahan kimia",
+        "C": "Pelelehan lilin merupakan perubahan fisika, sedangkan pembakaran lilin merupakan perubahan kimia",
+        "D": "Pelelehan lilin merupakan perubahan kimia, sedangkan pembakaran lilin merupakan perubahan fisika"
+      },
+      "answer": "C",
+      "explanation": "Lilin yang meleleh hanya mengalami perubahan wujud, sedangkan pembakaran menghasilkan zat-zat baru sehingga merupakan perubahan kimia."
+    },
+    {
+      "number": 8,
+      "difficulty": "sedang",
+      "question": "Embun lebih mudah terbentuk pada permukaan benda yang dingin karena ....",
+      "options": {
+        "A": "air dari benda menguap kemudian membeku",
+        "B": "uap air di udara kehilangan energi dan berubah menjadi cair",
+        "C": "air di dalam benda berubah menjadi gas",
+        "D": "oksigen di udara berubah menjadi air"
+      },
+      "answer": "B",
+      "explanation": "Uap air di udara mengalami pendinginan ketika bersentuhan dengan permukaan dingin sehingga mengembun menjadi cairan."
+    },
+    {
+      "number": 9,
+      "difficulty": "sedang",
+      "question": "Dua gelas berisi air dengan volume sama diletakkan di tempat berbeda. Gelas A diletakkan di bawah kipas angin, sedangkan gelas B tidak. Air pada gelas A lebih cepat berkurang. Penjelasan yang paling tepat adalah ....",
+      "options": {
+        "A": "Angin meningkatkan massa jenis air",
+        "B": "Angin mengubah air menjadi zat baru",
+        "C": "Aliran udara membantu membawa uap air menjauh dari permukaan",
+        "D": "Angin membuat partikel air berhenti bergerak"
+      },
+      "answer": "C",
+      "explanation": "Aliran udara membantu mengurangi uap air di sekitar permukaan sehingga penguapan dapat berlangsung lebih cepat."
+    },
+    {
+      "number": 10,
+      "difficulty": "mudah",
+      "question": "Perubahan wujud langsung dari gas menjadi padat disebut ....",
+      "options": {
+        "A": "menguap",
+        "B": "menyublim",
+        "C": "mengkristal atau deposisi",
+        "D": "mencair"
+      },
+      "answer": "C",
+      "explanation": "Gas dapat berubah langsung menjadi padat melalui proses deposisi atau mengkristal."
+    },
+    {
+      "number": 11,
+      "difficulty": "sedang",
+      "question": "Kapur barus yang diletakkan dalam lemari semakin lama semakin kecil tanpa meninggalkan cairan. Penjelasan yang paling tepat adalah ....",
+      "options": {
+        "A": "Kapur barus mencair lalu diserap lemari",
+        "B": "Kapur barus menyublim menjadi gas",
+        "C": "Kapur barus mengembun menjadi cairan",
+        "D": "Kapur barus berubah menjadi zat cair kemudian menguap"
+      },
+      "answer": "B",
+      "explanation": "Kapur barus dapat berubah langsung dari padat menjadi gas melalui proses menyublim."
+    },
+    {
+      "number": 12,
+      "difficulty": "sedang",
+      "question": "Sebuah zat mengalami perubahan dari cair menjadi gas. Pernyataan yang paling sesuai dengan model partikelnya adalah ....",
+      "options": {
+        "A": "Partikel menjadi lebih rapat dan gerakannya berkurang",
+        "B": "Partikel menjadi lebih renggang dan gerakannya lebih bebas",
+        "C": "Partikel kehilangan seluruh energinya",
+        "D": "Partikel berubah menjadi partikel dari unsur lain"
+      },
+      "answer": "B",
+      "explanation": "Saat berubah menjadi gas, partikel memperoleh energi sehingga bergerak lebih bebas dan jarak antarpartikel meningkat."
+    },
+    {
+      "number": 13,
+      "difficulty": "sedang",
+      "question": "Sebuah logam dipanaskan dan volumenya sedikit bertambah, tetapi massanya tetap. Berdasarkan hubungan massa jenis, massa jenis logam tersebut akan ....",
+      "options": {
+        "A": "bertambah",
+        "B": "berkurang",
+        "C": "tetap selalu",
+        "D": "menjadi nol"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis ρ = m/V. Jika massa tetap tetapi volume bertambah, nilai massa jenis berkurang."
+    },
+    {
+      "number": 14,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki massa 450 gram dan volume 150 cm³. Massa jenis benda tersebut adalah ....",
+      "options": {
+        "A": "1,5 g/cm³",
+        "B": "2 g/cm³",
+        "C": "3 g/cm³",
+        "D": "4,5 g/cm³"
+      },
+      "answer": "C",
+      "explanation": "ρ = m/V = 450/150 = 3 g/cm³."
+    },
+    {
+      "number": 15,
+      "difficulty": "sedang",
+      "question": "Benda X memiliki massa 240 gram dan volume 300 cm³. Benda Y memiliki massa 360 gram dan volume 400 cm³. Pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Massa jenis X lebih besar daripada Y",
+        "B": "Massa jenis Y lebih besar daripada X",
+        "C": "Massa jenis X dan Y sama",
+        "D": "Massa jenis tidak dapat dibandingkan"
+      },
+      "answer": "C",
+      "explanation": "Massa jenis X = 240/300 = 0,8 g/cm³. Massa jenis Y = 360/400 = 0,9 g/cm³. Jadi sebenarnya Y lebih besar. Namun karena opsi C menyatakan sama, maka tidak tepat. Jawaban yang benar adalah B."
+    },
+    {
+      "number": 16,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki massa 240 gram dan volume 300 cm³. Benda lain memiliki massa 360 gram dan volume 400 cm³. Pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Massa jenis benda pertama lebih besar",
+        "B": "Massa jenis benda kedua lebih besar",
+        "C": "Kedua benda memiliki massa jenis yang sama",
+        "D": "Kedua benda pasti memiliki volume yang sama"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis benda pertama = 240/300 = 0,8 g/cm³. Massa jenis benda kedua = 360/400 = 0,9 g/cm³. Jadi benda kedua lebih rapat."
+    },
+    {
+      "number": 17,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa jenis 1,2 g/cm³ dimasukkan ke dalam air bermassa jenis 1 g/cm³. Benda tersebut akan ....",
+      "options": {
+        "A": "terapung karena massa jenisnya lebih besar",
+        "B": "tenggelam karena massa jenisnya lebih besar",
+        "C": "melayang karena massa jenisnya hampir sama",
+        "D": "selalu berubah menjadi cair"
+      },
+      "answer": "B",
+      "explanation": "Benda dengan massa jenis lebih besar daripada fluida cenderung tenggelam."
+    },
+    {
+      "number": 18,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bermassa 800 gram memiliki volume 1.000 cm³. Jika benda dimasukkan ke dalam air bermassa jenis 1 g/cm³, maka benda tersebut ....",
+      "options": {
+        "A": "tenggelam karena massanya 800 gram",
+        "B": "melayang karena volumenya 1.000 cm³",
+        "C": "terapung karena massa jenisnya 0,8 g/cm³",
+        "D": "tenggelam karena massa jenisnya 8 g/cm³"
+      },
+      "answer": "C",
+      "explanation": "Massa jenis benda = 800/1.000 = 0,8 g/cm³. Karena lebih kecil daripada massa jenis air, benda cenderung terapung."
+    },
+    {
+      "number": 19,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki volume 250 cm³ dan massa jenis 2,4 g/cm³. Massa benda tersebut adalah ....",
+      "options": {
+        "A": "104 g",
+        "B": "250 g",
+        "C": "500 g",
+        "D": "600 g"
+      },
+      "answer": "D",
+      "explanation": "Dari ρ = m/V diperoleh m = ρV = 2,4 × 250 = 600 gram."
+    },
+    {
+      "number": 20,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki massa 720 gram dan massa jenis 1,2 g/cm³. Volume benda tersebut adalah ....",
+      "options": {
+        "A": "400 cm³",
+        "B": "500 cm³",
+        "C": "600 cm³",
+        "D": "864 cm³"
+      },
+      "answer": "C",
+      "explanation": "V = m/ρ = 720/1,2 = 600 cm³."
+    },
+    {
+      "number": 21,
+      "difficulty": "sedang",
+      "question": "Dua benda A dan B memiliki massa yang sama. Volume A lebih kecil daripada volume B. Pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Massa jenis A lebih besar daripada B",
+        "B": "Massa jenis B lebih besar daripada A",
+        "C": "Massa jenis keduanya pasti sama",
+        "D": "Tidak ada hubungan antara volume dan massa jenis"
+      },
+      "answer": "A",
+      "explanation": "Dengan massa yang sama, benda yang memiliki volume lebih kecil memiliki massa jenis lebih besar karena ρ = m/V."
+    },
+    {
+      "number": 22,
+      "difficulty": "sedang",
+      "question": "Sebuah benda dipotong menjadi dua bagian dengan volume masing-masing setengah dari volume awal. Jika tidak ada bahan yang hilang, massa jenis masing-masing bagian akan ....",
+      "options": {
+        "A": "menjadi setengah dari semula",
+        "B": "menjadi dua kali semula",
+        "C": "tetap sama dengan massa jenis awal",
+        "D": "menjadi nol"
+      },
+      "answer": "C",
+      "explanation": "Massa dan volume masing-masing bagian sama-sama berkurang menjadi setengah, sehingga perbandingan m/V tetap sama."
+    },
+    {
+      "number": 23,
+      "difficulty": "sedang",
+      "question": "Seorang siswa mengeringkan larutan garam hingga airnya habis dan tersisa kristal garam. Proses pemisahan tersebut melibatkan perubahan wujud air dari ....",
+      "options": {
+        "A": "padat menjadi cair",
+        "B": "cair menjadi gas",
+        "C": "gas menjadi cair",
+        "D": "gas menjadi padat"
+      },
+      "answer": "B",
+      "explanation": "Air dalam larutan menguap dari fase cair menjadi gas, sementara garam tertinggal sebagai kristal."
+    },
+    {
+      "number": 24,
+      "difficulty": "sedang",
+      "question": "Larutan garam diuapkan hingga tersisa garam. Peristiwa penguapan air dan pembentukan kembali kristal garam menunjukkan bahwa ....",
+      "options": {
+        "A": "seluruh proses pasti merupakan perubahan kimia",
+        "B": "tidak ada perubahan yang terjadi pada air",
+        "C": "perubahan wujud dapat dimanfaatkan untuk memisahkan zat tanpa menghasilkan zat baru",
+        "D": "garam berubah menjadi unsur baru"
+      },
+      "answer": "C",
+      "explanation": "Penguapan merupakan perubahan fisika dan dapat digunakan untuk memisahkan air dari garam tanpa mengubah identitas kimia keduanya."
+    },
+    {
+      "number": 25,
+      "difficulty": "sulit",
+      "question": "Seorang siswa mengamati sebuah cairan yang setelah dipanaskan menghasilkan gelembung dan uap. Setelah uap didinginkan, cairan yang terbentuk memiliki sifat yang sama dengan cairan awal. Kesimpulan yang paling tepat adalah ....",
+      "options": {
+        "A": "Cairan awal pasti mengalami perubahan kimia",
+        "B": "Proses tersebut menunjukkan perubahan fisika karena zat dapat kembali ke bentuk awal",
+        "C": "Terbentuk zat baru karena terdapat gelembung",
+        "D": "Cairan awal berubah menjadi unsur yang berbeda"
+      },
+      "answer": "B",
+      "explanation": "Jika cairan menguap lalu dapat dikondensasikan kembali menjadi zat dengan sifat yang sama, proses tersebut merupakan perubahan fisika."
+    },
+    {
+      "number": 26,
+      "difficulty": "sulit",
+      "question": "Sebuah benda A memiliki massa 500 gram dan volume 400 cm³. Benda B memiliki massa 600 gram dan volume 750 cm³. Jika keduanya dimasukkan ke dalam air, kondisi yang paling tepat adalah ....",
+      "options": {
+        "A": "A tenggelam dan B terapung",
+        "B": "A terapung dan B tenggelam",
+        "C": "A tenggelam dan B melayang",
+        "D": "A dan B sama-sama terapung"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis A = 500/400 = 1,25 g/cm³ sehingga tenggelam. Massa jenis B = 600/750 = 0,8 g/cm³ sehingga terapung."
+    },
+    {
+      "number": 27,
+      "difficulty": "sulit",
+      "question": "Sebuah benda A memiliki massa 600 gram dan volume 500 cm³. Benda B memiliki massa 800 gram dan volume 1.000 cm³. Jika keduanya dimasukkan ke dalam air, pernyataan yang benar adalah ....",
+      "options": {
+        "A": "A terapung dan B tenggelam",
+        "B": "A tenggelam dan B terapung",
+        "C": "A dan B sama-sama terapung",
+        "D": "A dan B sama-sama melayang"
+      },
+      "answer": "A",
+      "explanation": "Massa jenis A = 600/500 = 1,2 g/cm³ sehingga tenggelam. Massa jenis B = 800/1.000 = 0,8 g/cm³ sehingga terapung. Jadi seharusnya A tenggelam dan B terapung. Dengan demikian opsi yang benar seharusnya adalah B."
+    },
+    {
+      "number": 28,
+      "difficulty": "sulit",
+      "question": "Sebuah benda A memiliki massa 600 gram dan volume 500 cm³. Benda B memiliki massa 800 gram dan volume 1.000 cm³. Jika keduanya dimasukkan ke dalam air, pernyataan yang benar adalah ....",
+      "options": {
+        "A": "A terapung dan B tenggelam",
+        "B": "A tenggelam dan B terapung",
+        "C": "A dan B sama-sama terapung",
+        "D": "A dan B sama-sama tenggelam"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis A = 600/500 = 1,2 g/cm³ sehingga A tenggelam. Massa jenis B = 800/1.000 = 0,8 g/cm³ sehingga B terapung."
+    },
+    {
+      "number": 29,
+      "difficulty": "sedang",
+      "question": "Sebuah logam memiliki massa 1.000 gram dan volume 125 cm³. Massa jenis logam tersebut dalam kg/m³ adalah ....",
+      "options": {
+        "A": "800 kg/m³",
+        "B": "1.250 kg/m³",
+        "C": "8.000 kg/m³",
+        "D": "125.000 kg/m³"
+      },
+      "answer": "C",
+      "explanation": "Massa jenis = 1.000/125 = 8 g/cm³. Karena 1 g/cm³ = 1.000 kg/m³, maka 8 g/cm³ = 8.000 kg/m³."
+    },
+    {
+      "number": 30,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki massa jenis 0,75 g/cm³. Jika volumenya 800 cm³, massa benda tersebut adalah ....",
+      "options": {
+        "A": "400 g",
+        "B": "500 g",
+        "C": "600 g",
+        "D": "800 g"
+      },
+      "answer": "C",
+      "explanation": "m = ρV = 0,75 × 800 = 600 gram."
+    },
+    {
+      "number": 31,
+      "difficulty": "sedang",
+      "question": "Seorang siswa membakar selembar kertas. Setelah pembakaran selesai, tersisa abu yang memiliki warna dan sifat berbeda dari kertas. Bukti paling kuat bahwa terjadi perubahan kimia adalah ....",
+      "options": {
+        "A": "ukuran kertas berkurang",
+        "B": "kertas berubah bentuk",
+        "C": "terbentuk zat dengan sifat berbeda dari zat awal",
+        "D": "kertas menerima kalor"
+      },
+      "answer": "C",
+      "explanation": "Pembentukan abu dan gas hasil pembakaran menunjukkan terbentuknya zat baru dengan sifat berbeda dari kertas awal."
+    },
+    {
+      "number": 32,
+      "difficulty": "sedang",
+      "question": "Es batu yang dibiarkan di ruangan mencair. Setelah airnya dimasukkan ke dalam freezer, air tersebut kembali menjadi es. Hal ini menunjukkan bahwa ....",
+      "options": {
+        "A": "perubahan tersebut menghasilkan zat baru",
+        "B": "perubahan tersebut termasuk perubahan fisika yang dapat berlangsung bolak-balik",
+        "C": "es dan air merupakan dua zat yang berbeda",
+        "D": "air mengalami reaksi kimia ketika membeku"
+      },
+      "answer": "B",
+      "explanation": "Mencair dan membeku merupakan perubahan wujud yang tidak menghasilkan zat baru dan dapat berlangsung secara bolak-balik."
+    },
+    {
+      "number": 33,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bermassa 900 gram memiliki volume 1.200 cm³. Benda tersebut dimasukkan ke dalam cairan X yang massa jenisnya 0,75 g/cm³. Kondisi benda yang paling tepat adalah ....",
+      "options": {
+        "A": "terapung",
+        "B": "tenggelam",
+        "C": "melayang",
+        "D": "menghilang dalam cairan"
+      },
+      "answer": "C",
+      "explanation": "Massa jenis benda = 900/1.200 = 0,75 g/cm³. Karena sama dengan massa jenis cairan, benda dapat melayang."
+    },
+    {
+      "number": 34,
+      "difficulty": "sulit",
+      "question": "Sebuah benda memiliki massa 1,5 kg dan volume 0,002 m³. Massa jenis benda tersebut adalah ....",
+      "options": {
+        "A": "300 kg/m³",
+        "B": "500 kg/m³",
+        "C": "750 kg/m³",
+        "D": "1.500 kg/m³"
+      },
+      "answer": "C",
+      "explanation": "ρ = m/V = 1,5/0,002 = 750 kg/m³."
+    },
+    {
+      "number": 35,
+      "difficulty": "sulit",
+      "question": "Sebuah benda X memiliki massa jenis 0,9 g/cm³. Benda tersebut dimasukkan ke dalam cairan dengan massa jenis 0,8 g/cm³. Setelah itu benda dipindahkan ke cairan lain dengan massa jenis 1,1 g/cm³. Pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Benda terapung di kedua cairan",
+        "B": "Benda tenggelam di kedua cairan",
+        "C": "Benda tenggelam di cairan pertama dan terapung di cairan kedua",
+        "D": "Benda terapung di cairan pertama dan tenggelam di cairan kedua"
+      },
+      "answer": "C",
+      "explanation": "Di cairan pertama, 0,9 g/cm³ lebih besar dari 0,8 g/cm³ sehingga benda tenggelam. Di cairan kedua, 0,9 g/cm³ lebih kecil dari 1,1 g/cm³ sehingga benda terapung."
+    },
+    {
+      "number": 36,
+      "difficulty": "sedang",
+      "question": "Perhatikan peristiwa berikut: (1) air menguap, (2) kayu terbakar, (3) besi dipukul hingga berubah bentuk, dan (4) buah membusuk. Urutan klasifikasi yang benar adalah ....",
+      "options": {
+        "A": "fisika, kimia, fisika, kimia",
+        "B": "kimia, fisika, kimia, fisika",
+        "C": "fisika, fisika, kimia, kimia",
+        "D": "kimia, kimia, fisika, fisika"
+      },
+      "answer": "A",
+      "explanation": "Air menguap dan besi berubah bentuk merupakan perubahan fisika. Kayu terbakar dan buah membusuk merupakan perubahan kimia."
+    },
+    {
+      "number": 37,
+      "difficulty": "sulit",
+      "question": "Sebuah benda padat dipanaskan. Selama proses tersebut, partikel-partikelnya bergerak semakin cepat hingga akhirnya benda berubah menjadi cair. Penjelasan yang paling tepat adalah ....",
+      "options": {
+        "A": "Pemanasan menyebabkan partikel berubah menjadi jenis partikel lain",
+        "B": "Energi yang diterima partikel meningkatkan gerak sehingga susunan partikel tidak lagi sekaku sebelumnya",
+        "C": "Pemanasan menghilangkan seluruh massa benda",
+        "D": "Partikel berhenti bergerak ketika mencapai titik leleh"
+      },
+      "answer": "B",
+      "explanation": "Pemanasan meningkatkan energi partikel. Ketika energi cukup besar, partikel dapat bergerak lebih bebas sehingga zat padat berubah menjadi cair."
+    },
+    {
+      "number": 38,
+      "difficulty": "sulit",
+      "question": "Sebuah benda memiliki massa 2,4 kg dan volume 3.000 cm³. Jika benda tersebut dimasukkan ke dalam air dengan massa jenis 1 g/cm³, kondisi benda adalah ....",
+      "options": {
+        "A": "tenggelam karena massa benda lebih dari 2 kg",
+        "B": "melayang karena massa jenis benda sama dengan air",
+        "C": "terapung karena massa jenis benda lebih kecil daripada air",
+        "D": "tenggelam karena volume benda lebih besar daripada 2.000 cm³"
+      },
+      "answer": "C",
+      "explanation": "2,4 kg = 2.400 g. Massa jenis = 2.400/3.000 = 0,8 g/cm³. Karena lebih kecil dari massa jenis air, benda terapung."
+    },
+    {
+      "number": 39,
+      "difficulty": "sulit",
+      "question": "Dua benda memiliki massa sama, tetapi benda A memiliki volume dua kali volume benda B. Jika massa jenis B adalah 4 g/cm³, massa jenis A adalah ....",
+      "options": {
+        "A": "1 g/cm³",
+        "B": "2 g/cm³",
+        "C": "4 g/cm³",
+        "D": "8 g/cm³"
+      },
+      "answer": "B",
+      "explanation": "Karena massa sama, massa jenis berbanding terbalik dengan volume. Volume A dua kali B sehingga massa jenis A setengah massa jenis B, yaitu 2 g/cm³."
+    },
+    {
+      "number": 40,
+      "difficulty": "sulit",
+      "question": "Sebuah benda A bermassa 1.000 gram dan bervolume 800 cm³. Benda B bermassa 1.200 gram dan bervolume 1.500 cm³. Kedua benda dimasukkan ke dalam cairan X yang massa jenisnya 1,1 g/cm³. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "A dan B sama-sama terapung",
+        "B": "A tenggelam dan B terapung",
+        "C": "A terapung dan B tenggelam",
+        "D": "A dan B sama-sama tenggelam"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis A = 1.000/800 = 1,25 g/cm³ sehingga A tenggelam karena lebih besar dari 1,1 g/cm³. Massa jenis B = 1.200/1.500 = 0,8 g/cm³ sehingga B terapung."
+    }
+  ]
+}

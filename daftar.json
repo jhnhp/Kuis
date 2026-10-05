@@ -1,6 +1,18 @@
 {
-  "generated": "2026-10-05T19:43:11",
+  "generated": "2026-10-05T20:25:08",
   "kuis": [
+    {
+      "title": "Latihan IPA SMA - Zat dan Perubahannya",
+      "topic": "Zat dan Perubahannya",
+      "summary": "20% Mudah | 55% Sedang | 25% Sulit. Kerjakan dengan teliti dan gunakan konsep untuk menalar setiap situasi.",
+      "questions": 40,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "02 Zat dan Perubahannya"
+      ],
+      "path": "Kelas7/IPA/02 Zat dan Perubahannya/soal2.json"
+    },
     {
       "title": "Latihan IPA SMA - Zat dan Perubahannya",
       "topic": "Zat dan Perubahannya",
