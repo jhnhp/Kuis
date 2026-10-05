@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T12:31:03",
+  "generated": "2026-10-05T02:52:38",
   "kuis": [
     {
       "title": "Diagnostic Test Biologi Kelas 9",
@@ -48,6 +48,18 @@
         "Diagnostic Test"
       ],
       "path": "Fisika/Kelas9/DiagnosticTest/soal.json"
+    },
+    {
+      "title": "Latihan Fisika Kelas 11 - Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
+      "topic": "Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "mapel": "Fisika",
+      "kelas": "Kelas 11",
+      "topik": [
+        "Kinematika Dan Dinamika 2"
+      ],
+      "path": "Fisika/Kelas11/Kinematika dan Dinamika 2/soal.json"
     },
     {
       "title": "Latihan Fisika Kelas 11 - Gerak dan Gaya",

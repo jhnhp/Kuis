@@ -1,0 +1,529 @@
+{
+  "title": "Latihan Fisika Kelas 11 - Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
+  "topic": "Gerak Melingkar, Gravitasi Newton dan Elastisitas, Momentum dan Impuls",
+  "subtitle": "Latihan Mandiri 40 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 40,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "mudah",
+      "question": "Sebuah roda berputar dengan kecepatan 120 putaran per menit. Kecepatan sudut roda tersebut adalah ...",
+      "options": {
+        "A": "2π rad/s",
+        "B": "4π rad/s",
+        "C": "6π rad/s",
+        "D": "8π rad/s"
+      },
+      "answer": "B",
+      "explanation": "120 rpm = 120/60 = 2 putaran/s. Jadi ω = 2πf = 4π rad/s."
+    },
+    {
+      "number": 2,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bergerak melingkar dengan kecepatan sudut 6 rad/s pada lintasan berjari-jari 0,5 m. Kelajuan linearnya adalah ...",
+      "options": {
+        "A": "1 m/s",
+        "B": "2 m/s",
+        "C": "3 m/s",
+        "D": "6 m/s"
+      },
+      "answer": "C",
+      "explanation": "Gunakan v = ωr = 6 × 0,5 = 3 m/s."
+    },
+    {
+      "number": 3,
+      "difficulty": "sedang",
+      "question": "Sebuah mobil bergerak melingkar dengan kelajuan 6 m/s pada tikungan berjari-jari 2 m. Besar percepatan sentripetal mobil adalah ...",
+      "options": {
+        "A": "3 m/s²",
+        "B": "12 m/s²",
+        "C": "18 m/s²",
+        "D": "36 m/s²"
+      },
+      "answer": "C",
+      "explanation": "aₛ = v²/r = 6²/2 = 18 m/s²."
+    },
+    {
+      "number": 4,
+      "difficulty": "sedang",
+      "question": "Sebuah piringan berputar 20 putaran dalam 10 sekon. Jika jari-jarinya 25 cm, kelajuan linear titik pada tepi piringan adalah ...",
+      "options": {
+        "A": "π/2 m/s",
+        "B": "π m/s",
+        "C": "2π m/s",
+        "D": "4π m/s"
+      },
+      "answer": "B",
+      "explanation": "f = 20/10 = 2 Hz, sehingga ω = 4π rad/s. Dengan r = 0,25 m, v = ωr = π m/s."
+    },
+    {
+      "number": 5,
+      "difficulty": "mudah",
+      "question": "Dua roda A dan B dihubungkan dengan sabuk tanpa slip. Jari-jari A = 10 cm dan jari-jari B = 20 cm. Jika ωA = 12 rad/s, maka ωB adalah ...",
+      "options": {
+        "A": "3 rad/s",
+        "B": "6 rad/s",
+        "C": "12 rad/s",
+        "D": "24 rad/s"
+      },
+      "answer": "B",
+      "explanation": "Tanpa slip, ωA rA = ωB rB. Jadi ωB = 12 × 10/20 = 6 rad/s."
+    },
+    {
+      "number": 6,
+      "difficulty": "sedang",
+      "question": "Sebuah benda melakukan gerak melingkar beraturan dengan periode 0,4 s. Kecepatan sudut benda adalah ...",
+      "options": {
+        "A": "2,5π rad/s",
+        "B": "4π rad/s",
+        "C": "5π rad/s",
+        "D": "10π rad/s"
+      },
+      "answer": "C",
+      "explanation": "ω = 2π/T = 2π/0,4 = 5π rad/s."
+    },
+    {
+      "number": 7,
+      "difficulty": "sedang",
+      "question": "Sebuah roda mula-mula memiliki kecepatan sudut 4 rad/s dan dipercepat beraturan hingga 16 rad/s dalam 6 s. Sudut yang ditempuh selama interval tersebut adalah ...",
+      "options": {
+        "A": "48 rad",
+        "B": "60 rad",
+        "C": "72 rad",
+        "D": "96 rad"
+      },
+      "answer": "B",
+      "explanation": "α = (16−4)/6 = 2 rad/s². θ = ω₀t + ½αt² = 4(6) + ½(2)(36) = 60 rad."
+    },
+    {
+      "number": 8,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bergerak melingkar dengan jari-jari 0,4 m. Pada suatu saat kecepatan sudutnya 10 rad/s dan percepatan sudutnya 5 rad/s². Besar percepatan total benda saat itu adalah ...",
+      "options": {
+        "A": "20,0 m/s²",
+        "B": "20,05 m/s²",
+        "C": "40,0 m/s²",
+        "D": "40,05 m/s²"
+      },
+      "answer": "D",
+      "explanation": "Percepatan tangensial at = αr = 5 × 0,4 = 2 m/s² dan sentripetal as = ω²r = 10² × 0,4 = 40 m/s². Keduanya tegak lurus, sehingga a = √(40² + 2²) = √1604 ≈ 40,05 m/s²."
+    },
+    {
+      "number": 9,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 2 kg bergerak melingkar pada lintasan berjari-jari 1,5 m dengan kelajuan 6 m/s. Gaya sentripetal yang bekerja pada benda adalah ...",
+      "options": {
+        "A": "12 N",
+        "B": "24 N",
+        "C": "36 N",
+        "D": "48 N"
+      },
+      "answer": "D",
+      "explanation": "Fₛ = mv²/r = 2 × 6²/1,5 = 48 N."
+    },
+    {
+      "number": 10,
+      "difficulty": "mudah",
+      "question": "Sebuah benda melakukan 5 putaran penuh dalam 2 sekon. Frekuensi geraknya adalah ...",
+      "options": {
+        "A": "1,5 Hz",
+        "B": "2 Hz",
+        "C": "2,5 Hz",
+        "D": "5 Hz"
+      },
+      "answer": "C",
+      "explanation": "Frekuensi adalah jumlah putaran per sekon: f = 5/2 = 2,5 Hz."
+    },
+    {
+      "number": 11,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bermassa 0,5 kg bergerak melingkar pada lintasan horizontal berjari-jari 2 m. Jika gaya sentripetal yang bekerja sebesar 16 N, kelajuan benda adalah ...",
+      "options": {
+        "A": "4 m/s",
+        "B": "6 m/s",
+        "C": "8 m/s",
+        "D": "10 m/s"
+      },
+      "answer": "C",
+      "explanation": "Fₛ = mv²/r, sehingga v = √(Fₛr/m) = √(16×2/0,5) = √64 = 8 m/s."
+    },
+    {
+      "number": 12,
+      "difficulty": "sedang",
+      "question": "Dua roda bersinggungan tanpa slip. Jari-jari roda A = 30 cm dan roda B = 10 cm. Jika roda A berputar 4 rad/s, maka besar kecepatan sudut roda B adalah ...",
+      "options": {
+        "A": "4 rad/s",
+        "B": "8 rad/s",
+        "C": "12 rad/s",
+        "D": "16 rad/s"
+      },
+      "answer": "C",
+      "explanation": "ωA RA = ωB RB. Maka ωB = 4 × 30/10 = 12 rad/s."
+    },
+    {
+      "number": 13,
+      "difficulty": "sedang",
+      "question": "Sebuah roda berjari-jari 0,2 m berputar dengan kecepatan sudut 15 rad/s. Kelajuan linear titik pada tepi roda adalah ...",
+      "options": {
+        "A": "2 m/s",
+        "B": "3 m/s",
+        "C": "5 m/s",
+        "D": "7,5 m/s"
+      },
+      "answer": "B",
+      "explanation": "v = ωr = 15 × 0,2 = 3 m/s."
+    },
+    {
+      "number": 14,
+      "difficulty": "mudah",
+      "question": "Sebuah mobil bergerak pada tikungan datar berjari-jari 50 m. Koefisien gesek statis antara ban dan jalan 0,2. Dengan g = 10 m/s², kelajuan maksimum agar mobil tidak tergelincir adalah ...",
+      "options": {
+        "A": "5 m/s",
+        "B": "10 m/s",
+        "C": "15 m/s",
+        "D": "20 m/s"
+      },
+      "answer": "B",
+      "explanation": "Pada batas tergelincir, μmg = mv²/r. Jadi v = √(μgr) = √(0,2×10×50) = 10 m/s."
+    },
+    {
+      "number": 15,
+      "difficulty": "mudah",
+      "question": "Sebuah benda bermassa 60 kg berada di planet yang memiliki percepatan gravitasi 1,6 m/s². Berat benda tersebut adalah ...",
+      "options": {
+        "A": "37,5 N",
+        "B": "60 N",
+        "C": "96 N",
+        "D": "160 N"
+      },
+      "answer": "C",
+      "explanation": "W = mg = 60 × 1,6 = 96 N."
+    },
+    {
+      "number": 16,
+      "difficulty": "mudah",
+      "question": "Jika percepatan gravitasi di permukaan suatu planet adalah g, maka pada ketinggian yang sama dengan jari-jari planet dari permukaannya, percepatan gravitasi menjadi ...",
+      "options": {
+        "A": "g/2",
+        "B": "g/3",
+        "C": "g/4",
+        "D": "g/9"
+      },
+      "answer": "C",
+      "explanation": "Pada ketinggian h = R, jarak dari pusat planet r = 2R. Karena g ∝ 1/r², maka g' = g(R/2R)² = g/4."
+    },
+    {
+      "number": 17,
+      "difficulty": "sedang",
+      "question": "Dua satelit mengorbit planet yang sama. Jari-jari orbit satelit B adalah 4 kali jari-jari orbit satelit A. Perbandingan periode orbit TB : TA adalah ...",
+      "options": {
+        "A": "2 : 1",
+        "B": "4 : 1",
+        "C": "8 : 1",
+        "D": "16 : 1"
+      },
+      "answer": "C",
+      "explanation": "Menurut hukum Kepler III, T² ∝ r³, sehingga T ∝ r^(3/2). Jika rB = 4rA, maka TB/TA = 4^(3/2) = 8."
+    },
+    {
+      "number": 18,
+      "difficulty": "sedang",
+      "question": "Sebuah satelit mengorbit Bumi pada jarak 4R dari pusat Bumi, sedangkan satelit lain pada jarak R. Perbandingan kelajuan orbit satelit pertama terhadap satelit kedua adalah ...",
+      "options": {
+        "A": "1 : 2",
+        "B": "1 : 4",
+        "C": "2 : 1",
+        "D": "4 : 1"
+      },
+      "answer": "A",
+      "explanation": "Kelajuan orbit v = √(GM/r), sehingga v ∝ 1/√r. Untuk r1 = 4R dan r2 = R, v1/v2 = 1/2."
+    },
+    {
+      "number": 19,
+      "difficulty": "mudah",
+      "question": "Sebuah pegas memiliki konstanta 200 N/m. Jika pegas diregangkan 3 cm, gaya pegas yang timbul adalah ...",
+      "options": {
+        "A": "3 N",
+        "B": "6 N",
+        "C": "20 N",
+        "D": "60 N"
+      },
+      "answer": "B",
+      "explanation": "Hukum Hooke: F = kx = 200 × 0,03 = 6 N."
+    },
+    {
+      "number": 20,
+      "difficulty": "sedang",
+      "question": "Sebuah pegas dengan konstanta 400 N/m diregangkan 10 cm. Energi potensial elastis yang tersimpan adalah ...",
+      "options": {
+        "A": "1 J",
+        "B": "2 J",
+        "C": "4 J",
+        "D": "20 J"
+      },
+      "answer": "B",
+      "explanation": "Ep = ½kx² = ½(400)(0,1)² = 2 J."
+    },
+    {
+      "number": 21,
+      "difficulty": "sedang",
+      "question": "Sebuah pegas mula-mula panjangnya 20 cm. Ketika diberi gaya 10 N, panjangnya menjadi 22 cm. Jika gaya diperbesar menjadi 25 N dan pegas tetap memenuhi Hukum Hooke, panjang pegas menjadi ...",
+      "options": {
+        "A": "23 cm",
+        "B": "24 cm",
+        "C": "25 cm",
+        "D": "27 cm"
+      },
+      "answer": "C",
+      "explanation": "Pertambahan 2 cm terjadi pada 10 N. Untuk 25 N, pertambahan panjang = 2 × 25/10 = 5 cm. Panjang akhir = 20 + 5 = 25 cm."
+    },
+    {
+      "number": 22,
+      "difficulty": "sulit",
+      "question": "Sebuah balok bermassa 2 kg menekan pegas horizontal dengan konstanta 200 N/m hingga pegas tertekan 20 cm. Jika seluruh energi pegas berubah menjadi energi kinetik balok, kelajuan balok saat meninggalkan pegas adalah ...",
+      "options": {
+        "A": "1 m/s",
+        "B": "2 m/s",
+        "C": "√2 m/s",
+        "D": "4 m/s"
+      },
+      "answer": "B",
+      "explanation": "½kx² = ½mv². Maka v = x√(k/m) = 0,2√(200/2) = 2 m/s."
+    },
+    {
+      "number": 23,
+      "difficulty": "mudah",
+      "question": "Sebuah benda bermassa 5 kg berada di permukaan Bumi dengan g = 10 m/s². Berat benda adalah ...",
+      "options": {
+        "A": "5 N",
+        "B": "10 N",
+        "C": "50 N",
+        "D": "500 N"
+      },
+      "answer": "C",
+      "explanation": "W = mg = 5 × 10 = 50 N."
+    },
+    {
+      "number": 24,
+      "difficulty": "sedang",
+      "question": "Sebuah planet memiliki massa 4 kali massa Bumi dan jari-jari 2 kali jari-jari Bumi. Percepatan gravitasi di permukaan planet tersebut dibandingkan dengan Bumi adalah ...",
+      "options": {
+        "A": "1/2 kali",
+        "B": "1 kali",
+        "C": "2 kali",
+        "D": "4 kali"
+      },
+      "answer": "B",
+      "explanation": "g ∝ M/R². Jadi gP/gB = 4/(2²) = 1."
+    },
+    {
+      "number": 25,
+      "difficulty": "sulit",
+      "question": "Dua kawat A dan B terbuat dari bahan yang sama. Panjang A dua kali panjang B, sedangkan diameter A setengah diameter B. Jika keduanya diberi gaya tarik yang sama, perbandingan pertambahan panjang ΔLA : ΔLB adalah ...",
+      "options": {
+        "A": "1 : 2",
+        "B": "2 : 1",
+        "C": "4 : 1",
+        "D": "8 : 1"
+      },
+      "answer": "D",
+      "explanation": "ΔL = FL/(AY). Karena bahan dan gaya sama, ΔL ∝ L/A. Luas penampang A berbanding kuadrat diameter. Karena dA = ½dB, maka AA = ¼AB. Jadi ΔLA/ΔLB = (2)/(¼) = 8."
+    },
+    {
+      "number": 26,
+      "difficulty": "sedang",
+      "question": "Sebuah benda berada di permukaan Bumi dan memiliki berat 360 N. Jika benda dipindahkan ke ketinggian yang sama dengan jari-jari Bumi dari permukaan, beratnya menjadi ...",
+      "options": {
+        "A": "45 N",
+        "B": "90 N",
+        "C": "120 N",
+        "D": "180 N"
+      },
+      "answer": "B",
+      "explanation": "Pada h = R, jarak dari pusat Bumi menjadi 2R. Berat menjadi 1/4 dari semula: 360/4 = 90 N."
+    },
+    {
+      "number": 27,
+      "difficulty": "mudah",
+      "question": "Sebuah pegas memiliki konstanta 100 N/m dan diregangkan sejauh 5 cm. Energi potensial elastisnya adalah ...",
+      "options": {
+        "A": "0,025 J",
+        "B": "0,125 J",
+        "C": "0,25 J",
+        "D": "1,25 J"
+      },
+      "answer": "B",
+      "explanation": "Ep = ½kx² = ½(100)(0,05)² = 0,125 J."
+    },
+    {
+      "number": 28,
+      "difficulty": "mudah",
+      "question": "Sebuah benda bermassa 4 kg bergerak dengan kelajuan 5 m/s. Besar momentumnya adalah ...",
+      "options": {
+        "A": "0,8 kg·m/s",
+        "B": "9 kg·m/s",
+        "C": "20 kg·m/s",
+        "D": "25 kg·m/s"
+      },
+      "answer": "C",
+      "explanation": "Momentum p = mv = 4 × 5 = 20 kg·m/s."
+    },
+    {
+      "number": 29,
+      "difficulty": "sedang",
+      "question": "Sebuah gaya konstan 50 N bekerja pada benda selama 0,2 s. Besar impuls yang diberikan gaya tersebut adalah ...",
+      "options": {
+        "A": "2,5 Ns",
+        "B": "10 Ns",
+        "C": "25 Ns",
+        "D": "250 Ns"
+      },
+      "answer": "B",
+      "explanation": "Impuls I = FΔt = 50 × 0,2 = 10 Ns."
+    },
+    {
+      "number": 30,
+      "difficulty": "sedang",
+      "question": "Bola bermassa 0,6 kg bergerak dengan kecepatan 2 m/s menumbuk bola bermassa 0,4 kg yang diam. Setelah tumbukan keduanya menyatu. Kecepatan kedua bola setelah tumbukan adalah ...",
+      "options": {
+        "A": "0,6 m/s",
+        "B": "1,0 m/s",
+        "C": "1,2 m/s",
+        "D": "2,0 m/s"
+      },
+      "answer": "C",
+      "explanation": "Tumbukan tidak lenting sama sekali: 0,6(2) + 0,4(0) = (1,0)v. Jadi v = 1,2 m/s."
+    },
+    {
+      "number": 31,
+      "difficulty": "mudah",
+      "question": "Dua benda bermassa sama mengalami tumbukan lenting sempurna. Benda A bergerak dengan kecepatan 6 m/s, sedangkan benda B diam. Kecepatan benda A setelah tumbukan adalah ...",
+      "options": {
+        "A": "0 m/s",
+        "B": "3 m/s",
+        "C": "6 m/s",
+        "D": "12 m/s"
+      },
+      "answer": "A",
+      "explanation": "Pada tumbukan lenting sempurna antara dua benda bermassa sama, keduanya saling bertukar kecepatan. Karena B mula-mula diam, A berhenti."
+    },
+    {
+      "number": 32,
+      "difficulty": "sulit",
+      "question": "Sebuah peluru bermassa 10 gram bergerak dengan kecepatan 800 m/s menembus balok bermassa 2 kg yang semula diam. Setelah keluar dari balok, kecepatan peluru menjadi 200 m/s. Jika balok dapat bergerak bebas, kecepatan balok setelah ditembus peluru adalah ...",
+      "options": {
+        "A": "1 m/s",
+        "B": "2 m/s",
+        "C": "3 m/s",
+        "D": "4 m/s"
+      },
+      "answer": "C",
+      "explanation": "Kekekalan momentum: 0,01(800) = 0,01(200) + 2v. Jadi 8 = 2 + 2v, sehingga v = 3 m/s."
+    },
+    {
+      "number": 33,
+      "difficulty": "sedang",
+      "question": "Bola bermassa 0,2 kg bergerak ke kanan dengan kecepatan 10 m/s lalu memantul ke kiri dengan kecepatan 6 m/s. Besar perubahan momentumnya adalah ...",
+      "options": {
+        "A": "0,8 kg·m/s",
+        "B": "1,6 kg·m/s",
+        "C": "3,2 kg·m/s",
+        "D": "4,0 kg·m/s"
+      },
+      "answer": "C",
+      "explanation": "Ambil kanan positif. Δp = m(vf−vi) = 0,2(−6−10) = −3,2 kg·m/s, sehingga besarnya 3,2 kg·m/s."
+    },
+    {
+      "number": 34,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bermassa 5 kg mula-mula diam lalu meledak menjadi dua bagian bermassa 2 kg dan 3 kg. Jika bagian bermassa 2 kg bergerak dengan kecepatan 12 m/s ke kanan, kecepatan bagian bermassa 3 kg adalah ...",
+      "options": {
+        "A": "4 m/s ke kiri",
+        "B": "6 m/s ke kiri",
+        "C": "8 m/s ke kiri",
+        "D": "12 m/s ke kiri"
+      },
+      "answer": "C",
+      "explanation": "Momentum awal nol. Maka 2(12) + 3v = 0, sehingga v = −8 m/s. Tanda negatif berarti ke kiri."
+    },
+    {
+      "number": 35,
+      "difficulty": "sedang",
+      "question": "Sebuah bola dijatuhkan dari ketinggian 1,8 m dan memantul hingga ketinggian 0,8 m. Koefisien restitusi bola terhadap lantai adalah ...",
+      "options": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "4/5"
+      },
+      "answer": "C",
+      "explanation": "e = √(h₂/h₁) = √(0,8/1,8) = √(4/9) = 2/3."
+    },
+    {
+      "number": 36,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 2 kg bergerak ke kanan dengan kecepatan 6 m/s, sedangkan benda bermassa 3 kg bergerak ke kiri dengan kecepatan 2 m/s. Jika keduanya bertumbukan dan menyatu, kecepatan gabungan setelah tumbukan adalah ...",
+      "options": {
+        "A": "0,8 m/s ke kanan",
+        "B": "1,2 m/s ke kanan",
+        "C": "2 m/s ke kanan",
+        "D": "3,2 m/s ke kanan"
+      },
+      "answer": "B",
+      "explanation": "Momentum total = 2(6) + 3(−2) = 6 kg·m/s. Massa total 5 kg, sehingga v = 6/5 = 1,2 m/s ke kanan."
+    },
+    {
+      "number": 37,
+      "difficulty": "sulit",
+      "question": "Benda A bermassa 2 kg bergerak ke kanan dengan kecepatan 8 m/s menumbuk benda B bermassa 3 kg yang diam. Jika tumbukan lenting sempurna satu dimensi, kecepatan benda B setelah tumbukan adalah ...",
+      "options": {
+        "A": "1,6 m/s",
+        "B": "4,8 m/s",
+        "C": "6,4 m/s",
+        "D": "8,0 m/s"
+      },
+      "answer": "C",
+      "explanation": "Untuk tumbukan lenting sempurna dengan B mula-mula diam, vB' = 2mA/(mA+mB) × vA = 4/5 × 8 = 6,4 m/s."
+    },
+    {
+      "number": 38,
+      "difficulty": "mudah",
+      "question": "Sebuah gaya memberikan impuls 20 Ns kepada benda bermassa 4 kg yang mula-mula diam. Perubahan kecepatan benda adalah ...",
+      "options": {
+        "A": "2 m/s",
+        "B": "4 m/s",
+        "C": "5 m/s",
+        "D": "8 m/s"
+      },
+      "answer": "C",
+      "explanation": "Impuls sama dengan perubahan momentum: I = mΔv. Jadi Δv = 20/4 = 5 m/s."
+    },
+    {
+      "number": 39,
+      "difficulty": "sedang",
+      "question": "Sebuah benda bermassa 5 kg mula-mula bergerak dengan kecepatan 2 m/s. Gaya 15 N searah gerak bekerja selama 4 s. Kecepatan akhir benda adalah ...",
+      "options": {
+        "A": "10 m/s",
+        "B": "12 m/s",
+        "C": "14 m/s",
+        "D": "16 m/s"
+      },
+      "answer": "C",
+      "explanation": "Impuls = FΔt = 15×4 = 60 Ns. Momentum awal = 5×2 = 10 kg·m/s. Momentum akhir = 70 kg·m/s, sehingga v = 70/5 = 14 m/s."
+    },
+    {
+      "number": 40,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bermassa 2 kg mula-mula diam. Gaya terhadap waktu bekerja membentuk grafik segitiga dengan gaya maksimum 60 N dan selang waktu 0,5 s. Besar kecepatan benda setelah gaya bekerja adalah ...",
+      "options": {
+        "A": "5 m/s",
+        "B": "7,5 m/s",
+        "C": "10 m/s",
+        "D": "15 m/s"
+      },
+      "answer": "B",
+      "explanation": "Impuls adalah luas di bawah grafik F-t: I = ½(0,5)(60) = 15 Ns. Karena I = mΔv dan benda mula-mula diam, v = 15/2 = 7,5 m/s."
+    }
+  ]
+}
