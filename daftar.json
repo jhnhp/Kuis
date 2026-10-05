@@ -1,6 +1,18 @@
 {
-  "generated": "2026-10-05T10:09:48",
+  "generated": "2026-10-05T19:43:11",
   "kuis": [
+    {
+      "title": "Latihan IPA SMA - Zat dan Perubahannya",
+      "topic": "Zat dan Perubahannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "02 Zat dan Perubahannya"
+      ],
+      "path": "Kelas7/IPA/02 Zat dan Perubahannya/soal.json"
+    },
     {
       "title": "Latihan Soal Perbandingan",
       "topic": "Perbandingan",

@@ -1,0 +1,269 @@
+{
+  "title": "Latihan IPA SMA - Zat dan Perubahannya",
+  "topic": "Zat dan Perubahannya",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 20,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "mudah",
+      "question": "Pernyataan yang paling tepat mengenai zat adalah ....",
+      "options": {
+        "A": "Sesuatu yang hanya memiliki massa",
+        "B": "Sesuatu yang memiliki massa dan menempati ruang",
+        "C": "Sesuatu yang selalu berbentuk padat",
+        "D": "Sesuatu yang hanya dapat dilihat dengan mata"
+      },
+      "answer": "B",
+      "explanation": "Zat adalah sesuatu yang memiliki massa dan menempati ruang."
+    },
+    {
+      "number": 2,
+      "difficulty": "mudah",
+      "question": "Pada zat padat, partikel-partikelnya umumnya ....",
+      "options": {
+        "A": "tersusun sangat renggang dan bergerak bebas",
+        "B": "tersusun rapat dan hanya bergetar di sekitar posisinya",
+        "C": "tidak memiliki gerakan sama sekali",
+        "D": "selalu berpindah dari satu tempat ke tempat lain"
+      },
+      "answer": "B",
+      "explanation": "Partikel zat padat tersusun rapat dan dapat bergetar di sekitar posisi tetapnya."
+    },
+    {
+      "number": 3,
+      "difficulty": "sedang",
+      "question": "Gas lebih mudah dimampatkan daripada zat cair karena ....",
+      "options": {
+        "A": "partikel gas tidak memiliki massa",
+        "B": "partikel gas tidak bergerak",
+        "C": "jarak antarpartikel gas relatif besar",
+        "D": "partikel zat cair bergerak lebih cepat daripada gas"
+      },
+      "answer": "C",
+      "explanation": "Jarak antarpartikel gas relatif besar sehingga masih terdapat banyak ruang yang dapat diperkecil ketika gas diberi tekanan."
+    },
+    {
+      "number": 4,
+      "difficulty": "mudah",
+      "question": "Perubahan wujud dari zat padat menjadi zat cair disebut ....",
+      "options": {
+        "A": "membeku",
+        "B": "menguap",
+        "C": "mencair",
+        "D": "mengembun"
+      },
+      "answer": "C",
+      "explanation": "Mencair adalah perubahan wujud dari padat menjadi cair, seperti es yang berubah menjadi air."
+    },
+    {
+      "number": 5,
+      "difficulty": "sedang",
+      "question": "Ketika air dipanaskan hingga menguap, perubahan yang terjadi pada partikel air adalah ....",
+      "options": {
+        "A": "partikel berhenti bergerak dan menjadi lebih rapat",
+        "B": "partikel memperoleh energi dan bergerak lebih bebas",
+        "C": "partikel berubah menjadi zat baru",
+        "D": "jumlah partikel air langsung menjadi nol"
+      },
+      "answer": "B",
+      "explanation": "Pemanasan memberikan energi kepada partikel sehingga geraknya meningkat dan partikel dapat berpindah lebih bebas ketika berubah menjadi gas."
+    },
+    {
+      "number": 6,
+      "difficulty": "sedang",
+      "question": "Titik-titik air yang terbentuk pada bagian luar gelas berisi es merupakan contoh ....",
+      "options": {
+        "A": "mencair",
+        "B": "membeku",
+        "C": "menguap",
+        "D": "mengembun"
+      },
+      "answer": "D",
+      "explanation": "Uap air di udara kehilangan energi ketika bersentuhan dengan permukaan gelas yang dingin sehingga berubah menjadi titik-titik air. Proses ini disebut mengembun."
+    },
+    {
+      "number": 7,
+      "difficulty": "mudah",
+      "question": "Kapur barus yang semakin lama semakin habis merupakan contoh perubahan wujud ....",
+      "options": {
+        "A": "mencair",
+        "B": "menyublim",
+        "C": "mengembun",
+        "D": "membeku"
+      },
+      "answer": "B",
+      "explanation": "Menyublim adalah perubahan wujud langsung dari padat menjadi gas tanpa melalui fase cair. Kapur barus dapat mengalami proses ini."
+    },
+    {
+      "number": 8,
+      "difficulty": "sedang",
+      "question": "Pakaian yang dijemur di bawah sinar matahari lebih cepat kering dibandingkan pakaian yang dijemur di tempat teduh. Faktor utama yang menyebabkan hal tersebut adalah ....",
+      "options": {
+        "A": "sinar matahari mengubah air menjadi zat baru",
+        "B": "suhu yang lebih tinggi meningkatkan energi partikel air",
+        "C": "air kehilangan massa tanpa mengalami perubahan wujud",
+        "D": "partikel air berhenti bergerak ketika terkena cahaya"
+      },
+      "answer": "B",
+      "explanation": "Suhu yang lebih tinggi memberikan energi lebih besar kepada partikel air sehingga lebih banyak partikel dapat meninggalkan permukaan dan mengalami penguapan."
+    },
+    {
+      "number": 9,
+      "difficulty": "sedang",
+      "question": "Manakah peristiwa berikut yang merupakan perubahan fisika?",
+      "options": {
+        "A": "Kayu terbakar",
+        "B": "Besi berkarat",
+        "C": "Es mencair",
+        "D": "Telur dimasak"
+      },
+      "answer": "C",
+      "explanation": "Es mencair merupakan perubahan wujud tanpa menghasilkan zat baru sehingga termasuk perubahan fisika."
+    },
+    {
+      "number": 10,
+      "difficulty": "sedang",
+      "question": "Ciri utama yang membedakan perubahan kimia dari perubahan fisika adalah ....",
+      "options": {
+        "A": "perubahan kimia selalu mengubah bentuk benda",
+        "B": "perubahan kimia menghasilkan zat baru",
+        "C": "perubahan fisika selalu membutuhkan kalor",
+        "D": "perubahan fisika tidak pernah dapat diamati"
+      },
+      "answer": "B",
+      "explanation": "Perubahan kimia ditandai oleh terbentuknya satu atau lebih zat baru dengan sifat yang berbeda dari zat awal."
+    },
+    {
+      "number": 11,
+      "difficulty": "sedang",
+      "question": "Gula dilarutkan ke dalam segelas air hingga tidak terlihat lagi. Peristiwa tersebut termasuk perubahan fisika karena ....",
+      "options": {
+        "A": "gula berubah menjadi zat baru",
+        "B": "air berubah menjadi gas",
+        "C": "tidak terbentuk zat baru dan gula dapat dipisahkan kembali melalui proses yang sesuai",
+        "D": "gula kehilangan seluruh massanya"
+      },
+      "answer": "C",
+      "explanation": "Pelarutan gula tidak menghasilkan zat baru. Gula tetap merupakan gula meskipun partikelnya tersebar di antara partikel air."
+    },
+    {
+      "number": 12,
+      "difficulty": "sedang",
+      "question": "Manakah peristiwa yang paling jelas menunjukkan terjadinya perubahan kimia?",
+      "options": {
+        "A": "Kertas dipotong menjadi dua",
+        "B": "Air membeku menjadi es",
+        "C": "Besi mengalami perkaratan",
+        "D": "Air menguap ketika dipanaskan"
+      },
+      "answer": "C",
+      "explanation": "Perkaratan menghasilkan senyawa baru pada permukaan besi akibat reaksi dengan lingkungan, sehingga merupakan perubahan kimia."
+    },
+    {
+      "number": 13,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki massa 200 gram dan volume 100 cm³. Massa jenis benda tersebut adalah ....",
+      "options": {
+        "A": "0,5 g/cm³",
+        "B": "2 g/cm³",
+        "C": "20 g/cm³",
+        "D": "200 g/cm³"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis dihitung dengan ρ = m/V = 200/100 = 2 g/cm³."
+    },
+    {
+      "number": 14,
+      "difficulty": "sedang",
+      "question": "Dua benda memiliki volume yang sama. Benda A bermassa 300 gram, sedangkan benda B bermassa 500 gram. Pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Benda A memiliki massa jenis lebih besar",
+        "B": "Benda B memiliki massa jenis lebih besar",
+        "C": "Kedua benda pasti memiliki massa jenis yang sama",
+        "D": "Massa jenis tidak dapat dibandingkan tanpa mengetahui bentuk benda"
+      },
+      "answer": "B",
+      "explanation": "Karena volume kedua benda sama, benda dengan massa lebih besar memiliki massa jenis lebih besar. Jadi massa jenis B lebih besar daripada A."
+    },
+    {
+      "number": 15,
+      "difficulty": "sedang",
+      "question": "Sebuah benda memiliki massa jenis 0,8 g/cm³. Jika benda tersebut dimasukkan ke dalam air yang memiliki massa jenis 1 g/cm³, benda tersebut cenderung ....",
+      "options": {
+        "A": "tenggelam",
+        "B": "melayang",
+        "C": "terapung",
+        "D": "berubah menjadi gas"
+      },
+      "answer": "C",
+      "explanation": "Massa jenis benda lebih kecil daripada massa jenis air, sehingga benda cenderung terapung."
+    },
+    {
+      "number": 16,
+      "difficulty": "sulit",
+      "question": "Sebuah benda bermassa 600 gram memiliki volume 750 cm³. Benda tersebut dimasukkan ke dalam air dengan massa jenis 1 g/cm³. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Benda tenggelam karena massa benda lebih dari 500 gram",
+        "B": "Benda melayang karena massanya cukup besar",
+        "C": "Benda terapung karena massa jenisnya 0,8 g/cm³",
+        "D": "Benda terapung karena volumenya lebih besar daripada massanya"
+      },
+      "answer": "C",
+      "explanation": "Massa jenis benda = 600/750 = 0,8 g/cm³. Karena 0,8 g/cm³ lebih kecil daripada massa jenis air 1 g/cm³, benda cenderung terapung."
+    },
+    {
+      "number": 17,
+      "difficulty": "sulit",
+      "question": "Sebuah balok logam memiliki massa 1.200 gram dan volume 150 cm³. Balok tersebut kemudian dipotong menjadi dua bagian sama besar. Massa jenis setiap bagian setelah dipotong adalah ....",
+      "options": {
+        "A": "4 g/cm³",
+        "B": "8 g/cm³",
+        "C": "16 g/cm³",
+        "D": "1.050 g/cm³"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis awal = 1.200/150 = 8 g/cm³. Ketika balok dipotong, massa dan volume sama-sama berkurang dengan perbandingan yang sama sehingga massa jenis tetap 8 g/cm³."
+    },
+    {
+      "number": 18,
+      "difficulty": "mudah",
+      "question": "Perubahan wujud dari gas menjadi cair disebut ....",
+      "options": {
+        "A": "menyublim",
+        "B": "mengembun",
+        "C": "mencair",
+        "D": "mengkristal"
+      },
+      "answer": "B",
+      "explanation": "Mengembun adalah perubahan wujud dari gas menjadi cair, seperti uap air yang berubah menjadi titik-titik air."
+    },
+    {
+      "number": 19,
+      "difficulty": "sulit",
+      "question": "Seorang siswa mengamati tiga peristiwa: (1) es mencair, (2) kayu terbakar, dan (3) air mendidih. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Ketiganya merupakan perubahan kimia karena semuanya melibatkan energi",
+        "B": "Peristiwa (1) dan (3) merupakan perubahan fisika, sedangkan (2) merupakan perubahan kimia",
+        "C": "Peristiwa (1) dan (2) merupakan perubahan fisika, sedangkan (3) merupakan perubahan kimia",
+        "D": "Ketiganya merupakan perubahan fisika karena bentuk zat berubah"
+      },
+      "answer": "B",
+      "explanation": "Es mencair dan air mendidih merupakan perubahan wujud tanpa menghasilkan zat baru sehingga termasuk perubahan fisika. Kayu terbakar menghasilkan zat-zat baru sehingga merupakan perubahan kimia."
+    },
+    {
+      "number": 20,
+      "difficulty": "sulit",
+      "question": "Sebuah benda A memiliki massa 400 gram dan volume 500 cm³, sedangkan benda B memiliki massa 600 gram dan volume 500 cm³. Kedua benda dimasukkan ke dalam air yang massa jenisnya 1 g/cm³. Pernyataan yang paling tepat adalah ....",
+      "options": {
+        "A": "A dan B sama-sama tenggelam karena massa B lebih besar",
+        "B": "A terapung dan B tenggelam karena massa jenis A lebih kecil dan B lebih besar daripada massa jenis air",
+        "C": "A dan B sama-sama melayang karena volumenya sama",
+        "D": "A tenggelam dan B terapung karena benda yang lebih berat selalu terapung"
+      },
+      "answer": "B",
+      "explanation": "Massa jenis A = 400/500 = 0,8 g/cm³ sehingga A terapung. Massa jenis B = 600/500 = 1,2 g/cm³ sehingga B tenggelam. Perbandingan massa jenis dengan massa jenis air menentukan perilaku kedua benda."
+    }
+  ]
+}
