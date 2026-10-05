@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T03:03:17",
+  "generated": "2026-10-05T10:09:48",
   "kuis": [
     {
       "title": "Latihan Soal Perbandingan",
@@ -90,36 +90,36 @@
       "topic": "Mikroekonomi dan Makroekonomi",
       "summary": "Kerjakanlah dengan jujur dan teliti.",
       "questions": 40,
-      "kelas": "TKA",
+      "kelas": "TKA SMA",
       "mapel": "Ekonomi",
       "topik": [
         "Latihan 1"
       ],
-      "path": "TKA/Ekonomi/Latihan1/soal.json"
+      "path": "TKA SMA/Ekonomi/Latihan1/soal.json"
     },
     {
       "title": "TKA Ekonomi - Ekonomi Internasional dan Akuntansi Keuangan Dasar",
       "topic": "Bab 3 Ekonomi Internasional dan Bab 4 Akuntansi Keuangan Dasar",
       "summary": "Kerjakanlah dengan jujur dan teliti.",
       "questions": 40,
-      "kelas": "TKA",
+      "kelas": "TKA SMA",
       "mapel": "Ekonomi",
       "topik": [
         "Latihan 2"
       ],
-      "path": "TKA/Ekonomi/Latihan 2/soal.json"
+      "path": "TKA SMA/Ekonomi/Latihan 2/soal.json"
     },
     {
       "title": "Latihan Fisika SMA - Fluida, Bunyi, dan Cahaya",
       "topic": "Fluida, Bunyi, dan Cahaya",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 40,
-      "kelas": "TKA",
+      "kelas": "TKA SMA",
       "mapel": "Fisika",
       "topik": [
         "Fluida dan Gelombang"
       ],
-      "path": "TKA/Fisika/Fluida dan Gelombang/soal_fluida_bunyi_cahaya.json"
+      "path": "TKA SMA/Fisika/Fluida dan Gelombang/soal_fluida_bunyi_cahaya.json"
     }
   ]
 }
