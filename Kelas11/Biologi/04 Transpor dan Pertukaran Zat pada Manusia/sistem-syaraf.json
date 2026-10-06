@@ -1,0 +1,269 @@
+{
+  "title": "Latihan Sistem Saraf Manusia",
+  "topic": "Sistem Saraf",
+  "subtitle": "Latihan Mandiri",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit",
+  "total_questions": 20,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Unit struktural dan fungsional utama penyusun sistem saraf adalah ...",
+      "options": {
+        "A": "Nefron",
+        "B": "Neuron",
+        "C": "Alveolus",
+        "D": "Osteosit"
+      },
+      "answer": "B",
+      "explanation": "Neuron merupakan sel yang menerima, memproses, dan menghantarkan informasi dalam sistem saraf."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Bagian neuron yang terutama berfungsi menerima rangsangan atau informasi dari neuron lain adalah ...",
+      "options": {
+        "A": "Akson",
+        "B": "Dendrit",
+        "C": "Selubung mielin",
+        "D": "Nodus Ranvier"
+      },
+      "answer": "B",
+      "explanation": "Dendrit berfungsi menerima informasi dan menghantarkannya menuju badan sel."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Bagian neuron yang berfungsi menghantarkan impuls menjauhi badan sel adalah ...",
+      "options": {
+        "A": "Dendrit",
+        "B": "Akson",
+        "C": "Badan sel",
+        "D": "Sinapsis"
+      },
+      "answer": "B",
+      "explanation": "Akson merupakan juluran neuron yang umumnya menghantarkan impuls menjauhi badan sel menuju terminal akson."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Sistem saraf pusat manusia terdiri atas ...",
+      "options": {
+        "A": "Otak dan saraf kranial",
+        "B": "Otak dan sumsum tulang belakang",
+        "C": "Saraf spinal dan ganglion",
+        "D": "Otak dan neuron motorik"
+      },
+      "answer": "B",
+      "explanation": "Sistem saraf pusat atau SSP terdiri atas otak dan sumsum tulang belakang."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Neuron yang membawa informasi dari reseptor menuju sistem saraf pusat disebut ...",
+      "options": {
+        "A": "Neuron motorik",
+        "B": "Neuron sensorik",
+        "C": "Interneuron",
+        "D": "Neuron asosiasi motorik"
+      },
+      "answer": "B",
+      "explanation": "Neuron sensorik membawa informasi dari reseptor menuju sistem saraf pusat."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Selubung mielin pada akson terutama berfungsi untuk ...",
+      "options": {
+        "A": "Menghasilkan hormon",
+        "B": "Memperlambat penghantaran impuls",
+        "C": "Membantu mempercepat penghantaran impuls",
+        "D": "Menghasilkan neurotransmiter di badan sel"
+      },
+      "answer": "C",
+      "explanation": "Selubung mielin berfungsi sebagai isolator dan memungkinkan penghantaran impuls yang lebih cepat melalui konduksi saltatori."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Seorang siswa tidak sengaja menyentuh benda panas dan segera menarik tangannya. Urutan jalur impuls yang paling tepat pada gerak refleks tersebut adalah ...",
+      "options": {
+        "A": "Reseptor → neuron motorik → otak → neuron sensorik → efektor",
+        "B": "Reseptor → neuron sensorik → sumsum tulang belakang → neuron motorik → efektor",
+        "C": "Efektor → neuron sensorik → sumsum tulang belakang → neuron motorik → reseptor",
+        "D": "Reseptor → otak → neuron sensorik → neuron motorik → efektor"
+      },
+      "answer": "B",
+      "explanation": "Pada gerak refleks, informasi dari reseptor dibawa neuron sensorik menuju sumsum tulang belakang, kemudian diteruskan melalui neuron motorik menuju efektor."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Perbedaan utama antara sistem saraf somatik dan sistem saraf otonom adalah ...",
+      "options": {
+        "A": "Somatik hanya terdapat di otak, sedangkan otonom hanya terdapat di sumsum tulang belakang",
+        "B": "Somatik terutama mengatur otot rangka, sedangkan otonom mengatur berbagai organ dalam",
+        "C": "Somatik hanya membawa informasi sensorik, sedangkan otonom hanya membawa informasi motorik",
+        "D": "Somatik menggunakan hormon, sedangkan otonom menggunakan impuls listrik"
+      },
+      "answer": "B",
+      "explanation": "Sistem saraf somatik terutama berkaitan dengan pengendalian otot rangka, sedangkan sistem saraf otonom mengatur berbagai fungsi organ dalam."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Ketika seseorang berada dalam situasi yang mengancam, sistem saraf simpatik dapat menyebabkan ...",
+      "options": {
+        "A": "Denyut jantung menurun dan pencernaan meningkat",
+        "B": "Denyut jantung meningkat dan pupil melebar",
+        "C": "Pupil menyempit dan denyut jantung menurun",
+        "D": "Aktivitas tubuh secara keseluruhan berhenti"
+      },
+      "answer": "B",
+      "explanation": "Sistem saraf simpatik mempersiapkan tubuh menghadapi aktivitas atau ancaman, antara lain dengan meningkatkan denyut jantung dan melebarkan pupil."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Tempat terjadinya komunikasi antara neuron dengan neuron lain atau dengan sel efektor disebut ...",
+      "options": {
+        "A": "Nodus Ranvier",
+        "B": "Sinapsis",
+        "C": "Dendrit",
+        "D": "Badan sel"
+      },
+      "answer": "B",
+      "explanation": "Sinapsis merupakan tempat komunikasi antara neuron dengan neuron lain atau dengan sel target seperti otot dan kelenjar."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Ketika potensial aksi mencapai terminal akson, ion yang masuk ke terminal presinaptik dan berperan dalam pelepasan neurotransmiter adalah ...",
+      "options": {
+        "A": "Ca²⁺",
+        "B": "Fe²⁺",
+        "C": "Cl⁻",
+        "D": "I⁻"
+      },
+      "answer": "A",
+      "explanation": "Masuknya ion Ca²⁺ ke terminal presinaptik memicu fusi vesikel dengan membran sehingga neurotransmiter dapat dilepaskan ke celah sinaptik."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Pada potensial aksi, masuknya ion Na⁺ ke dalam neuron terutama menyebabkan ...",
+      "options": {
+        "A": "Depolarisasi",
+        "B": "Repolarisasi",
+        "C": "Hiperpolarisasi permanen",
+        "D": "Penghentian seluruh aktivitas neuron"
+      },
+      "answer": "A",
+      "explanation": "Pembukaan saluran Na⁺ menyebabkan ion Na⁺ masuk ke dalam neuron sehingga membran mengalami depolarisasi."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Perhatikan beberapa bagian berikut: (1) otak, (2) sumsum tulang belakang, (3) saraf spinal, (4) saraf kranial. Bagian yang termasuk sistem saraf pusat adalah ...",
+      "options": {
+        "A": "(1) dan (2)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(3) dan (4)"
+      },
+      "answer": "A",
+      "explanation": "Sistem saraf pusat hanya terdiri atas otak dan sumsum tulang belakang. Saraf spinal dan saraf kranial termasuk sistem saraf tepi."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Seorang pasien mengalami gangguan pada cerebellum. Fungsi yang paling mungkin terganggu adalah ...",
+      "options": {
+        "A": "Koordinasi gerakan dan keseimbangan",
+        "B": "Produksi sel darah merah",
+        "C": "Pertukaran gas di paru-paru",
+        "D": "Pembentukan urine"
+      },
+      "answer": "A",
+      "explanation": "Cerebellum atau otak kecil berperan penting dalam koordinasi gerakan, keseimbangan, dan ketepatan gerakan."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "question": "Bagian otak yang terutama berperan dalam pemrosesan informasi visual adalah ...",
+      "options": {
+        "A": "Lobus frontal",
+        "B": "Lobus parietal",
+        "C": "Lobus temporal",
+        "D": "Lobus oksipital"
+      },
+      "answer": "D",
+      "explanation": "Lobus oksipital merupakan bagian otak besar yang berperan penting dalam pemrosesan informasi visual."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "question": "Seseorang menyentuh benda panas dan tangannya langsung ditarik sebelum ia menyadari rasa sakit secara penuh. Pernyataan yang paling tepat adalah ...",
+      "options": {
+        "A": "Otak tidak pernah menerima informasi tentang rasa sakit",
+        "B": "Respons awal dapat diproses melalui lengkung refleks di sumsum tulang belakang, sementara informasi sensorik tetap dapat diteruskan ke otak",
+        "C": "Gerak tersebut terjadi karena otot bekerja tanpa sistem saraf",
+        "D": "Sumsum tulang belakang hanya berfungsi sebagai saluran tanpa peran dalam refleks"
+      },
+      "answer": "B",
+      "explanation": "Pada gerak refleks, respons dapat diproses melalui sumsum tulang belakang sehingga berlangsung cepat. Informasi sensorik tetap dapat diteruskan ke otak sehingga rasa sakit akhirnya disadari."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "question": "Seorang pasien mengalami kerusakan pada saraf sensorik dari tangan menuju sumsum tulang belakang. Ketika tangannya menyentuh benda panas, ia mengalami gangguan dalam merasakan panas dan nyeri. Kesimpulan yang paling tepat adalah ...",
+      "options": {
+        "A": "Gangguan terjadi karena informasi sensorik tidak dapat dihantarkan secara normal menuju sistem saraf pusat",
+        "B": "Gangguan terjadi karena neuron motorik menghasilkan terlalu banyak impuls",
+        "C": "Gangguan terjadi karena otot tangan tidak memiliki efektor",
+        "D": "Gangguan terjadi karena otak tidak dapat menghasilkan hormon pertumbuhan"
+      },
+      "answer": "A",
+      "explanation": "Saraf sensorik membawa informasi dari reseptor menuju sistem saraf pusat. Jika jalur ini rusak, informasi mengenai stimulus pada tangan dapat terganggu."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "question": "Dua neuron memiliki panjang akson yang sama. Neuron pertama memiliki akson bermielin, sedangkan neuron kedua tidak bermielin. Jika faktor lain dianggap sama, neuron pertama cenderung menghantarkan impuls lebih cepat karena ...",
+      "options": {
+        "A": "Impuls hanya bergerak pada badan sel neuron pertama",
+        "B": "Mielin memungkinkan terjadinya konduksi saltatori melalui nodus Ranvier",
+        "C": "Mielin menghasilkan neurotransmiter secara langsung",
+        "D": "Akson tanpa mielin tidak dapat menghasilkan potensial aksi"
+      },
+      "answer": "B",
+      "explanation": "Pada akson bermielin, potensial aksi dapat merambat secara saltatori dari satu nodus Ranvier ke nodus berikutnya sehingga penghantaran impuls berlangsung lebih cepat."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Seorang siswa melihat bola bergerak cepat ke arah wajahnya lalu segera menghindar. Setelah itu ia menyadari bahwa bola tersebut ternyata tidak akan mengenai wajahnya. Urutan proses yang paling tepat untuk menjelaskan kejadian tersebut adalah ...",
+      "options": {
+        "A": "Reseptor visual menerima stimulus → informasi sensorik menuju otak → otak mengolah informasi → perintah motorik menuju otot → gerakan menghindar",
+        "B": "Otot menghindar terlebih dahulu → mata menerima stimulus → otak menghasilkan informasi visual",
+        "C": "Saraf motorik menerima cahaya → sumsum tulang belakang menghasilkan penglihatan → otot mengirimkan informasi ke otak",
+        "D": "Mata langsung mengaktifkan otot tanpa melibatkan sistem saraf pusat"
+      },
+      "answer": "A",
+      "explanation": "Informasi visual diterima oleh reseptor di mata, diteruskan melalui jalur sensorik menuju otak untuk diproses, kemudian otak menghasilkan perintah motorik menuju otot sehingga tubuh dapat menghindar."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Sebuah obat menghambat pelepasan neurotransmiter dari terminal akson neuron presinaptik. Dampak yang paling mungkin terjadi pada komunikasi antarneuron adalah ...",
+      "options": {
+        "A": "Penerusan sinyal ke neuron berikutnya dapat terganggu karena neurotransmiter tidak dilepaskan secara normal",
+        "B": "Potensial aksi pada neuron selalu menjadi lebih besar",
+        "C": "Dendrit berubah menjadi selubung mielin",
+        "D": "Sumsum tulang belakang berhenti menjadi bagian dari sistem saraf pusat"
+      },
+      "answer": "A",
+      "explanation": "Neurotransmiter diperlukan untuk meneruskan informasi melintasi celah sinaptik. Jika pelepasannya dihambat, komunikasi antara neuron presinaptik dan sel berikutnya dapat terganggu."
+    }
+  ]
+}
