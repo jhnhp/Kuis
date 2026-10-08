@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T20:32:38",
+  "generated": "2026-10-08T11:09:15",
   "kuis": [
     {
       "title": "Latihan IPA SMA - Zat dan Perubahannya",
@@ -156,6 +156,18 @@
         "Fluida dan Gelombang"
       ],
       "path": "TKA SMA/Fisika/Fluida dan Gelombang/soal_fluida_bunyi_cahaya.json"
+    },
+    {
+      "title": "TKA Matematika - Geometri, Pengukuran, dan Trigonometri",
+      "topic": "Geometri, Pengukuran, dan Trigonometri",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Geometri dan Trigonometri"
+      ],
+      "path": "TKA SMA/Matematika/04 Geometri dan Trigonometri/soal.json"
     }
   ]
 }
