@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T16:06:53",
+  "generated": "2026-10-09T21:31:36",
   "kuis": [
     {
       "title": "Latihan IPA SMA - Zat dan Perubahannya",
@@ -60,6 +60,18 @@
         "Diagnostic Test"
       ],
       "path": "Kelas9/Fisika/DiagnosticTest/soal.json"
+    },
+    {
+      "title": "Latihan ASTS I IPA Kelas IX",
+      "topic": "IPA Kelas IX — Zat Adiktif, Sistem Koordinasi, Reproduksi, dan Tekanan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "Latihan ASTSI IPA Kelas IX"
+      ],
+      "path": "Kelas9/IPA/Latihan_ASTSI_IPA_Kelas_IX/soal.json"
     },
     {
       "title": "Diagnostic Test Matematika Kelas 9",
