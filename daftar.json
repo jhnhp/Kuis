@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T21:31:36",
+  "generated": "2026-10-09T22:19:24",
   "kuis": [
     {
       "title": "Latihan IPA SMA - Zat dan Perubahannya",
@@ -72,6 +72,18 @@
         "Latihan ASTSI IPA Kelas IX"
       ],
       "path": "Kelas9/IPA/Latihan_ASTSI_IPA_Kelas_IX/soal.json"
+    },
+    {
+      "title": "Latihan Tekanan Zat — IPA Kelas IX",
+      "topic": "Bab 4: Tekanan Zat Padat, Cair, dan Gas",
+      "summary": "70% Hitungan (14 soal) | 30% Teori (6 soal)",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "Latihan Tekanan IPA Kelas IX"
+      ],
+      "path": "Kelas9/IPA/Latihan_Tekanan_IPA_Kelas_IX/soal_tekanan.json"
     },
     {
       "title": "Diagnostic Test Matematika Kelas 9",
