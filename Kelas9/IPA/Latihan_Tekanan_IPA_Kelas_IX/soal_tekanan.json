@@ -60,7 +60,7 @@
       },
       "answer": "C",
       "explanation": "P = F/A = 80/0,02 = 4.000 Pa.",
-      "image": "gambar/tekanan_padat.png"
+      "image": "tekanan_padat.png"
     },
     {
       "number": 5,
@@ -75,7 +75,7 @@
       },
       "answer": "B",
       "explanation": "Pada gaya yang sama, luas bidang tekan yang lebih kecil menghasilkan tekanan lebih besar.",
-      "image": "gambar/tekanan_padat.png"
+      "image": "tekanan_padat.png"
     },
     {
       "number": 6,
@@ -90,7 +90,7 @@
       },
       "answer": "C",
       "explanation": "P = ρgh = 1.000 × 10 × 3 = 30.000 Pa.",
-      "image": "gambar/hidrostatis.png"
+      "image": "hidrostatis.png"
     },
     {
       "number": 7,
@@ -105,7 +105,7 @@
       },
       "answer": "B",
       "explanation": "h = P/(ρg) = 20.000/(1.000 × 10) = 2 m.",
-      "image": "gambar/hidrostatis.png"
+      "image": "hidrostatis.png"
     },
     {
       "number": 8,
@@ -120,7 +120,7 @@
       },
       "answer": "B",
       "explanation": "Hukum Archimedes menyatakan gaya ke atas sama dengan berat fluida yang dipindahkan benda.",
-      "image": "gambar/archimedes.png"
+      "image": "archimedes.png"
     },
     {
       "number": 9,
@@ -135,7 +135,7 @@
       },
       "answer": "B",
       "explanation": "Fₐ = ρgV = 1.000 × 10 × 0,004 = 40 N.",
-      "image": "gambar/archimedes.png"
+      "image": "archimedes.png"
     },
     {
       "number": 10,
@@ -150,7 +150,7 @@
       },
       "answer": "B",
       "explanation": "Berat semu = berat di udara − gaya apung = 75 − 25 = 50 N.",
-      "image": "gambar/archimedes.png"
+      "image": "archimedes.png"
     },
     {
       "number": 11,
@@ -165,7 +165,7 @@
       },
       "answer": "B",
       "explanation": "Untuk benda terapung, ρ_benda/ρ_air = fraksi volume tercelup. Jadi ρ_benda = 0,60 × 1.000 = 600 kg/m³.",
-      "image": "gambar/archimedes.png"
+      "image": "archimedes.png"
     },
     {
       "number": 12,
@@ -180,7 +180,7 @@
       },
       "answer": "B",
       "explanation": "Dalam model sederhana, benda melayang jika massa jenis benda sama dengan massa jenis fluida.",
-      "image": "gambar/archimedes.png"
+      "image": "archimedes.png"
     },
     {
       "number": 13,
@@ -195,7 +195,7 @@
       },
       "answer": "C",
       "explanation": "F₁/A₁ = F₂/A₂, sehingga F₂ = 15 × 40/4 = 150 N.",
-      "image": "gambar/pascal.png"
+      "image": "pascal.png"
     },
     {
       "number": 14,
@@ -210,7 +210,7 @@
       },
       "answer": "C",
       "explanation": "Tekanan yang diberikan pada fluida tertutup diteruskan sama besar ke segala arah.",
-      "image": "gambar/pascal.png"
+      "image": "pascal.png"
     },
     {
       "number": 15,
@@ -225,7 +225,7 @@
       },
       "answer": "B",
       "explanation": "F₁/A₁ = F₂/A₂, maka F₁ = 1.600 × 5/200 = 40 N.",
-      "image": "gambar/pascal.png"
+      "image": "pascal.png"
     },
     {
       "number": 16,
@@ -240,7 +240,7 @@
       },
       "answer": "C",
       "explanation": "Hukum Boyle: P₁V₁ = P₂V₂, sehingga P₂ = 120 × 5/3 = 200 kPa.",
-      "image": "gambar/boyle.png"
+      "image": "boyle.png"
     },
     {
       "number": 17,
@@ -255,7 +255,7 @@
       },
       "answer": "B",
       "explanation": "Hukum Boyle menyatakan P₁V₁ = P₂V₂; ketika volume mengecil, tekanan meningkat.",
-      "image": "gambar/boyle.png"
+      "image": "boyle.png"
     },
     {
       "number": 18,
@@ -284,7 +284,7 @@
       },
       "answer": "C",
       "explanation": "P = ρgh = 800 × 10 × 1,2 = 9.600 Pa.",
-      "image": "gambar/hidrostatis.png"
+      "image": "hidrostatis.png"
     },
     {
       "number": 20,
@@ -299,7 +299,7 @@
       },
       "answer": "C",
       "explanation": "P = ρgh = 900 × 10 × 2,5 = 22.500 Pa.",
-      "image": "gambar/hidrostatis.png"
+      "image": "hidrostatis.png"
     }
   ],
   "image_directory": "gambar/",
