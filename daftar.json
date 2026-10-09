@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T16:38:09",
+  "generated": "2026-10-09T16:06:53",
   "kuis": [
     {
       "title": "Latihan IPA SMA - Zat dan Perubahannya",
@@ -122,6 +122,126 @@
       "path": "Kelas11/Fisika/Vektor/soal_vektor.json"
     },
     {
+      "title": "TKA Ekonomi - Konsep Dasar Ilmu Ekonomi",
+      "topic": "Konsep Dasar Ilmu Ekonomi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "01 Konsep Dasar Ilmu Ekonomi"
+      ],
+      "path": "TKA SMA/Ekonomi/01 Konsep Dasar Ilmu Ekonomi/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Permintaan, Penawaran, dan Keseimbangan Pasar",
+      "topic": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "02 Permintaan, Penawaran, dan Keseimbangan Pasar"
+      ],
+      "path": "TKA SMA/Ekonomi/02 Permintaan, Penawaran, dan Keseimbangan Pasar/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Pendapatan Nasional dan Pembangunan Ekonomi",
+      "topic": "Pendapatan Nasional dan Pembangunan Ekonomi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "03 Pendapatan Nasional dan Pembangunan Ekonomi"
+      ],
+      "path": "TKA SMA/Ekonomi/03 Pendapatan Nasional dan Pembangunan Ekonomi/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Ketenagakerjaan, Indeks Harga, dan Inflasi",
+      "topic": "Ketenagakerjaan, Indeks Harga, dan Inflasi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "04 Ketenagakerjaan dan Inflasi"
+      ],
+      "path": "TKA SMA/Ekonomi/04 Ketenagakerjaan dan Inflasi/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Bank Sentral dan Kebijakan Moneter",
+      "topic": "Bank Sentral dan Kebijakan Moneter",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "05 Bank Sentral dan Kebijakan Moneter"
+      ],
+      "path": "TKA SMA/Ekonomi/05 Bank Sentral dan Kebijakan Moneter/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Kebijakan Fiskal dan Perpajakan",
+      "topic": "Kebijakan Fiskal dan Perpajakan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "06 Kebijakan Fiskal dan Perpajakan"
+      ],
+      "path": "TKA SMA/Ekonomi/06 Kebijakan Fiskal dan Perpajakan/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Manajemen Badan Usaha",
+      "topic": "Manajemen Badan Usaha (BUMN, BUMD, BUMS, dan Koperasi)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "07 Manajemen Badan Usaha"
+      ],
+      "path": "TKA SMA/Ekonomi/07 Manajemen Badan Usaha/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Ekonomi Internasional",
+      "topic": "Perdagangan Internasional dan Kerja Sama Ekonomi Internasional",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "08 Ekonomi Internasional"
+      ],
+      "path": "TKA SMA/Ekonomi/08 Ekonomi Internasional/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Akuntansi Keuangan Dasar",
+      "topic": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "09 Akuntansi Keuangan Dasar"
+      ],
+      "path": "TKA SMA/Ekonomi/09 Akuntansi Keuangan Dasar/soal.json"
+    },
+    {
+      "title": "TKA Ekonomi - Simulasi TKA",
+      "topic": "Simulasi TKA Ekonomi (semua elemen)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMA",
+      "mapel": "Ekonomi",
+      "topik": [
+        "10 Simulasi TKA"
+      ],
+      "path": "TKA SMA/Ekonomi/10 Simulasi TKA/soal.json"
+    },
+    {
       "title": "TKA Ekonomi - Mikroekonomi dan Makroekonomi",
       "topic": "Mikroekonomi dan Makroekonomi",
       "summary": "Kerjakanlah dengan jujur dan teliti.",
@@ -144,6 +264,162 @@
         "Latihan 2"
       ],
       "path": "TKA SMA/Ekonomi/Latihan 2/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Pengukuran dan Gerak Lurus",
+      "topic": "Pengukuran dan Gerak Lurus",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "01 Pengukuran dan Gerak Lurus"
+      ],
+      "path": "TKA SMA/Fisika/01 Pengukuran dan Gerak Lurus/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Gerak Parabola dan Gerak Melingkar",
+      "topic": "Gerak Parabola dan Gerak Melingkar Beraturan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "02 Gerak Parabola dan Gerak Melingkar"
+      ],
+      "path": "TKA SMA/Fisika/02 Gerak Parabola dan Gerak Melingkar/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Hukum Newton tentang Gerak",
+      "topic": "Hukum Newton tentang Gerak",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "03 Hukum Newton tentang Gerak"
+      ],
+      "path": "TKA SMA/Fisika/03 Hukum Newton tentang Gerak/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Momentum dan Impuls",
+      "topic": "Momentum, Impuls, dan Tumbukan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "04 Momentum dan Impuls"
+      ],
+      "path": "TKA SMA/Fisika/04 Momentum dan Impuls/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Dinamika Rotasi dan Kesetimbangan",
+      "topic": "Momen Gaya, Momen Inersia, dan Kesetimbangan Benda Tegar",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "05 Dinamika Rotasi dan Kesetimbangan"
+      ],
+      "path": "TKA SMA/Fisika/05 Dinamika Rotasi dan Kesetimbangan/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Fluida Statis dan Dinamis",
+      "topic": "Tekanan Fluida, Hukum Pascal, Hukum Archimedes, Kontinuitas, dan Hukum Bernoulli",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "06 Fluida Statis dan Dinamis"
+      ],
+      "path": "TKA SMA/Fisika/06 Fluida Statis dan Dinamis/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Gelombang dan Bunyi",
+      "topic": "Karakteristik Gelombang Bunyi, Sumber Bunyi, dan Intensitas Bunyi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "07 Gelombang dan Bunyi"
+      ],
+      "path": "TKA SMA/Fisika/07 Gelombang dan Bunyi/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Cahaya dan Alat Optik",
+      "topic": "Gelombang Elektromagnetik, Sifat Cahaya, Cermin, Lensa, dan Alat Optik",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "08 Cahaya dan Alat Optik"
+      ],
+      "path": "TKA SMA/Fisika/08 Cahaya dan Alat Optik/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Kalor dan Pemanasan Global",
+      "topic": "Kalor, Perubahan Wujud, Pemuaian, Perpindahan Kalor, dan Pemanasan Global",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "09 Kalor dan Pemanasan Global"
+      ],
+      "path": "TKA SMA/Fisika/09 Kalor dan Pemanasan Global/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Gas Ideal dan Termodinamika",
+      "topic": "Hukum Gas Ideal, Proses Termodinamika, Hukum Termodinamika, dan Mesin Kalor",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "10 Gas Ideal dan Termodinamika"
+      ],
+      "path": "TKA SMA/Fisika/10 Gas Ideal dan Termodinamika/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Listrik Statis",
+      "topic": "Gejala Listrik Statis, Hukum Coulomb, Medan Listrik, dan Potensial Listrik",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "11 Listrik Statis"
+      ],
+      "path": "TKA SMA/Fisika/11 Listrik Statis/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Rangkaian Arus Searah",
+      "topic": "Hukum Ohm, Hukum Kirchhoff, Rangkaian Seri-Paralel, Energi, dan Daya Listrik",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "12 Rangkaian Arus Searah"
+      ],
+      "path": "TKA SMA/Fisika/12 Rangkaian Arus Searah/soal.json"
+    },
+    {
+      "title": "TKA Fisika - Simulasi TKA",
+      "topic": "Simulasi TKA Fisika (semua bab)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMA",
+      "mapel": "Fisika",
+      "topik": [
+        "13 Simulasi TKA"
+      ],
+      "path": "TKA SMA/Fisika/13 Simulasi TKA/soal.json"
     },
     {
       "title": "Latihan Fisika SMA - Fluida, Bunyi, dan Cahaya",
