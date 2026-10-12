@@ -1,29 +1,17 @@
 {
-  "generated": "2026-10-12T13:48:02",
+  "generated": "2026-10-12T20:20:24",
   "kuis": [
     {
-      "title": "Latihan IPA SMA - Zat dan Perubahannya",
-      "topic": "Zat dan Perubahannya",
-      "summary": "20% Mudah | 55% Sedang | 25% Sulit. Kerjakan dengan teliti dan gunakan konsep untuk menalar setiap situasi.",
-      "questions": 40,
-      "kelas": "Kelas 7",
-      "mapel": "IPA",
-      "topik": [
-        "02 Zat dan Perubahannya"
-      ],
-      "path": "Kelas7/IPA/02 Zat dan Perubahannya/soal2.json"
-    },
-    {
-      "title": "Latihan IPA SMA - Zat dan Perubahannya",
-      "topic": "Zat dan Perubahannya",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "title": "Latihan IPA - Anatomi Hewan, Tumbuhan, dan Manusia",
+      "topic": "Anatomi Hewan, Tumbuhan, dan Manusia",
+      "summary": "25% Mudah | 50% Sedang | 25% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 20,
       "kelas": "Kelas 7",
       "mapel": "IPA",
       "topik": [
-        "02 Zat dan Perubahannya"
+        "Anatomi"
       ],
-      "path": "Kelas7/IPA/02 Zat dan Perubahannya/soal.json"
+      "path": "Kelas7/IPA/Anatomi/soal_anatomi.json"
     },
     {
       "title": "Latihan Soal Perbandingan",
