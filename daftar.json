@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T20:20:24",
+  "generated": "2026-10-12T21:15:18",
   "kuis": [
     {
       "title": "Latihan IPA - Anatomi Hewan, Tumbuhan, dan Manusia",
@@ -74,6 +74,18 @@
       "path": "Kelas9/IPA/Latihan_Tekanan_IPA_Kelas_IX/soal_tekanan.json"
     },
     {
+      "title": "Matematika Kelas IX - Transformasi Geometri",
+      "topic": "Translasi, Refleksi, Rotasi, Dilatasi, dan Komposisi Transformasi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Transformasi"
+      ],
+      "path": "Kelas9/Matematika/03 Transformasi/soal.json"
+    },
+    {
       "title": "Diagnostic Test Matematika Kelas 9",
       "topic": "Latihan Matematika",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit",
@@ -84,6 +96,114 @@
         "Diagnostic Test"
       ],
       "path": "Kelas9/Matematika/DiagnosticTest/soal.json"
+    },
+    {
+      "title": "Matematika Kelas IX - Translasi",
+      "topic": "Translasi Titik, Bangun, Garis, dan Grafik serta Komposisi Translasi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "Matematika",
+      "topik": [
+        "Translasi"
+      ],
+      "path": "Kelas9/Matematika/Translasi/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Sistem Pengukuran dalam Kerja Ilmiah",
+      "topic": "Alat Ukur, Besaran, Satuan, Dimensi, Angka Penting, dan Ketidakpastian Pengukuran",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "01 Sistem Pengukuran dalam Kerja Ilmiah"
+      ],
+      "path": "Kelas10/IPA/01 Sistem Pengukuran dalam Kerja Ilmiah/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Virus dan Peranannya",
+      "topic": "Struktur dan Bentuk Virus, Replikasi Virus, Peranan Virus, dan Pencegahan Penyebaran Virus",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "02 Virus dan Peranannya"
+      ],
+      "path": "Kelas10/IPA/02 Virus dan Peranannya/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Struktur Atom Fakta di Balik Materi",
+      "topic": "Perkembangan Teori Atom, Partikel Subatom, Ion, Isotop, Konfigurasi Elektron, Sistem Periodik, dan Sifat Keperiodikan Unsur",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "03 Struktur Atom Fakta di Balik Materi"
+      ],
+      "path": "Kelas10/IPA/03 Struktur Atom Fakta di Balik Materi/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Hukum Dasar Kimia di Sekitar Kita",
+      "topic": "Ciri dan Persamaan Reaksi Kimia, Hukum Lavoisier, Proust, Dalton, dan Gay-Lussac",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "04 Hukum Dasar Kimia di Sekitar Kita"
+      ],
+      "path": "Kelas10/IPA/04 Hukum Dasar Kimia di Sekitar Kita/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Kimia Hijau dalam Pembangunan Berkelanjutan 2030",
+      "topic": "Pengertian Kimia Hijau, 12 Prinsip Kimia Hijau, Persamaan Reaksi, dan Kegiatan Pendukung Pembangunan Berkelanjutan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "05 Kimia Hijau dalam Pembangunan Berkelanjutan 2030"
+      ],
+      "path": "Kelas10/IPA/05 Kimia Hijau dalam Pembangunan Berkelanjutan 2030/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam",
+      "topic": "Keanekaragaman Hayati dan Pelestariannya, Klasifikasi Makhluk Hidup, Bakteri dan Fungi, serta Interaksi dalam Ekosistem",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "06 Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam"
+      ],
+      "path": "Kelas10/IPA/06 Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Energi Terbarukan",
+      "topic": "Bentuk Energi, Konversi Energi dan Hukum Kekekalan Energi, Daya dan kWh, serta Sumber Energi Terbarukan dan Tak Terbarukan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "07 Energi Terbarukan"
+      ],
+      "path": "Kelas10/IPA/07 Energi Terbarukan/soal.json"
+    },
+    {
+      "title": "IPA Kelas X - Perubahan Iklim",
+      "topic": "Gejala, Dampak, dan Penyebab Perubahan Iklim, Efek Rumah Kaca, Penipisan Ozon, serta Upaya Mitigasi dan Adaptasi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "IPA",
+      "topik": [
+        "08 Perubahan Iklim"
+      ],
+      "path": "Kelas10/IPA/08 Perubahan Iklim/soal.json"
     },
     {
       "title": "Latihan Sistem Saraf Manusia",
