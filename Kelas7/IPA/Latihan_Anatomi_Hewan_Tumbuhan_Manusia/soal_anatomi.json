@@ -1,0 +1,364 @@
+{
+  "judul": "Latihan Anatomi Hewan, Tumbuhan, dan Manusia",
+  "deskripsi": "Paket latihan IPA tentang struktur tubuh hewan, tumbuhan, dan manusia. Gambar pendukung tersedia pada folder gambar.",
+  "jenjang": "SMP/MTs",
+  "bahasa": "id",
+  "jumlah_soal": 15,
+  "komposisi": {
+    "Knowing": 3,
+    "Applying": 8,
+    "Reasoning": 4,
+    "PG": 8,
+    "PGK Kategori": 4,
+    "PGK MCMA": 3
+  },
+  "petunjuk": "Untuk PG, pilih satu jawaban. Untuk PGK Kategori, tentukan kategori setiap pernyataan. Untuk PGK MCMA, pilih semua jawaban yang benar.",
+  "soal": [
+    {
+      "No_Soal": 1,
+      "Kompetensi": "Memahami struktur dan fungsi organ",
+      "Sub_Kompetensi": "Mengenali bagian tubuh hewan",
+      "Materi": "Anatomi hewan",
+      "Konteks": "Ikan",
+      "Level_Kognitif": "Knowing",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Pada gambar anatomi ikan, organ yang digunakan terutama untuk mengambil oksigen terlarut dari air adalah ....",
+      "Gambar": "gambar/anatomi_ikan.png",
+      "Opsi_Jawaban": {
+        "A": "Sirip dada",
+        "B": "Insang",
+        "C": "Ekor",
+        "D": "Mata"
+      },
+      "Kunci": "B",
+      "Pembahasan": "Insang menjadi tempat pertukaran gas pada ikan; oksigen terlarut dari air masuk ke darah.",
+      "Miskonsepsi_Target": "Menganggap sirip atau ekor sebagai organ pernapasan."
+    },
+    {
+      "No_Soal": 2,
+      "Kompetensi": "Memahami struktur dan fungsi organ",
+      "Sub_Kompetensi": "Mengidentifikasi bagian tumbuhan",
+      "Materi": "Anatomi tumbuhan",
+      "Konteks": "Tumbuhan berbunga",
+      "Level_Kognitif": "Knowing",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Bagian tumbuhan yang terutama menyerap air dan mineral dari tanah adalah ....",
+      "Gambar": "gambar/bagian_tumbuhan.png",
+      "Opsi_Jawaban": {
+        "A": "Bunga",
+        "B": "Daun",
+        "C": "Akar",
+        "D": "Buah"
+      },
+      "Kunci": "C",
+      "Pembahasan": "Akar menyerap air dan mineral serta membantu menambatkan tumbuhan pada tanah.",
+      "Miskonsepsi_Target": "Menganggap batang sebagai organ utama penyerap air dari tanah."
+    },
+    {
+      "No_Soal": 3,
+      "Kompetensi": "Memahami organisasi tubuh",
+      "Sub_Kompetensi": "Membedakan organ dan sistem organ",
+      "Materi": "Anatomi manusia",
+      "Konteks": "Organ manusia",
+      "Level_Kognitif": "Knowing",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Jantung termasuk tingkat organisasi kehidupan berupa ....",
+      "Gambar": "gambar/organ_manusia.png",
+      "Opsi_Jawaban": {
+        "A": "Sel",
+        "B": "Jaringan",
+        "C": "Organ",
+        "D": "Organisme"
+      },
+      "Kunci": "C",
+      "Pembahasan": "Jantung tersusun atas beberapa jenis jaringan yang bekerja bersama menjalankan fungsi pemompaan darah.",
+      "Miskonsepsi_Target": "Menyamakan organ dengan jaringan atau sistem organ."
+    },
+    {
+      "No_Soal": 4,
+      "Kompetensi": "Menerapkan konsep struktur-fungsi",
+      "Sub_Kompetensi": "Menghubungkan bentuk organ hewan dengan fungsinya",
+      "Materi": "Anatomi hewan",
+      "Konteks": "Adaptasi ikan",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Seekor ikan memiliki tubuh ramping dan sirip yang berkembang baik. Kombinasi ciri tersebut paling membantu ikan untuk ....",
+      "Gambar": "gambar/anatomi_ikan.png",
+      "Opsi_Jawaban": {
+        "A": "Bergerak efisien di air dan menjaga arah",
+        "B": "Menyerap mineral dari lumpur",
+        "C": "Menghasilkan makanan melalui fotosintesis",
+        "D": "Menghirup udara menggunakan paru-paru seperti manusia"
+      },
+      "Kunci": "A",
+      "Pembahasan": "Bentuk tubuh ramping mengurangi hambatan air, sedangkan sirip membantu gerak, keseimbangan, dan pengendalian arah.",
+      "Miskonsepsi_Target": "Menganggap semua struktur tubuh hanya memiliki fungsi tunggal."
+    },
+    {
+      "No_Soal": 5,
+      "Kompetensi": "Menerapkan konsep struktur-fungsi",
+      "Sub_Kompetensi": "Menjelaskan fungsi daun",
+      "Materi": "Anatomi tumbuhan",
+      "Konteks": "Tanaman di tempat terang",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Tanaman diletakkan di tempat terang dan memiliki daun hijau yang sehat. Struktur daun yang mengandung klorofil berperan langsung dalam proses ....",
+      "Gambar": "gambar/bagian_tumbuhan.png",
+      "Opsi_Jawaban": {
+        "A": "Penyerapan air dari tanah",
+        "B": "Fotosintesis",
+        "C": "Pengangkutan urine",
+        "D": "Pemompaan darah"
+      },
+      "Kunci": "B",
+      "Pembahasan": "Klorofil pada kloroplas menangkap energi cahaya untuk mendukung fotosintesis.",
+      "Miskonsepsi_Target": "Menganggap fotosintesis berlangsung terutama di akar."
+    },
+    {
+      "No_Soal": 6,
+      "Kompetensi": "Menerapkan konsep sistem organ",
+      "Sub_Kompetensi": "Menentukan jalur makanan",
+      "Materi": "Anatomi manusia",
+      "Konteks": "Pencernaan",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Setelah makanan ditelan, urutan jalur yang benar menuju lambung adalah ....",
+      "Gambar": "gambar/saluran_pencernaan.png",
+      "Opsi_Jawaban": {
+        "A": "Mulut → kerongkongan → lambung",
+        "B": "Mulut → trakea → lambung",
+        "C": "Lambung → mulut → kerongkongan",
+        "D": "Mulut → usus besar → lambung"
+      },
+      "Kunci": "A",
+      "Pembahasan": "Makanan bergerak dari mulut melalui kerongkongan menuju lambung.",
+      "Miskonsepsi_Target": "Mencampuradukkan saluran pencernaan dan saluran pernapasan."
+    },
+    {
+      "No_Soal": 7,
+      "Kompetensi": "Menerapkan konsep sistem organ",
+      "Sub_Kompetensi": "Mengaitkan struktur paru-paru dengan fungsi",
+      "Materi": "Anatomi manusia",
+      "Konteks": "Aktivitas fisik",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Saat berlari, kebutuhan oksigen tubuh meningkat. Sistem organ yang mengambil oksigen dari udara dan memasukkannya ke darah adalah ....",
+      "Gambar": "gambar/sistem_pernapasan.png",
+      "Opsi_Jawaban": {
+        "A": "Sistem pencernaan",
+        "B": "Sistem pernapasan",
+        "C": "Sistem ekskresi saja",
+        "D": "Sistem rangka"
+      },
+      "Kunci": "B",
+      "Pembahasan": "Sistem pernapasan melakukan pertukaran gas di paru-paru, sehingga oksigen dapat masuk ke darah.",
+      "Miskonsepsi_Target": "Menganggap oksigen diperoleh dari proses pencernaan makanan."
+    },
+    {
+      "No_Soal": 8,
+      "Kompetensi": "Menerapkan konsep struktur-fungsi",
+      "Sub_Kompetensi": "Membandingkan sel tumbuhan dan hewan",
+      "Materi": "Anatomi tumbuhan dan hewan",
+      "Konteks": "Pengamatan mikroskop",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Pada gambar perbandingan sel, ciri yang ditunjukkan pada sel tumbuhan tetapi tidak pada sel hewan adalah ....",
+      "Gambar": "gambar/sel_tumbuhan_hewan.png",
+      "Opsi_Jawaban": {
+        "A": "Membran sel",
+        "B": "Sitoplasma",
+        "C": "Inti sel",
+        "D": "Dinding sel"
+      },
+      "Kunci": "D",
+      "Pembahasan": "Sel tumbuhan memiliki dinding sel; sel hewan tidak memiliki dinding sel.",
+      "Miskonsepsi_Target": "Menganggap semua struktur sel tumbuhan dan hewan sama."
+    },
+    {
+      "No_Soal": 9,
+      "Kompetensi": "Menganalisis hubungan struktur dan fungsi",
+      "Sub_Kompetensi": "Menentukan dampak gangguan organ",
+      "Materi": "Anatomi hewan",
+      "Konteks": "Insang ikan tertutup lumpur",
+      "Level_Kognitif": "Reasoning",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Air kolam sangat keruh dan partikel lumpur menutupi permukaan insang ikan. Dampak paling langsung yang mungkin terjadi adalah ....",
+      "Gambar": "gambar/anatomi_ikan.png",
+      "Opsi_Jawaban": {
+        "A": "Ikan sulit melakukan pertukaran gas",
+        "B": "Ikan tidak dapat mencerna makanan di lambung",
+        "C": "Ikan kehilangan kemampuan melihat karena mata berubah menjadi insang",
+        "D": "Ikan langsung dapat melakukan fotosintesis"
+      },
+      "Kunci": "A",
+      "Pembahasan": "Partikel yang menutupi insang dapat mengganggu aliran air dan permukaan pertukaran gas.",
+      "Miskonsepsi_Target": "Tidak menghubungkan kondisi struktur dengan fungsi fisiologisnya."
+    },
+    {
+      "No_Soal": 10,
+      "Kompetensi": "Menganalisis hubungan struktur dan fungsi",
+      "Sub_Kompetensi": "Memprediksi akibat kerusakan akar",
+      "Materi": "Anatomi tumbuhan",
+      "Konteks": "Tanaman layu",
+      "Level_Kognitif": "Reasoning",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Akar tanaman rusak berat, sementara daun masih utuh. Tanaman kemudian layu meskipun tanah cukup lembap. Penjelasan terbaik adalah ....",
+      "Gambar": "gambar/bagian_tumbuhan.png",
+      "Opsi_Jawaban": {
+        "A": "Daun berhenti menghasilkan oksigen karena tidak memiliki tulang",
+        "B": "Penyerapan air dan mineral terganggu sehingga keseimbangan air tanaman menurun",
+        "C": "Bunga menyerap seluruh air dari daun",
+        "D": "Akar adalah tempat utama darah dipompa"
+      },
+      "Kunci": "B",
+      "Pembahasan": "Kerusakan akar mengurangi kemampuan menyerap air dan mineral, sehingga sel kehilangan tekanan turgor dan tanaman dapat layu.",
+      "Miskonsepsi_Target": "Menganggap daun saja cukup untuk memenuhi kebutuhan air tumbuhan."
+    },
+    {
+      "No_Soal": 11,
+      "Kompetensi": "Menganalisis hubungan struktur dan fungsi",
+      "Sub_Kompetensi": "Membedakan saluran pernapasan dan pencernaan",
+      "Materi": "Anatomi manusia",
+      "Konteks": "Tersedak",
+      "Level_Kognitif": "Reasoning",
+      "Bentuk_Soal": "PG",
+      "Pertanyaan": "Seseorang tersedak ketika makanan masuk ke saluran yang seharusnya dilalui udara. Kejadian ini berbahaya karena ....",
+      "Gambar": "gambar/sistem_pernapasan.png",
+      "Opsi_Jawaban": {
+        "A": "Makanan dapat menghambat aliran udara menuju paru-paru",
+        "B": "Lambung berhenti memompa darah",
+        "C": "Usus besar tidak dapat menyerap oksigen dari udara",
+        "D": "Tulang rusuk berubah menjadi jaringan daun"
+      },
+      "Kunci": "A",
+      "Pembahasan": "Saluran pernapasan harus tetap terbuka agar udara mencapai paru-paru; makanan yang masuk dapat menyumbat aliran udara.",
+      "Miskonsepsi_Target": "Menganggap jalur makanan dan udara adalah satu saluran yang sama sepanjang waktu."
+    },
+    {
+      "No_Soal": 12,
+      "Kompetensi": "Menerapkan konsep sistem organ",
+      "Sub_Kompetensi": "Mengidentifikasi fungsi organ",
+      "Materi": "Anatomi manusia",
+      "Konteks": "Pilihan ganda kompleks kategori",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PGK Kategori",
+      "Pertanyaan": "Tentukan kategori fungsi setiap organ berikut berdasarkan fungsi utamanya.",
+      "Gambar": "gambar/organ_manusia.png",
+      "Pernyataan": [
+        {
+          "teks": "Jantung — memompa darah",
+          "kategori": "Benar"
+        },
+        {
+          "teks": "Paru-paru — tempat pertukaran gas",
+          "kategori": "Benar"
+        },
+        {
+          "teks": "Lambung — menyaring urine dari darah",
+          "kategori": "Salah"
+        },
+        {
+          "teks": "Usus — tempat utama pertukaran gas dengan udara",
+          "kategori": "Salah"
+        }
+      ],
+      "Kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "Kunci": {
+        "1": "Benar",
+        "2": "Benar",
+        "3": "Salah",
+        "4": "Salah"
+      },
+      "Pembahasan": "Jantung memompa darah, paru-paru melakukan pertukaran gas, lambung mencerna makanan, dan usus berperan dalam pencernaan serta penyerapan."
+    },
+    {
+      "No_Soal": 13,
+      "Kompetensi": "Menerapkan konsep struktur-fungsi",
+      "Sub_Kompetensi": "Mengklasifikasikan fungsi bagian tumbuhan",
+      "Materi": "Anatomi tumbuhan",
+      "Konteks": "Pilihan ganda kompleks kategori",
+      "Level_Kognitif": "Applying",
+      "Bentuk_Soal": "PGK Kategori",
+      "Pertanyaan": "Klasifikasikan fungsi bagian tumbuhan berikut sebagai fungsi utama atau bukan fungsi utama bagian tersebut.",
+      "Gambar": "gambar/bagian_tumbuhan.png",
+      "Pernyataan": [
+        {
+          "teks": "Akar — menyerap air dan mineral",
+          "kategori": "Fungsi utama"
+        },
+        {
+          "teks": "Daun — tempat utama fotosintesis pada banyak tumbuhan",
+          "kategori": "Fungsi utama"
+        },
+        {
+          "teks": "Bunga — memompa darah ke seluruh tubuh",
+          "kategori": "Bukan fungsi utama"
+        },
+        {
+          "teks": "Batang — membantu menopang tubuh dan mengangkut zat",
+          "kategori": "Fungsi utama"
+        }
+      ],
+      "Kategori": [
+        "Fungsi utama",
+        "Bukan fungsi utama"
+      ],
+      "Kunci": {
+        "1": "Fungsi utama",
+        "2": "Fungsi utama",
+        "3": "Bukan fungsi utama",
+        "4": "Fungsi utama"
+      },
+      "Pembahasan": "Akar, daun, dan batang memiliki fungsi terkait penyerapan, fotosintesis, penopangan, dan transportasi; bunga berperan dalam reproduksi."
+    },
+    {
+      "No_Soal": 14,
+      "Kompetensi": "Menganalisis hubungan struktur dan fungsi",
+      "Sub_Kompetensi": "Menentukan pernyataan yang sesuai dengan data anatomi",
+      "Materi": "Anatomi hewan, tumbuhan, dan manusia",
+      "Konteks": "Pilihan ganda kompleks MCMA",
+      "Level_Kognitif": "Reasoning",
+      "Bentuk_Soal": "PGK MCMA",
+      "Pertanyaan": "Pilih semua pernyataan yang benar tentang hubungan struktur dan fungsi organ.",
+      "Gambar": "gambar/organ_manusia.png",
+      "Opsi_Jawaban": {
+        "A": "Insang ikan membantu pertukaran gas di air",
+        "B": "Akar menyerap air dan mineral dari tanah",
+        "C": "Jantung memompa darah ke seluruh tubuh",
+        "D": "Daun merupakan organ utama untuk menyerap air dari tanah"
+      },
+      "Kunci": [
+        "A",
+        "B",
+        "C"
+      ],
+      "Pembahasan": "Insang, akar, dan jantung masing-masing menjalankan fungsi yang dinyatakan. Penyerapan air dari tanah terutama dilakukan akar, bukan daun."
+    },
+    {
+      "No_Soal": 15,
+      "Kompetensi": "Menganalisis hubungan struktur dan fungsi",
+      "Sub_Kompetensi": "Membandingkan struktur sel",
+      "Materi": "Anatomi tumbuhan dan hewan",
+      "Konteks": "Pilihan ganda kompleks MCMA",
+      "Level_Kognitif": "Reasoning",
+      "Bentuk_Soal": "PGK MCMA",
+      "Pertanyaan": "Berdasarkan gambar sel tumbuhan dan sel hewan, pilih semua pernyataan yang tepat.",
+      "Gambar": "gambar/sel_tumbuhan_hewan.png",
+      "Opsi_Jawaban": {
+        "A": "Sel tumbuhan pada gambar memiliki dinding sel",
+        "B": "Sel hewan pada gambar memiliki kloroplas untuk fotosintesis",
+        "C": "Kedua sel memiliki inti sel yang digambarkan",
+        "D": "Bentuk sel tumbuhan cenderung lebih kaku karena dinding sel"
+      },
+      "Kunci": [
+        "A",
+        "C",
+        "D"
+      ],
+      "Pembahasan": "Dinding sel memberi kekakuan pada sel tumbuhan. Kedua sel eukariotik memiliki inti sel, sedangkan sel hewan tidak memiliki kloroplas."
+    }
+  ]
+}
