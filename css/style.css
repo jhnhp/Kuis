@@ -204,58 +204,115 @@ body[data-view="browse"] .htitle,body[data-view="browse"] .sep{display:none}
   .psg-toggle{display:none}
 }
 
-/* daftar kuis */
-.bwrap{flex:1;width:100%;max-width:1040px;margin:auto;padding:20px 16px 48px}
-.hero{position:relative;overflow:hidden;isolation:isolate;background:var(--brand);color:#fff;border-radius:28px;padding:30px 30px 26px;box-shadow:var(--shadow-brand)}
-.hero::before{content:"";position:absolute;inset:0;z-index:-1;background-image:radial-gradient(rgba(255,255,255,.16) 1px,transparent 1.5px);background-size:22px 22px;
-  -webkit-mask-image:linear-gradient(115deg,transparent 35%,#000 95%);mask-image:linear-gradient(115deg,transparent 35%,#000 95%)}
-.hero-mark{position:absolute;z-index:-1;right:-56px;bottom:-84px;width:300px;opacity:.16;transform:rotate(-10deg);pointer-events:none}
-.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,5.5vw,48px);letter-spacing:-.035em;line-height:1.05;margin:6px 0 8px;max-width:18ch}
-.b-lead{color:rgba(255,255,255,.82);margin-bottom:20px;max-width:46ch}
-.b-crumbs{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;font-size:14px;margin-bottom:6px;color:rgba(255,255,255,.6)}
-.b-crumbs a{color:#fff;text-decoration:none;font-weight:600;padding:3px 10px;border-radius:999px;background:rgba(255,255,255,.14)}
-.b-crumbs a:hover{background:rgba(255,255,255,.24)}
-.b-crumbs .cur{color:#fff;font-weight:700}
-.sbox{position:relative;max-width:560px}
+/* daftar kuis (gaya sama dengan Nalarin Belajar) */
+/* warna mapel: --c dipakai oleh elemen dengan [data-mapel] */
+:root{--c:#2447f9}
+[data-mapel="Matematika"]{--c:#2447f9}
+[data-mapel="Fisika"]{--c:#7c3aed}
+[data-mapel="Kimia"]{--c:#0e8f8a}
+[data-mapel="Biologi"]{--c:#16a34a}
+[data-mapel="IPA"]{--c:#e2620d}
+[data-mapel="Ekonomi"]{--c:#c2410c}
+:root[data-theme="dark"]{--c:#7f95ff}
+:root[data-theme="dark"] [data-mapel="Matematika"]{--c:#7f95ff}
+:root[data-theme="dark"] [data-mapel="Fisika"]{--c:#b18cff}
+:root[data-theme="dark"] [data-mapel="Kimia"]{--c:#3cc8c0}
+:root[data-theme="dark"] [data-mapel="Biologi"]{--c:#4ade80}
+:root[data-theme="dark"] [data-mapel="IPA"]{--c:#fb923c}
+:root[data-theme="dark"] [data-mapel="Ekonomi"]{--c:#fdba74}
+
+.nav{display:flex;gap:4px}
+.nav a{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:600;font-size:14px}
+.nav a:hover{background:var(--surface-2)}
+.nav a.on{color:var(--accent);background:var(--brand-soft)}
+.nav a.dukung svg{color:var(--bad)}
+body:not([data-view="browse"]) .nav{display:none}
+@media (max-width:560px){ .nav a span{display:none} body[data-view="browse"] .brand .wm{display:none!important} }
+
+.bwrap{flex:1;width:100%;max-width:1160px;margin:0 auto;padding:0 16px 64px}
+.hero{padding:44px 0 28px;display:grid;gap:14px}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,6vw,48px);line-height:1.05;letter-spacing:-.03em;max-width:16ch}
+.hero h1 em{font-style:normal;color:var(--brand)}
+:root[data-theme="dark"] .hero h1 em{color:var(--accent)}
+.b-lead{color:var(--muted);font-size:17px;max-width:56ch}
+/* kelas / mapel: banner berwarna seperti halaman kursus Nalarin Belajar */
+.hero.banner{margin:14px 0 4px;border-radius:var(--r);padding:28px;color:#fff;background:var(--c);position:relative;overflow:hidden;isolation:isolate;gap:6px}
+:root[data-theme="dark"] .hero.banner{background:color-mix(in srgb,var(--c) 45%,var(--surface))}
+.hero.banner::after{content:"";position:absolute;z-index:-1;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;border:34px solid rgba(255,255,255,.12)}
+.hero.banner h1{font-size:clamp(28px,5vw,40px);line-height:1.1;letter-spacing:-.025em;max-width:none}
+.hero.banner .b-lead{color:#fff;opacity:.9;font-size:16px}
+.hero.banner .sbox{margin-top:12px}
+.hero.banner .b-search{border-color:transparent;box-shadow:0 8px 24px -10px rgba(6,10,28,.5)}
+.b-crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:14px;color:var(--muted);padding-top:22px}
+.b-crumbs a{color:var(--muted);text-decoration:none;font-weight:600}
+.b-crumbs a:hover{color:var(--accent)}
+.b-crumbs .cur{color:var(--ink);font-weight:600}
+.sbox{position:relative;max-width:560px;margin-top:6px}
 .sbox svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
-.b-search{width:100%;min-height:54px;padding:0 16px 0 46px;border-radius:16px;border:0;background:var(--surface);color:var(--ink);font:inherit;box-shadow:0 8px 24px -10px rgba(6,10,28,.5)}
-.b-search:focus{outline:3px solid rgba(255,255,255,.55);outline-offset:2px}
+.b-search{width:100%;height:52px;padding:0 16px 0 46px;border-radius:14px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink);font:inherit;box-shadow:var(--shadow)}
+.sec-h{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.02em;margin:28px 0 14px}
 .b-count{color:var(--muted);font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin:28px 0 0}
+
+/* beranda: jenjang › kelas › mapel */
+.kelas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.kelas{padding:18px 18px 10px;border-radius:18px}
+.kelas h3{font-family:var(--display);font-size:18px;font-weight:800;margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.kelas h3 a{color:inherit;text-decoration:none}
+.kelas h3 a:hover{color:var(--accent)}
+.kelas h3 .n{width:34px;height:34px;border-radius:10px;background:var(--brand-soft);color:var(--accent);display:grid;place-items:center;font-size:14px;flex:none}
+.kelas ul{list-style:none;padding:0}
+.kelas li a{display:flex;align-items:center;gap:10px;padding:9px 8px;margin:0 -8px;border-radius:10px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
+.kelas li a:hover{background:var(--surface-2)}
+.kelas li a .md{width:10px;height:10px;border-radius:3px;background:var(--c);flex:none}
+.kelas li a small{margin-left:auto;color:var(--muted);font-weight:500;font-size:13px}
+
+/* langkah mapel: kartu per mapel */
+.b-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin-top:24px}
+.b-card{position:relative;display:flex;flex-direction:column;gap:14px;min-height:150px;padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--surface);text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:border-color .15s,transform .12s}
+.b-card:hover{border-color:var(--c);transform:translateY(-2px)}
+.b-card:active{transform:scale(.98)}
+.b-tile{width:48px;height:48px;border-radius:14px;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.02em}
+.b-card b{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.15;letter-spacing:-.02em;margin-top:auto}
+.b-card span{color:var(--muted);font-size:14px;margin-top:-10px}
+.b-card .b-go{position:absolute;top:20px;right:18px;margin:0}
+
+/* langkah kuis: daftar */
 .b-list{display:grid;gap:10px}
 .b-item{display:flex;align-items:center;gap:16px;padding:12px 16px 12px 12px;min-height:72px;border:1px solid var(--line);border-radius:18px;background:var(--surface);text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:border-color .15s,transform .12s}
-.b-item:hover{border-color:var(--brand);transform:translateY(-1px)}
+.b-item:hover{border-color:var(--c);transform:translateY(-1px)}
 .b-item:active{transform:scale(.99)}
-.b-n{flex:none;width:54px;height:54px;border-radius:14px;background:var(--brand-soft);display:grid;place-items:center;align-content:center;text-align:center;font-family:var(--display);font-weight:800;font-size:20px;color:var(--accent);line-height:1}
+.b-n{flex:none;width:54px;height:54px;border-radius:14px;background:color-mix(in srgb,var(--c) 14%,transparent);display:grid;place-items:center;align-content:center;text-align:center;font-family:var(--display);font-weight:800;font-size:20px;color:var(--c);line-height:1}
 .b-n small{display:block;font-family:var(--font);font-weight:600;font-size:10px;margin-top:2px;opacity:.8}
 .b-main{flex:1;min-width:0}
 .b-title{font-weight:700;line-height:1.3}
 .b-meta{font-size:13px;color:var(--muted);margin-top:3px}
 .b-go{flex:none;color:var(--muted);transition:transform .15s,color .15s}
-.b-item:hover .b-go,.b-card:hover .b-go{color:var(--accent);transform:translateX(3px)}
+.b-item:hover .b-go,.b-card:hover .b-go{color:var(--c);transform:translateX(3px)}
+.b-ctx{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:5px}
+.b-ctx span{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c)}
 .b-empty{margin-top:36px;text-align:center;color:var(--muted)}
 .b-note{padding:16px 18px;border-radius:16px;margin-top:20px;background:var(--bad-soft);color:var(--bad);font-size:15px}
 .b-note code{background:rgba(0,0,0,.07);padding:1px 6px;border-radius:6px}
 #more{margin-top:16px}
-.b-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin-top:24px}
-.b-card{position:relative;display:flex;flex-direction:column;gap:14px;min-height:150px;padding:18px;border:1px solid var(--line);border-radius:22px;background:var(--surface);text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:border-color .15s,transform .12s,box-shadow .15s}
-.b-card:hover{border-color:var(--brand);transform:translateY(-2px);box-shadow:0 18px 36px -16px rgba(36,71,249,.35)}
-.b-card:active{transform:scale(.98)}
-.b-tile{width:48px;height:48px;border-radius:14px;background:var(--brand);color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.02em}
-.b-card b{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.15;letter-spacing:-.02em;margin-top:auto}
-.b-card span{color:var(--muted);font-size:14px;margin-top:-10px}
-.b-card .b-go{position:absolute;top:20px;right:18px;margin:0}
-.b-ctx{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:5px}
-.b-ctx span{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--brand-soft);color:var(--accent)}
+
+/* dukungan */
+.support{display:flex;align-items:center;gap:18px;padding:22px 24px;margin-top:36px;flex-wrap:wrap;border-radius:18px}
+.support .heart{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;flex:none;background:var(--bad-soft);color:var(--bad)}
+.support .heart svg{width:26px;height:26px}
+.support .txt{flex:1;min-width:240px}
+.support h2{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.02em;line-height:1.2}
+.support p{color:var(--muted);font-size:15px;margin-top:4px}
+
 @media (max-width:520px){
-  .hero{padding:24px 20px 20px;border-radius:24px}
-  .hero-mark{width:200px;right:-50px;bottom:-60px}
+  .hero.banner{padding:22px 20px}
   .b-cards{grid-template-columns:1fr 1fr;gap:10px}
-  .b-card{min-height:126px;padding:14px;gap:10px;border-radius:18px}
+  .b-card{min-height:126px;padding:14px;gap:10px}
   .b-tile{width:40px;height:40px;font-size:16px;border-radius:12px}
   .b-card b{font-size:18px}
   .b-card .b-go{display:none}
 }
 footer{text-align:center;color:var(--muted);font-size:12px;padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+footer a{color:inherit}
 
 /* laporan PDF (dirender di luar layar, selalu tema terang) */
 #report{position:fixed;left:-10000px;top:0;width:720px;color:#0a0f2c;font-family:var(--font);font-size:14px;line-height:1.5}
@@ -309,7 +366,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:10px 12px cal
   .chip.name{display:none}
   body:not([data-view="browse"]) .brand .wm,body:not([data-view="browse"]) .sep{display:none!important}
   .panel{padding:24px 20px}
-  footer{display:none}
+  body:not([data-view="browse"]) footer{display:none}
 }
 @media (max-width:520px){
   #prev{flex:none;width:52px;padding:0}
