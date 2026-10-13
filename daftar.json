@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T21:15:18",
+  "generated": "2026-10-13T12:35:28",
   "kuis": [
     {
       "title": "Latihan IPA - Anatomi Hewan, Tumbuhan, dan Manusia",
@@ -206,16 +206,112 @@
       "path": "Kelas10/IPA/08 Perubahan Iklim/soal.json"
     },
     {
-      "title": "Latihan Sistem Saraf Manusia",
-      "topic": "Sistem Saraf",
-      "summary": "30% Mudah | 50% Sedang | 20% Sulit",
+      "title": "Biologi Kelas XI - Menjelajah Sel",
+      "topic": "Pengamatan Struktur Sel, Keterkaitan Struktur dan Fungsi Sel, serta Komposisi Sel",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "01 Menjelajah Sel"
+      ],
+      "path": "Kelas11/Biologi/01 Menjelajah Sel/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Pergerakan Zat melalui Membran Sel",
+      "topic": "Transpor Pasif (Osmosis, Difusi Sederhana, Difusi Terfasilitasi) dan Transpor Aktif",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "02 Pergerakan Zat melalui Membran Sel"
+      ],
+      "path": "Kelas11/Biologi/02 Pergerakan Zat melalui Membran Sel/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Proses Pengaturan pada Tumbuhan",
+      "topic": "Jaringan, Organ, dan Sistem Organ Tumbuhan, Transpor, Reproduksi, dan Iritabilitas pada Tumbuhan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "03 Proses Pengaturan pada Tumbuhan"
+      ],
+      "path": "Kelas11/Biologi/03 Proses Pengaturan pada Tumbuhan/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Transpor dan Pertukaran Zat pada Manusia",
+      "topic": "Sistem Sirkulasi, Pencernaan, Pernapasan, dan Ekskresi dalam Transpor dan Pertukaran Zat serta Kelainannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 20,
       "kelas": "Kelas 11",
       "mapel": "Biologi",
       "topik": [
         "04 Transpor dan Pertukaran Zat pada Manusia"
       ],
-      "path": "Kelas11/Biologi/04 Transpor dan Pertukaran Zat pada Manusia/sistem-syaraf.json"
+      "path": "Kelas11/Biologi/04 Transpor dan Pertukaran Zat pada Manusia/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Sistem Pertahanan Tubuh terhadap Penyakit",
+      "topic": "Pertahanan Eksternal dan Internal, Antigen-Antibodi, Golongan Darah, Fagosit dan Limfosit, Imunitas, serta Kelainannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "05 Sistem Pertahanan Tubuh terhadap Penyakit"
+      ],
+      "path": "Kelas11/Biologi/05 Sistem Pertahanan Tubuh terhadap Penyakit/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Mobilitas pada Manusia",
+      "topic": "Struktur dan Fungsi Sistem Saraf, Impuls dan Refleks, Rangka, Sendi, Otot dan Mekanisme Gerak, serta Kelainannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "06 Mobilitas pada Manusia"
+      ],
+      "path": "Kelas11/Biologi/06 Mobilitas pada Manusia/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Hormon dalam Reproduksi Manusia",
+      "topic": "Mekanisme Kerja Hormon, Hormon Reproduksi, Struktur Organ Reproduksi, Menstruasi, Kehamilan, dan Gangguannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "07 Hormon dalam Reproduksi Manusia"
+      ],
+      "path": "Kelas11/Biologi/07 Hormon dalam Reproduksi Manusia/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Tumbuh Kembang Makhluk Hidup",
+      "topic": "Pertumbuhan dan Perkembangan pada Tumbuhan, Hewan, dan Manusia serta Faktor Internal dan Eksternal yang Memengaruhinya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "08 Tumbuh Kembang Makhluk Hidup"
+      ],
+      "path": "Kelas11/Biologi/08 Tumbuh Kembang Makhluk Hidup/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Evaluasi Akhir",
+      "topic": "Evaluasi Akhir Biologi Kelas XI (Sel, Membran Sel, Tumbuhan, Transpor dan Pertukaran Zat, Sistem Pertahanan Tubuh, Mobilitas, Hormon dan Reproduksi, serta Tumbuh Kembang)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "09 Evaluasi Akhir"
+      ],
+      "path": "Kelas11/Biologi/09 Evaluasi Akhir/soal.json"
     },
     {
       "title": "Fisika Kelas XI - Vektor",
@@ -300,6 +396,234 @@
         "07 Termodinamika"
       ],
       "path": "Kelas11/Fisika/07 Termodinamika/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Struktur Atom dan Sistem Periodik Unsur",
+      "topic": "Perkembangan Model Atom, Bilangan Kuantum, Konfigurasi Elektron, Sistem Periodik, dan Sifat Periodik Unsur",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "01 Struktur Atom dan Sistem Periodik Unsur"
+      ],
+      "path": "Kelas11/Kimia/01 Struktur Atom dan Sistem Periodik Unsur/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Ikatan Kimia",
+      "topic": "Ikatan Ion, Kovalen, Kovalen Koordinasi, Logam, Bentuk Molekul (VSEPR dan Hibridisasi), Kepolaran, serta Gaya Antarmolekul",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "02 Ikatan Kimia"
+      ],
+      "path": "Kelas11/Kimia/02 Ikatan Kimia/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Stoikiometri",
+      "topic": "Penyetaraan Reaksi, Konsep Mol, Rumus Empiris dan Molekul, Pereaksi Pembatas, Persen Hasil, dan Persen Kemurnian",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "03 Stoikiometri"
+      ],
+      "path": "Kelas11/Kimia/03 Stoikiometri/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Hidrokarbon",
+      "topic": "Kekhasan Atom Karbon, Alkana, Alkena, Alkuna, Tata Nama, Sifat dan Reaksi, Isomer, serta Dampak Pembakaran Hidrokarbon",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "04 Hidrokarbon"
+      ],
+      "path": "Kelas11/Kimia/04 Hidrokarbon/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Termokimia",
+      "topic": "Sistem dan Lingkungan, Reaksi Eksotermik dan Endotermik, Kalorimetri, Persamaan Termokimia, Entalpi Standar, Hukum Hess, dan Energi Ikatan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "05 Termokimia"
+      ],
+      "path": "Kelas11/Kimia/05 Termokimia/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Kinetika Kimia",
+      "topic": "Teori Tumbukan, Energi Aktivasi, Laju Reaksi, Persamaan Laju dan Orde Reaksi, serta Faktor-Faktor yang Memengaruhi Laju Reaksi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "06 Kinetika Kimia"
+      ],
+      "path": "Kelas11/Kimia/06 Kinetika Kimia/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Kesetimbangan Kimia",
+      "topic": "Kesetimbangan Dinamis, Kesetimbangan Homogen dan Heterogen, Tetapan Kesetimbangan Kc dan Kp, Pergeseran Kesetimbangan, serta Kesetimbangan dalam Industri",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "07 Kesetimbangan Kimia"
+      ],
+      "path": "Kelas11/Kimia/07 Kesetimbangan Kimia/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XI - Evaluasi Akhir",
+      "topic": "Evaluasi Akhir Kimia Kelas XI (Struktur Atom, Ikatan Kimia, Stoikiometri, Hidrokarbon, Termokimia, Kinetika Kimia, dan Kesetimbangan Kimia)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 11",
+      "mapel": "Kimia",
+      "topik": [
+        "08 Evaluasi Akhir"
+      ],
+      "path": "Kelas11/Kimia/08 Evaluasi Akhir/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Enzim",
+      "topic": "Struktur, Sifat, Cara Kerja, dan Faktor yang Memengaruhi Kerja Enzim serta Anabolisme dan Katabolisme",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "01 Enzim"
+      ],
+      "path": "Kelas12/Biologi/01 Enzim/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Respirasi Seluler dan Fermentasi",
+      "topic": "Tahapan Respirasi Aerob, Fosforilasi Oksidatif, serta Fermentasi Alkohol dan Asam Laktat",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "02 Respirasi Seluler dan Fermentasi"
+      ],
+      "path": "Kelas12/Biologi/02 Respirasi Seluler dan Fermentasi/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Fotosintesis",
+      "topic": "Reaksi Terang, Reaksi Gelap, Faktor yang Memengaruhi Fotosintesis, Fotorespirasi, Tumbuhan C3, C4, CAM, dan Kemosintesis",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "03 Fotosintesis"
+      ],
+      "path": "Kelas12/Biologi/03 Fotosintesis/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Materi Genetik dan Sintesis Protein",
+      "topic": "DNA, Gen, Kromosom, RNA, Kode Genetik, Replikasi, Transkripsi, dan Translasi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "04 Materi Genetik dan Sintesis Protein"
+      ],
+      "path": "Kelas12/Biologi/04 Materi Genetik dan Sintesis Protein/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Pembelahan Sel",
+      "topic": "Mitosis, Siklus Sel, Meiosis, dan Gametogenesis",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "05 Pembelahan Sel"
+      ],
+      "path": "Kelas12/Biologi/05 Pembelahan Sel/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Pewarisan Sifat",
+      "topic": "Hukum Mendel, Uji Silang, Penyimpangan Semu Hukum Mendel, Penentuan Jenis Kelamin, Mutasi, dan Penyakit Keturunan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "06 Pewarisan Sifat"
+      ],
+      "path": "Kelas12/Biologi/06 Pewarisan Sifat/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Asal-Usul Kehidupan dan Teori Evolusi",
+      "topic": "Definisi Evolusi, Abiogenesis dan Biogenesis, Evolusi Kimia, Endosimbiosis, serta Teori Lamarck, Darwin, dan Wallace",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "07 Asal-Usul Kehidupan dan Teori Evolusi"
+      ],
+      "path": "Kelas12/Biologi/07 Asal-Usul Kehidupan dan Teori Evolusi/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Mekanisme dan Bukti Evolusi",
+      "topic": "Seleksi Alam dan Buatan, Hukum Hardy-Weinberg, Hanyutan Genetik, Aliran Gen, Bukti Evolusi, dan Teori Evolusi Modern",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "08 Mekanisme dan Bukti Evolusi"
+      ],
+      "path": "Kelas12/Biologi/08 Mekanisme dan Bukti Evolusi/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Bioteknologi Konvensional",
+      "topic": "Definisi, Manfaat, Jenis, dan Cabang Ilmu Bioteknologi serta Aplikasi Bioteknologi Konvensional",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "09 Bioteknologi Konvensional"
+      ],
+      "path": "Kelas12/Biologi/09 Bioteknologi Konvensional/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Bioteknologi Modern dan Bioetika",
+      "topic": "Kultur Jaringan, Rekayasa Genetika, Transgenik, Kloning, Vaksin, Sel Punca, Penyuntingan Genom, dan Bioetika",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "10 Bioteknologi Modern dan Bioetika"
+      ],
+      "path": "Kelas12/Biologi/10 Bioteknologi Modern dan Bioetika/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XII - Evaluasi Akhir",
+      "topic": "Evaluasi Akhir Biologi Kelas XII (Enzim dan Metabolisme, Genetik dan Pewarisan Sifat, Evolusi, serta Inovasi Bioteknologi)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 12",
+      "mapel": "Biologi",
+      "topik": [
+        "11 Evaluasi Akhir"
+      ],
+      "path": "Kelas12/Biologi/11 Evaluasi Akhir/soal.json"
     },
     {
       "title": "Fisika Kelas XII - Listrik Statis",
@@ -408,6 +732,138 @@
         "09 Fisika Inti dan Radioaktivitas"
       ],
       "path": "Kelas12/Fisika/09 Fisika Inti dan Radioaktivitas/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Asam dan Basa",
+      "topic": "Konsep Asam Basa Arrhenius, Brønsted-Lowry, dan Lewis, Kekuatan Asam Basa, Tetapan Ionisasi Air, serta pH Asam Basa Kuat dan Lemah",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "01 Asam dan Basa"
+      ],
+      "path": "Kelas12/Kimia/01 Asam dan Basa/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Hidrolisis Garam dan Larutan Penyangga",
+      "topic": "Sifat Larutan Garam, Hidrolisis Sebagian dan Total, pH Larutan Garam, Komponen dan pH Larutan Penyangga",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "02 Hidrolisis Garam dan Larutan Penyangga"
+      ],
+      "path": "Kelas12/Kimia/02 Hidrolisis Garam dan Larutan Penyangga/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Stoikiometri Larutan, Titrasi, dan Kelarutan",
+      "topic": "Reaksi dalam Larutan, Stoikiometri Larutan, Titrasi Asam Basa, Kelarutan, Hasil Kali Kelarutan, Pengaruh Ion Senama, dan Prediksi Pengendapan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "03 Stoikiometri Larutan, Titrasi, dan Kelarutan"
+      ],
+      "path": "Kelas12/Kimia/03 Stoikiometri Larutan, Titrasi, dan Kelarutan/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Sifat Koligatif Larutan",
+      "topic": "Faktor Van't Hoff, Penurunan Tekanan Uap, Penurunan Titik Beku, Kenaikan Titik Didih, Tekanan Osmosis, dan Diagram Fasa",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "04 Sifat Koligatif Larutan"
+      ],
+      "path": "Kelas12/Kimia/04 Sifat Koligatif Larutan/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Koloid",
+      "topic": "Perbedaan Larutan, Koloid, dan Suspensi; Jenis Koloid; Koloid Liofil dan Liofob; Sifat Koloid; serta Pembuatan Koloid",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "05 Koloid"
+      ],
+      "path": "Kelas12/Kimia/05 Koloid/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Elektrolit dan Reaksi Redoks",
+      "topic": "Elektrolit Kuat, Elektrolit Lemah, Nonelektrolit, Bilangan Oksidasi, Oksidasi-Reduksi, Oksidator-Reduktor, dan Penyetaraan Reaksi Redoks",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "06 Elektrolit dan Reaksi Redoks"
+      ],
+      "path": "Kelas12/Kimia/06 Elektrolit dan Reaksi Redoks/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Sel Elektrokimia",
+      "topic": "Sel Volta, Notasi Sel, Jembatan Garam, Potensial Elektrode Standar, Kespontanan Reaksi, Sel Elektrolisis, dan Aplikasinya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "07 Sel Elektrokimia"
+      ],
+      "path": "Kelas12/Kimia/07 Sel Elektrokimia/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Gugus Fungsi Senyawa Karbon",
+      "topic": "Gugus Fungsi, Sifat Fisik, Tata Nama IUPAC, Reaksi Substitusi, Eliminasi, Adisi, Oksidasi-Reduksi, Esterifikasi, Transesterifikasi, Penyabunan, dan Kegunaan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "08 Gugus Fungsi Senyawa Karbon"
+      ],
+      "path": "Kelas12/Kimia/08 Gugus Fungsi Senyawa Karbon/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Polimer",
+      "topic": "Monomer dan Unit Ulang, Polimerisasi Adisi dan Kondensasi, Jenis Polimer, Hubungan Struktur dan Sifat, Plastik, Karet, serta Degradasi Plastik",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "09 Polimer"
+      ],
+      "path": "Kelas12/Kimia/09 Polimer/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Polimer Alam dan Biomolekul",
+      "topic": "Karbohidrat, Protein dan Asam Amino, Asam Nukleat, serta Uji Karbohidrat dan Protein",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "10 Polimer Alam dan Biomolekul"
+      ],
+      "path": "Kelas12/Kimia/10 Polimer Alam dan Biomolekul/soal.json"
+    },
+    {
+      "title": "Kimia Kelas XII - Evaluasi Akhir",
+      "topic": "Evaluasi Akhir Kimia Kelas XII (Larutan dan Koloid, Elektrokimia, Gugus Fungsi Senyawa Karbon, dan Makromolekul)",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "Kelas 12",
+      "mapel": "Kimia",
+      "topik": [
+        "11 Evaluasi Akhir"
+      ],
+      "path": "Kelas12/Kimia/11 Evaluasi Akhir/soal.json"
     },
     {
       "title": "TKA Ekonomi - Konsep Dasar Ilmu Ekonomi",
