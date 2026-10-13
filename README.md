@@ -1,6 +1,8 @@
-# Nalarin Quiz
+# Nalarin Kuis
 
-Satu file `index.html` untuk semuanya: menu pilihan kuis **dan** halaman mengerjakan kuis. Menu bekerja dalam tiga langkah: **pilih kelas → pilih mata pelajaran → pilih kuis**. Setiap kuis cukup berupa folder berisi `soal.json` (dan folder `gambar/` jika perlu).
+**Versi 0.5**
+
+Satu halaman `index.html` untuk semuanya: menu pilihan kuis **dan** halaman mengerjakan kuis. Tampilan ada di `css/`, logika di `js/`. Menu bekerja dalam tiga langkah: **pilih kelas → pilih mata pelajaran → pilih kuis**. Setiap kuis cukup berupa folder berisi `soal.json` (dan folder `gambar/` jika perlu).
 
 ## Struktur folder
 
@@ -9,6 +11,11 @@ Pola: **`Kelas / Mapel / Kuis / soal.json`**
 ```
 Kuis/
 ├── index.html          ← satu-satunya file HTML (menu + kuis)
+├── css/style.css       ← tampilan (warna merek ada di bagian :root)
+├── js/kuis.js          ← mengerjakan kuis, nilai, pembahasan
+├── js/laporan.js       ← unduh laporan PDF
+├── js/daftar.js        ← menu Kelas › Mapel › Kuis (dimuat terakhir, menjalankan aplikasi)
+├── Assets/Nalarin/     ← logo asli; versi web (transparan, favicon) ada di web/
 ├── daftar.json         ← daftar kuis (dibuat otomatis)
 ├── buat-daftar.py      ← pembuat daftar.json
 ├── migrasi.py          ← pemindah struktur lama (Mapel/Kelas/Kuis) ke struktur baru
@@ -58,6 +65,8 @@ index.html?kuis=Kelas11/Fisika/Vektor/soal_vektor.json   ← langsung membuka sa
 ```
 
 Setelah selesai mengerjakan, tombol **Kembali ke daftar kuis** membawa siswa ke daftar kelas dan mapel kuis itu.
+
+Di halaman hasil, tombol **Unduh laporan (PDF)** membuat laporan berisi nilai, kunci jawaban, pembahasan, dan tanda benar/salah setiap soal (termasuk gambar dan teks bacaan). PDF dibuat di browser siswa memakai jsPDF dan html2canvas yang dimuat dari cdnjs saat tombol ditekan, jadi perlu koneksi internet.
 
 Browser tidak bisa membaca isi folder sendiri, jadi `daftar.json` perlu dibuat ulang setiap kali ada kuis yang ditambah, dihapus, atau diganti namanya.
 
@@ -215,7 +224,7 @@ Di PC, teks bacaan tampil di kolom kiri dan tetap terlihat saat halaman digulir.
 
 ## Menyimpan nilai ke Google Sheets
 
-Nilai dikirim ke Google Apps Script lewat konstanta `SCRIPT_URL` di dalam `index.html`. Ganti nilainya dengan alamat web app milikmu. Data yang dikirim (`POST`, isi JSON):
+Nilai dikirim ke Google Apps Script lewat konstanta `SCRIPT_URL` di baris pertama `js/kuis.js`. Ganti nilainya dengan alamat web app milikmu. Data yang dikirim (`POST`, isi JSON):
 
 ```json
 {
@@ -234,9 +243,18 @@ Skor = jumlah benar ÷ total soal × 100. Soal kosong dicatat `"-"` dan dihitung
 ## Fitur siswa
 
 - Timer, tanda **Ragu-ragu**, navigasi nomor soal, mode gelap, dan mode review (kunci, jawaban sendiri, pembahasan).
+- Di soal terakhir, tombol **Selanjutnya** berubah menjadi **Kumpulkan**.
+- Halaman hasil menampilkan nilai, jumlah benar/salah/kosong, dan tombol **Unduh laporan (PDF)**.
 - Progres tersimpan otomatis di browser per kuis. Jika halaman dimuat ulang, siswa bisa melanjutkan dengan nama yang sama. Progres dihapus setelah nilai berhasil terkirim.
 - Nama siswa diingat untuk kuis berikutnya.
 - Pintasan PC: `A`–`E` atau `1`–`9` memilih jawaban, `←` `→` pindah soal, `F` tandai ragu-ragu, `Esc` tutup gambar.
+
+## Tampilan dan logo
+
+- Warna mengikuti logo Nalarin (biru `#2447F9`). Semua warna diatur sebagai variabel di bagian `:root` pada `css/style.css` (tema terang) dan `:root[data-theme="dark"]` (tema gelap).
+- Logo asli ada di `Assets/Nalarin/`. Halaman memakai versi web di `Assets/Nalarin/web/`: `icon.png` (ikon "n."), `wordmark-kuis-blue.png` dan `wordmark-kuis-white.png` (tulisan "nalarin. Kuis" untuk tema terang dan gelap), serta `favicon.png` dan `apple-touch-icon.png`.
+- Jika logo diganti, buat ulang file di `web/` dengan latar transparan dan nama file yang sama.
+- Huruf: Inter Tight untuk judul dan Inter untuk teks, dimuat dari Google Fonts.
 
 ## Menjalankan
 
@@ -249,12 +267,13 @@ python3 -m http.server 8000
 
 Lalu buka `http://localhost:8000`.
 
-**Online.** Unggah folder ke GitHub Pages. Folder `_template` boleh ikut diunggah tetapi tidak tampil di menu.
+**Online.** Unggah folder ke GitHub Pages, termasuk `css/`, `js/`, dan `Assets/`. Folder `_template` boleh ikut diunggah tetapi tidak tampil di menu.
 
 ## Pemecahan masalah
 
 | Masalah | Penyebab dan solusi |
 |---|---|
+| Halaman tampil polos tanpa warna atau tidak berfungsi | Folder `css/`, `js/`, atau `Assets/` belum ikut diunggah |
 | "Daftar kuis belum bisa dimuat" | `daftar.json` belum ada, atau halaman dibuka langsung dari file. Jalankan `buat-daftar.py` dan buka lewat server |
 | Kuis baru tidak muncul di menu | Daftar belum diperbarui. Jalankan `python3 buat-daftar.py` dan lihat bagian *Perhatian* |
 | Kuis yang sudah dihapus masih muncul | Jalankan ulang `buat-daftar.py`, lalu segarkan browser (Ctrl+F5) |
