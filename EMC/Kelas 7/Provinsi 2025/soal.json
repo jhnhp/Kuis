@@ -1,0 +1,443 @@
+{
+  "title": "EMC 2025 Babak Provinsi - Matematika Kelas 7",
+  "topic": "Olimpiade Matematika",
+  "subtitle": "Latihan Mandiri 35 Soal (30 Pilihan Ganda + 5 Isian Singkat)",
+  "difficulty_summary": "29% Mudah | 29% Sedang | 43% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 35,
+  "passages": [],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Diketahui ekspresi 3(2x − 1) − 2(x + 4). Bentuk sederhana dari ekspresi tersebut adalah ....",
+      "options": {
+        "A": "6x − 11",
+        "B": "4x − 11",
+        "C": "4x + 5",
+        "D": "6x + 5"
+      },
+      "answer": "B",
+      "explanation": "3(2x − 1) − 2(x + 4) = 6x − 3 − 2x − 8 = 4x − 11.<br>Pengecoh 6x − 11 lupa mengurangkan 2x, 4x + 5 salah tanda pada −2 × 4 (menjadi +8), dan 6x + 5 mengandung kedua kesalahan tersebut."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "image": "2.png",
+      "question": "Seorang guru mencatat jumlah buku yang dibaca oleh 5 siswa dalam 1 bulan pada tabel berikut. Berdasarkan tabel tersebut, berapa persentase siswa yang membaca lebih dari 3 buku dalam sebulan?",
+      "options": {
+        "A": "50%",
+        "B": "40%",
+        "C": "60%",
+        "D": "20%"
+      },
+      "answer": "C",
+      "explanation": "Siswa yang membaca lebih dari 3 buku: B (5 buku), D (6 buku), dan E (4 buku), yaitu 3 siswa.<br>Persentase = 3/5 × 100% = 60%.<br>Pengecoh 40% adalah persentase siswa yang membaca paling banyak 3 buku (siswa A dan C, yaitu 2/5), dan 20% hanya menghitung 1 dari 5 siswa."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Sebuah kantong berisi 6 kelereng merah dan 4 kelereng biru. Diambil satu kelereng secara acak. Peluang yang terambil kelereng biru adalah ....",
+      "options": {
+        "A": "2/3",
+        "B": "3/5",
+        "C": "2/5",
+        "D": "1/10"
+      },
+      "answer": "C",
+      "explanation": "Banyak seluruh kelereng = 6 + 4 = 10, dan kelereng biru ada 4.<br>Peluang = 4/10 = 2/5.<br>Pengecoh 3/5 adalah peluang terambil kelereng merah (6/10), 2/3 membandingkan kelereng biru dengan kelereng merah (4/6), dan 1/10 hanya menghitung satu kelereng."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "image": "4.png",
+      "question": "Lingkaran pada gambar memiliki luas 7π unit persegi. Luas daerah abu-abu adalah .... unit persegi.",
+      "options": {
+        "A": "21 − 7π",
+        "B": "28 − 7π",
+        "C": "42 − 8π",
+        "D": "36 − 8π"
+      },
+      "answer": "B",
+      "explanation": "Luas lingkaran = πr² = 7π, sehingga r² = 7.<br>Lingkaran menyinggung keempat sisi persegi, sehingga sisi persegi = 2r dan luas persegi = (2r)² = 4r² = 4 × 7 = 28.<br>Luas daerah abu-abu = luas persegi − luas lingkaran = 28 − 7π."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Diberikan dua bilangan. Hasil penjumlahan kedua bilangan tersebut adalah 8 sementara selisih dari keduanya adalah 2. Selisih dari kuadrat kedua bilangan tersebut adalah ....",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Misalkan kedua bilangan adalah x dan y, dengan x + y = 8 dan x − y = 2.<br>x² − y² = (x + y)(x − y) = 8 × 2 = 16.<br>Cek: x = 5 dan y = 3, sehingga 5² − 3² = 25 − 9 = 16.<br>Pengecoh 8 dan 2 hanya menyebutkan jumlah dan selisih yang sudah diketahui pada soal."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Manakah dari pilihan berikut yang ekuivalen dengan 1 / (1/a + 1/b) ?",
+      "options": {
+        "A": "ab / (a² + b²)",
+        "B": "(a + b) / ab",
+        "C": "(a² + b²) / ab",
+        "D": "ab / (a + b)"
+      },
+      "answer": "D",
+      "explanation": "1/a + 1/b = (b + a) / ab = (a + b) / ab.<br>Jadi 1 / (1/a + 1/b) = 1 ÷ (a + b)/ab = ab / (a + b).<br>Pengecoh (a + b) / ab adalah bentuk penyebutnya saja yang belum dibalik, dan pilihan dengan a² + b² berasal dari penjumlahan pecahan yang keliru."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "question": "Bentuk sederhana dari (3⁵ · 3⁻²) / 3⁻¹ adalah ....",
+      "options": {
+        "A": "9",
+        "B": "243",
+        "C": "81",
+        "D": "27"
+      },
+      "answer": "C",
+      "explanation": "3⁵ · 3⁻² = 3⁵⁻² = 3³.<br>Kemudian 3³ ÷ 3⁻¹ = 3³⁻⁽⁻¹⁾ = 3⁴ = 81.<br>Pengecoh 27 (= 3³) lupa membagi dengan 3⁻¹, dan 9 (= 3²) memperlakukan 3⁻¹ seperti 3¹."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "question": "Jumlah pakan yang dikonsumsi oleh seekor ikan per hari sebanding dengan massa dari ikan tersebut. Diketahui bahwa jumlah pakan yang dimakan ikan dengan massa 50 gram per hari adalah 8 gram. Jumlah pakan yang dimakan per hari oleh ikan dengan massa 150 gram adalah .... gram.",
+      "options": {
+        "A": "16",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "D",
+      "explanation": "Karena sebanding, pakan / massa selalu tetap: 8/50 = x/150.<br>x = 8 × 150 ÷ 50 = 24 gram.<br>Cara lain: massa 150 gram adalah 3 kali massa 50 gram, sehingga pakan juga 3 × 8 = 24 gram."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Ani membawa uang sebesar Rp200.000 untuk berbelanja. Ia ingin membeli 3 buah buku yang masing-masing berharga Rp45.500. Untuk pembelian 3 buku tersebut toko memberikan diskon 15% pada total harga 3 buku. Sisa uang Ani setelah membeli buku akan dipakai untuk membeli pensil yang masing-masing berharga Rp2.750. Berapakah banyaknya pensil maksimum yang dapat dibeli Ani setelah mendapat diskon?",
+      "options": {
+        "A": "31 batang",
+        "B": "30 batang",
+        "C": "29 batang",
+        "D": "28 batang"
+      },
+      "answer": "B",
+      "explanation": "Total harga 3 buku = 3 × 45.500 = Rp136.500.<br>Diskon 15% = 0,15 × 136.500 = Rp20.475, sehingga harga yang dibayar = 136.500 − 20.475 = Rp116.025.<br>Sisa uang = 200.000 − 116.025 = Rp83.975.<br>Banyak pensil = 83.975 ÷ 2.750 ≈ 30,5, sehingga paling banyak 30 batang (tidak boleh dibulatkan ke atas karena uangnya tidak cukup untuk 31 batang)."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Perhatikan pernyataan berikut:<br>1. Jika x + 5 = 12, maka x = 7<br>2. 2n adalah bilangan genap untuk setiap bilangan bulat n.<br>3. Ada bilangan prima yang genap.<br>4. Jika a > b, maka a² > b².<br>Manakah kalimat matematika yang benar untuk semua nilai variabelnya (pernyataan benar secara umum)?",
+      "options": {
+        "A": "(2) dan (3)",
+        "B": "(1), (2), dan (3)",
+        "C": "(2) saja",
+        "D": "(1) dan (2)"
+      },
+      "answer": "C",
+      "explanation": "Pernyataan (2) benar untuk semua nilai variabelnya: 2n selalu genap untuk setiap bilangan bulat n.<br>Pernyataan (1) hanya menyatakan nilai x pada persamaan tertentu (x = 7), pernyataan (3) adalah pernyataan keberadaan (ada satu bilangan prima genap, yaitu 2), bukan sifat yang berlaku untuk semua nilai variabel, dan pernyataan (4) salah untuk a = 1 dan b = −2 (1 > −2, tetapi 1² < (−2)²).<br>Jadi, yang benar secara umum hanya (2)."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Berapakah banyaknya bilangan bulat x yang memenuhi persamaan berikut?<br>1 / (1 − 1 / (1 − x)) = x",
+      "options": {
+        "A": "tak terhingga",
+        "B": "1",
+        "C": "2",
+        "D": "0"
+      },
+      "answer": "D",
+      "explanation": "Sederhanakan penyebutnya (x ≠ 1): 1 − 1/(1 − x) = ((1 − x) − 1)/(1 − x) = −x/(1 − x).<br>Ruas kiri = 1 ÷ (−x/(1 − x)) = (1 − x)/(−x) = (x − 1)/x, dengan x ≠ 0.<br>Persamaan menjadi (x − 1)/x = x, yaitu x² − x + 1 = 0.<br>Diskriminan = (−1)² − 4(1)(1) = −3 < 0, sehingga tidak ada solusi real. Jadi banyaknya bilangan bulat x adalah 0."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Berapa banyak bilangan cacah antara 0 dan 999 (termasuk 0 dan 999) yang memenuhi sifat: digit ratusannya sama dengan jumlah digit puluhan dan satuannya?<br>Contoh: 321 memenuhi karena digit ratusannya 3 dan 2 + 1 = 3.",
+      "options": {
+        "A": "60",
+        "B": "50",
+        "C": "45",
+        "D": "55"
+      },
+      "answer": "D",
+      "explanation": "Tulis setiap bilangan sebagai tiga digit (h, t, u), dengan angka 0 di depan jika perlu. Syaratnya h = t + u.<br>Untuk setiap h = 0, 1, 2, ..., 9, banyak pasangan (t, u) dengan t + u = h adalah h + 1 pasangan.<br>Total = 1 + 2 + 3 + ... + 10 = 55.<br>Pengecoh 45 berasal dari menjumlahkan h (0 + 1 + ... + 9) tanpa menambah 1 pada setiap banyak pasangan."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Hasil penjumlahan sudut dalam pada sebuah segilima beraturan adalah ....",
+      "options": {
+        "A": "360°",
+        "B": "540°",
+        "C": "180°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "explanation": "Jumlah sudut dalam segi-n = (n − 2) × 180°.<br>Untuk segilima (n = 5): (5 − 2) × 180° = 3 × 180° = 540°.<br>Pengecoh 360° adalah jumlah sudut dalam segiempat dan 180° adalah jumlah sudut dalam segitiga."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "question": "Diambil 3 bilangan secara serentak (tanpa pengembalian) dari himpunan bilangan {1, 2, ..., 9}. Peluang bahwa ketiga bilangan yang terambil membentuk barisan aritmetika (artinya dapat disusun menjadi suatu progresi aritmetika dengan beda konstan) adalah ....",
+      "options": {
+        "A": "4/21",
+        "B": "1/6",
+        "C": "2/11",
+        "D": "1/7"
+      },
+      "answer": "A",
+      "explanation": "Banyak cara mengambil 3 bilangan dari 9 = C(9, 3) = 84.<br>Hitung barisan aritmetika berdasarkan bedanya:<br>beda 1: (1,2,3), ..., (7,8,9) → 7 barisan<br>beda 2: (1,3,5), ..., (5,7,9) → 5 barisan<br>beda 3: (1,4,7), (2,5,8), (3,6,9) → 3 barisan<br>beda 4: (1,5,9) → 1 barisan<br>Total = 7 + 5 + 3 + 1 = 16.<br>Peluang = 16/84 = 4/21."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "question": "Diketahui bahwa bilangan p dan q adalah bilangan prima berurutan. Jika hasil kali kedua bilangan tersebut ditambah dengan jumlahnya menghasilkan 95, maka nilai p + q adalah ....",
+      "options": {
+        "A": "20",
+        "B": "18",
+        "C": "22",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "Persamaannya pq + p + q = 95. Tambahkan 1 pada kedua ruas: pq + p + q + 1 = 96, sehingga (p + 1)(q + 1) = 96.<br>Coba pasangan bilangan prima berurutan: (5, 7) → 6 × 8 = 48, (7, 11) → 8 × 12 = 96 ✓, (11, 13) → 12 × 14 = 168.<br>Jadi p = 7 dan q = 11 (cek: 7 × 11 + 7 + 11 = 95), sehingga p + q = 18."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "question": "Tiga bilangan a, b, dan c memiliki rasio 2 : 3 : 5. Jika jumlah b dan c dikurangi a menghasilkan 48, maka nilai c adalah ....",
+      "options": {
+        "A": "50",
+        "B": "30",
+        "C": "40",
+        "D": "20"
+      },
+      "answer": "C",
+      "explanation": "Misalkan a = 2k, b = 3k, dan c = 5k.<br>b + c − a = 3k + 5k − 2k = 6k = 48, sehingga k = 8.<br>Nilai c = 5k = 5 × 8 = 40."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "question": "Tentukan banyak pasangan bilangan bulat (x, y) yang memenuhi |x| + |y| = 10 dan xy habis dibagi 4.",
+      "options": {
+        "A": "16",
+        "B": "28",
+        "C": "20",
+        "D": "24"
+      },
+      "answer": "C",
+      "explanation": "Misalkan |x| = m, maka |y| = 10 − m dengan m = 0, 1, ..., 10. Perlu dicek apakah m(10 − m) habis dibagi 4.<br>m = 0 dan m = 10: hasil kali 0 (habis dibagi 4), masing-masing menghasilkan 2 pasangan, yaitu (0, ±10) dan (±10, 0) → 4 pasangan.<br>m = 2, 4, 6, 8: hasil kali 16, 24, 24, 16 (habis dibagi 4), masing-masing menghasilkan 4 pasangan karena x dan y bisa positif atau negatif → 16 pasangan.<br>m = 1, 3, 5, 7, 9: hasil kali 9, 21, 25, 21, 9 (tidak habis dibagi 4).<br>Total = 4 + 16 = 20 pasangan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Fungsi f didefinisikan sebagai f(x) = 3x − a. Jika diketahui f(2) = 11, maka nilai dari f(−3) adalah ....",
+      "options": {
+        "A": "−16",
+        "B": "16",
+        "C": "−4",
+        "D": "20"
+      },
+      "answer": "C",
+      "explanation": "f(2) = 3(2) − a = 6 − a = 11, sehingga a = −5.<br>Fungsinya menjadi f(x) = 3x + 5.<br>f(−3) = 3(−3) + 5 = −9 + 5 = −4."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Bilangan N adalah bilangan terkecil yang memenuhi syarat berikut:<br>1. N habis dibagi 12, 15, dan 20.<br>2. Banyak faktor positif dari N adalah 18.<br>Nilai N adalah ....",
+      "options": {
+        "A": "240",
+        "B": "300",
+        "C": "120",
+        "D": "360"
+      },
+      "answer": "B",
+      "explanation": "KPK dari 12, 15, dan 20 adalah 60 = 2² × 3 × 5, sehingga N harus kelipatan 60.<br>Banyak faktor positif dari 2ᵃ × 3ᵇ × 5ᶜ adalah (a + 1)(b + 1)(c + 1). Periksa setiap pilihan:<br>120 = 2³ × 3 × 5 → 4 × 2 × 2 = 16 faktor<br>240 = 2⁴ × 3 × 5 → 5 × 2 × 2 = 20 faktor<br>300 = 2² × 3 × 5² → 3 × 2 × 3 = 18 faktor ✓<br>360 = 2³ × 3² × 5 → 4 × 3 × 2 = 24 faktor<br>Di antara pilihan yang tersedia, hanya 300 yang memenuhi kedua syarat."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Sebuah tangki air berbentuk balok dengan ukuran 75 cm × 60 cm × 50 cm diisi air melalui dua keran, A dan B. Debit keran A 3 liter/menit dan debit keran B adalah 5 liter/menit. Tangki tersebut memiliki lubang kebocoran di dasarnya yang menyebabkan air keluar dengan debit 5,5 liter/menit.<br>Jika pada pukul 08.00 WIB tangki dalam keadaan kosong dan kedua keran dibuka bersamaan, maka tangki akan mulai penuh dan meluap pada pukul ....",
+      "options": {
+        "A": "09.30 WIB",
+        "B": "10.00 WIB",
+        "C": "10.15 WIB",
+        "D": "09.45 WIB"
+      },
+      "answer": "A",
+      "explanation": "Volume tangki = 75 × 60 × 50 = 225.000 cm³ = 225 liter.<br>Debit bersih = 3 + 5 − 5,5 = 2,5 liter/menit.<br>Waktu hingga penuh = 225 ÷ 2,5 = 90 menit = 1 jam 30 menit.<br>Tangki mulai meluap pada pukul 08.00 + 1 jam 30 menit = 09.30 WIB."
+    },
+    {
+      "number": 21,
+      "difficulty": "Sedang",
+      "question": "Dua bilangan A dan B memenuhi syarat berikut:<br>• KPK(A, B) = 360<br>• FPB(A, B) = 12<br>Jika A dan B bilangan bulat positif, maka selisih terkecil antara A dan B adalah ....",
+      "options": {
+        "A": "12",
+        "B": "36",
+        "C": "48",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "Karena FPB(A, B) = 12, tulis A = 12p dan B = 12q dengan p dan q relatif prima.<br>KPK(A, B) = 12pq = 360, sehingga pq = 30.<br>Pasangan (p, q) yang relatif prima dengan pq = 30: (1, 30), (2, 15), (3, 10), dan (5, 6).<br>Selisih A dan B = 12|p − q|, yang terkecil terjadi pada (5, 6): 12 × 1 = 12 (A = 60 dan B = 72)."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sulit",
+      "question": "Diketahui titik-titik A(2, 3), B(8, 3) dan C(5, 9) membentuk segitiga ABC. Titik D adalah bayangan titik C terhadap garis yang melalui A dan B. Koordinat titik D adalah ....",
+      "options": {
+        "A": "(5, −3)",
+        "B": "(5, −1)",
+        "C": "(5, −6)",
+        "D": "(5, −9)"
+      },
+      "answer": "A",
+      "explanation": "Titik A dan B sama-sama berordinat 3, sehingga garis AB adalah garis y = 3.<br>Pencerminan terhadap garis y = 3 mengubah (x, y) menjadi (x, 6 − y).<br>C(5, 9) menjadi D(5, 6 − 9) = (5, −3).<br>Cek: jarak C ke garis y = 3 adalah 6, sehingga D berada 6 satuan di bawah garis, yaitu y = 3 − 6 = −3.<br>Pengecoh (5, −9) adalah bayangan C terhadap sumbu x, bukan terhadap garis y = 3."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sulit",
+      "question": "Tentukan banyaknya tripel terurut (x, y, z) bilangan cacah (yaitu x, y, z ≥ 0) yang memenuhi semua syarat berikut:<br>1. x + y + z = 30,<br>2. x ≤ 10,<br>3. y > 5,<br>4. z genap.<br>Banyak solusi (x, y, z) adalah ....",
+      "options": {
+        "A": "100",
+        "B": "108",
+        "C": "113",
+        "D": "96"
+      },
+      "answer": "C",
+      "explanation": "Karena y > 5, y ≥ 6. Misalkan z = 2k (k ≥ 0). Maka y = 30 − x − 2k ≥ 6, sehingga k ≤ (24 − x)/2.<br>Untuk setiap nilai x, banyak nilai k adalah ⌊(24 − x)/2⌋ + 1:<br>x = 0 → 13<br>x = 1, 2 → 12 dan 12<br>x = 3, 4 → 11 dan 11<br>x = 5, 6 → 10 dan 10<br>x = 7, 8 → 9 dan 9<br>x = 9, 10 → 8 dan 8<br>Total = 13 + 24 + 22 + 20 + 18 + 16 = 113."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sulit",
+      "image": "24.png",
+      "question": "Nilai ulangan Matematika 22 siswa ditunjukkan pada tabel berikut. Guru kemudian menghapus dua nilai tertinggi (80 dan 80) karena dianggap hasil kecurangan. Rata-rata nilai siswa setelah dua data tersebut dihapus adalah ....",
+      "options": {
+        "A": "58",
+        "B": "56",
+        "C": "55",
+        "D": "57"
+      },
+      "answer": "C",
+      "explanation": "Jumlah nilai semula = 40 × 4 + 50 × 5 + 60 × 8 + 70 × 3 + 80 × 2 = 160 + 250 + 480 + 210 + 160 = 1.260.<br>Setelah dua nilai 80 dihapus: jumlah nilai = 1.260 − 160 = 1.100, dan banyak siswa = 22 − 2 = 20.<br>Rata-rata = 1.100 ÷ 20 = 55.<br>Pengecoh 57 adalah rata-rata sebelum data dihapus (1.260 ÷ 22 ≈ 57,3)."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sedang",
+      "question": "Perhatikan pola berikut:<br>2, 6, 12, 20, 30, 42, ...<br>Jika pola tersebut dilanjutkan, maka jumlah 10 suku pertama dari barisan itu adalah ....",
+      "options": {
+        "A": "440",
+        "B": "500",
+        "C": "460",
+        "D": "480"
+      },
+      "answer": "A",
+      "explanation": "Polanya adalah 1 × 2, 2 × 3, 3 × 4, 4 × 5, ..., sehingga suku ke-n adalah Uₙ = n(n + 1) = n² + n.<br>Jumlah 10 suku pertama = Σn² + Σn = (10 × 11 × 21)/6 + (10 × 11)/2 = 385 + 55 = 440.<br>Cek: 2 + 6 + 12 + 20 + 30 + 42 + 56 + 72 + 90 + 110 = 440."
+    },
+    {
+      "number": 26,
+      "difficulty": "Mudah",
+      "question": "Bilangan x memenuhi persamaan x = 1 + 1/x. Maka bilangan x termasuk dalam himpunan bilangan ....",
+      "options": {
+        "A": "ganjil",
+        "B": "bulat",
+        "C": "riil",
+        "D": "pecahan"
+      },
+      "answer": "C",
+      "explanation": "Kalikan kedua ruas dengan x: x² = x + 1, sehingga x² − x − 1 = 0.<br>Dengan rumus kuadrat, x = (1 ± √5)/2, yaitu bilangan irasional.<br>Bilangan irasional bukan bilangan ganjil, bukan bilangan bulat, dan bukan pecahan (bilangan rasional), tetapi termasuk bilangan riil."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sedang",
+      "question": "Perhatikan bilangan desimal berikut:<br>0,(36) = 0,363636...<br>(angka 36 berulang terus-menerus)<br>Jika bilangan desimal tersebut diubah menjadi bentuk pecahan paling sederhana, hasilnya adalah ....",
+      "options": {
+        "A": "36/99",
+        "B": "9/25",
+        "C": "4/11",
+        "D": "5/11"
+      },
+      "answer": "C",
+      "explanation": "Misalkan x = 0,363636... Maka 100x = 36,363636...<br>100x − x = 36, sehingga 99x = 36 dan x = 36/99.<br>Sederhanakan dengan membagi 9: 36/99 = 4/11.<br>Pengecoh 36/99 belum sederhana, 9/25 = 0,36 (desimal tidak berulang), dan 5/11 = 0,4545..."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sulit",
+      "question": "Sebuah kubus ABCD.EFGH memiliki panjang rusuk 6 cm. Titik M, N, dan P masing-masing adalah titik tengah rusuk AB, AD, dan AE. Tentukan volume tetrahedron MNPG.",
+      "options": {
+        "A": "54 cm³",
+        "B": "9 cm³",
+        "C": "27 cm³",
+        "D": "45/2 cm³"
+      },
+      "answer": "D",
+      "explanation": "Letakkan A(0, 0, 0), B(6, 0, 0), D(0, 6, 0), E(0, 0, 6), sehingga G(6, 6, 6). Titik tengahnya M(3, 0, 0), N(0, 3, 0), dan P(0, 0, 3).<br>Segitiga MNP sama sisi dengan sisi 3√2, luasnya = (√3/4) × 18 = 9√3/2 cm².<br>Bidang MNP adalah x + y + z = 3, sehingga jarak G ke bidang tersebut = |6 + 6 + 6 − 3|/√3 = 15/√3 = 5√3 cm.<br>Volume = 1/3 × 9√3/2 × 5√3 = 1/3 × 135/2 = 45/2 cm³."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sulit",
+      "question": "Berapa banyak bilangan prima p yang memenuhi 1 < p < 100 sehingga p² − 1 habis dibagi 24?",
+      "options": {
+        "A": "23",
+        "B": "21",
+        "C": "24",
+        "D": "22"
+      },
+      "answer": "A",
+      "explanation": "p² − 1 = (p − 1)(p + 1).<br>Untuk bilangan prima p > 3: p ganjil, sehingga p − 1 dan p + 1 adalah dua bilangan genap berurutan, dan hasil kalinya habis dibagi 8. Selain itu, di antara p − 1, p, p + 1 ada satu kelipatan 3 dan itu bukan p, sehingga (p − 1)(p + 1) habis dibagi 3. Jadi p² − 1 habis dibagi 8 × 3 = 24.<br>Untuk p = 2: p² − 1 = 3, dan untuk p = 3: p² − 1 = 8, keduanya tidak habis dibagi 24.<br>Ada 25 bilangan prima kurang dari 100, dikurangi 2 dan 3, sehingga ada 23 bilangan prima yang memenuhi."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "question": "Diberikan sebuah bujur sangkar ABCD dengan panjang sisi 12 cm. Titik P terletak di dalam bujur sangkar sehingga luas<br>△PAB = 9 cm²,<br>△PBC = 16 cm²,<br>△PCD = 63 cm².<br>Berapakah luas △PDA dalam cm²?",
+      "options": {
+        "A": "56",
+        "B": "48",
+        "C": "60",
+        "D": "54"
+      },
+      "answer": "A",
+      "explanation": "Tinggi △PAB dan △PCD (jarak P ke AB dan ke CD) jumlahnya sama dengan sisi bujur sangkar, yaitu 12 cm. Jadi L△PAB + L△PCD = 1/2 × 12 × 12 = 72 cm² (cek: 9 + 63 = 72 ✓).<br>Dengan alasan yang sama, L△PBC + L△PDA = 72 cm².<br>L△PDA = 72 − 16 = 56 cm²."
+    },
+    {
+      "number": 31,
+      "difficulty": "Sulit",
+      "type": "isian_singkat",
+      "question": "Sebuah kubus besar memiliki panjang rusuk 12 cm. Kubus itu dipotong menjadi 8 kubus kecil yang sama besar. Seluruh kubus kecil kemudian disusun menjadi satu balok baru sedemikian rupa sehingga panjang balok = 2 × lebar balok, dan lebar balok = 2 × tinggi balok.<br>Tentukan luas permukaan balok baru dalam satuan cm².",
+      "answer": "1008",
+      "explanation": "Memotong kubus rusuk 12 cm menjadi 8 kubus kecil sama besar menghasilkan kubus kecil dengan rusuk 12 ÷ 2 = 6 cm.<br>Misalkan tinggi balok = t, maka lebar = 2t dan panjang = 4t. Volume = 4t × 2t × t = 8t³ = 12³ = 1.728, sehingga t³ = 216 dan t = 6 cm.<br>Ukuran balok: panjang 24 cm, lebar 12 cm, tinggi 6 cm (tersusun dari 4 × 2 × 1 kubus kecil).<br>Luas permukaan = 2(24 × 12 + 24 × 6 + 12 × 6) = 2(288 + 144 + 72) = 2 × 504 = 1.008 cm²."
+    },
+    {
+      "number": 32,
+      "difficulty": "Sulit",
+      "type": "isian_singkat",
+      "question": "Sebuah kotak berisi 12 bola: 6 bola merah, 4 bola biru, dan 2 bola hijau. Diambil 3 bola secara acak tanpa pengembalian.<br>Peluang bahwa ketiga bola yang terambil mengandung tepat dua warna dalam bentuk pecahan paling sederhana adalah a/b (artinya salah satu warna muncul dua kali dan warna lain muncul sekali).<br>Tentukan nilai b − a.",
+      "answer": "18",
+      "explanation": "Banyak cara mengambil 3 bola dari 12 = C(12, 3) = 220.<br>Hitung pengambilan yang tepat dua warna:<br>merah dan biru (10 bola): C(10, 3) − C(6, 3) − C(4, 3) = 120 − 20 − 4 = 96<br>merah dan hijau (8 bola): C(8, 3) − C(6, 3) − C(2, 3) = 56 − 20 − 0 = 36<br>biru dan hijau (6 bola): C(6, 3) − C(4, 3) − C(2, 3) = 20 − 4 − 0 = 16<br>Total = 96 + 36 + 16 = 148.<br>Peluang = 148/220 = 37/55, sehingga a = 37 dan b = 55. Maka b − a = 55 − 37 = 18."
+    },
+    {
+      "number": 33,
+      "difficulty": "Sulit",
+      "type": "isian_singkat",
+      "question": "Suatu pecahan a/b (dengan a, b bilangan bulat positif dan FPB(a, b) = 1) memiliki sifat berikut:<br>a/b + 3/b = 7/a<br>Tentukan nilai a + b.",
+      "answer": "17",
+      "explanation": "a/b + 3/b = (a + 3)/b = 7/a, sehingga a(a + 3) = 7b.<br>Karena 7 bilangan prima dan 7 membagi a(a + 3), maka 7 membagi a atau 7 membagi (a + 3).<br>Kasus a = 7k: b = k(7k + 3). Maka FPB(a, b) minimal k, sehingga haruslah k = 1, diperoleh a = 7 dan b = 10.<br>Kasus a + 3 = 7k: a = 7k − 3 dan b = k(7k − 3) = k × a, sehingga FPB(a, b) = a. Agar FPB = 1 perlu a = 1, tetapi 7k − 3 = 1 tidak memberi k bilangan bulat. Kasus ini tidak mungkin.<br>Jadi a = 7 dan b = 10 (cek: 7/10 + 3/10 = 1 = 7/7). Maka a + b = 17."
+    },
+    {
+      "number": 34,
+      "difficulty": "Sulit",
+      "type": "isian_singkat",
+      "question": "Suatu barisan (aₙ) didefinisikan oleh a₁ = 1, aₙ₊₁ = aₙ + Tₙ untuk n ≥ 1, dengan Tₙ adalah bilangan segitiga ke-n, yaitu Tₙ = n(n + 1)/2.<br>Tentukan nilai a₁₂.",
+      "answer": "287",
+      "explanation": "Dari rumus barisan, a₁₂ = a₁ + T₁ + T₂ + ... + T₁₁ = 1 + (T₁ + T₂ + ... + T₁₁).<br>Jumlah n bilangan segitiga pertama = n(n + 1)(n + 2)/6. Untuk n = 11: 11 × 12 × 13 / 6 = 286.<br>Cek: 1 + 3 + 6 + 10 + 15 + 21 + 28 + 36 + 45 + 55 + 66 = 286.<br>a₁₂ = 1 + 286 = 287."
+    },
+    {
+      "number": 35,
+      "difficulty": "Sulit",
+      "type": "isian_singkat",
+      "question": "Tiga wadah berisi cairan A dan B dengan perbandingan sebagai berikut:<br>• Wadah I: A : B = 2 : 3<br>• Wadah II: A : B = 1 : 2<br>• Wadah III: A : B = 3 : 5<br>Dari masing-masing wadah diambil 60 mL campuran, kemudian ketiga campuran tersebut dicampur menjadi satu wadah besar. Perbandingan akhir dalam bentuk paling sederhana cairan pada wadah besar tersebut adalah A : B.<br>Tentukan nilai dari A + B.",
+      "answer": "360",
+      "explanation": "Cairan A dan B dalam 60 mL tiap wadah:<br>Wadah I: A = 2/5 × 60 = 24 mL, B = 36 mL<br>Wadah II: A = 1/3 × 60 = 20 mL, B = 40 mL<br>Wadah III: A = 3/8 × 60 = 22,5 mL, B = 37,5 mL<br>Total A = 24 + 20 + 22,5 = 66,5 mL dan total B = 36 + 40 + 37,5 = 113,5 mL.<br>A : B = 66,5 : 113,5 = 133 : 227 (dikali 2). 133 = 7 × 19 dan 227 bilangan prima, sehingga sudah paling sederhana.<br>A + B = 133 + 227 = 360."
+    }
+  ]
+}

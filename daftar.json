@@ -1,6 +1,18 @@
 {
-  "generated": "2026-10-13T12:35:28",
+  "generated": "2026-10-17T18:32:56",
   "kuis": [
+    {
+      "title": "EMC 2025 Babak Provinsi - Matematika Kelas 7",
+      "topic": "Olimpiade Matematika",
+      "summary": "29% Mudah | 29% Sedang | 43% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 35,
+      "kelas": "EMC",
+      "mapel": "Kelas 7",
+      "topik": [
+        "Provinsi 2025"
+      ],
+      "path": "EMC/Kelas 7/Provinsi 2025/soal.json"
+    },
     {
       "title": "Latihan IPA - Anatomi Hewan, Tumbuhan, dan Manusia",
       "topic": "Anatomi Hewan, Tumbuhan, dan Manusia",
