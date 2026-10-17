@@ -1,9 +1,9 @@
 {
   "title": "EMC 2025 Babak Provinsi - Matematika Kelas 7",
   "topic": "Olimpiade Matematika",
-  "subtitle": "Latihan Mandiri 35 Soal (30 Pilihan Ganda + 5 Isian Singkat)",
-  "difficulty_summary": "29% Mudah | 29% Sedang | 43% Sulit. Kerjakan dengan jujur dan teliti.",
-  "total_questions": 35,
+  "subtitle": "Latihan Mandiri 30 Soal Pilihan Ganda",
+  "difficulty_summary": "33% Mudah | 33% Sedang | 33% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 30,
   "passages": [],
   "questions": [
     {
@@ -398,46 +398,6 @@
       },
       "answer": "A",
       "explanation": "Tinggi △PAB dan △PCD (jarak P ke AB dan ke CD) jumlahnya sama dengan sisi bujur sangkar, yaitu 12 cm. Jadi L△PAB + L△PCD = 1/2 × 12 × 12 = 72 cm² (cek: 9 + 63 = 72 ✓).<br>Dengan alasan yang sama, L△PBC + L△PDA = 72 cm².<br>L△PDA = 72 − 16 = 56 cm²."
-    },
-    {
-      "number": 31,
-      "difficulty": "Sulit",
-      "type": "isian_singkat",
-      "question": "Sebuah kubus besar memiliki panjang rusuk 12 cm. Kubus itu dipotong menjadi 8 kubus kecil yang sama besar. Seluruh kubus kecil kemudian disusun menjadi satu balok baru sedemikian rupa sehingga panjang balok = 2 × lebar balok, dan lebar balok = 2 × tinggi balok.<br>Tentukan luas permukaan balok baru dalam satuan cm².",
-      "answer": "1008",
-      "explanation": "Memotong kubus rusuk 12 cm menjadi 8 kubus kecil sama besar menghasilkan kubus kecil dengan rusuk 12 ÷ 2 = 6 cm.<br>Misalkan tinggi balok = t, maka lebar = 2t dan panjang = 4t. Volume = 4t × 2t × t = 8t³ = 12³ = 1.728, sehingga t³ = 216 dan t = 6 cm.<br>Ukuran balok: panjang 24 cm, lebar 12 cm, tinggi 6 cm (tersusun dari 4 × 2 × 1 kubus kecil).<br>Luas permukaan = 2(24 × 12 + 24 × 6 + 12 × 6) = 2(288 + 144 + 72) = 2 × 504 = 1.008 cm²."
-    },
-    {
-      "number": 32,
-      "difficulty": "Sulit",
-      "type": "isian_singkat",
-      "question": "Sebuah kotak berisi 12 bola: 6 bola merah, 4 bola biru, dan 2 bola hijau. Diambil 3 bola secara acak tanpa pengembalian.<br>Peluang bahwa ketiga bola yang terambil mengandung tepat dua warna dalam bentuk pecahan paling sederhana adalah a/b (artinya salah satu warna muncul dua kali dan warna lain muncul sekali).<br>Tentukan nilai b − a.",
-      "answer": "18",
-      "explanation": "Banyak cara mengambil 3 bola dari 12 = C(12, 3) = 220.<br>Hitung pengambilan yang tepat dua warna:<br>merah dan biru (10 bola): C(10, 3) − C(6, 3) − C(4, 3) = 120 − 20 − 4 = 96<br>merah dan hijau (8 bola): C(8, 3) − C(6, 3) − C(2, 3) = 56 − 20 − 0 = 36<br>biru dan hijau (6 bola): C(6, 3) − C(4, 3) − C(2, 3) = 20 − 4 − 0 = 16<br>Total = 96 + 36 + 16 = 148.<br>Peluang = 148/220 = 37/55, sehingga a = 37 dan b = 55. Maka b − a = 55 − 37 = 18."
-    },
-    {
-      "number": 33,
-      "difficulty": "Sulit",
-      "type": "isian_singkat",
-      "question": "Suatu pecahan a/b (dengan a, b bilangan bulat positif dan FPB(a, b) = 1) memiliki sifat berikut:<br>a/b + 3/b = 7/a<br>Tentukan nilai a + b.",
-      "answer": "17",
-      "explanation": "a/b + 3/b = (a + 3)/b = 7/a, sehingga a(a + 3) = 7b.<br>Karena 7 bilangan prima dan 7 membagi a(a + 3), maka 7 membagi a atau 7 membagi (a + 3).<br>Kasus a = 7k: b = k(7k + 3). Maka FPB(a, b) minimal k, sehingga haruslah k = 1, diperoleh a = 7 dan b = 10.<br>Kasus a + 3 = 7k: a = 7k − 3 dan b = k(7k − 3) = k × a, sehingga FPB(a, b) = a. Agar FPB = 1 perlu a = 1, tetapi 7k − 3 = 1 tidak memberi k bilangan bulat. Kasus ini tidak mungkin.<br>Jadi a = 7 dan b = 10 (cek: 7/10 + 3/10 = 1 = 7/7). Maka a + b = 17."
-    },
-    {
-      "number": 34,
-      "difficulty": "Sulit",
-      "type": "isian_singkat",
-      "question": "Suatu barisan (aₙ) didefinisikan oleh a₁ = 1, aₙ₊₁ = aₙ + Tₙ untuk n ≥ 1, dengan Tₙ adalah bilangan segitiga ke-n, yaitu Tₙ = n(n + 1)/2.<br>Tentukan nilai a₁₂.",
-      "answer": "287",
-      "explanation": "Dari rumus barisan, a₁₂ = a₁ + T₁ + T₂ + ... + T₁₁ = 1 + (T₁ + T₂ + ... + T₁₁).<br>Jumlah n bilangan segitiga pertama = n(n + 1)(n + 2)/6. Untuk n = 11: 11 × 12 × 13 / 6 = 286.<br>Cek: 1 + 3 + 6 + 10 + 15 + 21 + 28 + 36 + 45 + 55 + 66 = 286.<br>a₁₂ = 1 + 286 = 287."
-    },
-    {
-      "number": 35,
-      "difficulty": "Sulit",
-      "type": "isian_singkat",
-      "question": "Tiga wadah berisi cairan A dan B dengan perbandingan sebagai berikut:<br>• Wadah I: A : B = 2 : 3<br>• Wadah II: A : B = 1 : 2<br>• Wadah III: A : B = 3 : 5<br>Dari masing-masing wadah diambil 60 mL campuran, kemudian ketiga campuran tersebut dicampur menjadi satu wadah besar. Perbandingan akhir dalam bentuk paling sederhana cairan pada wadah besar tersebut adalah A : B.<br>Tentukan nilai dari A + B.",
-      "answer": "360",
-      "explanation": "Cairan A dan B dalam 60 mL tiap wadah:<br>Wadah I: A = 2/5 × 60 = 24 mL, B = 36 mL<br>Wadah II: A = 1/3 × 60 = 20 mL, B = 40 mL<br>Wadah III: A = 3/8 × 60 = 22,5 mL, B = 37,5 mL<br>Total A = 24 + 20 + 22,5 = 66,5 mL dan total B = 36 + 40 + 37,5 = 113,5 mL.<br>A : B = 66,5 : 113,5 = 133 : 227 (dikali 2). 133 = 7 × 19 dan 227 bilangan prima, sehingga sudah paling sederhana.<br>A + B = 133 + 227 = 360."
     }
   ]
 }
