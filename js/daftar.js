@@ -14,9 +14,11 @@ const tileOf = s => {
 };
 
 // "Kelas 11" → jenjang untuk pengelompokan di beranda (sama dengan Nalarin Belajar)
-const JENJANG_ORDER = ['SMP', 'SMA', 'Persiapan TKA', 'Lainnya'];
+const JENJANG_ORDER = ['SMP', 'SMA', 'Olimpiade', 'Lainnya'];
 function jenjang(kelas){
-  if(/^TKA/i.test(kelas)) return 'Persiapan TKA';
+  if(/^Olimpiade/i.test(kelas)) return 'Olimpiade';
+  if(/\bSMP\b/i.test(kelas)) return 'SMP';      // "TKA SMP" ikut grup SMP
+  if(/\bSMA\b/i.test(kelas)) return 'SMA';      // "TKA SMA" ikut grup SMA
   const n = parseInt((kelas.match(/\d+/) || [0])[0], 10);
   if(n >= 10) return 'SMA';
   if(n >= 7) return 'SMP';
