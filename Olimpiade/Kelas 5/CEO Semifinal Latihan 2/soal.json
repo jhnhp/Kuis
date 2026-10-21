@@ -1,0 +1,400 @@
+{
+  "title": "Olimpiade Matematika CEO Semifinal Level 3 - Latihan 2",
+  "topic": "Olimpiade Matematika",
+  "subtitle": "Latihan Mandiri 30 Soal Pilihan Ganda",
+  "difficulty_summary": "50% Mudah | 27% Sedang | 23% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 30,
+  "passages": [],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Hitunglah nilai dari 7.200 : (3.268 – 3.248) × (52 + 18) = ....",
+      "options": {
+        "A": "2.520",
+        "B": "252.000",
+        "C": "25.200",
+        "D": "26.200"
+      },
+      "answer": "C",
+      "explanation": "3.268 − 3.248 = 20 dan 52 + 18 = 70.<br>7.200 : 20 = 360, lalu 360 × 70 = 25.200."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Nilai dari 100 − 98 + 96 − 94 + … + 4 − 2 adalah ....",
+      "options": {
+        "A": "50",
+        "B": "25",
+        "C": "48",
+        "D": "52"
+      },
+      "answer": "A",
+      "explanation": "Bilangan genap dari 100 sampai 2 ada 50 buah, jadi ada 25 pasangan (100 − 98), (96 − 94), …, (4 − 2).<br>Tiap pasangan bernilai 2, jumlahnya 25 × 2 = 50."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "question": "Angka satuan dari 7<sup>2023</sup> × 3<sup>2022</sup> adalah ....",
+      "options": {
+        "A": "7",
+        "B": "1",
+        "C": "3",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "Satuan 7<sup>n</sup> berulang: 7, 9, 3, 1. Karena 2023 bersisa 3 jika dibagi 4, satuannya 3.<br>Satuan 3<sup>n</sup> berulang: 3, 9, 7, 1. Karena 2022 bersisa 2 jika dibagi 4, satuannya 9.<br>3 × 9 = 27, jadi satuannya 7."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Hasil kali dua bilangan adalah 176 dan selisihnya 5. Jumlah kedua bilangan tersebut adalah ....",
+      "options": {
+        "A": "25",
+        "B": "27",
+        "C": "29",
+        "D": "31"
+      },
+      "answer": "B",
+      "explanation": "11 × 16 = 176 dan 16 − 11 = 5.<br>Jumlahnya 11 + 16 = 27."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Hasil dari 1.250 − 85 × 12 + 36 : 4 = ....",
+      "options": {
+        "A": "239",
+        "B": "221",
+        "C": "374",
+        "D": "266"
+      },
+      "answer": "A",
+      "explanation": "Kerjakan perkalian dan pembagian lebih dulu: 85 × 12 = 1.020 dan 36 : 4 = 9.<br>1.250 − 1.020 + 9 = 239.<br>Pengecoh 266 mengerjakan dari kiri ke kanan tanpa mendahulukan perkalian dan pembagian."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Jika 2<sup>x</sup> + 13 = 141, maka nilai x adalah ....",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "7"
+      },
+      "answer": "D",
+      "explanation": "2<sup>x</sup> = 141 − 13 = 128 = 2<sup>7</sup>, sehingga x = 7."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Besar sudut terkecil yang dibentuk oleh jarum jam pada pukul 13.40 adalah .... derajat.",
+      "options": {
+        "A": "150",
+        "B": "160",
+        "C": "170",
+        "D": "190"
+      },
+      "answer": "C",
+      "explanation": "Pukul 13.40 sama dengan pukul 1.40.<br>Jarum menit: 40 × 6° = 240°. Jarum pendek: 1 × 30° + 40 × 0,5° = 50°.<br>Selisihnya 190°, sehingga sudut terkecilnya 360° − 190° = 170°."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Panjang sebuah persegi panjang bertambah 20% dan lebarnya bertambah 50%. Berapa persen pertambahan luas persegi panjang tersebut?",
+      "options": {
+        "A": "70%",
+        "B": "75%",
+        "C": "90%",
+        "D": "80%"
+      },
+      "answer": "D",
+      "explanation": "Misalkan panjang 10 dan lebar 10, luasnya 100. Panjang baru 12 dan lebar baru 15, luasnya 180.<br>Luas bertambah 80, yaitu 80%.<br>Pengecoh 70% menjumlahkan 20% + 50%."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "question": "Seorang pengendara sepeda motor melaju dengan kecepatan 54 km/jam. Jika ia berkendara selama 40 menit, jarak yang ditempuh adalah .... m.",
+      "options": {
+        "A": "3.600",
+        "B": "2.160",
+        "C": "360.000",
+        "D": "36.000"
+      },
+      "answer": "D",
+      "explanation": "40 menit = 2/3 jam. Jarak = 54 × 2/3 = 36 km = 36.000 m."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "question": "Jumlah semua bilangan kelipatan 5 dari 5 sampai 100 adalah ....",
+      "options": {
+        "A": "1.050",
+        "B": "1.000",
+        "C": "1.100",
+        "D": "1.155"
+      },
+      "answer": "A",
+      "explanation": "Kelipatan 5: 5, 10, …, 100 (ada 20 suku). Jumlah = 5 × (1 + 2 + … + 20) = 5 × 210 = 1.050."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Jika 4 * 1 = 11; 2 * 5 = 19 dan 6 * 3 = 21. Maka nilai 7 * 2 = ....",
+      "options": {
+        "A": "17",
+        "B": "20",
+        "C": "21",
+        "D": "23"
+      },
+      "answer": "B",
+      "explanation": "Aturannya a * b = 2a + 3b: 2(4) + 3(1) = 11, 2(2) + 3(5) = 19, 2(6) + 3(3) = 21.<br>Jadi 7 * 2 = 2(7) + 3(2) = 14 + 6 = 20."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "question": "Uang Ani, Budi, dan Cici berbanding sebagai 2 : 3 : 5. Jika jumlah uang mereka Rp600.000, selisih uang Cici dan Ani adalah Rp ....",
+      "options": {
+        "A": "120.000",
+        "B": "240.000",
+        "C": "180.000",
+        "D": "300.000"
+      },
+      "answer": "C",
+      "explanation": "Satu bagian = 600.000 : (2 + 3 + 5) = 60.000.<br>Selisih Cici dan Ani = (5 − 2) × 60.000 = 180.000.<br>Pengecoh 300.000 adalah uang Cici."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Nilai dari (63 × 27 + 63 × 15) : 21 adalah ....",
+      "options": {
+        "A": "63",
+        "B": "42",
+        "C": "147",
+        "D": "126"
+      },
+      "answer": "D",
+      "explanation": "Keluarkan faktor 63: 63 × (27 + 15) = 63 × 42.<br>63 × 42 : 21 = 63 × 2 = 126."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Hasil kali dua bilangan prima yang berbeda adalah 187. Jumlah kedua bilangan prima tersebut adalah ....",
+      "options": {
+        "A": "24",
+        "B": "28",
+        "C": "26",
+        "D": "30"
+      },
+      "answer": "B",
+      "explanation": "187 = 11 × 17, dan keduanya bilangan prima.<br>Jumlahnya 11 + 17 = 28."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "question": "Nilai rata-rata tes matematika dari 9 siswa adalah 78. Jika nilai Dika digabungkan dengan kelompok tersebut, rata-rata nilai mereka menjadi 80. Berapa nilai Dika?",
+      "options": {
+        "A": "80",
+        "B": "92",
+        "C": "96",
+        "D": "98"
+      },
+      "answer": "D",
+      "explanation": "Jumlah nilai 9 siswa = 9 × 78 = 702. Jumlah nilai 10 siswa = 10 × 80 = 800.<br>Nilai Dika = 800 − 702 = 98."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "question": "Hitunglah nilai dari: 1 − 4 + 7 − 10 + 13 − 16 + … + 97 − 100 + 103 = ....",
+      "options": {
+        "A": "49",
+        "B": "54",
+        "C": "52",
+        "D": "46"
+      },
+      "answer": "C",
+      "explanation": "Bilangan-bilangan ini bertambah 3 setiap suku dan berakhir di 103 (ada 35 suku).<br>Sampai 100 ada 34 suku, yaitu 17 pasangan. Tiap pasangan (1 − 4), (7 − 10), … bernilai −3, jumlahnya −51.<br>Lalu ditambah 103: −51 + 103 = 52."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "question": "Jika 12,5% dari suatu bilangan adalah 45, maka bilangan itu adalah ....",
+      "options": {
+        "A": "320",
+        "B": "405",
+        "C": "540",
+        "D": "360"
+      },
+      "answer": "D",
+      "explanation": "12,5% = 1/8. Jadi bilangan itu 8 × 45 = 360."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Banyak faktor positif dari 36 adalah ....",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "answer": "C",
+      "explanation": "Faktor 36: 1, 2, 3, 4, 6, 9, 12, 18, 36, yaitu 9 faktor."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Perhatikan bilangan berikut: 1, 3, 6, 10, 15, …. Jumlah bilangan ke-10 dan ke-12 dari urutan bilangan tersebut adalah ....",
+      "options": {
+        "A": "121",
+        "B": "123",
+        "C": "133",
+        "D": "143"
+      },
+      "answer": "C",
+      "explanation": "Suku ke-n adalah 1 + 2 + … + n = n(n + 1)/2 (1, 1 + 2, 1 + 2 + 3, …).<br>Suku ke-10 = 55 dan suku ke-12 = 78, jumlahnya 133."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sedang",
+      "question": "Bilangan tiga angka terkecil yang jika dibagi 4, 5, atau 6 akan bersisa 3 adalah ....",
+      "options": {
+        "A": "63",
+        "B": "123",
+        "C": "143",
+        "D": "183"
+      },
+      "answer": "B",
+      "explanation": "KPK dari 4, 5, dan 6 adalah 60. Bilangannya berbentuk 60k + 3: 63, 123, 183, ….<br>63 hanya dua angka, jadi bilangan tiga angka terkecil adalah 123."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "question": "Jika diketahui hasil kali dua buah bilangan adalah 66 dan jumlahnya adalah 17, maka selisih kedua bilangan tersebut adalah ....",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "B",
+      "explanation": "Dua bilangan dengan hasil kali 66 dan jumlah 17 adalah 6 dan 11.<br>Selisihnya 11 − 6 = 5."
+    },
+    {
+      "number": 22,
+      "difficulty": "Mudah",
+      "question": "Jumlah 7 bilangan genap berurutan adalah 210. Bilangan terbesar dari ke-7 bilangan tersebut adalah ....",
+      "options": {
+        "A": "36",
+        "B": "30",
+        "C": "34",
+        "D": "42"
+      },
+      "answer": "A",
+      "explanation": "Bilangan tengah (ke-4) = 210 : 7 = 30. Bilangan genap berurutan berselisih 2.<br>Bilangan terbesar (ke-7) = 30 + 3 × 2 = 36."
+    },
+    {
+      "number": 23,
+      "difficulty": "Mudah",
+      "question": "Rata-rata 5 buah bilangan adalah 14. Jika salah satu bilangan dibuang, rata-rata 4 bilangan sisanya menjadi 12. Bilangan yang dibuang adalah ....",
+      "options": {
+        "A": "20",
+        "B": "22",
+        "C": "24",
+        "D": "26"
+      },
+      "answer": "B",
+      "explanation": "Jumlah 5 bilangan = 5 × 14 = 70. Jumlah 4 bilangan sisa = 4 × 12 = 48.<br>Bilangan yang dibuang = 70 − 48 = 22."
+    },
+    {
+      "number": 24,
+      "difficulty": "Mudah",
+      "question": "Keliling sebuah persegi panjang adalah 60 cm. Jika panjangnya 6 cm lebih dari lebarnya, luas persegi panjang tersebut adalah .... cm²",
+      "options": {
+        "A": "180",
+        "B": "216",
+        "C": "200",
+        "D": "252"
+      },
+      "answer": "B",
+      "explanation": "Setengah keliling: panjang + lebar = 30. Karena panjang = lebar + 6, maka 2 × lebar + 6 = 30, sehingga lebar = 12 dan panjang = 18.<br>Luas = 18 × 12 = 216 cm²."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sedang",
+      "question": "Pak Anwar memiliki tanah seluas 2 ha, 4 are, dan 350 m². Ia membeli tanah lagi seluas 0,75 ha. Jika tanah seluas 2,5 ha dijual, maka sisa luas tanahnya adalah .... m²",
+      "options": {
+        "A": "2.890",
+        "B": "4.250",
+        "C": "3.250",
+        "D": "5.250"
+      },
+      "answer": "C",
+      "explanation": "2 ha = 20.000 m², 4 are = 400 m², 0,75 ha = 7.500 m², 2,5 ha = 25.000 m².<br>Sisa = 20.000 + 400 + 350 + 7.500 − 25.000 = 3.250 m²."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sulit",
+      "question": "Usia Ayah sekarang adalah 4 kali usia Dika. Enam tahun yang lalu, usia Ayah adalah 7 kali usia Dika. Jumlah usia Ayah dan Dika sekarang adalah .... tahun",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "54",
+        "D": "65"
+      },
+      "answer": "B",
+      "explanation": "Misalkan usia Dika sekarang d, maka usia Ayah 4d. Enam tahun lalu: 4d − 6 = 7(d − 6) = 7d − 42, sehingga 3d = 36 dan d = 12.<br>Ayah 48 tahun, jumlahnya 48 + 12 = 60 tahun."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sulit",
+      "question": "Banyak kelereng Aldo dan Beni berbanding 3 : 4. Jika Aldo memberi 6 kelereng kepada Beni, perbandingan kelereng mereka menjadi 1 : 2. Banyak kelereng Aldo mula-mula adalah ....",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "36",
+        "D": "27"
+      },
+      "answer": "D",
+      "explanation": "Misalkan kelereng mula-mula 3k dan 4k. Setelah diberi: (3k − 6) : (4k + 6) = 1 : 2, sehingga 6k − 12 = 4k + 6 dan k = 9.<br>Aldo mula-mula 3 × 9 = 27 (setelah memberi 21 dan Beni 42, memang 1 : 2)."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sulit",
+      "question": "12 pekerja dapat menyelesaikan pembuatan sebuah pagar dalam 20 hari. Setelah bekerja 8 hari, 4 pekerja pindah dan tidak kembali, sehingga pekerjaan dilanjutkan oleh pekerja yang tersisa. Pagar tersebut selesai dalam waktu total .... hari",
+      "options": {
+        "A": "26",
+        "B": "24",
+        "C": "28",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "Seluruh pekerjaan = 12 × 20 = 240 pekerja-hari. Sudah dikerjakan 12 × 8 = 96, sisanya 144.<br>Pekerja yang tersisa 8 orang, sehingga butuh 144 : 8 = 18 hari lagi.<br>Total = 8 + 18 = 26 hari."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sulit",
+      "question": "Tiga lampu menyala bersamaan pada detik ke-0. Lampu pertama menyala setiap 12 detik, lampu kedua setiap 18 detik, dan lampu ketiga setiap 30 detik. Dalam 10 menit pertama (detik ke-0 sampai detik ke-600, termasuk detik ke-0), ketiga lampu menyala bersamaan sebanyak .... kali",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "KPK dari 12, 18, dan 30 adalah 180, jadi ketiganya menyala bersamaan setiap 180 detik.<br>Detik 0, 180, 360, dan 540 (detik 720 sudah lewat 600), yaitu 4 kali."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "question": "Suatu bulan terdiri dari 30 hari dan memiliki 5 hari Selasa dan 5 hari Rabu. Tanggal 1 pada bulan tersebut adalah hari ....",
+      "options": {
+        "A": "Selasa",
+        "B": "Senin",
+        "C": "Rabu",
+        "D": "Kamis"
+      },
+      "answer": "A",
+      "explanation": "30 hari = 4 minggu + 2 hari. Dua hari lebihnya adalah tanggal 29 dan 30, yang harinya sama dengan tanggal 1 dan 2.<br>Hari yang muncul 5 kali adalah Selasa dan Rabu, jadi tanggal 1 adalah hari Selasa."
+    }
+  ]
+}

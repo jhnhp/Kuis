@@ -1,0 +1,400 @@
+{
+  "title": "Olimpiade Matematika CEO Semifinal Level 3 - Latihan 1",
+  "topic": "Olimpiade Matematika",
+  "subtitle": "Latihan Mandiri 30 Soal Pilihan Ganda",
+  "difficulty_summary": "47% Mudah | 37% Sedang | 17% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 30,
+  "passages": [],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Hitunglah nilai dari 525 : (1.463 – 1.438) × (212 + 38) = ....",
+      "options": {
+        "A": "5.250",
+        "B": "4.250",
+        "C": "52.500",
+        "D": "5.520"
+      },
+      "answer": "A",
+      "explanation": "1.463 − 1.438 = 25 dan 212 + 38 = 250.<br>525 : 25 = 21, lalu 21 × 250 = 5.250."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Nilai dari 1 − 3 + 5 − 7 + 9 − 11 + … + 97 − 99 + 101 adalah ....",
+      "options": {
+        "A": "51",
+        "B": "−50",
+        "C": "50",
+        "D": "52"
+      },
+      "answer": "A",
+      "explanation": "Bilangan ganjil dari 1 sampai 99 ada 50 buah, jadi ada 25 pasangan (1 − 3), (5 − 7), …, (97 − 99). Tiap pasangan bernilai −2, jumlahnya −50.<br>Lalu ditambah 101: −50 + 101 = 51."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "question": "Angka satuan dari 2<sup>2024</sup> + 3<sup>2025</sup> adalah ....",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "Satuan 2<sup>n</sup> berulang: 2, 4, 8, 6. Karena 2024 habis dibagi 4, satuan 2<sup>2024</sup> adalah 6.<br>Satuan 3<sup>n</sup> berulang: 3, 9, 7, 1. Karena 2025 bersisa 1 jika dibagi 4, satuan 3<sup>2025</sup> adalah 3.<br>6 + 3 = 9."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Hasil kali dua bilangan adalah 144 dan selisihnya 7. Jumlah kedua bilangan tersebut adalah ....",
+      "options": {
+        "A": "25",
+        "B": "20",
+        "C": "23",
+        "D": "29"
+      },
+      "answer": "A",
+      "explanation": "Cari dua bilangan yang hasil kalinya 144 dan selisihnya 7: 9 × 16 = 144 dan 16 − 9 = 7.<br>Jumlahnya 9 + 16 = 25."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Hasil dari 842 + 65 × (−4) − 12 = ....",
+      "options": {
+        "A": "582",
+        "B": "594",
+        "C": "570",
+        "D": "558"
+      },
+      "answer": "C",
+      "explanation": "Kerjakan perkalian lebih dulu: 65 × (−4) = −260.<br>842 − 260 − 12 = 570.<br>Pengecoh 582 lupa mengurangi 12, dan 594 salah tanda pada 12."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Jika 5<sup>x</sup> − 9 = 116, maka nilai x adalah ....",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "B",
+      "explanation": "5<sup>x</sup> = 116 + 9 = 125 = 5<sup>3</sup>, sehingga x = 3."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Besar sudut terkecil yang dibentuk oleh jarum jam pada pukul 16.40 adalah .... derajat.",
+      "options": {
+        "A": "80",
+        "B": "120",
+        "C": "100",
+        "D": "140"
+      },
+      "answer": "C",
+      "explanation": "Pukul 16.40 sama dengan pukul 4.40.<br>Jarum menit di angka 8: 40 × 6° = 240°.<br>Jarum pendek: 4 × 30° + 40 × 0,5° = 140°.<br>Selisihnya 240° − 140° = 100°."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Panjang sisi sebuah persegi berkurang 20%. Berapa persen pengecilan luas persegi tersebut?",
+      "options": {
+        "A": "40%",
+        "B": "36%",
+        "C": "20%",
+        "D": "44%"
+      },
+      "answer": "B",
+      "explanation": "Misalkan sisi mula-mula 10, luasnya 100. Sisi baru 8, luasnya 64.<br>Luas berkurang 100 − 64 = 36, yaitu 36%.<br>Pengecoh 40% menjumlahkan 20% + 20%."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "question": "Seorang pelari berlari dengan kecepatan 24 km/jam. Jika ia berlari selama 20 menit, jarak yang ditempuh pelari tersebut adalah .... m.",
+      "options": {
+        "A": "8.000",
+        "B": "800",
+        "C": "480",
+        "D": "80.000"
+      },
+      "answer": "A",
+      "explanation": "20 menit = 1/3 jam. Jarak = 24 × 1/3 = 8 km = 8.000 m."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "question": "Jumlah bilangan genap positif yang kurang dari 40 adalah ....",
+      "options": {
+        "A": "400",
+        "B": "420",
+        "C": "380",
+        "D": "361"
+      },
+      "answer": "C",
+      "explanation": "2 + 4 + … + 38 ada 19 suku. Jumlah = 19 × 20 = 380 (jumlah n bilangan genap pertama adalah n × (n + 1)).<br>Pengecoh 361 adalah jumlah bilangan ganjil kurang dari 40."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Jika 3 * 2 = 11; 4 * 5 = 21; 5 * 1 = 26. Maka nilai 6 * 4 = ....",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "42",
+        "D": "40"
+      },
+      "answer": "D",
+      "explanation": "Aturannya a * b = a² + b: 3² + 2 = 11, 4² + 5 = 21, 5² + 1 = 26.<br>Jadi 6 * 4 = 6² + 4 = 36 + 4 = 40."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Tiga buah bilangan x, y, dan z berbanding sebagai 2 : 5 : 7. Jika x + y + z = 140 dan x + z = n × y, nilai n adalah ....",
+      "options": {
+        "A": "9/5",
+        "B": "7/5",
+        "C": "12/5",
+        "D": "14/5"
+      },
+      "answer": "A",
+      "explanation": "Satu bagian = 140 : 14 = 10, sehingga x = 20, y = 50, z = 70.<br>x + z = 90 = n × 50, maka n = 90/50 = 9/5.<br>Pengecoh 7/5 adalah z : y, dan 12/5 adalah (y + z) : y."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Nilai dari (45 × 38 + 45 × 34) : 18 adalah ....",
+      "options": {
+        "A": "90",
+        "B": "162",
+        "C": "200",
+        "D": "180"
+      },
+      "answer": "D",
+      "explanation": "Keluarkan faktor 45: 45 × (38 + 34) = 45 × 72.<br>45 × 72 : 18 = 45 × 4 = 180."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Nala memiliki 3 buah kartu bilangan prima yang berbeda. Jika hasil kali ketiga bilangan prima tersebut adalah 1.001, jumlah ketiga bilangan prima tersebut adalah ....",
+      "options": {
+        "A": "29",
+        "B": "31",
+        "C": "33",
+        "D": "37"
+      },
+      "answer": "B",
+      "explanation": "1.001 = 7 × 11 × 13, ketiganya bilangan prima.<br>Jumlahnya 7 + 11 + 13 = 31."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "question": "Nilai rata-rata ulangan matematika dari 8 siswa adalah 7,5. Jika nilai Rani digabungkan dengan kelompok tersebut, rata-rata nilai mereka menjadi 7,6. Berapa nilai Rani?",
+      "options": {
+        "A": "7,6",
+        "B": "8,4",
+        "C": "8",
+        "D": "9,1"
+      },
+      "answer": "B",
+      "explanation": "Jumlah nilai 8 siswa = 8 × 7,5 = 60. Jumlah nilai 9 siswa = 9 × 7,6 = 68,4.<br>Nilai Rani = 68,4 − 60 = 8,4."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "question": "Jumlah semua bilangan kelipatan 3 dari 1 sampai 100 adalah ....",
+      "options": {
+        "A": "1.683",
+        "B": "1.785",
+        "C": "561",
+        "D": "1.650"
+      },
+      "answer": "A",
+      "explanation": "Kelipatan 3: 3, 6, …, 99 (ada 33 suku). Jumlah = 3 × (1 + 2 + … + 33) = 3 × 561 = 1.683.<br>Pengecoh 561 lupa mengalikan 3, dan 1.785 menghitung sampai 102."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "question": "Jika 35% dari suatu bilangan adalah 84, maka bilangan itu adalah ....",
+      "options": {
+        "A": "294",
+        "B": "180",
+        "C": "120",
+        "D": "240"
+      },
+      "answer": "D",
+      "explanation": "35% × b = 84, maka b = 84 × 100/35 = 240."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Angka satuan dari 8<sup>2026</sup> adalah ....",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "Satuan 8<sup>n</sup> berulang: 8, 4, 2, 6 (periode 4).<br>2026 dibagi 4 bersisa 2, sehingga satuannya adalah suku ke-2, yaitu 4."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Perhatikan bilangan berikut: 3, 6, 11, 18, …. Jumlah bilangan ke-8 dan ke-12 dari urutan bilangan tersebut adalah ....",
+      "options": {
+        "A": "208",
+        "B": "214",
+        "C": "220",
+        "D": "212"
+      },
+      "answer": "D",
+      "explanation": "Suku ke-n adalah n² + 2 (3 = 1² + 2, 6 = 2² + 2, 11 = 3² + 2, 18 = 4² + 2).<br>Suku ke-8 = 66 dan suku ke-12 = 146, jumlahnya 212.<br>Pengecoh 208 lupa menambah 2 pada kedua suku."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sedang",
+      "question": "Pak Hamdan memberikan teka-teki kepada muridnya, \"Aku adalah sebuah bilangan. Jika aku dibagi 4, 6, atau 8, maka akan bersisa 3\". Bilangan terkecil yang lebih dari 50 yang dimaksud Pak Hamdan adalah ....",
+      "options": {
+        "A": "27",
+        "B": "75",
+        "C": "99",
+        "D": "51"
+      },
+      "answer": "D",
+      "explanation": "KPK dari 4, 6, dan 8 adalah 24. Bilangannya berbentuk 24k + 3: 27, 51, 75, 99, ….<br>Yang terkecil dan lebih dari 50 adalah 51."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "question": "Jika diketahui hasil kali dua buah bilangan adalah 72 dan jumlahnya adalah 22, maka selisih kedua bilangan tersebut adalah ....",
+      "options": {
+        "A": "14",
+        "B": "10",
+        "C": "12",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "Dua bilangan dengan hasil kali 72 dan jumlah 22 adalah 4 dan 18.<br>Selisihnya 18 − 4 = 14."
+    },
+    {
+      "number": 22,
+      "difficulty": "Mudah",
+      "question": "Jumlah 9 bilangan asli berurutan adalah 207. Bilangan terbesar dari ke-9 bilangan asli tersebut adalah ....",
+      "options": {
+        "A": "27",
+        "B": "23",
+        "C": "25",
+        "D": "31"
+      },
+      "answer": "A",
+      "explanation": "Bilangan tengah (ke-5) = 207 : 9 = 23.<br>Bilangan terbesar (ke-9) = 23 + 4 = 27."
+    },
+    {
+      "number": 23,
+      "difficulty": "Mudah",
+      "question": "Jika rata-rata bilangan 12, 18, 25, a, 15, b adalah 20, maka nilai (a + b) adalah ....",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "60"
+      },
+      "answer": "B",
+      "explanation": "Jumlah keenam bilangan = 6 × 20 = 120.<br>12 + 18 + 25 + 15 = 70, sehingga a + b = 120 − 70 = 50."
+    },
+    {
+      "number": 24,
+      "difficulty": "Mudah",
+      "question": "Sebuah taman berbentuk persegi panjang berukuran 24 m × 15 m. Di dalam taman terdapat kolam berbentuk persegi dengan panjang sisi 6 m. Luas taman yang tidak tertutup kolam adalah .... m²",
+      "options": {
+        "A": "360",
+        "B": "324",
+        "C": "396",
+        "D": "288"
+      },
+      "answer": "B",
+      "explanation": "Luas taman = 24 × 15 = 360 m². Luas kolam = 6 × 6 = 36 m².<br>Luas sisanya = 360 − 36 = 324 m²."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sedang",
+      "question": "Pak Rudi memiliki kebun yang luasnya 1,5 ha, 800 m², dan 3 are. Ia membeli tanah lagi seluas 2,5 ha. Jika tanah seluas 3 ha dijual, maka sisa luas tanahnya adalah .... m²",
+      "options": {
+        "A": "10.830",
+        "B": "12.100",
+        "C": "11.100",
+        "D": "41.100"
+      },
+      "answer": "C",
+      "explanation": "1,5 ha = 15.000 m², 3 are = 300 m² (1 are = 100 m²), 2,5 ha = 25.000 m², 3 ha = 30.000 m².<br>Sisa = 15.000 + 800 + 300 + 25.000 − 30.000 = 11.100 m²."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sedang",
+      "question": "Usia Rina sekarang adalah 5 kali usia adiknya. Tiga tahun lagi, usia Rina menjadi 3 kali usia adiknya. Usia Rina sekarang adalah .... tahun",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "25",
+        "D": "15"
+      },
+      "answer": "D",
+      "explanation": "Misalkan usia adik sekarang a, maka usia Rina 5a. Tiga tahun lagi: 5a + 3 = 3(a + 3), sehingga 2a = 6 dan a = 3.<br>Usia Rina = 5 × 3 = 15 tahun (3 tahun lagi 18 dan 6, memang 3 kali)."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sulit",
+      "question": "Perbandingan usia ayah dan anak sekarang adalah 5 : 2. Lima tahun lalu, usia ayah adalah 3 kali usia anak. Berapa selisih usia mereka sekarang?",
+      "options": {
+        "A": "24",
+        "B": "30",
+        "C": "36",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "Misalkan usia sekarang 5k dan 2k. Lima tahun lalu: 5k − 5 = 3(2k − 5) = 6k − 15, sehingga k = 10.<br>Usia ayah 50 dan anak 20, selisihnya 30 tahun."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sulit",
+      "question": "Sebuah proyek pembangunan jalan ditargetkan selesai dalam waktu 30 hari dengan melibatkan 10 orang pekerja. Setelah berjalan 12 hari, pekerjaan dihentikan sementara selama 6 hari karena hujan. Jika pekerjaan harus selesai tepat waktu, berapa jumlah pekerja tambahan yang dibutuhkan?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "5",
+        "D": "8"
+      },
+      "answer": "C",
+      "explanation": "Seluruh pekerjaan = 10 × 30 = 300 pekerja-hari. Sudah dikerjakan 10 × 12 = 120, sisanya 180.<br>Sisa waktu = 30 − 12 − 6 = 12 hari, sehingga perlu 180 : 12 = 15 pekerja.<br>Tambahan = 15 − 10 = 5 orang."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sulit",
+      "question": "Dani berenang setiap 4 hari sekali, Eka setiap 6 hari sekali, dan Fira setiap 8 hari sekali di kolam renang yang sama. Jika mereka bertemu bersama di kolam renang pada tanggal 20 Februari dan pada tahun itu bukan tahun kabisat, pada tanggal berapa mereka akan bertemu lagi bertiga?",
+      "options": {
+        "A": "15 Maret",
+        "B": "17 Maret",
+        "C": "18 Maret",
+        "D": "16 Maret"
+      },
+      "answer": "D",
+      "explanation": "KPK dari 4, 6, dan 8 adalah 24, jadi mereka bertemu lagi 24 hari kemudian.<br>Februari bukan tahun kabisat berarti 28 hari: 20 + 24 = 44, dan 44 − 28 = 16, yaitu 16 Maret.<br>Pengecoh 15 Maret memakai Februari 29 hari."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "question": "Suatu bulan terdiri dari 31 hari dan memiliki 5 hari Rabu, 5 hari Kamis, dan 5 hari Jumat. Tanggal 1 pada bulan tersebut adalah hari ....",
+      "options": {
+        "A": "Selasa",
+        "B": "Kamis",
+        "C": "Rabu",
+        "D": "Jumat"
+      },
+      "answer": "C",
+      "explanation": "31 hari = 4 minggu + 3 hari. Tiga hari lebihnya adalah tanggal 29, 30, 31, yang harinya sama dengan tanggal 1, 2, 3.<br>Hari yang muncul 5 kali adalah Rabu, Kamis, Jumat, jadi tanggal 1 adalah hari Rabu."
+    }
+  ]
+}
