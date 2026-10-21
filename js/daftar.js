@@ -13,7 +13,7 @@ const tileOf = s => {
   return s.replace(/[^A-Za-z]/g, '').slice(0, 2) || '?';
 };
 
-// "Kelas 11" → jenjang untuk pengelompokan di beranda (sama dengan Nalarin Belajar)
+// "Kelas 11" → jenjang untuk pengelompokan di beranda (sama dengan Nalarin Learn)
 const JENJANG_ORDER = ['SMP', 'SMA', 'Olimpiade', 'Lainnya'];
 function jenjang(kelas){
   if(/^Olimpiade/i.test(kelas)) return 'Olimpiade';
@@ -25,11 +25,12 @@ function jenjang(kelas){
   return 'Lainnya';
 }
 
-// Kuis bisa berdiri sendiri atau berada di dalam Nalarin Belajar (folder Kuis/).
-// Jika ada ../katalog.json, tampilkan tautan Belajar dan arahkan "Dukung" ke halaman dukung.html.
+// Kuis bisa berdiri sendiri atau berada di dalam Nalarin Learn (folder Kuis/).
+// Jika ada ../katalog.json, tampilkan tautan Belajar dan Kelas, dan arahkan "Dukung" ke halaman dukung.html.
 fetch('../katalog.json', {method: 'HEAD'}).then(r => {
   if(!r.ok) return;
   $('nav-belajar').classList.remove('hidden');
+  $('nav-kelas').classList.remove('hidden');
   document.querySelectorAll('a[data-dukung]').forEach(a => { a.href = '../dukung.html'; a.removeAttribute('target'); });
 }).catch(() => {});
 

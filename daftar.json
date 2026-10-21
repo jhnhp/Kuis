@@ -1,6 +1,90 @@
 {
-  "generated": "2026-10-21T11:50:26",
+  "generated": "2026-10-21T12:04:42",
   "kuis": [
+    {
+      "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
+      "topic": "Sains, Laboratorium, Metode Ilmiah, dan Pengukuran",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "01 Hakikat Ilmu Sains dan Metode Ilmiah"
+      ],
+      "path": "Kelas7/IPA/01 Hakikat Ilmu Sains dan Metode Ilmiah/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Zat dan Perubahannya",
+      "topic": "Wujud Zat, Perubahan Wujud, Perubahan Fisika dan Kimia, serta Massa Jenis",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "02 Zat dan Perubahannya"
+      ],
+      "path": "Kelas7/IPA/02 Zat dan Perubahannya/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Suhu, Kalor, dan Pemuaian",
+      "topic": "Suhu, Kalor, Perpindahan Kalor, dan Pemuaian",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "03 Suhu, Kalor, dan Pemuaian"
+      ],
+      "path": "Kelas7/IPA/03 Suhu, Kalor, dan Pemuaian/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Gerak dan Gaya",
+      "topic": "Gerak Lurus, Kelajuan, Percepatan, Gaya, dan Hukum Newton",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "04 Gerak dan Gaya"
+      ],
+      "path": "Kelas7/IPA/04 Gerak dan Gaya/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Karakteristik dan Klasifikasi Makhluk Hidup",
+      "topic": "Ciri Makhluk Hidup, Klasifikasi, Takson, dan Keanekaragaman",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "05 Karakteristik dan Klasifikasi Makhluk Hidup"
+      ],
+      "path": "Kelas7/IPA/05 Karakteristik dan Klasifikasi Makhluk Hidup/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Ekologi dan Pelestarian Lingkungan",
+      "topic": "Ekosistem, Rantai Makanan, Interaksi, Daur Biogeokimia, dan Pelestarian",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "06 Ekologi dan Pelestarian Lingkungan"
+      ],
+      "path": "Kelas7/IPA/06 Ekologi dan Pelestarian Lingkungan/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Bumi dan Tata Surya",
+      "topic": "Tata Surya, Rotasi, Revolusi, Bulan, Gerhana, dan Perubahan Iklim",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "07 Bumi dan Tata Surya"
+      ],
+      "path": "Kelas7/IPA/07 Bumi dan Tata Surya/soal.json"
+    },
     {
       "title": "Latihan IPA - Anatomi Hewan, Tumbuhan, dan Manusia",
       "topic": "Anatomi Hewan, Tumbuhan, dan Manusia",
@@ -14,6 +98,30 @@
       "path": "Kelas7/IPA/Anatomi/soal_anatomi.json"
     },
     {
+      "title": "Matematika Kelas VII - Bilangan Bulat",
+      "topic": "Bilangan Bulat, Operasi Hitung, Faktorisasi Prima, FPB, dan KPK",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Bilangan Bulat"
+      ],
+      "path": "Kelas7/Matematika/01 Bilangan Bulat/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VII - Bilangan Rasional",
+      "topic": "Bilangan Rasional, Pecahan, Desimal, Persen, dan Operasi Hitungnya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Bilangan Rasional"
+      ],
+      "path": "Kelas7/Matematika/02 Bilangan Rasional/soal.json"
+    },
+    {
       "title": "Latihan Soal Perbandingan",
       "topic": "Perbandingan",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -21,9 +129,201 @@
       "kelas": "Kelas 7",
       "mapel": "Matematika",
       "topik": [
-        "Perbandingan"
+        "03 Rasio dan Perbandingan"
       ],
-      "path": "Kelas7/Matematika/Perbandingan/soal.json"
+      "path": "Kelas7/Matematika/03 Rasio dan Perbandingan/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VII - Bentuk Aljabar",
+      "topic": "Unsur Bentuk Aljabar, Operasi, Bentuk Faktor, dan Pemodelan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Bentuk Aljabar"
+      ],
+      "path": "Kelas7/Matematika/04 Bentuk Aljabar/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VII - Kesebangunan",
+      "topic": "Hubungan Antarsudut, Garis Sejajar, Bangun Sebangun, dan Segitiga Sebangun",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "Matematika",
+      "topik": [
+        "05 Kesebangunan"
+      ],
+      "path": "Kelas7/Matematika/05 Kesebangunan/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VII - Data dan Diagram",
+      "topic": "Investigasi Statistika, Jenis Data, Diagram Batang, Garis, Lingkaran, dan Line Plot",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "Matematika",
+      "topik": [
+        "06 Data dan Diagram"
+      ],
+      "path": "Kelas7/Matematika/06 Data dan Diagram/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Sistem Pencernaan dan Peredaran Darah",
+      "topic": "Zat Gizi, Sistem Pencernaan, Darah, Jantung, dan Peredaran Darah",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "01 Sistem Pencernaan dan Peredaran Darah"
+      ],
+      "path": "Kelas8/IPA/01 Sistem Pencernaan dan Peredaran Darah/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Sistem Pernapasan dan Ekskresi",
+      "topic": "Organ dan Mekanisme Pernapasan, Bahaya Rokok, dan Sistem Ekskresi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "02 Sistem Pernapasan dan Ekskresi"
+      ],
+      "path": "Kelas8/IPA/02 Sistem Pernapasan dan Ekskresi/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Usaha, Energi, dan Pesawat Sederhana",
+      "topic": "Usaha, Daya, Energi Mekanik, dan Pesawat Sederhana",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "03 Usaha, Energi, dan Pesawat Sederhana"
+      ],
+      "path": "Kelas8/IPA/03 Usaha, Energi, dan Pesawat Sederhana/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Tekanan pada Zat",
+      "topic": "Tekanan Zat Padat, Cair, dan Gas serta Penerapannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "04 Tekanan pada Zat"
+      ],
+      "path": "Kelas8/IPA/04 Tekanan pada Zat/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Gelombang dan Cahaya",
+      "topic": "Getaran, Gelombang, Bunyi, Cahaya, Lensa, dan Alat Optik",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "05 Gelombang dan Cahaya"
+      ],
+      "path": "Kelas8/IPA/05 Gelombang dan Cahaya/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Pemisahan Campuran",
+      "topic": "Zat Tunggal, Campuran, dan Metode Pemisahan Campuran",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "06 Pemisahan Campuran"
+      ],
+      "path": "Kelas8/IPA/06 Pemisahan Campuran/soal.json"
+    },
+    {
+      "title": "IPA Kelas VIII - Tanah bagi Kehidupan Berkelanjutan",
+      "topic": "Fungsi, Profil, Sifat, Mikroba, dan Konservasi Tanah",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "IPA",
+      "topik": [
+        "07 Tanah bagi Kehidupan Berkelanjutan"
+      ],
+      "path": "Kelas8/IPA/07 Tanah bagi Kehidupan Berkelanjutan/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VIII - Bilangan Berpangkat",
+      "topic": "Perpangkatan, Sifat-Sifatnya, Bentuk Akar, dan Bentuk Baku",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Bilangan Berpangkat"
+      ],
+      "path": "Kelas8/Matematika/01 Bilangan Berpangkat/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VIII - Teorema Pythagoras",
+      "topic": "Teorema Pythagoras, Tripel Pythagoras, Segitiga Istimewa, dan Penerapannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Teorema Pythagoras"
+      ],
+      "path": "Kelas8/Matematika/02 Teorema Pythagoras/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VIII - Persamaan dan Pertidaksamaan Linear",
+      "topic": "Persamaan dan Pertidaksamaan Linear Satu Variabel serta Penerapannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Persamaan dan Pertidaksamaan Linear"
+      ],
+      "path": "Kelas8/Matematika/03 Persamaan dan Pertidaksamaan Linear/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VIII - Relasi dan Fungsi",
+      "topic": "Relasi, Fungsi, Domain, Range, Nilai Fungsi, dan Korespondensi Satu-Satu",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Relasi dan Fungsi"
+      ],
+      "path": "Kelas8/Matematika/04 Relasi dan Fungsi/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VIII - Persamaan Garis Lurus",
+      "topic": "Grafik, Kemiringan, Persamaan Garis, Garis Sejajar dan Tegak Lurus",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "Matematika",
+      "topik": [
+        "05 Persamaan Garis Lurus"
+      ],
+      "path": "Kelas8/Matematika/05 Persamaan Garis Lurus/soal.json"
+    },
+    {
+      "title": "Matematika Kelas VIII - Statistika",
+      "topic": "Mean, Median, Modus, Jangkauan, dan Kuartil",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 8",
+      "mapel": "Matematika",
+      "topik": [
+        "06 Statistika"
+      ],
+      "path": "Kelas8/Matematika/06 Statistika/soal.json"
     },
     {
       "title": "Diagnostic Test Biologi Kelas 9",
@@ -50,6 +350,78 @@
       "path": "Kelas9/Fisika/DiagnosticTest/soal.json"
     },
     {
+      "title": "IPA Kelas IX - Sistem Koordinasi dan Homeostasis Tubuh Manusia",
+      "topic": "Sistem Saraf, Alat Indra, Sistem Hormon, dan Homeostasis",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "01 Sistem Koordinasi dan Homeostasis Tubuh Manusia"
+      ],
+      "path": "Kelas9/IPA/01 Sistem Koordinasi dan Homeostasis Tubuh Manusia/soal.json"
+    },
+    {
+      "title": "IPA Kelas IX - Zat Aditif dan Zat Adiktif",
+      "topic": "Zat Aditif, Batas Aman, Bahan Berbahaya, dan Zat Adiktif",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "02 Zat Aditif dan Zat Adiktif"
+      ],
+      "path": "Kelas9/IPA/02 Zat Aditif dan Zat Adiktif/soal.json"
+    },
+    {
+      "title": "IPA Kelas IX - Sistem Reproduksi Manusia",
+      "topic": "Organ Reproduksi, Siklus Menstruasi, Kehamilan, dan Tumbuh Kembang",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "03 Sistem Reproduksi Manusia"
+      ],
+      "path": "Kelas9/IPA/03 Sistem Reproduksi Manusia/soal.json"
+    },
+    {
+      "title": "IPA Kelas IX - Pewarisan Sifat dan Bioteknologi",
+      "topic": "Kromosom, DNA, Hukum Mendel, dan Bioteknologi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "04 Pewarisan Sifat dan Bioteknologi"
+      ],
+      "path": "Kelas9/IPA/04 Pewarisan Sifat dan Bioteknologi/soal.json"
+    },
+    {
+      "title": "IPA Kelas IX - Listrik, Magnet, dan Energi Alternatif",
+      "topic": "Listrik Statis, Rangkaian Listrik, Kemagnetan, dan Energi Alternatif",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "05 Listrik, Magnet, dan Energi Alternatif"
+      ],
+      "path": "Kelas9/IPA/05 Listrik, Magnet, dan Energi Alternatif/soal.json"
+    },
+    {
+      "title": "IPA Kelas IX - Isu-Isu Lingkungan",
+      "topic": "Kesehatan Lingkungan, Pemanasan Global, Krisis Energi, dan Ketahanan Pangan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "IPA",
+      "topik": [
+        "06 Isu-Isu Lingkungan"
+      ],
+      "path": "Kelas9/IPA/06 Isu-Isu Lingkungan/soal.json"
+    },
+    {
       "title": "Latihan ASTS I IPA Kelas IX",
       "topic": "IPA Kelas IX — Zat Adiktif, Sistem Koordinasi, Reproduksi, dan Tekanan",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -74,6 +446,30 @@
       "path": "Kelas9/IPA/Latihan_Tekanan_IPA_Kelas_IX/soal_tekanan.json"
     },
     {
+      "title": "Matematika Kelas IX - Sistem Persamaan Linear Dua Variabel",
+      "topic": "Persamaan Linear Dua Variabel, Metode Grafik, Substitusi, Eliminasi, dan Penerapannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Sistem Persamaan Linear Dua Variabel"
+      ],
+      "path": "Kelas9/Matematika/01 Sistem Persamaan Linear Dua Variabel/soal.json"
+    },
+    {
+      "title": "Matematika Kelas IX - Bangun Ruang",
+      "topic": "Bangun Ruang Sisi Datar dan Sisi Lengkung, Lingkaran, dan Pengaruh Perubahan Skala",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Bangun Ruang"
+      ],
+      "path": "Kelas9/Matematika/02 Bangun Ruang/soal.json"
+    },
+    {
       "title": "Matematika Kelas IX - Transformasi Geometri",
       "topic": "Translasi, Refleksi, Rotasi, Dilatasi, dan Komposisi Transformasi",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -84,6 +480,18 @@
         "03 Transformasi"
       ],
       "path": "Kelas9/Matematika/03 Transformasi/soal.json"
+    },
+    {
+      "title": "Matematika Kelas IX - Peluang dan Pemilihan Sampel",
+      "topic": "Ruang Sampel, Peluang Teoretis dan Empiris, Frekuensi Harapan, dan Pemilihan Sampel",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 9",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Peluang dan Pemilihan Sampel"
+      ],
+      "path": "Kelas9/Matematika/04 Peluang dan Pemilihan Sampel/soal.json"
     },
     {
       "title": "Diagnostic Test Matematika Kelas 9",
@@ -206,6 +614,90 @@
       "path": "Kelas10/IPA/08 Perubahan Iklim/soal.json"
     },
     {
+      "title": "Matematika Kelas X - Eksponen dan Logaritma",
+      "topic": "Sifat Eksponen, Fungsi Eksponensial, Bentuk Akar, dan Logaritma",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Eksponen dan Logaritma"
+      ],
+      "path": "Kelas10/Matematika/01 Eksponen dan Logaritma/soal.json"
+    },
+    {
+      "title": "Matematika Kelas X - Barisan dan Deret",
+      "topic": "Barisan dan Deret Aritmetika dan Geometri, Bunga, Pertumbuhan, dan Peluruhan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Barisan dan Deret"
+      ],
+      "path": "Kelas10/Matematika/02 Barisan dan Deret/soal.json"
+    },
+    {
+      "title": "Matematika Kelas X - Perbandingan Trigonometri",
+      "topic": "Sinus, Kosinus, Tangen, Sudut Istimewa, serta Sudut Elevasi dan Depresi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Perbandingan Trigonometri"
+      ],
+      "path": "Kelas10/Matematika/03 Perbandingan Trigonometri/soal.json"
+    },
+    {
+      "title": "Matematika Kelas X - Sistem Persamaan dan Pertidaksamaan Linear",
+      "topic": "Sistem Persamaan Linear Tiga Variabel dan Sistem Pertidaksamaan Linear Dua Variabel",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Sistem Persamaan dan Pertidaksamaan Linear"
+      ],
+      "path": "Kelas10/Matematika/04 Sistem Persamaan dan Pertidaksamaan Linear/soal.json"
+    },
+    {
+      "title": "Matematika Kelas X - Persamaan dan Fungsi Kuadrat",
+      "topic": "Persamaan Kuadrat dan Fungsi Kuadrat",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "05 Persamaan dan Fungsi Kuadrat"
+      ],
+      "path": "Kelas10/Matematika/05 Persamaan dan Fungsi Kuadrat/soal.json"
+    },
+    {
+      "title": "Matematika Kelas X - Representasi dan Interpretasi Data",
+      "topic": "Histogram, Ukuran Pemusatan, Ukuran Penyebaran, Box Plot, dan Diagram Pencar",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "06 Representasi dan Interpretasi Data"
+      ],
+      "path": "Kelas10/Matematika/06 Representasi dan Interpretasi Data/soal.json"
+    },
+    {
+      "title": "Matematika Kelas X - Peluang",
+      "topic": "Ruang Sampel, Frekuensi Harapan, Aturan Penjumlahan, dan Aturan Perkalian",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 10",
+      "mapel": "Matematika",
+      "topik": [
+        "07 Peluang"
+      ],
+      "path": "Kelas10/Matematika/07 Peluang/soal.json"
+    },
+    {
       "title": "Biologi Kelas XI - Menjelajah Sel",
       "topic": "Pengamatan Struktur Sel, Keterkaitan Struktur dan Fungsi Sel, serta Komposisi Sel",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -252,6 +744,30 @@
         "04 Transpor dan Pertukaran Zat pada Manusia"
       ],
       "path": "Kelas11/Biologi/04 Transpor dan Pertukaran Zat pada Manusia/soal.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Sistem Peredaran Darah: Jantung dan Jalur Sirkulasi",
+      "topic": "Jalur Darah dari Paru-paru ke Jantung dan ke Seluruh Tubuh, Ruang dan Katup Jantung, Pembuluh Darah, serta Kelainannya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "04 Transpor dan Pertukaran Zat pada Manusia"
+      ],
+      "path": "Kelas11/Biologi/04 Transpor dan Pertukaran Zat pada Manusia/soal_peredaran_darah_1.json"
+    },
+    {
+      "title": "Biologi Kelas XI - Sel Darah, Jaringan Limfa, dan Limfosit",
+      "topic": "Komponen dan Sel Darah, Hitung Jenis Leukosit, Pembekuan Darah, Sistem Limfa, serta Peran Limfosit",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Biologi",
+      "topik": [
+        "04 Transpor dan Pertukaran Zat pada Manusia"
+      ],
+      "path": "Kelas11/Biologi/04 Transpor dan Pertukaran Zat pada Manusia/soal_sel_darah_limfa.json"
     },
     {
       "title": "Biologi Kelas XI - Sistem Pertahanan Tubuh terhadap Penyakit",
@@ -492,6 +1008,54 @@
         "08 Evaluasi Akhir"
       ],
       "path": "Kelas11/Kimia/08 Evaluasi Akhir/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XI - Analisis Data Bivariat",
+      "topic": "Tabel Silang, Frekuensi Relatif Bersyarat, Korelasi, dan Garis Best-Fit",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Analisis Data Bivariat"
+      ],
+      "path": "Kelas11/Matematika/01 Analisis Data Bivariat/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XI - Komposisi Fungsi dan Fungsi Invers",
+      "topic": "Operasi Fungsi, Komposisi Fungsi, dan Fungsi Invers",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Komposisi Fungsi dan Fungsi Invers"
+      ],
+      "path": "Kelas11/Matematika/02 Komposisi Fungsi dan Fungsi Invers/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XI - Transformasi Fungsi",
+      "topic": "Pergeseran, Pencerminan, Peregangan, Pemampatan, dan Pemodelan Fungsi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Transformasi Fungsi"
+      ],
+      "path": "Kelas11/Matematika/03 Transformasi Fungsi/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XI - Lingkaran",
+      "topic": "Sudut pada Lingkaran, Garis Singgung, dan Tali Busur",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 11",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Lingkaran"
+      ],
+      "path": "Kelas11/Matematika/04 Lingkaran/soal.json"
     },
     {
       "title": "Biologi Kelas XII - Enzim",
@@ -866,6 +1430,54 @@
       "path": "Kelas12/Kimia/11 Evaluasi Akhir/soal.json"
     },
     {
+      "title": "Matematika Kelas XII - Barisan dan Deret",
+      "topic": "Barisan dan Deret Aritmetika, Geometri, Deret Tak Hingga, dan Bunga Tunggal",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Barisan dan Deret"
+      ],
+      "path": "Kelas12/Matematika/01 Barisan dan Deret/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XII - Investasi dan Pinjaman",
+      "topic": "Bunga Majemuk, Anuitas, dan Pinjaman",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Investasi dan Pinjaman"
+      ],
+      "path": "Kelas12/Matematika/02 Investasi dan Pinjaman/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XII - Kaidah Pencacahan",
+      "topic": "Aturan Pengisian Tempat, Permutasi, dan Kombinasi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Kaidah Pencacahan"
+      ],
+      "path": "Kelas12/Matematika/03 Kaidah Pencacahan/soal.json"
+    },
+    {
+      "title": "Matematika Kelas XII - Peluang",
+      "topic": "Peluang Kejadian, Kejadian Majemuk, Saling Lepas, Saling Bebas, dan Bersyarat",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 12",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Peluang"
+      ],
+      "path": "Kelas12/Matematika/04 Peluang/soal.json"
+    },
+    {
       "title": "Olimpiade Matematika CEO Semifinal Level 3 - Latihan 1",
       "topic": "Olimpiade Matematika",
       "summary": "47% Mudah | 37% Sedang | 17% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -912,6 +1524,258 @@
         "Provinsi 2025"
       ],
       "path": "Olimpiade/Kelas 7/Provinsi 2025/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Strategi Membaca dan Bentuk Soal TKA",
+      "topic": "Strategi Membaca dan Bentuk Soal TKA",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "01 Strategi Membaca dan Bentuk Soal TKA"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/01 Strategi Membaca dan Bentuk Soal TKA/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Kosakata dan Kata Serapan",
+      "topic": "Kosakata dan Kata Serapan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "02 Kosakata dan Kata Serapan"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/02 Kosakata dan Kata Serapan/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Gagasan Pokok, Kerangka, dan Hubungan Antarkalimat",
+      "topic": "Gagasan Pokok, Kerangka, dan Hubungan Antarkalimat",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "03 Gagasan Pokok, Kerangka, dan Hubungan Antarkalimat"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/03 Gagasan Pokok, Kerangka, dan Hubungan Antarkalimat/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Teks Informasi Tunggal dan Jamak",
+      "topic": "Teks Informasi Tunggal dan Jamak",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "04 Teks Informasi Tunggal dan Jamak"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/04 Teks Informasi Tunggal dan Jamak/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Teks Fiksi: Cerpen dan Novel",
+      "topic": "Teks Fiksi: Cerpen dan Novel",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "05 Teks Fiksi Cerpen dan Novel"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/05 Teks Fiksi Cerpen dan Novel/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Puisi dan Drama",
+      "topic": "Puisi dan Drama",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "06 Puisi dan Drama"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/06 Puisi dan Drama/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Indonesia - Simulasi TKA",
+      "topic": "Simulasi TKA Bahasa Indonesia",
+      "summary": "25% Mudah | 50% Sedang | 25% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Indonesia",
+      "topik": [
+        "07 Simulasi TKA"
+      ],
+      "path": "TKA SMA/Bahasa Indonesia/07 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Strategi Membaca dan Bentuk Soal TKA",
+      "topic": "Strategi Membaca dan Bentuk Soal TKA",
+      "summary": "27% Mudah | 53% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "01 Strategi Membaca dan Bentuk Soal TKA"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/01 Strategi Membaca dan Bentuk Soal TKA/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Descriptive Text",
+      "topic": "Descriptive Text",
+      "summary": "20% Mudah | 60% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "02 Descriptive Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/02 Descriptive Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Recount Text",
+      "topic": "Recount Text",
+      "summary": "27% Mudah | 53% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "03 Recount Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/03 Recount Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Narrative Text",
+      "topic": "Narrative Text",
+      "summary": "20% Mudah | 60% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "04 Narrative Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/04 Narrative Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Procedure Text",
+      "topic": "Procedure Text",
+      "summary": "20% Mudah | 60% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "05 Procedure Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/05 Procedure Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Analytical Exposition Text",
+      "topic": "Analytical Exposition Text",
+      "summary": "20% Mudah | 53% Sedang | 27% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "06 Analytical Exposition Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/06 Analytical Exposition Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris - Simulasi TKA",
+      "topic": "Simulasi TKA Bahasa Inggris",
+      "summary": "20% Mudah | 55% Sedang | 25% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris",
+      "topik": [
+        "07 Simulasi TKA"
+      ],
+      "path": "TKA SMA/Bahasa Inggris/07 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Strategi Membaca Teks Argumentatif",
+      "topic": "Strategi Membaca Teks Argumentatif",
+      "summary": "20% Mudah | 60% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "01 Strategi Membaca Teks Argumentatif"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/01 Strategi Membaca Teks Argumentatif/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Analytical Exposition Text",
+      "topic": "Analytical Exposition Text",
+      "summary": "20% Mudah | 53% Sedang | 27% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "02 Analytical Exposition Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/02 Analytical Exposition Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Hortatory Exposition Text",
+      "topic": "Hortatory Exposition Text",
+      "summary": "20% Mudah | 60% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "03 Hortatory Exposition Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/03 Hortatory Exposition Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Discussion Text",
+      "topic": "Discussion Text",
+      "summary": "20% Mudah | 60% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "04 Discussion Text"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/04 Discussion Text/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Menilai Argumen dan Kredibilitas Informasi",
+      "topic": "Menilai Argumen dan Kredibilitas Informasi",
+      "summary": "20% Mudah | 47% Sedang | 33% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "05 Menilai Argumen dan Kredibilitas Informasi"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/05 Menilai Argumen dan Kredibilitas Informasi/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Membaca Data dan Sintesis Informasi",
+      "topic": "Membaca Data dan Sintesis Informasi",
+      "summary": "20% Mudah | 47% Sedang | 33% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 15,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "06 Membaca Data dan Sintesis Informasi"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/06 Membaca Data dan Sintesis Informasi/soal.json"
+    },
+    {
+      "title": "TKA Bahasa Inggris Tingkat Lanjut - Simulasi TKA",
+      "topic": "Simulasi TKA Bahasa Inggris Tingkat Lanjut",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Bahasa Inggris Tingkat Lanjut",
+      "topik": [
+        "07 Simulasi TKA"
+      ],
+      "path": "TKA SMA/Bahasa Inggris Tingkat Lanjut/07 Simulasi TKA/soal.json"
     },
     {
       "title": "TKA Ekonomi - Konsep Dasar Ilmu Ekonomi",
@@ -1272,6 +2136,114 @@
         "07 Simulasi TKA"
       ],
       "path": "TKA SMA/Matematika/07 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Matriks",
+      "topic": "Matriks",
+      "summary": "25% Mudah | 50% Sedang | 25% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "01 Matriks"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/01 Matriks/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Program Linear",
+      "topic": "Program Linear",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "02 Program Linear"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/02 Program Linear/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Polinomial",
+      "topic": "Polinomial",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "03 Polinomial"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/03 Polinomial/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Fungsi dan Grafiknya",
+      "topic": "Fungsi dan Grafiknya",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "04 Fungsi dan Grafiknya"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/04 Fungsi dan Grafiknya/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Vektor",
+      "topic": "Vektor",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "05 Vektor"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/05 Vektor/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Lingkaran",
+      "topic": "Lingkaran",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "06 Lingkaran"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/06 Lingkaran/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Transformasi Geometri",
+      "topic": "Transformasi Geometri",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "07 Transformasi Geometri"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/07 Transformasi Geometri/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Limit Fungsi",
+      "topic": "Limit Fungsi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "08 Limit Fungsi"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/08 Limit Fungsi/soal.json"
+    },
+    {
+      "title": "TKA Matematika Tingkat Lanjut - Simulasi TKA",
+      "topic": "Simulasi TKA Matematika Tingkat Lanjut",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMA",
+      "mapel": "Matematika Tingkat Lanjut",
+      "topik": [
+        "09 Simulasi TKA"
+      ],
+      "path": "TKA SMA/Matematika Tingkat Lanjut/09 Simulasi TKA/soal.json"
     },
     {
       "title": "TKA Matematika SMP - Bilangan",
