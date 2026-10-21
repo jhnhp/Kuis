@@ -6,10 +6,11 @@ const mk = (tag, cls, text) => { const e = document.createElement(tag); if(cls) 
 const nat = (a, b) => a.localeCompare(b, 'id', {numeric: true});
 const goto = (kelas, mapel) => '?' + (kelas ? 'kelas=' + encodeURIComponent(kelas) : '') + (mapel ? '&mapel=' + encodeURIComponent(mapel) : '');
 const CHEV = '<svg class="i" style="width:20px;height:20px"><use href="#i-right"/></svg>';
-// isi kotak kecil di kartu: angka kelas ("Kelas 10" → 10), singkatan ("TKA SMA" → TKA), atau dua huruf awal
+// isi kotak kecil di kartu: angka kelas ("Kelas 10" → 10), singkatan ("TKA SMA" → TKA), inisial dua kata ("Olimpiade Matematika" → OM), atau dua huruf awal
 const tileOf = s => {
   const m = s.match(/\d+/); if(m) return m[0];
   const w = s.split(/\s+/)[0]; if(/^[A-Z]{2,4}$/.test(w)) return w;
+  const ws = s.split(/\s+/); if(ws.length > 1) return (ws[0][0] + ws[1][0]).toUpperCase();   // "Olimpiade Matematika" → OM
   return s.replace(/[^A-Za-z]/g, '').slice(0, 2) || '?';
 };
 

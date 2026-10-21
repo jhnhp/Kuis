@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T12:04:42",
+  "generated": "2026-10-21T12:29:55",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -1482,48 +1482,48 @@
       "topic": "Olimpiade Matematika",
       "summary": "47% Mudah | 37% Sedang | 17% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 30,
-      "kelas": "Olimpiade",
+      "kelas": "Olimpiade Matematika",
       "mapel": "Kelas 5",
       "topik": [
         "CEO Semifinal Latihan 1"
       ],
-      "path": "Olimpiade/Kelas 5/CEO Semifinal Latihan 1/soal.json"
+      "path": "Olimpiade Matematika/Kelas 5/CEO Semifinal Latihan 1/soal.json"
     },
     {
       "title": "Olimpiade Matematika CEO Semifinal Level 3 - Latihan 2",
       "topic": "Olimpiade Matematika",
       "summary": "50% Mudah | 27% Sedang | 23% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 30,
-      "kelas": "Olimpiade",
+      "kelas": "Olimpiade Matematika",
       "mapel": "Kelas 5",
       "topik": [
         "CEO Semifinal Latihan 2"
       ],
-      "path": "Olimpiade/Kelas 5/CEO Semifinal Latihan 2/soal.json"
+      "path": "Olimpiade Matematika/Kelas 5/CEO Semifinal Latihan 2/soal.json"
     },
     {
       "title": "Olimpiade Matematika CEO Semifinal Level 3 - Latihan 3",
       "topic": "Olimpiade Matematika",
       "summary": "33% Mudah | 40% Sedang | 27% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 30,
-      "kelas": "Olimpiade",
+      "kelas": "Olimpiade Matematika",
       "mapel": "Kelas 5",
       "topik": [
         "CEO Semifinal Latihan 3"
       ],
-      "path": "Olimpiade/Kelas 5/CEO Semifinal Latihan 3/soal.json"
+      "path": "Olimpiade Matematika/Kelas 5/CEO Semifinal Latihan 3/soal.json"
     },
     {
       "title": "EMC 2025 Babak Provinsi - Matematika Kelas 7",
       "topic": "Olimpiade Matematika",
       "summary": "33% Mudah | 33% Sedang | 33% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 30,
-      "kelas": "Olimpiade",
+      "kelas": "Olimpiade Matematika",
       "mapel": "Kelas 7",
       "topik": [
         "Provinsi 2025"
       ],
-      "path": "Olimpiade/Kelas 7/Provinsi 2025/soal.json"
+      "path": "Olimpiade Matematika/Kelas 7/Provinsi 2025/soal.json"
     },
     {
       "title": "TKA Bahasa Indonesia - Strategi Membaca dan Bentuk Soal TKA",
