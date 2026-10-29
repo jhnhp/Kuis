@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T19:07:15",
+  "generated": "2026-10-29T19:09:10",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -134,16 +134,28 @@
       "path": "Kelas7/IPA/Anatomi/soal_anatomi.json"
     },
     {
-      "title": "IPA Kelas VII - Asam, Basa, Garam, dan Tabel Periodik",
-      "topic": "Sifat Asam-Basa, Indikator, pH, Netralisasi dan Garam, serta Tabel Periodik Unsur",
+      "title": "IPA Kelas VII - Asam, Basa, dan Garam",
+      "topic": "Sifat Asam-Basa, Indikator, pH, Netralisasi, dan Garam",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
       "questions": 20,
       "kelas": "Kelas 7",
       "mapel": "IPA",
       "topik": [
-        "Asam Basa Garam dan Tabel Periodik"
+        "Asam Basa dan Garam"
       ],
-      "path": "Kelas7/IPA/Asam Basa Garam dan Tabel Periodik/soal.json"
+      "path": "Kelas7/IPA/Asam Basa dan Garam/soal.json"
+    },
+    {
+      "title": "IPA Kelas VII - Tabel Periodik Unsur",
+      "topic": "Lambang Unsur, Golongan dan Periode, Logam-Metaloid-Nonlogam, dan Sejarah Tabel Periodik",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "Tabel Periodik Unsur"
+      ],
+      "path": "Kelas7/IPA/Tabel Periodik Unsur/soal.json"
     },
     {
       "title": "Matematika Kelas VII - Bilangan Bulat",

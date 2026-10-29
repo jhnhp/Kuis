@@ -1,0 +1,287 @@
+{
+  "title": "IPA Kelas VII - Tabel Periodik Unsur",
+  "topic": "Lambang Unsur, Golongan dan Periode, Logam-Metaloid-Nonlogam, dan Sejarah Tabel Periodik",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_periodik",
+      "title": "Sebagian Tabel Periodik Unsur",
+      "text": [
+        "Gambar berikut menunjukkan sebagian tabel periodik unsur golongan A dari periode 1 sampai periode 4. Warna kotak menunjukkan kelompok unsur: logam, metaloid, nonlogam, atau gas mulia."
+      ],
+      "image": "tabel-periodik-sebagian.svg"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Lambang unsur untuk <b>natrium</b> adalah ....",
+      "options": {
+        "A": "N",
+        "B": "Na",
+        "C": "Nt",
+        "D": "Ni"
+      },
+      "answer": "B",
+      "explanation": "Lambang natrium adalah Na, dari nama latinnya <i>natrium</i>. N adalah lambang nitrogen dan Ni adalah lambang nikel. Huruf pertama lambang ditulis kapital dan huruf kedua ditulis kecil."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Lajur <b>vertikal</b> (tegak) pada tabel periodik unsur disebut ....",
+      "options": {
+        "A": "periode",
+        "B": "deret",
+        "C": "blok",
+        "D": "golongan"
+      },
+      "answer": "D",
+      "explanation": "Lajur vertikal disebut golongan, sedangkan lajur horizontal (mendatar) disebut periode. Unsur dalam satu golongan memiliki sifat kimia yang mirip."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Helium, neon, dan argon termasuk golongan VIIIA yang disebut gas mulia. Unsur-unsur ini disebut \"mulia\" karena ....",
+      "options": {
+        "A": "sangat stabil sehingga sukar bereaksi dengan unsur lain",
+        "B": "harganya sangat mahal seperti emas",
+        "C": "mudah terbakar dan menghasilkan cahaya terang",
+        "D": "bersifat logam dan menghantarkan listrik dengan baik"
+      },
+      "answer": "A",
+      "explanation": "Gas mulia sangat stabil sehingga hampir tidak bereaksi dengan unsur lain. Karena itu, helium dipakai untuk mengisi balon dan argon untuk mengisi bola lampu pijar."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Lambang unsur untuk <b>besi</b> adalah ....",
+      "options": {
+        "A": "B",
+        "B": "Be",
+        "C": "Fe",
+        "D": "Bs"
+      },
+      "answer": "C",
+      "explanation": "Lambang besi adalah Fe, dari nama latinnya <i>ferrum</i>. B adalah lambang boron dan Be adalah lambang berilium."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Lajur <b>horizontal</b> (mendatar) pada tabel periodik unsur disebut ....",
+      "options": {
+        "A": "periode",
+        "B": "golongan",
+        "C": "kolom",
+        "D": "triade"
+      },
+      "answer": "A",
+      "explanation": "Lajur horizontal disebut periode, sedangkan lajur vertikal disebut golongan."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Unsur-unsur golongan VIIA, seperti fluorin, klorin, dan bromin, dikenal dengan sebutan ....",
+      "options": {
+        "A": "logam alkali",
+        "B": "gas mulia",
+        "C": "halogen",
+        "D": "logam alkali tanah"
+      },
+      "answer": "C",
+      "explanation": "Golongan VIIA disebut halogen, artinya pembentuk garam. Golongan IA (kecuali hidrogen) disebut logam alkali, IIA logam alkali tanah, dan VIIIA gas mulia."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Dmitri Mendeleev menyusun tabel periodik berdasarkan kenaikan massa atom. Salah satu kelebihan tabel periodik Mendeleev adalah ....",
+      "options": {
+        "A": "menyediakan tempat kosong dan dapat meramalkan sifat unsur yang saat itu belum ditemukan",
+        "B": "menempatkan semua unsur gas mulia dalam satu golongan sejak awal",
+        "C": "menyusun unsur berdasarkan kenaikan nomor atom",
+        "D": "tidak ada unsur yang letaknya terbalik jika dilihat dari massa atomnya"
+      },
+      "answer": "A",
+      "explanation": "Mendeleev sengaja mengosongkan beberapa tempat dan meramalkan sifat unsur yang belum ditemukan, misalnya galium dan germanium, yang kemudian terbukti benar. Gas mulia belum dikenal saat itu, dan penyusunan berdasarkan nomor atom adalah ciri tabel periodik modern."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Tabel periodik modern yang dipakai saat ini menyusun unsur-unsur berdasarkan ....",
+      "options": {
+        "A": "kenaikan massa atom",
+        "B": "urutan abjad nama unsur",
+        "C": "kenaikan nomor atom",
+        "D": "tahun ditemukannya unsur"
+      },
+      "answer": "C",
+      "explanation": "Tabel periodik modern (disempurnakan oleh Henry Moseley) menyusun unsur berdasarkan kenaikan nomor atom, yaitu jumlah proton dalam inti atom. Penyusunan berdasarkan massa atom adalah cara Mendeleev."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Sebuah unsur X memiliki sifat berikut: berwujud padat, permukaannya mengilap, dapat menghantarkan listrik dan panas dengan baik, serta dapat ditempa menjadi lembaran tipis. Unsur X tergolong ....",
+      "options": {
+        "A": "nonlogam, misalnya belerang",
+        "B": "logam, misalnya aluminium",
+        "C": "metaloid, misalnya silikon",
+        "D": "gas mulia, misalnya argon"
+      },
+      "answer": "B",
+      "explanation": "Mengilap, penghantar listrik dan panas yang baik, serta dapat ditempa adalah ciri logam, contohnya aluminium. Belerang adalah nonlogam yang rapuh dan bukan penghantar listrik."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Unsur adalah zat tunggal yang tidak dapat diuraikan lagi menjadi zat yang lebih sederhana dengan reaksi kimia biasa. Kelompok berikut yang <b>seluruhnya</b> merupakan unsur adalah ....",
+      "options": {
+        "A": "air, oksigen, dan besi",
+        "B": "garam dapur, emas, dan karbon",
+        "C": "oksigen, besi, dan emas",
+        "D": "gula, perak, dan nitrogen"
+      },
+      "answer": "C",
+      "explanation": "Oksigen, besi, dan emas adalah unsur. Air (H<sub>2</sub>O), garam dapur (NaCl), dan gula tersusun dari beberapa unsur berbeda sehingga termasuk senyawa."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Lambang emas adalah Au, berasal dari nama latinnya <i>aurum</i>. Pasangan nama unsur dan lambangnya yang <b>benar</b> adalah ....",
+      "options": {
+        "A": "perak = Ag, tembaga = Cu",
+        "B": "perak = Pr, tembaga = Tb",
+        "C": "perak = Ag, tembaga = Tm",
+        "D": "perak = Pk, tembaga = Cu"
+      },
+      "answer": "A",
+      "explanation": "Lambang perak adalah Ag (dari <i>argentum</i>) dan lambang tembaga adalah Cu (dari <i>cuprum</i>). Lambang unsur sering berasal dari nama latinnya, bukan nama dalam bahasa Indonesia."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, unsur dengan nomor atom 15 terletak pada ....",
+      "options": {
+        "A": "golongan VA, periode 3",
+        "B": "golongan VA, periode 2",
+        "C": "golongan IIIA, periode 5",
+        "D": "golongan VIA, periode 3"
+      },
+      "answer": "A",
+      "explanation": "Nomor atom 15 adalah fosfor (P). Kotaknya berada di kolom VA dan baris ketiga, jadi letaknya golongan VA, periode 3."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, unsur yang terletak satu periode dengan natrium (Na) dan berada di golongan VIIA adalah ....",
+      "options": {
+        "A": "fluorin (F)",
+        "B": "argon (Ar)",
+        "C": "bromin (Br)",
+        "D": "klorin (Cl)"
+      },
+      "answer": "D",
+      "explanation": "Natrium berada di periode 3. Unsur periode 3 golongan VIIA adalah klorin (Cl). Fluorin ada di periode 2, bromin di periode 4, dan argon di golongan VIIIA."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, unsur magnesium (Mg) terletak pada ....",
+      "options": {
+        "A": "golongan IIIA, periode 2",
+        "B": "golongan IA, periode 3",
+        "C": "golongan IIA, periode 3",
+        "D": "golongan IIA, periode 2"
+      },
+      "answer": "C",
+      "explanation": "Mg (nomor atom 12) berada di kolom IIA dan baris ketiga, sehingga letaknya golongan IIA, periode 3. Di periode 2, golongan IIA ditempati berilium (Be)."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, unsur yang memiliki sifat kimia paling mirip dengan oksigen (O) adalah ....",
+      "options": {
+        "A": "nitrogen (N)",
+        "B": "belerang (S)",
+        "C": "fluorin (F)",
+        "D": "neon (Ne)"
+      },
+      "answer": "B",
+      "explanation": "Unsur yang segolongan memiliki sifat kimia yang mirip. Oksigen berada di golongan VIA bersama belerang (S) dan selenium (Se). N, F, dan Ne hanya satu periode dengan O, tidak segolongan."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, kelompok unsur yang <b>seluruhnya</b> merupakan logam adalah ....",
+      "options": {
+        "A": "H, Li, dan Na",
+        "B": "Al, Si, dan P",
+        "C": "B, C, dan N",
+        "D": "Na, Mg, dan K"
+      },
+      "answer": "D",
+      "explanation": "Na, Mg, dan K berada di kotak berwarna logam. H adalah nonlogam meskipun terletak di golongan IA, Si adalah metaloid, P adalah nonlogam, B adalah metaloid, serta C dan N adalah nonlogam."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "passage": "teks_periodik",
+      "question": "Silikon (Si) dipakai sebagai bahan cip komputer karena bersifat metaloid, yaitu memiliki sebagian sifat logam dan sebagian sifat nonlogam. Berdasarkan gambar, unsur yang <b>segolongan</b> dengan silikon dan <b>juga</b> tergolong metaloid adalah ....",
+      "options": {
+        "A": "karbon (C)",
+        "B": "boron (B)",
+        "C": "arsen (As)",
+        "D": "germanium (Ge)"
+      },
+      "answer": "D",
+      "explanation": "Golongan IVA berisi C, Si, dan Ge. Di antara ketiganya, hanya Ge yang tergolong metaloid seperti Si, sedangkan C adalah nonlogam. Boron dan arsen memang metaloid, tetapi berada di golongan IIIA dan VA, bukan segolongan dengan Si."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, pernyataan yang benar tentang unsur bernomor atom 20 adalah ....",
+      "options": {
+        "A": "unsur tersebut adalah kalium, golongan IA, dan bersifat nonlogam",
+        "B": "unsur tersebut adalah kalsium, golongan IIA, periode 3, dan bersifat metaloid",
+        "C": "unsur tersebut adalah kalium, golongan IIA, dan sifatnya mirip natrium",
+        "D": "unsur tersebut adalah kalsium, golongan IIA, periode 4, dan sifatnya mirip magnesium"
+      },
+      "answer": "D",
+      "explanation": "Nomor atom 20 adalah kalsium (Ca), terletak di golongan IIA, periode 4, dan tergolong logam. Karena segolongan dengan magnesium, sifat kimianya mirip magnesium. Kalium (K) bernomor atom 19 dan berada di golongan IA."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_periodik",
+      "question": "Berdasarkan gambar, pernyataan yang tepat tentang hidrogen (H) adalah ....",
+      "options": {
+        "A": "hidrogen adalah logam karena berada di golongan IA bersama Li dan Na",
+        "B": "hidrogen berada di golongan IA, tetapi tergolong nonlogam",
+        "C": "hidrogen adalah gas mulia karena berada di periode 1 bersama helium",
+        "D": "hidrogen adalah metaloid karena letaknya terpisah dari unsur lain"
+      },
+      "answer": "B",
+      "explanation": "Hidrogen diletakkan di golongan IA karena kemiripan susunan atomnya dengan Li dan Na, tetapi kotaknya berwarna nonlogam. Hidrogen berupa gas dan tidak memiliki sifat logam."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Natrium (Na) adalah logam golongan IA. Sepotong kecil natrium dimasukkan ke dalam air yang telah ditetesi fenolftalein. Natrium bereaksi dengan air menghasilkan gas hidrogen dan natrium hidroksida (NaOH). Warna larutan setelah reaksi adalah ....",
+      "options": {
+        "A": "tetap tidak berwarna karena gas hidrogen bersifat netral",
+        "B": "merah muda karena terbentuk larutan basa",
+        "C": "kuning karena terbentuk larutan asam",
+        "D": "tetap tidak berwarna karena natrium adalah logam"
+      },
+      "answer": "B",
+      "explanation": "NaOH yang terbentuk larut dalam air dan bersifat basa kuat. Fenolftalein berubah menjadi merah muda dalam larutan basa. Inilah sebabnya logam golongan IA disebut logam alkali (alkali = basa)."
+    }
+  ]
+}

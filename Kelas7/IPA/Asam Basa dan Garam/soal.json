@@ -1,19 +1,9 @@
 {
-  "title": "IPA Kelas VII - Asam, Basa, Garam, dan Tabel Periodik",
-  "topic": "Sifat Asam-Basa, Indikator, pH, Netralisasi dan Garam, serta Tabel Periodik Unsur",
+  "title": "IPA Kelas VII - Asam, Basa, dan Garam",
+  "topic": "Sifat Asam-Basa, Indikator, pH, Netralisasi, dan Garam",
   "subtitle": "Latihan Mandiri 20 Soal",
   "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
   "total_questions": 20,
-  "passages": [
-    {
-      "id": "teks_periodik",
-      "title": "Sebagian Tabel Periodik Unsur",
-      "text": [
-        "Gambar berikut menunjukkan sebagian tabel periodik unsur golongan A dari periode 1 sampai periode 4. Warna kotak menunjukkan kelompok unsur: logam, metaloid, nonlogam, atau gas mulia."
-      ],
-      "image": "tabel-periodik-sebagian.svg"
-    }
-  ],
   "questions": [
     {
       "number": 1,
@@ -57,41 +47,41 @@
     {
       "number": 4,
       "difficulty": "Mudah",
-      "question": "Lambang unsur untuk <b>natrium</b> adalah ....",
+      "question": "Jika kertas lakmus biru dicelupkan ke dalam larutan asam, warnanya akan berubah menjadi ....",
       "options": {
-        "A": "N",
-        "B": "Na",
-        "C": "Nt",
-        "D": "Ni"
+        "A": "ungu",
+        "B": "merah",
+        "C": "hijau",
+        "D": "tetap biru"
       },
       "answer": "B",
-      "explanation": "Lambang natrium adalah Na, dari nama latinnya <i>natrium</i>. N adalah lambang nitrogen dan Ni adalah lambang nikel. Huruf pertama lambang ditulis kapital dan huruf kedua ditulis kecil."
+      "explanation": "Asam mengubah lakmus biru menjadi merah, sedangkan basa mengubah lakmus merah menjadi biru."
     },
     {
       "number": 5,
       "difficulty": "Mudah",
-      "question": "Lajur <b>vertikal</b> (tegak) pada tabel periodik unsur disebut ....",
+      "question": "Bahan berikut yang bersifat <b>basa</b> adalah ....",
       "options": {
-        "A": "periode",
-        "B": "deret",
-        "C": "blok",
-        "D": "golongan"
+        "A": "air jeruk",
+        "B": "cuka makan",
+        "C": "air tomat",
+        "D": "sabun mandi"
       },
       "answer": "D",
-      "explanation": "Lajur vertikal disebut golongan, sedangkan lajur horizontal (mendatar) disebut periode. Unsur dalam satu golongan memiliki sifat kimia yang mirip."
+      "explanation": "Sabun mandi bersifat basa sehingga terasa licin. Air jeruk, cuka makan, dan air tomat bersifat asam karena terasa masam."
     },
     {
       "number": 6,
       "difficulty": "Mudah",
-      "question": "Helium, neon, dan argon termasuk golongan VIIIA yang disebut gas mulia. Unsur-unsur ini disebut \"mulia\" karena ....",
+      "question": "Alat yang digunakan untuk mengukur nilai pH suatu larutan secara tepat dalam bentuk angka adalah ....",
       "options": {
-        "A": "sangat stabil sehingga sukar bereaksi dengan unsur lain",
-        "B": "harganya sangat mahal seperti emas",
-        "C": "mudah terbakar dan menghasilkan cahaya terang",
-        "D": "bersifat logam dan menghantarkan listrik dengan baik"
+        "A": "pH meter",
+        "B": "termometer",
+        "C": "barometer",
+        "D": "hidrometer"
       },
       "answer": "A",
-      "explanation": "Gas mulia sangat stabil sehingga hampir tidak bereaksi dengan unsur lain. Karena itu, helium dipakai untuk mengisi balon dan argon untuk mengisi bola lampu pijar."
+      "explanation": "pH meter menampilkan nilai pH secara langsung dalam angka. Termometer mengukur suhu, barometer mengukur tekanan udara, dan hidrometer mengukur massa jenis zat cair."
     },
     {
       "number": 7,
@@ -161,87 +151,70 @@
     {
       "number": 12,
       "difficulty": "Sedang",
-      "question": "Dmitri Mendeleev menyusun tabel periodik berdasarkan kenaikan massa atom. Salah satu kelebihan tabel periodik Mendeleev adalah ....",
+      "question": "Sisa makanan di mulut dapat diubah oleh bakteri menjadi asam yang merusak email gigi. Pasta gigi membantu mencegah kerusakan ini karena ....",
       "options": {
-        "A": "menyediakan tempat kosong dan dapat meramalkan sifat unsur yang saat itu belum ditemukan",
-        "B": "menempatkan semua unsur gas mulia dalam satu golongan sejak awal",
-        "C": "menyusun unsur berdasarkan kenaikan nomor atom",
-        "D": "tidak ada unsur yang letaknya terbalik jika dilihat dari massa atomnya"
+        "A": "bersifat asam sehingga melarutkan sisa makanan",
+        "B": "bersifat netral sehingga tidak bereaksi dengan apa pun",
+        "C": "bersifat basa sehingga dapat menetralkan asam di mulut",
+        "D": "mengandung garam dapur yang membunuh semua bakteri"
       },
-      "answer": "A",
-      "explanation": "Mendeleev sengaja mengosongkan beberapa tempat dan meramalkan sifat unsur yang belum ditemukan, misalnya galium dan germanium, yang kemudian terbukti benar. Gas mulia belum dikenal saat itu, dan penyusunan berdasarkan nomor atom adalah ciri tabel periodik modern."
+      "answer": "C",
+      "explanation": "Pasta gigi bersifat basa lemah sehingga dapat menetralkan asam di dalam mulut dan melindungi email gigi."
     },
     {
       "number": 13,
       "difficulty": "Sedang",
-      "question": "Tabel periodik modern yang dipakai saat ini menyusun unsur-unsur berdasarkan ....",
+      "question": "Penderita sakit maag sering mengalami kelebihan asam lambung (asam klorida). Obat antasida yang diminum biasanya mengandung magnesium hidroksida. Prinsip kerja obat tersebut adalah ....",
       "options": {
-        "A": "kenaikan massa atom",
-        "B": "urutan abjad nama unsur",
-        "C": "kenaikan nomor atom",
-        "D": "tahun ditemukannya unsur"
+        "A": "menambah asam lambung agar makanan cepat dicerna",
+        "B": "menetralkan kelebihan asam lambung karena magnesium hidroksida bersifat basa",
+        "C": "mengubah asam lambung menjadi gas hidrogen",
+        "D": "melapisi lambung sehingga asam tidak dapat bereaksi"
       },
-      "answer": "C",
-      "explanation": "Tabel periodik modern (disempurnakan oleh Henry Moseley) menyusun unsur berdasarkan kenaikan nomor atom, yaitu jumlah proton dalam inti atom. Penyusunan berdasarkan massa atom adalah cara Mendeleev."
+      "answer": "B",
+      "explanation": "Magnesium hidroksida adalah basa. Basa bereaksi dengan asam lambung dalam reaksi netralisasi sehingga kelebihan asam berkurang dan rasa perih mereda."
     },
     {
       "number": 14,
       "difficulty": "Sedang",
-      "passage": "teks_periodik",
-      "question": "Berdasarkan gambar, unsur magnesium (Mg) terletak pada ....",
+      "question": "Air hujan di sekitar kawasan industri diuji dengan kertas indikator universal dan menunjukkan pH 4. Pernyataan yang tepat tentang air hujan tersebut adalah ....",
       "options": {
-        "A": "golongan IIIA, periode 2",
-        "B": "golongan IA, periode 3",
-        "C": "golongan IIA, periode 3",
-        "D": "golongan IIA, periode 2"
+        "A": "bersifat basa karena mengandung debu kapur dari pabrik",
+        "B": "bersifat netral karena air hujan berasal dari awan",
+        "C": "bersifat basa karena pH-nya di bawah 7",
+        "D": "bersifat asam, kemungkinan karena gas buangan pabrik dan kendaraan larut dalam air hujan"
       },
-      "answer": "C",
-      "explanation": "Mg (nomor atom 12) berada di kolom IIA dan baris ketiga, sehingga letaknya golongan IIA, periode 3. Di periode 2, golongan IIA ditempati berilium (Be)."
+      "answer": "D",
+      "explanation": "pH 4 berarti air hujan bersifat asam (pH &lt; 7). Hujan asam terjadi karena gas seperti belerang dioksida dan nitrogen dioksida dari pembakaran bahan bakar larut dalam air hujan."
     },
     {
       "number": 15,
       "difficulty": "Sedang",
-      "passage": "teks_periodik",
-      "question": "Berdasarkan gambar, unsur yang memiliki sifat kimia paling mirip dengan oksigen (O) adalah ....",
+      "question": "Tanah di sebuah kebun memiliki pH 4,5 sehingga tanaman tumbuh kurang subur. Petani kemudian menaburkan kapur pertanian. Tujuan tindakan tersebut adalah ....",
       "options": {
-        "A": "nitrogen (N)",
-        "B": "belerang (S)",
-        "C": "fluorin (F)",
-        "D": "neon (Ne)"
+        "A": "menaikkan pH tanah mendekati netral karena kapur bersifat basa",
+        "B": "menurunkan pH tanah karena kapur bersifat asam",
+        "C": "membuat tanah menjadi sangat basa dengan pH 14",
+        "D": "menambah unsur hara tanpa mengubah pH tanah"
       },
-      "answer": "B",
-      "explanation": "Unsur yang segolongan memiliki sifat kimia yang mirip. Oksigen berada di golongan VIA bersama belerang (S) dan selenium (Se). N, F, dan Ne hanya satu periode dengan O, tidak segolongan."
+      "answer": "A",
+      "explanation": "Kapur pertanian bersifat basa sehingga menetralkan keasaman tanah. Akibatnya, pH tanah naik mendekati netral dan tanaman dapat tumbuh lebih baik."
     },
     {
       "number": 16,
       "difficulty": "Sedang",
-      "passage": "teks_periodik",
-      "question": "Berdasarkan gambar, kelompok unsur yang <b>seluruhnya</b> merupakan logam adalah ....",
+      "question": "Perhatikan perubahan warna ekstrak kubis ungu berikut.<br>• pH 1–3: merah<br>• pH 4–7: ungu<br>• pH 8–11: hijau<br>• pH 12–14: kuning<br>Jika ekstrak kubis ungu diteteskan ke larutan dengan pH 9, warna yang terlihat adalah ....",
       "options": {
-        "A": "H, Li, dan Na",
-        "B": "Al, Si, dan P",
-        "C": "B, C, dan N",
-        "D": "Na, Mg, dan K"
+        "A": "merah",
+        "B": "ungu",
+        "C": "hijau",
+        "D": "kuning"
       },
-      "answer": "D",
-      "explanation": "Na, Mg, dan K berada di kotak berwarna logam. H adalah nonlogam meskipun terletak di golongan IA, Si adalah metaloid, P adalah nonlogam, B adalah metaloid, serta C dan N adalah nonlogam."
+      "answer": "C",
+      "explanation": "pH 9 berada pada rentang 8–11 sehingga ekstrak kubis ungu berwarna hijau. Ini menunjukkan larutan tersebut bersifat basa."
     },
     {
       "number": 17,
-      "difficulty": "Sulit",
-      "passage": "teks_periodik",
-      "question": "Silikon (Si) dipakai sebagai bahan cip komputer karena bersifat metaloid, yaitu memiliki sebagian sifat logam dan sebagian sifat nonlogam. Berdasarkan gambar, unsur yang <b>segolongan</b> dengan silikon dan <b>juga</b> tergolong metaloid adalah ....",
-      "options": {
-        "A": "karbon (C)",
-        "B": "boron (B)",
-        "C": "arsen (As)",
-        "D": "germanium (Ge)"
-      },
-      "answer": "D",
-      "explanation": "Golongan IVA berisi C, Si, dan Ge. Di antara ketiganya, hanya Ge yang tergolong metaloid seperti Si, sedangkan C adalah nonlogam. Boron dan arsen memang metaloid, tetapi berada di golongan IIIA dan VA, bukan segolongan dengan Si."
-    },
-    {
-      "number": 18,
       "difficulty": "Sulit",
       "question": "Larutan Y diuji dengan beberapa indikator. Hasilnya:<br>• kertas lakmus merah tetap merah,<br>• kertas lakmus biru tetap biru,<br>• fenolftalein tetap tidak berwarna.<br>Larutan Y yang paling mungkin adalah ....",
       "options": {
@@ -254,7 +227,7 @@
       "explanation": "Kedua lakmus tidak berubah warna, berarti larutan Y netral. Fenolftalein tidak berwarna dalam larutan asam maupun netral, jadi hasil ini sesuai. Larutan gula bersifat netral. Air kapur dan larutan sabun bersifat basa (lakmus merah menjadi biru dan fenolftalein menjadi merah muda), sedangkan air aki bersifat asam (lakmus biru menjadi merah)."
     },
     {
-      "number": 19,
+      "number": 18,
       "difficulty": "Sulit",
       "question": "Sebanyak 10 mL larutan cuka dengan pH 3 diencerkan dengan menambahkan air sedikit demi sedikit hingga volumenya menjadi 1 liter. Perubahan pH yang paling tepat adalah ....",
       "options": {
@@ -267,17 +240,30 @@
       "explanation": "Penambahan air membuat asam makin encer sehingga keasamannya berkurang dan pH naik mendekati 7. Namun, air bersifat netral, jadi pengenceran tidak dapat mengubah asam menjadi basa; pH tidak akan melewati 7."
     },
     {
-      "number": 20,
+      "number": 19,
       "difficulty": "Sulit",
-      "question": "Natrium (Na) adalah logam golongan IA. Sepotong kecil natrium dimasukkan ke dalam air yang telah ditetesi fenolftalein. Natrium bereaksi dengan air menghasilkan gas hidrogen dan natrium hidroksida (NaOH). Warna larutan setelah reaksi adalah ....",
+      "question": "Larutan asam klorida dicampur dengan larutan natrium hidroksida dalam jumlah yang <b>tepat setara</b> sehingga keduanya habis bereaksi. Campuran tersebut kemudian diuji dengan kertas lakmus. Hasil yang diharapkan adalah ....",
       "options": {
-        "A": "tetap tidak berwarna karena gas hidrogen bersifat netral",
-        "B": "merah muda karena terbentuk larutan basa",
-        "C": "kuning karena terbentuk larutan asam",
-        "D": "tetap tidak berwarna karena natrium adalah logam"
+        "A": "lakmus merah menjadi biru dan lakmus biru tetap biru",
+        "B": "lakmus merah tetap merah dan lakmus biru tetap biru",
+        "C": "lakmus biru menjadi merah dan lakmus merah tetap merah",
+        "D": "lakmus merah dan lakmus biru sama-sama menjadi ungu"
       },
       "answer": "B",
-      "explanation": "NaOH yang terbentuk larut dalam air dan bersifat basa kuat. Fenolftalein berubah menjadi merah muda dalam larutan basa. Inilah sebabnya logam golongan IA disebut logam alkali (alkali = basa)."
+      "explanation": "Asam dan basa yang tepat setara menghasilkan garam (NaCl) dan air yang bersifat netral. Larutan netral tidak mengubah warna kedua lakmus."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Beberapa tetes fenolftalein ditambahkan ke larutan natrium hidroksida sehingga larutan berwarna merah muda. Kemudian, asam klorida diteteskan sedikit demi sedikit sambil diaduk hingga warna merah muda tepat hilang. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "larutan berubah menjadi basa yang lebih kuat",
+        "B": "fenolftalein telah habis bereaksi dengan asam klorida",
+        "C": "asam klorida berubah menjadi basa setelah bercampur",
+        "D": "basa dalam larutan telah dinetralkan oleh asam sehingga larutan tidak lagi bersifat basa"
+      },
+      "answer": "D",
+      "explanation": "Fenolftalein berwarna merah muda hanya dalam larutan basa. Hilangnya warna menandakan basa (NaOH) telah habis dinetralkan oleh asam klorida, sehingga larutan menjadi netral atau sedikit asam."
     }
   ]
 }
