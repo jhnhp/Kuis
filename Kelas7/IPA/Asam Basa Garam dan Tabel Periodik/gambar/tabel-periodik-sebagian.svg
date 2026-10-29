@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+<defs>
+<style>
+text{font-family:Inter,Arial,sans-serif;fill:#0a0f2c;font-size:13px}
+.m{fill:#5a6283;font-size:12px}
+.b{font-weight:700}
+.t{font-family:"Inter Tight",Inter,Arial,sans-serif;font-weight:800;font-size:16px}
+.sym{font-family:"Inter Tight",Inter,Arial,sans-serif;font-weight:800;font-size:20px;text-anchor:middle}
+.z{font-size:11px;fill:#5a6283}
+</style>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="320" y="28" text-anchor="middle" class="t">Sebagian Tabel Periodik Unsur (Golongan A)</text>
+<text x="119.0" y="62" text-anchor="middle" class="b">IA</text>
+<text x="183.0" y="62" text-anchor="middle" class="b">IIA</text>
+<text x="247.0" y="62" text-anchor="middle" class="b">IIIA</text>
+<text x="311.0" y="62" text-anchor="middle" class="b">IVA</text>
+<text x="375.0" y="62" text-anchor="middle" class="b">VA</text>
+<text x="439.0" y="62" text-anchor="middle" class="b">VIA</text>
+<text x="503.0" y="62" text-anchor="middle" class="b">VIIA</text>
+<text x="567.0" y="62" text-anchor="middle" class="b">VIIIA</text>
+<text x="74" y="105.0" text-anchor="end" class="b">Periode 1</text>
+<rect x="90" y="74" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="96" y="89" class="z">1</text>
+<text x="120.0" y="114" class="sym">H</text>
+<rect x="538" y="74" width="60" height="54" rx="6" fill="#ecdcfb" stroke="#8b3fd9" stroke-width="1.5"/>
+<text x="544" y="89" class="z">2</text>
+<text x="568.0" y="114" class="sym">He</text>
+<text x="74" y="163.0" text-anchor="end" class="b">Periode 2</text>
+<rect x="90" y="132" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="96" y="147" class="z">3</text>
+<text x="120.0" y="172" class="sym">Li</text>
+<rect x="154" y="132" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="160" y="147" class="z">4</text>
+<text x="184.0" y="172" class="sym">Be</text>
+<rect x="218" y="132" width="60" height="54" rx="6" fill="#fde7b0" stroke="#c98a06" stroke-width="1.5"/>
+<text x="224" y="147" class="z">5</text>
+<text x="248.0" y="172" class="sym">B</text>
+<rect x="282" y="132" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="288" y="147" class="z">6</text>
+<text x="312.0" y="172" class="sym">C</text>
+<rect x="346" y="132" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="352" y="147" class="z">7</text>
+<text x="376.0" y="172" class="sym">N</text>
+<rect x="410" y="132" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="416" y="147" class="z">8</text>
+<text x="440.0" y="172" class="sym">O</text>
+<rect x="474" y="132" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="480" y="147" class="z">9</text>
+<text x="504.0" y="172" class="sym">F</text>
+<rect x="538" y="132" width="60" height="54" rx="6" fill="#ecdcfb" stroke="#8b3fd9" stroke-width="1.5"/>
+<text x="544" y="147" class="z">10</text>
+<text x="568.0" y="172" class="sym">Ne</text>
+<text x="74" y="221.0" text-anchor="end" class="b">Periode 3</text>
+<rect x="90" y="190" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="96" y="205" class="z">11</text>
+<text x="120.0" y="230" class="sym">Na</text>
+<rect x="154" y="190" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="160" y="205" class="z">12</text>
+<text x="184.0" y="230" class="sym">Mg</text>
+<rect x="218" y="190" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="224" y="205" class="z">13</text>
+<text x="248.0" y="230" class="sym">Al</text>
+<rect x="282" y="190" width="60" height="54" rx="6" fill="#fde7b0" stroke="#c98a06" stroke-width="1.5"/>
+<text x="288" y="205" class="z">14</text>
+<text x="312.0" y="230" class="sym">Si</text>
+<rect x="346" y="190" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="352" y="205" class="z">15</text>
+<text x="376.0" y="230" class="sym">P</text>
+<rect x="410" y="190" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="416" y="205" class="z">16</text>
+<text x="440.0" y="230" class="sym">S</text>
+<rect x="474" y="190" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="480" y="205" class="z">17</text>
+<text x="504.0" y="230" class="sym">Cl</text>
+<rect x="538" y="190" width="60" height="54" rx="6" fill="#ecdcfb" stroke="#8b3fd9" stroke-width="1.5"/>
+<text x="544" y="205" class="z">18</text>
+<text x="568.0" y="230" class="sym">Ar</text>
+<text x="74" y="279.0" text-anchor="end" class="b">Periode 4</text>
+<rect x="90" y="248" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="96" y="263" class="z">19</text>
+<text x="120.0" y="288" class="sym">K</text>
+<rect x="154" y="248" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="160" y="263" class="z">20</text>
+<text x="184.0" y="288" class="sym">Ca</text>
+<rect x="218" y="248" width="60" height="54" rx="6" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="224" y="263" class="z">31</text>
+<text x="248.0" y="288" class="sym">Ga</text>
+<rect x="282" y="248" width="60" height="54" rx="6" fill="#fde7b0" stroke="#c98a06" stroke-width="1.5"/>
+<text x="288" y="263" class="z">32</text>
+<text x="312.0" y="288" class="sym">Ge</text>
+<rect x="346" y="248" width="60" height="54" rx="6" fill="#fde7b0" stroke="#c98a06" stroke-width="1.5"/>
+<text x="352" y="263" class="z">33</text>
+<text x="376.0" y="288" class="sym">As</text>
+<rect x="410" y="248" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="416" y="263" class="z">34</text>
+<text x="440.0" y="288" class="sym">Se</text>
+<rect x="474" y="248" width="60" height="54" rx="6" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="480" y="263" class="z">35</text>
+<text x="504.0" y="288" class="sym">Br</text>
+<rect x="538" y="248" width="60" height="54" rx="6" fill="#ecdcfb" stroke="#8b3fd9" stroke-width="1.5"/>
+<text x="544" y="263" class="z">36</text>
+<text x="568.0" y="288" class="sym">Kr</text>
+<rect x="110" y="325" width="18" height="18" rx="4" fill="#dbe4ff" stroke="#2447F9" stroke-width="1.5"/>
+<text x="136" y="339">Logam</text>
+<rect x="230" y="325" width="18" height="18" rx="4" fill="#fde7b0" stroke="#c98a06" stroke-width="1.5"/>
+<text x="256" y="339">Metaloid</text>
+<rect x="350" y="325" width="18" height="18" rx="4" fill="#d4f5e1" stroke="#159a52" stroke-width="1.5"/>
+<text x="376" y="339">Nonlogam</text>
+<rect x="470" y="325" width="18" height="18" rx="4" fill="#ecdcfb" stroke="#8b3fd9" stroke-width="1.5"/>
+<text x="496" y="339">Gas mulia</text>
+<text x="320" y="368" text-anchor="middle" class="m">Angka kecil di pojok kiri atas setiap kotak adalah nomor atom.</text>
+</svg>

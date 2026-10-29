@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T20:34:43",
+  "generated": "2026-10-29T19:07:15",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -132,6 +132,18 @@
         "Anatomi"
       ],
       "path": "Kelas7/IPA/Anatomi/soal_anatomi.json"
+    },
+    {
+      "title": "IPA Kelas VII - Asam, Basa, Garam, dan Tabel Periodik",
+      "topic": "Sifat Asam-Basa, Indikator, pH, Netralisasi dan Garam, serta Tabel Periodik Unsur",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "IPA",
+      "topik": [
+        "Asam Basa Garam dan Tabel Periodik"
+      ],
+      "path": "Kelas7/IPA/Asam Basa Garam dan Tabel Periodik/soal.json"
     },
     {
       "title": "Matematika Kelas VII - Bilangan Bulat",
