@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T09:00:17",
+  "generated": "2026-11-07T09:01:21",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2484,6 +2484,18 @@
         "01 PBM - Tingkat Mudah"
       ],
       "path": "TKA SMA/Pemahaman Bacaan dan Menulis/01 PBM - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Tingkat Mudah)",
+      "topic": "Bilangan, Aljabar, Perbandingan, Geometri, Statistika, dan Peluang",
+      "summary": "100% Mudah. Latihan konsep dasar aritmetika, aljabar, rasio, geometri, statistika, dan peluang.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Pengetahuan Kuantitatif",
+      "topik": [
+        "01 PK - Tingkat Mudah"
+      ],
+      "path": "TKA SMA/Pengetahuan Kuantitatif/01 PK - Tingkat Mudah/soal.json"
     }
   ]
 }
