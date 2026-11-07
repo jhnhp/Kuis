@@ -1,0 +1,189 @@
+{
+  "title": "UTBK-SNBT - Paket Lengkap TPS (12 Soal)",
+  "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
+  "subtitle": "Paket campuran: masing-masing 3 soal untuk setiap subtes TPS.",
+  "difficulty_summary": "12 soal tingkat mudah, terdiri atas 3 soal PU, 3 soal PPU, 3 soal PBM, dan 3 soal PK.",
+  "total_questions": 12,
+  "passages": [
+    {
+      "id": "ppu1",
+      "title": "Teks untuk soal 4–6",
+      "text": [
+        "Ruang terbuka hijau memiliki peran penting bagi lingkungan perkotaan. Pepohonan membantu menyerap karbon dioksida, memberikan keteduhan, dan mengurangi suhu di sekitarnya. Selain manfaat ekologis, taman kota juga dapat menjadi ruang interaksi sosial bagi warga.",
+        "Namun, keberadaan ruang terbuka hijau perlu didukung oleh perawatan yang berkelanjutan. Tanpa pengelolaan yang baik, taman dapat mengalami kerusakan fasilitas dan kehilangan fungsi ekologisnya."
+      ]
+    },
+    {
+      "id": "pbm1",
+      "title": "Teks untuk soal 7–9",
+      "text": [
+        "Perpustakaan sekolah tidak hanya berfungsi sebagai tempat meminjam buku. Perpustakaan juga dapat menjadi ruang belajar yang mendorong siswa mencari informasi secara mandiri. Agar fungsi tersebut berjalan optimal, koleksi buku perlu diperbarui dan suasana ruang perlu dibuat nyaman.",
+        "Kegiatan literasi yang terjadwal dapat memperkuat pemanfaatan perpustakaan. Misalnya, siswa dapat mengikuti diskusi buku atau mempresentasikan hasil bacaannya. Dengan demikian, perpustakaan menjadi bagian aktif dari proses pembelajaran."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Semua peserta yang lolos seleksi administrasi mengikuti tes tertulis. Sebagian pendaftar lolos seleksi administrasi. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Semua pendaftar mengikuti tes tertulis",
+        "B": "Sebagian pendaftar mengikuti tes tertulis",
+        "C": "Tidak ada pendaftar mengikuti tes tertulis",
+        "D": "Semua peserta tes tertulis adalah pendaftar yang lolos administrasi"
+      },
+      "answer": "B",
+      "explanation": "Peserta yang lolos administrasi pasti mengikuti tes tertulis. Karena sebagian pendaftar lolos administrasi, sebagian pendaftar tersebut mengikuti tes tertulis."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola bilangan berikut: 3, 6, 12, 24, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "42",
+        "D": "48"
+      },
+      "answer": "D",
+      "explanation": "Setiap bilangan dikalikan 2. Jadi, bilangan berikutnya adalah 24 × 2 = 48."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Lima pekerja menyelesaikan suatu pekerjaan dalam 12 hari. Jika kemampuan setiap pekerja sama, waktu yang diperlukan oleh 10 pekerja adalah ....",
+      "options": {
+        "A": "4 hari",
+        "B": "6 hari",
+        "C": "10 hari",
+        "D": "24 hari"
+      },
+      "answer": "B",
+      "explanation": "Jumlah beban kerja tetap: 5 × 12 = 60 hari-orang. Dengan 10 pekerja, waktu = 60 ÷ 10 = 6 hari."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "passage": "ppu1",
+      "question": "Gagasan utama paragraf pertama adalah ....",
+      "options": {
+        "A": "Taman kota membutuhkan biaya besar",
+        "B": "Ruang terbuka hijau memberikan manfaat bagi lingkungan dan masyarakat",
+        "C": "Pepohonan hanya berfungsi menyerap karbon dioksida",
+        "D": "Interaksi sosial warga hanya terjadi di taman kota"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama menjelaskan beberapa manfaat ruang terbuka hijau, baik secara ekologis maupun sosial."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "ppu1",
+      "question": "Menurut teks, salah satu manfaat ekologis pepohonan adalah ....",
+      "options": {
+        "A": "Meningkatkan jumlah kendaraan",
+        "B": "Mengurangi kebutuhan transportasi",
+        "C": "Membantu mengurangi suhu sekitar",
+        "D": "Memperluas kawasan permukiman"
+      },
+      "answer": "C",
+      "explanation": "Teks menyebutkan bahwa pepohonan memberikan keteduhan dan membantu mengurangi suhu di sekitarnya."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "ppu1",
+      "question": "Makna kata 'berkelanjutan' pada paragraf kedua paling dekat dengan ....",
+      "options": {
+        "A": "Dilakukan sesekali",
+        "B": "Berlangsung terus dengan memperhatikan keberlangsungan",
+        "C": "Dikerjakan secara terburu-buru",
+        "D": "Dihentikan setelah taman dibangun"
+      },
+      "answer": "B",
+      "explanation": "Dalam konteks pengelolaan, berkelanjutan berarti dilakukan secara terus-menerus agar fungsi taman tetap terjaga."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "passage": "pbm1",
+      "question": "Kalimat utama paragraf pertama terletak pada ....",
+      "options": {
+        "A": "Awal paragraf",
+        "B": "Tengah paragraf",
+        "C": "Akhir paragraf",
+        "D": "Tidak terdapat kalimat utama"
+      },
+      "answer": "A",
+      "explanation": "Kalimat pertama menyatakan gagasan umum bahwa perpustakaan sekolah tidak hanya berfungsi sebagai tempat meminjam buku. Kalimat berikutnya menjelaskan gagasan tersebut."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "pbm1",
+      "question": "Kata penghubung yang tepat untuk melengkapi kalimat berikut adalah: 'Koleksi buku perlu diperbarui, ... suasana ruang perlu dibuat nyaman.'",
+      "options": {
+        "A": "karena",
+        "B": "tetapi",
+        "C": "dan",
+        "D": "meskipun"
+      },
+      "answer": "C",
+      "explanation": "Konjungsi 'dan' menghubungkan dua hal yang sama-sama perlu dilakukan, yaitu memperbarui koleksi dan membuat ruang nyaman."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "pbm1",
+      "question": "Perbaikan kalimat 'Agar fungsi tersebut berjalan optimal, koleksi buku perlu diperbarui dan suasana ruang perlu dibuat nyaman' yang paling efektif adalah ....",
+      "options": {
+        "A": "Agar optimal, pembaruan buku dan kenyamanan ruang perlu diperhatikan.",
+        "B": "Agar fungsi tersebut berjalan optimal, maka koleksi buku perlu diperbarui dan suasana ruang perlu dibuat nyaman sekali.",
+        "C": "Fungsi optimal agar berjalan, koleksi buku diperbarui serta ruang nyaman.",
+        "D": "Koleksi buku perlu diperbarui, karena suasana ruang perlu dibuat nyaman agar optimal."
+      },
+      "answer": "A",
+      "explanation": "Pilihan A menyampaikan dua tindakan utama secara ringkas dan jelas tanpa pengulangan atau struktur yang tidak efektif."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "question": "Jika 3x − 5 = 16, nilai x adalah ....",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "C",
+      "explanation": "Tambahkan 5 pada kedua ruas sehingga 3x = 21. Kemudian bagi 3, diperoleh x = 7."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "question": "Sebuah tas seharga Rp200.000 mendapat potongan harga 15%. Harga yang harus dibayar adalah ....",
+      "options": {
+        "A": "Rp150.000",
+        "B": "Rp160.000",
+        "C": "Rp170.000",
+        "D": "Rp185.000"
+      },
+      "answer": "C",
+      "explanation": "Potongan = 15% × Rp200.000 = Rp30.000. Harga setelah potongan = Rp200.000 − Rp30.000 = Rp170.000."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "question": "Rata-rata dari lima bilangan 4, 6, 8, 10, dan 12 adalah ....",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "Jumlah kelima bilangan = 40. Rata-rata = 40 ÷ 5 = 8."
+    }
+  ]
+}
