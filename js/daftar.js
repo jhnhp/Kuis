@@ -18,8 +18,9 @@ const tileOf = s => {
 };
 
 // "Kelas 11" → jenjang untuk pengelompokan di beranda (sama dengan Nalarin Learn)
-const JENJANG_ORDER = ['SMP', 'SMA', 'Olimpiade', 'Lainnya'];
+const JENJANG_ORDER = ['SMP', 'SMA', 'UTBK', 'Olimpiade', 'Lainnya'];
 function jenjang(kelas){
+  if(/^UTBK\b/i.test(kelas)) return 'UTBK';
   if(/^Olimpiade/i.test(kelas)) return 'Olimpiade';
   if(/\bSMP\b/i.test(kelas)) return 'SMP';      // "TKA SMP" ikut grup SMP
   if(/\bSMA\b/i.test(kelas)) return 'SMA';      // "TKA SMA" ikut grup SMA
