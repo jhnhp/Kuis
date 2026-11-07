@@ -1,0 +1,314 @@
+{
+  "title": "UTBK-SNBT - Pengetahuan dan Pemahaman Umum (Tingkat Mudah)",
+  "topic": "Makna Kata, Hubungan Antarkalimat, Pemahaman Teks, dan Informasi Umum",
+  "subtitle": "Latihan Dasar 20 Soal",
+  "difficulty_summary": "100% Mudah. Fokus pada pemahaman makna kata, informasi tersurat, hubungan kalimat, dan penggunaan bahasa dalam konteks.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "Ruang Terbuka Hijau di Perkotaan",
+      "text": [
+        "Pertumbuhan penduduk di perkotaan mendorong peningkatan kebutuhan lahan untuk permukiman, perkantoran, dan fasilitas umum. Akibatnya, ruang terbuka hijau sering kali semakin berkurang.",
+        "Padahal, ruang terbuka hijau memiliki sejumlah manfaat. Pepohonan dapat membantu menyerap polutan, memberikan keteduhan, dan mengurangi suhu lingkungan. Area hijau juga menyediakan ruang bagi warga untuk berolahraga dan berinteraksi.",
+        "Karena itu, pemerintah kota perlu mempertahankan taman yang sudah ada sekaligus menambah ruang hijau di kawasan yang padat. Upaya tersebut akan lebih efektif apabila masyarakat ikut menjaga kebersihan dan tidak merusak fasilitas taman."
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Perpustakaan Digital",
+      "text": [
+        "Perkembangan teknologi mengubah cara masyarakat mengakses informasi. Kini, buku dan artikel dapat dibaca melalui perangkat elektronik tanpa harus datang ke perpustakaan.",
+        "Perpustakaan digital memudahkan pengguna mencari bahan bacaan kapan saja. Namun, kemudahan tersebut tidak serta-merta menghilangkan peran perpustakaan fisik. Perpustakaan fisik tetap menyediakan ruang belajar, kegiatan literasi, dan akses bagi masyarakat yang tidak memiliki perangkat atau jaringan internet memadai."
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Mengurangi Sisa Makanan",
+      "text": [
+        "Sisa makanan menjadi salah satu persoalan dalam pengelolaan sampah. Banyak makanan masih layak dikonsumsi, tetapi terbuang karena dibeli atau disiapkan dalam jumlah berlebihan.",
+        "Kebiasaan merencanakan menu dan membeli bahan makanan sesuai kebutuhan dapat mengurangi masalah tersebut. Selain menghemat pengeluaran, langkah sederhana ini juga mengurangi jumlah sampah organik yang harus diolah."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Gagasan utama paragraf pertama adalah ....",
+      "options": {
+        "A": "Pembangunan gedung perkantoran di perkotaan",
+        "B": "Berkurangnya ruang terbuka hijau akibat pertumbuhan kebutuhan lahan",
+        "C": "Manfaat taman bagi kegiatan olahraga",
+        "D": "Cara masyarakat membangun permukiman"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama menjelaskan bahwa kebutuhan lahan untuk berbagai kegiatan meningkat seiring pertumbuhan penduduk sehingga ruang terbuka hijau berkurang."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Makna kata *polutan* pada paragraf kedua adalah ....",
+      "options": {
+        "A": "Zat pencemar",
+        "B": "Sumber energi",
+        "C": "Unsur hara",
+        "D": "Bahan bangunan"
+      },
+      "answer": "A",
+      "explanation": "Polutan adalah zat atau bahan yang menyebabkan pencemaran lingkungan."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Berdasarkan teks, salah satu manfaat pepohonan adalah ....",
+      "options": {
+        "A": "Memperluas kawasan permukiman",
+        "B": "Meningkatkan suhu lingkungan",
+        "C": "Membantu menyerap polutan",
+        "D": "Mengurangi kebutuhan fasilitas umum"
+      },
+      "answer": "C",
+      "explanation": "Teks secara langsung menyebutkan bahwa pepohonan dapat membantu menyerap polutan."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Kata *Padahal* pada awal paragraf kedua menunjukkan hubungan ....",
+      "options": {
+        "A": "Pertentangan atau kontras",
+        "B": "Urutan waktu",
+        "C": "Penambahan contoh",
+        "D": "Sebab-akibat langsung"
+      },
+      "answer": "A",
+      "explanation": "Kata 'padahal' menghubungkan kondisi berkurangnya ruang hijau dengan fakta bahwa ruang hijau sebenarnya memiliki banyak manfaat."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Pernyataan yang sesuai dengan isi teks adalah ....",
+      "options": {
+        "A": "Ruang terbuka hijau hanya bermanfaat bagi pemerintah",
+        "B": "Masyarakat tidak memiliki peran dalam menjaga taman",
+        "C": "Ruang terbuka hijau dapat menjadi tempat berinteraksi",
+        "D": "Pembangunan kota harus dihentikan sepenuhnya"
+      },
+      "answer": "C",
+      "explanation": "Teks menyebutkan bahwa area hijau menyediakan ruang bagi warga untuk berolahraga dan berinteraksi."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Tujuan utama penulis dalam teks tersebut adalah ....",
+      "options": {
+        "A": "Menjelaskan manfaat ruang terbuka hijau dan pentingnya mempertahankannya",
+        "B": "Membandingkan harga lahan di beberapa kota",
+        "C": "Mengajak warga pindah ke wilayah pedesaan",
+        "D": "Menjelaskan proses pembangunan gedung"
+      },
+      "answer": "A",
+      "explanation": "Isi teks memaparkan manfaat ruang terbuka hijau dan perlunya upaya pemerintah serta masyarakat untuk menjaganya."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "passage": "p1",
+      "question": "Kata *mempertahankan* pada paragraf ketiga paling dekat maknanya dengan ....",
+      "options": {
+        "A": "Menghilangkan",
+        "B": "Menjaga agar tetap ada",
+        "C": "Memindahkan",
+        "D": "Mengganti seluruhnya"
+      },
+      "answer": "B",
+      "explanation": "Mempertahankan berarti menjaga sesuatu agar tetap ada atau tidak hilang."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Topik utama teks tersebut adalah ....",
+      "options": {
+        "A": "Sejarah penemuan perangkat elektronik",
+        "B": "Perubahan akses informasi dan peran perpustakaan",
+        "C": "Cara membangun jaringan internet",
+        "D": "Perbandingan harga buku cetak"
+      },
+      "answer": "B",
+      "explanation": "Teks membahas kemudahan akses melalui perpustakaan digital sekaligus menjelaskan bahwa perpustakaan fisik tetap diperlukan."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Menurut teks, perpustakaan digital memungkinkan pengguna untuk ....",
+      "options": {
+        "A": "Mencari bahan bacaan kapan saja",
+        "B": "Menghindari seluruh kegiatan belajar",
+        "C": "Membaca tanpa perangkat elektronik",
+        "D": "Menggantikan semua perpustakaan fisik"
+      },
+      "answer": "A",
+      "explanation": "Paragraf kedua menyebutkan bahwa perpustakaan digital memudahkan pengguna mencari bahan bacaan kapan saja."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Kata *memadai* pada frasa 'jaringan internet memadai' bermakna ....",
+      "options": {
+        "A": "Terbatas",
+        "B": "Cukup atau memenuhi kebutuhan",
+        "C": "Sangat mahal",
+        "D": "Tidak tersedia"
+      },
+      "answer": "B",
+      "explanation": "Memadai berarti cukup, layak, atau memenuhi kebutuhan tertentu."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Mengapa perpustakaan fisik tetap dibutuhkan?",
+      "options": {
+        "A": "Karena semua buku digital tidak dapat dibaca",
+        "B": "Karena perpustakaan fisik menyediakan ruang belajar dan akses bagi masyarakat tertentu",
+        "C": "Karena teknologi tidak berkembang",
+        "D": "Karena masyarakat dilarang membaca secara digital"
+      },
+      "answer": "B",
+      "explanation": "Teks menjelaskan fungsi perpustakaan fisik sebagai ruang belajar, tempat kegiatan literasi, dan akses bagi orang yang tidak memiliki perangkat atau internet memadai."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Hubungan antara paragraf pertama dan kedua adalah ....",
+      "options": {
+        "A": "Paragraf pertama menjelaskan perubahan akses informasi, sedangkan paragraf kedua menguraikan manfaat dan keterbatasannya",
+        "B": "Paragraf pertama berisi kesimpulan, sedangkan paragraf kedua berisi judul",
+        "C": "Kedua paragraf membahas topik yang tidak berkaitan",
+        "D": "Paragraf kedua menyangkal seluruh informasi pada paragraf pertama"
+      },
+      "answer": "A",
+      "explanation": "Paragraf pertama memperkenalkan perubahan akses informasi melalui teknologi. Paragraf kedua menjelaskan manfaat perpustakaan digital dan alasan perpustakaan fisik tetap penting."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Pernyataan yang paling tepat berdasarkan teks adalah ....",
+      "options": {
+        "A": "Perpustakaan digital dan fisik memiliki fungsi yang dapat saling melengkapi",
+        "B": "Perpustakaan fisik sudah tidak berguna",
+        "C": "Semua masyarakat memiliki akses internet yang sama",
+        "D": "Buku digital hanya dapat dibaca di perpustakaan"
+      },
+      "answer": "A",
+      "explanation": "Teks menunjukkan bahwa perpustakaan digital memberi kemudahan akses, sementara perpustakaan fisik tetap menyediakan fungsi dan akses yang berbeda."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "p2",
+      "question": "Kata *Namun* digunakan untuk menandai hubungan ....",
+      "options": {
+        "A": "Penjelasan contoh",
+        "B": "Pertentangan atau pembatasan terhadap pernyataan sebelumnya",
+        "C": "Penambahan jumlah",
+        "D": "Urutan kegiatan"
+      },
+      "answer": "B",
+      "explanation": "Kata 'namun' menunjukkan kontras antara kemudahan perpustakaan digital dan kenyataan bahwa perpustakaan fisik masih dibutuhkan."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "p3",
+      "question": "Penyebab sisa makanan menjadi persoalan menurut teks adalah ....",
+      "options": {
+        "A": "Semua makanan memiliki harga mahal",
+        "B": "Makanan layak konsumsi terbuang akibat pembelian atau persiapan berlebihan",
+        "C": "Masyarakat tidak memiliki tempat memasak",
+        "D": "Sampah organik tidak dapat diolah"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama menyebutkan bahwa makanan yang masih layak dikonsumsi terbuang karena dibeli atau disiapkan terlalu banyak."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "p3",
+      "question": "Makna kata *berlebihan* dalam teks adalah ....",
+      "options": {
+        "A": "Kurang dari kebutuhan",
+        "B": "Sesuai kebutuhan",
+        "C": "Melebihi jumlah yang diperlukan",
+        "D": "Tidak memiliki nilai"
+      },
+      "answer": "C",
+      "explanation": "Berlebihan berarti terlalu banyak atau melampaui jumlah yang diperlukan."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "p3",
+      "question": "Tindakan yang disarankan untuk mengurangi sisa makanan adalah ....",
+      "options": {
+        "A": "Membeli bahan makanan sebanyak mungkin",
+        "B": "Merencanakan menu dan membeli bahan sesuai kebutuhan",
+        "C": "Membuang makanan sebelum disimpan",
+        "D": "Menghindari semua jenis makanan segar"
+      },
+      "answer": "B",
+      "explanation": "Paragraf kedua menyarankan perencanaan menu dan pembelian bahan makanan sesuai kebutuhan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "passage": "p3",
+      "question": "Selain mengurangi sampah organik, kebiasaan yang disarankan juga dapat ....",
+      "options": {
+        "A": "Meningkatkan pengeluaran",
+        "B": "Menghemat pengeluaran",
+        "C": "Menambah jumlah makanan terbuang",
+        "D": "Mengurangi kebutuhan memasak hingga nol"
+      },
+      "answer": "B",
+      "explanation": "Teks menyatakan bahwa merencanakan menu dan membeli sesuai kebutuhan dapat menghemat pengeluaran."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "question": "Kalimat manakah yang menggunakan kata baku?",
+      "options": {
+        "A": "Para siswa sedang menganalisa hasil pengamatan.",
+        "B": "Ibu membeli obat di apotik.",
+        "C": "Pemerintah mengimbau warga menjaga kebersihan.",
+        "D": "Kami sekedar membaca pengumuman."
+      },
+      "answer": "C",
+      "explanation": "Bentuk baku yang tepat adalah 'mengimbau'. Bentuk baku lainnya ialah 'menganalisis', 'apotek', dan 'sekadar'."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "question": "Kalimat 'Pemerintah memperbaiki jalan agar perjalanan warga lebih lancar' memiliki hubungan makna yang menunjukkan ....",
+      "options": {
+        "A": "Tujuan",
+        "B": "Pertentangan",
+        "C": "Perbandingan",
+        "D": "Pilihan"
+      },
+      "answer": "A",
+      "explanation": "Kata 'agar' menyatakan tujuan. Perbaikan jalan dilakukan dengan tujuan membuat perjalanan warga lebih lancar."
+    }
+  ]
+}
