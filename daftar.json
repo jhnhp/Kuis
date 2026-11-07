@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T17:10:56",
+  "generated": "2026-11-07T08:58:51",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2448,6 +2448,18 @@
         "08 Simulasi TKA"
       ],
       "path": "TKA SMP/Matematika/08 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Penalaran Umum (Tingkat Mudah)",
+      "topic": "Penalaran Induktif, Penalaran Deduktif, dan Penalaran Kuantitatif",
+      "summary": "100% Mudah. Fokus pada pengenalan pola, kesimpulan logis, dan perhitungan sederhana.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Penalaran Umum",
+      "topik": [
+        "01 Penalaran Umum - Tingkat Mudah"
+      ],
+      "path": "TKA SMA/Penalaran Umum/01 Penalaran Umum - Tingkat Mudah/soal.json"
     }
   ]
 }
