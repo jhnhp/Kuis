@@ -1,0 +1,268 @@
+{
+  "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Tingkat Mudah)",
+  "topic": "Bilangan, Aljabar, Perbandingan, Geometri, Statistika, dan Peluang",
+  "difficulty_summary": "100% Mudah. Latihan konsep dasar aritmetika, aljabar, rasio, geometri, statistika, dan peluang.",
+  "total_questions": 20,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Hasil dari 25 + 3 × 4 adalah ....",
+      "options": {
+        "A": "112",
+        "B": "37",
+        "C": "28",
+        "D": "100"
+      },
+      "answer": "B",
+      "explanation": "Operasi perkalian dikerjakan lebih dahulu: 3 × 4 = 12, kemudian 25 + 12 = 37."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Nilai dari ¾ + ½ adalah ....",
+      "options": {
+        "A": "1",
+        "B": "1¼",
+        "C": "1½",
+        "D": "2"
+      },
+      "answer": "B",
+      "explanation": "Samakan penyebut: ¾ + ½ = ¾ + 2/4 = 5/4 = 1¼."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Sebuah toko memberikan diskon 20% untuk barang seharga Rp150.000. Harga setelah diskon adalah ....",
+      "options": {
+        "A": "Rp110.000",
+        "B": "Rp120.000",
+        "C": "Rp125.000",
+        "D": "Rp130.000"
+      },
+      "answer": "B",
+      "explanation": "Diskon = 20% × Rp150.000 = Rp30.000. Harga akhir = Rp150.000 − Rp30.000 = Rp120.000."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Jika 5x = 35, nilai x adalah ....",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "C",
+      "explanation": "Bagi kedua ruas dengan 5 sehingga x = 35/5 = 7."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Hasil penyederhanaan 3a + 2a − 4 adalah ....",
+      "options": {
+        "A": "5a − 4",
+        "B": "a − 4",
+        "C": "5a + 4",
+        "D": "6a − 4"
+      },
+      "answer": "A",
+      "explanation": "Suku sejenis 3a dan 2a dapat dijumlahkan menjadi 5a. Konstanta −4 tetap."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Perbandingan jumlah buku Ani dan Budi adalah 2 : 3. Jika jumlah buku mereka 25, jumlah buku Budi adalah ....",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "18"
+      },
+      "answer": "C",
+      "explanation": "Total bagian = 2 + 3 = 5. Satu bagian = 25/5 = 5, sehingga buku Budi = 3 × 5 = 15."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "question": "Sebuah kendaraan menempuh jarak 120 km dalam waktu 2 jam. Kecepatan rata-ratanya adalah ....",
+      "options": {
+        "A": "40 km/jam",
+        "B": "50 km/jam",
+        "C": "60 km/jam",
+        "D": "80 km/jam"
+      },
+      "answer": "C",
+      "explanation": "Kecepatan rata-rata = jarak ÷ waktu = 120 ÷ 2 = 60 km/jam."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "question": "Jika f(x) = 2x + 3, nilai f(4) adalah ....",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "11",
+        "D": "14"
+      },
+      "answer": "C",
+      "explanation": "Substitusikan x = 4: f(4) = 2(4) + 3 = 11."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "question": "Suku berikutnya dari barisan 4, 7, 10, 13, ... adalah ....",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "17"
+      },
+      "answer": "C",
+      "explanation": "Setiap suku bertambah 3. Jadi suku berikutnya adalah 13 + 3 = 16."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "question": "Luas persegi dengan panjang sisi 8 cm adalah ....",
+      "options": {
+        "A": "16 cm²",
+        "B": "32 cm²",
+        "C": "64 cm²",
+        "D": "80 cm²"
+      },
+      "answer": "C",
+      "explanation": "Luas persegi = sisi × sisi = 8 × 8 = 64 cm²."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "question": "Keliling persegi panjang dengan panjang 10 cm dan lebar 4 cm adalah ....",
+      "options": {
+        "A": "14 cm",
+        "B": "28 cm",
+        "C": "40 cm",
+        "D": "56 cm"
+      },
+      "answer": "B",
+      "explanation": "Keliling = 2 × (panjang + lebar) = 2 × (10 + 4) = 28 cm."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "question": "Sebuah segitiga memiliki alas 12 cm dan tinggi 5 cm. Luasnya adalah ....",
+      "options": {
+        "A": "17 cm²",
+        "B": "30 cm²",
+        "C": "60 cm²",
+        "D": "120 cm²"
+      },
+      "answer": "B",
+      "explanation": "Luas segitiga = ½ × alas × tinggi = ½ × 12 × 5 = 30 cm²."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Rata-rata dari 6, 8, 10, dan 12 adalah ....",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "11"
+      },
+      "answer": "B",
+      "explanation": "Rata-rata = (6 + 8 + 10 + 12) ÷ 4 = 36 ÷ 4 = 9."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "question": "Median dari data 3, 5, 7, 9, 11 adalah ....",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B",
+      "explanation": "Data sudah berurutan dan memiliki lima nilai. Nilai tengahnya adalah 7."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "question": "Sebuah dadu bersisi enam dilempar sekali. Peluang muncul mata dadu 4 adalah ....",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/4",
+        "D": "1/6"
+      },
+      "answer": "D",
+      "explanation": "Ada satu hasil yang diinginkan dari enam kemungkinan yang sama peluangnya, sehingga peluangnya 1/6."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Nilai dari 2³ × 2² adalah ....",
+      "options": {
+        "A": "16",
+        "B": "24",
+        "C": "32",
+        "D": "64"
+      },
+      "answer": "C",
+      "explanation": "Untuk bilangan pokok yang sama, pangkat dijumlahkan: 2³ × 2² = 2⁵ = 32."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "question": "Jika 2x + 6 = 16, nilai x adalah ....",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "Kurangi kedua ruas dengan 6: 2x = 10. Kemudian bagi 2 sehingga x = 5."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "question": "Sebuah lingkaran memiliki jari-jari 7 cm. Dengan π = 22/7, kelilingnya adalah ....",
+      "options": {
+        "A": "22 cm",
+        "B": "44 cm",
+        "C": "88 cm",
+        "D": "154 cm"
+      },
+      "answer": "B",
+      "explanation": "Keliling lingkaran = 2πr = 2 × 22/7 × 7 = 44 cm."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "question": "Harga 3 pensil adalah Rp9.000. Dengan harga satuan yang sama, harga 5 pensil adalah ....",
+      "options": {
+        "A": "Rp12.000",
+        "B": "Rp13.000",
+        "C": "Rp15.000",
+        "D": "Rp18.000"
+      },
+      "answer": "C",
+      "explanation": "Harga satu pensil = Rp9.000 ÷ 3 = Rp3.000. Harga lima pensil = 5 × Rp3.000 = Rp15.000."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "question": "Dalam sebuah kelas terdapat 12 siswa laki-laki dan 18 siswa perempuan. Persentase siswa perempuan adalah ....",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "60%",
+        "D": "66⅔%"
+      },
+      "answer": "C",
+      "explanation": "Jumlah siswa = 12 + 18 = 30. Persentase perempuan = 18/30 × 100% = 60%."
+    }
+  ]
+}
