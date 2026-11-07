@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T08:59:35",
+  "generated": "2026-11-07T09:00:17",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2472,6 +2472,18 @@
         "01 PPU - Tingkat Mudah"
       ],
       "path": "TKA SMA/Pengetahuan dan Pemahaman Umum/01 PPU - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Tingkat Mudah)",
+      "topic": "Gagasan Utama, Kalimat Efektif, Kepaduan Paragraf, Konjungsi, dan Ejaan",
+      "summary": "100% Mudah. Fokus pada pemahaman struktur paragraf, kalimat efektif, pilihan kata, konjungsi, dan kaidah penulisan.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Pemahaman Bacaan dan Menulis",
+      "topik": [
+        "01 PBM - Tingkat Mudah"
+      ],
+      "path": "TKA SMA/Pemahaman Bacaan dan Menulis/01 PBM - Tingkat Mudah/soal.json"
     }
   ]
 }
