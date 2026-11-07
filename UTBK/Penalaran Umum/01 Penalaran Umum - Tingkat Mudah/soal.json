@@ -1,0 +1,269 @@
+{
+  "title": "UTBK-SNBT - Penalaran Umum (Tingkat Mudah)",
+  "topic": "Penalaran Induktif, Penalaran Deduktif, dan Penalaran Kuantitatif",
+  "subtitle": "Latihan Dasar 20 Soal",
+  "difficulty_summary": "100% Mudah. Fokus pada pengenalan pola, kesimpulan logis, dan perhitungan sederhana.",
+  "total_questions": 20,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola bilangan berikut: 3, 6, 9, 12, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "Setiap bilangan bertambah 3. Jadi, 12 + 3 = 15."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola huruf berikut: A, C, E, G, .... Huruf berikutnya adalah ....",
+      "options": {
+        "A": "H",
+        "B": "I",
+        "C": "J",
+        "D": "K"
+      },
+      "answer": "B",
+      "explanation": "Pola bergerak dengan melewati satu huruf: A, C, E, G, sehingga huruf berikutnya adalah I."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola bilangan berikut: 2, 4, 8, 16, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "30",
+        "D": "32"
+      },
+      "answer": "D",
+      "explanation": "Setiap bilangan dikalikan 2. Jadi, 16 × 2 = 32."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola berikut: 1, 4, 9, 16, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "25",
+        "D": "36"
+      },
+      "answer": "C",
+      "explanation": "Bilangan merupakan kuadrat berurutan: 1², 2², 3², 4². Berikutnya 5² = 25."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola bilangan berikut: 20, 18, 15, 11, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "Pengurangannya berturut-turut 2, 3, dan 4. Berikutnya dikurangi 5, sehingga 11 − 5 = 6."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Dalam sebuah kelompok, setiap anggota baru berjabat tangan satu kali dengan ketua kelompok. Jika ada 4 anggota selain ketua, berapa jabat tangan yang dilakukan?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "Setiap dari 4 anggota berjabat tangan satu kali dengan ketua. Totalnya 4 jabat tangan."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola berikut: Senin, Rabu, Jumat, .... Hari berikutnya dalam pola tersebut adalah ....",
+      "options": {
+        "A": "Sabtu",
+        "B": "Minggu",
+        "C": "Senin",
+        "D": "Selasa"
+      },
+      "answer": "B",
+      "explanation": "Pola melompat dua hari setiap langkah: Senin ke Rabu, Rabu ke Jumat, lalu Jumat ke Minggu."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "question": "Semua peserta lomba wajib memakai kartu identitas. Rina adalah peserta lomba. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Rina boleh tidak memakai kartu identitas",
+        "B": "Rina wajib memakai kartu identitas",
+        "C": "Semua pemakai kartu identitas adalah peserta lomba",
+        "D": "Rina adalah panitia lomba"
+      },
+      "answer": "B",
+      "explanation": "Karena seluruh peserta wajib memakai kartu identitas dan Rina merupakan peserta, Rina juga wajib memakainya."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "question": "Semua mamalia bernapas dengan paru-paru. Paus adalah mamalia. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Paus bernapas dengan insang",
+        "B": "Paus bernapas dengan paru-paru",
+        "C": "Semua hewan laut adalah mamalia",
+        "D": "Paus bukan hewan"
+      },
+      "answer": "B",
+      "explanation": "Paus termasuk mamalia, sehingga mengikuti sifat yang berlaku bagi semua mamalia, yaitu bernapas dengan paru-paru."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "question": "Jika hujan turun, lapangan menjadi basah. Saat ini hujan sedang turun. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Lapangan menjadi basah",
+        "B": "Lapangan pasti kering",
+        "C": "Hujan tidak memengaruhi lapangan",
+        "D": "Tidak dapat terjadi hujan"
+      },
+      "answer": "A",
+      "explanation": "Premis menyatakan bahwa hujan menyebabkan lapangan basah. Karena hujan sedang turun, lapangan menjadi basah."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "question": "Tidak ada siswa kelas X yang berusia 20 tahun. Dito adalah siswa kelas X. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Dito berusia 20 tahun",
+        "B": "Dito tidak berusia 20 tahun",
+        "C": "Dito bukan siswa",
+        "D": "Semua siswa berusia 20 tahun"
+      },
+      "answer": "B",
+      "explanation": "Dito termasuk siswa kelas X, sedangkan tidak satu pun siswa kelas X berusia 20 tahun. Jadi, Dito tidak berusia 20 tahun."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "question": "Semua anggota klub membaca gemar membaca buku. Sebagian siswa SMA Nusantara adalah anggota klub membaca. Kesimpulan yang pasti benar adalah ....",
+      "options": {
+        "A": "Semua siswa SMA Nusantara gemar membaca buku",
+        "B": "Sebagian siswa SMA Nusantara gemar membaca buku",
+        "C": "Tidak ada siswa SMA Nusantara yang gemar membaca buku",
+        "D": "Semua orang yang gemar membaca buku adalah anggota klub"
+      },
+      "answer": "B",
+      "explanation": "Sebagian siswa merupakan anggota klub, dan semua anggota klub gemar membaca buku. Dengan demikian, sebagian siswa SMA Nusantara gemar membaca buku."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Jika Andi belajar dengan tekun, ia lulus ujian. Andi belajar dengan tekun. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Andi tidak mengikuti ujian",
+        "B": "Andi lulus ujian",
+        "C": "Andi pasti mendapat nilai 100",
+        "D": "Andi tidak belajar"
+      },
+      "answer": "B",
+      "explanation": "Pernyataan bersyarat menyatakan bahwa ketekunan belajar cukup untuk menyimpulkan Andi lulus ujian."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "question": "Semua kendaraan bermotor membutuhkan bahan bakar atau sumber energi untuk beroperasi. Sepeda motor adalah kendaraan bermotor. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Sepeda motor tidak membutuhkan energi",
+        "B": "Sepeda motor membutuhkan bahan bakar atau sumber energi",
+        "C": "Semua kendaraan adalah sepeda motor",
+        "D": "Sepeda motor selalu menggunakan tenaga manusia"
+      },
+      "answer": "B",
+      "explanation": "Sepeda motor termasuk kendaraan bermotor, sehingga termasuk dalam kelompok yang membutuhkan bahan bakar atau sumber energi."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "question": "Harga sebuah buku adalah Rp12.000. Jika seseorang membeli 3 buku dengan harga yang sama, total yang harus dibayar adalah ....",
+      "options": {
+        "A": "Rp24.000",
+        "B": "Rp30.000",
+        "C": "Rp36.000",
+        "D": "Rp42.000"
+      },
+      "answer": "C",
+      "explanation": "Total harga = 3 × Rp12.000 = Rp36.000."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Sebuah kendaraan menempuh jarak 60 km dalam waktu 2 jam dengan kecepatan tetap. Jarak yang ditempuh dalam 1 jam adalah ....",
+      "options": {
+        "A": "20 km",
+        "B": "30 km",
+        "C": "40 km",
+        "D": "60 km"
+      },
+      "answer": "B",
+      "explanation": "Dengan kecepatan tetap, jarak per jam = 60 km ÷ 2 = 30 km."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "question": "Perbandingan jumlah buku fiksi dan nonfiksi di rak adalah 2 : 3. Jika jumlah buku fiksi 10, jumlah buku nonfiksi adalah ....",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "20"
+      },
+      "answer": "B",
+      "explanation": "Dua bagian setara dengan 10 buku, sehingga satu bagian = 5. Buku nonfiksi berjumlah 3 × 5 = 15."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "question": "Rata-rata nilai 4 siswa adalah 70. Tiga siswa memperoleh nilai 60, 70, dan 80. Nilai siswa keempat adalah ....",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "75",
+        "D": "80"
+      },
+      "answer": "B",
+      "explanation": "Jumlah nilai seluruh siswa = 4 × 70 = 280. Tiga nilai berjumlah 210, sehingga nilai keempat = 280 − 210 = 70."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "question": "Sebuah toko memberikan potongan harga 10% dari harga awal Rp50.000. Harga setelah potongan adalah ....",
+      "options": {
+        "A": "Rp40.000",
+        "B": "Rp45.000",
+        "C": "Rp48.000",
+        "D": "Rp55.000"
+      },
+      "answer": "B",
+      "explanation": "Diskon = 10% × Rp50.000 = Rp5.000. Harga setelah diskon = Rp50.000 − Rp5.000 = Rp45.000."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "question": "Dalam sebuah kotak terdapat 3 bola merah dan 2 bola biru. Jika satu bola diambil secara acak, peluang terambil bola merah adalah ....",
+      "options": {
+        "A": "1/5",
+        "B": "2/5",
+        "C": "3/5",
+        "D": "3/2"
+      },
+      "answer": "C",
+      "explanation": "Jumlah seluruh bola adalah 5 dan bola merah ada 3. Peluang terambil bola merah = 3/5."
+    }
+  ]
+}
