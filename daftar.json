@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T09:01:21",
+  "generated": "2026-11-07T09:08:57",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2496,6 +2496,18 @@
         "01 PK - Tingkat Mudah"
       ],
       "path": "TKA SMA/Pengetahuan Kuantitatif/01 PK - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Paket Lengkap TPS (12 Soal)",
+      "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
+      "summary": "12 soal tingkat mudah, terdiri atas 3 soal PU, 3 soal PPU, 3 soal PBM, dan 3 soal PK.",
+      "questions": 12,
+      "kelas": "TKA SMA",
+      "mapel": "Paket TPS",
+      "topik": [
+        "01 Paket Lengkap TPS - 12 Soal"
+      ],
+      "path": "TKA SMA/Paket TPS/01 Paket Lengkap TPS - 12 Soal/soal.json"
     }
   ]
 }
