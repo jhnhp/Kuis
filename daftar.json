@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T08:58:51",
+  "generated": "2026-11-07T08:59:35",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2460,6 +2460,18 @@
         "01 Penalaran Umum - Tingkat Mudah"
       ],
       "path": "TKA SMA/Penalaran Umum/01 Penalaran Umum - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Pengetahuan dan Pemahaman Umum (Tingkat Mudah)",
+      "topic": "Makna Kata, Hubungan Antarkalimat, Pemahaman Teks, dan Informasi Umum",
+      "summary": "100% Mudah. Fokus pada pemahaman makna kata, informasi tersurat, hubungan kalimat, dan penggunaan bahasa dalam konteks.",
+      "questions": 20,
+      "kelas": "TKA SMA",
+      "mapel": "Pengetahuan dan Pemahaman Umum",
+      "topik": [
+        "01 PPU - Tingkat Mudah"
+      ],
+      "path": "TKA SMA/Pengetahuan dan Pemahaman Umum/01 PPU - Tingkat Mudah/soal.json"
     }
   ]
 }
