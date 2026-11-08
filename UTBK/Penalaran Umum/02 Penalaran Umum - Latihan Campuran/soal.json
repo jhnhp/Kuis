@@ -1,0 +1,281 @@
+{
+  "title": "UTBK-SNBT - Penalaran Umum (Latihan Campuran)",
+  "topic": "Penalaran Induktif, Penalaran Deduktif, dan Penalaran Kuantitatif",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan silogisme, pola barisan, penarikan kesimpulan logis, tabel data, dan penalaran analitis standar UTBK.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_pu1",
+      "title": "Teks untuk soal 15–16: Penggunaan Energi Terbarukan",
+      "text": [
+        "Sebuah laporan energi mencatat bahwa efisiensi panel surya generasi terbaru meningkat sebesar 25% dibandingkan generasi sebelumnya. Peningkatan ini menyebabkan penurunan biaya pemasangan sistem listrik tenaga surya per kilowatt-peak (kWp) hingga 15%. Di sisi lain, peningkatan adopsi kendaraan listrik mendorong kebutuhan pasokan listrik rumah tangga rata-rata melonjak 40%.",
+        "Pemerintah memberikan insentif pajak bagi rumah tangga yang menggunakan panel surya sekaligus memiliki kendaraan listrik. Jika sebuah rumah tangga memanfaatkan insentif pajak tersebut, total pengeluaran energi bulanan rumah tangga tersebut berkurang drastis."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Perhatikan barisan bilangan berikut: 4, 7, 12, 19, 28, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "37",
+        "B": "38",
+        "C": "39",
+        "D": "40"
+      },
+      "answer": "C",
+      "explanation": "Pola selisih antarbilangan adalah bilangan ganjil yang bertambah: +3, +5, +7, +9, .... Maka selisih berikutnya adalah +11. Jadi, 28 + 11 = 39."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Semua atlet lari maraton memiliki daya tahan jantung yang prima. Sebagian mahasiswa baru adalah atlet lari maraton. Kesimpulan yang tepat adalah ....",
+      "options": {
+        "A": "Sebagian mahasiswa baru memiliki daya tahan jantung yang prima",
+        "B": "Semua mahasiswa baru memiliki daya tahan jantung yang prima",
+        "C": "Sebagian mahasiswa baru bukan atlet lari maraton dan tidak memiliki daya tahan prima",
+        "D": "Semua orang yang memiliki daya tahan jantung prima adalah mahasiswa baru"
+      },
+      "answer": "A",
+      "explanation": "Sebagian mahasiswa baru tergolong atlet maraton, dan seluruh atlet maraton memiliki daya tahan jantung prima. Oleh karena itu, sebagian mahasiswa baru tersebut memiliki daya tahan jantung yang prima."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Ingkaran dari pernyataan 'Semua peserta ujian membawa kartu tanda pengenal dan pensil 2B' adalah ....",
+      "options": {
+        "A": "Tidak ada peserta ujian yang membawa kartu tanda pengenal dan pensil 2B",
+        "B": "Ada peserta ujian yang tidak membawa kartu tanda pengenal atau tidak membawa pensil 2B",
+        "C": "Semua peserta ujian tidak membawa kartu tanda pengenal dan pensil 2B",
+        "D": "Sebagian peserta ujian membawa kartu pengenal tetapi tidak membawa pensil 2B"
+      },
+      "answer": "B",
+      "explanation": "Ingkaran dari pernyataan berkuantor universal 'Semua P berlaku (Q dan R)' adalah berkuantor eksistensial 'Ada/Beberapa P yang tidak Q atau tidak R' (Hukum De Morgan)."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Sebuah mesin cetak dapat mencetak 45 lembar dokumen dalam waktu 3 menit. Jika mesin bekerja dengan kecepatan konstan, waktu yang dibutuhkan untuk mencetak 180 lembar dokumen adalah ....",
+      "options": {
+        "A": "9 menit",
+        "B": "10 menit",
+        "C": "15 menit",
+        "D": "12 menit"
+      },
+      "answer": "D",
+      "explanation": "Kecepatan mesin = 45 lembar / 3 menit = 15 lembar/menit. Waktu untuk mencetak 180 lembar = 180 / 15 = 12 menit."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "Perhatikan pola huruf berikut: B, D, G, K, P, .... Huruf berikutnya adalah ....",
+      "options": {
+        "A": "U",
+        "B": "V",
+        "C": "W",
+        "D": "T"
+      },
+      "answer": "B",
+      "explanation": "Urutan alfabet: B(2), D(4), G(7), K(11), P(16). Pola penambahan indeks adalah +2, +3, +4, +5, .... Penambahan berikutnya adalah +6: 16 + 6 = 22, yang merupakan huruf V."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Jika inflasi meningkat tajam, suku bunga acuan bank sentral akan dinaikkan. Jika suku bunga acuan dinaikkan, laju penyaluran kredit perbankan melambat. Diketahui saat ini laju penyaluran kredit perbankan tidak melambat. Kesimpulan yang sah adalah ....",
+      "options": {
+        "A": "Suku bunga acuan bank sentral dinaikkan",
+        "B": "Inflasi meningkat tetapi suku bunga tetap",
+        "C": "Inflasi tidak meningkat tajam",
+        "D": "Penyaluran kredit akan segera mengalami perlambatan"
+      },
+      "answer": "C",
+      "explanation": "Berdasarkan prinsip silogisme hipotetik: Inflasi meningkat → Suku bunga naik → Kredit melambat. Diketahui kredit tidak melambat (~R). Berdasarkan Modus Tollens, maka suku bunga tidak naik (~Q), dan akibatnya inflasi tidak meningkat tajam (~P)."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Lima siswa (Agus, Bima, Citra, Dodi, Eka) mengikuti seleksi beasiswa. Nilai Bima lebih tinggi daripada nilai Agus, tetapi lebih rendah daripada nilai Dodi. Nilai Citra lebih tinggi daripada nilai Dodi. Nilai Eka berada di antara nilai Bima dan nilai Agus. Siswa yang memperoleh nilai tertinggi kedua adalah ....",
+      "options": {
+        "A": "Citra",
+        "B": "Bima",
+        "C": "Eka",
+        "D": "Dodi"
+      },
+      "answer": "D",
+      "explanation": "Urutan nilai dari yang tertinggi: Citra > Dodi > Bima > Eka > Agus. Siswa dengan nilai tertinggi kedua adalah Dodi."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Perhatikan pola operasi angka berikut:<br>(6, 4) menghasilkan 20<br>(7, 3) menghasilkan 40<br>(8, 2) menghasilkan 60<br>Dengan pola operasi yang sama, (9, 5) menghasilkan ....",
+      "options": {
+        "A": "56",
+        "B": "54",
+        "C": "58",
+        "D": "62"
+      },
+      "answer": "A",
+      "explanation": "Pola operasi adalah selisih kuadrat kedua bilangan: a² − b².<br>6² − 4² = 36 − 16 = 20<br>7² − 3² = 49 − 9 = 40<br>8² − 2² = 64 − 4 = 60<br>Untuk (9, 5): 9² − 5² = 81 − 25 = 56."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Data penjualan unit sepeda motor dari empat cabang dealer pada tahun 2024 dan 2025 tercatat sebagai berikut:<br>• Cabang P: dari 200 unit menjadi 260 unit<br>• Cabang Q: dari 150 unit menjadi 210 unit<br>• Cabang R: dari 300 unit menjadi 360 unit<br>• Cabang S: dari 250 unit menjadi 325 unit<br>Cabang yang mengalami <b>persentase kenaikan penjualan tertinggi</b> adalah ....",
+      "options": {
+        "A": "Cabang P",
+        "B": "Cabang Q",
+        "C": "Cabang R",
+        "D": "Cabang S"
+      },
+      "answer": "B",
+      "explanation": "Hitung persentase kenaikan masing-masing cabang:<br>• P = (60/200) × 100% = 30%<br>• Q = (60/150) × 100% = 40%<br>• R = (60/300) × 100% = 20%<br>• S = (75/250) × 100% = 30%<br>Kenaikan tertinggi adalah Cabang Q (40%)."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Rere pergi berlibur ke Bali atau membeli laptop baru. Jika Rere membeli laptop baru, tabungannya di bank akan berkurang drastis. Faktanya, tabungan Rere di bank tidak berkurang drastis. Kesimpulan yang paling tepat adalah ....",
+      "options": {
+        "A": "Rere membeli laptop bekas yang murah",
+        "B": "Rere tidak berlibur ke Bali dan tidak membeli laptop",
+        "C": "Rere pergi berlibur ke Bali",
+        "D": "Rere menunda liburannya hingga bulan depan"
+      },
+      "answer": "C",
+      "explanation": "Pernyataan 1: Berlibur ke Bali (p) ATAU Beli laptop (q).<br>Pernyataan 2: Jika beli laptop (q) → tabungan berkurang drastis (r).<br>Fakta: Tabungan tidak berkurang (~r) → Modus Tollens menghasilkan ~q (Rere tidak membeli laptop).<br>Karena (p atau q) benar dan ~q benar, maka menurut silogisme disjungtif, p harus benar (Rere pergi berlibur ke Bali)."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Dari 60 siswa di suatu kelas bimbingan, 38 orang memilih program Saintek, 32 orang memilih program Soshum, dan 6 orang tidak memilih keduanya. Banyak siswa yang memilih kedua program sekaligus adalah ....",
+      "options": {
+        "A": "12 orang",
+        "B": "14 orang",
+        "C": "18 orang",
+        "D": "16 orang"
+      },
+      "answer": "D",
+      "explanation": "Banyak siswa yang memilih minimal salah satu program = 60 − 6 = 54 orang.<br>Berdasarkan prinsip inklusi-eksklusi: n(Saintek ∪ Soshum) = n(Saintek) + n(Soshum) − n(Saintek ∩ Soshum)<br>54 = 38 + 32 − x<br>54 = 70 − x \\implies x = 70 − 54 = 16 orang."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Mobil X berangkat dari kota A menuju kota B pada pukul 07.00 dengan kelajuan tetap 60 km/jam. Pada pukul 07.30, mobil Y berangkat dari kota A menyusul melalui rute yang sama dengan kelajuan tetap 80 km/jam. Pada pukul berapa mobil Y akan menyusul mobil X?",
+      "options": {
+        "A": "09.00",
+        "B": "08.45",
+        "C": "09.15",
+        "D": "09.30"
+      },
+      "answer": "A",
+      "explanation": "Selang waktu mobil X sebelum Y berangkat = 30 menit = 0,5 jam.<br>Jarak mula-mula mobil X = 60 km/jam × 0,5 jam = 30 km.<br>Selisih kelajuan Y dan X = 80 − 60 = 20 km/jam.<br>Waktu yang dibutuhkan untuk menyusul = 30 km / 20 km/jam = 1,5 jam (90 menit).<br>Mobil Y menyusul pada pukul: 07.30 + 1 jam 30 menit = 09.00."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Perhatikan dua pernyataan berikut:<br>(1) Terjadi serangan hama wereng dan musim kemarau berkepanjangan di kawasan lumbung padi.<br>(2) Petani di kawasan tersebut mengalami penurunan volume panen gabah hingga 40%.<br>Hubungan kausal (sebab-akibat) yang paling logis antara kedua pernyataan adalah ....",
+      "options": {
+        "A": "Pernyataan (2) adalah penyebab dan pernyataan (1) adalah akibat",
+        "B": "Pernyataan (1) adalah penyebab dan pernyataan (2) adalah akibat",
+        "C": "Pernyataan (1) dan (2) adalah akibat dari suatu penyebab yang sama",
+        "D": "Pernyataan (1) dan (2) adalah akibat dari dua penyebab independen yang tidak saling berhubungan"
+      },
+      "answer": "B",
+      "explanation": "Serangan hama dan kemarau berkepanjangan (pernyataan 1) secara logis merupakan faktor penyebab yang mengakibatkan penurunan volume panen gabah petani (pernyataan 2)."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Perhatikan barisan bilangan berikut: 5, 8, 16, 19, 38, 41, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "82",
+        "B": "80",
+        "C": "84",
+        "D": "79"
+      },
+      "answer": "A",
+      "explanation": "Pola operasi berulang secara bergantian: +3, ×2, +3, ×2, +3, ×2.<br>5 (+3) = 8<br>8 (×2) = 16<br>16 (+3) = 19<br>19 (×2) = 38<br>38 (+3) = 41<br>Berikutnya adalah operasi perkalian: 41 × 2 = 82."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "question": "Berdasarkan teks, pernyataan manakah yang PALING BENAR mengenai dampak perkembangan teknologi energi terbarukan?",
+      "options": {
+        "A": "Peningkatan efisiensi panel surya berkontribusi pada penurunan biaya instalasi listrik tenaga surya",
+        "B": "Pemanfaatan panel surya secara otomatis menurunkan kebutuhan daya listrik kendaraan listrik",
+        "C": "Insentif pajak diberikan kepada semua warga kota tanpa memandang jenis kendaraan yang dimiliki",
+        "D": "Penurunan biaya panel surya menyebabkan masyarakat tidak lagi memerlukan pasokan listrik PLN"
+      },
+      "answer": "A",
+      "explanation": "Teks secara eksplisit menyatakan bahwa peningkatan efisiensi panel surya generasi terbaru sebesar 25% menyebabkan penurunan biaya pemasangan sistem listrik tenaga surya hingga 15%.",
+      "passage": "teks_pu1"
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "question": "Keluarga Pak Handoko menggunakan panel surya generasi terbaru dan memiliki kendaraan listrik sehingga berhak mendapatkan insentif pajak pemerintah. Simpulan yang PALING PASTI BENAR berdasarkan teks adalah ....",
+      "options": {
+        "A": "Keluarga Pak Handoko tidak perlu membayar biaya listrik sama sekali setiap bulan",
+        "B": "Kebutuhan listrik rumah tangga keluarga Pak Handoko mengalami penurunan sebesar 40%",
+        "C": "Total pengeluaran energi bulanan keluarga Pak Handoko berkurang drastis",
+        "D": "Efisiensi energi kendaraan listrik keluarga Pak Handoko meningkat sebesar 25%"
+      },
+      "answer": "C",
+      "explanation": "Paragraf kedua menyatakan: 'Jika sebuah rumah tangga memanfaatkan insentif pajak tersebut, total pengeluaran energi bulanan rumah tangga tersebut berkurang drastis.' Karena keluarga Pak Handoko memenuhi syarat dan memanfaatkannya, simpulan tersebut pasti benar.",
+      "passage": "teks_pu1"
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "question": "Sebanyak 300 mL larutan alkohol dengan konsentrasi 20% dicampur dengan 200 mL larutan alkohol dengan konsentrasi 40%. Kemudian, ke dalam campuran tersebut ditambahkan air murni sebanyak 500 mL. Kadar alkohol dalam larutan akhir tersebut adalah ....",
+      "options": {
+        "A": "16%",
+        "B": "14%",
+        "C": "12%",
+        "D": "18%"
+      },
+      "answer": "B",
+      "explanation": "Volume alkohol murni dari larutan pertama = 20% × 300 mL = 60 mL.<br>Volume alkohol murni dari larutan kedua = 40% × 200 mL = 80 mL.<br>Total volume alkohol murni = 60 + 80 = 140 mL.<br>Total volume seluruh larutan akhir = 300 + 200 + 500 = 1.000 mL.<br>Konsentrasi akhir = (140 / 1.000) × 100% = 14%."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "question": "Pipa A dapat mengisi kolam hingga penuh dalam waktu 4 jam, sedangkan pipa B dapat mengisi kolam yang sama dalam waktu 6 jam. Di sisi lain, pipa pembuangan C dapat mengosongkan seluruh isi kolam dalam waktu 8 jam. Jika ketiga pipa dibuka secara bersamaan pada kolam yang mula-mula kosong, waktu yang dibutuhkan untuk mengisi kolam hingga penuh adalah ....",
+      "options": {
+        "A": "2 2/5 jam (12/5 jam)",
+        "B": "4 1/2 jam (9/2 jam)",
+        "C": "5 jam",
+        "D": "3 3/7 jam (24/7 jam)"
+      },
+      "answer": "D",
+      "explanation": "Laju kerja gabungan per jam:<br>\\(V = \\frac{1}{4} + \\frac{1}{6} - \\frac{1}{8}\\).<br>Samakan penyebut ke KPK 24:<br>\\(V = \\frac{6}{24} + \\frac{4}{24} - \\frac{3}{24} = \\frac{7}{24}\\) bagian kolam per jam.<br>Waktu yang dibutuhkan untuk mengisi penuh = \\(\\frac{1}{7/24} = \\frac{24}{7} = 3\\frac{3}{7}\\) jam."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Perhatikan susunan bilangan pada matriks berikut:<br>Baris 1: 4, 7, 25<br>Baris 2: 5, 6, 27<br>Baris 3: 8, 3, x<br>Jika ketiga baris mengikuti aturan matematis yang konsisten, nilai x adalah ....",
+      "options": {
+        "A": "19",
+        "B": "23",
+        "C": "21",
+        "D": "24"
+      },
+      "answer": "C",
+      "explanation": "Analisis pola pada baris 1 dan 2:<br>Baris 1: (4 × 7) − 3 = 28 − 3 = 25<br>Baris 2: (5 × 6) − 3 = 30 − 3 = 27<br>Pola yang berlaku adalah mengalikan bilangan pertama dan kedua, lalu dikurangi konstanta 3.<br>Maka untuk baris 3: x = (8 × 3) − 3 = 24 − 3 = 21."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Empat sahabat (Wawan, Xenia, Yoga, Zaki) masing-masing menyukai satu jenis buah yang berbeda (apel, jeruk, mangga, pisang) dan memiliki satu warna favorit yang berbeda (merah, biru, hijau, kuning). Diketahui fakta berikut:<br>1) Wawan menyukai buah apel, dan warna favoritnya bukan biru.<br>2) Orang yang menyukai buah jeruk memiliki warna favorit merah.<br>3) Yoga menyukai warna hijau, tetapi bukan penyuka buah mangga.<br>4) Zaki menyukai warna biru.<br>Berdasarkan data tersebut, buah yang disukai oleh Yoga adalah ....",
+      "options": {
+        "A": "mangga",
+        "B": "jeruk",
+        "C": "apel",
+        "D": "pisang"
+      },
+      "answer": "D",
+      "explanation": "Analisis fakta:<br>• Wawan suka buah apel.<br>• Yoga menyukai warna hijau. Buah pilihan Yoga bukan apel (karena apel milik Wawan), bukan jeruk (karena penyuka jeruk berwarna merah, sedangkan Yoga hijau), dan bukan mangga (fakta 3). Maka Yoga pasti menyukai PISANG.<br>• Zaki suka warna biru. Karena jeruk berwarna merah dan apel milik Wawan, buah yang tersisa untuk Zaki adalah MANGGA.<br>• Xenia menyukai buah JERUK dan warna MERAH.<br>Kesimpulan: Buah yang disukai Yoga adalah pisang."
+    }
+  ]
+}

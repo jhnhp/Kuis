@@ -1,0 +1,291 @@
+{
+  "title": "UTBK-SNBT - Paket Lengkap TPS (Latihan Campuran)",
+  "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
+  "subtitle": "Latihan Terpadu 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal terpadu terdiri atas 5 soal PU, 5 soal PPU, 5 soal PBM, dan 5 soal PK berstandar UTBK.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_tps_ppu",
+      "title": "Teks untuk soal PPU: Transformasi Kendaraan Listrik",
+      "text": [
+        "Transisi menuju kendaraan bermotor listrik berbasis baterai dipandang sebagai langkah strategis untuk menekan emisi gas rumah kaca di sektor transportasi. Sumber polusi udara terbesar di kota-kota metropolitan berasal dari emisi gas buang kendaraan berbahan bakar fosil yang melepaskan partikulat halus (PM2.5) dan karbon monoksida.",
+        "Namun demikian, keberhasilan dekarbonisasi transportasi ini sangat bergantung pada sumber energi pembangkit listrik yang menyuplai stasiun pengisian daya. Jika listrik yang digunakan masih didominasi oleh pembangkit berbahan bakar batubara, maka emisi karbon sebenarnya hanya berpindah dari knalpot kendaraan ke cerobong pembangkit."
+      ]
+    },
+    {
+      "id": "teks_tps_pbm",
+      "title": "Teks untuk soal PBM: Konservasi Lahan Gambut",
+      "text": [
+        "[1] Ekosistem lahan gambut tropis memiliki kapasitas penyerapan dan penyimpanan karbon yang luar biasa tinggi. [2] Pengeringan gambut untuk pembukaan perkebunan skala besar memicu pelepasan karbon secara masif ke atmosfer. [3] Lahan gambut yang kering juga sangat rentan terbakar dan sulit dipadamkan karena api membakar lapisan bawah tanah. [4] Oleh sebab itu, program pembasahan kembali (rewetting) dan revegetasi harus segera diintensifkan."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Semua mahasiswa penerima beasiswa prestasi wajib memiliki IPK minimal 3,50. Sebagian atlet renang kampus adalah penerima beasiswa prestasi. Simpulan yang paling tepat adalah ....",
+      "options": {
+        "A": "Sebagian atlet renang kampus wajib memiliki IPK minimal 3,50",
+        "B": "Semua atlet renang kampus wajib memiliki IPK minimal 3,50",
+        "C": "Tidak ada atlet renang kampus yang memiliki IPK di bawah 3,50",
+        "D": "Semua mahasiswa dengan IPK minimal 3,50 adalah atlet renang kampus"
+      },
+      "answer": "A",
+      "explanation": "Sebagian atlet renang adalah penerima beasiswa prestasi, dan semua penerima beasiswa prestasi wajib ber-IPK minimal 3,50. Maka, sebagian atlet renang tersebut wajib memiliki IPK minimal 3,50."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Perhatikan pola bilangan berikut: 2, 5, 11, 23, 47, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "91",
+        "B": "95",
+        "C": "94",
+        "D": "96"
+      },
+      "answer": "B",
+      "explanation": "Pola operasi adalah mengalikan dengan 2 lalu ditambah 1: (n × 2) + 1.<br>2 × 2 + 1 = 5<br>5 × 2 + 1 = 11<br>11 × 2 + 1 = 23<br>23 × 2 + 1 = 47<br>Berikutnya: 47 × 2 + 1 = 94 + 1 = 95."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "question": "Jika pasokan gandum terganggu, harga roti tawar akan mengalami kenaikan. Jika harga roti tawar naik, daya beli konsumen terhadap produk kue menurun. Faktanya, daya beli konsumen terhadap produk kue tidak menurun. Kesimpulan yang sah adalah ....",
+      "options": {
+        "A": "Harga roti tawar tetap mengalami kenaikan",
+        "B": "Pasokan gandum melimpah ruah di pasar",
+        "C": "Pasokan gandum tidak terganggu",
+        "D": "Produk kue tidak menggunakan bahan baku gandum"
+      },
+      "answer": "C",
+      "explanation": "Rantai implikasi: Pasokan gandum terganggu → Harga roti naik → Daya beli kue turun. Karena daya beli tidak turun (~R), maka harga roti tidak naik (~Q), dan pasokan gandum tidak terganggu (~P)."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "question": "Dalam sebuah antrean bioskop, Maya berada pada urutan ke-8 dari depan dan urutan ke-15 dari belakang. Berapa jumlah total orang dalam antrean bioskop tersebut?",
+      "options": {
+        "A": "21 orang",
+        "B": "23 orang",
+        "C": "24 orang",
+        "D": "22 orang"
+      },
+      "answer": "D",
+      "explanation": "Total orang = (Posisi dari depan + Posisi dari belakang) − 1 = (8 + 15) − 1 = 23 − 1 = 22 orang."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "question": "Sebuah bejana berisi campuran susu dan air dengan perbandingan 7 : 3. Jika ke dalam bejana ditambahkan 10 liter air murni, perbandingan susu dan air menjadi 7 : 5. Volume susu di dalam bejana tersebut adalah ....",
+      "options": {
+        "A": "28 liter",
+        "B": "35 liter",
+        "C": "42 liter",
+        "D": "49 liter"
+      },
+      "answer": "B",
+      "explanation": "Misalkan volume susu = 7x dan volume air awal = 3x.<br>Setelah ditambah 10 liter air: \\(\\frac{7x}{3x + 10} = \\frac{7}{5}\\).<br>Bagi kedua pembilang dengan 7: \\(\\frac{x}{3x + 10} = \\frac{1}{5} \\implies 5x = 3x + 10 \\implies 2x = 10 \\implies x = 5\\).<br>Volume susu = 7x = 7(5) = 35 liter."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "question": "Tujuan utama transisi menuju kendaraan listrik menurut paragraf pertama adalah ....",
+      "options": {
+        "A": "Meningkatkan konsumsi batubara sebagai bahan bakar utama pembangkit listrik",
+        "B": "Mengurangi jumlah kendaraan pribadi yang beroperasi di kota metropolitan",
+        "C": "Menekan emisi gas rumah kaca dan polusi gas buang di sektor transportasi",
+        "D": "Menghapus keberadaan stasiun pengisian bahan bakar minyak secara bertahap"
+      },
+      "answer": "C",
+      "explanation": "Paragraf pertama menyatakan bahwa transisi kendaraan listrik adalah langkah strategis untuk menekan emisi gas rumah kaca di sektor transportasi.",
+      "passage": "teks_tps_ppu"
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Makna istilah <b>dekarbonisasi</b> pada paragraf kedua Teks adalah ....",
+      "options": {
+        "A": "Upaya pengurangan atau penghapusan emisi gas karbon dioksida",
+        "B": "Peningkatan pemanfaatan bahan bakar minyak bumi berkualitas tinggi",
+        "C": "Penggantian mesin kendaraan berbahan bakar bensin menjadi gas alam",
+        "D": "Pembakaran sempurna senyawa hidrokarbon pada industri manufaktur"
+      },
+      "answer": "A",
+      "explanation": "Dekarbonisasi adalah proses atau tindakan mereduksi dan meniadakan emisi karbon (terutama CO₂) yang dilepaskan ke atmosfer.",
+      "passage": "teks_tps_ppu"
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Pernyataan manakah yang PALING SESUAI dengan isi paragraf kedua Teks?",
+      "options": {
+        "A": "Pembangkit listrik tenaga batubara tidak lagi melepaskan emisi karbon ke atmosfer",
+        "B": "Stasiun pengisian daya baterai kendaraan listrik dapat beroperasi tanpa pasokan listrik eksternal",
+        "C": "Kendaraan listrik telah sepenuhnya berhasil menghilangkan seluruh emisi karbon secara global",
+        "D": "Manfaat ekologis kendaraan listrik berkurang jika listriknya masih bersumber dari pembangkit batubara"
+      },
+      "answer": "D",
+      "explanation": "Paragraf kedua menguraikan bahwa jika sumber listrik pengisian daya berasal dari batubara, emisi sebenarnya hanya berpindah dari knalpot ke cerobong pembangkit listrik.",
+      "passage": "teks_tps_ppu"
+    },
+    {
+      "number": 9,
+      "difficulty": "Sulit",
+      "question": "Kata <b>hipotesis</b> memiliki hubungan semantis yang setara dengan kata ....",
+      "options": {
+        "A": "pembuktian mutlak",
+        "B": "dugaan sementara",
+        "C": "kesimpulan akhir",
+        "D": "hukum alam"
+      },
+      "answer": "B",
+      "explanation": "Hipotesis adalah anggapan dasar atau dugaan sementara yang kebenarannya masih harus diuji melalui eksperimen dan penelitian ilmiah."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "question": "Perhatikan analogi hubungan kata berikut:<br><b>HAUS : AIR</b> setara dengan ....",
+      "options": {
+        "A": "LAPAR : MAKANAN",
+        "B": "PANAS : MATAHARI",
+        "C": "LELAH : BEKERJA",
+        "D": "GELAP : MALAM"
+      },
+      "answer": "A",
+      "explanation": "Hubungan kebutuhan: Rasa haus dapat dihilangkan dengan minum air; rasa lapar dapat dihilangkan dengan menyantap makanan."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "question": "Ide pokok yang diungkapkan pada kalimat [1] Teks adalah ....",
+      "options": {
+        "A": "Ancaman kebakaran bawah tanah pada lahan gambut tropis",
+        "B": "Pelaksanaan program pembasahan kembali lahan gambut yang rusak",
+        "C": "Kapasitas tinggi lahan gambut dalam menyimpan dan menyerap karbon",
+        "D": "Pembukaan perkebunan skala besar di kawasan rawa gambut"
+      },
+      "answer": "C",
+      "explanation": "Kalimat [1] menekankan kapasitas tinggi ekosistem lahan gambut dalam menyerap dan menyimpan cadangan karbon.",
+      "passage": "teks_tps_pbm"
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Kata berimbuhan yang bermakna <b>'membuat menjadi'</b> pada kalimat [4] Teks adalah ....",
+      "options": {
+        "A": "pembasahan",
+        "B": "pelepasan",
+        "C": "pembukaan",
+        "D": "diintensifkan"
+      },
+      "answer": "D",
+      "explanation": "Kata dasar 'intensif' dengan konfiks di-kan (diintensifkan) bermakna kausatif pasif: dibuat atau dijadikan menjadi lebih intensif.",
+      "passage": "teks_tps_pbm"
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Manakah di antara kalimat berikut yang merupakan <b>kalimat efektif</b>?",
+      "options": {
+        "A": "Siswa kelas XII harus mempersiapkan diri menjelang ujian nasional.",
+        "B": "Untuk mempersingkat waktu, marilah kita bersama-sama mulai acara ini.",
+        "C": "Meskipun lelah sekali, tetapi ia tetap menyelesaikan tugas kelompoknya.",
+        "D": "Buku itu saya sudah membacanya sebanyak tiga kali."
+      },
+      "answer": "A",
+      "explanation": "Pilihan A lugas, padu, dan memenuhi kaidah tata bahasa. Pilihan B tidak logis 'mempersingkat waktu'; pilihan C salah menggunakan 'tetapi' setelah 'Meskipun'; pilihan D pleonasme 'saya sudah membacanya'."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Penulisan kata serapan yang <b>tidak baku</b> terdapat pada kalimat ....",
+      "options": {
+        "A": "Sistem pembayaran elektronik kini semakin praktis dan aman.",
+        "B": "Setiap warga negara wajib mentaati peraturan hukum yang berlaku.",
+        "C": "Apotek di dekat rumah sakit itu buka selama dua puluh empat jam.",
+        "D": "Para peneliti sedang mengkaji efektivitas vaksin generasi terbaru."
+      },
+      "answer": "B",
+      "explanation": "Kata dasar 'taat' yang diberi imbuhan me-i luluh menjadi 'menaati' (bukan 'mentaati')."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "question": "Penggunaan tanda baca titik dua (:) yang <b>tepat</b> menurut ejaan baku terdapat pada kalimat ....",
+      "options": {
+        "A": "Kami memerlukan: kursi, meja, dan lemari untuk ruang rapat.",
+        "B": "Fakultas teknik membuka jurusan: teknik sipil, mesin, dan elektro.",
+        "C": "Ibu membeli kebutuhan pokok di pasar: beras, minyak goreng, dan telur.",
+        "D": "Perjalanan menuju puncak bukit membutuhkan: stamina, bekal, dan pemandu."
+      },
+      "answer": "C",
+      "explanation": "Tanda titik dua digunakan pada akhir pernyataan lengkap yang diikuti pemerincian (pilihan A). Pada pilihan B, C, dan D, tanda titik dua salah digunakan karena mendahului pelengkap/objek yang langsung menyambung dari verba transitif."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "question": "Jika f(x) = 3x − 4 dan g(x) = x² + 2, maka nilai dari (g ∘ f)(2) adalah ....",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "10",
+        "D": "6"
+      },
+      "answer": "D",
+      "explanation": "Hitung f(2) = 3(2) − 4 = 6 − 4 = 2.<br>Hitung g(f(2)) = g(2) = 2² + 2 = 4 + 2 = 6."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "question": "Sebuah toko pakaian memberikan diskon ganda: pertama sebesar 20%, kemudian diskon tambahan 10% dari harga setelah diskon pertama. Total persentase diskon sesungguhnya yang dinikmati pembeli adalah ....",
+      "options": {
+        "A": "28%",
+        "B": "30%",
+        "C": "25%",
+        "D": "27%"
+      },
+      "answer": "A",
+      "explanation": "Misalkan harga awal 100.<br>Setelah diskon 20% = 100 − 20 = 80.<br>Diskon kedua = 10% × 80 = 8.<br>Harga akhir = 80 − 8 = 72.<br>Total diskon yang dinikmati = 100 − 72 = 28%."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Diketahui sistem persamaan linear:<br>2x + y = 11<br>x − 3y = -5<br>Nilai dari 3x − 2y adalah ....",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "Dari persamaan kedua: x = 3y − 5.<br>Substitusi ke persamaan pertama: 2(3y − 5) + y = 11 \\implies 6y − 10 + y = 11 \\implies 7y = 21 \\implies y = 3.<br>Nilai x = 3(3) − 5 = 4.<br>Maka 3x − 2y = 3(4) − 2(3) = 12 − 6 = 6."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Tiga koin uang logam yang seimbang dilempar bersamaan sebanyak satu kali. Peluang munculnya sekurang-kurangnya dua sisi gambar adalah ....",
+      "options": {
+        "A": "3/8",
+        "B": "5/8",
+        "C": "1/2",
+        "D": "1/4"
+      },
+      "answer": "C",
+      "explanation": "Ruang sampel 3 koin = 2³ = 8 titik sampel.<br>Titik sampel muncul sekurang-kurangnya 2 gambar (G):<br>• Tepat 2 gambar: (G, G, A), (G, A, G), (A, G, G) = 3 kejadian.<br>• Tepat 3 gambar: (G, G, G) = 1 kejadian.<br>Total kejadian yang memenuhi = 3 + 1 = 4.<br>Peluang = 4 / 8 = 1/2."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Apakah nilai x lebih besar daripada y?<br>Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:<br>(1) x² > y²<br>(2) x > 0 dan y < 0",
+      "options": {
+        "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "B": "Pernyataan (1) dan (2) bersama-sama cukup untuk menjawab pertanyaan",
+        "C": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+        "D": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup"
+      },
+      "answer": "D",
+      "explanation": "Pertanyaan: Apakah x > y?<br>• Dari pernyataan (1): x² > y². Nilai x dan y bisa bertanda sembarang. Misalnya jika x = -5 dan y = 2, maka (-5)² > 2² (25 > 4), tetapi x < y (-5 < 2). Jika x = 5 dan y = 2, maka x > y. Jadi pernyataan (1) SAJA tidak cukup.<br>• Dari pernyataan (2): x > 0 (positif) dan y < 0 (negatif). Bilangan positif selalu lebih besar daripada bilangan negatif, sehingga dipastikan x > y. Jadi pernyataan (2) SAJA cukup.<br>Kesimpulan: Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup."
+    }
+  ]
+}

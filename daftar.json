@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T16:44:07",
+  "generated": "2026-11-08T16:54:09",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2462,6 +2462,18 @@
       "path": "UTBK/Paket Lengkap TPS/01 Paket Lengkap TPS - 12 Soal/soal.json"
     },
     {
+      "title": "UTBK-SNBT - Paket Lengkap TPS (Latihan Campuran)",
+      "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal terpadu terdiri atas 5 soal PU, 5 soal PPU, 5 soal PBM, dan 5 soal PK berstandar UTBK.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Paket Lengkap TPS",
+      "topik": [
+        "02 Paket Lengkap TPS - Latihan Campuran"
+      ],
+      "path": "UTBK/Paket Lengkap TPS/02 Paket Lengkap TPS - Latihan Campuran/soal.json"
+    },
+    {
       "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Tingkat Mudah)",
       "topic": "Gagasan Utama, Kalimat Efektif, Kepaduan Paragraf, Konjungsi, dan Ejaan",
       "summary": "100% Mudah. Fokus pada pemahaman struktur paragraf, kalimat efektif, pilihan kata, konjungsi, dan kaidah penulisan.",
@@ -2472,6 +2484,18 @@
         "01 PBM - Tingkat Mudah"
       ],
       "path": "UTBK/Pemahaman Bacaan dan Menulis/01 PBM - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Latihan Campuran)",
+      "topic": "Kepaduan Paragraf, Kalimat Efektif, Konjungsi, Ejaan (EYD V), dan Pembentukan Kata",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan kalimat efektif, ejaan baku, konjungsi antarkalimat, kata berimbuhan, dan penyuntingan paragraf rumpang standar UTBK.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Pemahaman Bacaan dan Menulis",
+      "topik": [
+        "02 PBM - Latihan Campuran"
+      ],
+      "path": "UTBK/Pemahaman Bacaan dan Menulis/02 PBM - Latihan Campuran/soal.json"
     },
     {
       "title": "UTBK-SNBT - Penalaran Umum (Tingkat Mudah)",
@@ -2486,6 +2510,18 @@
       "path": "UTBK/Penalaran Umum/01 Penalaran Umum - Tingkat Mudah/soal.json"
     },
     {
+      "title": "UTBK-SNBT - Penalaran Umum (Latihan Campuran)",
+      "topic": "Penalaran Induktif, Penalaran Deduktif, dan Penalaran Kuantitatif",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan silogisme, pola barisan, penarikan kesimpulan logis, tabel data, dan penalaran analitis standar UTBK.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Penalaran Umum",
+      "topik": [
+        "02 Penalaran Umum - Latihan Campuran"
+      ],
+      "path": "UTBK/Penalaran Umum/02 Penalaran Umum - Latihan Campuran/soal.json"
+    },
+    {
       "title": "UTBK-SNBT - Pengetahuan dan Pemahaman Umum (Tingkat Mudah)",
       "topic": "Makna Kata, Hubungan Antarkalimat, Pemahaman Teks, dan Informasi Umum",
       "summary": "100% Mudah. Fokus pada pemahaman makna kata, informasi tersurat, hubungan kalimat, dan penggunaan bahasa dalam konteks.",
@@ -2496,6 +2532,18 @@
         "01 PPU - Tingkat Mudah"
       ],
       "path": "UTBK/Pengetahuan dan Pemahaman Umum/01 PPU - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Pengetahuan dan Pemahaman Umum (Latihan Campuran)",
+      "topic": "Makna Kata/Frasa, Ide Pokok, Hubungan Antarparagraf, Simpulan Teks, dan Analisis Kontekstual",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan pemahaman bacaan kritis, makna istilah ilmiah, penalaran paragraf, dan simpulan tersirat standar UTBK.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Pengetahuan dan Pemahaman Umum",
+      "topik": [
+        "02 PPU - Latihan Campuran"
+      ],
+      "path": "UTBK/Pengetahuan dan Pemahaman Umum/02 PPU - Latihan Campuran/soal.json"
     },
     {
       "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Tingkat Mudah)",

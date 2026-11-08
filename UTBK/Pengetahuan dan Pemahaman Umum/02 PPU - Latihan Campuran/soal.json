@@ -1,0 +1,309 @@
+{
+  "title": "UTBK-SNBT - Pengetahuan dan Pemahaman Umum (Latihan Campuran)",
+  "topic": "Makna Kata/Frasa, Ide Pokok, Hubungan Antarparagraf, Simpulan Teks, dan Analisis Kontekstual",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan pemahaman bacaan kritis, makna istilah ilmiah, penalaran paragraf, dan simpulan tersirat standar UTBK.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_ppu1",
+      "title": "Teks 1: Krisis Keanekaragaman Hayati dan Spesies Invasif",
+      "text": [
+        "Invasi spesies asing menjadi salah satu ancaman utama bagi kelestarian keanekaragaman hayati global setelah alih fungsi lahan dan perubahan iklim. Spesies invasif merupakan tumbuhan atau satwa yang bukan berasal dari ekosistem setempat dan mampu berkembang biak dengan cepat karena ketiadaan predator alami. Akibatnya, spesies asli sering kali tersisih dalam kompetisi memperebutkan ruang, nutrisi, dan sinar matahari.",
+        "Dampak keberadaan spesies invasif tidak hanya terbatas pada degradasi ekologis, tetapi juga menimbulkan kerugian ekonomi yang substansial. Di sektor pertanian dan perikanan, gulma invasif seperti eceng gondok atau ikan predator asing dapat menyumbat saluran irigasi, menurunkan kualitas perairan danau, serta mengancam ketahanan pangan komunitas lokal. Oleh karena itu, pengawasan biosekuriti di pintu-pintu masuk wilayah dan restorasi habitat asli menjadi strategi mutlak yang harus dijalankan secara komprehensif."
+      ]
+    },
+    {
+      "id": "teks_ppu2",
+      "title": "Teks 2: Kecerdasan Buatan dan Etika Pengambilan Keputusan",
+      "text": [
+        "Pemanfaatan sistem kecerdasan buatan (artificial intelligence/AI) telah merambah ke berbagai sektor vital, mulai dari diagnosis medis, penilaian kelayakan kredit perbankan, hingga penegakan hukum. Keunggulan AI terletak pada kemampuannya memproses mahadata (big data) dengan kecepatan tinggi guna mengenali pola tersembunyi yang sulit diidentifikasi oleh manusia.",
+        "Meskipun menawarkan efisiensi tinggi, algoritma AI berpotensi melanggengkan bahkan memperparah bias sosial jika data latih yang digunakan mengandung prasangka historis. Fenomena 'black box'—kondisi saat proses penalaran komputasi AI sulit dijelaskan secara transparan oleh perancangnya sendiri—menimbulkan dilema akuntabilitas moral. Ketika sebuah keputusan algoritmik merugikan hak fundamental individu, penentuan pihak yang bertanggung jawab secara hukum menjadi sangat problematis."
+      ]
+    },
+    {
+      "id": "teks_ppu3",
+      "title": "Teks 3: Fenomena Urban Heat Island dan Solusi Arsitektur Hijau",
+      "text": [
+        "Fenomena pulau panas perkotaan (urban heat island) terjadi ketika temperatur udara di pusat kota terukur jauh lebih tinggi daripada area pedesaan di sekelilingnya. Dominasi material kedap air seperti aspal dan beton yang menyerap panas matahari secara masif pada siang hari, minimnya ruang vegetasi, serta buangan panas dari kendaraan bermotor dan pendingin ruangan (AC) menjadi pemicu utamanya.",
+        "Untuk mereduksi efek termal tersebut, konsep arsitektur hijau kini mulai diterapkan secara terencana. Penggunaan atap hijau (green roof), dinding hidup (living wall), serta material paving berpori yang memantulkan radiasi surya terbukti mampu menurunkan suhu mikro perkotaan. Di samping menyejukkan kawasan kota, vegetasi arsitektural ini turut memperbaiki sirkulasi udara dan menyaring partikel debu halus berbahaya."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Gagasan utama paragraf pertama Teks 1 adalah ....",
+      "options": {
+        "A": "Penyebab utama alih fungsi lahan dan perubahan iklim dunia",
+        "B": "Ancaman spesies invasif terhadap kelestarian keanekaragaman hayati",
+        "C": "Ketiadaan predator alami bagi satwa liar di alam bebas",
+        "D": "Persaingan tumbuhan asli dalam memperebutkan sinar matahari"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama berfokus pada ancaman spesies asing invasif terhadap kelestarian ekosistem dan keanekaragaman hayati karena kemampuannya mendominasi spesies asli.",
+      "passage": "teks_ppu1"
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Makna istilah <b>biosekuriti</b> pada paragraf kedua Teks 1 berkaitan dengan ....",
+      "options": {
+        "A": "Sistem perlindungan dan pencegahan masuknya agen biologi berbahaya",
+        "B": "Penggunaan zat kimia pestisida untuk membasmi gulma air",
+        "C": "Penjagaan kawasan hutan lindung oleh aparat keamanan bersenjata",
+        "D": "Budidaya spesies tanaman unggul tahan cuaca ekstrem"
+      },
+      "answer": "A",
+      "explanation": "Biosekuriti adalah serangkaian langkah atau prosedur keamanan hayati untuk mencegah masuk dan menyebarnya organisme berbahaya (spesies invasif/hama/penyakit).",
+      "passage": "teks_ppu1"
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Berdasarkan paragraf pertama Teks 2, keunggulan utama sistem kecerdasan buatan (AI) adalah ....",
+      "options": {
+        "A": "Kemampuannya menggantikan seluruh tenaga kerja manusia di bidang hukum dan perbankan",
+        "B": "Ketiadaan kesalahan dalam mendiagnosis semua jenis penyakit medis secara akurat",
+        "C": "Kemampuannya mengolah data berukuran raksasa dalam waktu singkat untuk mengenali pola",
+        "D": "Biaya pembuatannya yang sangat terjangkau bagi industri kecil"
+      },
+      "answer": "C",
+      "explanation": "Kalimat kedua paragraf pertama menyebutkan bahwa keunggulan AI terletak pada kemampuannya memproses mahadata (big data) dengan kecepatan tinggi untuk mengenali pola tersembunyi.",
+      "passage": "teks_ppu2"
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Penyebab utama timbulnya fenomena pulau panas perkotaan (<i>urban heat island</i>) menurut Teks 3 adalah ....",
+      "options": {
+        "A": "Tingginya curah hujan di kawasan pusat kota pada siang hari",
+        "B": "Pemanfaatan atap hijau dan dinding hidup yang berlebihan di gedung tinggi",
+        "C": "Pemasangan paving berpori di seluruh jalan raya perkotaan",
+        "D": "Dominasi beton dan aspal penyerap panas serta minimnya vegetasi"
+      },
+      "answer": "D",
+      "explanation": "Paragraf pertama Teks 3 menjelaskan bahwa urban heat island dipicu oleh dominasi material kedap air seperti aspal dan beton penyerap panas, minimnya vegetasi, dan buangan panas dari AC/kendaraan.",
+      "passage": "teks_ppu3"
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "Hubungan antara eceng gondok dan penurunan ketahanan pangan komunitas lokal pada paragraf kedua Teks 1 adalah hubungan ....",
+      "options": {
+        "A": "Korelasi kebetulan yang tidak memiliki landasan bukti ilmiah",
+        "B": "Pertentangan di mana eceng gondok justru menjadi sumber pangan utama",
+        "C": "Kausalitas tidak langsung melalui gangguan irigasi dan penurunan kualitas perairan",
+        "D": "Analogis antara spesies darat dan ekosistem air tawar"
+      },
+      "answer": "C",
+      "explanation": "Eceng gondok menyumbat saluran irigasi sawah dan menurunkan kualitas perairan danau budidaya perikanan, yang dampaknya berujung pada penurunan pasokan pangan masyarakat sekitar.",
+      "passage": "teks_ppu1"
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Kata <b>substansial</b> dalam frasa <i>'kerugian ekonomi yang substansial'</i> pada paragraf kedua Teks 1 paling tepat digantikan dengan kata ....",
+      "options": {
+        "A": "sementara",
+        "B": "signifikan",
+        "C": "minimal",
+        "D": "meragukan"
+      },
+      "answer": "B",
+      "explanation": "Dalam konteks kerugian ekonomi, substansial berarti besar, bernilai nyata, atau signifikan (bukan sepele).",
+      "passage": "teks_ppu1"
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Sikap penulis yang tercermin dalam Teks 1 terhadap keberadaan spesies asing invasif adalah ....",
+      "options": {
+        "A": "Khawatir dan mendorong tindakan penanganan yang tegas serta terintegrasi",
+        "B": "Netral dan menganggap invasi spesies sebagai seleksi alam yang lumrah",
+        "C": "Pesimistis bahwa ekosistem lokal tidak akan pernah dapat dipulihkan",
+        "D": "Optimistis bahwa spesies invasif akan membawa keuntungan komersial besar"
+      },
+      "answer": "A",
+      "explanation": "Penulis memaparkan bahaya spesies invasif secara mendalam dan di akhir menegaskan bahwa biosekuriti dan restorasi habitat adalah strategi mutlak yang harus dijalankan.",
+      "passage": "teks_ppu1"
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Frasa <b>fenomena 'black box'</b> pada paragraf kedua Teks 2 merujuk pada kondisi ....",
+      "options": {
+        "A": "Perangkat keras komputer AI yang disimpan di ruangan kedap suara",
+        "B": "Kotak penyimpanan data rahasia perbankan yang dilindungi kata sandi",
+        "C": "Kelemahan sistem AI saat terjadi pemadaman aliran listrik mendadak",
+        "D": "Mekanisme internal pemrosesan keputusan AI yang rumit dan tidak transparan bagi manusia"
+      },
+      "answer": "D",
+      "explanation": "Teks mendefinisikan fenomena 'black box' sebagai kondisi saat proses penalaran komputasi AI sulit dijelaskan secara transparan bahkan oleh perancangnya sendiri.",
+      "passage": "teks_ppu2"
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Pernyataan yang PALING DIDUKUNG oleh informasi pada Teks 2 adalah ....",
+      "options": {
+        "A": "Sistem AI telah sepenuhnya berhasil menyelesaikan masalah etika penegakan hukum",
+        "B": "Keputusan AI dapat menimbulkan ketidakadilan sosial jika data pelatihannya tidak netral",
+        "C": "Semua perancang AI dengan mudah mempertanggungjawabkan kesalahan sistem di pengadilan",
+        "D": "AI sebaiknya dilarang total dalam sektor medis karena ketiadaan regulasi"
+      },
+      "answer": "B",
+      "explanation": "Paragraf kedua menyatakan algoritma AI berpotensi melanggengkan bahkan memperparah bias sosial jika data latih yang digunakan mengandung prasangka historis.",
+      "passage": "teks_ppu2"
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Bagaimana hubungan isi antara paragraf pertama dan paragraf kedua pada Teks 3?",
+      "options": {
+        "A": "Paragraf pertama memaparkan definisi ilmiah, sedangkan paragraf kedua membantahnya",
+        "B": "Paragraf pertama dan kedua memaparkan dua fenomena lingkungan yang saling bertentangan",
+        "C": "Paragraf pertama memaparkan masalah, sedangkan paragraf kedua menyajikan solusi mitigasinya",
+        "D": "Paragraf kedua merupakan contoh kasus khusus dari penjelasan umum pada paragraf pertama"
+      },
+      "answer": "C",
+      "explanation": "Paragraf pertama menguraikan masalah pemanasan kota (urban heat island dan pemicunya), sedangkan paragraf kedua menguraikan solusi arsitektur hijau untuk mereduksi efek tersebut.",
+      "passage": "teks_ppu3"
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Kata <b>mereduksi</b> pada paragraf kedua Teks 3 berantonim dengan kata ....",
+      "options": {
+        "A": "meningkatkan",
+        "B": "mengurangi",
+        "C": "menetralkan",
+        "D": "membatasi"
+      },
+      "answer": "A",
+      "explanation": "Mereduksi berarti memotong, mengurangi, atau menyusutkan. Antonim (lawan kata) dari mereduksi adalah meningkatkan atau menambah.",
+      "passage": "teks_ppu3"
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Semua mamalia menyusui anaknya. Platipus adalah hewan bertelur yang menghasilkan air susu untuk anaknya. Simpulan yang paling tepat adalah ....",
+      "options": {
+        "A": "Platipus bukan termasuk kelompok mamalia karena bertelur",
+        "B": "Platipus termasuk mamalia meskipun berkembang biak dengan bertelur",
+        "C": "Platipus adalah spesies burung yang memiliki kelenjar susu",
+        "D": "Tidak ada mamalia yang berkembang biak dengan cara bertelur"
+      },
+      "answer": "B",
+      "explanation": "Ciri esensial mamalia adalah memiliki kelenjar susu dan menyusui anaknya. Karena platipus menghasilkan susu untuk anaknya, platipus tergolong mamalia (ordo Monotremata) kendati ia bertelur."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Perhatikan analogi hubungan kata berikut:<br><b>MIKROSKOP : BAKTERI</b> setara dengan ....",
+      "options": {
+        "A": "TERMOMETER : DERAJAT",
+        "B": "STETOSKOP : DOKTER",
+        "C": "BAROMETER : TEKANAN",
+        "D": "TELESKOP : BINTANG"
+      },
+      "answer": "D",
+      "explanation": "Hubungan instrumen dengan objek yang diamati: Mikroskop adalah alat untuk mengamati objek renik seperti bakteri; Teleskop adalah alat untuk mengamati objek antariksa yang jauh seperti bintang."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Pasangan kata berikut yang memiliki hubungan makna <b>hiponim</b> (anggota kelompok dari suatu kategori umum) adalah ....",
+      "options": {
+        "A": "Melati : Bunga",
+        "B": "Kendaraan : Mobil",
+        "C": "Pohon : Daun",
+        "D": "Buku : Halaman"
+      },
+      "answer": "A",
+      "explanation": "Melati adalah hiponim (spesifik/anggota) dari bunga (hipernim/kategori umum). Pilihan C dan D adalah hubungan bagian-keseluruhan (meronim)."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "question": "Berdasarkan Teks 1, apabila pengawasan biosekuriti di pintu masuk pelabuhan dan bandara diabaikan, dampak jangka panjang yang PALING LOGIS terjadi adalah ....",
+      "options": {
+        "A": "Seluruh spesies asli akan bermutasi menjadi spesies asing yang tahan hama",
+        "B": "Alih fungsi lahan pertanian menjadi kawasan konservasi akan terhenti seketika",
+        "C": "Kerusakan keanekaragaman hayati asli meluas dan memicu kerugian ekonomi berkepanjangan",
+        "D": "Peningkatan kualitas air tawar di perairan danau dan bendungan buatan"
+      },
+      "answer": "C",
+      "explanation": "Pengabaian biosekuriti mempermudah masuknya spesies invasif baru, yang secara kausalitas akan memperparah kompetisi dengan spesies asli, merusak ekosistem, serta merugikan pertanian/perikanan secara berkelanjutan.",
+      "passage": "teks_ppu1"
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "question": "Dilema akuntabilitas moral yang diuraikan pada Teks 2 terjadi terutama karena ....",
+      "options": {
+        "A": "Ketidakmampuan melacak rantai penalaran algoritma secara transparan saat terjadi kerugian keputusan",
+        "B": "Keengganan perbankan mengadopsi kemajuan teknologi pemrosesan mahadata modern",
+        "C": "Ketiadaan data historis yang memadai untuk melatih algoritma kecerdasan buatan",
+        "D": "Sistem AI selalu sengaja dirancang untuk melakukan diskriminasi sosial"
+      },
+      "answer": "A",
+      "explanation": "Paragraf kedua menjelaskan bahwa karena adanya fenomena 'black box' (proses penalaran AI tidak dapat dijelaskan transparan), penetapan tanggung jawab hukum dan moral menjadi kabur ketika keputusan AI merugikan individu.",
+      "passage": "teks_ppu2"
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "question": "Manakah simpulan yang PALING TEPAT mengenai efektivitas konsep arsitektur hijau berdasarkan Teks 3?",
+      "options": {
+        "A": "Arsitektur hijau hanya berfungsi optimal jika seluruh material beton dan aspal kota diganti secara total",
+        "B": "Atap hijau dan dinding hidup semata-mata ditujukan untuk meningkatkan nilai estetika gedung perkantoran",
+        "C": "Paving berpori mampu memantulkan seluruh radiasi panas matahari tanpa membutuhkan ruang vegetasi",
+        "D": "Arsitektur hijau memberikan manfaat ganda, baik menurunkan suhu mikro perkotaan maupun memperbaiki kualitas udara"
+      },
+      "answer": "D",
+      "explanation": "Kalimat-kalimat penutup Teks 3 menyatakan arsitektur hijau tidak hanya menyejukkan kawasan kota (menurunkan suhu mikro), tetapi juga memperbaiki sirkulasi udara dan menyaring debu polutan berbahaya.",
+      "passage": "teks_ppu3"
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "question": "Kalimat berikut mengandung pergeseran makna <b>peyorasi</b> (makna menjadi lebih negatif/kurang terhormat dibandingkan makna semula), yaitu ....",
+      "options": {
+        "A": "Para tunanetra kini dapat membaca buku berkat huruf Braille.",
+        "B": "Tersangka kasus penipuan itu akhirnya dijebloskan ke dalam bui.",
+        "C": "Ibu mengundang sarjana hukum itu untuk menjadi pembicara seminar.",
+        "D": "Karyawan berprestasi itu dipromosikan menjadi kepala divisi."
+      },
+      "answer": "B",
+      "explanation": "Kata 'bui' (penjara) memiliki konotasi yang lebih kasar/negatif (peyorasi) dibandingkan istilah 'lembaga pemasyarakatan'. Pilihan B adalah ameliorasi (tunanetra)."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Makna idiomatis dari ungkapan <b>'mencuci tangan'</b> dalam konteks: <i>'Pejabat itu berusaha mencuci tangan dari kegagalan proyek pengadaan barang'</i> adalah ....",
+      "options": {
+        "A": "Membersihkan nama baik seseorang melalui jalur pengadilan",
+        "B": "Mengalihkan seluruh aset kekayaan ke rekening pribadi",
+        "C": "Melepaskan diri dari tanggung jawab atas suatu kesalahan",
+        "D": "Meminta maaf secara terbuka kepada publik atas kelalaiannya"
+      },
+      "answer": "C",
+      "explanation": "'Mencuci tangan' secara kiasan berarti tidak mau terlibat atau melepaskan diri dari tanggung jawab atas suatu kesalahan atau perkara."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Perhatikan teks rumpang berikut:<br><i>'Hasil riset menunjukkan bahwa kebiasaan begadang tidak hanya memicu kelelahan fisik, [...] juga mengganggu kestabilan emosi dan daya konsentrasi.'</i><br>Konjungsi korelatif yang tepat untuk melengkapi bagian rumpang tersebut adalah ....",
+      "options": {
+        "A": "melainkan",
+        "B": "bahkan",
+        "C": "dan",
+        "D": "tetapi"
+      },
+      "answer": "D",
+      "explanation": "Pasangan konjungsi korelatif yang baku dalam bahasa Indonesia untuk pasangan 'tidak hanya' adalah 'tetapi juga' (sedangkan 'bukan hanya' berpasangan dengan 'melainkan juga'). Oleh karena itu kata yang tepat adalah 'tetapi'."
+    }
+  ]
+}

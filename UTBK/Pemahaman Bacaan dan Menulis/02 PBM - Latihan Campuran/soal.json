@@ -1,0 +1,297 @@
+{
+  "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Latihan Campuran)",
+  "topic": "Kepaduan Paragraf, Kalimat Efektif, Konjungsi, Ejaan (EYD V), dan Pembentukan Kata",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan kalimat efektif, ejaan baku, konjungsi antarkalimat, kata berimbuhan, dan penyuntingan paragraf rumpang standar UTBK.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_pbm1",
+      "title": "Teks 1: Asupan Garam Berlebih dan Kesehatan Jantung",
+      "text": [
+        "[1] Konsumsi garam natrium yang melebihi batas anjuran kesehatan telah menjadi ancaman serius bagi masyarakat modern. [2] Natrium memiliki sifat mengikat air sehingga asupan berlebih akan meningkatkan volume darah dalam pembuluh. [3] Kondisi ini memaksa jantung memompa lebih keras dan menyebabkan peningkatan tekanan darah. [4] Hipertensi yang tidak tertangani dalam jangka panjang berisiko memicu kerusakan arteri, serangan jantung, maupun strok. [5] Sebagian besar garam yang dikonsumsi berasal dari pangan olahan dan makanan cepat saji.",
+        "[6] Organisasi Kesehatan Dunia (WHO) merekomendasikan batas maksimal konsumsi garam harian sebesar lima gram atau setara dengan satu sendok teh. [7] Namun, kenyataan di lapangan menunjukkan bahwa rata-rata konsumsi harian masyarakat di negara berkembang mencapai dua kali lipat dari batas tersebut. [8] Oleh karena itu, diperlukan edukasi publik yang masif serta kewajiban pencantuman label nutrisi yang jelas pada kemasan makanan."
+      ]
+    },
+    {
+      "id": "teks_pbm2",
+      "title": "Teks 2: Digitalisasi Usaha Mikro dan Pertumbuhan Ekonomi",
+      "text": [
+        "[1] Transformasi digital pada sektor usaha mikro, kecil, dan menengah (UMKM) menjadi motor penggerak pemulihan ekonomi nasional. [2] Pemanfaatan platform niaga elektronik memungkinkan pelaku usaha menjangkau konsumen lintas wilayah tanpa batasan geografis. [3] Transaksi nontunai berbasis kode respon cepat (QRIS) juga mempercepat proses pembayaran dan meningkatkan transparansi pembukuan keuangan. [4] Di sisi lain, adopsi teknologi digital menuntut kesiapan infrastruktur internet yang merata.",
+        "[5] Kendala utama yang masih dihadapi para pelaku UMKM tradisional adalah rendahnya literasi digital dan keterbatasan modal untuk investasi perangkat. [6] Banyak pedagang yang merasa enggan beralih ke ekosistem digital karena khawatir akan maraknya penipuan siber. [7] Sinergi antara pemerintah, perbankan, dan perusahaan teknologi sangat diperlukan untuk memberikan pendampingan berkelanjutan."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Gagasan utama paragraf pertama Teks 1 terdapat pada kalimat bernomor ....",
+      "options": {
+        "A": "[2]",
+        "B": "[1]",
+        "C": "[3]",
+        "D": "[5]"
+      },
+      "answer": "B",
+      "explanation": "Kalimat [1] merupakan kalimat topik (utama) yang menyatakan bahwa konsumsi garam melebihi anjuran merupakan ancaman serius. Kalimat [2] sampai [5] merupakan kalimat penjelas mekanismenya.",
+      "passage": "teks_pbm1"
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Kata berimbuhan yang bermakna <b>'menyebabkan menjadi'</b> pada paragraf pertama Teks 1 adalah ....",
+      "options": {
+        "A": "melebihi",
+        "B": "memaksa",
+        "C": "meningkatkan",
+        "D": "mengkonsumsi"
+      },
+      "answer": "C",
+      "explanation": "Kata 'meningkatkan' berasal dari bentuk dasar 'tingkat' dengan imbuhan me-kan yang bermakna kausatif (menyebabkan menjadi tingkat/tinggi).",
+      "passage": "teks_pbm1"
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Pernyataan yang <b>tidak sesuai</b> dengan isi Teks 2 adalah ....",
+      "options": {
+        "A": "Seluruh pelaku UMKM tradisional telah mahir menggunakan ekosistem digital",
+        "B": "Platform niaga elektronik memungkinkan pelaku usaha memperluas jangkauan pasar",
+        "C": "Literasi digital yang rendah menjadi salah satu hambatan adopsi teknologi",
+        "D": "Pembayaran digital QRIS dapat membantu meningkatkan transparansi pembukuan"
+      },
+      "answer": "A",
+      "explanation": "Paragraf kedua justru menyebutkan bahwa kendala utama UMKM tradisional adalah rendahnya literasi digital dan kekhawatiran terhadap penipuan siber.",
+      "passage": "teks_pbm2"
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Penulisan kata serapan yang baku pada Teks 2 adalah ....",
+      "options": {
+        "A": "kwalitas",
+        "B": "tehnologi",
+        "C": "infra struktur",
+        "D": "transparansi"
+      },
+      "answer": "D",
+      "explanation": "Bentuk baku serapan dari 'transparency' adalah 'transparansi'. Pilihan lain salah (seharusnya: kualitas, teknologi, infrastruktur tanpa spasi).",
+      "passage": "teks_pbm2"
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "Kalimat manakah pada Teks 1 yang menunjukkan hubungan pertentangan antarkalimat?",
+      "options": {
+        "A": "Kalimat [3] terhadap kalimat [2]",
+        "B": "Kalimat [5] terhadap kalimat [4]",
+        "C": "Kalimat [7] terhadap kalimat [6]",
+        "D": "Kalimat [8] terhadap kalimat [7]"
+      },
+      "answer": "C",
+      "explanation": "Kalimat [7] diawali konjungsi pertentangan 'Namun' yang mengontraskan anjuran batas maksimal konsumsi WHO pada kalimat [6] dengan kenyataan konsumsi masyarakat yang berlebih.",
+      "passage": "teks_pbm1"
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Penggunaan tanda koma (,) yang <b>salah</b> terdapat pada kalimat bernomor ....",
+      "options": {
+        "A": "[4]",
+        "B": "[1]",
+        "C": "[6]",
+        "D": "[8]"
+      },
+      "answer": "A",
+      "explanation": "Pada kalimat [4]: 'Hipertensi yang tidak tertangani dalam jangka panjang berisiko memicu kerusakan arteri, serangan jantung, maupun strok.' Sebelum kata penghubung antarklausa/pilihan sejenis 'maupun' tidak perlu ditarik koma jika tidak berbentuk pemerincian kompleks, tetapi pada kalimat [8] konjungsi antarkalimat 'Oleh karena itu,' sudah tepat diikuti koma.",
+      "passage": "teks_pbm1"
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Konjungsi antarkalimat yang tepat untuk menggabungkan gagasan pada kalimat [4] dan kalimat [5] Teks 2 adalah ....",
+      "options": {
+        "A": "Oleh sebab itu",
+        "B": "Akan tetapi",
+        "C": "Dengan demikian",
+        "D": "Selain itu"
+      },
+      "answer": "B",
+      "explanation": "Kalimat [4] berbicara tentang tuntutan kesiapan infrastruktur, sedangkan kalimat [5] berbicara tentang kendala internal pelaku usaha (kontras/penghambat tambahan). Konjungsi pertentangan 'Akan tetapi' paling tepat.",
+      "passage": "teks_pbm2"
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Kata <b>adopsi</b> pada kalimat [4] Teks 2 memiliki makna yang sepadan dengan kata ....",
+      "options": {
+        "A": "peniruan tanpa izin",
+        "B": "pengabaian sistematis",
+        "C": "pembatasan akses",
+        "D": "penerapan atau penerimaan"
+      },
+      "answer": "D",
+      "explanation": "Adopsi teknologi berarti proses penerimaan, pemungutan, atau penerapan suatu teknologi baru dalam operasional kerja.",
+      "passage": "teks_pbm2"
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Kalimat berikut ini yang merupakan <b>kalimat efektif</b> adalah ....",
+      "options": {
+        "A": "Bagi para siswa yang akan mengikuti lomba diwajibkan mendaftar.",
+        "B": "Hasil penelitian itu menunjukkan bahwa polusi udara mempercepat penuaan sel.",
+        "C": "Pemerintah memperbaiki jalan raya agar supaya transportasi lancar.",
+        "D": "Dalam rapat itu membicarakan tentang kenaikan anggaran operasional."
+      },
+      "answer": "B",
+      "explanation": "Pilihan A adalah kalimat efektif berstruktur jelas (S-P-O). Pilihan B kehilangan subjek karena diawali 'Bagi'; pilihan C pleonasme 'agar supaya'; pilihan D kehilangan subjek karena diawali 'Dalam rapat itu' dan verba aktif transitif diikuti 'tentang'."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Penulisan tanda baca yang <b>tepat</b> menurut Pedoman Umum Ejaan Bahasa Indonesia (EYD V) terdapat pada kalimat ....",
+      "options": {
+        "A": "Prof. Dr. Ir. H. Mahfud, M.Sc. dilantik menjadi rektor universitas.",
+        "B": "Ibu membeli sayur, beras, dan gula; di pasar tradisional.",
+        "C": "Wah indah sekali pemandangan matahari terbit di pantai ini!",
+        "D": "Hari ini Senin, 10 November 2025 diadakan upacara bendera."
+      },
+      "answer": "A",
+      "explanation": "Pilihan A menuliskan gelar akademik dan singkatan nama dengan titik dan spasi secara baku. Pilihan B salah memakai titik koma sebelum keterangan; pilihan C tidak memakai koma setelah seruan 'Wah,'; pilihan D tidak memakai koma pemisah keterangan hari dan tanggal."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Perhatikan kalimat berikut:<br><i>'Kementerian Kesehatan menerbitkan surat edaran tentang pencegahan demam berdarah dengue.'</i><br>Pola fungsi sintaksis dari kalimat tersebut adalah ....",
+      "options": {
+        "A": "S - P - Pel - K",
+        "B": "S - P - K",
+        "C": "S - P - O - K",
+        "D": "K - S - P - O"
+      },
+      "answer": "C",
+      "explanation": "• Subjek (S): Kementerian Kesehatan<br>• Predikat (P): menerbitkan<br>• Objek (O): surat edaran<br>• Keterangan (K): tentang pencegahan demam berdarah dengue (frasa preposisional).<br>Maka polanya adalah S - P - O - K."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Kalimat yang mengandung kesalahan ejaan pada penulisan gabungan kata adalah ....",
+      "options": {
+        "A": "Para atlet sedang berlatih intensif di pusat olah raga nasional.",
+        "B": "Tanggung jawab sosial perusahaan harus dijalankan secara konsisten.",
+        "C": "Masyarakat diminta tidak menyebarluaskan berita bohong.",
+        "D": "Perusahaan itu menandatangani kontrak kerja sama baru."
+      },
+      "answer": "D",
+      "explanation": "Kata 'olahraga' adalah bentuk gabungan kata yang sudah padu dan harus ditulis serangkai (bukan terpisah 'olah raga'). 'Kerja sama' ditulis terpisah (benar); 'tanggung jawab' terpisah (benar); 'menyebarluaskan' terikat imbuhan konfiks meng-kan sehingga serangkai (benar)."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Penulisan huruf kapital yang <b>benar</b> terdapat pada kalimat ....",
+      "options": {
+        "A": "Paman senang menikmati kopi Toraja di Danau toba.",
+        "B": "Kapal feri itu menyeberangi Selat Sunda menuju Pulau Sumatra.",
+        "C": "Semua Gubernur berkumpul di Istana Negara kemarin.",
+        "D": "Ia sangat fasih berbahasa inggris dan bahasa jerman."
+      },
+      "answer": "B",
+      "explanation": "Pilihan A menuliskan nama geografis (Selat Sunda, Pulau Sumatra) dengan huruf kapital. Pilihan B salah pada 'Danau toba' (toba kecil); pilihan C salah mengkapitalkan 'Gubernur' tanpa diikuti nama; pilihan D salah mengecilkan nama bahasa 'inggris' dan 'jerman'."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Kalimat yang menggunakan kata bentukan secara <b>tidak tepat</b> adalah ....",
+      "options": {
+        "A": "Polisi berhasil mengidentifikasi identitas korban kecelakaan.",
+        "B": "Pustakawan sedang mengklasifikasikan buku berdasarkan kategori.",
+        "C": "Pemerintah berusaha meminimalisir dampak buruk bencana alam.",
+        "D": "Keluarga itu menyosialisasikan pentingnya hidup sehat."
+      },
+      "answer": "C",
+      "explanation": "Bentuk serapan yang baku dari kata kerja bahasa Inggris dengan akhiran '-ize' ke dalam bahasa Indonesia adalah '-isasi / -kan', misalnya 'meminimalkan' atau 'meminimalisasi' (bukan 'meminimalisir' yang merupakan bentuk serapan Belanda tidak baku)."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "question": "Kalimat [3] dan [4] pada Teks 1 dapat digabungkan secara efektif menjadi ....",
+      "options": {
+        "A": "Kondisi ini memaksa jantung memompa lebih keras sehingga memicu hipertensi yang jika tidak tertangani berisiko menimbulkan serangan jantung atau strok.",
+        "B": "Kondisi ini memaksa jantung memompa lebih keras karena hipertensi tidak tertangani berisiko merusak arteri dan strok.",
+        "C": "Memaksa jantung memompa lebih keras kondisi ini, menyebabkan hipertensi serta risiko kerusakan arteri maupun serangan jantung.",
+        "D": "Kondisi yang memaksa jantung memompa lebih keras dan peningkatan tekanan darah tetapi risiko strok terjadi jika tertangani."
+      },
+      "answer": "A",
+      "explanation": "Pilihan A berhasil merangkum hubungan sebab-akibat antara kerja keras jantung, timbulnya hipertensi, serta risiko vaskular jangka panjang secara padu dan gramatikal tanpa pemborosan kata.",
+      "passage": "teks_pbm1"
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "question": "Simpulan yang paling logis dan komprehensif untuk melengkapi paragraf kedua Teks 2 adalah ....",
+      "options": {
+        "A": "Oleh sebab itu, pelaku UMKM sebaiknya tetap bertahan menggunakan metode penjualan konvensional.",
+        "B": "Dengan demikian, penguatan literasi digital dan jaminan keamanan siber menjadi kunci keberhasilan transformasi UMKM.",
+        "C": "Maka dari itu, perbankan wajib membagikan perangkat komputer gratis kepada seluruh pedagang pasar.",
+        "D": "Kesimpulannya, regulasi penipuan siber belum dapat diterapkan di sektor perdagangan daring."
+      },
+      "answer": "B",
+      "explanation": "Pilihan A merangkum solusi atas kedua kendala utama yang diuraikan pada paragraf 2 (literasi digital dan ketakutan akan kejahatan siber), sehingga menjadi kesimpulan penutup yang paling padu.",
+      "passage": "teks_pbm2"
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "question": "Perhatikan kalimat majemuk berikut:<br><i>'Meskipun regulasi perlindungan data pribadi telah disahkan pemerintah, [...] sejumlah perusahaan teknologi masih belum memperbarui sistem keamanan peladen mereka.'</i><br>Konjungsi yang tepat untuk mengisi bagian rumpang tanpa merusak struktur anak kalimat adalah ....",
+      "options": {
+        "A": "namun",
+        "B": "akan tetapi",
+        "C": "tetapi",
+        "D": "(tidak memerlukan konjungsi tambahan)"
+      },
+      "answer": "D",
+      "explanation": "Klausa pertama diawali konjungsi subordinatif konsesif 'Meskipun'. Dalam kaidah bahasa Indonesia baku, induk kalimat tidak boleh diawali lagi dengan konjungsi koordinatif pertentangan seperti 'namun' atau 'tetapi'. Jadi tidak memerlukan konjungsi tambahan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "question": "Di antara kalimat-kalimat berikut, manakah kalimat yang <b>bermakna ganda (ambigu)</b>?",
+      "options": {
+        "A": "Siswa kelas XII sedang mengerjakan ujian di laboratorium komputer.",
+        "B": "Mobil derek memindahkan kendaraan yang mogok di jalan tol.",
+        "C": "Istri dokter yang ramah itu menyapa para pasien di ruang tunggu.",
+        "D": "Petugas perpustakaan mencatat buku yang dipinjam oleh mahasiswa."
+      },
+      "answer": "C",
+      "explanation": "Frasa 'Istri dokter yang ramah itu' ambigu karena kata 'yang ramah itu' dapat menerangkan 'istri' atau menerangkan 'dokter'. Kalimat lain memiliki struktur semantis yang lugas dan tunggal."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Penulisan partikel <b>pun</b> yang <b>salah</b> terdapat pada kalimat ....",
+      "options": {
+        "A": "Meskipun hari hujan deras, ia pergi keluar rumah jua pun.",
+        "B": "Apa pun makanan yang disajikan, ia selalu bersyukur.",
+        "C": "Jangankan mobil, sepeda motor pun ia tidak memilikinya.",
+        "D": "Walaupun lelah bekerja seharian, ia tetap tersenyum ramah."
+      },
+      "answer": "A",
+      "explanation": "Partikel 'pun' yang berarti 'juga' atau 'saja' ditulis terpisah dari kata yang mendahuluinya (misal 'motor pun', 'apa pun'). Kata penghubung yang sudah padu ditulis serangkai: walaupun, meskipun, sungguhpun, sekalipun (dalam arti meskipun). Pada pilihan A, penggunaan 'jua pun' berlebihan dan tidak baku."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Perhatikan paragraf berikut:<br><i>(1) Ketahanan energi nasional menjadi isu krusial di tengah gejolak geopolitik dunia. (2) Ketergantungan terhadap impor minyak mentah membebani anggaran belanja negara. (3) Pengembangan bahan bakar nabati seperti biodiesel dari kelapa sawit terus diakselerasi. (4) Konsumsi buah sawit segar masyarakat perkotaan relatif stabil setiap tahun. (5) Diversifikasi energi ini diharapkan mampu memangkas defisit neraca perdagangan.</i><br>Kalimat yang <b>sumbang (tidak padu)</b> dalam paragraf di atas adalah nomor ....",
+      "options": {
+        "A": "(2)",
+        "B": "(3)",
+        "C": "(5)",
+        "D": "(4)"
+      },
+      "answer": "D",
+      "explanation": "Paragraf membahas isu ketahanan energi, beban impor minyak mentah, dan transisi ke biodiesel sawit. Kalimat (4) yang membicarakan konsumsi buah sawit segar untuk konsumsi rumah tangga sama sekali tidak berkaitan dengan topik utama ketahanan energi dan merupakan kalimat sumbang."
+    }
+  ]
+}
