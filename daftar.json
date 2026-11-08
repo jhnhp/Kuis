@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T10:06:38",
+  "generated": "2026-11-08T16:44:07",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2450,6 +2450,30 @@
       "path": "TKA SMP/Matematika/08 Simulasi TKA/soal.json"
     },
     {
+      "title": "UTBK-SNBT - Paket Lengkap TPS (12 Soal)",
+      "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
+      "summary": "12 soal tingkat mudah, terdiri atas 3 soal PU, 3 soal PPU, 3 soal PBM, dan 3 soal PK.",
+      "questions": 12,
+      "kelas": "UTBK",
+      "mapel": "Paket Lengkap TPS",
+      "topik": [
+        "01 Paket Lengkap TPS - 12 Soal"
+      ],
+      "path": "UTBK/Paket Lengkap TPS/01 Paket Lengkap TPS - 12 Soal/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Tingkat Mudah)",
+      "topic": "Gagasan Utama, Kalimat Efektif, Kepaduan Paragraf, Konjungsi, dan Ejaan",
+      "summary": "100% Mudah. Fokus pada pemahaman struktur paragraf, kalimat efektif, pilihan kata, konjungsi, dan kaidah penulisan.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Pemahaman Bacaan dan Menulis",
+      "topik": [
+        "01 PBM - Tingkat Mudah"
+      ],
+      "path": "UTBK/Pemahaman Bacaan dan Menulis/01 PBM - Tingkat Mudah/soal.json"
+    },
+    {
       "title": "UTBK-SNBT - Penalaran Umum (Tingkat Mudah)",
       "topic": "Penalaran Induktif, Penalaran Deduktif, dan Penalaran Kuantitatif",
       "summary": "100% Mudah. Fokus pada pengenalan pola, kesimpulan logis, dan perhitungan sederhana.",
@@ -2474,18 +2498,6 @@
       "path": "UTBK/Pengetahuan dan Pemahaman Umum/01 PPU - Tingkat Mudah/soal.json"
     },
     {
-      "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Tingkat Mudah)",
-      "topic": "Gagasan Utama, Kalimat Efektif, Kepaduan Paragraf, Konjungsi, dan Ejaan",
-      "summary": "100% Mudah. Fokus pada pemahaman struktur paragraf, kalimat efektif, pilihan kata, konjungsi, dan kaidah penulisan.",
-      "questions": 20,
-      "kelas": "UTBK",
-      "mapel": "Pemahaman Bacaan dan Menulis",
-      "topik": [
-        "01 PBM - Tingkat Mudah"
-      ],
-      "path": "UTBK/Pemahaman Bacaan dan Menulis/01 PBM - Tingkat Mudah/soal.json"
-    },
-    {
       "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Tingkat Mudah)",
       "topic": "Bilangan, Aljabar, Perbandingan, Geometri, Statistika, dan Peluang",
       "summary": "100% Mudah. Latihan konsep dasar aritmetika, aljabar, rasio, geometri, statistika, dan peluang.",
@@ -2498,16 +2510,16 @@
       "path": "UTBK/Pengetahuan Kuantitatif/01 PK - Tingkat Mudah/soal.json"
     },
     {
-      "title": "UTBK-SNBT - Paket Lengkap TPS (12 Soal)",
-      "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
-      "summary": "12 soal tingkat mudah, terdiri atas 3 soal PU, 3 soal PPU, 3 soal PBM, dan 3 soal PK.",
-      "questions": 12,
+      "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Latihan Campuran)",
+      "topic": "Aljabar, Barisan, Geometri, Matriks, Peluang, Statistika, dan Logika Kuantitatif",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan aljabar, fungsi, deret, geometri, matriks, peluang, dan kecukupan data standar UTBK.",
+      "questions": 20,
       "kelas": "UTBK",
-      "mapel": "Paket Lengkap TPS",
+      "mapel": "Pengetahuan Kuantitatif",
       "topik": [
-        "01 Paket Lengkap TPS - 12 Soal"
+        "02 PK - Latihan Campuran"
       ],
-      "path": "UTBK/Paket Lengkap TPS/01 Paket Lengkap TPS - 12 Soal/soal.json"
+      "path": "UTBK/Pengetahuan Kuantitatif/02 PK - Latihan Campuran/soal.json"
     }
   ]
 }
