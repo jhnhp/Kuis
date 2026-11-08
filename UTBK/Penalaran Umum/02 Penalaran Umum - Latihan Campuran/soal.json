@@ -156,7 +156,7 @@
         "D": "16 orang"
       },
       "answer": "D",
-      "explanation": "Banyak siswa yang memilih minimal salah satu program = 60 − 6 = 54 orang.<br>Berdasarkan prinsip inklusi-eksklusi: n(Saintek ∪ Soshum) = n(Saintek) + n(Soshum) − n(Saintek ∩ Soshum)<br>54 = 38 + 32 − x<br>54 = 70 − x \\implies x = 70 − 54 = 16 orang."
+      "explanation": "Banyak siswa yang memilih minimal salah satu program = 60 − 6 = 54 orang.<br>Berdasarkan prinsip inklusi-eksklusi: n(Saintek ∪ Soshum) = n(Saintek) + n(Soshum) − n(Saintek ∩ Soshum)<br>54 = 38 + 32 − x<br>54 = 70 − x → x = 70 − 54 = 16 orang."
     },
     {
       "number": 12,
@@ -249,7 +249,7 @@
         "D": "3 3/7 jam (24/7 jam)"
       },
       "answer": "D",
-      "explanation": "Laju kerja gabungan per jam:<br>\\(V = \\frac{1}{4} + \\frac{1}{6} - \\frac{1}{8}\\).<br>Samakan penyebut ke KPK 24:<br>\\(V = \\frac{6}{24} + \\frac{4}{24} - \\frac{3}{24} = \\frac{7}{24}\\) bagian kolam per jam.<br>Waktu yang dibutuhkan untuk mengisi penuh = \\(\\frac{1}{7/24} = \\frac{24}{7} = 3\\frac{3}{7}\\) jam."
+      "explanation": "Laju kerja gabungan per jam:<br>V = 1/4 + 1/6 − 1/8.<br>Samakan penyebut ke KPK 24:<br>V = 6/24 + 4/24 − 3/24 = 7/24 bagian kolam per jam.<br>Waktu yang dibutuhkan untuk mengisi penuh = 1 / (7/24) = 24/7 = 3³/₇ jam."
     },
     {
       "number": 19,

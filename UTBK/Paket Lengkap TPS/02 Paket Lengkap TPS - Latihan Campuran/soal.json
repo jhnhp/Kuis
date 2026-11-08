@@ -85,7 +85,7 @@
         "D": "49 liter"
       },
       "answer": "B",
-      "explanation": "Misalkan volume susu = 7x dan volume air awal = 3x.<br>Setelah ditambah 10 liter air: \\(\\frac{7x}{3x + 10} = \\frac{7}{5}\\).<br>Bagi kedua pembilang dengan 7: \\(\\frac{x}{3x + 10} = \\frac{1}{5} \\implies 5x = 3x + 10 \\implies 2x = 10 \\implies x = 5\\).<br>Volume susu = 7x = 7(5) = 35 liter."
+      "explanation": "Misalkan volume susu = 7x dan volume air awal = 3x.<br>Setelah ditambah 10 liter air: (7x) / (3x + 10) = 7/5.<br>Bagi kedua pembilang dengan 7: x / (3x + 10) = 1/5 → 5x = 3x + 10 → 2x = 10 → x = 5.<br>Volume susu = 7x = 7(5) = 35 liter."
     },
     {
       "number": 6,
@@ -220,7 +220,7 @@
         "D": "Perjalanan menuju puncak bukit membutuhkan: stamina, bekal, dan pemandu."
       },
       "answer": "C",
-      "explanation": "Tanda titik dua digunakan pada akhir pernyataan lengkap yang diikuti pemerincian (pilihan A). Pada pilihan B, C, dan D, tanda titik dua salah digunakan karena mendahului pelengkap/objek yang langsung menyambung dari verba transitif."
+      "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian (pilihan C). Pada pilihan A, B, dan D, tanda titik dua tidak tepat digunakan karena langsung memotong verba transitif yang membutuhkan objek/pelengkap tanpa pernyataan lengkap sebelumnya."
     },
     {
       "number": 16,
@@ -251,7 +251,7 @@
     {
       "number": 18,
       "difficulty": "Sedang",
-      "question": "Diketahui sistem persamaan linear:<br>2x + y = 11<br>x − 3y = -5<br>Nilai dari 3x − 2y adalah ....",
+      "question": "Diketahui sistem persamaan linear:<br>2x + y = 11<br>x − 3y = −5<br>Nilai dari 3x − 2y adalah ....",
       "options": {
         "A": "5",
         "B": "6",
@@ -259,7 +259,7 @@
         "D": "8"
       },
       "answer": "B",
-      "explanation": "Dari persamaan kedua: x = 3y − 5.<br>Substitusi ke persamaan pertama: 2(3y − 5) + y = 11 \\implies 6y − 10 + y = 11 \\implies 7y = 21 \\implies y = 3.<br>Nilai x = 3(3) − 5 = 4.<br>Maka 3x − 2y = 3(4) − 2(3) = 12 − 6 = 6."
+      "explanation": "Dari persamaan kedua: x = 3y − 5.<br>Substitusi ke persamaan pertama: 2(3y − 5) + y = 11 → 6y − 10 + y = 11 → 7y = 21 → y = 3.<br>Nilai x = 3(3) − 5 = 4.<br>Maka 3x − 2y = 3(4) − 2(3) = 12 − 6 = 6."
     },
     {
       "number": 19,

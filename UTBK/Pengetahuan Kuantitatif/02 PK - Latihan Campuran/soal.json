@@ -1,14 +1,13 @@
 {
   "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Latihan Campuran)",
   "topic": "Aljabar, Barisan, Geometri, Matriks, Peluang, Statistika, dan Logika Kuantitatif",
-  "subtitle": "Latihan Mandiri 20 Soal",
   "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. Latihan aljabar, fungsi, deret, geometri, matriks, peluang, dan kecukupan data standar UTBK.",
   "total_questions": 20,
   "questions": [
     {
       "number": 1,
       "difficulty": "Mudah",
-      "question": "Bentuk sederhana dari \\(\\frac{2^{2026} - 2^{2024}}{2^{2024} + 2^{2023}}\\) adalah ....",
+      "question": "Bentuk sederhana dari (2<sup>2026</sup> − 2<sup>2024</sup>) / (2<sup>2024</sup> + 2<sup>2023</sup>) adalah ....",
       "options": {
         "A": "1",
         "B": "2",
@@ -16,12 +15,12 @@
         "D": "4"
       },
       "answer": "B",
-      "explanation": "Faktorkan pangkat terkecil pada pembilang dan penyebut:<br>\\(\\frac{2^{2024}(2^2 - 1)}{2^{2023}(2^1 + 1)} = \\frac{2^{2024}(4 - 1)}{2^{2023}(2 + 1)} = 2^{2024 - 2023} \\times \\frac{3}{3} = 2^1 \\times 1 = 2\\)."
+      "explanation": "Faktorkan pangkat terkecil pada pembilang dan penyebut:<br>[2<sup>2024</sup>(2² − 1)] / [2<sup>2023</sup>(2¹ + 1)]<br>= [2<sup>2024</sup>(4 − 1)] / [2<sup>2023</sup>(2 + 1)]<br>= 2<sup>2024 − 2023</sup> × (3 / 3)<br>= 2¹ × 1 = 2."
     },
     {
       "number": 2,
       "difficulty": "Mudah",
-      "question": "Diketahui fungsi \\(f(2x - 1) = 4x^2 - 6x + 5\\). Nilai dari \\(f(3)\\) adalah ....",
+      "question": "Diketahui fungsi f(2x − 1) = 4x² − 6x + 5. Nilai dari f(3) adalah ....",
       "options": {
         "A": "9",
         "B": "7",
@@ -29,20 +28,20 @@
         "D": "13"
       },
       "answer": "A",
-      "explanation": "Agar diperoleh \\(f(3)\\), kita cari nilai \\(x\\) yang memenuhi \\(2x - 1 = 3\\):<br>\\(2x = 4 \\implies x = 2\\).<br>Substitusikan \\(x = 2\\) ke dalam rumus fungsi:<br>\\(f(3) = 4(2)^2 - 6(2) + 5 = 16 - 12 + 5 = 9\\)."
+      "explanation": "Agar diperoleh f(3), kita cari nilai x yang memenuhi 2x − 1 = 3:<br>2x = 4 → x = 2.<br>Substitusikan x = 2 ke dalam rumus fungsi:<br>f(3) = 4(2)² − 6(2) + 5 = 16 − 12 + 5 = 9."
     },
     {
       "number": 3,
       "difficulty": "Mudah",
-      "question": "Persamaan garis yang melalui titik \\((2, -3)\\) dan tegak lurus terhadap garis \\(2x - 4y + 5 = 0\\) adalah ....",
+      "question": "Persamaan garis yang melalui titik (2, −3) dan tegak lurus terhadap garis 2x − 4y + 5 = 0 adalah ....",
       "options": {
         "A": "x + 2y + 4 = 0",
-        "B": "2x - y - 7 = 0",
-        "C": "2x + y - 1 = 0",
-        "D": "x - 2y - 8 = 0"
+        "B": "2x − y − 7 = 0",
+        "C": "2x + y − 1 = 0",
+        "D": "x − 2y − 8 = 0"
       },
       "answer": "C",
-      "explanation": "Gradien garis pertama: \\(2x - 4y + 5 = 0 \\implies 4y = 2x + 5 \\implies m_1 = \\frac{2}{4} = \\frac{1}{2}\\).<br>Garis yang tegak lurus memiliki gradien \\(m_2 = -\\frac{1}{m_1} = -2\\).<br>Persamaan garis melalui \\((2, -3)\\):<br>\\(y - (-3) = -2(x - 2) \\implies y + 3 = -2x + 4 \\implies 2x + y - 1 = 0\\)."
+      "explanation": "Gradien garis pertama:<br>2x − 4y + 5 = 0 → 4y = 2x + 5 → m₁ = 2/4 = 1/2.<br>Garis yang tegak lurus memiliki gradien m₂ = −1/m₁ = −2.<br>Persamaan garis melalui titik (2, −3):<br>y − (−3) = −2(x − 2)<br>y + 3 = −2x + 4<br>2x + y − 1 = 0."
     },
     {
       "number": 4,
@@ -55,25 +54,25 @@
         "D": "5 orang"
       },
       "answer": "D",
-      "explanation": "Sisa waktu rencana: \\(30 - 10 = 20\\) hari oleh 15 pekerja, sehingga beban sisa pekerjaan = \\(20 \\times 15 = 300\\) hari-orang.<br>Karena terhenti 5 hari, sisa waktu nyata = \\(20 - 5 = 15\\) hari.<br>Banyak pekerja yang dibutuhkan = \\(\\frac{300}{15} = 20\\) orang.<br>Tambahan pekerja = \\(20 - 15 = 5\\) orang."
+      "explanation": "Sisa waktu rencana: 30 − 10 = 20 hari oleh 15 pekerja, sehingga beban sisa pekerjaan = 20 × 15 = 300 hari-orang.<br>Karena terhenti 5 hari, sisa waktu nyata = 20 − 5 = 15 hari.<br>Banyak pekerja yang dibutuhkan = 300 / 15 = 20 orang.<br>Tambahan pekerja = 20 − 15 = 5 orang."
     },
     {
       "number": 5,
       "difficulty": "Sedang",
-      "question": "Akar-akar persamaan kuadrat \\(x^2 - (k + 2)x + (k - 1) = 0\\) adalah \\(x_1\\) dan \\(x_2\\). Jika \\(x_1^2 + x_2^2 = 21\\), maka jumlah semua nilai \\(k\\) yang memenuhi adalah ....",
+      "question": "Akar-akar persamaan kuadrat x² − (k + 2)x + (k − 1) = 0 adalah x₁ dan x₂. Jika x₁² + x₂² = 21, maka jumlah semua nilai k yang memenuhi adalah ....",
       "options": {
-        "A": "-3",
-        "B": "-2",
+        "A": "−3",
+        "B": "−2",
         "C": "2",
         "D": "3"
       },
       "answer": "B",
-      "explanation": "Dari persamaan kuadrat: \\(x_1 + x_2 = k + 2\\) dan \\(x_1 x_2 = k - 1\\).<br>\\(x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2\\)<br>\\(21 = (k + 2)^2 - 2(k - 1) = k^2 + 4k + 4 - 2k + 2 = k^2 + 2k + 6\\).<br>\\(k^2 + 2k - 15 = 0 \\implies (k + 5)(k - 3) = 0\\).<br>Nilai \\(k\\) yang memenuhi adalah \\(k = -5\\) atau \\(k = 3\\).<br>Jumlah semua nilai \\(k = -5 + 3 = -2\\)."
+      "explanation": "Dari persamaan kuadrat: x₁ + x₂ = k + 2 dan x₁ · x₂ = k − 1.<br>x₁² + x₂² = (x₁ + x₂)² − 2x₁x₂<br>21 = (k + 2)² − 2(k − 1)<br>21 = k² + 4k + 4 − 2k + 2<br>21 = k² + 2k + 6<br>k² + 2k − 15 = 0 → (k + 5)(k − 3) = 0.<br>Nilai k yang memenuhi adalah k = −5 atau k = 3.<br>Jumlah semua nilai k = −5 + 3 = −2."
     },
     {
       "number": 6,
       "difficulty": "Sedang",
-      "question": "Jumlah \\(n\\) suku pertama suatu deret aritmetika dinyatakan oleh \\(S_n = 3n^2 - 2n\\). Nilai dari suku ke-10 (\\(U_{10}\\)) deret tersebut adalah ....",
+      "question": "Jumlah n suku pertama suatu deret aritmetika dinyatakan oleh S<sub>n</sub> = 3n² − 2n. Nilai dari suku ke-10 (U₁₀) deret tersebut adalah ....",
       "options": {
         "A": "49",
         "B": "52",
@@ -81,7 +80,7 @@
         "D": "58"
       },
       "answer": "C",
-      "explanation": "Gunakan hubungan \\(U_n = S_n - S_{n-1}\\):<br>\\(S_{10} = 3(10)^2 - 2(10) = 300 - 20 = 280\\).<br>\\(S_9 = 3(9)^2 - 2(9) = 3(81) - 18 = 243 - 18 = 225\\).<br>\\(U_{10} = S_{10} - S_9 = 280 - 225 = 55\\)."
+      "explanation": "Gunakan hubungan U<sub>n</sub> = S<sub>n</sub> − S<sub>n−1</sub>:<br>S₁₀ = 3(10)² − 2(10) = 300 − 20 = 280.<br>S₉ = 3(9)² − 2(9) = 3(81) − 18 = 243 − 18 = 225.<br>U₁₀ = S₁₀ − S₉ = 280 − 225 = 55."
     },
     {
       "number": 7,
@@ -94,7 +93,7 @@
         "D": "77"
       },
       "answer": "A",
-      "explanation": "Total nilai awal seluruh 40 siswa = \\((24 \\times 78) + (16 \\times 73) = 1.872 + 1.168 = 3.040\\).<br>Setelah 2 siswa dikeluarkan (total nilai 152), jumlah nilai baru = \\(3.040 - 152 = 2.888\\).<br>Jumlah siswa yang tersisa = \\(40 - 2 = 38\\).<br>Rata-rata baru = \\(\\frac{2.888}{38} = 76\\)."
+      "explanation": "Total nilai awal seluruh 40 siswa = (24 × 78) + (16 × 73) = 1.872 + 1.168 = 3.040.<br>Setelah 2 siswa dikeluarkan (total nilai 152), jumlah nilai baru = 3.040 − 152 = 2.888.<br>Jumlah siswa yang tersisa = 40 − 2 = 38.<br>Rata-rata baru = 2.888 / 38 = 76."
     },
     {
       "number": 8,
@@ -107,12 +106,12 @@
         "D": "81"
       },
       "answer": "D",
-      "explanation": "Kemungkinan komposisi delegasi:<br>• 2 putri dan 2 putra: \\(C(4, 2) \\times C(5, 2) = 6 \\times 10 = 60\\)<br>• 3 putri dan 1 putra: \\(C(4, 3) \\times C(5, 1) = 4 \\times 5 = 20\\)<br>• 4 putri dan 0 putra: \\(C(4, 4) \\times C(5, 0) = 1 \\times 1 = 1\\)<br>Total cara pemilihan = \\(60 + 20 + 1 = 81\\) cara."
+      "explanation": "Kemungkinan komposisi delegasi:<br>• 2 putri dan 2 putra: C(4, 2) × C(5, 2) = 6 × 10 = 60 cara<br>• 3 putri dan 1 putra: C(4, 3) × C(5, 1) = 4 × 5 = 20 cara<br>• 4 putri dan 0 putra: C(4, 4) × C(5, 0) = 1 × 1 = 1 cara<br>Total cara pemilihan = 60 + 20 + 1 = 81 cara."
     },
     {
       "number": 9,
       "difficulty": "Sedang",
-      "question": "Pada sebuah segitiga siku-siku \\(ABC\\) yang siku-siku di \\(B\\), panjang sisi \\(AB = 9\\text{ cm}\\) dan \\(BC = 12\\text{ cm}\\). Titik \\(D\\) terletak pada sisi miring \\(AC\\) sedemikian sehingga garis \\(BD\\) tegak lurus dengan \\(AC\\). Panjang segmen \\(BD\\) adalah ....",
+      "question": "Pada sebuah segitiga siku-siku ABC yang siku-siku di B, panjang sisi AB = 9 cm dan BC = 12 cm. Titik D terletak pada sisi miring AC sedemikian sehingga garis BD tegak lurus dengan AC. Panjang segmen BD adalah ....",
       "options": {
         "A": "6,8 cm",
         "B": "7,2 cm",
@@ -120,25 +119,25 @@
         "D": "8,0 cm"
       },
       "answer": "B",
-      "explanation": "Panjang sisi miring \\(AC = \\sqrt{AB^2 + BC^2} = \\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15\\text{ cm}\\).<br>Luas segitiga dapat dinyatakan dengan dua cara:<br>\\(L = \\frac{1}{2} \\times AB \\times BC = \\frac{1}{2} \\times AC \\times BD\\)<br>\\(AB \\times BC = AC \\times BD \\implies 9 \\times 12 = 15 \\times BD \\implies BD = \\frac{108}{15} = 7,2\\text{ cm}\\)."
+      "explanation": "Panjang sisi miring AC = √(AB² + BC²) = √(9² + 12²) = √(81 + 144) = √225 = 15 cm.<br>Luas segitiga dapat dinyatakan dengan dua cara:<br>Luas = ½ × AB × BC = ½ × AC × BD<br>AB × BC = AC × BD<br>9 × 12 = 15 × BD<br>108 = 15 × BD → BD = 108 / 15 = 7,2 cm."
     },
     {
       "number": 10,
       "difficulty": "Sedang",
-      "question": "Himpunan penyelesaian dari pertidaksamaan pecahan \\(\\frac{2x - 3}{x + 2} \\le 1\\) adalah ....",
+      "question": "Himpunan penyelesaian dari pertidaksamaan pecahan (2x − 3) / (x + 2) ≤ 1 adalah ....",
       "options": {
-        "A": "x < -2 atau x ≥ 5",
-        "B": "-2 ≤ x ≤ 5",
-        "C": "-2 < x ≤ 5",
-        "D": "x ≤ -2 atau x > 5"
+        "A": "x < −2 atau x ≥ 5",
+        "B": "−2 ≤ x ≤ 5",
+        "C": "−2 < x ≤ 5",
+        "D": "x ≤ −2 atau x > 5"
       },
       "answer": "C",
-      "explanation": "Pindahkan konstanta 1 ke ruas kiri:<br>\\(\\frac{2x - 3}{x + 2} - 1 \\le 0 \\implies \\frac{(2x - 3) - (x + 2)}{x + 2} \\le 0 \\implies \\frac{x - 5}{x + 2} \\le 0\\).<br>Pembuat nol pembilang adalah \\(x = 5\\) dan pembuat nol penyebut adalah \\(x = -2\\) (penyebut tidak boleh nol sehingga \\(x \\ne -2\\)).<br>Uji daerah pada garis bilangan menghasilkan penyelesaian: \\(-2 < x \\le 5\\)."
+      "explanation": "Pindahkan konstanta 1 ke ruas kiri:<br>(2x − 3) / (x + 2) − 1 ≤ 0<br>[(2x − 3) − (x + 2)] / (x + 2) ≤ 0<br>(x − 5) / (x + 2) ≤ 0.<br>Pembuat nol pembilang adalah x = 5 dan pembuat nol penyebut adalah x = −2 (penyebut tidak boleh nol sehingga x ≠ −2).<br>Uji daerah pada garis bilangan menghasilkan penyelesaian: −2 < x ≤ 5."
     },
     {
       "number": 11,
       "difficulty": "Sedang",
-      "question": "Diketahui matriks \\(A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}\\) dan matriks \\(B = \\begin{pmatrix} 1 & -2 \\\\ 3 & 5 \\end{pmatrix}\\). Nilai determinan dari matriks \\(2(AB)\\) adalah ....",
+      "question": "Diketahui matriks A = [[2, 1], [4, 3]] dan matriks B = [[1, −2], [3, 5]]. Nilai determinan dari matriks 2(AB) adalah ....",
       "options": {
         "A": "44",
         "B": "66",
@@ -146,12 +145,12 @@
         "D": "88"
       },
       "answer": "D",
-      "explanation": "Determinan masing-masing matriks:<br>\\(\\det(A) = (2)(3) - (1)(4) = 6 - 4 = 2\\).<br>\\(\\det(B) = (1)(5) - (-2)(3) = 5 - (-6) = 11\\).<br>\\(\\det(AB) = \\det(A) \\cdot \\det(B) = 2 \\times 11 = 22\\).<br>Karena matriks \\(AB\\) berukuran \\(2 \\times 2\\), maka \\(\\det(k M) = k^2 \\det(M)\\):<br>\\(\\det(2(AB)) = 2^2 \\cdot \\det(AB) = 4 \\times 22 = 88\\)."
+      "explanation": "Determinan masing-masing matriks:<br>det(A) = (2)(3) − (1)(4) = 6 − 4 = 2.<br>det(B) = (1)(5) − (−2)(3) = 5 − (−6) = 11.<br>det(AB) = det(A) × det(B) = 2 × 11 = 22.<br>Karena matriks AB berukuran 2 × 2, berlaku det(k·M) = k² · det(M):<br>det(2(AB)) = 2² × det(AB) = 4 × 22 = 88."
     },
     {
       "number": 12,
       "difficulty": "Sedang",
-      "question": "Diketahui \\(x\\) dan \\(y\\) adalah bilangan bulat positif yang memenuhi \\(x^2 - y^2 = 33\\) dengan \\(x > y\\).<br>Manakah hubungan yang benar antara kuantitas \\(P\\) dan \\(Q\\) berikut?<br>• Kuantitas \\(P\\): Nilai \\(x + y\\)<br>• Kuantitas \\(Q\\): 15",
+      "question": "Diketahui x dan y adalah bilangan bulat positif yang memenuhi x² − y² = 33 dengan x > y.<br>Manakah hubungan yang benar antara kuantitas P dan Q berikut?<br>• Kuantitas P: Nilai x + y<br>• Kuantitas Q: 15",
       "options": {
         "A": "P > Q",
         "B": "Q > P",
@@ -159,7 +158,7 @@
         "D": "Hubungan antara P dan Q tidak dapat ditentukan dari informasi yang diberikan"
       },
       "answer": "D",
-      "explanation": "\\(x^2 - y^2 = (x - y)(x + y) = 33\\). Karena \\(x, y\\) bilangan bulat positif dan \\(x > y\\), maka faktor-faktor positif dari 33 memiliki dua kemungkinan:<br>1) \\(x - y = 1\\) dan \\(x + y = 33 \\implies P = 33 > Q\\).<br>2) \\(x - y = 3\\) dan \\(x + y = 11 \\implies P = 11 < Q\\).<br>Karena terdapat dua kemungkinan nilai \\(P\\) yang menghasilkan perbandingan berbeda, hubungan antara \\(P\\) dan \\(Q\\) tidak dapat ditentukan."
+      "explanation": "x² − y² = (x − y)(x + y) = 33.<br>Karena x dan y bilangan bulat positif dengan x > y, maka faktor-faktor positif dari 33 memiliki dua kemungkinan pasangan (x − y, x + y):<br>1) x − y = 1 dan x + y = 33 → P = 33 (P > Q).<br>2) x − y = 3 dan x + y = 11 → P = 11 (P < Q).<br>Karena terdapat dua kemungkinan yang menghasilkan perbandingan berbeda, hubungan antara P dan Q tidak dapat ditentukan."
     },
     {
       "number": 13,
@@ -172,7 +171,7 @@
         "D": "9/28"
       },
       "answer": "A",
-      "explanation": "Total kelereng = 8.<br>• Peluang keduanya merah = \\(\\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56}\\).<br>• Peluang keduanya putih = \\(\\frac{3}{8} \\times \\frac{2}{7} = \\frac{6}{56}\\).<br>Peluang keduanya berwarna sama = \\(\\frac{20}{56} + \\frac{6}{56} = \\frac{26}{56} = \\frac{13}{28}\\)."
+      "explanation": "Total kelereng = 8.<br>• Peluang keduanya merah = (5/8) × (4/7) = 20/56.<br>• Peluang keduanya putih = (3/8) × (2/7) = 6/56.<br>Peluang keduanya berwarna sama = 20/56 + 6/56 = 26/56 = 13/28."
     },
     {
       "number": 14,
@@ -185,12 +184,12 @@
         "D": "Rp45.000"
       },
       "answer": "B",
-      "explanation": "Misalkan buku = \\(B\\) dan pulpen = \\(P\\).<br>1) \\(2B + 3P = 21.000\\)<br>2) \\(3B + 2P = 24.000\\)<br>Jumlahkan kedua persamaan: \\(5B + 5P = 45.000 \\implies B + P = 9.000\\).<br>Selisihkan kedua persamaan: \\(B - P = 3.000\\).<br>Dari kedua persamaan tersebut didapat \\(B = 6.000\\) dan \\(P = 3.000\\).<br>Harga 4 buku dan 5 pulpen = \\(4(6.000) + 5(3.000) = 24.000 + 15.000 = Rp39.000\\)."
+      "explanation": "Misalkan buku = B dan pulpen = P.<br>1) 2B + 3P = 21.000<br>2) 3B + 2P = 24.000<br>Jumlahkan kedua persamaan: 5B + 5P = 45.000 → B + P = 9.000.<br>Selisihkan kedua persamaan: B − P = 3.000.<br>Dari kedua persamaan tersebut didapat B = 6.000 dan P = 3.000.<br>Harga 4 buku dan 5 pulpen = 4(6.000) + 5(3.000) = 24.000 + 15.000 = Rp39.000."
     },
     {
       "number": 15,
       "difficulty": "Sulit",
-      "question": "Diketahui fungsi \\(f(x) = \\frac{3x - 2}{2x + 1}\\) untuk \\(x \\ne -\\frac{1}{2}\\) dan \\(g(x) = 2x + 3\\). Jika \\((f \\circ g)^{-1}(a) = 1\\), maka nilai dari \\(a\\) adalah ....",
+      "question": "Diketahui fungsi f(x) = (3x − 2) / (2x + 1) untuk x ≠ −1/2 dan g(x) = 2x + 3. Jika (f ∘ g)⁻¹(a) = 1, maka nilai dari a adalah ....",
       "options": {
         "A": "13/11",
         "B": "11/13",
@@ -198,7 +197,7 @@
         "D": "5/7"
       },
       "answer": "A",
-      "explanation": "Berdasarkan sifat fungsi invers: \\((f \\circ g)^{-1}(a) = 1 \\iff (f \\circ g)(1) = a\\).<br>Hitung \\(g(1) = 2(1) + 3 = 5\\).<br>Hitung \\(f(g(1)) = f(5) = \\frac{3(5) - 2}{2(5) + 1} = \\frac{15 - 2}{10 + 1} = \\frac{13}{11}\\).<br>Jadi nilai \\(a = \\frac{13}{11}\\)."
+      "explanation": "Berdasarkan sifat fungsi invers: (f ∘ g)⁻¹(a) = 1 ⇔ (f ∘ g)(1) = a.<br>Hitung g(1) = 2(1) + 3 = 5.<br>Hitung f(g(1)) = f(5) = [3(5) − 2] / [2(5) + 1] = (15 − 2) / (10 + 1) = 13/11.<br>Jadi nilai a = 13/11."
     },
     {
       "number": 16,
@@ -211,12 +210,12 @@
         "D": "768 cm²"
       },
       "answer": "B",
-      "explanation": "Luas persegi pertama: \\(L_1 = 16^2 = 256\\text{ cm}^2\\).<br>Sisi persegi kedua menghubungkan titik tengah sisi 16 cm, sehingga panjang sisinya \\(s_2 = \\sqrt{8^2 + 8^2} = \\sqrt{128}\\), dan luasnya \\(L_2 = 128\\text{ cm}^2\\).<br>Rasio luas setiap persegi berikutnya adalah \\(r = \\frac{128}{256} = \\frac{1}{2}\\).<br>Jumlah deret geometri tak hingga:<br>\\(S_\\infty = \\frac{L_1}{1 - r} = \\frac{256}{1 - \\frac{1}{2}} = \\frac{256}{\\frac{1}{2}} = 512\\text{ cm}^2\\)."
+      "explanation": "Luas persegi pertama: L₁ = 16² = 256 cm².<br>Sisi persegi kedua menghubungkan titik tengah sisi 16 cm, sehingga panjang sisinya s₂ = √(8² + 8²) = √128, dan luasnya L₂ = 128 cm².<br>Rasio luas setiap persegi berikutnya adalah r = 128 / 256 = 1/2.<br>Jumlah deret geometri tak hingga:<br>S<sub>∞</sub> = L₁ / (1 − r) = 256 / (1 − 1/2) = 256 / (1/2) = 512 cm²."
     },
     {
       "number": 17,
       "difficulty": "Sulit",
-      "question": "Berapakah nilai dari \\(x + 2y\\)?<br>Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:<br>(1) \\(2x + 4y = 18\\)<br>(2) \\(x - y = 3\\)",
+      "question": "Berapakah nilai dari x + 2y?<br>Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:<br>(1) 2x + 4y = 18<br>(2) x − y = 3",
       "options": {
         "A": "Pernyataan (1) dan (2) bersama-sama cukup untuk menjawab pertanyaan, tetapi satu pernyataan saja tidak cukup",
         "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
@@ -224,38 +223,38 @@
         "D": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup"
       },
       "answer": "C",
-      "explanation": "• Dari pernyataan (1): \\(2x + 4y = 18\\). Jika kedua ruas dibagi 2, diperoleh \\(x + 2y = 9\\). Nilai \\(x + 2y\\) dapat ditentukan secara unik. Jadi pernyataan (1) SAJA cukup.<br>• Dari pernyataan (2): \\(x - y = 3\\). Persamaan ini memiliki banyak solusi tak hingga untuk \\(x\\) dan \\(y\\), sehingga nilai \\(x + 2y\\) tidak bernilai tunggal. Pernyataan (2) SAJA tidak cukup.<br>Kesimpulan: Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup."
+      "explanation": "• Dari pernyataan (1): 2x + 4y = 18. Jika kedua ruas dibagi 2, diperoleh x + 2y = 9. Nilai x + 2y dapat ditentukan secara unik. Jadi pernyataan (1) SAJA cukup.<br>• Dari pernyataan (2): x − y = 3. Persamaan ini memiliki banyak solusi tak hingga untuk x dan y sehingga nilai x + 2y tidak bernilai tunggal. Pernyataan (2) SAJA tidak cukup.<br>Kesimpulan: Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup."
     },
     {
       "number": 18,
       "difficulty": "Sulit",
-      "question": "Jika \\({}^2\\log 3 = a\\) dan \\({}^3\\log 5 = b\\), maka nilai dari \\({}^6\\log 45\\) dalam bentuk \\(a\\) dan \\(b\\) adalah ....",
+      "question": "Jika ²log 3 = a dan ³log 5 = b, maka nilai dari ⁶log 45 dalam bentuk a dan b adalah ....",
       "options": {
-        "A": "\\frac{a + 2b}{a + 1}",
-        "B": "\\frac{2a + b}{a + 1}",
-        "C": "\\frac{a(1 + 2b)}{a + 1}",
-        "D": "\\frac{a(2 + b)}{a + 1}"
+        "A": "(a + 2b) / (a + 1)",
+        "B": "(2a + b) / (a + 1)",
+        "C": "a(1 + 2b) / (a + 1)",
+        "D": "a(2 + b) / (a + 1)"
       },
       "answer": "D",
-      "explanation": "Ubah basis ke basis 2:<br>\\({}^6\\log 45 = \\frac{{}^2\\log 45}{{}^2\\log 6}\\).<br>Penyebut: \\({}^2\\log 6 = {}^2\\log(2 \\times 3) = {}^2\\log 2 + {}^2\\log 3 = 1 + a\\).<br>Pembilang: \\({}^2\\log 45 = {}^2\\log(3^2 \\times 5) = 2 \\cdot {}^2\\log 3 + {}^2\\log 5\\).<br>Karena \\({}^2\\log 5 = {}^2\\log 3 \\cdot {}^3\\log 5 = a \\cdot b\\), maka pembilang = \\(2a + ab = a(2 + b)\\).<br>Jadi \\({}^6\\log 45 = \\frac{a(2 + b)}{a + 1}\\)."
+      "explanation": "Ubah basis ke basis 2:<br>⁶log 45 = (²log 45) / (²log 6).<br>• Penyebut: ²log 6 = ²log(2 × 3) = ²log 2 + ²log 3 = 1 + a.<br>• Pembilang: ²log 45 = ²log(3² × 5) = 2 · ²log 3 + ²log 5.<br>Karena ²log 5 = ²log 3 · ³log 5 = a · b, maka pembilang = 2a + ab = a(2 + b).<br>Jadi ⁶log 45 = a(2 + b) / (a + 1)."
     },
     {
       "number": 19,
       "difficulty": "Sulit",
-      "question": "Sebuah suku banyak \\(P(x)\\) jika dibagi oleh \\((x - 2)\\) bersisa 7, dan jika dibagi oleh \\((x + 3)\\) bersisa -3. Sisa pembagian suku banyak \\(P(x)\\) oleh \\((x^2 + x - 6)\\) adalah ....",
+      "question": "Sebuah suku banyak P(x) jika dibagi oleh (x − 2) bersisa 7, dan jika dibagi oleh (x + 3) bersisa −3. Sisa pembagian suku banyak P(x) oleh (x² + x − 6) adalah ....",
       "options": {
         "A": "2x + 3",
-        "B": "2x - 3",
+        "B": "2x − 3",
         "C": "3x + 1",
-        "D": "3x - 1"
+        "D": "3x − 1"
       },
       "answer": "A",
-      "explanation": "Pembagi berderajat dua: \\(x^2 + x - 6 = (x - 2)(x + 3)\\), sehingga sisa pembagian berbentuk \\(S(x) = ax + b\\).<br>Berdasarkan Teorema Sisa:<br>\\(P(2) = 2a + b = 7\\)<br>\\(P(-3) = -3a + b = -3\\)<br>Kurangkan kedua persamaan: \\(5a = 10 \\implies a = 2\\).<br>Substitusi \\(a = 2\\): \\(2(2) + b = 7 \\implies b = 3\\).<br>Jadi, sisa pembagiannya adalah \\(S(x) = 2x + 3\\)."
+      "explanation": "Pembagi berderajat dua: x² + x − 6 = (x − 2)(x + 3), sehingga sisa pembagian berbentuk S(x) = ax + b.<br>Berdasarkan Teorema Sisa:<br>P(2) = 2a + b = 7<br>P(−3) = −3a + b = −3<br>Kurangkan kedua persamaan: 5a = 10 → a = 2.<br>Substitusi a = 2: 2(2) + b = 7 → b = 3.<br>Jadi, sisa pembagiannya adalah S(x) = 2x + 3."
     },
     {
       "number": 20,
       "difficulty": "Sulit",
-      "question": "Titik-titik sudut segitiga \\(ABC\\) pada bidang koordinat kartesius adalah \\(A(1, 2)\\), \\(B(5, 5)\\), dan \\(C(3, 8)\\). Luas segitiga \\(ABC\\) tersebut adalah ....",
+      "question": "Titik-titik sudut segitiga ABC pada bidang koordinat kartesius adalah A(1, 2), B(5, 5), dan C(3, 8). Luas segitiga ABC tersebut adalah ....",
       "options": {
         "A": "8 satuan luas",
         "B": "8,5 satuan luas",
@@ -263,7 +262,8 @@
         "D": "10 satuan luas"
       },
       "answer": "C",
-      "explanation": "Gunakan rumus luas poligon/tali sepatu (shoelace formula):<br>\\(\\text{Luas} = \\frac{1}{2} |x_A(y_B - y_C) + x_B(y_C - y_A) + x_C(y_A - y_B)|\\)<br>\\(\\text{Luas} = \\frac{1}{2} |1(5 - 8) + 5(8 - 2) + 3(2 - 5)|\\)<br>\\(\\text{Luas} = \\frac{1}{2} |1(-3) + 5(6) + 3(-3)| = \\frac{1}{2} |-3 + 30 - 9| = \\frac{1}{2} |18| = 9\\) satuan luas."
+      "explanation": "Gunakan rumus luas poligon/tali sepatu (shoelace formula):<br>Luas = ½ |x<sub>A</sub>(y<sub>B</sub> − y<sub>C</sub>) + x<sub>B</sub>(y<sub>C</sub> − y<sub>A</sub>) + x<sub>C</sub>(y<sub>A</sub> − y<sub>B</sub>)|<br>Luas = ½ |1(5 − 8) + 5(8 − 2) + 3(2 − 5)|<br>Luas = ½ |1(−3) + 5(6) + 3(−3)| = ½ |−3 + 30 − 9| = ½ |18| = 9 satuan luas."
     }
-  ]
+  ],
+  "subtitle": "Latihan Mandiri 20 Soal"
 }
