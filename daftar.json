@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T17:01:23",
+  "generated": "2026-11-09T19:49:51",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -228,6 +228,18 @@
         "06 Data dan Diagram"
       ],
       "path": "Kelas7/Matematika/06 Data dan Diagram/soal.json"
+    },
+    {
+      "title": "Pendidikan Pancasila Kelas VII - Patuh Terhadap Norma",
+      "topic": "Manusia sebagai Makhluk Tuhan, Individu, dan Sosial; Pengertian dan Macam-Macam Norma; Bertindak Sesuai Norma",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "Kelas 7",
+      "mapel": "Pendidikan Pancasila",
+      "topik": [
+        "03 Patuh Terhadap Norma"
+      ],
+      "path": "Kelas7/Pendidikan Pancasila/03 Patuh Terhadap Norma/soal.json"
     },
     {
       "title": "IPA Kelas VIII - Sistem Pencernaan dan Peredaran Darah",
