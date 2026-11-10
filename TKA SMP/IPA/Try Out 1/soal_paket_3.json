@@ -1,0 +1,548 @@
+{
+  "title": "Try Out 1 IPA SMP Kelas IX (Paket 3)",
+  "topic": "Try Out 1 IPA Kelas IX",
+  "subtitle": "Latihan Mandiri 40 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi IPA kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 40,
+  "passages": [
+    {
+      "id": "mangrove",
+      "title": "Ekosistem Hutan Mangrove",
+      "text": [
+        "Di sebuah hutan mangrove, siswa mencatat beberapa peristiwa berikut.",
+        "(1) Burung bangau memangsa ikan-ikan kecil yang berenang di sela akar pohon bakau.",
+        "(2) Kepiting bakau berlindung dan bertelur di sela-sela akar pohon bakau, sementara pohon bakau tetap tumbuh seperti biasa.",
+        "(3) Ikan gelodok dan kepiting bakau sama-sama memakan cacing kecil yang hidup di lumpur."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Sedang",
+      "image": "p3-mikrometer.svg",
+      "question": "Diameter sebuah baut kecil diukur menggunakan mikrometer sekrup. Posisi skala utama dan skala putar ditunjukkan pada gambar. Diameter baut tersebut adalah ....",
+      "options": {
+        "A": "7,42 mm",
+        "B": "7,542 mm",
+        "C": "7,92 mm",
+        "D": "11,70 mm"
+      },
+      "answer": "C",
+      "explanation": "Skala utama: garis 7 mm di atas garis pembanding dan garis 7,5 mm di bawahnya sudah terlihat, jadi skala utama = 7,5 mm.<br>Skala putar: garis ke-42 (dua garis di atas angka 40) berimpit dengan garis pembanding, jadi 42 × 0,01 mm = 0,42 mm.<br>Diameter = 7,5 + 0,42 = 7,92 mm.<br>Pengecoh 7,42 mm lupa menambahkan 0,5 mm; 7,542 mm membaca skala putar sebagai 0,042 mm; 11,70 mm menghitung 42 × 0,1 mm."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Pasangan contoh perubahan fisika dan perubahan kimia yang tepat adalah ....",
+      "options": {
+        "A": "perubahan fisika: kayu lapuk; perubahan kimia: lilin meleleh",
+        "B": "perubahan fisika: besi berkarat; perubahan kimia: es mencair",
+        "C": "perubahan fisika: kertas dibakar; perubahan kimia: gelas kaca pecah",
+        "D": "perubahan fisika: air menguap; perubahan kimia: nasi menjadi basi"
+      },
+      "answer": "D",
+      "explanation": "Air menguap hanya berubah wujud dari cair menjadi gas tanpa membentuk zat baru (perubahan fisika). Nasi basi menghasilkan zat baru yang berbau dan berasa asam akibat kerja mikroorganisme (perubahan kimia).<br>Pada pilihan lain pasangannya terbalik: kayu lapuk, besi berkarat, dan kertas dibakar adalah perubahan kimia, sedangkan lilin meleleh, es mencair, dan kaca pecah adalah perubahan fisika."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Suhu suatu cairan diukur 122 °F. Jika dinyatakan dalam skala Kelvin, suhu cairan tersebut adalah ....",
+      "options": {
+        "A": "50 K",
+        "B": "323 K",
+        "C": "340,8 K",
+        "D": "395 K"
+      },
+      "answer": "B",
+      "explanation": "Ubah dulu ke Celsius: t<sub>C</sub> = 5/9 × (122 − 32) = 5/9 × 90 = 50 °C.<br>Lalu ke Kelvin: T = 50 + 273 = 323 K.<br>Pengecoh 50 K lupa menambahkan 273; 395 K langsung menambahkan 273 pada angka Fahrenheit; 340,8 K mengalikan 122 dengan 5/9 tanpa mengurangi 32 lebih dulu."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "image": "p3-bimetal.svg",
+      "question": "Koefisien muai panjang beberapa logam adalah sebagai berikut.\naluminium = 24 × 10<sup>−6</sup> /°C\ntembaga = 17 × 10<sup>−6</sup> /°C\nbesi = 12 × 10<sup>−6</sup> /°C\nSebuah keping bimetal tersusun dari logam A (atas) dan logam B (bawah). Setelah dipanaskan, keping melengkung seperti pada gambar (garis putus-putus menunjukkan bentuk sebelum dipanaskan). Pasangan logam A dan B yang mungkin adalah ....",
+      "options": {
+        "A": "A = besi, B = aluminium",
+        "B": "A = tembaga, B = aluminium",
+        "C": "A = besi, B = tembaga",
+        "D": "A = aluminium, B = besi"
+      },
+      "answer": "D",
+      "explanation": "Keping melengkung ke bawah, yaitu ke arah logam B. Artinya logam A yang berada di sisi luar lengkungan memuai lebih panjang, sehingga α<sub>A</sub> &gt; α<sub>B</sub>.<br>Dari tabel, hanya pasangan A = aluminium (24 × 10<sup>−6</sup> /°C) dan B = besi (12 × 10<sup>−6</sup> /°C) yang memenuhi. Pada pilihan lain α<sub>A</sub> lebih kecil daripada α<sub>B</sub>, sehingga keping akan melengkung ke atas."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "Gaya dorong yang sama besar, yaitu 60 N, diberikan secara bergantian pada empat benda di atas lantai licin: lemari 30 kg, meja 15 kg, kursi 6 kg, dan kardus 4 kg. Benda yang mendapat percepatan terbesar dan terkecil berturut-turut adalah ....",
+      "options": {
+        "A": "kardus dan lemari",
+        "B": "lemari dan kardus",
+        "C": "kursi dan meja",
+        "D": "kardus dan meja"
+      },
+      "answer": "A",
+      "explanation": "Dengan gaya yang sama, percepatan berbanding terbalik dengan massa (a = F/m).<br>Lemari: 60/30 = 2 m/s<sup>2</sup>; meja: 60/15 = 4 m/s<sup>2</sup>; kursi: 60/6 = 10 m/s<sup>2</sup>; kardus: 60/4 = 15 m/s<sup>2</sup>.<br>Kardus (massa terkecil) mendapat percepatan terbesar dan lemari (massa terbesar) mendapat percepatan terkecil. Pilihan lemari dan kardus terbalik urutannya."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "image": "p3-grafik-vt.svg",
+      "question": "Grafik kecepatan terhadap waktu berikut menggambarkan gerak sebuah sepeda motor. Kesimpulan yang tepat berdasarkan grafik adalah ....",
+      "options": {
+        "A": "Pada selang B–C sepeda motor diam.",
+        "B": "Pada selang C–D sepeda motor bergerak lurus beraturan.",
+        "C": "Pada selang A–B sepeda motor mengalami gerak lurus berubah beraturan dipercepat dengan percepatan 5 m/s<sup>2</sup>.",
+        "D": "Perlambatan pada selang C–D lebih besar daripada percepatan pada selang A–B."
+      },
+      "answer": "C",
+      "explanation": "Selang A–B: kecepatan naik dari 0 menjadi 20 m/s dalam 4 s, jadi gerak lurus berubah beraturan dipercepat dengan a = 20/4 = 5 m/s<sup>2</sup>.<br>Selang B–C: kecepatan tetap 20 m/s (gerak lurus beraturan), bukan diam.<br>Selang C–D: kecepatan turun dari 20 m/s menjadi 0 dalam 4 s (14 − 10), jadi diperlambat dengan perlambatan 20/4 = 5 m/s<sup>2</sup>, sama besar dengan percepatan pada selang A–B."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "question": "Perhatikan ciri-ciri sebuah planet berikut!\n(1) Merupakan planet terbesar di tata surya.\n(2) Termasuk planet gas raksasa yang memiliki banyak satelit.\n(3) Memiliki Bintik Merah Raksasa, yaitu badai besar yang berlangsung ratusan tahun.\nPlanet yang dimaksud adalah ....",
+      "options": {
+        "A": "Jupiter",
+        "B": "Saturnus",
+        "C": "Uranus",
+        "D": "Neptunus"
+      },
+      "answer": "A",
+      "explanation": "Jupiter adalah planet terbesar, tergolong planet gas raksasa, memiliki banyak satelit (misalnya Io, Europa, Ganymede, dan Callisto), dan terkenal dengan Bintik Merah Raksasa. Saturnus juga planet gas dengan banyak satelit, tetapi ukurannya lebih kecil dan ciri khasnya adalah cincin yang tampak jelas."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "question": "Sebuah lampu taman tenaga surya mengisi baterainya menggunakan panel surya pada siang hari, lalu menyala pada malam hari. Urutan perubahan energi dari siang hingga lampu menyala pada malam hari adalah ....",
+      "options": {
+        "A": "energi cahaya → energi kimia → energi listrik → energi cahaya",
+        "B": "energi kalor → energi listrik → energi kimia → energi cahaya",
+        "C": "energi cahaya → energi listrik → energi cahaya → energi kimia",
+        "D": "energi cahaya → energi listrik → energi kimia → energi listrik → energi cahaya"
+      },
+      "answer": "D",
+      "explanation": "Panel surya mengubah energi cahaya matahari menjadi energi listrik. Energi listrik disimpan di baterai dalam bentuk energi kimia. Pada malam hari, baterai mengubah energi kimia kembali menjadi energi listrik, lalu lampu mengubahnya menjadi energi cahaya."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Lengan bawah manusia bekerja seperti tuas jenis ketiga dengan siku sebagai titik tumpu. Otot bisep menarik tulang lengan bawah pada jarak 4 cm dari siku, sedangkan beban 30 N dipegang di telapak tangan pada jarak 32 cm dari siku. Gaya yang harus dikerjakan otot bisep untuk menahan beban tersebut adalah ....",
+      "options": {
+        "A": "3,75 N",
+        "B": "30 N",
+        "C": "210 N",
+        "D": "240 N"
+      },
+      "answer": "D",
+      "explanation": "Lengan kuasa L<sub>k</sub> = 4 cm dan lengan beban L<sub>b</sub> = 32 cm (keduanya diukur dari siku).<br>F × L<sub>k</sub> = w × L<sub>b</sub> → F × 4 = 30 × 32 → F = 240 N.<br>Pada tuas jenis ketiga, lengan kuasa lebih pendek daripada lengan beban, sehingga gaya kuasa justru lebih besar daripada beban; keuntungannya adalah gerakan tangan yang cepat dan jauh.<br>Pengecoh 3,75 N menukar lengan beban dan lengan kuasa; 210 N memakai lengan beban 32 − 4 = 28 cm; 30 N menganggap lengan tidak berpengaruh."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Pada permukaan air danau, jarak antara dua puncak gelombang yang berdekatan adalah 2 m. Gelombang tersebut merambat dengan kecepatan 6 m/s. Frekuensi gelombang tersebut adalah ....",
+      "options": {
+        "A": "0,33 Hz",
+        "B": "1,5 Hz",
+        "C": "3 Hz",
+        "D": "12 Hz"
+      },
+      "answer": "C",
+      "explanation": "Jarak dua puncak yang berdekatan sama dengan satu panjang gelombang, jadi λ = 2 m.<br>f = v/λ = 6/2 = 3 Hz.<br>Pengecoh 1,5 Hz menganggap jarak dua puncak sebagai setengah gelombang (λ = 4 m); 12 Hz mengalikan v dengan λ; 0,33 Hz membagi λ dengan v."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Sebuah kapal survei memancarkan bunyi ke dasar laut di dua titik. Di titik P, bunyi pantul diterima 2 sekon setelah dipancarkan, sedangkan di titik Q diterima setelah 3,2 sekon. Jika cepat rambat bunyi di air laut 1.500 m/s, selisih kedalaman laut di titik P dan Q adalah ....",
+      "options": {
+        "A": "900 m",
+        "B": "1.500 m",
+        "C": "1.800 m",
+        "D": "2.400 m"
+      },
+      "answer": "A",
+      "explanation": "Kedalaman P = (1.500 × 2)/2 = 1.500 m.<br>Kedalaman Q = (1.500 × 3,2)/2 = 2.400 m.<br>Selisih = 2.400 − 1.500 = 900 m.<br>Pengecoh 1.800 m lupa membagi 2; 1.500 m dan 2.400 m adalah kedalaman masing-masing titik, bukan selisihnya."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Sebuah benda diletakkan 30 cm di depan cermin cekung yang jari-jari kelengkungannya 20 cm. Sifat bayangan yang terbentuk adalah ....",
+      "options": {
+        "A": "nyata, terbalik, diperkecil",
+        "B": "nyata, terbalik, diperbesar",
+        "C": "nyata, terbalik, sama besar",
+        "D": "maya, tegak, diperbesar"
+      },
+      "answer": "A",
+      "explanation": "Jarak fokus f = R/2 = 10 cm.<br>1/s' = 1/10 − 1/30 = 2/30, jadi s' = 15 cm (nyata).<br>M = s'/s = 15/30 = 0,5 kali, berarti diperkecil; bayangan nyata selalu terbalik.<br>Benda di luar 2F (ruang III) menghasilkan bayangan nyata, terbalik, diperkecil. Pengecoh “diperbesar” muncul jika jari-jari 20 cm dianggap sebagai jarak fokus."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Sebuah balon digosokkan pada rambut yang kering, lalu balon dapat menempel di dinding. Penjelasan yang tepat untuk peristiwa tersebut adalah ....",
+      "options": {
+        "A": "balon kehilangan proton sehingga bermuatan negatif",
+        "B": "balon menerima elektron dari rambut sehingga bermuatan negatif dan dapat menarik dinding",
+        "C": "rambut menerima elektron dari balon sehingga balon bermuatan negatif",
+        "D": "balon berubah menjadi magnet karena digosok"
+      },
+      "answer": "B",
+      "explanation": "Saat digosok, elektron berpindah dari rambut ke balon, sehingga balon bermuatan negatif dan rambut bermuatan positif. Muatan negatif balon menginduksi permukaan dinding sehingga bagian dinding yang dekat balon menjadi bermuatan positif, dan balon tertarik ke dinding.<br>Proton tidak berpindah, dan peristiwa ini adalah listrik statis, bukan kemagnetan."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "image": "p3-rangkaian.svg",
+      "question": "Perhatikan rangkaian listrik pada gambar! Baterai memiliki GGL 12 V dan hambatan dalam r = 1 Ω. Kuat arus listrik yang mengalir melalui R₃ adalah ....",
+      "options": {
+        "A": "0,5 A",
+        "B": "0,75 A",
+        "C": "1 A",
+        "D": "1,5 A"
+      },
+      "answer": "C",
+      "explanation": "R₂ dan R₃ paralel: R<sub>p</sub> = (12 × 6)/(12 + 6) = 4 Ω.<br>Hambatan total termasuk hambatan dalam: R = R₁ + R<sub>p</sub> + r = 3 + 4 + 1 = 8 Ω, sehingga arus total I = 12/8 = 1,5 A.<br>Tegangan pada bagian paralel V<sub>p</sub> = 1,5 × 4 = 6 V, sehingga I₃ = 6/6 = 1 A (dan I₂ = 6/12 = 0,5 A).<br>Pengecoh 1,5 A adalah arus total, 0,5 A adalah arus melalui R₂, dan 0,75 A membagi arus total sama rata."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "question": "Sebuah kompor listrik 700 W digunakan untuk mendidihkan 1 kg air dari suhu 30 °C hingga 100 °C. Kalor jenis air 4.200 J/kg °C dan seluruh energi listrik dianggap berubah menjadi kalor. Waktu yang diperlukan adalah ....",
+      "options": {
+        "A": "3 menit",
+        "B": "7 menit",
+        "C": "10 menit",
+        "D": "420 menit"
+      },
+      "answer": "B",
+      "explanation": "Q = m × c × ΔT = 1 × 4.200 × (100 − 30) = 294.000 J.<br>t = Q/P = 294.000/700 = 420 s = 7 menit.<br>Pengecoh 10 menit memakai ΔT = 100 °C; 3 menit memakai ΔT = 30 °C (suhu awal); 420 menit lupa mengubah satuan sekon menjadi menit."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Saat berolahraga di bawah terik matahari, tubuh Dimas mengeluarkan banyak keringat. Ciri makhluk hidup yang ditunjukkan oleh peristiwa tersebut adalah ....",
+      "options": {
+        "A": "tumbuh",
+        "B": "bergerak",
+        "C": "berkembang biak",
+        "D": "mengeluarkan zat sisa (ekskresi)"
+      },
+      "answer": "D",
+      "explanation": "Keringat mengandung air, garam, dan sedikit urea, yaitu zat sisa metabolisme yang dikeluarkan melalui kulit. Peristiwa ini menunjukkan ciri makhluk hidup mengeluarkan zat sisa (ekskresi). Keringat juga membantu menurunkan suhu tubuh."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "question": "Perhatikan kunci determinasi berikut!\n1a. Berbunga .......... 2\n1b. Tidak berbunga .......... 4\n2a. Biji berkeping satu (monokotil) .......... 3\n2b. Biji berkeping dua (dikotil) .......... Kacang tanah\n3a. Batang tinggi tidak bercabang, daun majemuk menyirip .......... Kelapa\n3b. Batang beruas dan berumpun, daun berbentuk pita .......... Padi\n4a. Sudah memiliki akar sejati, daun muda menggulung .......... Paku\n4b. Belum memiliki akar sejati .......... Lumut\nTumbuhan yang memiliki kunci determinasi 1a, 2a, 3b adalah ....",
+      "options": {
+        "A": "kelapa",
+        "B": "kacang tanah",
+        "C": "paku",
+        "D": "padi"
+      },
+      "answer": "D",
+      "explanation": "1a berarti tumbuhan berbunga, 2a berarti bijinya berkeping satu (monokotil), dan 3b berarti batangnya beruas dan berumpun serta daunnya berbentuk pita. Tumbuhan itu adalah padi.<br>Kelapa memiliki kode 1a, 2a, 3a; kacang tanah 1a, 2b; dan paku 1b, 4a."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "question": "Perhatikan kalimat berikut!\n“Di lantai hutan, cacing tanah menguraikan sisa daun sehingga tanah menjadi gembur, sementara pohon-pohon tumbuh dengan memanfaatkan cahaya matahari dan air.”\nKomponen abiotik yang disebutkan dalam kalimat tersebut adalah ....",
+      "options": {
+        "A": "cacing tanah, pohon, dan sisa daun",
+        "B": "tanah, cahaya matahari, dan air",
+        "C": "cacing tanah, tanah, dan air",
+        "D": "pohon, cahaya matahari, dan cacing tanah"
+      },
+      "answer": "B",
+      "explanation": "Komponen abiotik adalah komponen tak hidup, yaitu tanah, cahaya matahari, dan air. Cacing tanah dan pohon adalah komponen biotik. Pilihan lain selalu mencampurkan komponen biotik ke dalam kelompok abiotik."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "question": "Di sawah, burung hantu berburu dan memakan tikus pada malam hari. Pola interaksi antara burung hantu dan tikus adalah ....",
+      "options": {
+        "A": "simbiosis mutualisme",
+        "B": "simbiosis komensalisme",
+        "C": "simbiosis parasitisme",
+        "D": "predasi"
+      },
+      "answer": "D",
+      "explanation": "Burung hantu memangsa (menangkap lalu memakan) tikus. Interaksi pemangsa dengan mangsanya disebut predasi; burung hantu berperan sebagai predator dan tikus sebagai mangsa. Karena itu petani sering memanfaatkan burung hantu untuk mengendalikan hama tikus secara alami."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "question": "Penggunaan CFC (klorofluorokarbon) pada lemari pendingin dan AC model lama dapat mencemari udara. Dampak utama pencemaran CFC adalah ....",
+      "options": {
+        "A": "penipisan lapisan ozon sehingga sinar ultraviolet yang sampai ke Bumi meningkat",
+        "B": "hujan asam yang merusak bangunan",
+        "C": "keracunan karbon monoksida",
+        "D": "pendangkalan sungai"
+      },
+      "answer": "A",
+      "explanation": "CFC yang naik ke stratosfer merusak molekul ozon. Lapisan ozon yang menipis tidak lagi mampu menahan sinar ultraviolet dengan baik, sehingga risiko kanker kulit dan katarak meningkat.<br>Hujan asam disebabkan oleh SO₂ dan NO₂, keracunan karbon monoksida berasal dari gas CO, dan pendangkalan sungai bukan akibat pencemaran udara."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "question": "Otak, sumsum tulang belakang, dan saraf-saraf tepi bekerja sama mengatur dan mengoordinasikan kegiatan tubuh. Organ-organ tersebut menyusun sistem ....",
+      "options": {
+        "A": "gerak",
+        "B": "hormon",
+        "C": "saraf",
+        "D": "peredaran darah"
+      },
+      "answer": "C",
+      "explanation": "Otak dan sumsum tulang belakang adalah saraf pusat, sedangkan saraf tepi menghubungkan saraf pusat dengan seluruh bagian tubuh. Semuanya menyusun sistem saraf. Sistem hormon juga berperan dalam koordinasi, tetapi tersusun atas kelenjar endokrin, bukan otak dan saraf."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "question": "Saat menerima uang kembalian, telapak tangan Sinta diputar dari posisi menelungkup menjadi menengadah. Jenis gerak tersebut dan gerak antagonisnya berturut-turut adalah ....",
+      "options": {
+        "A": "pronasi dan supinasi",
+        "B": "supinasi dan pronasi",
+        "C": "abduksi dan adduksi",
+        "D": "ekstensi dan fleksi"
+      },
+      "answer": "B",
+      "explanation": "Gerakan memutar telapak tangan hingga menengadah disebut supinasi, sedangkan gerak antagonisnya, yaitu memutar telapak tangan hingga menelungkup, disebut pronasi. Pilihan pronasi dan supinasi tertukar urutannya."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "question": "Perhatikan pasangan bagian tubuh dan jenis sendinya berikut!\n(1) bahu – sendi peluru\n(2) lutut – sendi putar\n(3) pangkal ibu jari – sendi pelana\n(4) siku – sendi engsel\n(5) tulang hasta dan pengumpil – sendi pelana\nPasangan yang tepat ditunjukkan oleh nomor ....",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(2), (4), dan (5)",
+        "C": "(3), (4), dan (5)",
+        "D": "(1), (3), dan (4)"
+      },
+      "answer": "D",
+      "explanation": "Bahu memiliki sendi peluru (1), pangkal ibu jari memiliki sendi pelana (3), dan siku memiliki sendi engsel (4).<br>Lutut memiliki sendi engsel, bukan sendi putar (2), sedangkan hubungan tulang hasta dan pengumpil adalah sendi putar, bukan sendi pelana (5)."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sedang",
+      "question": "Seseorang yang lambungnya menghasilkan asam klorida (HCl) terlalu sedikit lebih mudah terkena infeksi saluran pencernaan, dan pencernaan proteinnya terganggu. Hal ini terjadi karena HCl berfungsi ....",
+      "options": {
+        "A": "membunuh kuman dalam makanan dan mengubah pepsinogen menjadi pepsin",
+        "B": "mengemulsikan lemak dan menyerap air",
+        "C": "mengubah amilum menjadi maltosa",
+        "D": "menyerap sari makanan ke dalam darah"
+      },
+      "answer": "A",
+      "explanation": "HCl di lambung membunuh kuman yang masuk bersama makanan dan mengaktifkan pepsinogen menjadi pepsin, enzim yang memecah protein. Jika HCl kurang, kuman lebih mudah lolos dan pencernaan protein terganggu.<br>Emulsi lemak dilakukan oleh empedu, amilum dicerna oleh amilase, dan sari makanan diserap di usus halus."
+    },
+    {
+      "number": 25,
+      "difficulty": "Mudah",
+      "question": "Di dalam jantung terdapat katup di antara serambi dan bilik serta di pangkal pembuluh nadi besar. Fungsi katup-katup tersebut adalah ....",
+      "options": {
+        "A": "memompa darah ke seluruh tubuh",
+        "B": "menukar oksigen dengan karbon dioksida",
+        "C": "mencegah darah mengalir kembali ke ruang sebelumnya",
+        "D": "menghasilkan sel darah merah"
+      },
+      "answer": "C",
+      "explanation": "Katup jantung (katup trikuspidal, bikuspidal, dan katup seminilunaris) membuat darah mengalir satu arah dengan mencegah darah berbalik ke ruang sebelumnya. Pemompaan dilakukan oleh otot bilik, pertukaran gas terjadi di alveolus paru-paru, dan sel darah merah dibuat di sumsum tulang."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sedang",
+      "question": "Pernyataan yang tepat tentang perbandingan organ reproduksi laki-laki dan perempuan adalah ....",
+      "options": {
+        "A": "testis menghasilkan hormon estrogen, sedangkan ovarium menghasilkan hormon testosteron",
+        "B": "testis dan ovarium sama-sama menghasilkan sel kelamin, tetapi sperma dibentuk terus-menerus sejak pubertas, sedangkan sel telur umumnya dilepaskan satu setiap bulan",
+        "C": "skrotum dan uterus sama-sama berfungsi sebagai tempat perkembangan janin",
+        "D": "vas deferens dan uterus sama-sama merupakan tempat terjadinya pembuahan"
+      },
+      "answer": "B",
+      "explanation": "Testis dan ovarium adalah organ penghasil sel kelamin. Bedanya, testis memproduksi jutaan sperma secara terus-menerus sejak pubertas, sedangkan ovarium umumnya melepaskan satu sel telur setiap siklus (sekitar sebulan sekali).<br>Testis menghasilkan testosteron, ovarium menghasilkan estrogen dan progesteron, skrotum hanya membungkus testis, dan pembuahan terjadi di oviduk."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sulit",
+      "image": "grafik-hormon.svg",
+      "question": "Grafik berikut menunjukkan perubahan kadar hormon selama satu siklus menstruasi 28 hari. Jika sel telur tidak dibuahi, menjelang hari ke-28 dinding rahim luruh dan terjadi menstruasi berikutnya. Berdasarkan grafik, peristiwa tersebut berkaitan dengan ....",
+      "options": {
+        "A": "lonjakan LH menjelang hari ke-28 yang meluruhkan dinding rahim",
+        "B": "kenaikan kadar FSH yang mencapai puncaknya pada hari ke-28",
+        "C": "penurunan tajam kadar progesteron sehingga dinding rahim tidak dapat dipertahankan",
+        "D": "kadar estrogen yang mencapai puncak tertinggi pada hari ke-28"
+      },
+      "answer": "C",
+      "explanation": "Setelah ovulasi, kadar progesteron naik dan mencapai puncak sekitar hari ke-21 untuk mempertahankan dinding rahim yang menebal. Jika tidak terjadi pembuahan, kadar progesteron turun tajam menjelang hari ke-28, sehingga dinding rahim tidak dapat dipertahankan dan luruh sebagai menstruasi.<br>Pada grafik, LH dan FSH rendah pada hari ke-28 (puncaknya sekitar hari ke-14), dan estrogen juga sedang menurun."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sedang",
+      "question": "Tanaman bergenotipe MmHh menghasilkan beberapa macam gamet. Gamet yang TIDAK mungkin dihasilkan oleh tanaman tersebut adalah ....",
+      "options": {
+        "A": "MH",
+        "B": "Mh",
+        "C": "mh",
+        "D": "Mm"
+      },
+      "answer": "D",
+      "explanation": "Setiap gamet membawa satu alel dari tiap pasangan gen, yaitu satu dari M/m dan satu dari H/h. Gamet yang mungkin adalah MH, Mh, mH, dan mh.<br>“Mm” bukan gamet karena berisi dua alel dari gen yang sama dan tidak berisi alel H atau h."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sedang",
+      "question": "Seekor kucing berambut hitam disilangkan dengan kucing berambut putih. Semua anaknya (F1) berambut hitam, dan tidak satu pun berambut putih walaupun jumlah anaknya banyak. Jika rambut hitam (H) dominan terhadap putih (h), genotipe kedua induknya adalah ....",
+      "options": {
+        "A": "HH × hh",
+        "B": "Hh × hh",
+        "C": "Hh × Hh",
+        "D": "HH × Hh"
+      },
+      "answer": "A",
+      "explanation": "Induk berambut putih pasti hh. Karena semua anaknya hitam, induk hitam hanya dapat memberikan alel H, sehingga genotipenya HH.<br>HH × hh → semua Hh (hitam).<br>Jika induk hitam bergenotipe Hh (Hh × hh), sekitar 50% anaknya akan berambut putih."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sedang",
+      "question": "Pada kacang ercis, biji bulat (B) dominan penuh terhadap biji keriput (b). Tanaman F1 bergenotipe Bb disilangkan dengan sesamanya dan menghasilkan 400 tanaman F2. Jumlah tanaman F2 yang berbiji keriput adalah ....",
+      "options": {
+        "A": "100 tanaman",
+        "B": "200 tanaman",
+        "C": "300 tanaman",
+        "D": "400 tanaman"
+      },
+      "answer": "A",
+      "explanation": "Bb × Bb → BB : Bb : bb = 1 : 2 : 1, dengan fenotipe bulat : keriput = 3 : 1.<br>Keriput (bb) = 1/4 × 400 = 100 tanaman.<br>Pengecoh 300 tanaman adalah jumlah yang berbiji bulat, dan 200 tanaman adalah jumlah yang bergenotipe Bb."
+    },
+    {
+      "number": 31,
+      "difficulty": "Mudah",
+      "question": "Seorang kuli mengangkat karung beras secara vertikal setinggi 1,5 m. Usaha yang dilakukan kuli tersebut 750 J. Besar gaya angkat yang diberikan adalah ....",
+      "options": {
+        "A": "250 N",
+        "B": "500 N",
+        "C": "750 N",
+        "D": "1.125 N"
+      },
+      "answer": "B",
+      "explanation": "W = F × s → F = W/s = 750/1,5 = 500 N.<br>Pengecoh 1.125 N mengalikan usaha dengan perpindahan, sedangkan 750 N menganggap gaya sama dengan usaha."
+    },
+    {
+      "number": 32,
+      "difficulty": "Sulit",
+      "question": "Tiga anak memindahkan benda dengan gaya mendatar yang searah perpindahan.\nAni melakukan usaha 300 J untuk memindahkan benda sejauh 5 m.\nBanu melakukan usaha 360 J untuk memindahkan benda sejauh 4 m.\nCaca melakukan usaha 480 J untuk memindahkan benda sejauh 8 m.\nUrutan besar gaya yang diberikan, dari yang terbesar, adalah ....",
+      "options": {
+        "A": "Caca > Banu > Ani",
+        "B": "Ani > Banu > Caca",
+        "C": "Banu > Caca > Ani",
+        "D": "Banu > Ani = Caca"
+      },
+      "answer": "D",
+      "explanation": "F = W/s.<br>Ani: 300/5 = 60 N; Banu: 360/4 = 90 N; Caca: 480/8 = 60 N.<br>Jadi Banu memberikan gaya terbesar, sedangkan Ani dan Caca memberikan gaya yang sama besar.<br>Pilihan Caca > Banu > Ani keliru karena mengurutkan berdasarkan besar usaha, bukan besar gaya."
+    },
+    {
+      "number": 33,
+      "difficulty": "Sedang",
+      "question": "Dua muatan listrik masing-masing −5 × 10<sup>−6</sup> C dan −2 × 10<sup>−6</sup> C terpisah sejauh 10 cm. Jika k = 9 × 10<sup>9</sup> N·m<sup>2</sup>/C<sup>2</sup>, besar dan jenis gaya Coulomb antara kedua muatan adalah ....",
+      "options": {
+        "A": "0,9 N, tolak-menolak",
+        "B": "9 N, tarik-menarik",
+        "C": "9 N, tolak-menolak",
+        "D": "90 N, tolak-menolak"
+      },
+      "answer": "C",
+      "explanation": "r = 10 cm = 0,1 m, sehingga r<sup>2</sup> = 0,01 m<sup>2</sup>.<br>F = (9 × 10<sup>9</sup> × 5 × 10<sup>−6</sup> × 2 × 10<sup>−6</sup>)/0,01 = 0,09/0,01 = 9 N (tanda negatif muatan tidak dipakai saat menghitung besar gaya).<br>Kedua muatan negatif (sejenis), sehingga gayanya tolak-menolak.<br>Pengecoh 0,9 N lupa menguadratkan jarak; 90 N salah menghitung r<sup>2</sup> menjadi 0,001; “tarik-menarik” keliru karena muatan sejenis saling tolak."
+    },
+    {
+      "number": 34,
+      "difficulty": "Sulit",
+      "question": "Dua benda bermuatan listrik yang terpisah sejauh 3 cm saling tolak-menolak dengan gaya 90 N. Jika besar muatannya tetap, jarak kedua benda agar gaya tolaknya menjadi 10 N adalah ....",
+      "options": {
+        "A": "1 cm",
+        "B": "9 cm",
+        "C": "27 cm",
+        "D": "81 cm"
+      },
+      "answer": "B",
+      "explanation": "Gaya Coulomb berbanding terbalik dengan kuadrat jarak: F₁/F₂ = (r₂/r₁)<sup>2</sup>.<br>90/10 = 9 = (r₂/3)<sup>2</sup> → r₂/3 = 3 → r₂ = 9 cm.<br>Pengecoh 27 cm menganggap gaya berbanding terbalik dengan jarak (bukan kuadratnya), sedangkan 1 cm justru membuat gaya makin besar."
+    },
+    {
+      "number": 35,
+      "difficulty": "Sedang",
+      "passage": "mangrove",
+      "question": "Berdasarkan teks, pola interaksi pada peristiwa (2) beserta peran masing-masing makhluk hidup adalah ....",
+      "options": {
+        "A": "komensalisme; kepiting bakau diuntungkan karena mendapat tempat berlindung, sedangkan pohon bakau tidak diuntungkan dan tidak dirugikan",
+        "B": "mutualisme; kepiting bakau dan pohon bakau sama-sama diuntungkan",
+        "C": "parasitisme; kepiting bakau sebagai parasit dan pohon bakau sebagai inang",
+        "D": "predasi; kepiting bakau sebagai pemangsa pohon bakau"
+      },
+      "answer": "A",
+      "explanation": "Kepiting bakau mendapat keuntungan berupa tempat berlindung dan bertelur, sedangkan pohon bakau tetap tumbuh seperti biasa (tidak diuntungkan maupun dirugikan). Hubungan seperti ini adalah simbiosis komensalisme."
+    },
+    {
+      "number": 36,
+      "difficulty": "Sulit",
+      "passage": "mangrove",
+      "question": "Pola interaksi pada peristiwa (3) dan dampak yang paling mungkin terjadi jika jumlah cacing di lumpur berkurang drastis adalah ....",
+      "options": {
+        "A": "kompetisi; persaingan ikan gelodok dan kepiting bakau makin ketat sehingga populasi salah satu atau keduanya dapat menurun",
+        "B": "mutualisme; keduanya saling membantu mencari cacing sehingga populasinya tetap",
+        "C": "predasi; kepiting bakau memangsa ikan gelodok sehingga populasi ikan gelodok menurun",
+        "D": "komensalisme; ikan gelodok diuntungkan, sedangkan kepiting bakau tidak terpengaruh"
+      },
+      "answer": "A",
+      "explanation": "Ikan gelodok dan kepiting bakau memperebutkan makanan yang sama (cacing), sehingga keduanya berkompetisi dan sama-sama berperan sebagai pesaing. Jika cacing berkurang drastis, persaingan makin ketat: individu yang kalah bersaing kekurangan makanan, sehingga populasi salah satu atau keduanya dapat menurun."
+    },
+    {
+      "number": 37,
+      "difficulty": "Sedang",
+      "question": "Pada saat fertilisasi, sperma yang membawa kromosom 22 + Y membuahi sel telur yang membawa kromosom 22 + X. Susunan kromosom zigot dan jenis kelamin anak yang akan lahir adalah ....",
+      "options": {
+        "A": "22 + XY, laki-laki",
+        "B": "44 + XY, laki-laki",
+        "C": "44 + XX, perempuan",
+        "D": "44 + XY, perempuan"
+      },
+      "answer": "B",
+      "explanation": "Sperma dan sel telur masing-masing membawa 23 kromosom. Saat fertilisasi keduanya bergabung, sehingga zigot memiliki 46 kromosom: 44 autosom (22 + 22) dan sepasang kromosom kelamin XY. Kromosom kelamin XY menentukan jenis kelamin laki-laki.<br>Jenis kelamin anak ditentukan oleh sperma, karena sel telur selalu membawa kromosom X."
+    },
+    {
+      "number": 38,
+      "difficulty": "Sulit",
+      "question": "Saat fertilisasi, ratusan sperma dapat mencapai sel telur, tetapi hanya satu sperma yang berhasil masuk. Penjelasan yang paling tepat adalah ....",
+      "options": {
+        "A": "sperma lain mati karena tidak memiliki enzim sama sekali",
+        "B": "setelah satu sperma masuk, lapisan pelindung sel telur berubah sehingga sperma lain terhalang, dan zigot tetap memiliki 46 kromosom",
+        "C": "sel telur hanya memiliki satu lubang masuk untuk sperma",
+        "D": "sperma lain dihancurkan oleh hormon progesteron"
+      },
+      "answer": "B",
+      "explanation": "Begitu satu sperma berhasil masuk, lapisan pelindung sel telur segera berubah sehingga tidak dapat ditembus sperma lain. Mekanisme ini mencegah sel telur dibuahi lebih dari satu sperma, sehingga zigot memiliki jumlah kromosom normal, yaitu 46 (23 dari sel telur dan 23 dari sperma)."
+    },
+    {
+      "number": 39,
+      "difficulty": "Sulit",
+      "question": "Pada kacang ercis, biji bulat (B) dominan terhadap keriput (b), dan warna kuning (K) dominan terhadap hijau (k). Tanaman bulat hijau (BBkk) disilangkan dengan tanaman keriput kuning (bbKK). F1 yang dihasilkan disilangkan dengan sesamanya. Persentase tanaman F2 yang fenotipenya sama dengan salah satu induknya (bulat hijau atau keriput kuning) adalah ....",
+      "options": {
+        "A": "12,5%",
+        "B": "18,75%",
+        "C": "37,5%",
+        "D": "62,5%"
+      },
+      "answer": "C",
+      "explanation": "F1 bergenotipe BbKk. BbKk × BbKk menghasilkan bulat kuning : bulat hijau : keriput kuning : keriput hijau = 9 : 3 : 3 : 1.<br>Fenotipe yang sama dengan induk: bulat hijau (3/16) + keriput kuning (3/16) = 6/16 = 37,5%.<br>Pengecoh 18,75% hanya menghitung salah satu fenotipe induk; 62,5% (10/16) adalah fenotipe kombinasi baru (bulat kuning dan keriput hijau); 12,5% menganggap masing-masing hanya 1/16."
+    },
+    {
+      "number": 40,
+      "difficulty": "Sulit",
+      "question": "Pada marmut, rambut hitam (H) dominan terhadap putih (h), dan rambut kasar (K) dominan terhadap halus (k). Marmut HhKk disilangkan dengan marmut hhKk dan menghasilkan 64 anak. Jumlah anak yang berambut hitam dan kasar adalah ....",
+      "options": {
+        "A": "8 ekor",
+        "B": "12 ekor",
+        "C": "24 ekor",
+        "D": "36 ekor"
+      },
+      "answer": "C",
+      "explanation": "Hitung tiap sifat terpisah. Hh × hh → peluang hitam = 1/2. Kk × Kk → peluang kasar = 3/4.<br>Peluang hitam kasar = 1/2 × 3/4 = 3/8, sehingga jumlahnya 3/8 × 64 = 24 ekor.<br>Pengecoh 36 ekor (9/16 × 64) menganggap persilangannya HhKk × HhKk; 12 ekor memakai peluang 3/16; 8 ekor memakai peluang 1/8."
+    }
+  ]
+}

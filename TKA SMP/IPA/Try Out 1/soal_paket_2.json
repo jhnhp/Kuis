@@ -1,0 +1,549 @@
+{
+  "title": "Try Out 1 IPA SMP Kelas IX (Paket 2)",
+  "topic": "Try Out 1 IPA Kelas IX",
+  "subtitle": "Latihan Mandiri 40 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi IPA kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 40,
+  "passages": [
+    {
+      "id": "sawah",
+      "title": "Interaksi di Lahan Pertanian",
+      "text": [
+        "Di sebuah lahan pertanian, siswa mencatat beberapa peristiwa berikut.",
+        "(1) Burung jalak sering hinggap di punggung kerbau dan memakan kutu yang menempel di kulit kerbau.",
+        "(2) Ular sawah memangsa tikus yang sering merusak tanaman padi.",
+        "(3) Tikus dan belalang sama-sama memakan tanaman padi di sawah tersebut."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Sedang",
+      "image": "p2-mikrometer.svg",
+      "question": "Diameter sebuah manik-manik diukur menggunakan mikrometer sekrup. Posisi skala utama dan skala putar ditunjukkan pada gambar. Diameter manik-manik tersebut adalah ....",
+      "options": {
+        "A": "4,017 mm",
+        "B": "4,17 mm",
+        "C": "4,67 mm",
+        "D": "5,70 mm"
+      },
+      "answer": "B",
+      "explanation": "Skala utama: garis 4 mm di atas garis pembanding sudah terlihat, tetapi garis 4,5 mm di bawahnya belum terlihat, jadi skala utama = 4,0 mm.<br>Skala putar: garis ke-17 (dua garis di atas angka 15) berimpit dengan garis pembanding, jadi 17 × 0,01 mm = 0,17 mm.<br>Diameter = 4,0 + 0,17 = 4,17 mm.<br>Pengecoh 4,67 mm menambahkan 0,5 mm padahal garis setengah milimeter belum terlihat; 4,017 mm membaca skala putar sebagai 0,017 mm; 5,70 mm menghitung 17 × 0,1 mm."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Perhatikan peristiwa berikut!\n(1) Susu menjadi basi dan berasa asam.\n(2) Kapur barus di dalam lemari lama-kelamaan habis karena menyublim.\n(3) Singkong difermentasi menjadi tapai.\n(4) Es krim mencair di dalam mangkuk.\n(5) Batang kayu dipotong lalu dirakit menjadi kursi.\nKelompok peristiwa yang termasuk perubahan fisika adalah ....",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1), (3), dan (5)",
+        "C": "(3), (4), dan (5)",
+        "D": "(2), (4), dan (5)"
+      },
+      "answer": "D",
+      "explanation": "Perubahan fisika tidak menghasilkan zat baru; yang berubah hanya wujud, ukuran, atau bentuk. Kapur barus menyublim (2), es krim mencair (4), dan kayu dipotong menjadi kursi (5) termasuk perubahan fisika.<br>Susu basi (1) dan singkong menjadi tapai (3) menghasilkan zat baru (asam dan alkohol), sehingga termasuk perubahan kimia."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "question": "Suhu udara di sebuah kota di Eropa pada musim dingin tercatat 41 °F. Jika dinyatakan dalam skala Celsius, suhu tersebut adalah ....",
+      "options": {
+        "A": "5 °C",
+        "B": "9 °C",
+        "C": "22,8 °C",
+        "D": "73,8 °C"
+      },
+      "answer": "A",
+      "explanation": "t<sub>C</sub> = 5/9 × (t<sub>F</sub> − 32) = 5/9 × (41 − 32) = 5/9 × 9 = 5 °C.<br>Pengecoh 9 °C lupa mengalikan 5/9; 22,8 °C mengalikan 41 dengan 5/9 tanpa mengurangi 32 lebih dulu; 73,8 °C memakai faktor 9/5 yang terbalik."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "image": "p2-bimetal.svg",
+      "question": "Tiga keping bimetal masing-masing disusun dari dua di antara logam K, L, dan M. Gambar menunjukkan bentuk ketiga keping setelah dipanaskan (garis putus-putus menunjukkan bentuk sebelum dipanaskan). Urutan logam dari koefisien muai panjang terbesar ke terkecil adalah ....",
+      "options": {
+        "A": "K, M, L",
+        "B": "L, K, M",
+        "C": "M, L, K",
+        "D": "L, M, K"
+      },
+      "answer": "D",
+      "explanation": "Saat dipanaskan, keping bimetal melengkung ke arah logam yang koefisien muainya lebih kecil. Logam yang koefisien muainya lebih besar bertambah panjang lebih banyak sehingga berada di sisi luar lengkungan.<br>Keping (1) melengkung ke arah K: α<sub>L</sub> &gt; α<sub>K</sub>.<br>Keping (2) melengkung ke arah M: α<sub>L</sub> &gt; α<sub>M</sub>.<br>Keping (3) melengkung ke arah K: α<sub>M</sub> &gt; α<sub>K</sub>.<br>Jadi urutannya L, M, K."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "Empat troli di atas lantai licin masing-masing ditarik oleh dua gaya mendatar yang berlawanan arah.\nTroli P: 30 N ke kanan dan 10 N ke kiri, massa 4 kg\nTroli Q: 25 N ke kanan dan 5 N ke kiri, massa 10 kg\nTroli R: 40 N ke kanan dan 16 N ke kiri, massa 3 kg\nTroli S: 18 N ke kanan dan 12 N ke kiri, massa 2 kg\nTroli yang mengalami percepatan terbesar dan terkecil berturut-turut adalah ....",
+      "options": {
+        "A": "R dan Q",
+        "B": "P dan S",
+        "C": "R dan S",
+        "D": "S dan Q"
+      },
+      "answer": "A",
+      "explanation": "Hitung resultan gaya lebih dulu, lalu a = ΣF/m.<br>P: (30 − 10)/4 = 5 m/s<sup>2</sup>; Q: (25 − 5)/10 = 2 m/s<sup>2</sup>; R: (40 − 16)/3 = 8 m/s<sup>2</sup>; S: (18 − 12)/2 = 3 m/s<sup>2</sup>.<br>Percepatan terbesar dialami R dan terkecil dialami Q. Pilihan R dan S keliru karena hanya melihat resultan gaya terkecil (S) tanpa memperhitungkan massa."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "image": "p2-grafik-vt.svg",
+      "question": "Sebuah bola dilepaskan dari puncak bidang miring yang licin sehingga menggelinding makin cepat. Setelah sampai di dasar, bola bergerak di lantai datar yang kasar dan makin lambat hingga akhirnya berhenti. Grafik kecepatan (v) terhadap waktu (t) yang sesuai dengan gerak bola tersebut adalah ....",
+      "options": {
+        "A": "Grafik (1)",
+        "B": "Grafik (2)",
+        "C": "Grafik (3)",
+        "D": "Grafik (4)"
+      },
+      "answer": "B",
+      "explanation": "Bola mula-mula diam lalu dipercepat (garis naik dari v = 0), kemudian diperlambat oleh gesekan lantai hingga berhenti (garis turun sampai v = 0). Tidak ada bagian berkecepatan tetap, sehingga grafiknya naik lalu turun, yaitu grafik (2).<br>Grafik (1) tidak berhenti, grafik (3) tidak dimulai dari keadaan diam, dan grafik (4) menunjukkan benda diperlambat dulu baru dipercepat."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "question": "Perhatikan ciri-ciri sebuah planet berikut!\n(1) Dijuluki planet merah karena permukaannya banyak mengandung besi oksida.\n(2) Memiliki dua satelit, yaitu Phobos dan Deimos.\n(3) Orbitnya terletak di antara orbit Bumi dan orbit Jupiter.\nPlanet yang dimaksud adalah ....",
+      "options": {
+        "A": "Jupiter",
+        "B": "Venus",
+        "C": "Saturnus",
+        "D": "Mars"
+      },
+      "answer": "D",
+      "explanation": "Mars tampak kemerahan karena permukaannya mengandung banyak besi oksida (karat). Mars memiliki dua satelit kecil, Phobos dan Deimos, dan orbitnya terletak di antara Bumi dan Jupiter.<br>Venus tidak memiliki satelit, sedangkan Jupiter dan Saturnus adalah planet raksasa gas dengan banyak satelit."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "question": "Saat sebuah senter bertenaga baterai dinyalakan, lampunya menyala terang. Urutan perubahan energi yang terjadi adalah ....",
+      "options": {
+        "A": "energi listrik → energi kimia → energi cahaya",
+        "B": "energi kimia → energi cahaya → energi listrik",
+        "C": "energi kimia → energi listrik → energi cahaya",
+        "D": "energi cahaya → energi listrik → energi kimia"
+      },
+      "answer": "C",
+      "explanation": "Baterai menyimpan energi kimia. Saat senter dinyalakan, energi kimia diubah menjadi energi listrik yang mengalir ke lampu, lalu lampu mengubah energi listrik menjadi energi cahaya (dan sebagian kecil menjadi kalor)."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Gerobak dorong (tuas jenis kedua) digunakan untuk mengangkut pasir seberat 900 N. Jarak beban ke poros roda (titik tumpu) 40 cm, sedangkan jarak pegangan tangan ke poros roda 120 cm. Gaya angkat minimal yang diperlukan pada pegangan gerobak adalah ....",
+      "options": {
+        "A": "300 N",
+        "B": "450 N",
+        "C": "900 N",
+        "D": "2.700 N"
+      },
+      "answer": "A",
+      "explanation": "Pada tuas jenis kedua, beban terletak di antara titik tumpu dan kuasa. Lengan beban L<sub>b</sub> = 40 cm dan lengan kuasa L<sub>k</sub> = 120 cm (keduanya diukur dari titik tumpu).<br>F × L<sub>k</sub> = w × L<sub>b</sub> → F × 120 = 900 × 40 → F = 300 N.<br>Pengecoh 450 N memakai lengan kuasa 120 − 40 = 80 cm seperti pada tuas jenis pertama; 2.700 N menukar lengan beban dan lengan kuasa; 900 N menganggap gerobak tidak memberi keuntungan mekanis."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "image": "p2-gelombang.svg",
+      "question": "Gelombang pada tali seperti gambar merambat dari titik A ke titik B dalam waktu 0,5 sekon. Frekuensi gelombang tersebut adalah ....",
+      "options": {
+        "A": "0,25 Hz",
+        "B": "1,6 Hz",
+        "C": "2 Hz",
+        "D": "4 Hz"
+      },
+      "answer": "D",
+      "explanation": "Dari A ke B terdapat 2 gelombang (dua bukit dan dua lembah).<br>f = n/t = 2/0,5 = 4 Hz.<br>Pengecoh 0,25 Hz adalah periodenya (T = 1/f = 0,25 s); 1,6 Hz tertukar dengan cepat rambat (v = 0,8 m : 0,5 s = 1,6 m/s); 2 Hz menganggap hanya ada satu gelombang."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "question": "Seorang nelayan menggunakan alat sonar untuk mengukur kedalaman laut. Gelombang ultrasonik yang dipancarkan diterima kembali setelah 1,2 sekon. Jika cepat rambat bunyi di air laut 1.400 m/s, kedalaman laut di tempat itu adalah ....",
+      "options": {
+        "A": "700 m",
+        "B": "840 m",
+        "C": "1.167 m",
+        "D": "1.680 m"
+      },
+      "answer": "B",
+      "explanation": "Bunyi menempuh jarak pergi-pulang, sehingga d = (v × t)/2 = (1.400 × 1,2)/2 = 840 m.<br>Pengecoh 1.680 m lupa membagi 2; 1.167 m membagi v dengan t; 700 m hanya membagi cepat rambat dengan 2."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Seorang anak bercermin pada cermin cekung yang jarak fokusnya 30 cm. Wajahnya berada 20 cm di depan cermin. Sifat bayangan wajah yang terlihat adalah ....",
+      "options": {
+        "A": "nyata, terbalik, diperkecil",
+        "B": "nyata, terbalik, diperbesar",
+        "C": "maya, terbalik, diperkecil",
+        "D": "maya, tegak, diperbesar"
+      },
+      "answer": "D",
+      "explanation": "1/s' = 1/f − 1/s = 1/30 − 1/20 = −1/60, jadi s' = −60 cm. Tanda negatif berarti bayangan maya di belakang cermin.<br>M = |s'/s| = 60/20 = 3 kali, berarti diperbesar; bayangan maya selalu tegak.<br>Benda yang lebih dekat daripada titik fokus (ruang I) menghasilkan bayangan maya, tegak, diperbesar. Karena itu cermin cekung dipakai sebagai cermin rias."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "question": "Batang kaca yang semula netral digosok dengan kain sutra. Setelah digosok, batang kaca bermuatan positif. Hal ini terjadi karena ....",
+      "options": {
+        "A": "elektron berpindah dari batang kaca ke kain sutra",
+        "B": "elektron berpindah dari kain sutra ke batang kaca",
+        "C": "proton berpindah dari kain sutra ke batang kaca",
+        "D": "proton berpindah dari batang kaca ke kain sutra"
+      },
+      "answer": "A",
+      "explanation": "Benda bermuatan positif berarti kekurangan elektron. Saat digosok, elektron dari batang kaca berpindah ke kain sutra, sehingga kaca bermuatan positif dan kain sutra bermuatan negatif. Proton tidak berpindah karena terikat di inti atom."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "image": "p2-rangkaian.svg",
+      "question": "Perhatikan rangkaian listrik pada gambar! Jika hambatan dalam baterai diabaikan, kuat arus listrik yang mengalir melalui R₂ adalah ....",
+      "options": {
+        "A": "1 A",
+        "B": "1,5 A",
+        "C": "2 A",
+        "D": "3 A"
+      },
+      "answer": "C",
+      "explanation": "R₂ dan R₃ paralel: R<sub>p</sub> = (3 × 6)/(3 + 6) = 2 Ω.<br>Hambatan total R = R₁ + R<sub>p</sub> = 2 + 2 = 4 Ω, sehingga arus total I = 12/4 = 3 A.<br>Tegangan pada bagian paralel V<sub>p</sub> = 3 × 2 = 6 V, sehingga I₂ = 6/3 = 2 A (dan I₃ = 6/6 = 1 A).<br>Pengecoh 3 A adalah arus total, 1 A adalah arus melalui R₃, dan 1,5 A membagi arus total sama rata."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "question": "Sebuah ketel listrik 840 W digunakan selama 5 menit untuk memanaskan 1,5 kg air yang suhu awalnya 25 °C. Kalor jenis air 4.200 J/kg °C dan seluruh energi listrik dianggap berubah menjadi kalor. Suhu akhir air adalah ....",
+      "options": {
+        "A": "25,7 °C",
+        "B": "40 °C",
+        "C": "65 °C",
+        "D": "85 °C"
+      },
+      "answer": "C",
+      "explanation": "Energi listrik W = P × t = 840 × 300 = 252.000 J.<br>W = Q = m × c × ΔT → ΔT = 252.000/(1,5 × 4.200) = 40 °C.<br>Suhu akhir = 25 + 40 = 65 °C.<br>Pengecoh 40 °C hanya kenaikan suhunya; 85 °C memakai massa 1 kg; 25,7 °C memakai waktu 5 sekon, bukan 300 sekon."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Biji kacang hijau direndam semalam lalu diletakkan di atas kapas basah. Beberapa hari kemudian biji berkecambah dan kecambahnya makin tinggi. Ciri makhluk hidup yang paling tampak pada peristiwa tersebut adalah ....",
+      "options": {
+        "A": "bernapas",
+        "B": "tumbuh",
+        "C": "berkembang biak",
+        "D": "peka terhadap rangsang"
+      },
+      "answer": "B",
+      "explanation": "Kecambah yang makin tinggi menunjukkan pertambahan ukuran yang tidak dapat kembali seperti semula, yaitu ciri tumbuh. Berkembang biak berarti menghasilkan individu baru; di sini tidak ada tanaman baru yang dihasilkan, hanya satu biji yang tumbuh."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "question": "Perhatikan kunci determinasi berikut!\n1a. Memiliki tulang belakang .......... 2\n1b. Tidak memiliki tulang belakang .......... 5\n2a. Bernapas dengan insang seumur hidup .......... Ikan mas\n2b. Bernapas dengan paru-paru .......... 3\n3a. Memiliki sayap dan tubuh ditutupi bulu .......... Burung merpati\n3b. Tidak memiliki sayap .......... 4\n4a. Menyusui anaknya .......... Kucing\n4b. Tidak menyusui, kulit bersisik .......... Kadal\n5a. Memiliki 6 kaki beruas-ruas .......... Belalang\n5b. Memiliki 8 kaki beruas-ruas .......... Laba-laba\nUrutan kunci determinasi untuk kadal adalah ....",
+      "options": {
+        "A": "1a, 2b, 3a",
+        "B": "1a, 2b, 3b, 4a",
+        "C": "1b, 5a",
+        "D": "1a, 2b, 3b, 4b"
+      },
+      "answer": "D",
+      "explanation": "Kadal bertulang belakang (1a), bernapas dengan paru-paru (2b), tidak bersayap (3b), serta tidak menyusui dan kulitnya bersisik (4b).<br>Kode 1a, 2b, 3a menuju burung merpati; 1a, 2b, 3b, 4a menuju kucing; 1b, 5a menuju belalang."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "question": "Perhatikan komponen ekosistem kolam berikut: ikan, suhu air, ganggang, oksigen terlarut, katak, dan batu. Pengelompokan komponen biotik dan abiotik yang tepat adalah ....",
+      "options": {
+        "A": "biotik: ikan, batu, katak; abiotik: suhu air, ganggang, oksigen terlarut",
+        "B": "biotik: ganggang, oksigen terlarut; abiotik: ikan, katak, batu, suhu air",
+        "C": "biotik: ikan, suhu air; abiotik: ganggang, katak, batu, oksigen terlarut",
+        "D": "biotik: ikan, ganggang, katak; abiotik: suhu air, oksigen terlarut, batu"
+      },
+      "answer": "D",
+      "explanation": "Komponen biotik adalah makhluk hidup: ikan, ganggang, dan katak. Komponen abiotik adalah komponen tak hidup: suhu air, oksigen terlarut, dan batu. Ganggang termasuk biotik karena merupakan makhluk hidup (produsen), walaupun tidak bergerak."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "question": "Ikan badut hidup di antara tentakel anemon laut. Ikan badut terlindung dari pemangsa, sedangkan anemon mendapat sisa makanan dan tubuhnya dibersihkan oleh ikan badut. Pola interaksi antara keduanya adalah ....",
+      "options": {
+        "A": "simbiosis mutualisme",
+        "B": "simbiosis komensalisme",
+        "C": "simbiosis parasitisme",
+        "D": "kompetisi"
+      },
+      "answer": "A",
+      "explanation": "Kedua pihak sama-sama diuntungkan: ikan badut mendapat perlindungan, sedangkan anemon mendapat sisa makanan dan dibersihkan. Hubungan yang saling menguntungkan disebut simbiosis mutualisme."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "question": "Gas SO₂ dan NO₂ dari cerobong pabrik dan knalpot kendaraan bereaksi dengan uap air di udara. Dampak yang ditimbulkan oleh peristiwa tersebut adalah ....",
+      "options": {
+        "A": "penipisan lapisan ozon",
+        "B": "hujan asam yang merusak tumbuhan dan bangunan",
+        "C": "keracunan karbon monoksida",
+        "D": "eutrofikasi pada perairan"
+      },
+      "answer": "B",
+      "explanation": "SO₂ dan NO₂ bereaksi dengan uap air membentuk asam sulfat dan asam nitrat yang turun bersama hujan sebagai hujan asam. Hujan asam merusak daun, menurunkan kesuburan tanah, dan mengikis bangunan serta logam.<br>Penipisan ozon disebabkan oleh CFC, keracunan karbon monoksida berasal dari gas CO, dan eutrofikasi adalah pencemaran air oleh pupuk."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "question": "Hidung, faring, laring, trakea, bronkus, dan paru-paru bekerja sama menyusun sistem organ ....",
+      "options": {
+        "A": "pencernaan",
+        "B": "peredaran darah",
+        "C": "pernapasan",
+        "D": "ekskresi"
+      },
+      "answer": "C",
+      "explanation": "Organ-organ tersebut membentuk saluran yang dilalui udara dari luar tubuh hingga alveolus di paru-paru, tempat pertukaran oksigen dan karbon dioksida. Karena itu, keenamnya menyusun sistem pernapasan."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "question": "Gerakan merentangkan lengan ke samping menjauhi tubuh, lalu merapatkannya kembali ke tubuh, dilakukan oleh otot-otot yang bekerja antagonis. Pasangan gerak tersebut adalah ....",
+      "options": {
+        "A": "fleksi–ekstensi",
+        "B": "supinasi–pronasi",
+        "C": "elevasi–depresi",
+        "D": "abduksi–adduksi"
+      },
+      "answer": "D",
+      "explanation": "Abduksi adalah gerakan menjauhi sumbu tubuh, sedangkan adduksi adalah gerakan mendekati sumbu tubuh.<br>Fleksi–ekstensi adalah menekuk dan meluruskan, supinasi–pronasi adalah menengadahkan dan menelungkupkan telapak tangan, dan elevasi–depresi adalah mengangkat dan menurunkan (misalnya bahu)."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "question": "Pangkal ibu jari tangan dapat digerakkan ke dua arah, sedangkan hubungan antara tulang hasta dan tulang pengumpil memungkinkan telapak tangan diputar menengadah dan menelungkup. Jenis sendi pada kedua bagian tersebut berturut-turut adalah ....",
+      "options": {
+        "A": "sendi pelana dan sendi putar",
+        "B": "sendi engsel dan sendi peluru",
+        "C": "sendi putar dan sendi pelana",
+        "D": "sendi peluru dan sendi engsel"
+      },
+      "answer": "A",
+      "explanation": "Sendi pelana (pada pangkal ibu jari) memungkinkan gerakan ke dua arah. Sendi putar (antara tulang hasta dan pengumpil) memungkinkan gerakan memutar. Pilihan sendi putar dan sendi pelana tertukar urutannya."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sedang",
+      "question": "Pankreas seseorang tidak dapat menghasilkan enzim lipase dalam jumlah yang cukup. Proses pencernaan yang paling terganggu adalah ....",
+      "options": {
+        "A": "pencernaan amilum oleh enzim ptialin di mulut",
+        "B": "penyerapan air di usus besar",
+        "C": "pemecahan protein oleh pepsin di lambung",
+        "D": "pemecahan lemak menjadi asam lemak dan gliserol"
+      },
+      "answer": "D",
+      "explanation": "Lipase pankreas bekerja di usus halus untuk memecah lemak (yang sudah diemulsikan oleh empedu) menjadi asam lemak dan gliserol.<br>Ptialin dihasilkan kelenjar ludah, pepsin dihasilkan lambung, dan penyerapan air terjadi di usus besar, sehingga ketiganya tidak bergantung pada lipase pankreas."
+    },
+    {
+      "number": 25,
+      "difficulty": "Mudah",
+      "question": "Ruang jantung yang menerima darah kaya karbon dioksida dari seluruh tubuh melalui pembuluh vena kava adalah ....",
+      "options": {
+        "A": "serambi kanan",
+        "B": "serambi kiri",
+        "C": "bilik kanan",
+        "D": "bilik kiri"
+      },
+      "answer": "A",
+      "explanation": "Darah dari seluruh tubuh yang kaya karbon dioksida masuk ke serambi kanan melalui vena kava. Darah lalu dipompa bilik kanan ke paru-paru, kembali ke serambi kiri, kemudian dipompa bilik kiri ke seluruh tubuh."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sedang",
+      "question": "Pasangan organ reproduksi laki-laki dan perempuan yang sama-sama berfungsi sebagai saluran tempat lewatnya sel kelamin setelah dihasilkan adalah ....",
+      "options": {
+        "A": "vas deferens dan oviduk",
+        "B": "testis dan ovarium",
+        "C": "skrotum dan uterus",
+        "D": "kelenjar prostat dan ovarium"
+      },
+      "answer": "A",
+      "explanation": "Vas deferens menyalurkan sperma dari epididimis menuju uretra, sedangkan oviduk (tuba falopi) menyalurkan sel telur dari ovarium menuju rahim.<br>Testis dan ovarium menghasilkan sel kelamin, skrotum membungkus testis, uterus adalah tempat perkembangan janin, dan kelenjar prostat menghasilkan cairan semen."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sulit",
+      "image": "p2-grafik-hormon.svg",
+      "question": "Grafik berikut menunjukkan perubahan kadar empat hormon (W, X, Y, dan Z) selama satu siklus menstruasi 28 hari. Hormon X beserta fungsinya adalah ....",
+      "options": {
+        "A": "FSH, merangsang pematangan folikel di ovarium",
+        "B": "estrogen, menebalkan dinding rahim",
+        "C": "LH, memicu terjadinya ovulasi",
+        "D": "progesteron, mempertahankan ketebalan dinding rahim"
+      },
+      "answer": "C",
+      "explanation": "Hormon X melonjak sangat tajam dalam waktu singkat sekitar hari ke-14, tepat di pertengahan siklus. Pola ini adalah lonjakan LH yang memicu folikel melepaskan sel telur (ovulasi).<br>Hormon W (puncak menjelang hari ke-14 dan puncak kedua yang lebih kecil sekitar hari ke-21) adalah estrogen, Y (tinggi setelah ovulasi) adalah progesteron, dan Z (agak tinggi di awal siklus dengan puncak kecil di hari ke-14) adalah FSH."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sedang",
+      "question": "Tanaman bergenotipe AaBbCC akan menghasilkan macam gamet ....",
+      "options": {
+        "A": "ABC dan abC",
+        "B": "ABC, AbC, aBC, dan abC",
+        "C": "AaBb dan CC",
+        "D": "ABC, ABc, abC, dan abc"
+      },
+      "answer": "B",
+      "explanation": "Gen yang heterozigot hanya Aa dan Bb (n = 2), sehingga jumlah macam gamet 2<sup>2</sup> = 4. Setiap gamet pasti membawa C. Kombinasinya ABC, AbC, aBC, dan abC.<br>Pilihan ABC, ABc, abC, dan abc salah karena individu CC tidak dapat menghasilkan gamet yang membawa c."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sedang",
+      "question": "Persilangan antara tanaman mangga berbuah besar dan tanaman mangga berbuah kecil menghasilkan keturunan 50% berbuah besar dan 50% berbuah kecil. Jika sifat buah besar (B) dominan terhadap kecil (b), genotipe kedua induknya adalah ....",
+      "options": {
+        "A": "BB × bb",
+        "B": "Bb × Bb",
+        "C": "Bb × bb",
+        "D": "BB × Bb"
+      },
+      "answer": "C",
+      "explanation": "Induk berbuah kecil pasti bb. Agar muncul keturunan berbuah kecil (bb), induk berbuah besar juga harus membawa alel b, sehingga genotipenya Bb.<br>Bb × bb → Bb : bb = 1 : 1 (50% besar dan 50% kecil).<br>BB × bb menghasilkan 100% besar, sedangkan Bb × Bb menghasilkan 75% besar dan 25% kecil."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sedang",
+      "question": "Pada marmut, rambut hitam (H) dominan penuh terhadap rambut putih (h). Marmut hitam heterozigot disilangkan dengan sesamanya. Peluang lahirnya anak marmut berambut putih adalah ....",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "answer": "A",
+      "explanation": "Hh × Hh → HH : Hh : hh = 1 : 2 : 1.<br>Anak berambut putih hanya yang bergenotipe hh, yaitu 1 dari 4 kemungkinan = 25%.<br>Pengecoh 75% adalah peluang berambut hitam, sedangkan 50% adalah peluang bergenotipe Hh."
+    },
+    {
+      "number": 31,
+      "difficulty": "Mudah",
+      "question": "Sebuah kotak ditarik sejauh 8 m dengan usaha sebesar 400 J. Besar gaya tarik yang diberikan adalah ....",
+      "options": {
+        "A": "0,02 N",
+        "B": "50 N",
+        "C": "400 N",
+        "D": "3.200 N"
+      },
+      "answer": "B",
+      "explanation": "W = F × s → F = W/s = 400/8 = 50 N.<br>Pengecoh 3.200 N mengalikan usaha dengan perpindahan; 0,02 N membagi perpindahan dengan usaha (terbalik); 400 N menganggap gaya sama dengan usaha."
+    },
+    {
+      "number": 32,
+      "difficulty": "Sulit",
+      "question": "Sebuah peti didorong sejauh 6 m di atas lantai kasar. Usaha yang dilakukan oleh resultan gaya pada peti 540 J. Jika gaya gesek antara peti dan lantai 45 N, besar gaya dorong yang diberikan adalah ....",
+      "options": {
+        "A": "45 N",
+        "B": "90 N",
+        "C": "135 N",
+        "D": "3.240 N"
+      },
+      "answer": "C",
+      "explanation": "Resultan gaya: ΣF = W/s = 540/6 = 90 N.<br>Gaya gesek berlawanan arah dengan gaya dorong, sehingga ΣF = F<sub>dorong</sub> − f<sub>gesek</sub> → F<sub>dorong</sub> = 90 + 45 = 135 N.<br>Pengecoh 90 N adalah resultan gaya (lupa memperhitungkan gesekan), 45 N adalah gaya geseknya, dan 3.240 N mengalikan usaha dengan perpindahan."
+    },
+    {
+      "number": 33,
+      "difficulty": "Sedang",
+      "question": "Dua muatan listrik masing-masing +2 × 10<sup>−6</sup> C dan +8 × 10<sup>−6</sup> C terpisah sejauh 40 cm. Jika k = 9 × 10<sup>9</sup> N·m<sup>2</sup>/C<sup>2</sup>, besar dan jenis gaya Coulomb antara kedua muatan adalah ....",
+      "options": {
+        "A": "0,36 N, tolak-menolak",
+        "B": "0,9 N, tarik-menarik",
+        "C": "0,9 N, tolak-menolak",
+        "D": "9 N, tolak-menolak"
+      },
+      "answer": "C",
+      "explanation": "r = 40 cm = 0,4 m, sehingga r<sup>2</sup> = 0,16 m<sup>2</sup>.<br>F = k × q₁ × q₂ / r<sup>2</sup> = (9 × 10<sup>9</sup> × 2 × 10<sup>−6</sup> × 8 × 10<sup>−6</sup>)/0,16 = 0,144/0,16 = 0,9 N.<br>Kedua muatan positif (sejenis), sehingga gayanya tolak-menolak.<br>Pengecoh 0,36 N lupa menguadratkan jarak; 9 N salah menghitung r<sup>2</sup> menjadi 0,016."
+    },
+    {
+      "number": 34,
+      "difficulty": "Sulit",
+      "question": "Dua muatan listrik yang terpisah sejauh 6 cm saling tarik-menarik dengan gaya F. Agar gaya tarik-menariknya menjadi 4F tanpa mengubah besar muatan, jarak kedua muatan harus dijadikan ....",
+      "options": {
+        "A": "1,5 cm",
+        "B": "3 cm",
+        "C": "12 cm",
+        "D": "24 cm"
+      },
+      "answer": "B",
+      "explanation": "Gaya Coulomb berbanding terbalik dengan kuadrat jarak: F'/F = (r/r')<sup>2</sup>.<br>4 = (6/r')<sup>2</sup> → 6/r' = 2 → r' = 3 cm.<br>Pengecoh 1,5 cm menganggap gaya berbanding terbalik dengan jarak (bukan kuadratnya); 12 cm dan 24 cm justru memperkecil gaya."
+    },
+    {
+      "number": 35,
+      "difficulty": "Sedang",
+      "passage": "sawah",
+      "question": "Berdasarkan teks, pola interaksi pada peristiwa (1) beserta peran masing-masing makhluk hidup adalah ....",
+      "options": {
+        "A": "mutualisme; burung jalak memperoleh makanan dan kerbau terbebas dari kutu",
+        "B": "komensalisme; burung jalak diuntungkan, sedangkan kerbau tidak diuntungkan dan tidak dirugikan",
+        "C": "parasitisme; burung jalak sebagai parasit yang merugikan kerbau",
+        "D": "predasi; burung jalak sebagai pemangsa dan kerbau sebagai mangsa"
+      },
+      "answer": "A",
+      "explanation": "Burung jalak mendapat makanan berupa kutu, sedangkan kerbau diuntungkan karena terbebas dari kutu yang mengganggunya. Karena kedua pihak sama-sama diuntungkan, interaksinya adalah simbiosis mutualisme. Burung jalak tidak memangsa kerbau; yang dimakan adalah kutunya."
+    },
+    {
+      "number": 36,
+      "difficulty": "Sulit",
+      "passage": "sawah",
+      "question": "Jika ular sawah pada peristiwa (2) banyak diburu hingga populasinya menurun drastis, dampak yang paling mungkin terjadi adalah ....",
+      "options": {
+        "A": "populasi tikus menurun karena kalah bersaing dengan belalang",
+        "B": "populasi tikus meningkat, persaingan tikus dan belalang memperebutkan padi makin ketat, dan hasil panen menurun",
+        "C": "populasi belalang meningkat karena belalang adalah mangsa utama ular sawah",
+        "D": "tidak ada dampak bagi tanaman padi karena ular sawah tidak memakan padi"
+      },
+      "answer": "B",
+      "explanation": "Pada peristiwa (2), ular sawah berperan sebagai predator dan tikus sebagai mangsa. Jika ular berkurang, populasi tikus meningkat.<br>Pada peristiwa (3), tikus dan belalang berkompetisi memperebutkan padi, sehingga bertambahnya tikus membuat persaingan makin ketat dan kerusakan padi bertambah. Akibatnya hasil panen menurun."
+    },
+    {
+      "number": 37,
+      "difficulty": "Sedang",
+      "question": "Agar dapat membuahi sel telur, sperma harus menembus lapisan pelindung sel telur. Bagian sperma yang mengandung enzim untuk menembus lapisan tersebut adalah ....",
+      "options": {
+        "A": "ekor",
+        "B": "bagian tengah yang berisi mitokondria",
+        "C": "inti sel",
+        "D": "akrosom di ujung kepala"
+      },
+      "answer": "D",
+      "explanation": "Akrosom di ujung kepala sperma berisi enzim yang melarutkan lapisan pelindung sel telur sehingga sperma dapat masuk. Ekor berfungsi untuk bergerak, bagian tengah menghasilkan energi (mitokondria), dan inti sel membawa materi genetik."
+    },
+    {
+      "number": 38,
+      "difficulty": "Sulit",
+      "question": "Sepasang anak kembar identik selalu memiliki jenis kelamin yang sama dan wajah yang sangat mirip. Proses fertilisasi dan perkembangan yang menghasilkan kembar identik adalah ....",
+      "options": {
+        "A": "dua sel telur dibuahi oleh dua sperma yang berbeda",
+        "B": "satu sel telur dibuahi oleh dua sperma",
+        "C": "satu sel telur dibuahi oleh satu sperma, lalu zigot atau embrio awalnya terpisah menjadi dua",
+        "D": "dua sel telur dibuahi oleh satu sperma"
+      },
+      "answer": "C",
+      "explanation": "Kembar identik berasal dari satu zigot (satu sel telur dan satu sperma). Pada tahap awal pembelahan, zigot terpisah menjadi dua dan masing-masing berkembang menjadi embrio. Karena materi genetiknya sama, jenis kelamin dan ciri fisiknya sama.<br>Dua sel telur yang dibuahi dua sperma menghasilkan kembar tidak identik. Satu sperma tidak dapat membuahi dua sel telur, dan sel telur yang dimasuki dua sperma tidak berkembang normal."
+    },
+    {
+      "number": 39,
+      "difficulty": "Sulit",
+      "question": "Pada tanaman tomat, buah merah (M) dominan terhadap buah kuning (m), dan batang tinggi (T) dominan terhadap batang pendek (t). Tanaman MMTT disilangkan dengan mmtt dan menghasilkan F1. F1 kemudian disilangkan dengan sesamanya dan menghasilkan 320 tanaman F2. Jumlah tanaman F2 yang berbuah merah dan berbatang pendek adalah ....",
+      "options": {
+        "A": "20 tanaman",
+        "B": "60 tanaman",
+        "C": "180 tanaman",
+        "D": "240 tanaman"
+      },
+      "answer": "B",
+      "explanation": "F1 bergenotipe MmTt. MmTt × MmTt menghasilkan perbandingan fenotipe merah tinggi : merah pendek : kuning tinggi : kuning pendek = 9 : 3 : 3 : 1.<br>Merah pendek = 3/16 × 320 = 60 tanaman.<br>Pengecoh 180 (9/16) adalah merah tinggi, 20 (1/16) adalah kuning pendek, dan 240 (3/4) adalah semua tanaman berbuah merah."
+    },
+    {
+      "number": 40,
+      "difficulty": "Sulit",
+      "question": "Pada tanaman tomat, buah merah (M) dominan terhadap buah kuning (m), dan batang tinggi (T) dominan terhadap batang pendek (t). Tanaman MmTt disilangkan dengan tanaman mmtt (uji silang) dan menghasilkan 160 tanaman. Jumlah tanaman yang berbuah kuning dan berbatang tinggi adalah ....",
+      "options": {
+        "A": "10 tanaman",
+        "B": "30 tanaman",
+        "C": "40 tanaman",
+        "D": "90 tanaman"
+      },
+      "answer": "C",
+      "explanation": "Gamet MmTt: MT, Mt, mT, mt; gamet mmtt: mt. Keturunannya MmTt : Mmtt : mmTt : mmtt = 1 : 1 : 1 : 1.<br>Kuning tinggi (mmTt) = 1/4 × 160 = 40 tanaman.<br>Pengecoh 90 (9/16) dan 30 (3/16) memakai perbandingan 9 : 3 : 3 : 1 dari persilangan MmTt × MmTt, sedangkan 10 memakai peluang 1/16."
+    }
+  ]
+}
