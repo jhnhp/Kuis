@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T19:49:51",
+  "generated": "2026-11-10T18:16:29",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2364,6 +2364,18 @@
         "09 Simulasi TKA"
       ],
       "path": "TKA SMA/Matematika Tingkat Lanjut/09 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "Try Out 1 IPA SMP Kelas IX",
+      "topic": "Try Out 1 IPA Kelas IX",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi IPA kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMP",
+      "mapel": "IPA",
+      "topik": [
+        "Try Out 1"
+      ],
+      "path": "TKA SMP/IPA/Try Out 1/soal.json"
     },
     {
       "title": "TKA Matematika SMP - Bilangan",
