@@ -1,0 +1,532 @@
+{
+  "title": "Try Out 1 Matematika SMP Kelas IX (Paket 2)",
+  "topic": "Try Out 1 Matematika Kelas IX",
+  "subtitle": "Latihan Mandiri 40 Soal",
+  "difficulty_summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi Matematika kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+  "total_questions": 40,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Hasil dari 48 : (−6) − 5 × (−3) + (−12) adalah ....",
+      "options": {
+        "A": "−35",
+        "B": "−5",
+        "C": "11",
+        "D": "27"
+      },
+      "answer": "B",
+      "explanation": "Kerjakan pembagian dan perkalian lebih dulu: 48 : (−6) = −8 dan 5 × (−3) = −15.<br>−8 − (−15) + (−12) = −8 + 15 − 12 = −5.<br>Pengecoh −35 menganggap − (−15) sebagai −15; 11 menganggap 48 : (−6) = 8; 27 dikerjakan urut dari kiri."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "question": "Hasil dari 1⅕ × 2½ : ¾ adalah ....",
+      "options": {
+        "A": "2¼",
+        "B": "3",
+        "C": "4",
+        "D": "5⅓"
+      },
+      "answer": "C",
+      "explanation": "1⅕ × 2½ = <sup>6</sup>⁄<sub>5</sub> × <sup>5</sup>⁄<sub>2</sub> = 3.<br>3 : ¾ = 3 × <sup>4</sup>⁄<sub>3</sub> = 4.<br>Pengecoh 2¼ mengalikan dengan ¾; 3 lupa membagi; 5⅓ membagi dua kali (4 : ¾)."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "question": "Suhu udara di puncak gunung pada pukul 04.00 adalah −6 °C. Suhu naik 3 °C setiap jam sampai pukul 10.00, kemudian turun 2 °C setiap jam sampai pukul 14.00. Suhu pada pukul 14.00 adalah ....",
+      "options": {
+        "A": "4 °C",
+        "B": "8 °C",
+        "C": "10 °C",
+        "D": "12 °C"
+      },
+      "answer": "A",
+      "explanation": "Pukul 04.00–10.00 = 6 jam, naik 6 × 3 = 18 °C → −6 + 18 = 12 °C.<br>Pukul 10.00–14.00 = 4 jam, turun 4 × 2 = 8 °C → 12 − 8 = 4 °C.<br>Pengecoh 12 °C lupa penurunan suhu; 8 °C menghitung penurunan hanya 2 jam; 10 °C menghitung penurunan hanya 1 jam."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "question": "Bentuk persen dan bentuk desimal dari <sup>9</sup>⁄<sub>25</sub> berturut-turut adalah ....",
+      "options": {
+        "A": "36% dan 3,6",
+        "B": "3,6% dan 0,036",
+        "C": "92,5% dan 0,925",
+        "D": "36% dan 0,36"
+      },
+      "answer": "D",
+      "explanation": "<sup>9</sup>⁄<sub>25</sub> = <sup>36</sup>⁄<sub>100</sub> = 0,36 = 36%.<br>Pengecoh 3,6 dan 0,036 salah menggeser koma; 0,925 hanya menuliskan angka 9 dan 25."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "question": "Perbandingan 45 menit : 2¼ jam dalam bentuk paling sederhana adalah ....",
+      "options": {
+        "A": "3 : 1",
+        "B": "1 : 5",
+        "C": "20 : 1",
+        "D": "1 : 3"
+      },
+      "answer": "D",
+      "explanation": "Samakan satuan: 2¼ jam = 135 menit.<br>45 : 135, bagi dengan 45 → 1 : 3.<br>Pengecoh 3 : 1 terbalik; 1 : 5 menganggap 2¼ jam = 225 menit; 20 : 1 berasal dari 45 : 2,25 tanpa menyamakan satuan."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Perbandingan umur ibu dan anaknya 8 : 3. Selisih umur keduanya 25 tahun. Jumlah umur ibu dan anak tersebut adalah ....",
+      "options": {
+        "A": "55 tahun",
+        "B": "40 tahun",
+        "C": "25 tahun",
+        "D": "15 tahun"
+      },
+      "answer": "A",
+      "explanation": "Selisih perbandingan = 8 − 3 = 5 bagian = 25 tahun, jadi 1 bagian = 5 tahun.<br>Umur ibu = 40 tahun dan umur anak = 15 tahun.<br>Jumlahnya = 55 tahun.<br>Pengecoh 40 tahun dan 15 tahun masing-masing hanya umur ibu atau anak; 25 tahun adalah selisih umurnya."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "question": "Untuk membuat 24 kue diperlukan 1,5 kg tepung terigu. Tepung terigu yang diperlukan untuk membuat 60 kue yang sama adalah ....",
+      "options": {
+        "A": "0,6 kg",
+        "B": "2,5 kg",
+        "C": "3,75 kg",
+        "D": "4,5 kg"
+      },
+      "answer": "C",
+      "explanation": "Banyak kue dan tepung berbanding senilai.<br>Tepung = <sup>60</sup>⁄<sub>24</sub> × 1,5 = 2,5 × 1,5 = 3,75 kg.<br>Pengecoh 0,6 kg memakai perbandingan berbalik nilai; 2,5 kg hanya menghitung 60 : 24; 4,5 kg mengalikan 1,5 dengan 3."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "question": "Pak Dedi membayar Rp297.500 untuk sebuah jaket setelah mendapat diskon 15%. Harga jaket sebelum diskon adalah ....",
+      "options": {
+        "A": "Rp252.875",
+        "B": "Rp312.500",
+        "C": "Rp342.125",
+        "D": "Rp350.000"
+      },
+      "answer": "D",
+      "explanation": "Harga bayar = 85% dari harga awal.<br>Harga awal = Rp297.500 : 0,85 = Rp350.000.<br>Pengecoh Rp342.125 menambahkan 15% dari harga bayar; Rp252.875 mengurangi lagi 15%; Rp312.500 menambahkan Rp15.000."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "question": "Bentuk sederhana dari 3(2a − b) − (4a − 5b) adalah ....",
+      "options": {
+        "A": "2a − 8b",
+        "B": "2a + 2b",
+        "C": "2a + 4b",
+        "D": "10a + 2b"
+      },
+      "answer": "B",
+      "explanation": "3(2a − b) − (4a − 5b) = 6a − 3b − 4a + 5b = 2a + 2b.<br>Pengecoh 2a − 8b tidak mengubah tanda −5b; 2a + 4b lupa mengalikan b dengan 3; 10a + 2b tidak mengubah tanda 4a."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Hasil dari (3a − 2b)<sup>2</sup> adalah ....",
+      "options": {
+        "A": "9a<sup>2</sup> + 4b<sup>2</sup>",
+        "B": "9a<sup>2</sup> − 12ab + 4b<sup>2</sup>",
+        "C": "9a<sup>2</sup> − 6ab + 4b<sup>2</sup>",
+        "D": "9a<sup>2</sup> − 12ab − 4b<sup>2</sup>"
+      },
+      "answer": "B",
+      "explanation": "(p − q)<sup>2</sup> = p<sup>2</sup> − 2pq + q<sup>2</sup> dengan p = 3a dan q = 2b.<br>(3a)<sup>2</sup> − 2(3a)(2b) + (2b)<sup>2</sup> = 9a<sup>2</sup> − 12ab + 4b<sup>2</sup>.<br>Pengecoh 9a<sup>2</sup> + 4b<sup>2</sup> lupa suku tengah; −6ab lupa mengalikan 2; −4b<sup>2</sup> salah tanda karena (−2b)<sup>2</sup> tetap positif."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sulit",
+      "question": "Bentuk faktor dari 3x<sup>2</sup> + 10x − 8 adalah ....",
+      "options": {
+        "A": "(3x + 2)(x − 4)",
+        "B": "(3x − 4)(x + 2)",
+        "C": "(3x − 2)(x + 4)",
+        "D": "(3x + 4)(x − 2)"
+      },
+      "answer": "C",
+      "explanation": "Cari dua bilangan yang hasil kalinya 3 × (−8) = −24 dan jumlahnya 10, yaitu 12 dan −2.<br>3x<sup>2</sup> + 12x − 2x − 8 = 3x(x + 4) − 2(x + 4) = (3x − 2)(x + 4).<br>Cek pengecoh: (3x + 2)(x − 4) = 3x<sup>2</sup> − 10x − 8, (3x − 4)(x + 2) = 3x<sup>2</sup> + 2x − 8, dan (3x + 4)(x − 2) = 3x<sup>2</sup> − 2x − 8."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "image": "p2-garis-sejajar.svg",
+      "question": "Pada gambar berikut, garis g sejajar dengan garis h dan dipotong oleh garis k. Besar sudut (5x − 20)° adalah ....",
+      "options": {
+        "A": "20°",
+        "B": "60°",
+        "C": "80°",
+        "D": "100°"
+      },
+      "answer": "C",
+      "explanation": "Kedua sudut terletak di antara garis g dan h dan berseberangan terhadap garis k, jadi keduanya sudut dalam berseberangan yang sama besar.<br>5x − 20 = 3x + 20 → 2x = 40 → x = 20.<br>Besar sudut = 5(20) − 20 = 80°.<br>Pengecoh 20° adalah nilai x; 100° adalah pelurusnya; 60° hanya menghitung 3x."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Sebuah foto berukuran 20 cm × 30 cm ditempel pada selembar karton. Sisa karton di sebelah kiri, kanan, dan atas foto masing-masing 3 cm. Jika foto dan karton sebangun, lebar sisa karton di bawah foto adalah ....",
+      "options": {
+        "A": "9 cm",
+        "B": "6 cm",
+        "C": "4,5 cm",
+        "D": "3 cm"
+      },
+      "answer": "B",
+      "explanation": "Lebar karton = 3 + 20 + 3 = 26 cm.<br>Foto dan karton sebangun: 20/26 = 30/t → t = 26 × 30 : 20 = 39 cm.<br>Sisa bawah = 39 − 30 − 3 = 6 cm.<br>Pengecoh 3 cm menganggap sisa bawah sama dengan sisa lain; 9 cm lupa mengurangi sisa atas; 4,5 cm hanya mengalikan 3 dengan 1,5."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "question": "Pak Budi ingin membandingkan jumlah penjualan lima jenis buah di tokonya selama bulan Mei. Diagram yang paling tepat beserta alasannya adalah ....",
+      "options": {
+        "A": "diagram batang, karena dapat membandingkan banyak data antarkategori",
+        "B": "diagram garis, karena dapat membandingkan banyak data antarkategori",
+        "C": "diagram lingkaran, karena dapat menunjukkan perkembangan penjualan dari waktu ke waktu",
+        "D": "diagram batang, karena dapat menunjukkan bagian dari keseluruhan dalam persen"
+      },
+      "answer": "A",
+      "explanation": "Data penjualan lima jenis buah adalah data antarkategori, sehingga paling tepat disajikan dengan diagram batang yang berfungsi membandingkan nilai antarkategori.<br>Diagram garis untuk perubahan dari waktu ke waktu, sedangkan diagram lingkaran untuk bagian dari keseluruhan. Pilihan lain memiliki jenis diagram atau alasan yang tidak sesuai."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "question": "Data ukuran sepatu siswa kelas IX A adalah sebagai berikut.<br>Ukuran 37: 5 siswa<br>Ukuran 38: 9 siswa<br>Ukuran 39: 12 siswa<br>Ukuran 40: 8 siswa<br>Ukuran 41: 6 siswa<br>Modus data tersebut adalah ....",
+      "options": {
+        "A": "12",
+        "B": "38",
+        "C": "39",
+        "D": "41"
+      },
+      "answer": "C",
+      "explanation": "Modus adalah nilai dengan frekuensi terbanyak. Frekuensi terbesar 12, yaitu ukuran 39.<br>Pengecoh 12 adalah frekuensinya, bukan nilai datanya; 38 dan 41 bukan ukuran dengan frekuensi terbesar."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Hasil dari (3<sup>5</sup> × 9<sup>2</sup>) : 27<sup>3</sup> adalah ....",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "9"
+      },
+      "answer": "B",
+      "explanation": "Ubah ke basis 3: 9<sup>2</sup> = 3<sup>4</sup> dan 27<sup>3</sup> = 3<sup>9</sup>.<br>3<sup>5</sup> × 3<sup>4</sup> : 3<sup>9</sup> = 3<sup>5 + 4 − 9</sup> = 3<sup>0</sup> = 1.<br>Pengecoh 0 menganggap 3<sup>0</sup> = 0; 3 dan 9 salah mengubah 9<sup>2</sup> atau 27<sup>3</sup> ke basis 3."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "question": "Hasil dari √6 × √8 + 2√12 adalah ....",
+      "options": {
+        "A": "√14 + 4√3",
+        "B": "6√3",
+        "C": "12√3",
+        "D": "8√3"
+      },
+      "answer": "D",
+      "explanation": "√6 × √8 = √48 = 4√3 dan 2√12 = 2 × 2√3 = 4√3.<br>4√3 + 4√3 = 8√3.<br>Pengecoh √14 + 4√3 menjumlahkan bilangan di bawah akar saat mengalikan; 6√3 menganggap 2√12 = 2√3; 12√3 menganggap √48 = 8√3."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Sebuah layang-layang diterbangkan dengan benang sepanjang 50 m. Jarak mendatar antara anak yang memegang benang dan titik tepat di bawah layang-layang adalah 30 m. Jika tangan anak berada 1,5 m di atas tanah, tinggi layang-layang dari tanah adalah ....",
+      "options": {
+        "A": "58,3 m",
+        "B": "41,5 m",
+        "C": "40 m",
+        "D": "38,5 m"
+      },
+      "answer": "B",
+      "explanation": "Benang adalah sisi miring: tinggi dari tangan = √(50<sup>2</sup> − 30<sup>2</sup>) = √1.600 = 40 m.<br>Tinggi dari tanah = 40 + 1,5 = 41,5 m.<br>Pengecoh 40 m lupa menambahkan tinggi tangan; 38,5 m mengurangkan tinggi tangan; 58,3 m menjumlahkan kuadrat (√3.400)."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "question": "Nilai x yang memenuhi persamaan (2x − 1)/3 = (x + 4)/2 adalah ....",
+      "options": {
+        "A": "14",
+        "B": "10",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Kalikan kedua ruas dengan 6: 2(2x − 1) = 3(x + 4).<br>4x − 2 = 3x + 12 → x = 14.<br>Pengecoh 5 mengabaikan penyebut (2x − 1 = x + 4); 10 salah tanda saat memindahkan −2; 2 hanya mengalikan pembilang dengan penyebutnya sendiri."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sedang",
+      "question": "Himpunan penyelesaian dari 2(x + 3) ≤ 5x − 9 dengan x bilangan asli kurang dari 10 adalah ....",
+      "options": {
+        "A": "{5, 6, 7, 8, 9}",
+        "B": "{1, 2, 3, 4, 5}",
+        "C": "{6, 7, 8, 9}",
+        "D": "{1, 2, 3, 4}"
+      },
+      "answer": "A",
+      "explanation": "2x + 6 ≤ 5x − 9 → 6 + 9 ≤ 5x − 2x → 15 ≤ 3x → x ≥ 5.<br>Bilangan asli kurang dari 10 yang memenuhi: {5, 6, 7, 8, 9}.<br>Pengecoh {1, 2, 3, 4, 5} membalik arah tanda; {6, 7, 8, 9} tidak memasukkan 5 padahal tandanya ≥; {1, 2, 3, 4} adalah bilangan yang tidak memenuhi."
+    },
+    {
+      "number": 21,
+      "difficulty": "Sedang",
+      "question": "Penyelesaian sistem persamaan 3x − y = 10 dan 2x + 5y = −16 adalah x dan y. Nilai 2x − 3y adalah ....",
+      "options": {
+        "A": "−14",
+        "B": "−8",
+        "C": "−2",
+        "D": "16"
+      },
+      "answer": "D",
+      "explanation": "Dari 3x − y = 10 diperoleh y = 3x − 10.<br>Substitusi: 2x + 5(3x − 10) = −16 → 17x = 34 → x = 2, lalu y = 6 − 10 = −4.<br>2x − 3y = 4 − 3(−4) = 4 + 12 = 16.<br>Pengecoh −8 menganggap y = 4; −14 menukar nilai x dan y; −2 adalah x + y."
+    },
+    {
+      "number": 22,
+      "difficulty": "Mudah",
+      "question": "Diketahui f(x) = 2x<sup>2</sup> + 3x − 5. Nilai f(2) − f(−1) adalah ....",
+      "options": {
+        "A": "−6",
+        "B": "3",
+        "C": "9",
+        "D": "15"
+      },
+      "answer": "D",
+      "explanation": "f(2) = 2(4) + 6 − 5 = 9.<br>f(−1) = 2(1) − 3 − 5 = −6.<br>f(2) − f(−1) = 9 − (−6) = 15.<br>Pengecoh 3 menganggap 9 − (−6) = 3; 9 hanya nilai f(2); −6 hanya nilai f(−1)."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "question": "Sebuah kotak kue berbentuk balok tanpa tutup berukuran panjang 12 cm, lebar 8 cm, dan tinggi 5 cm. Luas karton yang diperlukan untuk membuat kotak tersebut adalah ....",
+      "options": {
+        "A": "480 cm<sup>2</sup>",
+        "B": "392 cm<sup>2</sup>",
+        "C": "296 cm<sup>2</sup>",
+        "D": "196 cm<sup>2</sup>"
+      },
+      "answer": "C",
+      "explanation": "Luas permukaan balok = 2(pl + pt + lt) = 2(96 + 60 + 40) = 392 cm<sup>2</sup>.<br>Tanpa tutup, kurangi satu sisi p × l: 392 − 96 = 296 cm<sup>2</sup>.<br>Pengecoh 392 cm<sup>2</sup> ikut menghitung tutup; 196 cm<sup>2</sup> lupa mengalikan 2; 480 adalah volume balok."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sulit",
+      "question": "Sebuah limas persegi memiliki luas permukaan 384 cm<sup>2</sup> dan panjang sisi alas 12 cm. Tinggi limas tersebut adalah ....",
+      "options": {
+        "A": "5 cm",
+        "B": "6 cm",
+        "C": "8 cm",
+        "D": "10 cm"
+      },
+      "answer": "C",
+      "explanation": "Luas alas = 144 cm<sup>2</sup>, jadi luas keempat sisi tegak = 384 − 144 = 240 cm<sup>2</sup>.<br>4 × ½ × 12 × t<sub>s</sub> = 240 → 24 t<sub>s</sub> = 240 → tinggi sisi tegak t<sub>s</sub> = 10 cm.<br>Tinggi limas = √(10<sup>2</sup> − 6<sup>2</sup>) = √64 = 8 cm.<br>Pengecoh 10 cm adalah tinggi sisi tegak, 6 cm adalah setengah sisi alas, dan 5 cm lupa faktor ½ saat menghitung tinggi sisi tegak."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sedang",
+      "question": "Sebuah topi ulang tahun berbentuk kerucut tanpa alas memiliki diameter 20 cm dan panjang garis pelukis 30 cm. Luas kertas yang diperlukan untuk membuat topi tersebut adalah .... (π = 3,14)",
+      "options": {
+        "A": "471 cm<sup>2</sup>",
+        "B": "942 cm<sup>2</sup>",
+        "C": "1.256 cm<sup>2</sup>",
+        "D": "1.884 cm<sup>2</sup>"
+      },
+      "answer": "B",
+      "explanation": "Topi hanya berupa selimut kerucut dengan r = 10 cm.<br>Luas selimut = πrs = 3,14 × 10 × 30 = 942 cm<sup>2</sup>.<br>Pengecoh 1.884 cm<sup>2</sup> memakai diameter sebagai jari-jari; 1.256 cm<sup>2</sup> ikut menghitung alas; 471 cm<sup>2</sup> hanya setengahnya."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sulit",
+      "question": "Sebuah bola dimasukkan ke dalam tabung sehingga bola menyinggung alas, tutup, dan selimut tabung. Luas permukaan bola 616 cm<sup>2</sup>. Luas permukaan tabung tersebut adalah .... (π = <sup>22</sup>⁄<sub>7</sub>)",
+      "options": {
+        "A": "924 cm<sup>2</sup>",
+        "B": "770 cm<sup>2</sup>",
+        "C": "616 cm<sup>2</sup>",
+        "D": "154 cm<sup>2</sup>"
+      },
+      "answer": "A",
+      "explanation": "4πr<sup>2</sup> = 616 → r<sup>2</sup> = 616 : (4 × <sup>22</sup>⁄<sub>7</sub>) = 49 → r = 7 cm.<br>Tabung memiliki r = 7 cm dan tinggi = diameter bola = 14 cm.<br>Luas permukaan tabung = 2πr(r + t) = 2 × <sup>22</sup>⁄<sub>7</sub> × 7 × 21 = 924 cm<sup>2</sup>.<br>Pengecoh 616 cm<sup>2</sup> menganggap luasnya sama dengan bola (atau hanya selimut tabung); 770 cm<sup>2</sup> lupa tutup tabung; 154 cm<sup>2</sup> hanya luas alas tabung."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sedang",
+      "question": "Sebuah tangki air berbentuk tabung dengan jari-jari 70 cm dan tinggi 100 cm. Tangki kosong tersebut diisi air dengan debit 20 liter per menit. Waktu yang diperlukan sampai tangki penuh adalah .... (π = <sup>22</sup>⁄<sub>7</sub>)",
+      "options": {
+        "A": "308 menit",
+        "B": "154 menit",
+        "C": "77 menit",
+        "D": "7,7 menit"
+      },
+      "answer": "C",
+      "explanation": "Volume = <sup>22</sup>⁄<sub>7</sub> × 70<sup>2</sup> × 100 = 1.540.000 cm<sup>3</sup> = 1.540 liter.<br>Waktu = 1.540 : 20 = 77 menit.<br>Pengecoh 7,7 menit salah mengubah satuan; 154 menit membagi dengan 10; 308 menit memakai jari-jari 140 cm."
+    },
+    {
+      "number": 28,
+      "difficulty": "Mudah",
+      "question": "Titik A ditranslasikan oleh T(−3, 5) sehingga bayangannya A′(4, −1). Koordinat titik A adalah ....",
+      "options": {
+        "A": "(7, −6)",
+        "B": "(1, 4)",
+        "C": "(7, 4)",
+        "D": "(1, −6)"
+      },
+      "answer": "A",
+      "explanation": "A′ = (x − 3, y + 5) = (4, −1).<br>x − 3 = 4 → x = 7 dan y + 5 = −1 → y = −6, jadi A(7, −6).<br>Pengecoh (1, 4) menerapkan translasi lagi pada A′; (7, 4) dan (1, −6) hanya benar pada salah satu koordinat."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sedang",
+      "question": "Titik C(5, 2) didilatasi dengan pusat P(1, −2) dan faktor skala 3. Koordinat bayangan titik C adalah ....",
+      "options": {
+        "A": "(15, 6)",
+        "B": "(12, 12)",
+        "C": "(16, 4)",
+        "D": "(13, 10)"
+      },
+      "answer": "D",
+      "explanation": "Dilatasi [P(a, b), k]: (x, y) → (a + k(x − a), b + k(y − b)).<br>C′ = (1 + 3(5 − 1), −2 + 3(2 + 2)) = (1 + 12, −2 + 12) = (13, 10).<br>Pengecoh (15, 6) memakai pusat O; (12, 12) lupa menambahkan koordinat pusat; (16, 4) mengalikan dulu lalu menggeser dengan pusat."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sedang",
+      "question": "Titik R(4, −2) dirotasi 270° berlawanan arah jarum jam dengan pusat O(0, 0). Koordinat bayangan titik R adalah ....",
+      "options": {
+        "A": "(−2, −4)",
+        "B": "(2, 4)",
+        "C": "(−4, 2)",
+        "D": "(−2, 4)"
+      },
+      "answer": "A",
+      "explanation": "Rotasi 270° berlawanan arah jarum jam sama dengan rotasi 90° searah jarum jam: (x, y) → (y, −x).<br>R′ = (−2, −4).<br>Pengecoh (2, 4) adalah rotasi 90° berlawanan arah jarum jam; (−4, 2) adalah rotasi 180°; (−2, 4) salah tanda."
+    },
+    {
+      "number": 31,
+      "difficulty": "Mudah",
+      "question": "Hasil dari ⅚ : 2½ adalah ....",
+      "options": {
+        "A": "3",
+        "B": "2<sup>1</sup>⁄<sub>12</sub>",
+        "C": "1⅔",
+        "D": "⅓"
+      },
+      "answer": "D",
+      "explanation": "⅚ : 2½ = ⅚ : <sup>5</sup>⁄<sub>2</sub> = ⅚ × ⅖ = <sup>10</sup>⁄<sub>30</sub> = ⅓.<br>Pengecoh 2<sup>1</sup>⁄<sub>12</sub> mengalikan, bukan membagi; 3 membalik urutan pembagian; 1⅔ hanya membagi dengan ½."
+    },
+    {
+      "number": 32,
+      "difficulty": "Sedang",
+      "question": "Sebuah pita sepanjang 12⅗ m dipotong-potong sama panjang. Setiap potong panjangnya 1⅘ m. Banyak potongan pita adalah ....",
+      "options": {
+        "A": "22",
+        "B": "12",
+        "C": "10",
+        "D": "7"
+      },
+      "answer": "D",
+      "explanation": "12⅗ : 1⅘ = <sup>63</sup>⁄<sub>5</sub> : <sup>9</sup>⁄<sub>5</sub> = <sup>63</sup>⁄<sub>5</sub> × <sup>5</sup>⁄<sub>9</sub> = 7.<br>Pengecoh 22 mengalikan (<sup>63</sup>⁄<sub>5</sub> × <sup>9</sup>⁄<sub>5</sub> ≈ 22,7); 12 hanya membagi bilangan bulatnya (12 : 1); 10 mengurangkan (12⅗ − 1⅘ = 10⅘)."
+    },
+    {
+      "number": 33,
+      "difficulty": "Sedang",
+      "question": "Harga sebuah kipas angin Rp450.000. Kipas angin itu mendapat diskon 20%, kemudian dikenai pajak 10% dari harga setelah diskon. Harga yang harus dibayar adalah ....",
+      "options": {
+        "A": "Rp396.000",
+        "B": "Rp360.000",
+        "C": "Rp324.000",
+        "D": "Rp90.000"
+      },
+      "answer": "A",
+      "explanation": "Harga setelah diskon = 80% × Rp450.000 = Rp360.000.<br>Pajak = 10% × Rp360.000 = Rp36.000.<br>Harga bayar = Rp360.000 + Rp36.000 = Rp396.000.<br>Pengecoh Rp360.000 lupa pajak; Rp324.000 menganggap pajak sebagai potongan harga; Rp90.000 adalah besar diskonnya."
+    },
+    {
+      "number": 34,
+      "difficulty": "Sulit",
+      "question": "Seorang pedagang membeli 40 kaos dengan harga Rp1.200.000. Setiap kaos diberi label harga Rp45.000, tetapi dijual dengan diskon 10%. Jika semua kaos terjual, persentase keuntungan pedagang adalah ....",
+      "options": {
+        "A": "50%",
+        "B": "35%",
+        "C": "25,9%",
+        "D": "10%"
+      },
+      "answer": "B",
+      "explanation": "Harga jual satu kaos = 90% × Rp45.000 = Rp40.500.<br>Hasil penjualan = 40 × Rp40.500 = Rp1.620.000.<br>Untung = Rp1.620.000 − Rp1.200.000 = Rp420.000.<br>Persentase untung = 420.000/1.200.000 × 100% = 35%.<br>Pengecoh 50% tidak memperhitungkan diskon; 25,9% membandingkan untung dengan hasil penjualan; 10% hanya besar diskonnya."
+    },
+    {
+      "number": 35,
+      "difficulty": "Sedang",
+      "question": "Jumlah umur ayah dan anaknya sekarang 50 tahun. Lima tahun yang lalu, umur ayah 4 kali umur anaknya. Umur anak sekarang adalah ....",
+      "options": {
+        "A": "37 tahun",
+        "B": "13 tahun",
+        "C": "10 tahun",
+        "D": "8 tahun"
+      },
+      "answer": "B",
+      "explanation": "Misalkan umur ayah a dan umur anak n sekarang.<br>a + n = 50 dan a − 5 = 4(n − 5) → a = 4n − 15.<br>Substitusi: 4n − 15 + n = 50 → 5n = 65 → n = 13.<br>Pengecoh 8 tahun adalah umur anak lima tahun lalu; 37 tahun adalah umur ayah; 10 tahun hanya membagi 50 dengan 5."
+    },
+    {
+      "number": 36,
+      "difficulty": "Sulit",
+      "question": "Dina membeli 3 pulpen dan 2 buku seharga Rp26.000. Rara membeli 2 pulpen dan 5 buku seharga Rp43.000. Sita membeli 4 pulpen dan 3 buku dengan membayar menggunakan uang Rp50.000. Uang kembalian yang diterima Sita adalah ....",
+      "options": {
+        "A": "Rp3.000",
+        "B": "Rp10.000",
+        "C": "Rp11.000",
+        "D": "Rp13.000"
+      },
+      "answer": "D",
+      "explanation": "Misalkan harga pulpen p dan buku b.<br>3p + 2b = 26.000 (×2) → 6p + 4b = 52.000<br>2p + 5b = 43.000 (×3) → 6p + 15b = 129.000<br>Kurangkan: 11b = 77.000 → b = 7.000, lalu 3p = 26.000 − 14.000 → p = 4.000.<br>Belanja Sita = 4(4.000) + 3(7.000) = 37.000, kembalian = 50.000 − 37.000 = Rp13.000.<br>Pengecoh Rp3.000 adalah selisih harga buku dan pulpen; Rp10.000 menukar harga pulpen dan buku; Rp11.000 adalah harga 1 pulpen dan 1 buku."
+    },
+    {
+      "number": 37,
+      "difficulty": "Sedang",
+      "image": "p2-es-krim.svg",
+      "question": "Sebuah es krim berbentuk gabungan kerucut dan setengah bola seperti gambar berikut. Volume es krim tersebut adalah .... (π = 3,14)",
+      "options": {
+        "A": "339,12 cm<sup>3</sup>",
+        "B": "207,24 cm<sup>3</sup>",
+        "C": "150,72 cm<sup>3</sup>",
+        "D": "94,2 cm<sup>3</sup>"
+      },
+      "answer": "C",
+      "explanation": "Volume kerucut = ⅓ × 3,14 × 3<sup>2</sup> × 10 = 94,2 cm<sup>3</sup>.<br>Volume setengah bola = ⅔ × 3,14 × 3<sup>3</sup> = 56,52 cm<sup>3</sup>.<br>Volume es krim = 94,2 + 56,52 = 150,72 cm<sup>3</sup>.<br>Pengecoh 94,2 cm<sup>3</sup> hanya volume kerucut; 207,24 cm<sup>3</sup> memakai bola penuh; 339,12 cm<sup>3</sup> lupa faktor ⅓ pada kerucut."
+    },
+    {
+      "number": 38,
+      "difficulty": "Sulit",
+      "image": "p2-bak.svg",
+      "question": "Sebuah bak penampungan air berbentuk gabungan balok dan setengah tabung seperti gambar berikut. Volume bak tersebut adalah .... (π = <sup>22</sup>⁄<sub>7</sub>)",
+      "options": {
+        "A": "2.800 liter",
+        "B": "4.340 liter",
+        "C": "5.880 liter",
+        "D": "8.960 liter"
+      },
+      "answer": "B",
+      "explanation": "Volume balok = 2 × 1,4 × 1 = 2,8 m<sup>3</sup>.<br>Setengah tabung: r = 0,7 m dan panjang 2 m → ½ × <sup>22</sup>⁄<sub>7</sub> × 0,7<sup>2</sup> × 2 = 1,54 m<sup>3</sup>.<br>Volume bak = 2,8 + 1,54 = 4,34 m<sup>3</sup> = 4.340 liter.<br>Pengecoh 2.800 liter hanya volume balok; 5.880 liter menghitung tabung penuh; 8.960 liter memakai 1,4 m sebagai jari-jari."
+    },
+    {
+      "number": 39,
+      "difficulty": "Sulit",
+      "question": "Titik P(−2, 5) dicerminkan terhadap garis y = x, kemudian ditranslasikan oleh T(3, −4). Koordinat bayangan akhir titik P adalah ....",
+      "options": {
+        "A": "(8, −6)",
+        "B": "(1, 1)",
+        "C": "(−2, −2)",
+        "D": "(5, −2)"
+      },
+      "answer": "A",
+      "explanation": "Pencerminan terhadap y = x: (x, y) → (y, x), sehingga P′ = (5, −2).<br>Translasi: P″ = (5 + 3, −2 − 4) = (8, −6).<br>Pengecoh (5, −2) lupa translasi; (1, 1) mengerjakan translasi lebih dulu; (−2, −2) mencerminkan terhadap garis y = −x."
+    },
+    {
+      "number": 40,
+      "difficulty": "Sulit",
+      "question": "Titik Q(6, −3) didilatasi dengan pusat O(0, 0) dan faktor skala ⅓, kemudian dirotasi 180° dengan pusat O(0, 0). Koordinat bayangan akhir titik Q adalah ....",
+      "options": {
+        "A": "(2, −1)",
+        "B": "(−18, 9)",
+        "C": "(−2, 1)",
+        "D": "(1, 2)"
+      },
+      "answer": "C",
+      "explanation": "Dilatasi [O, ⅓]: Q′ = (2, −1).<br>Rotasi 180°: (x, y) → (−x, −y), sehingga Q″ = (−2, 1).<br>Pengecoh (2, −1) lupa rotasi; (−18, 9) mengalikan dengan 3; (1, 2) merotasi 90°."
+    }
+  ]
+}

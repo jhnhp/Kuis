@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T20:35:32",
+  "generated": "2026-11-11T18:32:42",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2520,6 +2520,42 @@
         "08 Simulasi TKA"
       ],
       "path": "TKA SMP/Matematika/08 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "Try Out 1 Matematika SMP Kelas IX",
+      "topic": "Try Out 1 Matematika Kelas IX",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi Matematika kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "Try Out 1"
+      ],
+      "path": "TKA SMP/Matematika/Try Out 1/soal.json"
+    },
+    {
+      "title": "Try Out 1 Matematika SMP Kelas IX (Paket 2)",
+      "topic": "Try Out 1 Matematika Kelas IX",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi Matematika kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "Try Out 1"
+      ],
+      "path": "TKA SMP/Matematika/Try Out 1/soal_paket_2.json"
+    },
+    {
+      "title": "Try Out 1 Matematika SMP Kelas IX (Paket 3)",
+      "topic": "Try Out 1 Matematika Kelas IX",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Materi Matematika kelas VII–IX sesuai kisi-kisi Try Out 1. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "Try Out 1"
+      ],
+      "path": "TKA SMP/Matematika/Try Out 1/soal_paket_3.json"
     },
     {
       "title": "UTBK-SNBT - Paket Lengkap TPS (12 Soal)",
