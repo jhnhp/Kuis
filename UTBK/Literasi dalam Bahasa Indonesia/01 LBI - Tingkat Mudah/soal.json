@@ -1,0 +1,488 @@
+{
+  "title": "UTBK-SNBT - Literasi dalam Bahasa Indonesia (Tingkat Mudah)",
+  "topic": "Teks Saintek, Sosial Humaniora, dan Sastra: Menemukan dan Memahami Informasi",
+  "subtitle": "Latihan Mandiri 30 Soal",
+  "difficulty_summary": "100% Mudah. 30 soal dari 6 teks (biologi, fisika, kimia, ekonomi, sejarah, dan sastra). Fokus pada informasi tersurat, gagasan utama, makna kata, dan simpulan sederhana. Waktu UTBK: 42,5 menit.",
+  "total_questions": 30,
+  "passages": [
+    {
+      "id": "teks_lbi1",
+      "title": "Teks 1: Mangrove, Benteng Hijau Pesisir",
+      "text": [
+        "Hutan mangrove tumbuh di wilayah pasang surut, yaitu peralihan antara daratan dan lautan. Tumbuhan di kawasan ini mampu bertahan pada tanah berlumpur yang miskin oksigen dan air berkadar garam tinggi. Salah satu bentuk penyesuaiannya adalah akar napas yang mencuat ke atas permukaan lumpur untuk mengambil oksigen langsung dari udara.",
+        "Bagi masyarakat pesisir, mangrove berperan sebagai benteng alami. Jalinan akarnya yang rapat meredam energi gelombang sehingga pantai terlindung dari abrasi. Akar yang sama juga memerangkap lumpur dan menjadi tempat berlindung bagi anak ikan, udang, dan kepiting sebelum mereka cukup besar untuk hidup di laut lepas.",
+        "Selain itu, mangrove menyimpan karbon dalam jumlah besar, terutama di dalam lumpur tempatnya tumbuh. Karena itu, penebangan mangrove untuk tambak atau permukiman tidak hanya menghilangkan pelindung pantai, tetapi juga melepaskan karbon yang telah lama tersimpan ke atmosfer."
+      ]
+    },
+    {
+      "id": "teks_lbi2",
+      "title": "Teks 2: Bagaimana Pelangi Terbentuk",
+      "text": [
+        "Pelangi muncul ketika cahaya matahari bertemu dengan tetes-tetes air hujan di udara. Cahaya matahari yang tampak putih sebenarnya tersusun atas berbagai warna. Saat memasuki tetes air, cahaya dibelokkan atau dibiaskan. Setiap warna dibelokkan dengan sudut yang sedikit berbeda sehingga cahaya putih terurai menjadi deretan warna. Peristiwa penguraian ini disebut dispersi.",
+        "Di dalam tetes air, cahaya yang sudah terurai dipantulkan oleh dinding bagian belakang tetes, lalu dibiaskan sekali lagi ketika keluar menuju mata pengamat. Cahaya merah keluar dengan sudut sekitar 42 derajat terhadap arah datangnya sinar matahari, sedangkan cahaya ungu sekitar 40 derajat. Itulah sebabnya warna merah selalu tampak di sisi luar busur pelangi dan ungu di sisi dalam.",
+        "Karena bergantung pada arah sinar, pelangi hanya terlihat jika matahari berada di belakang pengamat dan hujan berada di depannya. Pelangi juga lebih mudah terlihat pada pagi atau sore hari ketika posisi matahari masih rendah."
+      ]
+    },
+    {
+      "id": "teks_lbi3",
+      "title": "Teks 3: Mengapa Besi Berkarat",
+      "text": [
+        "Besi merupakan logam yang kuat dan murah, tetapi mudah berkarat. Karat terbentuk ketika besi bereaksi dengan oksigen dan air. Dalam reaksi ini, besi mengalami oksidasi dan berubah menjadi senyawa besi oksida berwarna cokelat kemerahan yang rapuh. Berbeda dengan lapisan oksida pada aluminium yang melekat rapat dan melindungi logam di bawahnya, karat mudah mengelupas sehingga besi di bagian dalam terus terpapar dan ikut berkarat.",
+        "Perkaratan berlangsung lebih cepat di lingkungan tertentu. Air yang mengandung garam, misalnya air laut, menghantarkan listrik lebih baik sehingga mempercepat reaksi. Itulah sebabnya kendaraan dan pagar besi di daerah pantai lebih cepat keropos.",
+        "Perkaratan dapat dicegah dengan menghalangi kontak besi dengan air dan oksigen, antara lain melalui pengecatan atau pelumuran minyak. Cara lain adalah galvanisasi, yaitu melapisi besi dengan seng. Seng lebih mudah teroksidasi daripada besi sehingga seng akan “berkorban” lebih dahulu dan besi tetap terlindung meskipun lapisannya tergores."
+      ]
+    },
+    {
+      "id": "teks_lbi4",
+      "title": "Teks 4: Inflasi dan Daya Beli",
+      "text": [
+        "Inflasi adalah kenaikan harga barang dan jasa secara umum dan terus-menerus dalam jangka waktu tertentu. Kenaikan harga satu atau dua barang saja belum dapat disebut inflasi, kecuali jika kenaikan itu meluas dan mendorong naiknya harga barang lain.",
+        "Dampak inflasi paling terasa pada daya beli. Dengan jumlah uang yang sama, barang yang dapat dibeli menjadi lebih sedikit. Kelompok yang berpenghasilan tetap, seperti pensiunan, paling dirugikan karena pendapatan mereka tidak ikut naik secepat harga. Sebaliknya, inflasi yang rendah dan stabil justru dianggap wajar karena menandakan kegiatan ekonomi yang tumbuh dan mendorong produsen untuk terus berproduksi.",
+        "Untuk mengendalikan inflasi, bank sentral dapat menaikkan suku bunga acuan. Bunga yang lebih tinggi membuat masyarakat cenderung menabung dan mengurangi pinjaman sehingga jumlah uang yang dibelanjakan berkurang dan tekanan terhadap harga mereda."
+      ]
+    },
+    {
+      "id": "teks_lbi5",
+      "title": "Teks 5: Sumpah Pemuda",
+      "text": [
+        "Pada awal abad ke-20, pergerakan pemuda di Hindia Belanda masih bersifat kedaerahan. Organisasi seperti Jong Java, Jong Sumatranen Bond, dan Jong Ambon berdiri atas dasar asal daerah anggotanya. Meskipun sama-sama mencita-citakan kemajuan, mereka bergerak sendiri-sendiri.",
+        "Kesadaran untuk bersatu menguat dalam Kongres Pemuda II yang berlangsung di Batavia pada 27–28 Oktober 1928. Kongres yang dipimpin Sugondo Djojopuspito itu ditutup dengan pembacaan ikrar yang kemudian dikenal sebagai Sumpah Pemuda: bertumpah darah satu, berbangsa satu, dan menjunjung bahasa persatuan, bahasa Indonesia. Pada kesempatan yang sama, Wage Rudolf Supratman memperdengarkan lagu “Indonesia Raya” dengan gesekan biolanya.",
+        "Sumpah Pemuda menjadi tonggak penting karena sejak saat itu perjuangan tidak lagi mengatasnamakan suku atau daerah, melainkan satu bangsa. Pemilihan bahasa Indonesia, yang berakar dari bahasa Melayu dan telah lama dipakai sebagai bahasa pergaulan antarpulau, memudahkan gagasan kebangsaan menyebar ke berbagai lapisan masyarakat."
+      ]
+    },
+    {
+      "id": "teks_lbi6",
+      "title": "Teks 6: Sepeda Ayah (kutipan cerpen)",
+      "text": [
+        "Sepeda tua itu masih bersandar di dinding gudang, persis seperti saat Ayah terakhir kali memarkirnya. Catnya mengelupas dan rantainya berkarat, tetapi Laras tidak pernah mengizinkan siapa pun membuangnya.",
+        "“Buat apa disimpan, Ras? Sudah tidak bisa dipakai,” kata Bang Dani suatu sore sambil menimbang-nimbang besi tua di tangannya.",
+        "Laras tidak menjawab. Ia mengusap sadel yang retak itu pelan-pelan. Di atas sepeda inilah dulu ia dibonceng Ayah menyusuri pematang menuju sekolah, sementara Ayah bersiul lagu yang tidak pernah ia tahu judulnya. Setiap kali jalan menanjak, Ayah akan berkata, “Pegangan yang kuat, sebentar lagi kita sampai di atas.”",
+        "“Besok aku bawa ke bengkel,” kata Laras akhirnya. “Aku mau memakainya ke kampus.”",
+        "Bang Dani tertawa kecil, tetapi tawanya segera reda ketika melihat mata adiknya. Ia meletakkan besi tua di tangannya, lalu mengambil kain lap.",
+        "“Rantainya biar Abang yang bersihkan,” katanya."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Topik yang dibahas dalam Teks 1 adalah ....",
+      "options": {
+        "A": "penyesuaian diri dan manfaat hutan mangrove bagi pesisir",
+        "B": "perbandingan hutan mangrove dengan hutan pegunungan",
+        "C": "jenis-jenis ikan yang hidup di hutan mangrove",
+        "D": "cara menanam mangrove di lahan bekas tambak"
+      },
+      "answer": "A",
+      "explanation": "Paragraf pertama membahas penyesuaian mangrove terhadap lingkungannya, sedangkan paragraf kedua dan ketiga membahas manfaatnya (pelindung pantai, tempat berlindung biota, penyimpan karbon)."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Berdasarkan Teks 1, fungsi akar napas pada tumbuhan mangrove adalah ....",
+      "options": {
+        "A": "mengambil oksigen langsung dari udara",
+        "B": "menangkap anak ikan dan udang",
+        "C": "menyerap garam dari air laut",
+        "D": "menyimpan karbon di dalam lumpur"
+      },
+      "answer": "A",
+      "explanation": "Paragraf pertama menyebutkan bahwa akar napas mencuat ke atas permukaan lumpur untuk mengambil oksigen langsung dari udara karena lumpur miskin oksigen."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Kata <b>meredam</b> pada paragraf kedua Teks 1 paling dekat maknanya dengan ....",
+      "options": {
+        "A": "menyimpan tenaga",
+        "B": "menambah kecepatan",
+        "C": "mengurangi kekuatan",
+        "D": "mengubah arah"
+      },
+      "answer": "C",
+      "explanation": "Akar mangrove meredam energi gelombang, artinya mengurangi kekuatan gelombang sehingga pantai tidak terkikis."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Berdasarkan paragraf kedua Teks 1, hilangnya hutan mangrove dapat merugikan nelayan karena ....",
+      "options": {
+        "A": "anak ikan, udang, dan kepiting kehilangan tempat berlindung",
+        "B": "air laut menjadi lebih asin daripada sebelumnya",
+        "C": "lumpur pantai berubah menjadi pasir",
+        "D": "perahu nelayan tidak dapat lagi bersandar di pantai"
+      },
+      "answer": "A",
+      "explanation": "Akar mangrove menjadi tempat berlindung anak ikan, udang, dan kepiting. Jika mangrove hilang, biota tersebut sulit tumbuh besar sehingga hasil tangkapan nelayan berkurang."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Pernyataan yang sesuai dengan isi paragraf ketiga Teks 1 adalah ....",
+      "options": {
+        "A": "Tambak dapat menggantikan fungsi mangrove sebagai pelindung pantai.",
+        "B": "Karbon dalam lumpur mangrove tidak dapat terlepas ke udara.",
+        "C": "Penebangan mangrove dapat menambah karbon di atmosfer.",
+        "D": "Mangrove menyimpan karbon terutama pada daunnya."
+      },
+      "answer": "C",
+      "explanation": "Paragraf ketiga menyatakan bahwa penebangan mangrove melepaskan karbon yang telah lama tersimpan ke atmosfer."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Menurut Teks 2, dispersi adalah peristiwa ....",
+      "options": {
+        "A": "terpantulnya cahaya oleh permukaan air",
+        "B": "terurainya cahaya putih menjadi deretan warna",
+        "C": "terserapnya cahaya oleh tetes air hujan",
+        "D": "bergabungnya beberapa warna menjadi cahaya putih"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama menjelaskan bahwa setiap warna dibelokkan dengan sudut berbeda sehingga cahaya putih terurai menjadi deretan warna; peristiwa itu disebut dispersi."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Urutan peristiwa yang dialami cahaya di dalam tetes air hingga membentuk pelangi adalah ....",
+      "options": {
+        "A": "dipantulkan, dibiaskan, lalu dipantulkan lagi",
+        "B": "dibiaskan dua kali, lalu dipantulkan",
+        "C": "dibiaskan, dipantulkan, lalu dibiaskan lagi",
+        "D": "dipantulkan dua kali, lalu dibiaskan"
+      },
+      "answer": "C",
+      "explanation": "Cahaya dibiaskan saat masuk ke tetes air, dipantulkan oleh dinding belakang tetes, kemudian dibiaskan sekali lagi saat keluar."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Berdasarkan Teks 2, warna yang tampak di sisi luar busur pelangi adalah ....",
+      "options": {
+        "A": "ungu",
+        "B": "merah",
+        "C": "biru",
+        "D": "hijau"
+      },
+      "answer": "B",
+      "explanation": "Paragraf kedua menyebutkan bahwa warna merah selalu tampak di sisi luar busur pelangi dan ungu di sisi dalam."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Pada suatu sore, matahari berada di langit sebelah barat dan hujan turun di sebelah timur. Agar dapat melihat pelangi, seseorang harus menghadap ke arah ....",
+      "options": {
+        "A": "timur",
+        "B": "selatan",
+        "C": "utara",
+        "D": "barat"
+      },
+      "answer": "A",
+      "explanation": "Pelangi terlihat jika matahari berada di belakang pengamat dan hujan di depannya. Matahari di barat berarti pengamat harus membelakangi barat, yaitu menghadap ke timur."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Tujuan penulisan Teks 2 adalah ....",
+      "options": {
+        "A": "membandingkan pelangi dengan gejala alam lain",
+        "B": "menceritakan pengalaman melihat pelangi",
+        "C": "menjelaskan proses terbentuknya pelangi",
+        "D": "mengajak pembaca mengamati pelangi"
+      },
+      "answer": "C",
+      "explanation": "Seluruh teks memaparkan bagaimana pelangi terbentuk dan kapan pelangi dapat terlihat sehingga tujuannya adalah menjelaskan proses."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Menurut Teks 3, karat terbentuk ketika besi bereaksi dengan ....",
+      "options": {
+        "A": "garam dan minyak",
+        "B": "seng dan aluminium",
+        "C": "cat dan oksigen",
+        "D": "oksigen dan air"
+      },
+      "answer": "D",
+      "explanation": "Paragraf pertama: karat terbentuk ketika besi bereaksi dengan oksigen dan air."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Berdasarkan Teks 3, aluminium tidak rusak seperti besi karena ....",
+      "options": {
+        "A": "lapisan oksidanya melekat rapat dan melindungi logam di bawahnya",
+        "B": "lapisan oksidanya mudah mengelupas",
+        "C": "aluminium selalu dilapisi seng oleh pabrik",
+        "D": "aluminium tidak dapat bereaksi dengan oksigen"
+      },
+      "answer": "A",
+      "explanation": "Teks menyatakan bahwa lapisan oksida pada aluminium melekat rapat dan melindungi logam di bawahnya, berbeda dengan karat besi yang mudah mengelupas."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Pagar besi di daerah pantai lebih cepat keropos karena ....",
+      "options": {
+        "A": "suhu udara di pantai lebih tinggi",
+        "B": "pagar di pantai jarang dicat",
+        "C": "angin laut mengikis permukaan pagar",
+        "D": "air yang mengandung garam mempercepat reaksi perkaratan"
+      },
+      "answer": "D",
+      "explanation": "Paragraf kedua: air bergaram menghantarkan listrik lebih baik sehingga mempercepat reaksi perkaratan."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Yang dimaksud dengan galvanisasi dalam Teks 3 adalah ....",
+      "options": {
+        "A": "mencampur besi dengan aluminium",
+        "B": "melapisi besi dengan seng",
+        "C": "melumuri besi dengan minyak",
+        "D": "mengecat besi dengan cat antikarat"
+      },
+      "answer": "B",
+      "explanation": "Paragraf ketiga mendefinisikan galvanisasi sebagai pelapisan besi dengan seng."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Ungkapan seng akan <b>“berkorban”</b> pada paragraf ketiga Teks 3 bermakna ....",
+      "options": {
+        "A": "seng hilang karena tergores benda keras",
+        "B": "seng teroksidasi lebih dahulu sehingga besi tetap terlindung",
+        "C": "seng menyerap karat yang ada pada besi",
+        "D": "seng berubah menjadi besi ketika terkena air"
+      },
+      "answer": "B",
+      "explanation": "Seng lebih mudah teroksidasi daripada besi. Karena itu, seng yang bereaksi lebih dahulu, sedangkan besi tetap utuh."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Menurut Teks 4, inflasi adalah ....",
+      "options": {
+        "A": "kenaikan harga barang dan jasa secara umum dan terus-menerus",
+        "B": "kenaikan pendapatan masyarakat dalam jangka waktu tertentu",
+        "C": "penurunan jumlah uang yang beredar di masyarakat",
+        "D": "kenaikan harga satu barang karena pasokan berkurang"
+      },
+      "answer": "A",
+      "explanation": "Kalimat pertama teks memuat definisi inflasi: kenaikan harga barang dan jasa secara umum dan terus-menerus dalam jangka waktu tertentu."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Berdasarkan Teks 4, peristiwa yang <b>belum</b> dapat disebut inflasi adalah ....",
+      "options": {
+        "A": "harga barang dan jasa naik bersamaan selama beberapa bulan",
+        "B": "harga sebagian besar kebutuhan pokok naik sepanjang tahun",
+        "C": "kenaikan harga bahan bakar yang diikuti naiknya harga barang lain",
+        "D": "harga cabai naik selama sepekan, sedangkan harga barang lain tetap"
+      },
+      "answer": "D",
+      "explanation": "Kenaikan harga satu atau dua barang saja belum disebut inflasi, kecuali jika meluas dan mendorong naiknya harga barang lain."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Kelompok yang paling dirugikan oleh inflasi menurut Teks 4 adalah ....",
+      "options": {
+        "A": "bank sentral",
+        "B": "orang yang berpenghasilan tetap",
+        "C": "orang yang memiliki banyak pinjaman",
+        "D": "produsen barang kebutuhan pokok"
+      },
+      "answer": "B",
+      "explanation": "Paragraf kedua: kelompok berpenghasilan tetap, seperti pensiunan, paling dirugikan karena pendapatannya tidak naik secepat harga."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Menurut paragraf ketiga Teks 4, kenaikan suku bunga acuan dapat meredakan inflasi karena ....",
+      "options": {
+        "A": "masyarakat lebih mudah memperoleh pinjaman",
+        "B": "produsen menambah jumlah barang yang dijual",
+        "C": "harga barang langsung diturunkan oleh pemerintah",
+        "D": "masyarakat cenderung menabung sehingga belanja berkurang"
+      },
+      "answer": "D",
+      "explanation": "Bunga yang lebih tinggi mendorong orang menabung dan mengurangi pinjaman sehingga uang yang dibelanjakan berkurang dan tekanan terhadap harga mereda."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Pandangan penulis Teks 4 terhadap inflasi yang rendah dan stabil adalah ....",
+      "options": {
+        "A": "menganggapnya sama buruknya dengan inflasi tinggi",
+        "B": "menganggapnya tidak berpengaruh pada perekonomian",
+        "C": "menganggapnya berbahaya bagi semua kelompok masyarakat",
+        "D": "menganggapnya wajar karena menandakan ekonomi yang tumbuh"
+      },
+      "answer": "D",
+      "explanation": "Paragraf kedua menyatakan bahwa inflasi rendah dan stabil dianggap wajar karena menandakan kegiatan ekonomi yang tumbuh."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Ciri pergerakan pemuda sebelum tahun 1928 menurut Teks 5 adalah ....",
+      "options": {
+        "A": "bersifat kedaerahan dan bergerak sendiri-sendiri",
+        "B": "sudah bersatu dalam satu organisasi nasional",
+        "C": "menolak cita-cita kemajuan",
+        "D": "dipimpin langsung oleh pemerintah Hindia Belanda"
+      },
+      "answer": "A",
+      "explanation": "Paragraf pertama: pergerakan pemuda masih bersifat kedaerahan dan organisasi-organisasinya bergerak sendiri-sendiri."
+    },
+    {
+      "number": 22,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Kongres Pemuda II ditutup dengan ....",
+      "options": {
+        "A": "pembacaan ikrar yang dikenal sebagai Sumpah Pemuda",
+        "B": "pembentukan organisasi Jong Java",
+        "C": "pemilihan Sugondo Djojopuspito sebagai ketua",
+        "D": "penetapan bahasa Melayu sebagai bahasa daerah"
+      },
+      "answer": "A",
+      "explanation": "Paragraf kedua: kongres ditutup dengan pembacaan ikrar yang kemudian dikenal sebagai Sumpah Pemuda."
+    },
+    {
+      "number": 23,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Kata <b>tonggak</b> pada paragraf ketiga Teks 5 bermakna ....",
+      "options": {
+        "A": "aturan yang wajib dipatuhi",
+        "B": "peristiwa penting yang menandai perubahan",
+        "C": "akhir dari suatu perjuangan",
+        "D": "tiang penyangga sebuah bangunan"
+      },
+      "answer": "B",
+      "explanation": "Dalam konteks sejarah, tonggak berarti peristiwa penting yang menjadi penanda perubahan, yaitu beralihnya perjuangan kedaerahan menjadi kebangsaan."
+    },
+    {
+      "number": 24,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Menurut Teks 5, bahasa Indonesia memudahkan penyebaran gagasan kebangsaan karena ....",
+      "options": {
+        "A": "diwajibkan oleh pemerintah Hindia Belanda",
+        "B": "telah lama dipakai sebagai bahasa pergaulan antarpulau",
+        "C": "hanya dipahami oleh kaum terpelajar",
+        "D": "merupakan bahasa daerah dengan penutur terbanyak"
+      },
+      "answer": "B",
+      "explanation": "Paragraf ketiga: bahasa Indonesia berakar dari bahasa Melayu yang telah lama dipakai sebagai bahasa pergaulan antarpulau."
+    },
+    {
+      "number": 25,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Gagasan utama paragraf ketiga Teks 5 adalah ....",
+      "options": {
+        "A": "Kongres Pemuda II dihadiri oleh berbagai organisasi daerah",
+        "B": "lagu “Indonesia Raya” pertama kali diperdengarkan pada 1928",
+        "C": "Sumpah Pemuda mengubah perjuangan kedaerahan menjadi perjuangan satu bangsa",
+        "D": "bahasa Melayu merupakan bahasa tertua di Nusantara"
+      },
+      "answer": "C",
+      "explanation": "Kalimat utama paragraf ketiga menyatakan bahwa sejak Sumpah Pemuda perjuangan tidak lagi mengatasnamakan suku atau daerah, melainkan satu bangsa."
+    },
+    {
+      "number": 26,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Laras tidak mengizinkan sepeda tua itu dibuang karena ....",
+      "options": {
+        "A": "ia belum mampu membeli sepeda baru",
+        "B": "Bang Dani melarangnya membuang sepeda itu",
+        "C": "sepeda itu masih dapat dijual dengan harga tinggi",
+        "D": "sepeda itu menyimpan kenangannya bersama Ayah"
+      },
+      "answer": "D",
+      "explanation": "Laras mengenang saat dibonceng Ayah ke sekolah dengan sepeda itu. Sepeda tersebut berharga karena kenangan, bukan karena kegunaannya."
+    },
+    {
+      "number": 27,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Latar tempat peristiwa dalam kutipan cerpen tersebut adalah ....",
+      "options": {
+        "A": "pematang sawah",
+        "B": "gudang",
+        "C": "kampus",
+        "D": "bengkel"
+      },
+      "answer": "B",
+      "explanation": "Sepeda bersandar di dinding gudang dan percakapan Laras dengan Bang Dani terjadi di sana. Pematang hanya muncul dalam kenangan Laras."
+    },
+    {
+      "number": 28,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Watak Laras yang tergambar dalam kutipan cerpen tersebut adalah ....",
+      "options": {
+        "A": "mudah marah dan keras kepala",
+        "B": "pemalu dan suka menyendiri",
+        "C": "teguh pendirian dan menghargai kenangan",
+        "D": "boros dan tidak mau mendengar nasihat"
+      },
+      "answer": "C",
+      "explanation": "Laras tetap mempertahankan sepeda itu meskipun dianggap tidak berguna, lalu memutuskan memperbaiki dan memakainya. Ia teguh dan menghargai kenangan akan ayahnya."
+    },
+    {
+      "number": 29,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Tindakan Bang Dani mengambil kain lap pada akhir cerita menunjukkan bahwa ia ....",
+      "options": {
+        "A": "tidak peduli pada keputusan Laras",
+        "B": "merasa kesal kepada adiknya",
+        "C": "ingin segera menjual sepeda itu",
+        "D": "akhirnya mendukung keinginan Laras"
+      },
+      "answer": "D",
+      "explanation": "Bang Dani meletakkan besi tua, mengambil lap, dan menawarkan diri membersihkan rantai. Tindakan itu menunjukkan bahwa ia memahami dan mendukung Laras."
+    },
+    {
+      "number": 30,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Amanat yang dapat dipetik dari kutipan cerpen tersebut adalah ....",
+      "options": {
+        "A": "Kakak harus selalu menuruti semua keinginan adiknya.",
+        "B": "Barang yang rusak sebaiknya segera diganti dengan yang baru.",
+        "C": "Benda peninggalan orang tercinta dapat bernilai karena kenangannya.",
+        "D": "Bersepeda ke kampus lebih hemat daripada naik kendaraan lain."
+      },
+      "answer": "C",
+      "explanation": "Cerita menonjolkan nilai kenangan pada sepeda peninggalan Ayah: yang berharga bukan bendanya, melainkan kenangan yang dikandungnya."
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "title": "UTBK-SNBT - Penalaran Matematika (Tingkat Mudah)",
+  "topic": "Masalah Kontekstual: Aritmetika Sosial, Statistika, Geometri, Persentase, dan Jarak-Kecepatan-Waktu",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "100% Mudah. 20 soal dari 5 konteks sehari-hari (tarif parkir, penjualan, kebun, promo toko, dan perjalanan). Fokus pada merumuskan dan menghitung masalah nyata secara langsung. Waktu UTBK: 42,5 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "konteks_pm1",
+      "title": "Konteks 1: Tarif Parkir",
+      "text": [
+        "Sebuah gedung parkir menetapkan tarif mobil Rp5.000 untuk jam pertama dan Rp3.000 untuk setiap jam berikutnya. Waktu parkir yang tidak genap satu jam dibulatkan ke atas (misalnya, 1 jam 10 menit dihitung 2 jam). Tarif paling tinggi untuk satu kali parkir adalah Rp30.000."
+      ]
+    },
+    {
+      "id": "konteks_pm2",
+      "title": "Konteks 2: Penjualan Kedai Kopi",
+      "text": [
+        "Sebuah kedai kopi mencatat banyaknya cangkir kopi yang terjual selama satu pekan. Harga setiap cangkir Rp15.000.",
+        "Senin: 40 cangkir<br>Selasa: 35 cangkir<br>Rabu: 45 cangkir<br>Kamis: 50 cangkir<br>Jumat: 60 cangkir<br>Sabtu: 80 cangkir<br>Minggu: 75 cangkir"
+      ]
+    },
+    {
+      "id": "konteks_pm3",
+      "title": "Konteks 3: Kebun Pak Hasan",
+      "text": [
+        "Pak Hasan memiliki kebun berbentuk persegi panjang berukuran 20 m × 12 m. Ia akan memagari sekeliling kebun dan menyisakan bagian selebar 2 m tanpa pagar sebagai pintu masuk. Harga pagar Rp45.000 per meter. Di dalam kebun terdapat kolam berbentuk persegi dengan panjang sisi 4 m; seluruh bagian kebun yang lain ditanami sayuran."
+      ]
+    },
+    {
+      "id": "konteks_pm4",
+      "title": "Konteks 4: Promo Dua Toko Sepatu",
+      "text": [
+        "Toko A memberikan diskon 20% untuk semua sepatu. Toko B memberikan potongan langsung Rp50.000 untuk setiap pasang sepatu. Harga sepatu sebelum promo sama di kedua toko."
+      ]
+    },
+    {
+      "id": "konteks_pm5",
+      "title": "Konteks 5: Perjalanan ke Perpustakaan",
+      "text": [
+        "Dina bersepeda dari rumah ke perpustakaan yang berjarak 12 km. Ia berangkat pukul 07.00 dengan kecepatan tetap 16 km/jam. Kakaknya, Arif, berangkat dari rumah yang sama pukul 07.15 mengendarai sepeda motor dengan kecepatan tetap 40 km/jam melalui rute yang sama."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Biaya parkir sebuah mobil selama 4 jam adalah ....",
+      "options": {
+        "A": "Rp20.000",
+        "B": "Rp12.000",
+        "C": "Rp14.000",
+        "D": "Rp17.000"
+      },
+      "answer": "C",
+      "explanation": "Jam pertama Rp5.000, tiga jam berikutnya 3 × Rp3.000 = Rp9.000. Total = Rp14.000."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Sebuah mobil diparkir selama 2 jam 20 menit. Biaya parkirnya adalah ....",
+      "options": {
+        "A": "Rp8.000",
+        "B": "Rp9.000",
+        "C": "Rp14.000",
+        "D": "Rp11.000"
+      },
+      "answer": "D",
+      "explanation": "2 jam 20 menit dibulatkan ke atas menjadi 3 jam. Biaya = 5.000 + 2 × 3.000 = Rp11.000."
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Seorang pengemudi membayar parkir Rp20.000. Lama parkir yang dihitung untuk mobilnya adalah ....",
+      "options": {
+        "A": "6 jam",
+        "B": "5 jam",
+        "C": "7 jam",
+        "D": "4 jam"
+      },
+      "answer": "A",
+      "explanation": "5.000 + 3.000(n − 1) = 20.000 → 3.000(n − 1) = 15.000 → n − 1 = 5 → n = 6 jam."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Tarif paling tinggi Rp30.000 mulai dikenakan untuk lama parkir ....",
+      "options": {
+        "A": "10 jam",
+        "B": "8 jam",
+        "C": "9 jam",
+        "D": "11 jam"
+      },
+      "answer": "A",
+      "explanation": "Parkir 9 jam: 5.000 + 8 × 3.000 = Rp29.000 (belum mencapai batas). Parkir 10 jam: 5.000 + 9 × 3.000 = Rp32.000, melebihi batas sehingga yang dibayar Rp30.000. Jadi, tarif paling tinggi mulai berlaku pada 10 jam."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Rata-rata banyaknya kopi yang terjual per hari pada pekan itu adalah ....",
+      "options": {
+        "A": "50 cangkir",
+        "B": "55 cangkir",
+        "C": "65 cangkir",
+        "D": "60 cangkir"
+      },
+      "answer": "B",
+      "explanation": "Jumlah = 40 + 35 + 45 + 50 + 60 + 80 + 75 = 385 cangkir. Rata-rata = 385 ÷ 7 = 55 cangkir."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Median data penjualan kopi pada pekan itu adalah ....",
+      "options": {
+        "A": "50 cangkir",
+        "B": "55 cangkir",
+        "C": "45 cangkir",
+        "D": "60 cangkir"
+      },
+      "answer": "A",
+      "explanation": "Data diurutkan: 35, 40, 45, 50, 60, 75, 80. Nilai tengah (data ke-4) adalah 50."
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Persentase kenaikan penjualan dari hari Jumat ke hari Sabtu kira-kira ....",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "75%",
+        "D": "33%"
+      },
+      "answer": "D",
+      "explanation": "Kenaikan = 80 − 60 = 20 cangkir. Persentase = 20/60 × 100% ≈ 33%."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Pendapatan kedai dari penjualan kopi pada hari Sabtu dan Minggu adalah ....",
+      "options": {
+        "A": "Rp2.325.000",
+        "B": "Rp2.400.000",
+        "C": "Rp1.200.000",
+        "D": "Rp2.250.000"
+      },
+      "answer": "A",
+      "explanation": "Sabtu + Minggu = 80 + 75 = 155 cangkir. Pendapatan = 155 × Rp15.000 = Rp2.325.000."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Panjang pagar yang diperlukan Pak Hasan adalah ....",
+      "options": {
+        "A": "64 m",
+        "B": "32 m",
+        "C": "62 m",
+        "D": "60 m"
+      },
+      "answer": "C",
+      "explanation": "Keliling kebun = 2 × (20 + 12) = 64 m. Dikurangi pintu 2 m: 64 − 2 = 62 m."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Biaya pembelian pagar yang harus dikeluarkan Pak Hasan adalah ....",
+      "options": {
+        "A": "Rp1.440.000",
+        "B": "Rp2.880.000",
+        "C": "Rp2.790.000",
+        "D": "Rp2.700.000"
+      },
+      "answer": "C",
+      "explanation": "Panjang pagar 62 m. Biaya = 62 × Rp45.000 = Rp2.790.000."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Luas bagian kebun yang ditanami sayuran adalah ....",
+      "options": {
+        "A": "236 m²",
+        "B": "240 m²",
+        "C": "232 m²",
+        "D": "224 m²"
+      },
+      "answer": "D",
+      "explanation": "Luas kebun = 20 × 12 = 240 m². Luas kolam = 4 × 4 = 16 m². Luas yang ditanami = 240 − 16 = 224 m²."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Setiap 1 m² lahan sayuran memerlukan 5 bibit. Bibit dijual dalam kantong berisi 100 bibit. Banyaknya kantong yang paling sedikit harus dibeli Pak Hasan adalah ....",
+      "options": {
+        "A": "11 kantong",
+        "B": "12 kantong",
+        "C": "10 kantong",
+        "D": "13 kantong"
+      },
+      "answer": "B",
+      "explanation": "Kebutuhan bibit = 224 × 5 = 1.120 bibit. 1.120 ÷ 100 = 11,2 sehingga harus dibeli 12 kantong (11 kantong tidak cukup)."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Harga yang dibayar untuk sepatu seharga Rp300.000 di Toko A adalah ....",
+      "options": {
+        "A": "Rp240.000",
+        "B": "Rp280.000",
+        "C": "Rp250.000",
+        "D": "Rp260.000"
+      },
+      "answer": "A",
+      "explanation": "Diskon = 20% × 300.000 = Rp60.000. Harga bayar = 300.000 − 60.000 = Rp240.000."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Untuk sepatu seharga Rp200.000, pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Toko A lebih murah Rp10.000 daripada Toko B.",
+        "B": "Toko B lebih murah Rp10.000 daripada Toko A.",
+        "C": "Harga di kedua toko sama.",
+        "D": "Toko B lebih murah Rp40.000 daripada Toko A."
+      },
+      "answer": "B",
+      "explanation": "Toko A: 200.000 − 20% × 200.000 = Rp160.000. Toko B: 200.000 − 50.000 = Rp150.000. Toko B lebih murah Rp10.000."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Harga bayar di kedua toko akan sama jika harga sepatu sebelum promo adalah ....",
+      "options": {
+        "A": "Rp200.000",
+        "B": "Rp300.000",
+        "C": "Rp250.000",
+        "D": "Rp400.000"
+      },
+      "answer": "C",
+      "explanation": "Potongan sama jika 20% × x = 50.000 → x = Rp250.000."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Rina ingin membeli sepatu seharga Rp400.000. Agar membayar lebih murah, ia sebaiknya membeli di ....",
+      "options": {
+        "A": "Toko A karena potongannya Rp50.000",
+        "B": "toko mana pun karena harganya sama",
+        "C": "Toko A karena potongannya Rp80.000",
+        "D": "Toko B karena potongannya Rp50.000"
+      },
+      "answer": "C",
+      "explanation": "Toko A: potongan 20% × 400.000 = Rp80.000. Toko B: potongan Rp50.000. Potongan Toko A lebih besar sehingga lebih murah."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Dina tiba di perpustakaan pada pukul ....",
+      "options": {
+        "A": "07.40",
+        "B": "07.45",
+        "C": "08.00",
+        "D": "07.48"
+      },
+      "answer": "B",
+      "explanation": "Waktu tempuh = 12 ÷ 16 = 0,75 jam = 45 menit. Dina tiba pukul 07.45."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Ketika Arif berangkat, jarak yang sudah ditempuh Dina adalah ....",
+      "options": {
+        "A": "8 km",
+        "B": "6 km",
+        "C": "3 km",
+        "D": "4 km"
+      },
+      "answer": "D",
+      "explanation": "Arif berangkat 15 menit (¼ jam) setelah Dina. Jarak Dina = 16 × ¼ = 4 km."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Arif menyusul Dina pada pukul ....",
+      "options": {
+        "A": "07.35",
+        "B": "07.30",
+        "C": "07.20",
+        "D": "07.25"
+      },
+      "answer": "D",
+      "explanation": "Saat Arif berangkat, Dina berada 4 km di depan. Selisih kecepatan = 40 − 16 = 24 km/jam. Waktu menyusul = 4 ÷ 24 jam = 10 menit setelah pukul 07.15, yaitu pukul 07.25."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Arif tiba di perpustakaan lebih awal daripada Dina. Selisih waktu tiba keduanya adalah ....",
+      "options": {
+        "A": "27 menit",
+        "B": "12 menit",
+        "C": "18 menit",
+        "D": "15 menit"
+      },
+      "answer": "B",
+      "explanation": "Waktu tempuh Arif = 12 ÷ 40 = 0,3 jam = 18 menit sehingga ia tiba pukul 07.33. Dina tiba pukul 07.45. Selisih = 12 menit."
+    }
+  ]
+}

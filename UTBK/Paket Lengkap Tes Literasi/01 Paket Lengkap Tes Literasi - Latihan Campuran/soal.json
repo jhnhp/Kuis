@@ -1,0 +1,341 @@
+{
+  "title": "UTBK-SNBT - Paket Lengkap Tes Literasi (Latihan Campuran)",
+  "topic": "Literasi dalam Bahasa Indonesia, Literasi dalam Bahasa Inggris, dan Penalaran Matematika",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal terpadu terdiri atas 8 soal Literasi Bahasa Indonesia, 6 soal Literasi Bahasa Inggris, dan 6 soal Penalaran Matematika berstandar UTBK.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_lit_lbi1",
+      "title": "Teks untuk soal 1–4 (Literasi Bahasa Indonesia): Ilmu di Balik Tempe",
+      "text": [
+        "Tempe dibuat dengan menumbuhkan kapang <i>Rhizopus</i> pada kedelai yang telah direbus dan dikupas. Selama kira-kira dua hari, benang-benang halus kapang yang disebut miselium tumbuh menjalin biji-biji kedelai menjadi lempengan padat berwarna putih.",
+        "Fermentasi tidak hanya mengubah bentuk, tetapi juga susunan kimia kedelai. Kapang menghasilkan enzim yang memecah protein menjadi asam-asam amino dan memecah lemak menjadi asam lemak, yakni molekul-molekul yang lebih kecil dan lebih mudah diserap tubuh. Enzim lain menguraikan asam fitat, senyawa dalam kedelai yang mengikat mineral seperti zat besi dan seng sehingga sukar diserap usus. Dengan berkurangnya asam fitat, mineral dalam tempe menjadi lebih tersedia bagi tubuh.",
+        "Keberhasilan fermentasi bergantung pada kondisi lingkungan. Kapang tumbuh baik pada suhu sekitar 30 °C dan memerlukan oksigen; itulah sebabnya pembungkus tempe diberi lubang-lubang kecil. Akan tetapi, bila lubang terlalu banyak, permukaan kedelai mengering dan kapang lebih cepat membentuk spora berwarna kehitaman. Tempe yang demikian tetap aman dimakan, tetapi kurang disukai pembeli."
+      ]
+    },
+    {
+      "id": "teks_lit_lbi2",
+      "title": "Teks untuk soal 5–8 (Literasi Bahasa Indonesia): Politik Etis dan Akibatnya",
+      "text": [
+        "Pada tahun 1901, pemerintah Belanda mengumumkan arah baru bagi tanah jajahannya yang dikenal sebagai Politik Etis. Kebijakan ini berangkat dari pandangan bahwa Belanda berutang budi kepada rakyat Hindia Belanda, yang kekayaannya telah mengalir ke negeri induk selama masa Tanam Paksa. Programnya bertumpu pada tiga bidang: irigasi, emigrasi atau pemindahan penduduk, dan edukasi.",
+        "Dalam pelaksanaannya, ketiga program itu banyak menyimpang dari cita-cita semula. Saluran irigasi terutama dibangun untuk mengairi perkebunan milik pengusaha swasta. Pemindahan penduduk dari Jawa yang padat lebih banyak diarahkan untuk memenuhi kebutuhan tenaga kerja murah di perkebunan Sumatra. Sekolah memang didirikan, tetapi jumlahnya terbatas dan terutama dimaksudkan untuk menghasilkan pegawai rendahan bagi pemerintahan kolonial.",
+        "Meskipun demikian, pendidikan membawa akibat yang tidak diperhitungkan penguasa. Dari bangku sekolah itulah lahir lapisan terpelajar bumiputra yang mampu membaca gagasan tentang kebebasan dan kebangsaan, lalu menyadari ketidakadilan yang dialami bangsanya. Merekalah yang kemudian mendirikan organisasi-organisasi pergerakan pada awal abad ke-20."
+      ]
+    },
+    {
+      "id": "teks_lit_lbe1",
+      "title": "Text for questions 9–11 (Literasi Bahasa Inggris): The Dance of the Honeybee",
+      "text": [
+        "A honeybee that discovers a rich patch of flowers faces a problem: how to tell thousands of nestmates where it is. Her solution is a dance. Inside the dark hive, the returning bee runs in a straight line while shaking her body from side to side, then circles back and repeats the run. The angle of the straight run relative to the vertical surface of the comb corresponds to the direction of the food relative to the sun. The duration of the shaking indicates distance: the longer she waggles, the farther the flowers.",
+        "The Austrian scientist Karl von Frisch decoded this behavior in the mid-twentieth century, and at first many of his colleagues doubted that an insect could communicate in such an abstract way. Later experiments settled the question. When researchers moved a feeding station, the dances changed accordingly, and bees that had only watched a dance flew to the indicated location even though they had never been there.",
+        "The dance is not a command, however. Bees watching it may ignore the message if they already know a good food source, and the colony as a whole tends to send more foragers to sites that are advertised by more vigorous dancing. In this way, thousands of small individual decisions add up to an efficient collective choice."
+      ]
+    },
+    {
+      "id": "teks_lit_lbe2",
+      "title": "Text for questions 12–14 (Literasi Bahasa Inggris): The Price of “Free”",
+      "text": [
+        "Many of the most popular apps cost nothing to download. Their makers earn money in another way: by selling advertisers access to users' attention. The longer people stay on an app, the more advertisements they see, and the more the company earns. As the saying goes, if you are not paying for the product, you are the product.",
+        "This business model shapes how the apps are designed. Features such as endless scrolling and constant notifications are not accidents; they are carefully tested to keep users engaged. Critics argue that the result is a conflict of interest, since what is profitable for the company—more screen time—is not necessarily what is good for the user.",
+        "Defenders reply that advertising makes useful services available to people who could not otherwise afford them, and that users remain free to close the app whenever they wish. Still, a growing number of governments are considering rules that would limit certain design practices, especially in apps used by children."
+      ]
+    },
+    {
+      "id": "teks_lit_pm1",
+      "title": "Konteks untuk soal 15–17 (Penalaran Matematika): Mengganti Pendingin Ruangan",
+      "text": [
+        "Sebuah pendingin ruangan (AC) lama berdaya 800 watt dinyalakan rata-rata 8 jam per hari. Tarif listrik Rp1.500 per kWh. Pemilik rumah berencana menggantinya dengan AC inverter seharga Rp5.400.000 yang untuk pemakaian yang sama rata-rata hanya memerlukan daya 500 watt. Anggap 1 bulan = 30 hari."
+      ]
+    },
+    {
+      "id": "teks_lit_pm2",
+      "title": "Konteks untuk soal 18–20 (Penalaran Matematika): Nilai Ujian Dua Kelas",
+      "text": [
+        "Rata-rata nilai ujian 30 siswa kelas A adalah 72, sedangkan rata-rata nilai ujian 20 siswa kelas B adalah 82."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_lit_lbi1",
+      "question": "Menurut teks, miselium adalah ....",
+      "options": {
+        "A": "enzim yang memecah protein kedelai",
+        "B": "spora kapang yang berwarna kehitaman",
+        "C": "senyawa pengikat mineral dalam kedelai",
+        "D": "benang-benang halus kapang yang menjalin biji kedelai"
+      },
+      "answer": "D",
+      "explanation": "Paragraf pertama: benang-benang halus kapang yang disebut miselium tumbuh menjalin biji-biji kedelai."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbi1",
+      "question": "Berdasarkan paragraf kedua, mineral dalam tempe lebih mudah diserap tubuh daripada mineral dalam kedelai karena ....",
+      "options": {
+        "A": "kapang menambahkan zat besi dan seng ke dalam kedelai",
+        "B": "protein kedelai telah dipecah menjadi asam amino",
+        "C": "perebusan menghilangkan seluruh lemak pada kedelai",
+        "D": "asam fitat yang mengikat mineral telah diuraikan oleh enzim kapang"
+      },
+      "answer": "D",
+      "explanation": "Asam fitat mengikat zat besi dan seng sehingga sukar diserap. Enzim kapang menguraikan asam fitat sehingga mineral menjadi lebih tersedia. Kapang tidak menambah mineral baru."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbi1",
+      "question": "Pembungkus tempe diberi lubang-lubang kecil dengan tujuan ....",
+      "options": {
+        "A": "menurunkan suhu kedelai hingga di bawah 30 °C",
+        "B": "menyediakan oksigen yang diperlukan kapang untuk tumbuh",
+        "C": "mengeluarkan asam fitat dari kedelai",
+        "D": "mempercepat pembentukan spora kapang"
+      },
+      "answer": "B",
+      "explanation": "Paragraf ketiga: kapang memerlukan oksigen; itulah sebabnya pembungkus tempe diberi lubang-lubang kecil."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "teks_lit_lbi1",
+      "question": "Agar tempenya tidak cepat menghitam, seorang perajin membungkus kedelai dengan plastik yang rapat tanpa lubang sama sekali. Berdasarkan teks, akibat yang paling mungkin terjadi adalah ....",
+      "options": {
+        "A": "Kandungan asam fitat tempe meningkat karena suhu pembungkus naik.",
+        "B": "Tempe tetap putih dan lebih padat karena spora tidak terbentuk.",
+        "C": "Kapang kekurangan oksigen sehingga miselium tidak tumbuh baik dan kedelai tidak terjalin padat.",
+        "D": "Permukaan kedelai mengering sehingga spora lebih cepat terbentuk."
+      },
+      "answer": "C",
+      "explanation": "Kapang memerlukan oksigen untuk tumbuh. Tanpa lubang, pasokan oksigen terhambat sehingga miselium tidak berkembang dan kedelai gagal terjalin menjadi lempengan padat. Yang menyebabkan cepat menghitam adalah lubang yang terlalu banyak, bukan adanya lubang."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "teks_lit_lbi2",
+      "question": "Tiga bidang yang menjadi tumpuan program Politik Etis adalah ....",
+      "options": {
+        "A": "irigasi, industri, dan edukasi",
+        "B": "emigrasi, perkebunan, dan pemerintahan",
+        "C": "irigasi, emigrasi, dan edukasi",
+        "D": "edukasi, kesehatan, dan perdagangan"
+      },
+      "answer": "C",
+      "explanation": "Paragraf pertama: programnya bertumpu pada irigasi, emigrasi atau pemindahan penduduk, dan edukasi."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbi2",
+      "question": "Gagasan utama paragraf kedua teks tersebut adalah ....",
+      "options": {
+        "A": "Saluran irigasi dibangun untuk perkebunan milik pengusaha swasta.",
+        "B": "Pelaksanaan Politik Etis menyimpang karena lebih melayani kepentingan kolonial.",
+        "C": "Sekolah yang didirikan Belanda menghasilkan banyak pegawai.",
+        "D": "Penduduk Jawa dipindahkan ke Sumatra karena Jawa terlalu padat."
+      },
+      "answer": "B",
+      "explanation": "Kalimat utama paragraf kedua: ketiga program banyak menyimpang dari cita-cita semula. Kalimat berikutnya adalah perincian penyimpangan pada irigasi, emigrasi, dan edukasi, yang semuanya menguntungkan pihak kolonial."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbi2",
+      "question": "Yang dimaksud dengan <b>akibat yang tidak diperhitungkan penguasa</b> pada paragraf ketiga adalah ....",
+      "options": {
+        "A": "bertambahnya pegawai rendahan dalam pemerintahan kolonial",
+        "B": "berpindahnya penduduk Jawa ke perkebunan Sumatra",
+        "C": "terbatasnya jumlah sekolah bagi penduduk bumiputra",
+        "D": "lahirnya golongan terpelajar bumiputra yang menyadari ketidakadilan kolonial"
+      },
+      "answer": "D",
+      "explanation": "Sekolah dimaksudkan untuk mencetak pegawai rendahan, tetapi justru melahirkan lapisan terpelajar yang membaca gagasan kebebasan dan kemudian mendirikan organisasi pergerakan."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "teks_lit_lbi2",
+      "question": "Simpulan yang paling tepat berdasarkan keseluruhan teks tersebut adalah ....",
+      "options": {
+        "A": "Kebijakan yang dijalankan demi kepentingan penguasa dapat menimbulkan dampak yang justru melemahkan kekuasaannya.",
+        "B": "Pemerintah kolonial sengaja mendidik bumiputra agar dapat mendirikan organisasi pergerakan.",
+        "C": "Pergerakan nasional tidak akan pernah muncul tanpa adanya Politik Etis.",
+        "D": "Politik Etis berhasil membalas utang budi Belanda kepada rakyat Hindia Belanda."
+      },
+      "answer": "A",
+      "explanation": "Pendidikan dijalankan terbatas untuk kebutuhan kolonial, tetapi menghasilkan kaum terpelajar yang memelopori pergerakan melawan kolonialisme. Teks tidak menyatakan Politik Etis berhasil membalas budi, tidak menyebutnya satu-satunya sebab pergerakan, dan menegaskan akibat itu tidak diperhitungkan (bukan disengaja)."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "teks_lit_lbe1",
+      "question": "According to the text, what does the duration of a bee's waggling indicate?",
+      "options": {
+        "A": "the direction of the food relative to the sun",
+        "B": "the kind of flowers she has found",
+        "C": "the number of bees needed to collect the food",
+        "D": "how far away the flowers are"
+      },
+      "answer": "D",
+      "explanation": "Paragraph 1: “The duration of the shaking indicates distance: the longer she waggles, the farther the flowers.” Direction is shown by the angle of the run."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbe1",
+      "question": "Why did many scientists at first doubt von Frisch's explanation?",
+      "options": {
+        "A": "They believed that only the queen could direct other bees.",
+        "B": "They did not believe an insect could communicate in such an abstract way.",
+        "C": "They found that the dances did not change when food was moved.",
+        "D": "They had observed that bees cannot see inside the dark hive."
+      },
+      "answer": "B",
+      "explanation": "Paragraph 2: “many of his colleagues doubted that an insect could communicate in such an abstract way.” Later experiments (moving the feeding station) in fact supported von Frisch."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sulit",
+      "passage": "teks_lit_lbe1",
+      "question": "What does the final paragraph suggest about how a bee colony chooses where to forage?",
+      "options": {
+        "A": "The choice emerges from many individual bees responding to the dances, without central control.",
+        "B": "The best dancer orders the other bees to follow her to the flowers.",
+        "C": "The colony divides its foragers equally among all advertised sites.",
+        "D": "Bees always abandon a known food source after watching a dance."
+      },
+      "answer": "A",
+      "explanation": "“The dance is not a command”: bees may ignore it, more vigorous dancing attracts more foragers, and “thousands of small individual decisions add up to an efficient collective choice.” No single bee directs the colony."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbe2",
+      "question": "What does the saying “if you are not paying for the product, you are the product” mean in the text?",
+      "options": {
+        "A": "Free apps are usually of lower quality than paid apps.",
+        "B": "Users are paid by advertisers to try new products.",
+        "C": "Users' attention is what the company sells to advertisers.",
+        "D": "Companies sell their apps to the users who spend the most time on them."
+      },
+      "answer": "C",
+      "explanation": "Paragraph 1: app makers earn money “by selling advertisers access to users' attention.” The user, not the app, is what is being sold."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_lbe2",
+      "question": "According to critics, what is the “conflict of interest” in free apps?",
+      "options": {
+        "A": "Users want to pay for apps, while companies want them to be free.",
+        "B": "More screen time is profitable for the company but not necessarily good for the user.",
+        "C": "Governments want to limit apps, while users want more of them.",
+        "D": "Advertisers want shorter advertisements, while companies want longer ones."
+      },
+      "answer": "B",
+      "explanation": "Paragraph 2: “what is profitable for the company—more screen time—is not necessarily what is good for the user.”"
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "passage": "teks_lit_lbe2",
+      "question": "With which statement would the defenders mentioned in the last paragraph most likely agree?",
+      "options": {
+        "A": "Endless scrolling should be banned in all apps.",
+        "B": "Charging for every app would shut out people who cannot afford to pay.",
+        "C": "Users have no real control over how long they use an app.",
+        "D": "Advertising makes useful services more expensive for everyone."
+      },
+      "answer": "B",
+      "explanation": "Defenders say advertising makes services available “to people who could not otherwise afford them” and that users are free to close the app. They would therefore agree that a paid-only model excludes poorer users."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "teks_lit_pm1",
+      "question": "Energi listrik yang digunakan AC lama dalam satu hari adalah ....",
+      "options": {
+        "A": "6,4 kWh",
+        "B": "0,8 kWh",
+        "C": "64 kWh",
+        "D": "8 kWh"
+      },
+      "answer": "A",
+      "explanation": "800 watt = 0,8 kW. Energi = 0,8 kW × 8 jam = 6,4 kWh."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_pm1",
+      "question": "Biaya listrik AC lama dalam satu bulan adalah ....",
+      "options": {
+        "A": "Rp360.000",
+        "B": "Rp192.000",
+        "C": "Rp180.000",
+        "D": "Rp288.000"
+      },
+      "answer": "D",
+      "explanation": "Energi sebulan = 6,4 × 30 = 192 kWh. Biaya = 192 × Rp1.500 = Rp288.000."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "passage": "teks_lit_pm1",
+      "question": "Penghematan biaya listrik akan menutup harga pembelian AC inverter setelah ....",
+      "options": {
+        "A": "30 bulan",
+        "B": "18,75 bulan",
+        "C": "50 bulan",
+        "D": "60 bulan"
+      },
+      "answer": "C",
+      "explanation": "Selisih daya = 800 − 500 = 300 watt = 0,3 kW. Penghematan per bulan = 0,3 × 8 × 30 × 1.500 = Rp108.000. Waktu balik modal = 5.400.000 ÷ 108.000 = 50 bulan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_pm2",
+      "question": "Rata-rata nilai gabungan seluruh siswa kelas A dan kelas B adalah ....",
+      "options": {
+        "A": "76",
+        "B": "77",
+        "C": "75",
+        "D": "78"
+      },
+      "answer": "A",
+      "explanation": "Jumlah nilai A = 30 × 72 = 2.160; jumlah nilai B = 20 × 82 = 1.640. Rata-rata gabungan = (2.160 + 1.640) ÷ 50 = 3.800 ÷ 50 = 76. Hasilnya lebih dekat ke 72 karena siswa kelas A lebih banyak."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sedang",
+      "passage": "teks_lit_pm2",
+      "question": "Setelah remedial, nilai 5 siswa kelas A masing-masing naik 6 poin, sedangkan nilai siswa lain tetap. Rata-rata nilai kelas A sekarang adalah ....",
+      "options": {
+        "A": "72,2",
+        "B": "74",
+        "C": "73",
+        "D": "78"
+      },
+      "answer": "C",
+      "explanation": "Tambahan jumlah nilai = 5 × 6 = 30. Rata-rata baru = (2.160 + 30) ÷ 30 = 2.190 ÷ 30 = 73."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "teks_lit_pm2",
+      "question": "Seorang siswa pindahan masuk ke kelas B dan mengikuti ujian susulan sehingga rata-rata nilai kelas B menjadi 81. Nilai siswa pindahan tersebut adalah ....",
+      "options": {
+        "A": "61",
+        "B": "62",
+        "C": "81",
+        "D": "80"
+      },
+      "answer": "A",
+      "explanation": "Jumlah nilai kelas B semula = 1.640. Setelah menjadi 21 siswa dengan rata-rata 81, jumlah nilai = 21 × 81 = 1.701. Nilai siswa pindahan = 1.701 − 1.640 = 61."
+    }
+  ]
+}

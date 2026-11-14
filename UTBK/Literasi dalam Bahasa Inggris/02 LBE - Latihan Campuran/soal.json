@@ -1,0 +1,328 @@
+{
+  "title": "UTBK-SNBT - Literasi dalam Bahasa Inggris (Latihan Campuran)",
+  "topic": "Reading Texts on Science, History, Literature, and Society: Finding, Understanding, Evaluating, and Reflecting on Information",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 4 teks berbahasa Inggris (sains lingkungan, sejarah, kutipan cerita, dan sosial-ekonomi) sesuai jumlah soal UTBK. Waktu UTBK: 20 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "text_lbe1",
+      "title": "Text 1: Small Plastic, Big Problem",
+      "text": [
+        "Plastic does not disappear when it is thrown away. Sunlight, waves, and friction slowly break it into smaller and smaller fragments. Pieces less than five millimeters across are known as microplastics, and they have now been found almost everywhere researchers have looked: in deep-ocean sediment, in mountain snow, and in the bodies of fish and seabirds.",
+        "Not all microplastics come from broken bottles and bags. A significant share is released directly in tiny form. Synthetic clothing sheds thousands of fibers in a single wash, and car tires leave fine particles on the road every time a vehicle brakes. Rain then carries these particles into rivers and, eventually, the sea.",
+        "What this means for living things is still being worked out. Laboratory studies show that small animals that swallow large amounts of microplastics may eat less and grow more slowly. Plastic particles can also carry other pollutants on their surfaces. Yet the concentrations used in many experiments are much higher than those typically measured in nature, so scientists are cautious about drawing firm conclusions. What is not in doubt is that the amount of plastic entering the environment continues to rise, and that removing particles this small is practically impossible. Most experts therefore argue that the only realistic strategy is to stop plastic at its source."
+      ]
+    },
+    {
+      "id": "text_lbe2",
+      "title": "Text 2: The Long Road of Cloves and Nutmeg",
+      "text": [
+        "For centuries, cloves grew on only a handful of small volcanic islands in what is now eastern Indonesia. Nutmeg came from an even smaller group, the Banda Islands. Yet these spices flavored food and filled medicine chests thousands of kilometers away, in China, India, the Middle East, and Europe.",
+        "The spices did not travel in a single journey. They passed through a long chain of traders—local sailors, then merchants from Java and the Malay world, then Indian, Arab, and finally Venetian traders—each of whom added a profit. By the time cloves reached a European market, their price had multiplied many times over. Most European buyers had no idea where the spices actually grew.",
+        "It was this enormous gap between the price at the source and the price in Europe that pushed Portuguese, Spanish, and later Dutch ships to search for a direct sea route in the late fifteenth and sixteenth centuries. Their goal was not simply to join the trade but to control it. The Dutch East India Company eventually went so far as to restrict where clove and nutmeg trees could be grown, destroying trees elsewhere to keep supply low and prices high. For the islanders, the arrival of the newcomers turned a long-standing source of wealth into a cause of suffering."
+      ]
+    },
+    {
+      "id": "text_lbe3",
+      "title": "Text 3: The Lighthouse (story excerpt)",
+      "text": [
+        "Mira had counted the steps of the lighthouse so many times that her feet knew the number better than her head did. One hundred and twelve. Every evening since her father's knees had begun to fail, she climbed them with the oil can, trimmed the wick, and lit the lamp before the first fishing boats turned for home.",
+        "Tonight an envelope waited in her apron pocket. The school in the city had accepted her. She had read the letter so often that the folds had gone soft, but she had not yet shown it to anyone.",
+        "From the top of the tower she could see the whole village: forty roofs, one road, and the harbor curled like a sleeping cat. She had always thought of it as small. Now, with the letter against her hip, it seemed to her suddenly and terribly precious.",
+        "Below, her father was calling the boats in by name, the way he did every dusk, though no one could hear him over the water. Mira struck the match. The lamp caught, and the beam swung out across the dark. Whoever lit it next year, she thought, would need to be shown about the third window, the one that stuck."
+      ]
+    },
+    {
+      "id": "text_lbe4",
+      "title": "Text 4: Working from Home, Reshaping the City",
+      "text": [
+        "When offices closed during the pandemic of 2020, millions of employees began working from home. Many assumed the change would be temporary. Several years later, however, a large share of office workers still spend at least part of the week away from the office, and the effects are reshaping cities.",
+        "The most visible change is in city centers. Fewer commuters mean fewer customers for the cafés, dry cleaners, and lunch counters that once depended on office crowds. Some downtown buildings stand half empty, and the taxes they generate have fallen. Meanwhile, smaller towns and suburbs have gained residents who no longer need to live near their employers. Local businesses there have benefited, although housing prices have risen as well, sometimes pushing out long-time residents.",
+        "Whether remote work is good for workers themselves depends on whom you ask. Surveys consistently find that employees value the time saved by not commuting. Yet younger workers report learning less when they cannot observe experienced colleagues, and some managers worry that new ideas arise less often when people rarely meet by chance. For this reason, many companies have settled on a hybrid model, asking staff to come in on certain days. It is a compromise that fully satisfies almost no one, but one that few are willing to abandon."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "According to Text 1, microplastics are plastic pieces that are ....",
+      "options": {
+        "A": "made only from synthetic clothing",
+        "B": "found only in the deep ocean",
+        "C": "invisible even under a microscope",
+        "D": "less than five millimeters across"
+      },
+      "answer": "D",
+      "explanation": "Paragraph 1: “Pieces less than five millimeters across are known as microplastics.”"
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "What is the main purpose of paragraph 2 of Text 1?",
+      "options": {
+        "A": "to show that some microplastics enter the environment already in tiny form",
+        "B": "to compare pollution from clothing with pollution from tires",
+        "C": "to explain how sunlight breaks plastic bottles into fragments",
+        "D": "to argue that people should stop wearing synthetic clothing"
+      },
+      "answer": "A",
+      "explanation": "The paragraph opens with “Not all microplastics come from broken bottles and bags. A significant share is released directly in tiny form,” then gives two everyday sources (clothing fibers, tire particles)."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "The word <b>sheds</b> in paragraph 2 of Text 1 is closest in meaning to ....",
+      "options": {
+        "A": "collects",
+        "B": "absorbs",
+        "C": "releases",
+        "D": "repairs"
+      },
+      "answer": "C",
+      "explanation": "Clothing <i>sheds</i> fibers in the wash, i.e., it loses or releases them."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "Why are scientists cautious about drawing firm conclusions on the effects of microplastics?",
+      "options": {
+        "A": "Laboratory animals do not swallow microplastics.",
+        "B": "The amount of plastic entering the environment is decreasing.",
+        "C": "Microplastics have not been found in living animals.",
+        "D": "Many experiments use concentrations far higher than those found in nature."
+      },
+      "answer": "D",
+      "explanation": "Paragraph 3: “the concentrations used in many experiments are much higher than those typically measured in nature, so scientists are cautious.” Results at unrealistically high doses may not apply to real conditions."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "Which action best fits the strategy that most experts recommend at the end of Text 1?",
+      "options": {
+        "A": "sending ships to filter microplastics out of the open ocean",
+        "B": "studying how fast small animals grow after swallowing plastic",
+        "C": "collecting plastic particles from mountain snow",
+        "D": "designing fabrics that release fewer fibers when washed"
+      },
+      "answer": "D",
+      "explanation": "The experts argue for stopping plastic “at its source” because removing such small particles is practically impossible. Fabrics that release fewer fibers prevent microplastics from being created; filtering and collecting are removal, not prevention."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "According to Text 2, where did nutmeg originally come from?",
+      "options": {
+        "A": "Venice",
+        "B": "the Banda Islands",
+        "C": "India",
+        "D": "the Middle East"
+      },
+      "answer": "B",
+      "explanation": "Paragraph 1: “Nutmeg came from an even smaller group, the Banda Islands.”"
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "Why were cloves so expensive by the time they reached Europe?",
+      "options": {
+        "A": "Each trader in the long chain added a profit.",
+        "B": "They could be harvested only once every few years.",
+        "C": "European buyers did not know how to use them.",
+        "D": "They were destroyed in large numbers during the voyage."
+      },
+      "answer": "A",
+      "explanation": "Paragraph 2: the spices passed through a long chain of traders, “each of whom added a profit,” so the price multiplied many times."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "The word <b>it</b> in “not simply to join the trade but to control it” (paragraph 3) refers to ....",
+      "options": {
+        "A": "the trade",
+        "B": "the goal",
+        "C": "the price gap",
+        "D": "the sea route"
+      },
+      "answer": "A",
+      "explanation": "“... not simply to join the trade but to control it” — <i>it</i> refers to the spice trade."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "According to Text 2, why did the Dutch East India Company destroy clove and nutmeg trees?",
+      "options": {
+        "A": "to punish Venetian traders",
+        "B": "to stop the spread of plant diseases",
+        "C": "to keep supply low and prices high",
+        "D": "to make room for other crops"
+      },
+      "answer": "C",
+      "explanation": "Paragraph 3: the Company restricted where the trees could be grown, “destroying trees elsewhere to keep supply low and prices high.”"
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "text_lbe2",
+      "question": "What can be inferred from the last sentence of Text 2?",
+      "options": {
+        "A": "European control of the trade harmed the very people who produced the spices.",
+        "B": "The spice trade ended as soon as the Europeans arrived.",
+        "C": "The islanders had been poor before the Europeans arrived.",
+        "D": "The islanders welcomed the Europeans as new trading partners."
+      },
+      "answer": "A",
+      "explanation": "The spices had been “a long-standing source of wealth” for the islanders; after the newcomers arrived they became “a cause of suffering.” The author implies that European control damaged the producers themselves."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "Why does Mira, rather than her father, light the lamp every evening?",
+      "options": {
+        "A": "Her father has forgotten how to light it.",
+        "B": "Her father's knees have begun to fail.",
+        "C": "She is being trained at a school in the city.",
+        "D": "Her father is out at sea with the fishing boats."
+      },
+      "answer": "B",
+      "explanation": "Paragraph 1: she has climbed the steps “every evening since her father's knees had begun to fail.”"
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "The detail that “the folds had gone soft” suggests that Mira ....",
+      "options": {
+        "A": "received the letter many years ago",
+        "B": "has tried to throw the letter away",
+        "C": "has secretly read the letter again and again",
+        "D": "dropped the letter into the sea"
+      },
+      "answer": "C",
+      "explanation": "Paper folds become soft from repeated opening and closing. Together with “she had not yet shown it to anyone,” the detail shows she keeps rereading it in private."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "How does Mira's view of the village change in paragraph 3?",
+      "options": {
+        "A": "It now feels smaller than she remembered.",
+        "B": "It now seems noisy compared with the city.",
+        "C": "It now seems dangerous for fishing boats.",
+        "D": "It now feels precious because she may be leaving it."
+      },
+      "answer": "D",
+      "explanation": "She “had always thought of it as small,” but with the acceptance letter in her pocket it seems “suddenly and terribly precious” — the prospect of leaving changes how she sees it."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "passage": "text_lbe3",
+      "question": "What does the final sentence of Text 3 imply about Mira?",
+      "options": {
+        "A": "She has decided to repair the third window herself.",
+        "B": "She plans to ask her father to climb the tower again.",
+        "C": "She already expects that someone else will be lighting the lamp next year.",
+        "D": "She has decided to refuse the school's offer."
+      },
+      "answer": "C",
+      "explanation": "“Whoever lit it next year ... would need to be shown” — Mira is thinking of a successor, which implies she intends to accept the place and leave."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "passage": "text_lbe3",
+      "question": "The comparison of the harbor to “a sleeping cat” mainly serves to ....",
+      "options": {
+        "A": "warn that the harbor hides unexpected dangers",
+        "B": "present the village as calm, small, and dear to Mira",
+        "C": "show that Mira finds the village dull and lifeless",
+        "D": "suggest that the fishermen are lazy"
+      },
+      "answer": "B",
+      "explanation": "A sleeping cat is a peaceful, familiar, affectionate image. The simile prepares for the next sentences, in which the village seems “precious” to her."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "text_lbe4",
+      "question": "According to Text 4, which businesses have suffered in city centers?",
+      "options": {
+        "A": "those owned by long-time residents",
+        "B": "those that depended on office crowds",
+        "C": "those that sell products online",
+        "D": "those located in the suburbs"
+      },
+      "answer": "B",
+      "explanation": "Paragraph 2: fewer commuters mean fewer customers for the cafés, dry cleaners, and lunch counters “that once depended on office crowds.”"
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "text_lbe4",
+      "question": "What negative effect of remote work on smaller towns is mentioned in Text 4?",
+      "options": {
+        "A": "The taxes collected there have fallen.",
+        "B": "Local businesses have lost most of their customers.",
+        "C": "Rising housing prices have pushed out some long-time residents.",
+        "D": "Many buildings there now stand half empty."
+      },
+      "answer": "C",
+      "explanation": "Paragraph 2: local businesses have benefited, “although housing prices have risen as well, sometimes pushing out long-time residents.” Empty buildings and falling taxes describe city centers."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "text_lbe4",
+      "question": "The phrase <b>settled on</b> in paragraph 3 of Text 4 is closest in meaning to ....",
+      "options": {
+        "A": "delayed",
+        "B": "chosen",
+        "C": "rejected",
+        "D": "questioned"
+      },
+      "answer": "B",
+      "explanation": "Companies have <i>settled on</i> a hybrid model: after weighing the options, they have decided on / chosen it."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sedang",
+      "passage": "text_lbe4",
+      "question": "According to Text 4, why may remote work be a disadvantage for younger workers?",
+      "options": {
+        "A": "They cannot afford housing in the suburbs.",
+        "B": "They spend more time commuting.",
+        "C": "They are not allowed to work in a hybrid model.",
+        "D": "They cannot observe experienced colleagues."
+      },
+      "answer": "D",
+      "explanation": "Paragraph 3: “younger workers report learning less when they cannot observe experienced colleagues.”"
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "text_lbe4",
+      "question": "What does the last sentence of Text 4 suggest about the hybrid model?",
+      "options": {
+        "A": "It is imperfect, but people prefer it to the alternatives.",
+        "B": "It satisfies workers and managers equally well.",
+        "C": "It will soon be abandoned by most companies.",
+        "D": "It was forced on companies by city governments."
+      },
+      "answer": "A",
+      "explanation": "The model “fully satisfies almost no one, but ... few are willing to abandon” it: each side gets only part of what it wants, yet giving it up would be worse."
+    }
+  ]
+}

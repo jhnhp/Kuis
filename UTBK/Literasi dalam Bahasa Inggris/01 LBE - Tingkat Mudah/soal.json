@@ -1,0 +1,327 @@
+{
+  "title": "UTBK-SNBT - Literasi dalam Bahasa Inggris (Tingkat Mudah)",
+  "topic": "Reading Texts on Science, Social Topics, and Personal Narrative: Finding and Understanding Information",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "100% Mudah. 20 soal dari 4 teks berbahasa Inggris (sains, sejarah-ekonomi, narasi personal, dan sosial). Fokus pada informasi tersurat, gagasan utama, rujukan kata, dan makna ungkapan. Waktu UTBK: 20 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "text_lbe1",
+      "title": "Text 1: Why We Sleep",
+      "text": [
+        "Sleep is not simply a time when the body shuts down. While we sleep, the brain stays busy. One of its most important jobs is to sort through the information collected during the day. Useful memories are strengthened and moved into long-term storage, while unimportant details are cleared away.",
+        "Scientists have tested this idea in simple experiments. In a typical study, two groups of students learn a list of new words. One group then sleeps for eight hours, while the other stays awake all night. The next day, the students who slept usually remember far more words than those who did not.",
+        "Sleep also helps the body. During deep sleep, the body repairs muscles and releases hormones that support growth. This is one reason why teenagers, whose bodies are still developing, need about eight to ten hours of sleep each night. Unfortunately, many teenagers sleep much less than that because of homework, early school hours, and late-night screen use."
+      ]
+    },
+    {
+      "id": "text_lbe2",
+      "title": "Text 2: The First Paper Money",
+      "text": [
+        "For thousands of years, people paid for goods with metal coins. Coins worked well for small purchases, but they were heavy. A merchant who wanted to buy a large amount of silk or tea had to carry sacks of coins over long distances, which was both tiring and dangerous.",
+        "Merchants in China found a clever solution more than a thousand years ago. They left their coins with a trusted shop and received a paper note showing how much money they had deposited. The note was light and easy to carry, and it could be exchanged for coins again later. Soon, people began to use the notes themselves to pay for things. Eventually, the government took over the system and printed official paper money.",
+        "Paper money has no value of its own; it is only paper. It works because everyone trusts that others will accept it. When that trust is lost—for example, when a government prints far too much money—prices rise quickly and the money buys less and less."
+      ]
+    },
+    {
+      "id": "text_lbe3",
+      "title": "Text 3: My Grandmother's Violin",
+      "text": [
+        "When I was twelve, my grandmother gave me her old violin. I did not want it. All my friends were playing football after school, and I thought the violin was for quiet, boring people. For the first few months, I practiced only because my mother made me, and the sounds I produced made our cat run out of the room.",
+        "Everything changed one rainy afternoon. I was alone at home, and for no special reason I tried to play a simple folk song my grandmother used to hum in the kitchen. To my surprise, the notes came out clearly. For the first time, the violin did not sound like an angry door. It sounded like her.",
+        "I played the song again and again until my fingers hurt. When my grandmother visited that weekend, I played it for her. She did not say anything. She just closed her eyes and smiled, and I understood that some gifts take time to open."
+      ]
+    },
+    {
+      "id": "text_lbe4",
+      "title": "Text 4: Gardens in the City",
+      "text": [
+        "In many large cities, empty spaces between buildings are being turned into community gardens. Neighbors share the land, and each family looks after a small plot where they grow vegetables, herbs, or flowers.",
+        "These gardens offer several benefits. First, they give city residents access to fresh food at a low cost. Second, plants cool the air around them, so neighborhoods with gardens are often more comfortable on hot days than areas covered only with concrete. Third, gardens bring people together. Neighbors who might never have spoken to each other begin to exchange seeds, recipes, and advice.",
+        "However, community gardens face challenges. City land is expensive, and owners may decide to sell a garden's land for new buildings. Gardens also need regular care, and they quickly fail if volunteers lose interest. For these reasons, some city governments now protect garden land by law and provide water and tools to support the people who work there."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "What is the main idea of Text 1?",
+      "options": {
+        "A": "The brain stops working when a person falls asleep.",
+        "B": "Students who stay awake all night can still learn new words.",
+        "C": "Teenagers should stop using screens late at night.",
+        "D": "Sleep is an active process that benefits both the brain and the body."
+      },
+      "answer": "D",
+      "explanation": "The text explains that the brain stays busy during sleep (paragraphs 1–2) and that sleep also repairs the body (paragraph 3)."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "According to Text 1, what happens to unimportant details during sleep?",
+      "options": {
+        "A": "They are turned into dreams.",
+        "B": "They are cleared away.",
+        "C": "They are moved into long-term storage.",
+        "D": "They are strengthened."
+      },
+      "answer": "B",
+      "explanation": "Paragraph 1: useful memories are strengthened, “while unimportant details are cleared away.”"
+    },
+    {
+      "number": 3,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "What do the experiments described in paragraph 2 usually show?",
+      "options": {
+        "A": "Students who stay awake remember more words than students who sleep.",
+        "B": "Both groups of students remember the same number of words.",
+        "C": "Students learn new words more quickly at night.",
+        "D": "Students who sleep remember more words than students who stay awake."
+      },
+      "answer": "D",
+      "explanation": "Paragraph 2: the students who slept usually remember far more words than those who did not."
+    },
+    {
+      "number": 4,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "The word <b>those</b> in the last sentence of paragraph 2 refers to ....",
+      "options": {
+        "A": "experiments",
+        "B": "students",
+        "C": "words",
+        "D": "scientists"
+      },
+      "answer": "B",
+      "explanation": "“... the students who slept usually remember far more words than those who did not” — <i>those</i> replaces <i>the students</i> (who did not sleep)."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "According to Text 1, why do teenagers need eight to ten hours of sleep?",
+      "options": {
+        "A": "Their bodies are still developing.",
+        "B": "They start school early in the morning.",
+        "C": "They use screens late at night.",
+        "D": "They have a lot of homework to do."
+      },
+      "answer": "A",
+      "explanation": "Paragraph 3: teenagers, “whose bodies are still developing,” need about eight to ten hours. Homework, early school hours, and screens are reasons they sleep <i>less</i>."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "According to Text 2, what was the problem with using coins?",
+      "options": {
+        "A": "They lost their value very quickly.",
+        "B": "They were easy to copy.",
+        "C": "They were heavy and risky to carry in large amounts.",
+        "D": "They could not be used to buy silk or tea."
+      },
+      "answer": "C",
+      "explanation": "Paragraph 1: coins were heavy, and carrying sacks of them over long distances was “both tiring and dangerous.”"
+    },
+    {
+      "number": 7,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "What did Chinese merchants receive when they left their coins with a trusted shop?",
+      "options": {
+        "A": "silk and tea of the same value",
+        "B": "official money printed by the government",
+        "C": "a paper note showing the amount deposited",
+        "D": "a sack of lighter coins"
+      },
+      "answer": "C",
+      "explanation": "Paragraph 2: they “received a paper note showing how much money they had deposited.”"
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "The word <b>it</b> in “it could be exchanged for coins again later” (paragraph 2) refers to ....",
+      "options": {
+        "A": "the note",
+        "B": "the shop",
+        "C": "the solution",
+        "D": "the money deposited"
+      },
+      "answer": "A",
+      "explanation": "“The note was light and easy to carry, and it could be exchanged for coins...” — <i>it</i> refers to the note."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "According to Text 2, why does paper money work?",
+      "options": {
+        "A": "It is lighter than metal coins.",
+        "B": "Governments print large amounts of it.",
+        "C": "The paper itself is valuable.",
+        "D": "People trust that others will accept it."
+      },
+      "answer": "D",
+      "explanation": "Paragraph 3: paper money has no value of its own; “it works because everyone trusts that others will accept it.”"
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "What happens when a government prints far too much money?",
+      "options": {
+        "A": "Coins come back into use.",
+        "B": "Money becomes more valuable.",
+        "C": "Prices rise quickly.",
+        "D": "Merchants stop trading."
+      },
+      "answer": "C",
+      "explanation": "Paragraph 3: when a government prints far too much money, “prices rise quickly and the money buys less and less.”"
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "Why did the writer not want the violin at first?",
+      "options": {
+        "A": "The writer thought it was for quiet, boring people.",
+        "B": "The writer already played another instrument.",
+        "C": "The violin was too old to be played.",
+        "D": "The writer's mother did not like music."
+      },
+      "answer": "A",
+      "explanation": "Paragraph 1: “I thought the violin was for quiet, boring people.”"
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "The sentence “the sounds I produced made our cat run out of the room” suggests that the writer ....",
+      "options": {
+        "A": "played very badly at first",
+        "B": "did not like the cat",
+        "C": "played too loudly on purpose",
+        "D": "practiced in the cat's room"
+      },
+      "answer": "A",
+      "explanation": "The cat running away is a humorous way of saying the sounds were unpleasant: the writer was not yet able to play well."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "What happened on the rainy afternoon?",
+      "options": {
+        "A": "The grandmother came to give a violin lesson.",
+        "B": "The writer managed to play the grandmother's song clearly.",
+        "C": "The writer played football with friends.",
+        "D": "The writer decided to stop practicing."
+      },
+      "answer": "B",
+      "explanation": "Paragraph 2: the writer tried a folk song the grandmother used to hum, and “the notes came out clearly.”"
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "How did the grandmother react when she heard the song?",
+      "options": {
+        "A": "She corrected the writer's mistakes.",
+        "B": "She sang along loudly.",
+        "C": "She asked for a different song.",
+        "D": "She closed her eyes and smiled."
+      },
+      "answer": "D",
+      "explanation": "Paragraph 3: “She did not say anything. She just closed her eyes and smiled.”"
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "What does the writer mean by “some gifts take time to open”?",
+      "options": {
+        "A": "The violin was wrapped in many layers of paper.",
+        "B": "The value of some gifts is understood only later.",
+        "C": "Old people give gifts very slowly.",
+        "D": "Gifts should be opened only on special days."
+      },
+      "answer": "B",
+      "explanation": "The writer did not appreciate the violin at first; its real value (a connection with the grandmother) became clear only after months."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "text_lbe4",
+      "question": "According to Text 4, what is a community garden?",
+      "options": {
+        "A": "shared land where neighbors grow plants on small plots",
+        "B": "a farm outside the city that sells vegetables",
+        "C": "a city park where planting is not allowed",
+        "D": "a private garden behind an expensive house"
+      },
+      "answer": "A",
+      "explanation": "Paragraph 1: neighbors share the land, and each family looks after a small plot."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "text_lbe4",
+      "question": "Which of the following is NOT mentioned as a benefit of community gardens?",
+      "options": {
+        "A": "They bring neighbors together.",
+        "B": "They cool the surrounding air.",
+        "C": "They reduce traffic noise.",
+        "D": "They provide fresh food at a low cost."
+      },
+      "answer": "C",
+      "explanation": "Paragraph 2 lists three benefits: cheap fresh food, cooler air, and bringing people together. Traffic noise is not mentioned."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "passage": "text_lbe4",
+      "question": "Why are neighborhoods with gardens often more comfortable on hot days?",
+      "options": {
+        "A": "Fewer people live near gardens.",
+        "B": "Gardens block the wind.",
+        "C": "Plants cool the air around them.",
+        "D": "Concrete absorbs water."
+      },
+      "answer": "C",
+      "explanation": "Paragraph 2: “plants cool the air around them.”"
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "passage": "text_lbe4",
+      "question": "The word <b>they</b> in “they quickly fail if volunteers lose interest” (paragraph 3) refers to ....",
+      "options": {
+        "A": "owners",
+        "B": "buildings",
+        "C": "volunteers",
+        "D": "gardens"
+      },
+      "answer": "D",
+      "explanation": "“Gardens also need regular care, and they quickly fail...” — <i>they</i> refers to gardens."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "passage": "text_lbe4",
+      "question": "According to Text 4, how do some city governments support community gardens?",
+      "options": {
+        "A": "by replacing gardens with new buildings",
+        "B": "by protecting the land by law and providing water and tools",
+        "C": "by selling the land to new owners",
+        "D": "by paying volunteers a monthly salary"
+      },
+      "answer": "B",
+      "explanation": "Last sentence: some governments “protect garden land by law and provide water and tools.”"
+    }
+  ]
+}

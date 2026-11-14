@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T18:32:42",
+  "generated": "2026-11-14T15:23:46",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2558,6 +2558,66 @@
       "path": "TKA SMP/Matematika/Try Out 1/soal_paket_3.json"
     },
     {
+      "title": "UTBK-SNBT - Literasi dalam Bahasa Indonesia (Tingkat Mudah)",
+      "topic": "Teks Saintek, Sosial Humaniora, dan Sastra: Menemukan dan Memahami Informasi",
+      "summary": "100% Mudah. 30 soal dari 6 teks (biologi, fisika, kimia, ekonomi, sejarah, dan sastra). Fokus pada informasi tersurat, gagasan utama, makna kata, dan simpulan sederhana. Waktu UTBK: 42,5 menit.",
+      "questions": 30,
+      "kelas": "UTBK",
+      "mapel": "Literasi dalam Bahasa Indonesia",
+      "topik": [
+        "01 LBI - Tingkat Mudah"
+      ],
+      "path": "UTBK/Literasi dalam Bahasa Indonesia/01 LBI - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Literasi dalam Bahasa Indonesia (Latihan Campuran)",
+      "topic": "Teks Saintek, Sosial Humaniora, dan Sastra: Menemukan, Memahami, Menilai, dan Merefleksi Informasi",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal dari 6 teks (biologi, fisika, kimia, ekonomi, sosiogeografi, dan puisi) sesuai jumlah soal UTBK. Waktu UTBK: 42,5 menit.",
+      "questions": 30,
+      "kelas": "UTBK",
+      "mapel": "Literasi dalam Bahasa Indonesia",
+      "topik": [
+        "02 LBI - Latihan Campuran"
+      ],
+      "path": "UTBK/Literasi dalam Bahasa Indonesia/02 LBI - Latihan Campuran/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Literasi dalam Bahasa Inggris (Tingkat Mudah)",
+      "topic": "Reading Texts on Science, Social Topics, and Personal Narrative: Finding and Understanding Information",
+      "summary": "100% Mudah. 20 soal dari 4 teks berbahasa Inggris (sains, sejarah-ekonomi, narasi personal, dan sosial). Fokus pada informasi tersurat, gagasan utama, rujukan kata, dan makna ungkapan. Waktu UTBK: 20 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Literasi dalam Bahasa Inggris",
+      "topik": [
+        "01 LBE - Tingkat Mudah"
+      ],
+      "path": "UTBK/Literasi dalam Bahasa Inggris/01 LBE - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Literasi dalam Bahasa Inggris (Latihan Campuran)",
+      "topic": "Reading Texts on Science, History, Literature, and Society: Finding, Understanding, Evaluating, and Reflecting on Information",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 4 teks berbahasa Inggris (sains lingkungan, sejarah, kutipan cerita, dan sosial-ekonomi) sesuai jumlah soal UTBK. Waktu UTBK: 20 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Literasi dalam Bahasa Inggris",
+      "topik": [
+        "02 LBE - Latihan Campuran"
+      ],
+      "path": "UTBK/Literasi dalam Bahasa Inggris/02 LBE - Latihan Campuran/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Paket Lengkap Tes Literasi (Latihan Campuran)",
+      "topic": "Literasi dalam Bahasa Indonesia, Literasi dalam Bahasa Inggris, dan Penalaran Matematika",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal terpadu terdiri atas 8 soal Literasi Bahasa Indonesia, 6 soal Literasi Bahasa Inggris, dan 6 soal Penalaran Matematika berstandar UTBK.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Paket Lengkap Tes Literasi",
+      "topik": [
+        "01 Paket Lengkap Tes Literasi - Latihan Campuran"
+      ],
+      "path": "UTBK/Paket Lengkap Tes Literasi/01 Paket Lengkap Tes Literasi - Latihan Campuran/soal.json"
+    },
+    {
       "title": "UTBK-SNBT - Paket Lengkap TPS (12 Soal)",
       "topic": "Penalaran Umum, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, serta Pengetahuan Kuantitatif",
       "summary": "12 soal tingkat mudah, terdiri atas 3 soal PU, 3 soal PPU, 3 soal PBM, dan 3 soal PK.",
@@ -2604,6 +2664,30 @@
         "02 PBM - Latihan Campuran"
       ],
       "path": "UTBK/Pemahaman Bacaan dan Menulis/02 PBM - Latihan Campuran/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Penalaran Matematika (Tingkat Mudah)",
+      "topic": "Masalah Kontekstual: Aritmetika Sosial, Statistika, Geometri, Persentase, dan Jarak-Kecepatan-Waktu",
+      "summary": "100% Mudah. 20 soal dari 5 konteks sehari-hari (tarif parkir, penjualan, kebun, promo toko, dan perjalanan). Fokus pada merumuskan dan menghitung masalah nyata secara langsung. Waktu UTBK: 42,5 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Penalaran Matematika",
+      "topik": [
+        "01 PM - Tingkat Mudah"
+      ],
+      "path": "UTBK/Penalaran Matematika/01 PM - Tingkat Mudah/soal.json"
+    },
+    {
+      "title": "UTBK-SNBT - Penalaran Matematika (Latihan Campuran)",
+      "topic": "Masalah Kontekstual: Fungsi Linear, Eksponen, Bangun Ruang dan Debit, Peluang, serta Barisan dan Deret",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 5 konteks (pribadi, ilmiah, pekerjaan, dan sosial) yang menuntut merumuskan, menggunakan, dan menafsirkan matematika, sesuai jumlah soal UTBK. Waktu UTBK: 42,5 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Penalaran Matematika",
+      "topik": [
+        "02 PM - Latihan Campuran"
+      ],
+      "path": "UTBK/Penalaran Matematika/02 PM - Latihan Campuran/soal.json"
     },
     {
       "title": "UTBK-SNBT - Penalaran Umum (Tingkat Mudah)",

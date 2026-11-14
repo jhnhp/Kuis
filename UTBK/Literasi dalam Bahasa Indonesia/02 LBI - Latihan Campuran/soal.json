@@ -1,0 +1,485 @@
+{
+  "title": "UTBK-SNBT - Literasi dalam Bahasa Indonesia (Latihan Campuran)",
+  "topic": "Teks Saintek, Sosial Humaniora, dan Sastra: Menemukan, Memahami, Menilai, dan Merefleksi Informasi",
+  "subtitle": "Latihan Mandiri 30 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal dari 6 teks (biologi, fisika, kimia, ekonomi, sosiogeografi, dan puisi) sesuai jumlah soal UTBK. Waktu UTBK: 42,5 menit.",
+  "total_questions": 30,
+  "passages": [
+    {
+      "id": "teks_lbi1",
+      "title": "Teks 1: Ketika Antibiotik Tidak Lagi Ampuh",
+      "text": [
+        "Antibiotik bekerja dengan membunuh bakteri atau menghambat pertumbuhannya. Namun, dalam setiap populasi bakteri selalu ada variasi genetik. Sebagian kecil bakteri mungkin kebetulan memiliki mutasi yang membuatnya tahan terhadap obat tertentu. Ketika antibiotik diberikan, bakteri yang peka akan mati, sedangkan yang tahan bertahan hidup dan berkembang biak tanpa pesaing. Dalam beberapa generasi, populasi yang semula didominasi bakteri peka berubah menjadi populasi yang kebal.",
+        "Proses seleksi ini dipercepat oleh perilaku manusia. Penggunaan antibiotik untuk penyakit akibat virus, seperti flu, tidak menyembuhkan pasien, tetapi tetap memberi tekanan seleksi pada bakteri yang hidup di tubuhnya. Menghentikan pengobatan sebelum waktunya juga berisiko karena bakteri yang paling tahan justru yang tersisa. Di sektor peternakan, antibiotik kerap dicampurkan ke dalam pakan untuk memacu pertumbuhan ternak sehingga bakteri terpapar obat dalam dosis rendah secara terus-menerus.",
+        "Persoalan bertambah pelik karena bakteri dapat memindahkan gen kebal kepada bakteri lain, bahkan yang berbeda jenis, melalui potongan DNA melingkar yang disebut plasmid. Sementara itu, penemuan antibiotik golongan baru berjalan jauh lebih lambat daripada munculnya kekebalan. Tanpa pengendalian, infeksi yang kini mudah diobati dapat kembali menjadi penyakit mematikan."
+      ]
+    },
+    {
+      "id": "teks_lbi2",
+      "title": "Teks 2: Cara Kerja Sel Surya",
+      "text": [
+        "Sel surya mengubah cahaya matahari menjadi listrik secara langsung. Bagian utamanya adalah bahan semikonduktor, umumnya silikon, yang disusun dalam dua lapisan dengan sifat kelistrikan berbeda. Ketika partikel cahaya atau foton menumbuk silikon, energinya dapat melepaskan elektron dari ikatannya. Medan listrik di perbatasan kedua lapisan kemudian mendorong elektron bebas itu bergerak ke satu arah sehingga timbul arus listrik.",
+        "Tidak semua energi cahaya dapat dimanfaatkan. Foton berenergi terlalu rendah tidak mampu melepaskan elektron, sedangkan kelebihan energi dari foton berenergi tinggi terbuang sebagai panas. Sebagian cahaya juga terpantul dari permukaan panel. Akibatnya, panel silikon yang umum dijual hanya mengubah sekitar seperlima energi cahaya yang diterimanya menjadi listrik.",
+        "Kinerja panel juga dipengaruhi suhu. Berlawanan dengan dugaan banyak orang, panel yang sangat panas justru menghasilkan tegangan yang lebih rendah. Karena itu, pada hari yang terik tetapi sejuk dan berangin, panel dapat bekerja lebih baik daripada pada hari yang sama teriknya tetapi gerah. Pemasangan panel dengan celah udara di bawahnya merupakan cara sederhana untuk membantu pendinginan."
+      ]
+    },
+    {
+      "id": "teks_lbi3",
+      "title": "Teks 3: Laut yang Makin Asam",
+      "text": [
+        "Lautan menyerap kira-kira seperempat karbon dioksida (CO<sub>2</sub>) yang dilepaskan kegiatan manusia ke atmosfer. Penyerapan ini memperlambat pemanasan global, tetapi ada harga yang harus dibayar. Di dalam air, CO<sub>2</sub> bereaksi membentuk asam karbonat yang kemudian melepaskan ion hidrogen. Makin banyak ion hidrogen, makin rendah pH air laut. Sejak awal era industri, pH rata-rata permukaan laut telah turun dari sekitar 8,2 menjadi 8,1. Angka itu tampak kecil, tetapi karena skala pH bersifat logaritmik, penurunan tersebut berarti kenaikan keasaman hampir 30 persen.",
+        "Air laut sebenarnya tetap bersifat basa. Masalahnya terletak pada ion karbonat. Ion hidrogen tambahan cenderung berikatan dengan ion karbonat sehingga persediaan ion ini di air menyusut. Padahal, karang, kerang, dan sejumlah plankton memerlukan ion karbonat untuk membangun cangkang dan rangka dari kalsium karbonat. Ketika ion karbonat langka, organisme tersebut harus mengeluarkan lebih banyak energi untuk membentuk cangkang, dan pada kondisi ekstrem cangkang yang sudah terbentuk dapat melarut.",
+        "Dampaknya merambat melalui jaring-jaring makanan. Plankton bercangkang merupakan makanan bagi ikan-ikan kecil yang selanjutnya dimangsa ikan besar. Terumbu karang yang pertumbuhannya terhambat juga kehilangan fungsinya sebagai tempat hidup bagi beragam biota laut."
+      ]
+    },
+    {
+      "id": "teks_lbi4",
+      "title": "Teks 4: Bonus Demografi, Peluang yang Bersyarat",
+      "text": [
+        "Bonus demografi terjadi ketika penduduk usia produktif, yakni 15–64 tahun, jauh lebih banyak daripada penduduk usia nonproduktif. Pada kondisi ini angka ketergantungan rendah: setiap pekerja menanggung lebih sedikit anak-anak dan lansia. Secara teori, pendapatan yang tidak habis untuk menanggung kebutuhan itu dapat ditabung dan diinvestasikan sehingga perekonomian tumbuh lebih cepat.",
+        "Akan tetapi, bonus demografi bukanlah hadiah yang datang dengan sendirinya. Jumlah penduduk usia produktif yang besar baru menjadi keuntungan jika mereka benar-benar bekerja dan produktif. Hal itu mensyaratkan pendidikan dan kesehatan yang memadai serta lapangan kerja yang cukup. Tanpa itu, angkatan kerja yang melimpah justru menjelma menjadi pengangguran massal yang membebani anggaran dan memicu masalah sosial.",
+        "Perlu diingat pula bahwa jendela peluang ini tidak terbuka selamanya. Penduduk usia produktif hari ini akan menua, sementara angka kelahiran cenderung terus turun. Beberapa dekade kemudian, proporsi lansia meningkat dan angka ketergantungan naik kembali. Negara yang gagal menjadi makmur sebelum menua akan menghadapi beban ganda: pendapatan yang belum tinggi dan biaya perawatan lansia yang membengkak."
+      ]
+    },
+    {
+      "id": "teks_lbi5",
+      "title": "Teks 5: Kota Pesisir yang Tenggelam Perlahan",
+      "text": [
+        "Sejumlah kota pesisir di dunia menghadapi ancaman ganda: permukaan laut naik, sedangkan permukaan tanahnya turun. Penurunan muka tanah atau subsiden di kawasan perkotaan terutama dipicu oleh pengambilan air tanah yang berlebihan. Ketika air disedot dari lapisan akuifer lebih cepat daripada pengisiannya kembali, rongga-rongga di antara butiran tanah kehilangan penopang, lalu lapisan tanah memadat dan permukaannya ambles.",
+        "Urbanisasi memperparah keadaan melalui dua jalur. Pertama, pertambahan penduduk dan industri meningkatkan kebutuhan air, sementara jaringan air perpipaan sering kali belum menjangkau seluruh wilayah sehingga sumur dalam menjadi andalan. Kedua, lahan terbuka berganti menjadi bangunan dan jalan beraspal. Air hujan yang semestinya meresap dan mengisi kembali akuifer justru mengalir di permukaan menuju saluran, lalu terbuang ke laut.",
+        "Akibatnya terasa dalam keseharian warga. Banjir rob makin sering menggenangi permukiman, bangunan retak, dan saluran air kehilangan kemiringannya sehingga air sulit mengalir. Membangun tanggul laut dapat menahan air untuk sementara, tetapi selama penyedotan air tanah berlanjut, daratan di belakang tanggul tetap turun. Karena itu, penyediaan air perpipaan yang terjangkau dan perluasan daerah resapan dipandang sebagai penyelesaian yang lebih mendasar."
+      ]
+    },
+    {
+      "id": "teks_lbi6",
+      "title": "Teks 6: Di Stasiun Kecil (puisi)",
+      "text": [
+        "Kereta pagi belum juga datang,<br>bangku kayu menyimpan dingin semalam.<br>Ibu merapikan kerah bajuku<br>seolah-olah aku masih kanak-kanak.",
+        "Peluit panjang membelah kabut.<br>Di tangannya, bekal nasi masih hangat;<br>di matanya, musim hujan<br>yang ditahan agar tidak jatuh.",
+        "Pergilah, katanya, kota itu luas.<br>Tetapi pulang selalu lebih dekat<br>daripada yang kaukira:<br>sejauh doa yang tak pernah selesai."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Menurut Teks 1, antibiotik bekerja dengan cara ....",
+      "options": {
+        "A": "memperkuat daya tahan tubuh terhadap virus",
+        "B": "membunuh bakteri atau menghambat pertumbuhannya",
+        "C": "mengubah gen bakteri menjadi tidak berbahaya",
+        "D": "memindahkan plasmid dari satu bakteri ke bakteri lain"
+      },
+      "answer": "B",
+      "explanation": "Kalimat pertama teks menyatakan bahwa antibiotik bekerja dengan membunuh bakteri atau menghambat pertumbuhannya."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Pernyataan yang paling tepat tentang munculnya populasi bakteri kebal menurut paragraf pertama Teks 1 adalah ....",
+      "options": {
+        "A": "Bakteri yang peka menjadi kebal setelah bersaing dengan bakteri yang tahan.",
+        "B": "Bakteri menjadi kebal karena sengaja mengubah gennya saat terkena obat.",
+        "C": "Antibiotik mengubah bakteri yang peka menjadi bakteri yang tahan.",
+        "D": "Antibiotik menyeleksi bakteri tahan yang sudah ada, bukan menciptakan kekebalan itu."
+      },
+      "answer": "D",
+      "explanation": "Mutasi yang membuat bakteri tahan sudah ada (secara kebetulan) sebelum obat diberikan. Antibiotik mematikan bakteri peka sehingga yang tahan berkembang biak tanpa pesaing. Jadi, antibiotik berperan sebagai penyeleksi."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Berdasarkan Teks 1, meminum antibiotik ketika sakit flu merugikan karena ....",
+      "options": {
+        "A": "antibiotik membuat virus flu berkembang biak lebih cepat",
+        "B": "penyakitnya tidak sembuh, sedangkan bakteri di dalam tubuh tetap terseleksi",
+        "C": "virus flu berubah menjadi bakteri yang kebal",
+        "D": "tubuh kehilangan seluruh bakteri sehingga mudah terserang virus"
+      },
+      "answer": "B",
+      "explanation": "Flu disebabkan virus sehingga antibiotik tidak menyembuhkannya. Namun, obat itu tetap memberi tekanan seleksi pada bakteri yang hidup di tubuh pasien."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Hubungan antara paragraf kedua dan paragraf pertama Teks 1 adalah ....",
+      "options": {
+        "A": "Paragraf kedua menyanggah penjelasan yang diberikan pada paragraf pertama.",
+        "B": "Paragraf kedua menguraikan penyebab adanya variasi genetik pada paragraf pertama.",
+        "C": "Paragraf kedua memaparkan faktor-faktor yang mempercepat proses pada paragraf pertama.",
+        "D": "Paragraf kedua merupakan simpulan dari paragraf pertama."
+      },
+      "answer": "C",
+      "explanation": "Paragraf pertama menjelaskan proses seleksi bakteri kebal. Paragraf kedua dibuka dengan “Proses seleksi ini dipercepat oleh perilaku manusia” lalu memerinci perilaku tersebut."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi1",
+      "question": "Sebuah peternakan tidak pernah memakai antibiotik, tetapi pada ternaknya ditemukan beberapa jenis bakteri yang kebal terhadap antibiotik yang sama dengan bakteri kebal di peternakan tetangga yang rutin memakai antibiotik. Penjelasan yang paling didukung oleh Teks 1 adalah ....",
+      "options": {
+        "A": "Gen kebal dapat berpindah antarbakteri, termasuk yang berbeda jenis, melalui plasmid.",
+        "B": "Bakteri di peternakan itu bermutasi karena kekurangan antibiotik.",
+        "C": "Antibiotik golongan baru ditemukan lebih lambat daripada munculnya kekebalan.",
+        "D": "Ternak yang tidak diberi antibiotik tumbuh lebih lambat sehingga mudah terinfeksi."
+      },
+      "answer": "A",
+      "explanation": "Paragraf ketiga menyebutkan bahwa bakteri dapat memindahkan gen kebal kepada bakteri lain, bahkan yang berbeda jenis, melalui plasmid. Hal itu menjelaskan mengapa kekebalan yang sama muncul pada beberapa jenis bakteri di tempat yang tidak memakai antibiotik."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Bahan semikonduktor yang umum digunakan pada sel surya menurut Teks 2 adalah ....",
+      "options": {
+        "A": "aluminium",
+        "B": "silikon",
+        "C": "seng",
+        "D": "tembaga"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama: bagian utama sel surya adalah bahan semikonduktor, umumnya silikon."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi2",
+      "question": "Berdasarkan paragraf pertama Teks 2, peran medan listrik di perbatasan kedua lapisan silikon adalah ....",
+      "options": {
+        "A": "mendorong elektron bebas bergerak ke satu arah sehingga timbul arus",
+        "B": "mengubah foton berenergi rendah menjadi foton berenergi tinggi",
+        "C": "melepaskan elektron dari ikatannya di dalam silikon",
+        "D": "memantulkan cahaya kembali ke permukaan panel"
+      },
+      "answer": "A",
+      "explanation": "Yang melepaskan elektron adalah energi foton. Medan listrik di perbatasan lapisan berperan mengarahkan elektron bebas ke satu arah sehingga timbul arus listrik."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi2",
+      "question": "Simpulan yang tepat dari paragraf kedua Teks 2 adalah ....",
+      "options": {
+        "A": "Panel silikon hanya dapat bekerja jika menerima foton berenergi tinggi.",
+        "B": "Cahaya yang terpantul merupakan satu-satunya penyebab rendahnya efisiensi panel.",
+        "C": "Efisiensi panel terbatas karena sebagian energi cahaya tidak dapat diubah menjadi listrik.",
+        "D": "Seperlima energi cahaya yang diterima panel terbuang sebagai panas."
+      },
+      "answer": "C",
+      "explanation": "Paragraf kedua menyebut tiga sumber kehilangan energi (foton berenergi rendah, kelebihan energi yang menjadi panas, dan pantulan) sehingga hanya sekitar seperlima energi cahaya menjadi listrik."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi2",
+      "question": "Dua panel surya yang identik menerima cahaya matahari dengan intensitas yang sama. Panel P dipasang di daerah bersuhu udara 22 °C dan berangin, sedangkan panel Q di daerah bersuhu udara 36 °C tanpa angin. Berdasarkan Teks 2, perkiraan yang paling tepat adalah ....",
+      "options": {
+        "A": "Panel P menghasilkan listrik lebih sedikit karena angin memantulkan cahaya.",
+        "B": "Kedua panel menghasilkan listrik sama banyak karena intensitas cahayanya sama.",
+        "C": "Panel P menghasilkan listrik lebih banyak karena suhunya lebih rendah.",
+        "D": "Panel Q menghasilkan listrik lebih banyak karena suhunya lebih tinggi."
+      },
+      "answer": "C",
+      "explanation": "Paragraf ketiga: panel yang sangat panas menghasilkan tegangan lebih rendah. Dengan cahaya yang sama, panel di tempat sejuk dan berangin (P) lebih dingin sehingga bekerja lebih baik."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi2",
+      "question": "Berdasarkan Teks 2, perubahan rancangan berikut yang <b>tidak</b> akan menambah listrik yang dihasilkan panel adalah ....",
+      "options": {
+        "A": "membungkus bagian bawah panel dengan penyekat panas agar panel tetap hangat",
+        "B": "memasang panel dengan celah udara di bawahnya",
+        "C": "memakai bahan yang dapat memanfaatkan foton berenergi lebih rendah",
+        "D": "memberi lapisan antipantul pada permukaan panel"
+      },
+      "answer": "A",
+      "explanation": "Lapisan antipantul mengurangi cahaya yang terpantul, celah udara membantu pendinginan, dan bahan yang memanfaatkan foton berenergi rendah mengurangi energi yang tidak terpakai. Sebaliknya, penyekat panas membuat panel makin panas sehingga tegangannya turun."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Menurut Teks 3, senyawa yang terbentuk ketika CO<sub>2</sub> bereaksi dengan air laut adalah ....",
+      "options": {
+        "A": "garam dapur",
+        "B": "asam karbonat",
+        "C": "ion karbonat",
+        "D": "kalsium karbonat"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama: di dalam air, CO<sub>2</sub> bereaksi membentuk asam karbonat yang kemudian melepaskan ion hidrogen."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Penurunan pH air laut dari 8,2 menjadi 8,1 dianggap berarti karena ....",
+      "options": {
+        "A": "skala pH bersifat logaritmik sehingga selisih kecil mencerminkan perubahan besar",
+        "B": "air laut berubah dari basa menjadi asam",
+        "C": "penurunan itu terjadi hanya dalam beberapa tahun terakhir",
+        "D": "pH 8,1 merupakan batas terendah bagi kehidupan di laut"
+      },
+      "answer": "A",
+      "explanation": "Teks menyatakan bahwa karena skala pH logaritmik, penurunan 0,1 berarti kenaikan keasaman hampir 30 persen. Air laut tetap bersifat basa."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Ungkapan <b>harga yang harus dibayar</b> pada paragraf pertama Teks 3 mengacu pada ....",
+      "options": {
+        "A": "mahalnya upaya pemulihan terumbu karang",
+        "B": "biaya penelitian tentang pemanasan global",
+        "C": "berkurangnya CO<sub>2</sub> di atmosfer",
+        "D": "turunnya pH air laut akibat penyerapan CO<sub>2</sub>"
+      },
+      "answer": "D",
+      "explanation": "Penyerapan CO<sub>2</sub> oleh laut memperlambat pemanasan global, tetapi konsekuensi negatifnya adalah terbentuknya asam karbonat yang menurunkan pH air laut."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Berdasarkan paragraf kedua Teks 3, organisme bercangkang terganggu walaupun air laut masih bersifat basa karena ....",
+      "options": {
+        "A": "suhu air laut meningkat sehingga cangkang melunak",
+        "B": "kalsium di dalam air laut habis bereaksi dengan CO<sub>2</sub>",
+        "C": "persediaan ion karbonat untuk membangun cangkang menyusut",
+        "D": "ion hidrogen langsung merusak jaringan tubuh organisme itu"
+      },
+      "answer": "C",
+      "explanation": "Ion hidrogen tambahan berikatan dengan ion karbonat sehingga ion karbonat yang diperlukan untuk membentuk kalsium karbonat menjadi langka."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi3",
+      "question": "Simpulan yang paling didukung oleh keseluruhan Teks 3 adalah ....",
+      "options": {
+        "A": "Ikan besar dapat terdampak pengasaman laut meskipun tidak memiliki cangkang.",
+        "B": "Laut sebaiknya dicegah menyerap CO<sub>2</sub> agar pemanasan global melambat.",
+        "C": "Terumbu karang akan pulih dengan sendirinya setelah pH laut mencapai 8,1.",
+        "D": "Pengasaman laut hanya merugikan organisme yang bercangkang."
+      },
+      "answer": "A",
+      "explanation": "Paragraf ketiga menjelaskan bahwa dampaknya merambat melalui jaring-jaring makanan: plankton bercangkang dimakan ikan kecil, ikan kecil dimangsa ikan besar. Jadi, ikan besar ikut terdampak secara tidak langsung."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Menurut Teks 4, penduduk usia produktif adalah penduduk berusia ....",
+      "options": {
+        "A": "17–55 tahun",
+        "B": "15–64 tahun",
+        "C": "0–14 tahun",
+        "D": "65 tahun ke atas"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama menyebut usia produktif, yakni 15–64 tahun."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi4",
+      "question": "Maksud pernyataan <b>bonus demografi bukanlah hadiah yang datang dengan sendirinya</b> pada Teks 4 adalah ....",
+      "options": {
+        "A": "Jumlah penduduk usia produktif tidak berpengaruh pada perekonomian.",
+        "B": "Bonus demografi hanya terjadi di negara yang sudah makmur.",
+        "C": "Pemerintah harus menambah jumlah penduduk agar memperoleh bonus demografi.",
+        "D": "Manfaatnya baru terwujud jika syarat pendidikan, kesehatan, dan lapangan kerja terpenuhi."
+      },
+      "answer": "D",
+      "explanation": "Paragraf kedua menegaskan bahwa penduduk usia produktif baru menjadi keuntungan jika benar-benar bekerja dan produktif, yang mensyaratkan pendidikan, kesehatan, dan lapangan kerja."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi4",
+      "question": "Angka ketergantungan yang rendah, sebagaimana dijelaskan pada Teks 4, berarti ....",
+      "options": {
+        "A": "setiap pekerja menanggung lebih sedikit penduduk nonproduktif",
+        "B": "jumlah lansia lebih banyak daripada jumlah anak-anak",
+        "C": "pendapatan setiap pekerja lebih kecil daripada kebutuhannya",
+        "D": "sebagian besar penduduk bergantung pada bantuan pemerintah"
+      },
+      "answer": "A",
+      "explanation": "Paragraf pertama: angka ketergantungan rendah berarti setiap pekerja menanggung lebih sedikit anak-anak dan lansia."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi4",
+      "question": "Di negara X, 70% penduduk berusia produktif. Namun, pengangguran pemuda tinggi dan keterampilan lulusan sekolah tidak sesuai dengan kebutuhan industri. Berdasarkan Teks 4, penilaian yang paling tepat terhadap negara X adalah ....",
+      "options": {
+        "A": "Negara X pasti tumbuh cepat karena angka ketergantungannya rendah.",
+        "B": "Negara X berisiko gagal memetik bonus demografi karena syarat produktivitasnya belum terpenuhi.",
+        "C": "Negara X sudah melewati jendela peluang karena penduduknya menua.",
+        "D": "Negara X belum memasuki masa bonus demografi karena penganggurannya tinggi."
+      },
+      "answer": "B",
+      "explanation": "Struktur umur negara X memenuhi ciri bonus demografi, tetapi menurut paragraf kedua keuntungan baru muncul jika penduduk usia produktif bekerja dan produktif. Tanpa itu, angkatan kerja yang melimpah menjadi pengangguran massal."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi4",
+      "question": "Kebijakan yang paling sejalan dengan peringatan pada paragraf ketiga Teks 4 adalah ....",
+      "options": {
+        "A": "meningkatkan produktivitas dan tabungan hari tua selagi penduduk usia produktif masih dominan",
+        "B": "mengandalkan besarnya jumlah penduduk tanpa memperluas lapangan kerja",
+        "C": "mengurangi anggaran kesehatan karena sebagian besar penduduk masih muda",
+        "D": "menunda investasi pendidikan sampai proporsi lansia meningkat"
+      },
+      "answer": "A",
+      "explanation": "Paragraf ketiga memperingatkan bahwa jendela peluang akan tertutup dan negara yang belum makmur sebelum menua menanggung beban ganda. Karena itu, kemakmuran dan persiapan hari tua harus dibangun selagi penduduk produktif masih dominan."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Menurut Teks 5, pemicu utama penurunan muka tanah di kawasan perkotaan adalah ....",
+      "options": {
+        "A": "pembangunan tanggul laut",
+        "B": "curah hujan yang tinggi",
+        "C": "pengambilan air tanah yang berlebihan",
+        "D": "kenaikan permukaan air laut"
+      },
+      "answer": "C",
+      "explanation": "Paragraf pertama: subsiden di kawasan perkotaan terutama dipicu oleh pengambilan air tanah yang berlebihan."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Berdasarkan paragraf pertama Teks 5, tanah ambles ketika air tanah disedot berlebihan karena ....",
+      "options": {
+        "A": "akuifer terisi kembali terlalu cepat oleh air hujan",
+        "B": "bangunan di atasnya menjadi lebih berat",
+        "C": "air laut masuk dan melarutkan lapisan tanah",
+        "D": "rongga di antara butiran tanah kehilangan penopang sehingga tanah memadat"
+      },
+      "answer": "D",
+      "explanation": "Air di dalam akuifer menopang rongga antarbutiran tanah. Ketika air disedot lebih cepat daripada pengisiannya, rongga kehilangan penopang, lapisan tanah memadat, dan permukaan turun."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Dua jalur yang membuat urbanisasi memperparah subsiden menurut Teks 5 adalah ....",
+      "options": {
+        "A": "bangunan retak dan saluran air kehilangan kemiringan",
+        "B": "penyedotan air tanah meningkat dan peresapan air hujan berkurang",
+        "C": "permukaan laut naik dan banjir rob makin sering",
+        "D": "jaringan perpipaan meluas dan sumur dalam berkurang"
+      },
+      "answer": "B",
+      "explanation": "Jalur pertama: kebutuhan air naik sehingga sumur dalam menjadi andalan. Jalur kedua: lahan terbuka tertutup bangunan dan aspal sehingga air hujan tidak meresap mengisi akuifer."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Pandangan penulis Teks 5 terhadap pembangunan tanggul laut adalah ....",
+      "options": {
+        "A": "Tanggul merupakan penyelesaian terbaik untuk menghentikan subsiden.",
+        "B": "Tanggul tidak berguna sama sekali bagi kota pesisir.",
+        "C": "Tanggul justru menjadi penyebab utama turunnya muka tanah.",
+        "D": "Tanggul hanya penyelesaian sementara yang tidak menyentuh akar masalah."
+      },
+      "answer": "D",
+      "explanation": "Penulis menyatakan tanggul dapat menahan air untuk sementara, tetapi daratan di belakangnya tetap turun selama penyedotan berlanjut. Penyelesaian yang lebih mendasar adalah air perpipaan dan daerah resapan."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi5",
+      "question": "Sebuah kota pesisir berhasil menyediakan air perpipaan yang terjangkau bagi seluruh warganya, tetapi pada saat yang sama mengubah hampir semua lahan terbukanya menjadi kawasan terbangun. Berdasarkan Teks 5, akibat yang paling mungkin terjadi adalah ....",
+      "options": {
+        "A": "Subsiden berhenti sepenuhnya dan permukaan tanah naik kembali.",
+        "B": "Banjir rob hilang karena air hujan langsung terbuang ke laut.",
+        "C": "Subsiden makin cepat karena air perpipaan menambah beban tanah.",
+        "D": "Penyedotan air tanah berkurang, tetapi pengisian kembali akuifer tetap terhambat."
+      },
+      "answer": "D",
+      "explanation": "Air perpipaan mengurangi ketergantungan pada sumur dalam (jalur pertama teratasi). Namun, lahan terbangun membuat air hujan tidak meresap (jalur kedua tetap ada) sehingga akuifer sulit terisi kembali."
+    },
+    {
+      "number": 26,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Peristiwa yang digambarkan dalam puisi pada Teks 6 adalah ....",
+      "options": {
+        "A": "perpisahan seorang anak yang akan merantau dengan ibunya",
+        "B": "perjalanan seorang ibu menuju kota dengan kereta pagi",
+        "C": "pertemuan dua sahabat lama di sebuah stasiun",
+        "D": "kepulangan seorang anak dari kota ke kampung halaman"
+      },
+      "answer": "A",
+      "explanation": "Aku lirik menunggu kereta, ibunya merapikan kerah dan membawakan bekal, lalu berkata “Pergilah ... kota itu luas”. Semua itu menggambarkan perpisahan anak yang hendak merantau."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi6",
+      "question": "Larik <b>di matanya, musim hujan / yang ditahan agar tidak jatuh</b> bermakna ....",
+      "options": {
+        "A": "Ibu khawatir hujan akan turun sebelum kereta datang.",
+        "B": "Ibu melihat mendung dari jendela stasiun.",
+        "C": "Ibu menahan air mata agar tidak menangis di depan anaknya.",
+        "D": "Ibu marah karena anaknya memilih pergi."
+      },
+      "answer": "C",
+      "explanation": "“Musim hujan di mata” adalah metafora untuk air mata. “Ditahan agar tidak jatuh” berarti Ibu berusaha tidak menangis saat melepas anaknya."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi6",
+      "question": "Suasana yang paling dominan dalam puisi tersebut adalah ....",
+      "options": {
+        "A": "riang",
+        "B": "tegang",
+        "C": "marah",
+        "D": "haru"
+      },
+      "answer": "D",
+      "explanation": "Perhatian Ibu, air mata yang ditahan, dan pesan tentang pulang membangun suasana haru sebuah perpisahan."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi6",
+      "question": "Majas pada larik <b>bangku kayu menyimpan dingin semalam</b> dan fungsinya dalam puisi adalah ....",
+      "options": {
+        "A": "ironi; menyindir stasiun yang tidak terawat",
+        "B": "simile; membandingkan bangku kayu dengan malam hari",
+        "C": "personifikasi; menguatkan suasana sepi dan dingin menjelang perpisahan",
+        "D": "hiperbola; melebih-lebihkan lamanya waktu menunggu kereta"
+      },
+      "answer": "C",
+      "explanation": "Bangku (benda mati) digambarkan dapat “menyimpan” seperti manusia sehingga majasnya personifikasi. Citraan dingin itu membangun suasana pagi yang sepi sebelum perpisahan."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi6",
+      "question": "Tafsiran yang paling tepat atas bait terakhir puisi tersebut adalah ....",
+      "options": {
+        "A": "Ibu meminta anaknya segera pulang karena kota terlalu luas dan berbahaya.",
+        "B": "Sejauh apa pun anak pergi, ia tetap terhubung dengan rumah melalui doa ibunya.",
+        "C": "Ibu berdoa agar anaknya tidak jadi berangkat ke kota.",
+        "D": "Jarak antara kota dan kampung sebenarnya dapat ditempuh dalam waktu singkat."
+      },
+      "answer": "B",
+      "explanation": "Ibu merelakan anaknya pergi (“Pergilah”), tetapi menegaskan bahwa pulang selalu dekat, “sejauh doa yang tak pernah selesai”. Kedekatan itu bersifat batin: doa ibu yang terus-menerus menjadi penghubung anak dengan rumah."
+    }
+  ]
+}

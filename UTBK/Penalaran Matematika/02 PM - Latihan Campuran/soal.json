@@ -1,0 +1,329 @@
+{
+  "title": "UTBK-SNBT - Penalaran Matematika (Latihan Campuran)",
+  "topic": "Masalah Kontekstual: Fungsi Linear, Eksponen, Bangun Ruang dan Debit, Peluang, serta Barisan dan Deret",
+  "subtitle": "Latihan Mandiri 20 Soal",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 5 konteks (pribadi, ilmiah, pekerjaan, dan sosial) yang menuntut merumuskan, menggunakan, dan menafsirkan matematika, sesuai jumlah soal UTBK. Waktu UTBK: 42,5 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "konteks_pm1",
+      "title": "Konteks 1: Memilih Paket Internet",
+      "text": [
+        "Operator P: biaya bulanan Rp50.000 sudah termasuk kuota 10 GB; setiap 1 GB tambahan dikenai Rp4.000.",
+        "Operator Q: biaya bulanan Rp80.000 sudah termasuk kuota 25 GB; setiap 1 GB tambahan dikenai Rp5.000.",
+        "Pemakaian di bawah atau sama dengan kuota hanya dikenai biaya bulanan. Kuota tambahan dihitung sebanding dengan pemakaian (boleh pecahan GB)."
+      ]
+    },
+    {
+      "id": "konteks_pm2",
+      "title": "Konteks 2: Pertumbuhan Bakteri",
+      "text": [
+        "Dalam suatu percobaan, jumlah bakteri menjadi dua kali lipat setiap 30 menit. Pada pukul 08.00 terdapat 500 bakteri. Tepat ketika jumlahnya mencapai 64.000, peneliti menambahkan zat penghambat sehingga sejak saat itu jumlah bakteri berkurang 25% setiap jam."
+      ]
+    },
+    {
+      "id": "konteks_pm3",
+      "title": "Konteks 3: Tandon Air",
+      "text": [
+        "Sebuah tandon air berbentuk tabung dengan diameter alas 1,4 m dan tinggi 2 m (gunakan π = 22/7). Tandon diisi oleh pompa dengan debit 22 liter per menit. Di bagian bawah tandon terdapat keran yang, jika dibuka, mengalirkan air keluar dengan debit 8 liter per menit."
+      ]
+    },
+    {
+      "id": "konteks_pm4",
+      "title": "Konteks 4: Survei Transportasi Siswa",
+      "text": [
+        "Sebanyak 200 siswa disurvei tentang cara mereka berangkat ke sekolah. Setiap siswa memilih tepat satu cara.",
+        "Kelas X (80 siswa): jalan kaki 20, sepeda 15, sepeda motor 25, angkutan umum 20<br>Kelas XI (70 siswa): jalan kaki 10, sepeda 15, sepeda motor 35, angkutan umum 10<br>Kelas XII (50 siswa): jalan kaki 5, sepeda 5, sepeda motor 30, angkutan umum 10"
+      ]
+    },
+    {
+      "id": "konteks_pm5",
+      "title": "Konteks 5: Kursi Gedung Pertunjukan",
+      "text": [
+        "Sebuah gedung pertunjukan memiliki 20 baris kursi. Baris pertama berisi 12 kursi dan setiap baris berikutnya berisi 2 kursi lebih banyak daripada baris di depannya. Harga tiket untuk baris 1–5 adalah Rp150.000 per kursi, sedangkan untuk baris 6–20 adalah Rp100.000 per kursi."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Biaya yang dibayar pelanggan Operator P yang memakai 8 GB dalam sebulan adalah ....",
+      "options": {
+        "A": "Rp50.000",
+        "B": "Rp82.000",
+        "C": "Rp42.000",
+        "D": "Rp32.000"
+      },
+      "answer": "A",
+      "explanation": "Pemakaian 8 GB masih di bawah kuota 10 GB sehingga hanya dikenai biaya bulanan Rp50.000."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Biaya yang dibayar pelanggan Operator P yang memakai 18 GB dalam sebulan adalah ....",
+      "options": {
+        "A": "Rp90.000",
+        "B": "Rp72.000",
+        "C": "Rp122.000",
+        "D": "Rp82.000"
+      },
+      "answer": "D",
+      "explanation": "Kelebihan pemakaian = 18 − 10 = 8 GB. Biaya = 50.000 + 8 × 4.000 = Rp82.000."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Untuk pemakaian tidak lebih dari 25 GB, biaya di Operator P sama dengan biaya di Operator Q jika pemakaian bulanan sebesar ....",
+      "options": {
+        "A": "17,5 GB",
+        "B": "22,5 GB",
+        "C": "15 GB",
+        "D": "20 GB"
+      },
+      "answer": "A",
+      "explanation": "Untuk pemakaian ≤ 25 GB, biaya Q tetap Rp80.000. Biaya P = 50.000 + 4.000(x − 10). Disamakan: 4.000(x − 10) = 30.000 → x − 10 = 7,5 → x = 17,5 GB."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm1",
+      "question": "Operator Q lebih murah daripada Operator P untuk pemakaian bulanan x GB yang memenuhi ....",
+      "options": {
+        "A": "17,5 < x < 25",
+        "B": "17,5 < x < 55",
+        "C": "x > 17,5",
+        "D": "x > 55"
+      },
+      "answer": "B",
+      "explanation": "Untuk 10 ≤ x ≤ 25: P = 4.000x + 10.000 dan Q = 80.000; Q lebih murah jika x > 17,5.<br>Untuk x > 25: Q = 80.000 + 5.000(x − 25) = 5.000x − 45.000. Q < P ⇔ 5.000x − 45.000 < 4.000x + 10.000 ⇔ x < 55.<br>Jadi, Q lebih murah untuk 17,5 < x < 55. Contoh: x = 60 → P = Rp250.000, Q = Rp255.000 (P kembali lebih murah)."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Jumlah bakteri pada pukul 09.00 adalah ....",
+      "options": {
+        "A": "1.500",
+        "B": "1.000",
+        "C": "4.000",
+        "D": "2.000"
+      },
+      "answer": "D",
+      "explanation": "Dari 08.00 ke 09.00 terjadi dua kali penggandaan: 500 → 1.000 → 2.000."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Sebelum zat penghambat ditambahkan, jumlah bakteri setelah t jam sejak pukul 08.00 dapat dinyatakan dengan ....",
+      "options": {
+        "A": "N(t) = 1.000 × 2<sup>t</sup>",
+        "B": "N(t) = 500 × 4<sup>t</sup>",
+        "C": "N(t) = 500 + 1.000t",
+        "D": "N(t) = 500 × 2<sup>t</sup>"
+      },
+      "answer": "B",
+      "explanation": "Dalam 1 jam terjadi 2 kali penggandaan sehingga jumlah menjadi 2² = 4 kali lipat setiap jam. Jadi, N(t) = 500 × 4<sup>t</sup>. Cek: t = 1 → 2.000."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Zat penghambat ditambahkan pada pukul ....",
+      "options": {
+        "A": "11.00",
+        "B": "10.30",
+        "C": "11.30",
+        "D": "12.00"
+      },
+      "answer": "C",
+      "explanation": "64.000 ÷ 500 = 128 = 2<sup>7</sup>. Diperlukan 7 kali penggandaan = 7 × 30 menit = 210 menit = 3 jam 30 menit setelah pukul 08.00, yaitu pukul 11.30."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm2",
+      "question": "Jumlah bakteri untuk pertama kalinya menjadi kurang dari setengah jumlah saat zat penghambat ditambahkan setelah ....",
+      "options": {
+        "A": "3 jam",
+        "B": "4 jam",
+        "C": "2 jam",
+        "D": "5 jam"
+      },
+      "answer": "A",
+      "explanation": "Setiap jam jumlah tersisa 75%. Setelah 2 jam: 0,75² = 0,5625 (masih lebih dari setengah; 36.000 bakteri). Setelah 3 jam: 0,75³ ≈ 0,4219 (kurang dari setengah; 27.000 bakteri). Jadi, setelah 3 jam."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Volume tandon jika terisi penuh adalah ....",
+      "options": {
+        "A": "3.800 liter",
+        "B": "6.160 liter",
+        "C": "12.320 liter",
+        "D": "3.080 liter"
+      },
+      "answer": "D",
+      "explanation": "Jari-jari = 0,7 m. V = πr²t = 22/7 × 0,7 × 0,7 × 2 = 3,08 m³ = 3.080 liter."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Dengan keran tertutup, waktu yang diperlukan pompa untuk mengisi tandon dari kosong hingga penuh adalah ....",
+      "options": {
+        "A": "2 jam 20 menit",
+        "B": "1 jam 40 menit",
+        "C": "2 jam 40 menit",
+        "D": "3 jam 20 menit"
+      },
+      "answer": "A",
+      "explanation": "Waktu = 3.080 ÷ 22 = 140 menit = 2 jam 20 menit."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Tandon kosong diisi pompa selama 35 menit dengan keran tertutup. Tinggi air di dalam tandon saat itu adalah ....",
+      "options": {
+        "A": "70 cm",
+        "B": "25 cm",
+        "C": "50 cm",
+        "D": "35 cm"
+      },
+      "answer": "C",
+      "explanation": "Volume air = 35 × 22 = 770 liter = 0,77 m³. Luas alas = 22/7 × 0,7² = 1,54 m². Tinggi = 0,77 ÷ 1,54 = 0,5 m = 50 cm. (Cara lain: 35 menit adalah ¼ dari 140 menit sehingga tinggi air ¼ × 2 m.)"
+    },
+    {
+      "number": 12,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm3",
+      "question": "Tandon berisi air setengah penuh. Pompa dan keran kemudian dibuka bersamaan. Tandon akan penuh setelah ....",
+      "options": {
+        "A": "70 menit",
+        "B": "140 menit",
+        "C": "110 menit",
+        "D": "192,5 menit"
+      },
+      "answer": "C",
+      "explanation": "Volume yang harus diisi = ½ × 3.080 = 1.540 liter. Laju pengisian bersih = 22 − 8 = 14 liter/menit. Waktu = 1.540 ÷ 14 = 110 menit."
+    },
+    {
+      "number": 13,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Persentase siswa yang berangkat ke sekolah dengan sepeda motor adalah ....",
+      "options": {
+        "A": "90%",
+        "B": "45%",
+        "C": "40%",
+        "D": "35%"
+      },
+      "answer": "B",
+      "explanation": "Pengguna sepeda motor = 25 + 35 + 30 = 90 siswa. Persentase = 90/200 × 100% = 45%."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Seorang siswa dipilih secara acak dari seluruh responden. Peluang terpilih siswa kelas XI yang bersepeda adalah ....",
+      "options": {
+        "A": "7/40",
+        "B": "3/14",
+        "C": "3/40",
+        "D": "3/7"
+      },
+      "answer": "C",
+      "explanation": "Siswa kelas XI yang bersepeda ada 15 dari 200 responden. Peluang = 15/200 = 3/40."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Seorang siswa dipilih secara acak dari kelas XII. Peluang siswa tersebut berangkat dengan sepeda motor adalah ....",
+      "options": {
+        "A": "9/20",
+        "B": "3/20",
+        "C": "1/3",
+        "D": "3/5"
+      },
+      "answer": "D",
+      "explanation": "Ruang sampelnya hanya kelas XII (50 siswa). Pengguna sepeda motor di kelas XII ada 30. Peluang = 30/50 = 3/5."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm4",
+      "question": "Dua siswa dipilih secara acak dari seluruh siswa yang berjalan kaki. Peluang keduanya berasal dari kelas X adalah ....",
+      "options": {
+        "A": "38/119",
+        "B": "19/35",
+        "C": "4/7",
+        "D": "16/49"
+      },
+      "answer": "A",
+      "explanation": "Siswa yang berjalan kaki = 20 + 10 + 5 = 35, dan 20 di antaranya kelas X. Peluang = (20/35) × (19/34) = 380/1.190 = 38/119."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm5",
+      "question": "Banyaknya kursi pada baris ke-20 adalah ....",
+      "options": {
+        "A": "40",
+        "B": "52",
+        "C": "50",
+        "D": "48"
+      },
+      "answer": "C",
+      "explanation": "Barisan aritmetika dengan a = 12 dan b = 2. U<sub>20</sub> = 12 + 19 × 2 = 50."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm5",
+      "question": "Banyaknya seluruh kursi di gedung pertunjukan itu adalah ....",
+      "options": {
+        "A": "500",
+        "B": "620",
+        "C": "1.240",
+        "D": "640"
+      },
+      "answer": "B",
+      "explanation": "S<sub>20</sub> = 20/2 × (12 + 50) = 10 × 62 = 620 kursi."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Jika semua tiket terjual, pendapatan dari satu kali pertunjukan adalah ....",
+      "options": {
+        "A": "Rp70.000.000",
+        "B": "Rp93.000.000",
+        "C": "Rp62.000.000",
+        "D": "Rp66.000.000"
+      },
+      "answer": "D",
+      "explanation": "Kursi baris 1–5: 12 + 14 + 16 + 18 + 20 = 80 kursi → 80 × 150.000 = Rp12.000.000.<br>Kursi baris 6–20: 620 − 80 = 540 kursi → 540 × 100.000 = Rp54.000.000.<br>Total = Rp66.000.000."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Pada suatu pertunjukan, semua kursi baris 1–5 terjual dan pendapatan seluruhnya Rp52.500.000. Persentase kursi baris 6–20 yang terjual adalah ....",
+      "options": {
+        "A": "80%",
+        "B": "75%",
+        "C": "70%",
+        "D": "65%"
+      },
+      "answer": "B",
+      "explanation": "Pendapatan baris 1–5 = Rp12.000.000. Pendapatan baris 6–20 = 52.500.000 − 12.000.000 = Rp40.500.000, berarti 405 kursi terjual. Persentase = 405/540 × 100% = 75%."
+    }
+  ]
+}
