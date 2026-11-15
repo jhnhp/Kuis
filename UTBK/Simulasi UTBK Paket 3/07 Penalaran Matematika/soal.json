@@ -1,0 +1,350 @@
+{
+  "title": "Simulasi UTBK Paket 3 - Bagian 7: Penalaran Matematika",
+  "topic": "Masalah Kontekstual: Energi Listrik, Teorema Pythagoras dan Trigonometri, Perbandingan Promo, Peluang, serta Barisan dan Deret",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 5 konteks dengan masing-masing 4 soal seperti pada UTBK asli. Waktu UTBK: 42,5 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "konteks_pm1",
+      "title": "Teks untuk soal 1–4",
+      "text": [
+        "Tarif listrik sebuah keluarga adalah Rp1.450,00 per kWh. Pemakaian peralatan listrik setiap hari adalah sebagai berikut.",
+        "Kulkas 100 watt menyala 24 jam<br>Televisi 80 watt menyala 5 jam<br>10 lampu masing-masing 10 watt menyala 6 jam<br>Penanak nasi 400 watt menyala 1 jam",
+        "Anggap 1 bulan = 30 hari."
+      ]
+    },
+    {
+      "id": "konteks_pm2",
+      "title": "Teks untuk soal 5–8",
+      "text": [
+        "Sebuah tangga sepanjang 5 m disandarkan pada dinding tegak. Kaki tangga berada di lantai datar dan berjarak 3 m dari dinding."
+      ]
+    },
+    {
+      "id": "konteks_pm3",
+      "title": "Teks untuk soal 9–12",
+      "text": [
+        "Sebuah toko pakaian menjual kaus seharga Rp90.000,00 per buah dan menawarkan dua pilihan promo. Pembeli hanya boleh memilih salah satu promo.",
+        "Promo A: diskon 30% dari total belanja.<br>Promo B: setiap pembelian 3 kaus, 1 kaus gratis (bayar 2)."
+      ]
+    },
+    {
+      "id": "konteks_pm4",
+      "title": "Teks untuk soal 13–16",
+      "text": [
+        "Sebanyak 200 siswa disurvei mengenai olahraga favoritnya. Setiap siswa memilih tepat satu olahraga.",
+        "Putra (120 siswa): sepak bola 50, basket 30, bulu tangkis 25, voli 15<br>Putri (80 siswa): sepak bola 10, basket 20, bulu tangkis 30, voli 20"
+      ]
+    },
+    {
+      "id": "konteks_pm5",
+      "title": "Teks untuk soal 17–20",
+      "text": [
+        "Rina mulai menabung pada bulan Januari. Pada bulan pertama ia menabung Rp50.000,00, dan setiap bulan berikutnya ia menabung Rp10.000,00 lebih banyak daripada bulan sebelumnya. Kakaknya menabung tetap Rp120.000,00 setiap bulan mulai bulan yang sama."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Energi listrik yang digunakan kulkas dalam satu hari adalah ... kWh.",
+      "options": {
+        "A": "24",
+        "B": "0,1",
+        "C": "4,8",
+        "D": "2,4",
+        "E": "1,2"
+      },
+      "answer": "D",
+      "explanation": "100 W × 24 jam = 2.400 Wh = 2,4 kWh."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Energi listrik yang digunakan seluruh peralatan dalam satu hari adalah ... kWh.",
+      "options": {
+        "A": "2,9",
+        "B": "5,0",
+        "C": "3,2",
+        "D": "3,8",
+        "E": "4,2"
+      },
+      "answer": "D",
+      "explanation": "Kulkas 2,4; televisi 0,08 × 5 = 0,4; lampu 10 × 0,01 × 6 = 0,6; penanak nasi 0,4. Total 3,8 kWh."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Biaya listrik keluarga itu dalam satu bulan adalah ....",
+      "options": {
+        "A": "Rp5.510,00",
+        "B": "Rp114.000,00",
+        "C": "Rp182.700,00",
+        "D": "Rp165.300,00",
+        "E": "Rp139.200,00"
+      },
+      "answer": "D",
+      "explanation": "3,8 × 30 × 1.450 = Rp165.300."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm1",
+      "question": "Keluarga itu mengganti semua lampu dengan lampu LED 5 watt dan mengurangi waktu menonton televisi menjadi 3 jam sehari. Penghematan biaya listrik dalam satu bulan adalah ....",
+      "options": {
+        "A": "Rp20.010,00",
+        "B": "Rp13.050,00",
+        "C": "Rp26.100,00",
+        "D": "Rp33.060,00",
+        "E": "Rp6.960,00"
+      },
+      "answer": "A",
+      "explanation": "Lampu hemat 10 × 0,005 × 6 = 0,3 kWh/hari. Televisi hemat 0,08 × 2 = 0,16 kWh/hari. Total 0,46 × 30 × 1.450 = Rp20.010."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Tinggi ujung atas tangga dari lantai adalah ... m.",
+      "options": {
+        "A": "3",
+        "B": "8",
+        "C": "2",
+        "D": "√34",
+        "E": "4"
+      },
+      "answer": "E",
+      "explanation": "√(5² − 3²) = √16 = 4 m."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Jika kaki tangga digeser menjauhi dinding sehingga jaraknya menjadi 4 m, ujung atas tangga turun sejauh ... m.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "1",
+        "D": "2",
+        "E": "0,5"
+      },
+      "answer": "C",
+      "explanation": "Tinggi baru √(25 − 16) = 3 m. Ujung atas turun 4 − 3 = 1 m."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Pada posisi semula, nilai sinus sudut antara tangga dan lantai adalah ....",
+      "options": {
+        "A": "4/3",
+        "B": "3/5",
+        "C": "4/5",
+        "D": "3/4",
+        "E": "5/4"
+      },
+      "answer": "C",
+      "explanation": "sin = sisi depan/miring = tinggi/panjang tangga = 4/5."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm2",
+      "question": "Seorang tukang cat memerlukan ujung atas tangga mencapai ketinggian paling sedikit 4,8 m. Jarak terjauh kaki tangga dari dinding adalah ... m.",
+      "options": {
+        "A": "1,4",
+        "B": "1,0",
+        "C": "1,8",
+        "D": "0,2",
+        "E": "2,4"
+      },
+      "answer": "A",
+      "explanation": "Jarak = √(5² − 4,8²) = √(25 − 23,04) = √1,96 = 1,4 m. Makin jauh kaki tangga, makin rendah ujung atasnya."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Jika membeli 3 kaus dengan Promo A, pembeli harus membayar ....",
+      "options": {
+        "A": "Rp81.000,00",
+        "B": "Rp189.000,00",
+        "C": "Rp270.000,00",
+        "D": "Rp180.000,00",
+        "E": "Rp243.000,00"
+      },
+      "answer": "B",
+      "explanation": "3 × 90.000 = 270.000; diskon 30% → 270.000 × 0,7 = Rp189.000."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Untuk pembelian 3 kaus, pernyataan yang benar adalah ....",
+      "options": {
+        "A": "Promo B lebih murah Rp9.000,00 daripada Promo A.",
+        "B": "Promo A lebih murah Rp9.000,00 daripada Promo B.",
+        "C": "Promo B lebih murah Rp90.000,00 daripada Promo A.",
+        "D": "Promo A lebih murah Rp81.000,00 daripada Promo B.",
+        "E": "Kedua promo sama murahnya."
+      },
+      "answer": "A",
+      "explanation": "Promo A: 189.000. Promo B: bayar 2 kaus = 180.000. Promo B lebih murah Rp9.000."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Untuk pembelian 6 kaus, pembeli sebaiknya memilih ....",
+      "options": {
+        "A": "Promo A, karena membayar Rp360.000,00",
+        "B": "Promo A, karena membayar Rp378.000,00",
+        "C": "promo mana pun, karena harganya sama",
+        "D": "Promo B, karena membayar Rp360.000,00",
+        "E": "Promo B, karena membayar Rp378.000,00"
+      },
+      "answer": "D",
+      "explanation": "Promo A: 540.000 × 0,7 = 378.000. Promo B: bayar 4 kaus = 360.000. Promo B lebih murah."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm3",
+      "question": "Jika jumlah kaus yang dibeli antara 1 sampai 6 buah, banyaknya pilihan jumlah kaus yang membuat Promo A lebih murah daripada Promo B adalah ....",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "2",
+        "E": "6"
+      },
+      "answer": "C",
+      "explanation": "Bandingkan 0,7n dengan banyak kaus yang dibayar pada Promo B (n − ⌊n/3⌋): n = 1 (0,7 < 1), 2 (1,4 < 2), 4 (2,8 < 3), 5 (3,5 < 4) → A lebih murah. n = 3 (2,1 > 2) dan n = 6 (4,2 > 4) → B lebih murah. Ada 4 pilihan."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Persentase siswa yang memilih bulu tangkis adalah ....",
+      "options": {
+        "A": "27,5%",
+        "B": "30%",
+        "C": "55%",
+        "D": "25%",
+        "E": "37,5%"
+      },
+      "answer": "A",
+      "explanation": "Bulu tangkis: 25 + 30 = 55 siswa. 55/200 = 27,5%."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Seorang siswa putri dipilih secara acak. Peluang siswa tersebut memilih voli adalah ....",
+      "options": {
+        "A": "4/7",
+        "B": "1/4",
+        "C": "1/6",
+        "D": "1/10",
+        "E": "7/40"
+      },
+      "answer": "B",
+      "explanation": "Ruang sampel hanya siswa putri (80). Pemilih voli putri 20. Peluang 20/80 = 1/4."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Manakah dari tiga pernyataan berikut yang bernilai benar?<br>(1) Basket dipilih oleh 50 siswa.<br>(2) Proporsi siswa putri yang memilih bulu tangkis lebih besar daripada proporsi siswa putra yang memilih bulu tangkis.<br>(3) Sepak bola dipilih oleh lebih dari sepertiga seluruh siswa.",
+      "options": {
+        "A": "Semua pernyataan benar",
+        "B": "Pernyataan (1) dan (2) SAJA yang benar",
+        "C": "Pernyataan (1) dan (3) SAJA yang benar",
+        "D": "Pernyataan (2) dan (3) SAJA yang benar",
+        "E": "Tidak ada pernyataan yang benar"
+      },
+      "answer": "B",
+      "explanation": "(1) 30 + 20 = 50 (benar). (2) 30/80 = 37,5% > 25/120 ≈ 20,8% (benar). (3) 60/200 = 30% < 1/3 (salah)."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm4",
+      "question": "Dua siswa dipilih secara acak dari seluruh siswa yang memilih voli. Peluang keduanya siswa putra adalah ....",
+      "options": {
+        "A": "3/7",
+        "B": "3/17",
+        "C": "1/4",
+        "D": "6/35",
+        "E": "9/49"
+      },
+      "answer": "B",
+      "explanation": "Pemilih voli 35 siswa, 15 di antaranya putra. Peluang = 15/35 × 14/34 = 210/1.190 = 3/17."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Besar uang yang ditabung Rina pada bulan keenam adalah ....",
+      "options": {
+        "A": "Rp90.000,00",
+        "B": "Rp450.000,00",
+        "C": "Rp110.000,00",
+        "D": "Rp60.000,00",
+        "E": "Rp100.000,00"
+      },
+      "answer": "E",
+      "explanation": "50.000 + 5 × 10.000 = Rp100.000."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm5",
+      "question": "Jumlah tabungan Rina selama 12 bulan adalah ....",
+      "options": {
+        "A": "Rp1.320.000,00",
+        "B": "Rp1.440.000,00",
+        "C": "Rp1.200.000,00",
+        "D": "Rp660.000,00",
+        "E": "Rp1.260.000,00"
+      },
+      "answer": "E",
+      "explanation": "S<sub>12</sub> = 12/2 × (2 × 50.000 + 11 × 10.000) = 6 × 210.000 = Rp1.260.000."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Jumlah tabungan Rina pertama kali mencapai paling sedikit Rp1.000.000,00 pada bulan ke- ....",
+      "options": {
+        "A": "9",
+        "B": "20",
+        "C": "11",
+        "D": "10",
+        "E": "12"
+      },
+      "answer": "C",
+      "explanation": "S<sub>n</sub> = n/2 × (100.000 + 10.000(n − 1)) = 45.000n + 5.000n². S<sub>10</sub> = 950.000 dan S<sub>11</sub> = 1.100.000. Jadi bulan ke-11."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Jumlah tabungan Rina pertama kali sama dengan jumlah tabungan kakaknya pada akhir bulan ke- ....",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "24",
+        "D": "16",
+        "E": "15"
+      },
+      "answer": "E",
+      "explanation": "45.000n + 5.000n² = 120.000n ⇔ 5.000n = 75.000 ⇔ n = 15. Keduanya Rp1.800.000."
+    }
+  ]
+}

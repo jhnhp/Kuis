@@ -1,0 +1,342 @@
+{
+  "title": "Simulasi UTBK Paket 3 - Bagian 2: Pengetahuan dan Pemahaman Umum",
+  "topic": "Makna Kata, Hubungan Kata, Imbuhan, Rujukan, dan Bahasa Buatan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 bacaan pendek yang diadaptasi dari Wikipedia bahasa Indonesia (Rumah Gadang, Candi Prambanan, Kopi, Kearifan lokal). Waktu UTBK: 15 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_ppu1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Rumah Gadang adalah nama untuk rumah adat Minangkabau yang banyak dijumpai di Sumatera Barat. <sup>2</sup>Rumah ini juga disebut dengan nama lain Rumah Bagonjong atau Rumah Baanjuang oleh masyarakat setempat. <sup>3</sup>Tidak seluruh daerah di Sumatera Barat boleh mendirikan rumah gadang karena wilayah provinsi tidak sama dengan Alam Minangkabau. <sup>4</sup>Masyarakat hanya boleh mendirikan rumah gadang di kawasan yang telah berstatus nagari. <sup>5</sup>Wilayah lain yang statusnya di bawah nagari, seperti dusun dan jorong, belum boleh mendirikannya. <sup>6</sup>Konsekuensinya, wilayah seperti Kabupaten Mentawai tidak dapat mendirikan rumah gadang karena tidak ada nagari di sana.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Rumah Gadang” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Candi Prambanan adalah bangunan candi bercorak agama Hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi. <sup>2</sup>Candi ini dipersembahkan untuk Trimurti, yaitu Brahma sebagai dewa pencipta, Wisnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. <sup>3</sup>Kompleks candi ini terletak di perbatasan Daerah Istimewa Yogyakarta dan Jawa Tengah. <sup>4</sup>Arsitekturnya tinggi dan ramping, dengan candi Siwa sebagai candi utama yang menjulang setinggi 47 meter di tengah gugusan candi yang lebih kecil. <sup>5</sup>Sebagai salah satu candi termegah di Asia Tenggara, Prambanan menjadi daya tarik bagi wisatawan dari seluruh dunia. <sup>6</sup>Menurut prasasti Siwagrha, candi ini mulai dibangun sekitar tahun 850 Masehi oleh Rakai Pikatan.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Candi Prambanan” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Kopi merupakan minuman yang diseduh dari biji kopi yang sudah disangrai dan dihaluskan. <sup>2</sup>Berwarna gelap, pahit, dan sedikit asam, kopi memiliki efek stimulan karena kandungan kafeinnya. <sup>3</sup>Gula, susu, dan krim sering ditambahkan untuk menyamarkan rasa pahit atau memperkuat cita rasanya. <sup>4</sup>Hingga akhir abad ke-17, sebagian besar kopi dunia diimpor dari Yaman. <sup>5</sup>Seiring meningkatnya popularitas, kopi mulai dibudidayakan di Jawa pada abad ke-17. <sup>6</sup>Meskipun penjualan kopi mencapai miliaran dolar setiap tahun, para petani kopi secara tidak proporsional hidup dalam kemiskinan.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Kopi” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Kearifan lokal merupakan bagian dari budaya suatu masyarakat yang tidak dapat dipisahkan dari bahasa masyarakat itu sendiri. <sup>2</sup>Kearifan lokal biasanya diwariskan secara turun-temurun melalui cerita dari mulut ke mulut. <sup>3</sup>Kearifan lokal ada di dalam cerita rakyat, peribahasa, lagu, dan permainan rakyat. <sup>4</sup>Kearifan lokal merupakan pengetahuan yang ditemukan masyarakat setempat melalui kumpulan pengalaman dalam mencoba. <sup>5</sup>Pengetahuan itu dipadukan dengan pemahaman terhadap budaya dan keadaan alam suatu tempat.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Kearifan lokal” (CC BY-SA 4.0).</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Kata <i>konsekuensinya</i> pada kalimat (6) sama maknanya dengan kata ....",
+      "options": {
+        "A": "akibatnya",
+        "B": "misalnya",
+        "C": "sebaliknya",
+        "D": "sebelumnya",
+        "E": "selanjutnya"
+      },
+      "answer": "A",
+      "explanation": "Konsekuensi berarti akibat dari suatu keadaan."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu1",
+      "question": "Hubungan kata <i>Rumah Gadang</i> dan <i>Minangkabau</i> sama dengan hubungan kata <i>Tongkonan</i> dan kata ....",
+      "options": {
+        "A": "upacara",
+        "B": "atap",
+        "C": "Toraja",
+        "D": "kayu",
+        "E": "Bali"
+      },
+      "answer": "C",
+      "explanation": "Rumah Gadang adalah rumah adat Minangkabau; Tongkonan adalah rumah adat Toraja (rumah adat : suku)."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Kalimat (4) dan (5) mengandung hubungan ....",
+      "options": {
+        "A": "sebab-akibat",
+        "B": "perbandingan",
+        "C": "penegasan",
+        "D": "pengandaian",
+        "E": "pemilihan"
+      },
+      "answer": "C",
+      "explanation": "Kalimat (4) menyatakan syarat (hanya di kawasan berstatus nagari), dan kalimat (5) menegaskan syarat itu dari sisi sebaliknya (wilayah di bawah nagari belum boleh)."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu1",
+      "question": "Apabila gagasan pada bacaan tersebut dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah ....",
+      "options": {
+        "A": "(1) dan (2-3-4-5-6)",
+        "B": "(1-2) dan (3-4-5-6)",
+        "C": "(1-2-3) dan (4-5-6)",
+        "D": "(1-2-3-4) dan (5-6)",
+        "E": "(1-2-3-4-5) dan (6)"
+      },
+      "answer": "B",
+      "explanation": "Kalimat (1)–(2) mengenalkan Rumah Gadang dan namanya. Kalimat (3)–(6) membahas aturan tempat pendiriannya."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu1",
+      "question": "Makna <i>ber-</i> pada kata <i>berstatus</i> dalam kalimat (4) sama dengan makna <i>ber-</i> pada kata ....",
+      "options": {
+        "A": "berlari (Adik berlari ke sekolah.)",
+        "B": "bergelar (Ia bergelar sarjana hukum.)",
+        "C": "bersalaman (Mereka bersalaman.)",
+        "D": "berenang (Kami berenang di sungai.)",
+        "E": "bercermin (Ia bercermin sebelum berangkat.)"
+      },
+      "answer": "B",
+      "explanation": "Berstatus berarti ‘mempunyai status’. Makna ‘mempunyai’ juga ada pada bergelar. Berlari dan berenang = melakukan; bersalaman = saling; bercermin = memakai/menggunakan."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>menjulang</i> pada kalimat (4) sama maknanya dengan kata ....",
+      "options": {
+        "A": "tenggelam",
+        "B": "memanjang",
+        "C": "merunduk",
+        "D": "meninggi",
+        "E": "melebar"
+      },
+      "answer": "D",
+      "explanation": "Menjulang berarti tinggi ke atas, yaitu meninggi."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Hubungan kata <i>Wisnu</i> dan <i>pemelihara</i> dalam bacaan sama dengan hubungan kata <i>Brahma</i> dan kata ....",
+      "options": {
+        "A": "dewa",
+        "B": "pencipta",
+        "C": "candi",
+        "D": "pemusnah",
+        "E": "Trimurti"
+      },
+      "answer": "B",
+      "explanation": "Wisnu berperan sebagai pemelihara; Brahma berperan sebagai pencipta (tokoh : perannya)."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>termegah</i> pada kalimat (5) memiliki makna yang berlawanan dengan kata ....",
+      "options": {
+        "A": "tersederhana",
+        "B": "terkenal",
+        "C": "terindah",
+        "D": "tertinggi",
+        "E": "terbesar"
+      },
+      "answer": "A",
+      "explanation": "Megah berarti mewah dan agung; lawannya sederhana."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Gagasan utama kalimat (5) dapat diungkapkan kembali dengan kalimat ....",
+      "options": {
+        "A": "Wisatawan dunia wajib mengunjungi Prambanan.",
+        "B": "Prambanan adalah satu-satunya candi megah di Asia Tenggara.",
+        "C": "Kemegahan Prambanan menarik wisatawan dari berbagai negara.",
+        "D": "Prambanan hanya dikunjungi wisatawan asing.",
+        "E": "Prambanan dibangun untuk menarik wisatawan."
+      },
+      "answer": "C",
+      "explanation": "Kalimat (5) menyatakan bahwa sebagai salah satu candi termegah, Prambanan menarik wisatawan dunia. Pilihan lain mengubah makna (satu-satunya, wajib, hanya, dibangun untuk)."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu2",
+      "question": "Makna <i>pe-</i> pada kata <i>pemelihara</i> dalam kalimat (2) sama dengan makna <i>pe-</i> pada kata ....",
+      "options": {
+        "A": "petang",
+        "B": "pelan",
+        "C": "penulis",
+        "D": "pemalu",
+        "E": "pendek"
+      },
+      "answer": "C",
+      "explanation": "Pemelihara = orang (atau yang) memelihara, yaitu pelaku. Penulis juga bermakna pelaku. Pemalu bermakna ‘bersifat malu’; kata lain bukan bentukan pe-."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata <i>menyamarkan</i> pada kalimat (3) sama maknanya dengan kata ....",
+      "options": {
+        "A": "mengukur",
+        "B": "menambahkan",
+        "C": "menghapus sama sekali",
+        "D": "menutupi",
+        "E": "menonjolkan"
+      },
+      "answer": "D",
+      "explanation": "Menyamarkan rasa pahit berarti membuatnya tidak terlalu terasa, yaitu menutupi."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata dalam bacaan tersebut yang digunakan dengan makna kias adalah ....",
+      "options": {
+        "A": "diimpor (kalimat 4)",
+        "B": "diseduh (kalimat 1)",
+        "C": "disangrai (kalimat 1)",
+        "D": "memperkuat (kalimat 3)",
+        "E": "dihaluskan (kalimat 1)"
+      },
+      "answer": "D",
+      "explanation": "Makna sebenarnya <i>memperkuat</i> adalah membuat lebih kuat secara fisik; pada kalimat (3) dipakai untuk cita rasa (makna kias). Kata lain bermakna sebenarnya."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu3",
+      "question": "Kalimat (6) mengandung hubungan pertentangan antara ....",
+      "options": {
+        "A": "abad ke-17 dan abad ke-18",
+        "B": "besarnya nilai penjualan kopi dan kemiskinan petaninya",
+        "C": "rasa pahit kopi dan tambahan gula",
+        "D": "efek stimulan dan kafein",
+        "E": "kopi dari Yaman dan kopi dari Jawa"
+      },
+      "answer": "B",
+      "explanation": "<i>Meskipun</i> mempertentangkan penjualan kopi yang mencapai miliaran dolar dengan petani kopi yang hidup dalam kemiskinan."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu3",
+      "question": "Hubungan kata <i>kopi</i> dan <i>kafein</i> sama dengan hubungan kata <i>teh</i> dan kata ....",
+      "options": {
+        "A": "katekin",
+        "B": "kebun",
+        "C": "gula",
+        "D": "gelas",
+        "E": "pagi"
+      },
+      "answer": "A",
+      "explanation": "Kafein adalah zat yang terkandung dalam kopi; katekin adalah zat yang terkandung dalam teh (bahan : zat kandungannya)."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata <i>dibudidayakan</i> pada kalimat (5) berasosiasi dengan kata ....",
+      "options": {
+        "A": "pertambangan",
+        "B": "pelabuhan",
+        "C": "pengadilan",
+        "D": "perpustakaan",
+        "E": "perkebunan"
+      },
+      "answer": "E",
+      "explanation": "Kopi dibudidayakan berarti ditanam dan dipelihara, yaitu berkaitan dengan perkebunan."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu4",
+      "question": "Ungkapan <i>dari mulut ke mulut</i> pada kalimat (2) bermakna ....",
+      "options": {
+        "A": "secara lisan dari satu orang ke orang lain",
+        "B": "secara rahasia",
+        "C": "melalui tulisan dalam buku",
+        "D": "melalui siaran radio",
+        "E": "dengan cara berbisik"
+      },
+      "answer": "A",
+      "explanation": "Diwariskan dari mulut ke mulut berarti disampaikan secara lisan dari orang ke orang."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu4",
+      "question": "Kata <i>turun-temurun</i> pada kalimat (2) sama maknanya dengan kata ....",
+      "options": {
+        "A": "dari atas ke bawah",
+        "B": "sekali-sekali",
+        "C": "secara cepat",
+        "D": "secara tertulis",
+        "E": "dari generasi ke generasi"
+      },
+      "answer": "E",
+      "explanation": "Turun-temurun berarti diwariskan dari generasi ke generasi."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu4",
+      "question": "Kata <i>itu</i> dalam frasa <i>pengetahuan itu</i> pada kalimat (5) merujuk pada ....",
+      "options": {
+        "A": "cerita rakyat dan peribahasa",
+        "B": "budaya masyarakat lain",
+        "C": "bahasa masyarakat",
+        "D": "pengetahuan yang ditemukan masyarakat setempat melalui pengalaman",
+        "E": "keadaan alam suatu tempat"
+      },
+      "answer": "D",
+      "explanation": "<i>Pengetahuan itu</i> merujuk pada pengetahuan yang disebut pada kalimat (4)."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu4",
+      "question": "Kelompok kata yang berpasangan tetap adalah ....",
+      "options": {
+        "A": "masyarakat itu",
+        "B": "keadaan alam",
+        "C": "pengetahuan baru",
+        "D": "kumpulan pengalaman",
+        "E": "cerita rakyat"
+      },
+      "answer": "E",
+      "explanation": "<i>Cerita rakyat</i> adalah gabungan kata yang menjadi istilah tetap (jenis sastra lisan) dan tidak dapat diganti unsurnya tanpa mengubah makna. Frasa lain unsurnya dapat diganti secara bebas."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Guru menulis surat – <i>Kesa dimo ralu</i><br>Murid membaca buku – <i>Tavi fenu sopa</i><br>Apa guru membaca surat? – <i>Fenu kesa ri’ralu</i><br><br>Bagaimana cara mengatakan “Apa murid menulis buku?” dengan menggunakan bahasa tersebut?",
+      "options": {
+        "A": "Tavi dimo ri’sopa?",
+        "B": "Dimo kesa ri’sopa?",
+        "C": "Fenu tavi ri’sopa?",
+        "D": "Dimo tavi ri’ralu?",
+        "E": "Dimo tavi ri’sopa?"
+      },
+      "answer": "E",
+      "explanation": "kesa = guru, dimo = menulis, ralu = surat, tavi = murid, fenu = membaca, sopa = buku. Pola tanya: kata kerja + pelaku + <i>ri’</i> + objek. Jadi: <i>Dimo tavi ri’sopa?</i>"
+    }
+  ]
+}

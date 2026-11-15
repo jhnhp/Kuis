@@ -1,0 +1,342 @@
+{
+  "title": "Simulasi UTBK Paket 3 - Bagian 3: Pemahaman Bacaan dan Menulis",
+  "topic": "Pemilihan Gagasan, Penataan Gagasan, dan Perbaikan Gagasan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 teks yang diadaptasi dari Wikipedia bahasa Indonesia (sebagian sengaja diberi kesalahan untuk diperbaiki). Waktu UTBK: 25 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_pbm1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Mikroplastik adalah potongan plastik yang sangat kecil dan dapat mencemari lingkungan. <sup>2</sup>Meskipun ada berbagai pendapat mengenai ukurannya, mikroplastik didefinisikan memiliki diameter kurang dari 5 mm. <sup>3</sup>Mikroplastik memasuki <b>ekosistem</b> alami dari beragam sumber, seperti <b>kosmetik</b>, sabun, pakaian, dan kemasan makanan. <sup>4</sup>Mikroplastik primer diproduksi langsung untuk produk tertentu, sedangkan mikroplastik sekunder berasal dari penguraian sampah plastik di lautan. <sup>5</sup>Mikroplastik dapat ditelan oleh berbagai <b>organisme</b> hingga akhirnya terkumpul pada pemangsa puncak, termasuk manusia. <sup>6</sup>Salah satu sumber utama masuknya mikroplastik ke dalam tubuh manusia adalah garam. <sup>7</sup>[....], efek mikroplastik terhadap kesehatan saat ini masih <b>diteliti</b>.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Mikroplastik” (CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Sel surya adalah alat semikonduktor yang dapat mengubah cahaya matahari menjadi energi listrik. <sup>2</sup>Pengubahan bentuk energi ini disebut efek fotovoltaik. <sup>3</sup>Sel surya terutama cocok digunakan bila tenaga listrik dari jaringan tidak tersedia, seperti di wilayah terpencil, satelit, kalkulator, dan pompa air. <sup>4</sup>Dalam bentuk modul atau panel surya, sel surya dapat di pasang di atap gedung. <sup>5</sup>Banyak bahan semikonduktor yang dapat dipakai untuk membuat sel surya, diantaranya silikon dan germanium. <sup>6</sup>Penggunaan sel surya juga mengurangi ketergantungan pada bahan bakar fosil.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Sel surya” (CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Hujan asam merupakan hujan dengan nilai pH di bawah 5,6. <sup>2</sup>Hujan secara alami bersifat sedikit asam karena karbon dioksida di udara terlarut dalam air hujan. <sup>3</sup>Hujan asam disebabkan oleh belerang dan nitrogen yang bereaksi dengan oksigen membentuk sulfur dioksida dan nitrogen oksida. <sup>4</sup>Zat-zat ini bereaksi dengan air, membentuk asam sulfat dan asam nitrat yang jatuh bersama air hujan. <sup>5</sup>Air hujan yang asam tersebut akan meningkatkan kadar keasaman tanah dan air permukaan. <sup>6</sup>Hal ini terbukti berbahaya bagi kehidupan ikan dan tanaman. <sup>7</sup>Oleh karena itu, [....].",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Hujan asam” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Fotosintesis adalah proses pembentukan karbohidrat dari bahan anorganik yang dilakukan oleh tumbuhan, terutama yang mengandung klorofil. <sup>2</sup>Selain tumbuhan, alga dan beberapa jenis bakteri juga berfotosintesis dengan menggunakan karbon dioksida, air, serta bantuan energi cahaya matahari. <sup>3</sup>Hampir semua makhluk hidup bergantung pada energi yang dihasilkan dalam proses fotosintesis. <sup>4</sup>Fotosintesis juga berjasa menghasilkan sebagian besar oksigen yang terdapat di atmosfer bumi. <sup>5</sup>Organisme yang menghasilkan energi melalui fotosintesis disebut fototrof. <sup>6</sup>Fotosintesis merupakan salah satu cara asimilasi karbon karena karbon dari CO<sub>2</sub> diikat menjadi gula sebagai molekul penyimpan energi.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Fotosintesis” (CC BY-SA 4.0).</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Kata penghubung yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": {
+        "A": "Namun",
+        "B": "Akibatnya",
+        "C": "Selain itu",
+        "D": "Dengan demikian",
+        "E": "Oleh karena itu"
+      },
+      "answer": "A",
+      "explanation": "Kalimat (5)–(6) menunjukkan mikroplastik masuk ke tubuh manusia, tetapi kalimat (7) menyatakan efeknya belum diketahui pasti. Hubungannya pertentangan."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (5)?",
+      "options": {
+        "A": "Organisme menelan manusia.",
+        "B": "Pemangsa puncak menelan organisme.",
+        "C": "Mikroplastik termasuk manusia.",
+        "D": "Mikroplastik dapat ditelan.",
+        "E": "Mikroplastik terkumpul pada manusia."
+      },
+      "answer": "D",
+      "explanation": "Subjek: mikroplastik; predikat: dapat ditelan. Bagian lain adalah pelengkap pelaku dan keterangan."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (1) dan (2)?",
+      "options": {
+        "A": "Mikroplastik adalah potongan plastik yang sangat kecil dan dapat mencemari lingkungan, padahal diameternya kurang dari 5 mm.",
+        "B": "Mikroplastik adalah potongan plastik yang sangat kecil dan dapat mencemari lingkungan sehingga didefinisikan memiliki diameter kurang dari 5 mm.",
+        "C": "Mikroplastik adalah potongan plastik yang sangat kecil agar dapat mencemari lingkungan dengan diameter kurang dari 5 mm.",
+        "D": "Mikroplastik adalah potongan plastik yang sangat kecil dan dapat mencemari lingkungan, tetapi didefinisikan memiliki diameter kurang dari 5 mm.",
+        "E": "Mikroplastik adalah potongan plastik yang sangat kecil, berdiameter kurang dari 5 mm, dan dapat mencemari lingkungan."
+      },
+      "answer": "E",
+      "explanation": "Ukuran kurang dari 5 mm cukup disisipkan sebagai keterangan potongan plastik. Konjungsi tetapi, sehingga, agar, dan padahal menimbulkan hubungan yang tidak logis."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm1",
+      "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut.<br><i>Kedua jenis mikroplastik ini dapat bertahan di lingkungan dalam waktu yang lama.</i><br>Kalimat tersebut paling tepat ditempatkan setelah kalimat ....",
+      "options": {
+        "A": "(2)",
+        "B": "(3)",
+        "C": "(4)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "C",
+      "explanation": "<i>Kedua jenis mikroplastik</i> merujuk pada mikroplastik primer dan sekunder yang disebut pada kalimat (4)."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kata yang paling tepat menggantikan kata <i>terkumpul</i> dalam kalimat (5) adalah ....",
+      "options": {
+        "A": "menumpuk",
+        "B": "terurai",
+        "C": "tersebar",
+        "D": "berpindah",
+        "E": "menghilang"
+      },
+      "answer": "A",
+      "explanation": "Mikroplastik yang terkumpul pada pemangsa puncak berarti menumpuk dalam tubuhnya (bioakumulasi)."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kata yang penulisannya salah terdapat pada kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(4)",
+        "E": "(6)"
+      },
+      "answer": "D",
+      "explanation": "<i>Di pasang</i> seharusnya <i>dipasang</i>, karena <i>di-</i> di sini awalan pembentuk kata kerja pasif."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kata <i>diantaranya</i> dalam kalimat (5) seharusnya ditulis ....",
+      "options": {
+        "A": "diantara-nya",
+        "B": "di antaranya",
+        "C": "di antara nya",
+        "D": "diantaranya (sudah benar)",
+        "E": "di-antaranya"
+      },
+      "answer": "B",
+      "explanation": "<i>Di</i> pada <i>di antaranya</i> adalah kata depan yang menunjukkan tempat, sehingga ditulis terpisah."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat manakah yang merupakan perbaikan kalimat (3)?",
+      "options": {
+        "A": "Sel surya terutama cocok digunakan bila tenaga listrik dari jaringan tidak tersedia, seperti di wilayah terpencil, satelit, kalkulator, pompa air, dan lain-lain.",
+        "B": "Sel surya yang terutama cocok digunakan bila tenaga listrik dari jaringan tidak tersedia, seperti di wilayah terpencil, satelit, kalkulator, dan pompa air.",
+        "C": "Sel surya terutama cocok digunakan bila tenaga listrik dari jaringan tidak tersedia, seperti misalnya di wilayah terpencil, satelit, kalkulator, dan pompa air.",
+        "D": "Sel surya terutama cocok untuk digunakan bila mana tenaga listrik dari jaringan tidak tersedia, seperti di wilayah terpencil, satelit, kalkulator, dan pompa air.",
+        "E": "Sel surya terutama cocok digunakan jika listrik dari jaringan tidak tersedia, misalnya di wilayah terpencil, pada satelit, kalkulator, dan pompa air."
+      },
+      "answer": "E",
+      "explanation": "Kalimat (3) mencampurkan tempat (wilayah terpencil) dengan benda (satelit, kalkulator, pompa air) di bawah kata depan <i>di</i>. Perbaikannya memisahkan <i>di wilayah terpencil</i> dan <i>pada satelit, kalkulator, dan pompa air</i>. Pilihan lain mubazir (<i>seperti misalnya</i>, <i>seperti ... dan lain-lain</i>), tidak baku (<i>bila mana</i>), atau kehilangan predikat."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Apa judul yang paling tepat untuk teks tersebut?",
+      "options": {
+        "A": "Cara Merakit Kalkulator",
+        "B": "Bahaya Bahan Bakar Fosil",
+        "C": "Sejarah Penemuan Silikon",
+        "D": "Sel Surya, Pengubah Cahaya Matahari menjadi Listrik",
+        "E": "Satelit Pengorbit Bumi"
+      },
+      "answer": "D",
+      "explanation": "Teks membahas pengertian, cara kerja (efek fotovoltaik), kegunaan, dan bahan sel surya."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat (6) tidak padu dengan kalimat lain dalam teks karena ....",
+      "options": {
+        "A": "bertentangan dengan isi kalimat (1)",
+        "B": "membahas manfaat lingkungan, sedangkan kalimat lain membahas pengertian, kegunaan, dan bahan sel surya",
+        "C": "menggunakan istilah asing yang tidak dijelaskan",
+        "D": "mengulang isi kalimat (2)",
+        "E": "tidak memiliki subjek"
+      },
+      "answer": "B",
+      "explanation": "Kalimat (1)–(5) membahas apa itu sel surya, kapan cocok digunakan, dan bahannya. Kalimat (6) memperkenalkan gagasan baru (ketergantungan pada bahan bakar fosil) yang tidak dikembangkan."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata yang paling tepat menggantikan kata <i>terbukti</i> dalam kalimat (6) adalah ....",
+      "options": {
+        "A": "diragukan",
+        "B": "dibayangkan",
+        "C": "telah diketahui",
+        "D": "dikhawatirkan",
+        "E": "diduga"
+      },
+      "answer": "C",
+      "explanation": "Terbukti berarti telah ditunjukkan kebenarannya; padanannya <i>telah diketahui</i>. Diduga dan dikhawatirkan masih berupa kemungkinan."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm3",
+      "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": {
+        "A": "ikan dan tanaman perlu dipindahkan ke daerah lain",
+        "B": "emisi belerang dan nitrogen dari bahan bakar perlu dikurangi",
+        "C": "pH tanah perlu diturunkan",
+        "D": "karbon dioksida harus ditambahkan ke udara",
+        "E": "air hujan sebaiknya tidak digunakan sama sekali"
+      },
+      "answer": "B",
+      "explanation": "Simpulan yang selaras adalah mengatasi penyebabnya, yaitu belerang dan nitrogen (kalimat 3)."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (5) dan (6)?",
+      "options": {
+        "A": "Air hujan yang asam akan meningkatkan keasaman tanah dan air permukaan, padahal berbahaya bagi kehidupan ikan dan tanaman.",
+        "B": "Air hujan yang asam akan meningkatkan keasaman tanah dan air permukaan karena berbahaya bagi kehidupan ikan dan tanaman.",
+        "C": "Air hujan yang asam akan meningkatkan keasaman tanah dan air permukaan agar berbahaya bagi kehidupan ikan dan tanaman.",
+        "D": "Air hujan yang asam akan meningkatkan keasaman tanah dan air permukaan, tetapi berbahaya bagi kehidupan ikan dan tanaman.",
+        "E": "Air hujan yang asam akan meningkatkan keasaman tanah dan air permukaan sehingga berbahaya bagi kehidupan ikan dan tanaman."
+      },
+      "answer": "E",
+      "explanation": "Kalimat (6) adalah akibat dari kalimat (5), sehingga dihubungkan dengan <i>sehingga</i>."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang isinya sama dengan kalimat (2)?",
+      "options": {
+        "A": "Karbon dioksida membuat pH hujan di bawah 5,6.",
+        "B": "Hujan alami tidak mengandung asam sama sekali.",
+        "C": "Tanpa pencemaran pun, air hujan sudah sedikit asam karena melarutkan karbon dioksida.",
+        "D": "Hujan asam tidak berbahaya karena bersifat alami.",
+        "E": "Hujan asam hanya terjadi karena karbon dioksida."
+      },
+      "answer": "C",
+      "explanation": "Kalimat (2) menyatakan bahwa secara alami hujan sedikit asam akibat karbon dioksida. Pilihan lain menambah atau mengubah klaim."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang penulisan huruf kapitalnya salah?",
+      "options": {
+        "A": "Ia meneliti air Sungai Ciliwung.",
+        "B": "Kami berkunjung ke Kebun Raya Bogor.",
+        "C": "Laporan itu terbit pada bulan Maret.",
+        "D": "Danau Toba merupakan danau vulkanik.",
+        "E": "Hujan asam pernah melanda kota-kota di eropa utara."
+      },
+      "answer": "E",
+      "explanation": "Nama geografi <i>Eropa Utara</i> harus diawali huruf kapital."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (4)?",
+      "options": {
+        "A": "Fotosintesis menghasilkan oksigen.",
+        "B": "Oksigen terdapat di atmosfer.",
+        "C": "Bumi menghasilkan oksigen.",
+        "D": "Fotosintesis berjasa.",
+        "E": "Atmosfer berjasa menghasilkan oksigen."
+      },
+      "answer": "A",
+      "explanation": "Inti kalimat (4): fotosintesis (S) menghasilkan (P) oksigen (O). <i>Berjasa</i> dan keterangan lain adalah perluasan."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kata yang paling tepat menggantikan kata <i>diikat</i> dalam kalimat (6) adalah ....",
+      "options": {
+        "A": "diuraikan",
+        "B": "dibakar",
+        "C": "dilepaskan",
+        "D": "difiksasi",
+        "E": "dipisahkan"
+      },
+      "answer": "D",
+      "explanation": "Dalam konteks fotosintesis, karbon diikat atau difiksasi menjadi gula."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm4",
+      "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut.<br><i>Akibatnya, fotosintesis menjadi sangat penting bagi kehidupan di bumi.</i><br>Kalimat tersebut paling tepat ditempatkan setelah kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "C",
+      "explanation": "<i>Akibatnya</i> menyimpulkan kalimat (3): karena hampir semua makhluk hidup bergantung pada energi hasil fotosintesis, fotosintesis sangat penting."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm4",
+      "question": "Kata yang penulisannya tidak baku terdapat pada kalimat ....",
+      "options": {
+        "A": "Gula disimpan sebagai cadangan energi.",
+        "B": "Para siswa mempraktekkan percobaan fotosintesis.",
+        "C": "Tumbuhan membutuhkan cahaya.",
+        "D": "Daun itu mengandung klorofil.",
+        "E": "Peneliti mengukur kadar oksigen."
+      },
+      "answer": "B",
+      "explanation": "Bentuk baku dari <i>mempraktekkan</i> adalah <i>mempraktikkan</i> (dari kata dasar <i>praktik</i>)."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Perhatikan lima kalimat berikut.<br>1. Karena itu, warga desa membangun sumur resapan di setiap rumah.<br>2. Selama bertahun-tahun, desa itu kesulitan air bersih pada musim kemarau.<br>3. Air hujan yang masuk ke sumur resapan akan mengisi kembali air tanah.<br>4. Penyebabnya, air hujan langsung mengalir ke sungai dan tidak meresap ke tanah.<br>5. Dengan cara itu, sumur warga tidak lagi kering pada musim kemarau.<br><br>Jika lima kalimat tersebut disusun menjadi paragraf, urutan kalimat yang tepat adalah ....",
+      "options": {
+        "A": "2, 4, 1, 3, 5",
+        "B": "4, 2, 1, 5, 3",
+        "C": "2, 4, 3, 1, 5",
+        "D": "2, 1, 4, 3, 5",
+        "E": "1, 2, 4, 3, 5"
+      },
+      "answer": "A",
+      "explanation": "Masalah (2) → penyebabnya (4) → tindakan, <i>Karena itu</i> (1) → cara kerja sumur resapan (3) → hasilnya, <i>Dengan cara itu</i> (5)."
+    }
+  ]
+}

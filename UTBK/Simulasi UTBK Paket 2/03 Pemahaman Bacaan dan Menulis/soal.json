@@ -1,0 +1,342 @@
+{
+  "title": "Simulasi UTBK Paket 2 - Bagian 3: Pemahaman Bacaan dan Menulis",
+  "topic": "Pemilihan Gagasan, Penataan Gagasan, dan Perbaikan Gagasan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 teks yang diadaptasi dari Wikipedia bahasa Indonesia (sebagian sengaja diberi kesalahan untuk diperbaiki). Waktu UTBK: 25 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_pbm1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Tempe merupakan makanan khas Jawa yang terbuat dari fermentasi kedelai menggunakan beberapa jenis kapang <i>Rhizopus</i>. <sup>2</sup>Tempe kaya akan serat pangan, <b>kalsium</b>, vitamin B, dan zat besi. <sup>3</sup>Tempe berwarna putih karena pertumbuhan miselia kapang yang merekatkan biji-biji kedelai sehingga terbentuk tekstur yang memadat. <sup>4</sup>Berbeda dengan tahu, tempe terasa agak masam. <sup>5</sup>Tempe banyak dikonsumsi masyarakat di Indonesia, tetapi sekarang telah <b>mendunia</b>. <sup>6</sup>Kaum <b>vegetarian</b> di seluruh dunia banyak yang menggunakan tempe sebagai pengganti daging. <sup>7</sup>[....], tempe kini tidak hanya diproduksi di Indonesia, tetapi juga di banyak tempat di dunia. <sup>8</sup>Indonesia juga berusaha mengembangkan galur unggul <i>Rhizopus</i> untuk menghasilkan tempe yang lebih cepat, <b>berkwalitas</b>, atau lebih bergizi.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Tempe” (CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Gamelan adalah musik ansambel tradisional yang berasal dari Jawa. <sup>2</sup>Instrumen yang paling umum digunakan dalam gamelan adalah metalofon, antara lain bonang, gong, dan saron, yang dimainkan oleh wiyaga menggunakan pemukul. <sup>3</sup>Selain itu, terdapat kendang yang dimainkan dengan tangan. <sup>4</sup>Seperangkat gamelan dikelompokan menjadi dua, yakni gangsa pakurmatan dan gangsa ageng. <sup>5</sup>Gangsa pakurmatan dimainkan untuk mengiringi upacara adat, sedangkan gangsa ageng dimainkan sebagai pengiring tari dan wayang. <sup>6</sup>Gamelan berasal dari Jawa, lalu tersebar ke berbagai daerah, seperti Madura, Bali, Kalimantan, dan Lombok. <sup>7</sup>Sejak 2021, gamelan secara resmi diakui oleh UNESCO sebagai warisan budaya takbenda dari Indonesia.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Gamelan” (CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Daur ulang adalah proses untuk menjadikan suatu bahan bekas menjadi bahan baru. <sup>2</sup>Tujuannya adalah mencegah adanya sampah yang sebenarnya dapat menjadi sesuatu yang berguna serta mengurangi penggunaan bahan baku baru. <sup>3</sup>Material yang bisa didaur ulang terdiri dari sampah kaca, plastik, kertas, logam, tekstil, dan barang elektronik. <sup>4</sup>Proses pembuatan kompos yang menggunakan sampah yang dapat diuraikan oleh alam tidak dikategorikan sebagai proses daur ulang. <sup>5</sup>Daur ulang lebih difokuskan kepada sampah yang tidak bisa diuraikan secara alami oleh alam. <sup>6</sup>Proses daur ulang aluminium dapat menghemat 95% energi dan mengurangi polusi udara sebanyak 95% jika dibandingkan dengan ekstraksi aluminium dari tambang. <sup>7</sup>Dengan demikian, [....].",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Daur ulang” (CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Dalam arti tradisional, perpustakaan adalah sebuah koleksi buku dan majalah. <sup>2</sup>Perpustakaan lebih umum dikenal sebagai koleksi besar yang dibiayai dan dioperasikan oleh sebuah kota atau institusi. <sup>3</sup>Perpustakaan itu dimanfaatkan oleh masyarakat yang rata-rata tidak mampu membeli sekian banyak buku dengan biaya sendiri. <sup>4</sup>Perpustakaan juga dapat diartikan sebagai kumpulan informasi yang bersifat ilmu pengetahuan, hiburan, dan rekreasi. <sup>5</sup>Perpustakaan modern telah diartikan kembali sebagai tempat untuk mengakses informasi dalam format apa pun. <sup>6</sup>Informasi itu dapat disimpan di dalam gedung perpustakaan ataupun tidak. <sup>7</sup>Selain kumpulan buku tercetak, sebagian koleksi perpustakaan modern berada dalam perpustakaan digital yang dapat diakses lewat jaringan komputer.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Perpustakaan” (CC BY-SA 4.0).</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Penulisan kata bercetak tebal yang salah pada teks tersebut terdapat pada kalimat ....",
+      "options": {
+        "A": "(2)",
+        "B": "(5)",
+        "C": "(6)",
+        "D": "(7)",
+        "E": "(8)"
+      },
+      "answer": "E",
+      "explanation": "Bentuk bakunya <i>berkualitas</i>, bukan <i>berkwalitas</i>. Kalsium, mendunia, dan vegetarian sudah benar."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Kata penghubung yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": {
+        "A": "Sementara itu",
+        "B": "Meskipun demikian",
+        "C": "Akibatnya",
+        "D": "Namun",
+        "E": "Sebaliknya"
+      },
+      "answer": "C",
+      "explanation": "Banyaknya pemakai tempe di seluruh dunia (kalimat 6) menyebabkan tempe diproduksi di banyak tempat (kalimat 7). Hubungannya sebab-akibat."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (3)?",
+      "options": {
+        "A": "Kapang merekatkan biji kedelai.",
+        "B": "Miselia tumbuh.",
+        "C": "Tempe berwarna putih.",
+        "D": "Tempe merekatkan kedelai.",
+        "E": "Tekstur memadat."
+      },
+      "answer": "C",
+      "explanation": "Induk kalimat (3) adalah “tempe berwarna putih”; bagian setelah <i>karena</i> adalah anak kalimat yang menyatakan sebab."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kata yang paling tepat menggantikan kata <i>mendunia</i> dalam kalimat (5) adalah ....",
+      "options": {
+        "A": "dimakan setiap hari",
+        "B": "dijual secara terbatas",
+        "C": "dibuat secara modern",
+        "D": "dikenal secara internasional",
+        "E": "diekspor ke Jawa"
+      },
+      "answer": "D",
+      "explanation": "Mendunia berarti dikenal atau tersebar ke seluruh dunia, yaitu dikenal secara internasional."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm1",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (5) dan (6)?",
+      "options": {
+        "A": "Tempe banyak dikonsumsi masyarakat Indonesia karena kini telah mendunia, padahal banyak kaum vegetarian di seluruh dunia menggunakannya sebagai pengganti daging.",
+        "B": "Tempe banyak dikonsumsi masyarakat Indonesia, tetapi kini telah mendunia agar banyak kaum vegetarian di seluruh dunia menggunakannya sebagai pengganti daging.",
+        "C": "Tempe banyak dikonsumsi masyarakat Indonesia, tetapi kini telah mendunia, meskipun banyak kaum vegetarian di seluruh dunia menggunakannya sebagai pengganti daging.",
+        "D": "Tempe banyak dikonsumsi masyarakat Indonesia, dan juga tempe kini telah mendunia, dan juga banyak kaum vegetarian di seluruh dunia yang menggunakan tempe sebagai pengganti daging.",
+        "E": "Tempe banyak dikonsumsi masyarakat Indonesia, tetapi kini telah mendunia sehingga banyak kaum vegetarian di seluruh dunia menggunakannya sebagai pengganti daging."
+      },
+      "answer": "E",
+      "explanation": "Kalimat (6) menjelaskan wujud atau akibat dari mendunianya tempe, sehingga tepat dihubungkan dengan <i>sehingga</i>. Pilihan lain memakai konjungsi yang tidak logis atau boros."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kata yang penulisannya salah terdapat pada kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(4)",
+        "D": "(5)",
+        "E": "(7)"
+      },
+      "answer": "C",
+      "explanation": "Kata dasar <i>kelompok</i> mendapat imbuhan <i>di-kan</i> menjadi <i>dikelompokkan</i> (dengan dua huruf k), bukan <i>dikelompokan</i>."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut.<br><i>Gamelan juga melibatkan kelompok vokal yang dikenal sebagai sinden.</i><br>Kalimat tersebut paling tepat ditempatkan setelah kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(3)",
+        "C": "(4)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "B",
+      "explanation": "Kalimat (2) dan (3) memerinci unsur-unsur gamelan (metalofon, kendang). Kalimat tentang sinden melengkapi perincian itu sehingga tepat setelah kalimat (3)."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat manakah yang merupakan perbaikan kalimat (6)?",
+      "options": {
+        "A": "Gamelan tersebar dari Jawa ke berbagai daerah, seperti Madura, Bali, Kalimantan, dan Lombok.",
+        "B": "Gamelan berasal dari Jawa, lalu tersebar ke berbagai daerah seperti Madura, Bali, Kalimantan, Lombok, dan lain-lain.",
+        "C": "Gamelan yang berasal dari Jawa, lalu tersebar ke berbagai daerah, seperti Madura, Bali, Kalimantan, dan Lombok.",
+        "D": "Gamelan berasal dari Jawa, lalu tersebar dari Jawa ke berbagai daerah, seperti Madura, Bali, Kalimantan, dan Lombok.",
+        "E": "Gamelan berasal dari Jawa lalu tersebar ke berbagai daerah-daerah, seperti Madura, Bali, Kalimantan, dan Lombok."
+      },
+      "answer": "A",
+      "explanation": "Kalimat (6) mengulang informasi kalimat (1) bahwa gamelan berasal dari Jawa. Perbaikan yang hemat cukup menyebut arah penyebarannya. Pilihan lain boros (mengulang), kehilangan predikat (<i>yang berasal</i>), atau salah (<i>berbagai daerah-daerah</i>, <i>seperti ... dan lain-lain</i>)."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Apa judul yang paling tepat untuk teks tersebut?",
+      "options": {
+        "A": "Sejarah Wayang di Pulau Jawa",
+        "B": "Cara Memainkan Bonang dan Saron",
+        "C": "Wiyaga dan Sinden di Keraton",
+        "D": "Gamelan, Ansambel Tradisional dari Jawa",
+        "E": "Persebaran Musik Bali ke Lombok"
+      },
+      "answer": "D",
+      "explanation": "Teks membahas pengertian, instrumen, pengelompokan, persebaran, dan pengakuan gamelan."
+    },
+    {
+      "number": 10,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm2",
+      "question": "Kata <i>sedangkan</i> dalam kalimat (5) menyatakan hubungan ....",
+      "options": {
+        "A": "syarat",
+        "B": "pertentangan",
+        "C": "tujuan",
+        "D": "waktu",
+        "E": "sebab"
+      },
+      "answer": "B",
+      "explanation": "<i>Sedangkan</i> mempertentangkan fungsi gangsa pakurmatan dengan fungsi gangsa ageng."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata <i>dari</i> dalam kalimat (3) seharusnya ....",
+      "options": {
+        "A": "diganti dengan kata <i>atas</i>",
+        "B": "dibiarkan saja (sudah benar)",
+        "C": "diganti dengan kata <i>oleh</i>",
+        "D": "dihilangkan",
+        "E": "diganti dengan kata <i>pada</i>"
+      },
+      "answer": "A",
+      "explanation": "Pasangan yang baku adalah <i>terdiri atas</i>."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": {
+        "A": "aluminium tidak perlu lagi ditambang",
+        "B": "semua sampah harus dibakar",
+        "C": "sampah elektronik tidak dapat didaur ulang",
+        "D": "daur ulang bermanfaat untuk menghemat energi dan mengurangi pencemaran",
+        "E": "kompos tidak berguna bagi lingkungan"
+      },
+      "answer": "D",
+      "explanation": "Kalimat (7) menyimpulkan data penghematan energi dan polusi pada kalimat (6) serta tujuan daur ulang pada kalimat (2)."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang merupakan kalimat efektif dari kalimat (5)?",
+      "options": {
+        "A": "Daur ulang lebih difokuskan kepada sampah yang tidak alami.",
+        "B": "Daur ulang lebih difokuskan pada sampah yang tidak dapat terurai secara alami.",
+        "C": "Daur ulang lebih difokuskan kepada sampah-sampah yang tidak bisa diuraikan oleh alam secara alami.",
+        "D": "Daur ulang difokuskan lebih kepada sampah yang tidak bisa diuraikan secara alami oleh alam.",
+        "E": "Daur ulang lebih difokuskan kepada sampah yang tidak bisa diuraikan secara alami oleh alam."
+      },
+      "answer": "B",
+      "explanation": "<i>Secara alami oleh alam</i> berlebihan, dan untuk sasaran dipakai <i>pada</i>. Pilihan terakhir mengubah makna."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata yang paling tepat menggantikan kata <i>mencegah</i> dalam kalimat (2) adalah ....",
+      "options": {
+        "A": "mendorong",
+        "B": "menambah",
+        "C": "memindahkan",
+        "D": "membiarkan",
+        "E": "menghindari"
+      },
+      "answer": "E",
+      "explanation": "Mencegah berarti menahan agar sesuatu tidak terjadi, bersinonim dengan menghindari."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang penulisan huruf kapitalnya salah?",
+      "options": {
+        "A": "Gunung Bromo terletak di Jawa Timur.",
+        "B": "Kami mengunjungi Pabrik daur ulang di Bekasi.",
+        "C": "Ia membaca majalah <i>Bobo</i> setiap Kamis.",
+        "D": "Hari Lingkungan Hidup Sedunia diperingati setiap 5 Juni.",
+        "E": "Presiden Soekarno lahir di Surabaya."
+      },
+      "answer": "B",
+      "explanation": "<i>Pabrik daur ulang</i> bukan nama diri sehingga <i>pabrik</i> ditulis dengan huruf kecil."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (2) dan (3)?",
+      "options": {
+        "A": "Perpustakaan lebih umum dikenal sebagai koleksi besar yang dibiayai dan dioperasikan oleh sebuah kota atau institusi, padahal dimanfaatkan oleh masyarakat yang rata-rata tidak mampu membeli banyak buku sendiri.",
+        "B": "Perpustakaan lebih umum dikenal sebagai koleksi besar yang dibiayai dan dioperasikan oleh sebuah kota atau institusi agar dimanfaatkan oleh masyarakat yang rata-rata tidak mampu membeli banyak buku sendiri.",
+        "C": "Perpustakaan lebih umum dikenal sebagai koleksi besar yang dibiayai dan dioperasikan oleh sebuah kota atau institusi bahkan dimanfaatkan oleh masyarakat yang rata-rata tidak mampu membeli banyak buku sendiri.",
+        "D": "Perpustakaan lebih umum dikenal sebagai koleksi besar yang dibiayai dan dioperasikan oleh sebuah kota atau institusi serta dimanfaatkan oleh masyarakat yang rata-rata tidak mampu membeli banyak buku sendiri.",
+        "E": "Perpustakaan lebih umum dikenal sebagai koleksi besar yang dibiayai dan dioperasikan oleh sebuah kota atau institusi, tetapi dimanfaatkan oleh masyarakat yang rata-rata tidak mampu membeli banyak buku sendiri."
+      },
+      "answer": "D",
+      "explanation": "Kalimat (3) menambahkan keterangan setara tentang koleksi tersebut, sehingga cukup dirangkaikan dengan <i>serta</i>."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (5)?",
+      "options": {
+        "A": "Informasi diartikan kembali.",
+        "B": "Perpustakaan modern berformat apa pun.",
+        "C": "Perpustakaan modern telah diartikan kembali.",
+        "D": "Tempat mengakses informasi.",
+        "E": "Perpustakaan mengakses informasi."
+      },
+      "answer": "C",
+      "explanation": "Subjek: perpustakaan modern; predikat: telah diartikan kembali. <i>Sebagai tempat ...</i> adalah keterangan perluasan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang isinya sama dengan kalimat (6)?",
+      "options": {
+        "A": "Informasi tidak boleh disimpan di dalam gedung perpustakaan.",
+        "B": "Informasi di luar gedung perpustakaan tidak dapat diakses.",
+        "C": "Gedung perpustakaan tidak lagi menyimpan informasi.",
+        "D": "Informasi hanya boleh disimpan di dalam gedung perpustakaan.",
+        "E": "Informasi yang diakses tidak harus tersimpan di dalam gedung perpustakaan."
+      },
+      "answer": "E",
+      "explanation": "Kalimat (6) menyatakan dua kemungkinan (di dalam gedung atau tidak). Artinya, informasi tidak harus tersimpan di dalam gedung."
+    },
+    {
+      "number": 19,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm4",
+      "question": "Kata <i>itu</i> dalam kalimat (3) merujuk pada ....",
+      "options": {
+        "A": "koleksi besar yang dibiayai kota atau institusi",
+        "B": "biaya sendiri",
+        "C": "perpustakaan digital",
+        "D": "masyarakat",
+        "E": "majalah"
+      },
+      "answer": "A",
+      "explanation": "<i>Perpustakaan itu</i> pada kalimat (3) merujuk pada koleksi besar yang dibiayai dan dioperasikan kota atau institusi (kalimat 2)."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Perhatikan lima kalimat berikut.<br>1. Karena itu, perpustakaan sekolah mulai menyediakan buku elektronik.<br>2. Minat baca siswa terhadap buku cetak menurun dalam beberapa tahun terakhir.<br>3. Buku elektronik itu dapat dibaca melalui ponsel kapan saja.<br>4. Sebagian besar siswa lebih sering membaca melalui layar ponsel.<br>5. Dengan cara itu, siswa tetap dapat membaca meskipun tidak datang ke perpustakaan.<br><br>Jika lima kalimat tersebut disusun menjadi paragraf, urutan kalimat yang tepat adalah ....",
+      "options": {
+        "A": "2, 4, 1, 3, 5",
+        "B": "2, 1, 4, 3, 5",
+        "C": "1, 2, 4, 3, 5",
+        "D": "4, 2, 1, 5, 3",
+        "E": "2, 4, 3, 1, 5"
+      },
+      "answer": "A",
+      "explanation": "Masalah (2) → keterangan kebiasaan siswa (4) → tindakan sekolah, <i>Karena itu</i> (1) → penjelasan buku elektronik itu (3) → manfaatnya, <i>Dengan cara itu</i> (5)."
+    }
+  ]
+}

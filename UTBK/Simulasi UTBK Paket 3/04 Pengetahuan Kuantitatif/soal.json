@@ -1,0 +1,287 @@
+{
+  "title": "Simulasi UTBK Paket 3 - Bagian 4: Pengetahuan Kuantitatif",
+  "topic": "Bilangan, Aljabar dan Fungsi, Geometri dan Trigonometri, Statistika, Peluang, dan Kecukupan Data",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dengan tipe seperti UTBK asli: pilihan ganda biasa, kombinasi pernyataan, banyaknya pernyataan benar, kuantitas P dan Q, serta kecukupan data. Waktu UTBK: 20 menit.",
+  "total_questions": 20,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Jika k memenuhi 5 − 3 × k = −16, nilai k adalah ....",
+      "options": {
+        "A": "3",
+        "B": "−7",
+        "C": "−11/3",
+        "D": "11/3",
+        "E": "7"
+      },
+      "answer": "E",
+      "explanation": "−3k = −21, sehingga k = 7."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Nilai bentuk (9<sup>1/2</sup>)<sup>3</sup> : 27<sup>1/3</sup> adalah ....",
+      "options": {
+        "A": "1",
+        "B": "27",
+        "C": "1/3",
+        "D": "9",
+        "E": "3"
+      },
+      "answer": "D",
+      "explanation": "(9<sup>1/2</sup>)<sup>3</sup> = 3<sup>3</sup> = 27 dan 27<sup>1/3</sup> = 3. Hasil baginya 9."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "question": "Pada segitiga ABC, titik D terletak pada AB dan titik E pada AC sehingga DE sejajar BC. Jika AD = 4 cm, DB = 6 cm, dan DE = 6 cm, panjang BC adalah ... cm.",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "24",
+        "D": "12",
+        "E": "15"
+      },
+      "answer": "E",
+      "explanation": "Segitiga ADE sebangun dengan ABC: BC/DE = AB/AD = 10/4. BC = 6 × 10/4 = 15 cm."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "question": "Segitiga ABC siku-siku di C. Jika cos A = 8/17, manakah dari keempat pernyataan berikut yang bernilai benar?<br>(1) sin A = 8/17<br>(2) tan A = 15/8<br>(3) sin B = 15/17<br>(4) cos B = 15/17",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "C",
+      "explanation": "AC = 8, AB = 17, BC = 15. sin A = 15/17 (1 salah); tan A = 15/8 (2 benar); sin B = AC/AB = 8/17 (3 salah); cos B = BC/AB = 15/17 (4 benar)."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "Secara acak diambil sekaligus dua dari enam bola bernomor 1 sampai 6.<br>Manakah dari keempat kejadian berikut yang memiliki peluang 1/5?<br>(1) Jumlah kedua nomor sama dengan 7.<br>(2) Hasil kali kedua nomor sama dengan 12.<br>(3) Kedua nomor merupakan bilangan prima.<br>(4) Selisih kedua nomor sama dengan 5.",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "B",
+      "explanation": "Ada 15 pasangan; peluang 1/5 berarti 3 pasangan. (1) {1,6}, {2,5}, {3,4}: 3. (2) {2,6}, {3,4}: 2. (3) {2,3}, {2,5}, {3,5}: 3. (4) {1,6}: 1. Jadi (1) dan (3)."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Barisan bilangan 3, 6, 12, ... merupakan barisan geometri.<br><br>Berapakah banyaknya dari empat pernyataan berikut yang bernilai benar?<br>(1) Suku ke-6 adalah 96.<br>(2) Jumlah lima suku pertama adalah 93.<br>(3) Setiap suku barisan merupakan bilangan genap.<br>(4) Suku ke-8 adalah 768.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "C",
+      "explanation": "a = 3, r = 2. (1) 3 × 2<sup>5</sup> = 96 (benar). (2) 3 + 6 + 12 + 24 + 48 = 93 (benar). (3) 3 ganjil (salah). (4) 3 × 2<sup>7</sup> = 384 (salah). Ada 2."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "question": "Diketahui S = {1, 2, 3, ..., 15}, A = himpunan bilangan ganjil dalam S, B = himpunan kelipatan 5 dalam S, dan C = himpunan bilangan kuadrat dalam S.<br><br>Berapakah banyaknya dari empat pernyataan berikut yang bernilai benar?<br>(1) A ∩ B = {5, 15}<br>(2) B ∩ C = ∅<br>(3) C ⊆ A<br>(4) n(A ∪ B ∪ C) = 10",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "D",
+      "explanation": "A = {1, 3, 5, ..., 15} (8 anggota), B = {5, 10, 15}, C = {1, 4, 9}. (1) benar. (2) benar. (3) 4 ∉ A (salah). (4) A ∪ B ∪ C = A ∪ {10, 4}, 10 anggota (benar). Ada 3."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "question": "Operasi ∘ dan ∗ pada bilangan didefinisikan sebagai berikut.<br><br>x ∘ y = xy + x<br>z ∗ w = z − w<br><br>Manakah hubungan antara kuantitas P dan Q berikut yang benar?<br><br>P: k ∘ (3 ∗ 4) untuk k = 1 atau k = −1<br>Q: 0",
+      "options": {
+        "A": "Kuantitas P lebih besar daripada Q.",
+        "B": "Kuantitas P lebih kecil daripada Q.",
+        "C": "Kuantitas P sama dengan Q.",
+        "D": "Tidak dapat ditentukan hubungan antara kuantitas P dan Q."
+      },
+      "answer": "C",
+      "explanation": "3 ∗ 4 = −1. k ∘ (−1) = −k + k = 0 untuk setiap k. Jadi P = 0 = Q."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Fungsi f dan g didefinisikan sebagai f(x) = |2x − 1| dan g(x) = x<sup>2</sup> − 3.<br><br>Manakah hubungan antara kuantitas P dan Q berikut yang benar?<br><br>P: g(f(c)) untuk c = 2 atau c = −1<br>Q: 5",
+      "options": {
+        "A": "Kuantitas P lebih besar daripada Q.",
+        "B": "Kuantitas P lebih kecil daripada Q.",
+        "C": "Kuantitas P sama dengan Q.",
+        "D": "Tidak dapat ditentukan hubungan antara kuantitas P dan Q."
+      },
+      "answer": "A",
+      "explanation": "f(2) = |3| = 3 dan f(−1) = |−3| = 3. g(3) = 9 − 3 = 6. Jadi P = 6 > Q."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "question": "Diketahui dua kelompok data yang sudah terurut.<br><br>Data A: 2, 4, 6, 8, 10<br>Data B: 3, r, 7, 9, 12<br><br>Rata-rata data B satu lebih besar daripada rata-rata data A.<br><br>Manakah dari tiga pernyataan berikut yang bernilai benar?<br>(1) r = 4<br>(2) Median data B sama dengan median data A.<br>(3) Jangkauan data B lebih besar daripada jangkauan data A.",
+      "options": {
+        "A": "Semua pernyataan benar",
+        "B": "Pernyataan (1) dan (2) SAJA yang benar",
+        "C": "Pernyataan (1) dan (3) SAJA yang benar",
+        "D": "Pernyataan (2) dan (3) SAJA yang benar",
+        "E": "Tidak ada pernyataan yang benar"
+      },
+      "answer": "C",
+      "explanation": "Rata-rata A = 6, sehingga rata-rata B = 7 dan jumlahnya 35 → r = 4 (benar). Median B = 7, median A = 6 (salah). Jangkauan B = 9 > jangkauan A = 8 (benar)."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sulit",
+      "question": "Fungsi F didefinisikan sebagai F(x) = 24/(x<sup>2</sup> + b) dengan F(−2) = 3.<br><br>Manakah dari tiga pernyataan berikut yang bernilai benar?<br>(1) F(2) = 3<br>(2) Nilai terbesar F(x) adalah 6.<br>(3) Terdapat bilangan real c sehingga F(c) = 8.",
+      "options": {
+        "A": "Semua pernyataan benar",
+        "B": "Pernyataan (1) dan (2) SAJA yang benar",
+        "C": "Pernyataan (1) dan (3) SAJA yang benar",
+        "D": "Pernyataan (2) dan (3) SAJA yang benar",
+        "E": "Tidak ada pernyataan yang benar"
+      },
+      "answer": "B",
+      "explanation": "F(−2) = 24/(4 + b) = 3 → b = 4. (1) F(2) = 24/8 = 3 (benar). (2) Penyebut terkecil 4, sehingga nilai terbesar 6 (benar). (3) F(c) = 8 berarti c² + 4 = 3, tidak mungkin (salah)."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sulit",
+      "question": "Diketahui n bilangan asli.<br>Apakah n habis dibagi 6?<br><br>Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.<br>(1) n habis dibagi 12.<br>(2) n = 3k untuk suatu bilangan asli genap k.",
+      "options": {
+        "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "C": "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "D": "Baik pernyataan (1) SAJA maupun pernyataan (2) SAJA cukup untuk menjawab pertanyaan.",
+        "E": "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      },
+      "answer": "D",
+      "explanation": "(1) Kelipatan 12 pasti kelipatan 6: cukup. (2) k genap, k = 2m, sehingga n = 6m: cukup. Masing-masing saja sudah cukup."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "question": "Berapakah nilai p?<br><br>Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.<br>(1) p<sup>2</sup> = 9<br>(2) p<sup>3</sup> − 9p = 0",
+      "options": {
+        "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "C": "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "D": "Baik pernyataan (1) SAJA maupun pernyataan (2) SAJA cukup untuk menjawab pertanyaan.",
+        "E": "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      },
+      "answer": "E",
+      "explanation": "(1) p = 3 atau −3. (2) p(p² − 9) = 0, p = 0, 3, atau −3. Bersama-sama tetap p = 3 atau −3. Keduanya tidak cukup."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Akar-akar persamaan x<sup>2</sup> − 6x + 8 = 0 adalah p dan q. Nilai p<sup>2</sup> + q<sup>2</sup> adalah ....",
+      "options": {
+        "A": "20",
+        "B": "16",
+        "C": "36",
+        "D": "52",
+        "E": "28"
+      },
+      "answer": "A",
+      "explanation": "p + q = 6 dan pq = 8. p² + q² = 36 − 16 = 20."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "question": "Tabungan sebesar Rp2.000.000,00 mendapat bunga tunggal 6% per tahun. Besar tabungan setelah 18 bulan adalah ....",
+      "options": {
+        "A": "Rp2.180.000,00",
+        "B": "Rp2.120.000,00",
+        "C": "Rp2.360.000,00",
+        "D": "Rp2.090.000,00",
+        "E": "Rp2.240.000,00"
+      },
+      "answer": "A",
+      "explanation": "Bunga = 2.000.000 × 6% × 1,5 = 180.000. Tabungan menjadi Rp2.180.000."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "question": "Luas setengah lingkaran dengan diameter 14 cm adalah ... cm<sup>2</sup>. (π = 22/7)",
+      "options": {
+        "A": "44",
+        "B": "154",
+        "C": "308",
+        "D": "22",
+        "E": "77"
+      },
+      "answer": "E",
+      "explanation": "Jari-jari 7 cm. Luas lingkaran = 22/7 × 49 = 154 cm²; setengahnya 77 cm²."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "question": "Median dari data 7, 3, 9, 5, 11, 4 adalah ....",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "6,5"
+      },
+      "answer": "B",
+      "explanation": "Data terurut: 3, 4, 5, 7, 9, 11. Median = (5 + 7)/2 = 6."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Himpunan penyelesaian pertidaksamaan x<sup>2</sup> − 5x + 4 < 0 adalah ....",
+      "options": {
+        "A": "−4 < x < −1",
+        "B": "x < 4",
+        "C": "x < 1 atau x > 4",
+        "D": "1 < x < 4",
+        "E": "1 ≤ x ≤ 4"
+      },
+      "answer": "D",
+      "explanation": "(x − 1)(x − 4) < 0 dipenuhi di antara kedua akar: 1 < x < 4."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Dari 5 siswa putra dan 3 siswi putri akan dipilih 3 orang secara acak sebagai pengurus kelas. Peluang terpilih tepat 2 siswi putri adalah ....",
+      "options": {
+        "A": "3/8",
+        "B": "15/56",
+        "C": "1/56",
+        "D": "3/28",
+        "E": "5/28"
+      },
+      "answer": "B",
+      "explanation": "Banyak cara memilih 3 dari 8 = 56. Tepat 2 putri: C(3,2) × C(5,1) = 15. Peluang = 15/56."
+    },
+    {
+      "number": 20,
+      "difficulty": "Mudah",
+      "question": "Jika 2a + b = 11 dan a + b = 7, nilai a<sup>2</sup> − b<sup>2</sup> adalah ....",
+      "options": {
+        "A": "7",
+        "B": "1",
+        "C": "25",
+        "D": "16",
+        "E": "49"
+      },
+      "answer": "A",
+      "explanation": "Kurangkan: a = 4, lalu b = 3. a² − b² = 16 − 9 = 7."
+    }
+  ]
+}

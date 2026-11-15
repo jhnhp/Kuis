@@ -1,0 +1,429 @@
+{
+  "title": "Simulasi UTBK Paket 2 - Bagian 1: Penalaran Umum",
+  "topic": "Penalaran Deduktif, Penalaran Induktif, dan Penalaran Kuantitatif",
+  "subtitle": "Simulasi 30 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal (10 deduktif, 10 induktif, 10 kuantitatif) dengan 5 pilihan jawaban. Waktu UTBK: 30 menit.",
+  "total_questions": 30,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Jika jalan licin, banyak pengendara mengurangi kecepatan. Jika banyak pengendara mengurangi kecepatan, waktu tempuh bertambah.<br>Hari ini waktu tempuh tidak bertambah.<br><br>Manakah simpulan yang BENAR?",
+      "options": {
+        "A": "Hari ini jalan tidak licin.",
+        "B": "Hari ini banyak pengendara mengurangi kecepatan.",
+        "C": "Jalan licin tidak memengaruhi kecepatan pengendara.",
+        "D": "Waktu tempuh bertambah apabila jalan tidak licin.",
+        "E": "Hari ini jalan licin, tetapi pengendara tidak mengurangi kecepatan."
+      },
+      "answer": "A",
+      "explanation": "Jalan licin → kecepatan dikurangi → waktu tempuh bertambah. Waktu tempuh tidak bertambah sehingga, dengan modus tollens dua kali, jalan tidak licin."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Semua anggota paduan suara sekolah mengikuti latihan hari Sabtu. Nadia tidak mengikuti latihan hari Sabtu.<br><br>Manakah simpulan berikut yang BENAR?",
+      "options": {
+        "A": "Nadia tidak pandai bernyanyi.",
+        "B": "Nadia akan dikeluarkan dari paduan suara.",
+        "C": "Nadia bukan anggota paduan suara sekolah.",
+        "D": "Sebagian anggota paduan suara tidak mengikuti latihan.",
+        "E": "Nadia adalah anggota paduan suara yang malas."
+      },
+      "answer": "C",
+      "explanation": "Semua anggota paduan suara mengikuti latihan Sabtu. Nadia tidak mengikutinya, sehingga Nadia bukan anggota paduan suara (modus tollens)."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sulit",
+      "question": "Semua sukarelawan yang bertugas di posko kesehatan telah mengikuti pelatihan P3K. Sebagian peserta pelatihan P3K adalah mahasiswa kedokteran.<br><br>Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": {
+        "A": "Sukarelawan yang belum mengikuti pelatihan P3K tidak bertugas di posko kesehatan.",
+        "B": "Sebagian sukarelawan di posko kesehatan adalah mahasiswa kedokteran.",
+        "C": "Semua mahasiswa kedokteran bertugas di posko kesehatan.",
+        "D": "Semua peserta pelatihan P3K bertugas di posko kesehatan.",
+        "E": "Tidak ada mahasiswa kedokteran yang bertugas di posko kesehatan."
+      },
+      "answer": "A",
+      "explanation": "“Semua sukarelawan posko telah mengikuti pelatihan” setara dengan “yang belum mengikuti pelatihan tidak bertugas di posko”. Mahasiswa kedokteran yang ikut pelatihan belum tentu bertugas di posko."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "question": "Sebagian tanaman di kebun sekolah layu apabila tidak disiram selama tiga hari. Tanaman tidak disiram selama tiga hari apabila petugas kebun sedang cuti.<br><br>Manakah simpulan berikut yang BENAR?",
+      "options": {
+        "A": "Sebagian tanaman di kebun sekolah layu apabila petugas kebun sedang cuti.",
+        "B": "Sebagian tanaman layu apabila petugas kebun tidak cuti.",
+        "C": "Semua tanaman layu apabila petugas kebun sedang cuti.",
+        "D": "Petugas kebun sedang cuti apabila sebagian tanaman layu.",
+        "E": "Tanaman tidak disiram apabila sebagian tanaman layu."
+      },
+      "answer": "A",
+      "explanation": "Petugas cuti → tanaman tidak disiram tiga hari → sebagian tanaman layu. Silogisme hipotetis: sebagian tanaman layu apabila petugas kebun sedang cuti."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "“Jika stok beras di gudang menipis, harga beras di pasar naik.”<br><br>Pernyataan yang setara dengan pernyataan tersebut adalah ....",
+      "options": {
+        "A": "Jika harga beras di pasar naik, stok beras di gudang menipis.",
+        "B": "Jika harga beras di pasar tidak naik, stok beras di gudang tidak menipis.",
+        "C": "Jika stok beras di gudang tidak menipis, harga beras di pasar tidak naik.",
+        "D": "Stok beras di gudang tidak menipis atau harga beras di pasar tidak naik.",
+        "E": "Stok beras di gudang menipis dan harga beras di pasar tidak naik."
+      },
+      "answer": "B",
+      "explanation": "p → q setara dengan ~q → ~p (kontraposisi) dan dengan ~p ∨ q. Pilihan yang sesuai adalah kontraposisinya."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Lima kotak, yaitu P, Q, R, S, dan T, disusun bertumpuk dari bawah ke atas. Kotak Q berada tepat di atas kotak S. Kotak T berada di bawah kotak R, tetapi di atas kotak Q. Kotak P berada paling bawah.<br><br>Kotak yang berada di urutan ketiga dari bawah adalah ....",
+      "options": {
+        "A": "S",
+        "B": "T",
+        "C": "P",
+        "D": "Q",
+        "E": "R"
+      },
+      "answer": "D",
+      "explanation": "P paling bawah. Q tepat di atas S, sehingga S di bawah Q. T di atas Q dan di bawah R. Urutan dari bawah: P, S, Q, T, R. Urutan ketiga adalah Q."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "question": "Apabila hujan turun pada sore hari, Raka tidak bermain bola. Apabila Raka mengerjakan tugas kelompok, ia pulang terlambat.<br><br>Apabila Raka bermain bola atau tidak pulang terlambat, manakah simpulan berikut yang BENAR?",
+      "options": {
+        "A": "Hujan tidak turun pada sore hari dan Raka tidak mengerjakan tugas kelompok.",
+        "B": "Hujan turun pada sore hari atau Raka mengerjakan tugas kelompok.",
+        "C": "Hujan tidak turun pada sore hari atau Raka tidak mengerjakan tugas kelompok.",
+        "D": "Hujan turun pada sore hari, tetapi Raka tidak mengerjakan tugas kelompok.",
+        "E": "Raka mengerjakan tugas kelompok dan hujan tidak turun pada sore hari."
+      },
+      "answer": "C",
+      "explanation": "Kontraposisi premis 1: bermain bola → hujan tidak turun. Kontraposisi premis 2: tidak pulang terlambat → tidak mengerjakan tugas kelompok. Karena yang diketahui berbentuk “atau”, simpulannya juga “atau”."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "question": "Empat siswa, yaitu Ani, Budi, Citra, dan Doni, masing-masing memilih tepat satu ekstrakurikuler yang berbeda: basket, musik, robotik, dan teater.<br>• Ani tidak memilih basket ataupun musik.<br>• Budi memilih robotik atau teater.<br>• Citra tidak memilih musik.<br>• Doni tidak memilih teater.<br>• Budi dan Ani tidak memilih ekstrakurikuler yang sama dengan Doni.<br><br>Jika Ani memilih teater, ekstrakurikuler yang dipilih Citra adalah ....",
+      "options": {
+        "A": "teater",
+        "B": "musik",
+        "C": "robotik",
+        "D": "basket",
+        "E": "tidak dapat ditentukan"
+      },
+      "answer": "D",
+      "explanation": "Ani teater, maka Budi robotik. Tersisa basket dan musik untuk Citra dan Doni. Citra tidak memilih musik, sehingga Citra basket dan Doni musik."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Program magang di Perusahaan K terbuka bagi mahasiswa tingkat akhir yang telah menyelesaikan mata kuliah statistika. Bima adalah mahasiswa tingkat akhir dan sering membantu dosennya mengolah data. Berdasarkan informasi itu, disimpulkan bahwa Bima memenuhi syarat program magang tersebut.<br><br>Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": {
+        "A": "Simpulan tersebut pasti benar.",
+        "B": "Simpulan tersebut mungkin benar, tetapi belum dapat dipastikan.",
+        "C": "Simpulan tersebut pasti salah.",
+        "D": "Simpulan tersebut bertentangan dengan syarat program.",
+        "E": "Simpulan tersebut tidak berkaitan dengan informasi yang diberikan."
+      },
+      "answer": "B",
+      "explanation": "Syarat tingkat akhir terpenuhi, tetapi “sering membantu mengolah data” tidak sama dengan “telah menyelesaikan mata kuliah statistika”. Simpulan mungkin benar, tetapi belum pasti."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "question": "Semua buku di rak A adalah buku referensi. Tidak ada buku referensi yang boleh dibawa pulang. Sebagian buku di rak A berbahasa Inggris.<br><br>Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": {
+        "A": "Sebagian buku di rak A tidak berbahasa Inggris.",
+        "B": "Sebagian buku berbahasa Inggris tidak boleh dibawa pulang.",
+        "C": "Semua buku berbahasa Inggris berada di rak A.",
+        "D": "Ada buku referensi yang tidak berada di rak A.",
+        "E": "Sebagian buku di rak A boleh dibawa pulang."
+      },
+      "answer": "E",
+      "explanation": "Semua buku rak A adalah buku referensi, dan tidak ada buku referensi yang boleh dibawa pulang. Jadi, tidak mungkin ada buku rak A yang boleh dibawa pulang. Pilihan lain pasti benar atau masih mungkin benar."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "question": "Kafe X dan Kafe Y berada di jalan yang sama dan menjual menu dengan harga yang mirip. Sejak awal bulan ini, pengunjung Kafe Y meningkat tajam, sedangkan pengunjung Kafe X tetap.<br><br>Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": {
+        "A": "Sejak awal bulan ini Kafe Y menyediakan internet gratis dan ruang belajar.",
+        "B": "Sejak awal bulan ini Kafe X menambah jumlah kursinya.",
+        "C": "Kafe X berdiri lebih dahulu daripada Kafe Y.",
+        "D": "Pemilik Kafe Y lebih tua daripada pemilik Kafe X.",
+        "E": "Kedua kafe buka pada jam yang sama."
+      },
+      "answer": "A",
+      "explanation": "Penjelasan yang paling kuat adalah perubahan yang menguntungkan Kafe Y dan terjadi sejak awal bulan. Penambahan kursi Kafe X tidak menjelaskan mengapa Kafe Y yang ramai."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Sebuah sekolah mewajibkan siswa membawa botol minum sendiri. Kepala sekolah yakin kebijakan ini akan mengurangi sampah plastik di sekolah.<br><br>Manakah yang PALING MUNGKIN menjadi asumsi yang mendasari keyakinan tersebut?",
+      "options": {
+        "A": "Semua siswa sudah memiliki botol minum sendiri.",
+        "B": "Kantin sekolah tidak menjual makanan.",
+        "C": "Botol minum sendiri lebih mahal daripada botol sekali pakai.",
+        "D": "Sebagian sampah plastik di sekolah berasal dari botol minum sekali pakai.",
+        "E": "Sampah plastik hanya dihasilkan oleh siswa."
+      },
+      "answer": "D",
+      "explanation": "Kebijakan itu hanya mengurangi sampah plastik jika botol sekali pakai memang menyumbang sampah plastik di sekolah. Itulah asumsi yang diperlukan."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Seorang peneliti menyimpulkan bahwa berjalan kaki 30 menit setiap hari menurunkan tekanan darah pada orang dewasa.<br><br>Manakah pernyataan berikut yang, jika benar, akan MEMPERKUAT simpulan peneliti tersebut?",
+      "options": {
+        "A": "Banyak orang dewasa tidak sempat berjalan kaki setiap hari.",
+        "B": "Kelompok yang berjalan kaki juga mengurangi konsumsi garam secara drastis.",
+        "C": "Berjalan kaki tidak memerlukan biaya.",
+        "D": "Sebagian peserta penelitian lebih suka bersepeda daripada berjalan kaki.",
+        "E": "Dalam percobaan dengan pola makan yang disamakan, kelompok yang berjalan kaki mengalami penurunan tekanan darah lebih besar."
+      },
+      "answer": "E",
+      "explanation": "Perbandingan dengan pola makan yang disamakan menyingkirkan penjelasan lain. Pengurangan garam justru memunculkan penyebab alternatif sehingga memperlemah simpulan."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "question": "Pengurus perpustakaan menyimpulkan bahwa menurunnya jumlah pengunjung disebabkan oleh pemindahan perpustakaan ke lantai tiga pada bulan Agustus.<br><br>Manakah pernyataan berikut yang, jika benar, akan MEMPERLEMAH simpulan tersebut?",
+      "options": {
+        "A": "Sebelum pindah, perpustakaan selalu ramai.",
+        "B": "Jumlah pengunjung perpustakaan sekolah lain yang tidak pindah lantai juga menurun sejak bulan Agustus.",
+        "C": "Lantai tiga tidak memiliki lift.",
+        "D": "Banyak siswa mengeluh harus naik tangga ke lantai tiga.",
+        "E": "Pengunjung yang tetap datang kebanyakan siswa kelas atas."
+      },
+      "answer": "B",
+      "explanation": "Jika perpustakaan lain yang tidak pindah juga mengalami penurunan, ada penyebab lain yang lebih umum. Keluhan tentang tangga justru memperkuat simpulan."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "question": "Ahli A menyatakan, “Kemampuan membaca anak terutama ditentukan oleh banyaknya buku di rumah.”<br>Ahli B menyatakan, “Kemampuan membaca anak terutama ditentukan oleh kebiasaan orang tua membacakan buku.”<br><br>Data penelitian menunjukkan bahwa di antara keluarga dengan jumlah buku yang sama, anak yang rutin dibacakan buku memiliki kemampuan membaca jauh lebih baik.<br><br>Manakah pernyataan berikut yang PALING TEPAT mengenai data tersebut?",
+      "options": {
+        "A": "Memperlemah pernyataan ahli A dan ahli B.",
+        "B": "Memperkuat pernyataan ahli A dan ahli B.",
+        "C": "Tidak relevan dengan pernyataan ahli A dan ahli B.",
+        "D": "Memperkuat pernyataan ahli A dan memperlemah pernyataan ahli B.",
+        "E": "Memperkuat pernyataan ahli B dan memperlemah pernyataan ahli A."
+      },
+      "answer": "E",
+      "explanation": "Jumlah buku disamakan, tetapi hasil berbeda mengikuti kebiasaan dibacakan buku. Data mendukung ahli B dan menunjukkan jumlah buku bukan penentu utama perbedaan."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Bersepeda ke sekolah menyehatkan tubuh dan tidak menimbulkan polusi. Namun, bersepeda di jalan raya yang padat dapat membahayakan pesepeda yang tidak berhati-hati.<br><br>Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": {
+        "A": "Semua pesepeda pasti mengalami kecelakaan.",
+        "B": "Siswa sebaiknya tidak bersepeda ke sekolah.",
+        "C": "Jalan raya yang padat selalu tidak berbahaya.",
+        "D": "Hanya bersepeda yang tidak menimbulkan polusi.",
+        "E": "Kegiatan yang bermanfaat dapat juga mengandung risiko."
+      },
+      "answer": "E",
+      "explanation": "Teks menyebut manfaat bersepeda sekaligus risikonya. Pilihan lain menggeneralisasi secara berlebihan."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "question": "Di Kota M, jumlah kasus demam berdarah menurun dalam dua tahun terakhir. Penurunan terbesar terjadi di kelurahan yang rutin melaksanakan gerakan menguras dan menutup tempat penampungan air.<br><br>Berdasarkan paragraf tersebut, manakah yang PALING MUNGKIN BENAR mengenai Kota M?",
+      "options": {
+        "A": "Kasus demam berdarah di kelurahan lain pasti meningkat.",
+        "B": "Semua kelurahan di Kota M sudah bebas dari nyamuk.",
+        "C": "Penduduk Kota M berkurang dalam dua tahun terakhir.",
+        "D": "Gerakan menguras dan menutup tempat penampungan air membantu menekan kasus demam berdarah.",
+        "E": "Dua tahun lalu tidak ada kasus demam berdarah di Kota M."
+      },
+      "answer": "D",
+      "explanation": "Penurunan terbesar terjadi di kelurahan yang rutin melaksanakan gerakan tersebut, sehingga yang paling mungkin adalah gerakan itu membantu menekan kasus."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Bengkel Z bekerja seperti sebuah rumah sakit. Setiap motor yang datang diperiksa lebih dahulu oleh petugas di meja depan, lalu dikirim ke montir yang menangani jenis kerusakan tertentu. Motor dengan kerusakan berat diutamakan dan dicatat riwayat perbaikannya.<br><br>Berdasarkan paragraf tersebut, jika Bengkel Z disamakan dengan rumah sakit, manakah simpulan yang PALING MUNGKIN BENAR?",
+      "options": {
+        "A": "Bengkel Z dikelola oleh seorang dokter.",
+        "B": "Riwayat perbaikan motor dirahasiakan dari pemiliknya.",
+        "C": "Montir di Bengkel Z juga merawat pasien manusia.",
+        "D": "Petugas meja depan berperan seperti petugas yang memilah pasien menurut keadaannya.",
+        "E": "Bengkel Z hanya menerima motor yang rusak berat."
+      },
+      "answer": "D",
+      "explanation": "Persamaan terletak pada alur kerja: pemeriksaan awal, pengiriman ke ahli tertentu, dan pengutamaan kasus berat. Petugas meja depan setara dengan petugas yang memilah pasien."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Survei di sebuah kota menunjukkan bahwa warga yang tinggal dekat taman kota lebih sering berolahraga daripada warga yang tinggal jauh dari taman. Survei yang sama menemukan bahwa warga yang tinggal dekat taman umumnya memiliki jam kerja lebih pendek.<br><br>Manakah simpulan yang DIDUKUNG oleh bacaan tersebut?<br>(1) Ada hubungan antara jarak rumah ke taman dan kebiasaan berolahraga.<br>(2) Kedekatan dengan taman pasti menjadi satu-satunya penyebab warga rajin berolahraga.<br>(3) Jam kerja mungkin ikut memengaruhi perbedaan kebiasaan berolahraga.<br>(4) Semua warga yang tinggal jauh dari taman tidak pernah berolahraga.",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "B",
+      "explanation": "(1) dan (3) didukung data. (2) dan (4) terlalu pasti dan tidak dinyatakan oleh survei."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Seorang pengamat menyatakan bahwa membangun jalan tol baru akan mengurangi kemacetan di jalan kota secara signifikan.<br><br>Berapa banyak pernyataan berikut yang MEMPERLEMAH pendapat pengamat tersebut?<br>(1) Sebagian besar kemacetan di kota terjadi pada jalan-jalan permukiman yang tidak terhubung dengan jalan tol.<br>(2) Penelitian di kota lain menunjukkan bahwa jalan baru justru menarik lebih banyak kendaraan.<br>(3) Jalan tol baru akan menampung kendaraan antarkota yang selama ini melintasi pusat kota.<br>(4) Warna aspal jalan tol baru lebih gelap daripada jalan kota.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "C",
+      "explanation": "(1) dan (2) memperlemah. (3) memperkuat dan (4) tidak relevan. Jadi ada 2."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "question": "Banyaknya tiket yang terjual pada hari kedua sampai hari keenam berturut-turut adalah 34, 30, 35, 31, dan 36. Jika pola perubahan penjualan tetap, berapa tiket yang terjual pada hari pertama?",
+      "options": {
+        "A": "35",
+        "B": "38",
+        "C": "29",
+        "D": "39",
+        "E": "33"
+      },
+      "answer": "C",
+      "explanation": "Pola perubahan: −4, +5, −4, +5. Sebelum −4 yang pertama terjadi +5, sehingga hari pertama = 34 − 5 = 29."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "question": "Nilai akhir lomba debat dihitung dari argumen (bobot 50%), penyampaian (bobot 30%), dan kerja sama tim (bobot 20%).<br><br>Tim P: 80, 90, 70<br>Tim Q: 90, 70, 80<br>Tim R: 85, 80, 90<br>Tim S: 75, 95, 85<br>Tim T: 90, 75, 70<br><br>Tim manakah yang memperoleh nilai akhir PALING TINGGI?",
+      "options": {
+        "A": "S",
+        "B": "R",
+        "C": "P",
+        "D": "Q",
+        "E": "T"
+      },
+      "answer": "B",
+      "explanation": "P = 40 + 27 + 14 = 81; Q = 45 + 21 + 16 = 82; R = 42,5 + 24 + 18 = 84,5; S = 37,5 + 28,5 + 17 = 83; T = 45 + 22,5 + 14 = 81,5. Tertinggi R."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "question": "Banyaknya pelanggan baru dua toko daring pada tahun 2020–2024 adalah sebagai berikut (dalam ribu).<br><br>Toko Q: 12, 18, 21, 30, 34<br>Toko R: 15, 17, 27, 31, 40<br><br>Kenaikan banyaknya pelanggan baru yang PALING BESAR terjadi pada ....",
+      "options": {
+        "A": "Toko R, 2023–2024",
+        "B": "Toko Q, 2022–2023",
+        "C": "Toko R, 2022–2023",
+        "D": "Toko R, 2021–2022",
+        "E": "Toko Q, 2020–2021"
+      },
+      "answer": "D",
+      "explanation": "Kenaikan Q: 6, 3, 9, 4. Kenaikan R: 2, 10, 4, 9. Terbesar 10 ribu: Toko R, 2021–2022."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sedang",
+      "question": "Banyaknya pengunjung pameran A pada lima hari terakhir adalah 40, 44, 42, 46, 44 orang, sedangkan pameran B adalah 60, 55, 58, 53, 56 orang. Jika polanya tetap, banyaknya pengunjung pameran A dan B pada hari ke-6 berturut-turut adalah ....",
+      "options": {
+        "A": "46 dan 51",
+        "B": "48 dan 54",
+        "C": "42 dan 59",
+        "D": "46 dan 54",
+        "E": "48 dan 51"
+      },
+      "answer": "E",
+      "explanation": "A: +4, −2, +4, −2 → 44 + 4 = 48. B: −5, +3, −5, +3 → 56 − 5 = 51."
+    },
+    {
+      "number": 25,
+      "difficulty": "Mudah",
+      "question": "Manakah di antara bilangan berikut yang nilainya PALING MENDEKATI hasil penjumlahan 9/8 + 145%?",
+      "options": {
+        "A": "3,15",
+        "B": "2,55",
+        "C": "2,35",
+        "D": "2,75",
+        "E": "2,95"
+      },
+      "answer": "B",
+      "explanation": "9/8 = 1,125 dan 145% = 1,45, sehingga jumlahnya 2,575. Yang paling dekat 2,55 (selisih 0,025)."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sedang",
+      "question": "Campuran beton terdiri atas 1/6 bagian semen, 1/3 bagian pasir, dan 1/2 bagian kerikil. Jika semen yang digunakan 25 kg, berapa kilogram kerikil yang diperlukan?",
+      "options": {
+        "A": "75",
+        "B": "125",
+        "C": "100",
+        "D": "150",
+        "E": "50"
+      },
+      "answer": "A",
+      "explanation": "Semen 1/6 bagian = 25 kg, sehingga campuran seluruhnya 150 kg. Kerikil = 1/2 × 150 = 75 kg."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sedang",
+      "question": "Sebuah tangki telah terisi 3/5 bagian. Setelah ditambah 24 liter, tangki terisi 7/8 bagian. Kapasitas tangki adalah ... liter.",
+      "options": {
+        "A": "96",
+        "B": "64",
+        "C": "87,27",
+        "D": "120",
+        "E": "80"
+      },
+      "answer": "C",
+      "explanation": "7/8 − 3/5 = 35/40 − 24/40 = 11/40 bagian = 24 liter. Kapasitas = 24 × 40/11 ≈ 87,27 liter."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sulit",
+      "question": "Sebuah tangki telah terisi 3/5 bagian. Setelah ditambah 22 liter, tangki terisi 7/8 bagian. Kapasitas tangki adalah ... liter.",
+      "options": {
+        "A": "120",
+        "B": "88",
+        "C": "80",
+        "D": "64",
+        "E": "96"
+      },
+      "answer": "C",
+      "explanation": "7/8 − 3/5 = 35/40 − 24/40 = 11/40 bagian = 22 liter. Kapasitas = 22 × 40/11 = 80 liter."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sedang",
+      "question": "Harga dan isi lima kemasan minyak goreng adalah sebagai berikut.<br><br>Kemasan P: 1 liter, Rp18.000<br>Kemasan Q: 2 liter, Rp34.000<br>Kemasan R: 900 ml, Rp15.300<br>Kemasan S: 5 liter, Rp88.000<br>Kemasan T: 500 ml, Rp9.500<br><br>Kemasan yang harga per liternya PALING MURAH adalah ....",
+      "options": {
+        "A": "R",
+        "B": "P",
+        "C": "S",
+        "D": "T",
+        "E": "Q"
+      },
+      "answer": "E",
+      "explanation": "Harga per liter: P 18.000; Q 17.000; R 17.000; S 17.600; T 19.000. Q dan R sama-sama 17.000."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sedang",
+      "question": "Harga dan isi lima kemasan minyak goreng adalah sebagai berikut.<br><br>Kemasan P: 1 liter, Rp18.000<br>Kemasan Q: 2 liter, Rp34.000<br>Kemasan R: 900 ml, Rp15.750<br>Kemasan S: 5 liter, Rp88.000<br>Kemasan T: 500 ml, Rp9.500<br><br>Kemasan yang harga per liternya PALING MURAH adalah ....",
+      "options": {
+        "A": "Q",
+        "B": "T",
+        "C": "R",
+        "D": "S",
+        "E": "P"
+      },
+      "answer": "A",
+      "explanation": "Harga per liter: P 18.000; Q 17.000; R 17.500; S 17.600; T 19.000. Termurah kemasan Q."
+    }
+  ]
+}

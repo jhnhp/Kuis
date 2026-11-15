@@ -1,0 +1,342 @@
+{
+  "title": "Simulasi UTBK Paket 2 - Bagian 2: Pengetahuan dan Pemahaman Umum",
+  "topic": "Makna Kata, Hubungan Kata, Imbuhan, Rujukan, dan Bahasa Buatan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 bacaan pendek yang diadaptasi dari Wikipedia bahasa Indonesia (Angklung, Tari Saman, Rendang, Pinisi). Waktu UTBK: 15 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_ppu1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Angklung adalah alat musik multitonal (bernada ganda) yang berkembang dari masyarakat Sunda. <sup>2</sup>Alat musik ini dibuat dari bambu dan dibunyikan dengan cara digoyangkan. <sup>3</sup>Bunyinya disebabkan oleh benturan badan pipa bambu sehingga menghasilkan bunyi yang bergetar dalam susunan nada 2, 3, sampai 4 nada dalam setiap ukuran, baik besar maupun kecil. <sup>4</sup>Kamus bahasa Sunda karya Jonathan Rigg yang diterbitkan pada tahun 1862 di Batavia menuliskan bahwa angklung terbuat dari pipa-pipa bambu yang dipotong ujung-ujungnya dan diikat bersama dalam suatu bingkai. <sup>5</sup>Angklung terdaftar sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia dari UNESCO sejak November 2010. <sup>6</sup>Pada 16 November 2022, mesin pencari Google memajang angklung di laman depan situsnya untuk merayakan Hari Angklung Sedunia.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Angklung” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Tari Saman adalah tari rakyat dari masyarakat Suku Gayo di Provinsi Aceh. <sup>2</sup>Pada tahun 2011, Tari Saman diakui oleh UNESCO sebagai warisan tak benda dunia. <sup>3</sup>Tarian ini merupakan salah satu media untuk menyampaikan pesan atau dakwah. <sup>4</sup>Tarian ini mencerminkan pendidikan, keagamaan, sopan santun, kepahlawanan, kekompakan, dan kebersamaan. <sup>5</sup>Sebelum tari Saman dimulai, tampil seorang tua cerdik pandai atau pemuka adat yang menyampaikan nasihat-nasihat kepada para pemain dan penonton. <sup>6</sup>Penyajian tarian tersebut dapat juga dipertandingkan antara grup tamu dan grup tuan rumah. <sup>7</sup>Penilaian dititikberatkan pada kemampuan masing-masing grup dalam mengikuti gerak, tari, dan syair yang disajikan oleh pihak lawan.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Tari Saman” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Rendang adalah hidangan lauk-pauk yang berasal dari Minangkabau dengan bahan dasar daging yang dimasak dengan suhu rendah dalam waktu lama menggunakan aneka rempah dan santan. <sup>2</sup>Hidangan ini lahir dari kebiasaan suku Minangkabau yang gemar merantau sehingga membutuhkan perbekalan yang awet dan tahan lama. <sup>3</sup>Proses memasak rendang biasanya berlangsung sekitar empat jam hingga dagingnya empuk dan bumbunya mengering. <sup>4</sup>Dalam suhu ruang, rendang dapat bertahan hingga berminggu-minggu. <sup>5</sup>Jika dimasak lebih singkat dan santannya belum mengering, hidangan ini disebut kalio. <sup>6</sup>Rendang juga dimanfaatkan sebagai bantuan pangan bagi korban bencana alam karena tahan lama dan gizinya terjaga.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Rendang” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Istilah pinisi mengacu pada jenis sistem layar, tiang, dan tali dari suatu jenis kapal layar Indonesia. <sup>2</sup>Sebuah pinisi membawa tujuh hingga delapan layar dengan dua tiang. <sup>3</sup>Kapal dengan layar pinisi sebagian besar dibangun oleh masyarakat Desa Ara di Kabupaten Bulukumba, Sulawesi Selatan. <sup>4</sup>Kapal itu banyak digunakan oleh pelaut Bugis dan Makassar sebagai kapal pengangkut barang. <sup>5</sup>Sebelum angkutan bertenaga angin tergeser oleh kapal bermotor pada tahun 1970–1980-an, kapal berlayar pinisi adalah kapal layar Indonesia terbesar. <sup>6</sup>UNESCO menetapkan seni pembuatan kapal pinisi sebagai warisan budaya takbenda pada 7 Desember 2017.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Pinisi” (CC BY-SA 4.0).</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu1",
+      "question": "Kata <i>multitonal</i> pada kalimat (1) bermakna ....",
+      "options": {
+        "A": "dimainkan oleh banyak orang",
+        "B": "memiliki lebih dari satu nada",
+        "C": "berasal dari banyak daerah",
+        "D": "terbuat dari banyak bahan",
+        "E": "berbunyi sangat keras"
+      },
+      "answer": "B",
+      "explanation": "Kalimat (1) sendiri menjelaskan maknanya dalam kurung: bernada ganda, yaitu memiliki lebih dari satu nada."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Hubungan kata <i>angklung</i> dan kata <i>bambu</i> dalam bacaan sama dengan hubungan kata <i>gerabah</i> dan kata ....",
+      "options": {
+        "A": "tungku",
+        "B": "guci",
+        "C": "tanah liat",
+        "D": "pasar",
+        "E": "perajin"
+      },
+      "answer": "C",
+      "explanation": "Angklung dibuat dari bambu (benda : bahan). Gerabah dibuat dari tanah liat."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Kata <i>memajang</i> pada kalimat (6) sama maknanya dengan kata ....",
+      "options": {
+        "A": "menjual",
+        "B": "merekam",
+        "C": "mengganti",
+        "D": "menampilkan",
+        "E": "menyimpan"
+      },
+      "answer": "D",
+      "explanation": "Memajang berarti memasang sesuatu agar dilihat orang, yaitu menampilkan."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu1",
+      "question": "Makna <i>pe-an</i> pada kata <i>perayaan</i> sama dengan makna <i>pe-an</i> pada kata ....",
+      "options": {
+        "A": "pelabuhan (Kapal merapat di pelabuhan.)",
+        "B": "pegunungan (Udara pegunungan sejuk.)",
+        "C": "persawahan (Persawahan itu menguning.)",
+        "D": "perumahan (Ia tinggal di perumahan baru.)",
+        "E": "pembukaan (Pembukaan pameran dihadiri wali kota.)"
+      },
+      "answer": "E",
+      "explanation": "Perayaan bermakna ‘hal atau peristiwa merayakan’. Makna yang sama ada pada pembukaan (peristiwa membuka). Pilihan lain bermakna tempat atau kawasan."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu1",
+      "question": "Kata dalam bacaan tersebut yang digunakan dengan makna kias adalah ....",
+      "options": {
+        "A": "laman (kalimat 6)",
+        "B": "diikat (kalimat 4)",
+        "C": "bambu (kalimat 2)",
+        "D": "dipotong (kalimat 4)",
+        "E": "pipa (kalimat 3)"
+      },
+      "answer": "A",
+      "explanation": "<i>Laman</i> bermakna sebenarnya ‘halaman rumah’; pada kalimat (6) dipakai secara kias untuk halaman situs web. Kata lain bermakna sebenarnya."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>media</i> pada kalimat (3) sama maknanya dengan kata ....",
+      "options": {
+        "A": "sarana",
+        "B": "hiburan",
+        "C": "berita",
+        "D": "penonton",
+        "E": "panggung"
+      },
+      "answer": "A",
+      "explanation": "Media untuk menyampaikan pesan berarti alat atau sarana penyampai pesan."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>kekompakan</i> pada kalimat (4) memiliki makna yang berlawanan dengan kata ....",
+      "options": {
+        "A": "keakraban",
+        "B": "perpecahan",
+        "C": "kerukunan",
+        "D": "keserasian",
+        "E": "kebersamaan"
+      },
+      "answer": "B",
+      "explanation": "Kompak berarti bersatu padu. Lawannya adalah perpecahan; pilihan lain justru bersinonim."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>dititikberatkan</i> pada kalimat (7) sama maknanya dengan kata ....",
+      "options": {
+        "A": "dihitung",
+        "B": "disamakan",
+        "C": "diutamakan",
+        "D": "dirahasiakan",
+        "E": "dikurangi"
+      },
+      "answer": "C",
+      "explanation": "Dititikberatkan berarti dijadikan pusat perhatian atau diutamakan."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu2",
+      "question": "Apabila gagasan pada bacaan tersebut dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah ....",
+      "options": {
+        "A": "(1) dan (2-3-4-5-6-7)",
+        "B": "(1-2) dan (3-4-5-6-7)",
+        "C": "(1-2-3) dan (4-5-6-7)",
+        "D": "(1-2-3-4) dan (5-6-7)",
+        "E": "(1-2-3-4-5) dan (6-7)"
+      },
+      "answer": "D",
+      "explanation": "Kalimat (1)–(4) membahas asal, pengakuan, dan nilai Tari Saman. Kalimat (5)–(7) membahas penyajiannya: pembukaan dan pertandingan antargrup."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata yang tepat untuk menggambarkan nilai Tari Saman sebagaimana diuraikan dalam bacaan adalah ....",
+      "options": {
+        "A": "keterasingan",
+        "B": "kesendirian",
+        "C": "kebersamaan",
+        "D": "persaingan",
+        "E": "kemewahan"
+      },
+      "answer": "C",
+      "explanation": "Kalimat (4) menyebut kekompakan dan kebersamaan sebagai nilai yang dicerminkan tarian ini. Pertandingan antargrup pun dinilai dari kemampuan mengikuti gerak bersama."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata <i>awet</i> pada kalimat (2) sama maknanya dengan kata ....",
+      "options": {
+        "A": "praktis",
+        "B": "tahan lama",
+        "C": "bergizi",
+        "D": "murah",
+        "E": "lezat"
+      },
+      "answer": "B",
+      "explanation": "Awet berarti tahan lama, tidak cepat rusak; kalimat (2) memakai keduanya berdampingan."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Hubungan kata <i>rendang</i> dan kata <i>kalio</i> dalam bacaan paling tepat digambarkan sebagai ....",
+      "options": {
+        "A": "makanan dan minuman",
+        "B": "masakan dan daerah asalnya",
+        "C": "bahan dan alat",
+        "D": "penjual dan pembeli",
+        "E": "hasil akhir dan tahap sebelumnya"
+      },
+      "answer": "E",
+      "explanation": "Menurut kalimat (5), kalio adalah hidangan yang sama ketika dimasak lebih singkat dan santannya belum kering, yaitu tahap sebelum menjadi rendang."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu3",
+      "question": "Kalimat (2) dan (6) mengandung kesamaan, yaitu keduanya menjelaskan ....",
+      "options": {
+        "A": "manfaat sifat rendang yang tahan lama",
+        "B": "lama waktu memasak rendang",
+        "C": "daerah asal rendang",
+        "D": "cara memasak rendang",
+        "E": "bahan dasar rendang"
+      },
+      "answer": "A",
+      "explanation": "Kalimat (2): rendang dibutuhkan sebagai perbekalan perantau karena awet. Kalimat (6): rendang dipakai sebagai bantuan bencana karena tahan lama. Keduanya memanfaatkan sifat tahan lama."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu3",
+      "question": "Kalimat (3) dan (4) mengandung hubungan ....",
+      "options": {
+        "A": "pertentangan",
+        "B": "pengandaian",
+        "C": "pemilihan",
+        "D": "perbandingan",
+        "E": "penambahan"
+      },
+      "answer": "E",
+      "explanation": "Kalimat (4) menambahkan informasi tentang daya tahan rendang setelah kalimat (3) menjelaskan proses memasaknya."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu3",
+      "question": "Bentuk <i>ber-an</i> pada kata <i>berdatangan</i> mempunyai kesamaan makna dengan bentuk yang terdapat pada ....",
+      "options": {
+        "A": "Rumah mereka <i>berdekatan</i>.",
+        "B": "Kedua sahabat itu <i>bersalaman</i>.",
+        "C": "Para perantau <i>berpulangan</i> menjelang Lebaran.",
+        "D": "Dua tim itu <i>berhadapan</i> di final.",
+        "E": "Mereka <i>berpandangan</i> sejenak."
+      },
+      "answer": "C",
+      "explanation": "<i>Berdatangan</i> bermakna ‘banyak yang datang’. Makna yang sama ada pada <i>berpulangan</i> (banyak yang pulang). Pilihan lain bermakna saling (bersalaman, berpandangan, berhadapan) atau keadaan (berdekatan)."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu4",
+      "question": "Kata <i>pinisi</i> menurut bacaan tersebut merujuk pada ....",
+      "options": {
+        "A": "jenis sistem layar kapal",
+        "B": "bentuk lambung kapal",
+        "C": "nama desa pembuat kapal",
+        "D": "jenis barang yang diangkut",
+        "E": "nama pelaut Bugis"
+      },
+      "answer": "A",
+      "explanation": "Kalimat (1): istilah pinisi mengacu pada jenis sistem layar, tiang, dan tali."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu4",
+      "question": "Hubungan kata <i>pelaut</i> dan kata <i>kapal</i> sama dengan hubungan kata <i>masinis</i> dan kata ....",
+      "options": {
+        "A": "stasiun",
+        "B": "kereta api",
+        "C": "karcis",
+        "D": "rel",
+        "E": "penumpang"
+      },
+      "answer": "B",
+      "explanation": "Pelaut menjalankan kapal; masinis menjalankan kereta api (pelaku : kendaraan yang dijalankannya)."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu4",
+      "question": "Kata <i>tergeser</i> pada kalimat (5) sama maknanya dengan kata ....",
+      "options": {
+        "A": "terdampar",
+        "B": "terbalik",
+        "C": "terbakar",
+        "D": "tergantikan",
+        "E": "tertinggal"
+      },
+      "answer": "D",
+      "explanation": "Angkutan bertenaga angin tergeser oleh kapal bermotor, yaitu kedudukannya tergantikan."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu4",
+      "question": "Kata <i>itu</i> pada kalimat (4) merujuk pada ....",
+      "options": {
+        "A": "Kabupaten Bulukumba",
+        "B": "tujuh hingga delapan layar",
+        "C": "masyarakat Desa Ara",
+        "D": "sistem tali kapal",
+        "E": "kapal dengan layar pinisi"
+      },
+      "answer": "E",
+      "explanation": "<i>Kapal itu</i> merujuk pada kapal yang disebut pada kalimat (3), yaitu kapal dengan layar pinisi."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Petani menanam padi – <i>Moru kaste lin</i><br>Nelayan menjual ikan – <i>Saga velo pim</i><br>Apa petani menjual padi? – <i>Velo moru te’lin</i><br><br>Bagaimana cara mengatakan “Apa nelayan menanam ikan?” dengan menggunakan bahasa tersebut?",
+      "options": {
+        "A": "Velo saga te’pim?",
+        "B": "Kaste saga te’lin?",
+        "C": "Kaste moru te’pim?",
+        "D": "Kaste saga te’pim?",
+        "E": "Saga kaste te’pim?"
+      },
+      "answer": "D",
+      "explanation": "moru = petani, kaste = menanam, lin = padi, saga = nelayan, velo = menjual, pim = ikan. Pola kalimat tanya: kata kerja + pelaku + <i>te’</i> + objek. Jadi: <i>Kaste saga te’pim?</i>"
+    }
+  ]
+}

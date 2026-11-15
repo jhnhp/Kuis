@@ -1,0 +1,529 @@
+{
+  "title": "Simulasi UTBK Paket 2 - Bagian 5: Literasi dalam Bahasa Indonesia",
+  "topic": "Teks Sastra (Novel dan Puisi), Saintek, dan Sosial Humaniora",
+  "subtitle": "Simulasi 30 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal, 5 pilihan jawaban, 6 teks dari sumber nyata: novel Sitti Nurbaya (Marah Rusli), puisi “Senja di Pelabuhan Kecil” (Chairil Anwar), serta artikel Wikipedia bahasa Indonesia. Waktu UTBK: 42,5 menit.",
+  "total_questions": 30,
+  "passages": [
+    {
+      "id": "teks_lbi1",
+      "title": "Teks 1: Kutipan novel Sitti Nurbaya",
+      "text": [
+        "Kira-kira pukul satu siang, kelihatan dua orang anak muda, bernaung di bawah pohon ketapang yang rindang, di muka sekolah Belanda Pasar Ambacang di Padang, seolah-olah mereka hendak memperlindungkan dirinya dari panas yang memancar dari atas dan timbul dari tanah, bagaikan uap air yang mendidih.",
+        "Seorang dari anak muda ini, ialah anak laki-laki, yang umurnya kira-kira 18 tahun. Pakaiannya baju jas tutup putih dan celana pendek hitam, yang berkancing di ujungnya. Sepatunya sepatu hitam tinggi, yang disambung ke atas dengan kaus sutera hitam pula dan diikatkan dengan ikatan kaus getah pada betisnya. Topinya topi rumput putih, yang biasa dipakai bangsa Belanda. Di tangan kirinya ada beberapa kitab dengan sebuah peta bumi dan dengan tangan kanannya dipegangnya sebuah belebas, yang dipukul-pukulkannya ke betisnya.",
+        "Jika dipandang dari jauh, tentulah akan disangka, anak muda ini seorang anak Belanda, yang hendak pulang dari sekolah. Tetapi jika dilihat dari dekat, nyatalah ia bukan bangsa Eropa; karena kulitnya kuning sebagai kulit langsat, rambut dan matanya hitam sebagai dawat. Di bawah dahinya yang lebar dan tinggi, nyata kelihatan alis matanya yang tebal dan hitam pula.",
+        "Hidungnya mancung dan mulutnya halus. Badannya sedang, tak gemuk dan tak kurus, tetapi tegap. Pada wajah mukanya yang jernih dan tenang, berbayang, bahwa ia seorang yang lurus, tetapi keras hati; tak mudah dibantah, barang sesuatu maksudnya.",
+        "[...]",
+        "\"Apakah sebabnya Pak Ali hari ini terlambat datang? Lupakah ia menjemput kita?\" demikianlah tanya anak laki-laki tadi kepada temannya yang perempuan, sambil menoleh ke jalan yang menuju ke pasar Kampung Jawa.",
+        "\"Ya, biasanya sebelum pukul satu ia telah ada di sini. Sekarang, cobalah lihat! Jam di kantor telepon itu sudah hampir setengah dua,\" jawab anak perempuan yang di sisinya.",
+        "\"Jangan-jangan ia tertidur, karena mengantuk; sebab tadi malam ia minta izin kepada ayahku, pergi menonton komidi kuda. Kalau benar demikian, tentulah kesalahannya ini akan kuadukan kepada ayahku,\" kata anak laki-laki itu pula, sebagai marah rupanya.",
+        "\"Ah, jangan Sam. Kasihanilah orang tua itu! Karena ia bukan baru sehari dua bekerja pada ayahmu, melainkan telah bertahun-tahun. Dan di dalam waktu yang sekian lamanya itu, belum ada ia berbuat kesalahan apa-apa. Bagaimanakah rasanya, kalau kita sendiri sudah setua itu, masih dimarahi juga? Pada sangkaku, tentulah ada alangan apa-apa padanya. Jangan-jangan ia mendapat kecelakaan di tengah jalan. Kasihan orang tua itu! Lebih baik kita berjalan kaki saja perlahan-lahan, pulang ke rumah; barangkali di tengah jalan kita bertemu dengan dia kelak,\" kata anak perempuan itu pula seraya membuka payung suteranya dan berjalan perlahan-lahan ke luar pekarangan rumah sekolah.",
+        "\"Ya, tetapi aku lebih suka naik bendi daripada berjalan kaki, pulang ke rumah, sebab aku amat lelah rasanya dan hari amat panas. Lihatlah mukamu, telah merah sebagai jambu air, kena panas matahari!\" jawab anak laki-laki itu, seakan-akan merengut, tetapi diikutinya juga temannya yang perempuan tadi.",
+        "\"Benar hari panas, tetapi tak mengapa. Kaulihat sendiri, aku ada membawa payung yang boleh kita pakai bersama-sama. Merah mukaku ini bukan karena panas semata-mata, melainkan memang sejak dari sekolah sudah merah juga.\"",
+        "\"Apa sebabnya? Barangkali engkau dimarahi gurumu,\" tanya Sam, demikianlah nama anak laki-laki itu, sambil memandang kepada temannya.",
+        "\"Bukan begitu, Sam, hanya ... O, itu Pak Ali datang!\"",
+        "<small>Sumber: Marah Rusli, <i>Sitti Nurbaya: Kasih Tak Sampai</i> (Balai Pustaka, 1922), Bab I “Pulang dari Sekolah”; teks dari Wikisource bahasa Indonesia (domain publik), dengan perbaikan ejaan ringan.</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi2",
+      "title": "Teks 2: Puisi “Senja di Pelabuhan Kecil” (buat Sri Ayati)",
+      "text": [
+        "Ini kali tidak ada yang mencari cinta<br>di antara gudang, rumah tua, pada cerita<br>tiang serta temali. Kapal, perahu tiada berlaut<br>menghembus diri dalam mempercaya mau berpaut",
+        "Gerimis mempercepat kelam. Ada juga kelepak elang<br>menyinggung muram, desir hari lari berenang<br>menemu bujuk pangkal akanan. Tidak bergerak<br>dan kini tanah dan air tidur hilang ombak.",
+        "Tiada lagi. Aku sendiri. Berjalan<br>menyisir semenanjung, masih pengap harap<br>sekali tiba di ujung dan sekalian selamat jalan<br>dari pantai keempat, sedu penghabisan bisa terdekap.",
+        "<small>Sumber: Chairil Anwar, “Senja di Pelabuhan Kecil” (1946); teks dari Wikisource bahasa Indonesia (domain publik).</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi3",
+      "title": "Teks 3: Terumbu Karang",
+      "text": [
+        "Terumbu karang adalah sebuah ekosistem bawah laut yang dicirikan dengan hadirnya koral-koral pembangun karang. Koral sendiri adalah hewan karang yang bersimbiosis dengan sejenis tumbuhan alga yang disebut zooxanthellae. Koloni karang dibentuk oleh ribuan hewan kecil yang disebut polip. Dalam bentuk sederhananya, karang terdiri dari satu polip saja yang mempunyai bentuk tubuh seperti tabung dengan mulut yang terletak di bagian atas dan dikelilingi oleh tentakel. Namun pada kebanyakan spesies, satu individu polip karang akan berkembang menjadi banyak individu yang disebut koloni. Hewan ini memiliki bentuk unik dan warna beraneka rupa serta dapat menghasilkan CaCO3. Terumbu karang merupakan habitat bagi berbagai spesies tumbuhan laut, hewan laut, dan mikroorganisme laut lainnya yang belum diketahui.",
+        "Terkadang dikenal sebagai hutan hujan lautan, terumbu karang perairan dangkal menjadi salah satu ekosistem paling beranekaragam di Bumi. Ekosistem ini mencakup kurang dari 0,1% area lautan dunia yang kurang lebih setara dengan setengah luas Prancis. Namun, ekosistem ini menjadi rumah bagi setidaknya 25% dari semua spesies laut, termasuk ikan, moluska, cacing, krustasea, echinoderm, spons, tunikata dan cnidaria lainnya. Terumbu karang tumbuh pesat pada perairan laut yang mengandung sedikit nutrien. Terumbu umumnya ditemukan di perairan tropis dangkal, tetapi juga hadir di laut dalam dan perairan dingin, meski dalam skala yang lebih kecil.",
+        "Terumbu karang dangkal telah berkurang sebanyak 20% sejak 1950, sebagian karena mereka sensitif terhadap kondisi air. Terumbu karang terancam nutrien berlebih di air (nitrogen dan fosfor), peningkatan kandungan panas samudra dan asidifikasi, penangkapan ikan berlebih, penggunaan tabir surya, dan penggunaan lahan berbahaya, termasuk melalui polusi pertanian.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Terumbu karang” (CC BY-SA 4.0), dikutip sebagian.</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi4",
+      "title": "Teks 4: Inflasi",
+      "text": [
+        "Inflasi merupakan suatu proses meningkatnya harga-harga secara umum dan terus-menerus, kenaikan harga dari satu atau dua barang saja tidak dapat disebut inflasi kecuali bila kenaikan itu meluas (atau mengakibatkan kenaikan harga) pada barang lainnya. Inflasi berkaitan dengan mekanisme pasar yang dapat disebabkan oleh berbagai faktor, antara lain: konsumsi masyarakat yang meningkat, berlebihnya likuiditas di pasar yang memicu konsumsi atau bahkan spekulasi, sampai termasuk juga akibat adanya ketidaklancaran distribusi barang. Selain itu, ketidakstabilan ekonomi dan tingkat penjualan juga menimbulkan inflasi. Dengan kata lain, inflasi juga merupakan proses menurunnya nilai mata uang secara kontinu.",
+        "Inflasi adalah proses dari suatu peristiwa, bukan tinggi-rendahnya tingkat harga. Artinya, tingkat harga yang dianggap tinggi belum tentu menunjukkan inflasi. Inflasi adalah indikator untuk melihat tingkat perubahan, dan dianggap terjadi jika proses kenaikan harga berlangsung secara terus-menerus dan saling pengaruh-memengaruhi. Istilah inflasi juga digunakan untuk mengartikan peningkatan persediaan uang yang kadang kala dilihat sebagai penyebab meningkatnya harga. Ada banyak cara untuk mengukur tingkat inflasi, dua yang paling sering digunakan adalah CPI dan GDP Deflator.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Inflasi” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi5",
+      "title": "Teks 5: Vaksin",
+      "text": [
+        "Vaksin adalah sediaan biologis yang digunakan untuk menghasilkan kekebalan adaptif terhadap penyakit infeksi tertentu. Biasanya, vaksin mengandung agen atau zat yang menyerupai mikroorganisme penyebab penyakit dan sering kali dibuat dari mikroorganisme yang dilemahkan atau dimatikan, dari toksinnya, atau dari salah satu protein permukaannya. Agen dalam vaksin merangsang sistem imun agar dapat mengenali agen tersebut sebagai ancaman, menghancurkannya, dan mengingatnya agar sistem imun dapat kembali mengenali dan menghancurkan mikroorganisme yang berhubungan dengan agen tersebut saat ditemui pada masa depan. Vaksin dapat bersifat profilaksis (misalnya untuk mencegah atau memperbaiki dampak akibat infeksi patogen pada masa depan) atau terapeutik (misalnya vaksin terhadap kanker).",
+        "Pemberian vaksin disebut vaksinasi, yang merupakan salah satu bentuk imunisasi. Vaksinasi merupakan metode paling efektif untuk mencegah penyakit menular. Penerapan vaksinasi secara luas telah menciptakan kekebalan kelompok yang berperan penting dalam pemberantasan cacar di seluruh dunia dan pembatasan sejumlah penyakit seperti polio, campak, dan tetanus di banyak belahan dunia. Efektivitas vaksinasi telah dipelajari dan diverifikasi secara luas; vaksin yang telah terbukti efektif misalnya vaksin influenza, vaksin HPV, dan vaksin cacar air. Organisasi Kesehatan Dunia (WHO) melaporkan bahwa saat ini telah diterbitkan izin untuk vaksin bagi dua puluh lima jenis infeksi yang dapat dicegah.",
+        "Vaksin berasal dari kata variolae vaccinae (cacar sapi). Istilah ini dibuat oleh Edward Jenner (yang mengembangkan konsep vaksin dan menciptakan vaksin pertama) untuk menyebut penyakit cacar sapi. Ia menggunakan frasa tersebut pada tahun 1798 dalam bukunya Penyelidikan Variolae vaccinae yang dikenal sebagai cacar sapi, yang menjelaskan efek perlindungan cacar sapi terhadap cacar. Pada tahun 1881, untuk menghormati Jenner, Louis Pasteur mengusulkan bahwa istilah tersebut harus diperluas agar mencakup inokulasi pelindung, metode baru saat itu yang kemudian dikembangkan. Ilmu yang mempelajari pengembangan dan produksi vaksin disebut vaksinologi.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Vaksin” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi6",
+      "title": "Teks 6: Urbanisasi",
+      "text": [
+        "Urbanisasi mengacu pada pergeseran penduduk dari daerah pedesaan ke perkotaan, \"peningkatan bertahap jumlah orang yang tinggal di daerah perkotaan\", dan cara-cara di mana setiap masyarakat menyesuaikan diri dengan perubahan ini. Hal ini secara khusus merujuk kepada proses di mana kota-kota yang terbentuk menjadi lebih besar karena lebih banyak orang mulai tinggal dan bekerja di daerah tersebut. Perserikatan Bangsa-Bangsa memproyeksikan bahwa setengah dari populasi dunia akan tinggal di daerah perkotaan pada akhir tahun 2008. Diperkirakan pada tahun 2050, sekitar 64% negara berkembang dan 86% negara maju akan mengalami urbanisasi. Itu setara dengan sekitar 3 miliar warga kota pada 2050, yang sebagian besar akan terjadi di Afrika dan Asia. Khususnya, Perserikatan Bangsa-Bangsa juga baru-baru ini memproyeksikan bahwa hampir semua pertumbuhan populasi global dari tahun 2017 sampai 2030 akan diserap oleh kota-kota, sekitar 1,1 miliar orang baru perkotaan selama 13 tahun ke depan.",
+        "Saat ini, di Asia, aglomerasi perkotaan di Osaka, Karachi, Jakarta, Mumbai, Shanghai, Manila, Seoul dan Beijing masing-masing telah menjadi rumah bagi lebih dari 20 juta orang, sementara Delhi dan Tokyo diperkirakan mendekati atau melampaui 40 juta orang dalam waktu satu dekade mendatang. Di luar Asia, Mexico City, São Paulo, London, New York City, Istanbul, Lagos dan Kairo, telah atau akan segera menjadi rumah bagi lebih dari 10 juta orang.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Urbanisasi” (CC BY-SA 4.0), dikutip sebagian.</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Latar tempat peristiwa dalam kutipan novel tersebut adalah ....",
+      "options": {
+        "A": "di bawah pohon ketapang di muka sekolah Belanda di Padang",
+        "B": "di rumah ayah Sam",
+        "C": "di pasar Kampung Jawa",
+        "D": "di kantor telepon kota Padang",
+        "E": "di dalam bendi yang ditarik kuda Batak"
+      },
+      "answer": "A",
+      "explanation": "Kalimat pertama: kedua anak muda bernaung di bawah pohon ketapang di muka sekolah Belanda Pasar Ambacang di Padang."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Watak tokoh Sam yang tergambar dalam kutipan tersebut adalah ....",
+      "options": {
+        "A": "penakut dan ragu-ragu",
+        "B": "penyabar dan pemaaf",
+        "C": "keras hati dan mudah kesal",
+        "D": "boros dan sombong",
+        "E": "pemalu dan pendiam"
+      },
+      "answer": "C",
+      "explanation": "Pencerita menyebut Sam “lurus, tetapi keras hati; tak mudah dibantah”. Ia juga hendak mengadukan Pak Ali dan berbicara “sebagai marah rupanya”."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Watak tokoh perempuan (teman Sam) yang tergambar dari ucapannya adalah ....",
+      "options": {
+        "A": "manja dan mudah mengeluh",
+        "B": "berbelas kasihan kepada orang lain",
+        "C": "cepat marah kepada pembantu",
+        "D": "tidak peduli pada keadaan sekitar",
+        "E": "angkuh karena anak orang kaya"
+      },
+      "answer": "B",
+      "explanation": "Ia membela Pak Ali (“Kasihanilah orang tua itu!”), menduga Pak Ali mendapat halangan, dan memilih berjalan kaki daripada memarahinya."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Majas yang terdapat pada kalimat <i>rambut dan matanya hitam sebagai dawat</i> adalah ....",
+      "options": {
+        "A": "litotes",
+        "B": "metonimia",
+        "C": "hiperbola",
+        "D": "simile (perumpamaan)",
+        "E": "personifikasi"
+      },
+      "answer": "D",
+      "explanation": "Hitamnya rambut dan mata dibandingkan secara langsung dengan dawat (tinta) menggunakan kata pembanding <i>sebagai</i>. Itulah simile."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi1",
+      "question": "Ucapan tokoh perempuan, <i>“Merah mukaku ini bukan karena panas semata-mata, melainkan memang sejak dari sekolah sudah merah juga”</i>, yang kemudian tidak diselesaikannya, paling mungkin menunjukkan bahwa ia ....",
+      "options": {
+        "A": "baru saja dimarahi gurunya",
+        "B": "ingin segera pulang naik bendi",
+        "C": "sedang demam sejak pagi",
+        "D": "kesal karena Pak Ali terlambat",
+        "E": "menyimpan perasaan yang enggan atau malu diungkapkan"
+      },
+      "answer": "E",
+      "explanation": "Ketika Sam menebak ia dimarahi guru, ia menyangkal (“Bukan begitu, Sam, hanya ...”) lalu mengalihkan pembicaraan. Ada sesuatu yang ia rasakan tetapi enggan diungkapkan."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Latar tempat yang digambarkan dalam puisi tersebut adalah ....",
+      "options": {
+        "A": "puncak bukit pada malam hari",
+        "B": "rumah tua di tengah kota",
+        "C": "pasar ikan pada pagi hari",
+        "D": "kapal di tengah laut",
+        "E": "pelabuhan kecil pada waktu senja"
+      },
+      "answer": "E",
+      "explanation": "Judul dan citraan gudang, rumah tua, tiang, temali, kapal, perahu, dan pantai menunjukkan pelabuhan kecil; “gerimis mempercepat kelam” menunjukkan waktu senja."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi2",
+      "question": "Suasana yang paling dominan dalam puisi tersebut adalah ....",
+      "options": {
+        "A": "sepi dan murung",
+        "B": "riang dan bersemangat",
+        "C": "megah dan meriah",
+        "D": "tegang dan mencekam",
+        "E": "lucu dan menghibur"
+      },
+      "answer": "A",
+      "explanation": "Kata dan citraan seperti “tidak ada yang mencari cinta”, “menyinggung muram”, “Tiada lagi. Aku sendiri”, dan “sedu penghabisan” membangun suasana sepi dan murung."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi2",
+      "question": "Larik <i>Ini kali tidak ada yang mencari cinta</i> paling tepat dimaknai bahwa aku lirik ....",
+      "options": {
+        "A": "sedang menunggu kekasihnya di pelabuhan",
+        "B": "membenci orang-orang di pelabuhan",
+        "C": "tidak percaya pada adanya cinta",
+        "D": "berhasil menemukan cinta sejati",
+        "E": "merasa kehilangan dan sendirian dalam urusan cinta"
+      },
+      "answer": "E",
+      "explanation": "Larik itu membuka puisi tentang kesendirian; bait ketiga menegaskannya (“Tiada lagi. Aku sendiri”). Cinta yang dicari tidak ditemukan."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi2",
+      "question": "Citraan <i>Kapal, perahu tiada berlaut</i> dalam bait pertama paling tepat ditafsirkan sebagai lambang ....",
+      "options": {
+        "A": "kekayaan hasil laut",
+        "B": "harapan yang tidak dapat berlayar atau terwujud",
+        "C": "kegembiraan menyambut kapal datang",
+        "D": "kesibukan perdagangan di pelabuhan",
+        "E": "kemarahan para nelayan"
+      },
+      "answer": "B",
+      "explanation": "Kapal dan perahu yang tidak berlayar adalah benda yang kehilangan fungsinya. Dalam suasana puisi yang muram, citraan itu melambangkan harapan atau cinta yang tidak dapat berjalan."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi2",
+      "question": "Makna bait ketiga puisi tersebut adalah ....",
+      "options": {
+        "A": "aku lirik berjalan sendiri dengan harapan yang tinggal sedikit dan bersiap mengucapkan selamat tinggal",
+        "B": "aku lirik bergembira karena hujan telah reda",
+        "C": "aku lirik mengajak kekasihnya berjalan menyusuri pantai",
+        "D": "aku lirik berencana membangun rumah di semenanjung",
+        "E": "aku lirik berhasil menyeberang ke pantai seberang dengan selamat"
+      },
+      "answer": "A",
+      "explanation": "“Aku sendiri. Berjalan / menyisir semenanjung, masih pengap harap” menunjukkan kesendirian dengan harapan yang menyesakkan; “sekalian selamat jalan” dan “sedu penghabisan” menunjukkan perpisahan."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Menurut teks tersebut, koral bersimbiosis dengan ....",
+      "options": {
+        "A": "ikan karang",
+        "B": "spons",
+        "C": "bakteri belerang",
+        "D": "alga zooxanthellae",
+        "E": "cacing laut"
+      },
+      "answer": "D",
+      "explanation": "Kalimat kedua: koral adalah hewan karang yang bersimbiosis dengan sejenis alga yang disebut zooxanthellae."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Terumbu karang dijuluki <i>hutan hujan lautan</i> karena ....",
+      "options": {
+        "A": "hanya terdapat di perairan tropis",
+        "B": "merupakan salah satu ekosistem paling beranekaragam di Bumi",
+        "C": "selalu basah oleh air hujan",
+        "D": "ditumbuhi banyak pohon laut",
+        "E": "menghasilkan oksigen paling banyak"
+      },
+      "answer": "B",
+      "explanation": "Paragraf kedua menghubungkan julukan itu dengan keanekaragamannya: terumbu karang menjadi salah satu ekosistem paling beranekaragam di Bumi."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi3",
+      "question": "Simpulan yang paling tepat berdasarkan data pada paragraf kedua adalah ....",
+      "options": {
+        "A": "Seperempat spesies laut hidup di perairan dingin.",
+        "B": "Luas terumbu karang sama dengan luas Prancis.",
+        "C": "Terumbu karang menutupi seperempat luas lautan dunia.",
+        "D": "Meskipun luasnya sangat kecil, terumbu karang sangat penting bagi keanekaragaman hayati laut.",
+        "E": "Terumbu karang hanya dihuni ikan."
+      },
+      "answer": "D",
+      "explanation": "Terumbu karang mencakup kurang dari 0,1% area laut (sekitar setengah luas Prancis), tetapi menjadi rumah bagi setidaknya 25% spesies laut."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Berikut yang <b>tidak</b> disebutkan sebagai ancaman bagi terumbu karang adalah ....",
+      "options": {
+        "A": "penangkapan ikan berlebih",
+        "B": "penggunaan tabir surya",
+        "C": "peningkatan kandungan panas samudra",
+        "D": "kekurangan nutrien di air",
+        "E": "polusi pertanian"
+      },
+      "answer": "D",
+      "explanation": "Teks menyebut nutrien <i>berlebih</i> sebagai ancaman, bukan kekurangan nutrien; bahkan terumbu karang disebut tumbuh pesat di perairan yang sedikit nutrien."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Kata <i>sensitif</i> pada paragraf ketiga paling dekat maknanya dengan ....",
+      "options": {
+        "A": "kebal",
+        "B": "peka",
+        "C": "ramah",
+        "D": "kuat",
+        "E": "lambat"
+      },
+      "answer": "B",
+      "explanation": "Sensitif terhadap kondisi air berarti mudah terpengaruh atau peka."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Menurut teks tersebut, inflasi adalah ....",
+      "options": {
+        "A": "proses meningkatnya harga secara umum dan terus-menerus",
+        "B": "tingginya harga satu jenis barang",
+        "C": "tingkat harga yang dianggap tinggi oleh masyarakat",
+        "D": "turunnya harga barang secara umum",
+        "E": "bertambahnya jumlah barang di pasar"
+      },
+      "answer": "A",
+      "explanation": "Kalimat pertama: inflasi merupakan suatu proses meningkatnya harga-harga secara umum dan terus-menerus."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi4",
+      "question": "Berikut yang <b>tidak</b> disebutkan sebagai faktor penyebab inflasi adalah ....",
+      "options": {
+        "A": "ketidakstabilan ekonomi",
+        "B": "konsumsi masyarakat yang meningkat",
+        "C": "ketidaklancaran distribusi barang",
+        "D": "berkurangnya jumlah uang yang beredar",
+        "E": "berlebihnya likuiditas di pasar"
+      },
+      "answer": "D",
+      "explanation": "Teks menyebut likuiditas yang <i>berlebih</i>, bukan jumlah uang yang berkurang."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi4",
+      "question": "Di Negara A, harga barang tergolong tinggi tetapi tidak berubah selama lima tahun. Di Negara B, harga barang tergolong rendah tetapi naik setiap bulan dan saling memengaruhi. Berdasarkan teks, pernyataan yang tepat adalah ....",
+      "options": {
+        "A": "Kedua negara mengalami inflasi.",
+        "B": "Negara B yang mengalami inflasi, sedangkan Negara A belum tentu.",
+        "C": "Inflasi tidak dapat ditentukan tanpa mengetahui harga satu barang.",
+        "D": "Negara A yang mengalami inflasi karena harganya tinggi.",
+        "E": "Kedua negara tidak mengalami inflasi."
+      },
+      "answer": "B",
+      "explanation": "Paragraf kedua: inflasi adalah proses, bukan tinggi-rendahnya harga; tingkat harga tinggi belum tentu inflasi. Kenaikan terus-menerus yang saling memengaruhi (Negara B) itulah inflasi."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi4",
+      "question": "Pernyataan <i>inflasi juga merupakan proses menurunnya nilai mata uang secara kontinu</i> berarti ....",
+      "options": {
+        "A": "harga barang makin murah",
+        "B": "jumlah uang yang beredar makin sedikit",
+        "C": "pemerintah mencetak uang dengan nilai lebih kecil",
+        "D": "uang kertas makin cepat rusak",
+        "E": "dengan jumlah uang yang sama, barang yang dapat dibeli makin sedikit"
+      },
+      "answer": "E",
+      "explanation": "Jika harga terus naik, daya beli uang turun: uang yang sama hanya cukup untuk membeli barang yang lebih sedikit."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi4",
+      "question": "Dua cara yang paling sering digunakan untuk mengukur tingkat inflasi menurut teks adalah ....",
+      "options": {
+        "A": "CPI dan GDP Deflator",
+        "B": "harga dan penjualan",
+        "C": "persediaan uang dan nilai mata uang",
+        "D": "likuiditas dan spekulasi",
+        "E": "konsumsi dan distribusi"
+      },
+      "answer": "A",
+      "explanation": "Kalimat terakhir: dua yang paling sering digunakan adalah CPI dan GDP Deflator."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Tokoh yang mengembangkan konsep vaksin dan menciptakan vaksin pertama menurut teks adalah ....",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "Robert Koch",
+        "C": "Edward Jenner",
+        "D": "Alexander Fleming",
+        "E": "Organisasi Kesehatan Dunia"
+      },
+      "answer": "C",
+      "explanation": "Paragraf ketiga: Edward Jenner mengembangkan konsep vaksin dan menciptakan vaksin pertama. Pasteur mengusulkan perluasan istilahnya."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Menurut paragraf pertama, agen dalam vaksin bekerja dengan cara ....",
+      "options": {
+        "A": "langsung membunuh semua mikroorganisme dalam tubuh",
+        "B": "merangsang sistem imun agar mengenali, menghancurkan, dan mengingat agen tersebut",
+        "C": "menggantikan sel darah putih yang rusak",
+        "D": "mengubah mikroorganisme menjadi tidak berbahaya di luar tubuh",
+        "E": "menurunkan suhu tubuh penderita"
+      },
+      "answer": "B",
+      "explanation": "Agen dalam vaksin merangsang sistem imun agar mengenalinya sebagai ancaman, menghancurkannya, dan mengingatnya untuk masa depan."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Menurut teks, kata <i>vaksin</i> berasal dari istilah yang berarti ....",
+      "options": {
+        "A": "penyakit menular",
+        "B": "suntikan",
+        "C": "cacar sapi",
+        "D": "kekebalan",
+        "E": "sediaan biologis"
+      },
+      "answer": "C",
+      "explanation": "Paragraf ketiga: vaksin berasal dari kata <i>variolae vaccinae</i> (cacar sapi)."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Berdasarkan paragraf pertama, vaksin terhadap kanker termasuk vaksin yang bersifat ....",
+      "options": {
+        "A": "toksin",
+        "B": "profilaksis",
+        "C": "adaptif",
+        "D": "kelompok",
+        "E": "terapeutik"
+      },
+      "answer": "E",
+      "explanation": "Teks memberi contoh: vaksin profilaksis untuk mencegah infeksi, sedangkan vaksin terapeutik misalnya vaksin terhadap kanker."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi5",
+      "question": "Simpulan yang paling didukung oleh paragraf kedua adalah ....",
+      "options": {
+        "A": "Cacar masih menjadi penyakit paling berbahaya di dunia.",
+        "B": "Vaksin tersedia untuk semua jenis infeksi.",
+        "C": "Vaksinasi yang diterapkan secara luas dapat melindungi masyarakat hingga suatu penyakit dapat diberantas.",
+        "D": "Kekebalan kelompok terbentuk tanpa vaksinasi.",
+        "E": "Vaksinasi hanya bermanfaat bagi orang yang sudah sakit."
+      },
+      "answer": "C",
+      "explanation": "Penerapan vaksinasi secara luas menciptakan kekebalan kelompok yang berperan penting dalam pemberantasan cacar. Vaksin baru tersedia untuk 25 jenis infeksi, bukan semua."
+    },
+    {
+      "number": 26,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Menurut teks tersebut, urbanisasi mengacu pada ....",
+      "options": {
+        "A": "pergeseran penduduk dari daerah pedesaan ke perkotaan",
+        "B": "pertumbuhan penduduk di pedesaan",
+        "C": "perpindahan penduduk antarnegara",
+        "D": "berkurangnya penduduk kota",
+        "E": "pembangunan desa menjadi kota"
+      },
+      "answer": "A",
+      "explanation": "Kalimat pertama: urbanisasi mengacu pada pergeseran penduduk dari daerah pedesaan ke perkotaan."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi6",
+      "question": "Menurut proyeksi dalam teks, pada tahun 2050 urbanisasi diperkirakan dialami oleh sekitar ....",
+      "options": {
+        "A": "86% negara berkembang dan 64% negara maju",
+        "B": "1,1 miliar negara",
+        "C": "3 miliar negara",
+        "D": "50% penduduk dunia",
+        "E": "64% negara berkembang dan 86% negara maju"
+      },
+      "answer": "E",
+      "explanation": "Paragraf pertama: sekitar 64% negara berkembang dan 86% negara maju akan mengalami urbanisasi."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi6",
+      "question": "Kota di Asia yang disebutkan telah menjadi rumah bagi lebih dari 20 juta orang adalah ....",
+      "options": {
+        "A": "Delhi",
+        "B": "Tokyo",
+        "C": "Jakarta",
+        "D": "Istanbul",
+        "E": "Lagos"
+      },
+      "answer": "C",
+      "explanation": "Paragraf kedua: aglomerasi Osaka, Karachi, Jakarta, Mumbai, Shanghai, Manila, Seoul, dan Beijing telah menjadi rumah bagi lebih dari 20 juta orang. Delhi dan Tokyo diperkirakan mendekati 40 juta; Lagos dan Istanbul di luar Asia."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi6",
+      "question": "Berdasarkan proyeksi bahwa hampir semua pertumbuhan populasi global tahun 2017–2030 akan diserap oleh kota-kota, implikasi yang paling logis adalah ....",
+      "options": {
+        "A": "kota-kota besar akan kosong pada 2030",
+        "B": "desa-desa akan mengalami pertambahan penduduk terbesar",
+        "C": "kota-kota perlu menyiapkan perumahan, transportasi, dan layanan bagi penduduk baru",
+        "D": "jumlah penduduk dunia akan berkurang",
+        "E": "urbanisasi akan berhenti pada 2030"
+      },
+      "answer": "C",
+      "explanation": "Jika sekitar 1,1 miliar penduduk baru akan tinggal di kota, kota harus menyiapkan perumahan, transportasi, dan layanan untuk mereka."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi6",
+      "question": "Berapa banyak pernyataan berikut yang sesuai dengan isi teks?<br>(1) Sebagian besar pertambahan warga kota hingga 2050 akan terjadi di Afrika dan Asia.<br>(2) PBB memproyeksikan setengah populasi dunia tinggal di kota pada akhir 2008.<br>(3) Mexico City dan Kairo telah atau akan segera dihuni lebih dari 10 juta orang.<br>(4) Urbanisasi hanya terjadi di negara berkembang.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "D",
+      "explanation": "(1), (2), dan (3) sesuai dengan teks. (4) tidak sesuai: 86% negara maju juga diperkirakan mengalami urbanisasi. Jadi ada 3."
+    }
+  ]
+}

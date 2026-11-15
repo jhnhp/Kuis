@@ -1,0 +1,348 @@
+{
+  "title": "Simulasi UTBK Paket 2 - Bagian 7: Penalaran Matematika",
+  "topic": "Masalah Kontekstual: Fungsi Linear, Pertumbuhan Eksponensial, Bangun Ruang, Penyajian Data, dan Sistem Persamaan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 5 konteks dengan masing-masing 4 soal seperti pada UTBK asli. Waktu UTBK: 42,5 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "konteks_pm1",
+      "title": "Teks untuk soal 1–4",
+      "text": [
+        "Tarif taksi di sebuah kota adalah Rp7.000,00 untuk kilometer pertama dan Rp4.000,00 untuk setiap kilometer berikutnya. Tarif ojek daring adalah Rp3.500,00 per kilometer dengan tarif minimum Rp15.000,00 untuk setiap perjalanan. Jarak perjalanan selalu dihitung dalam kilometer bulat."
+      ]
+    },
+    {
+      "id": "konteks_pm2",
+      "title": "Teks untuk soal 5–8",
+      "text": [
+        "Pada awal tahun 2020, penduduk Desa Sukatani berjumlah 8.000 jiwa. Setiap tahun, jumlah penduduk desa itu bertambah 5% dari jumlah penduduk tahun sebelumnya."
+      ]
+    },
+    {
+      "id": "konteks_pm3",
+      "title": "Teks untuk soal 9–12",
+      "text": [
+        "Sebuah kolam renang berbentuk prisma dengan permukaan air berupa persegi panjang berukuran 25 m × 10 m. Kedalaman kolam bertambah secara teratur dari 1 m di ujung dangkal hingga 2 m di ujung dalam, sepanjang sisi 25 m. Dinding kolam yang berhadapan pada sisi 25 m berbentuk trapesium."
+      ]
+    },
+    {
+      "id": "konteks_pm4",
+      "title": "Teks untuk soal 13–16",
+      "text": [
+        "Tabel berikut menunjukkan penjualan empat jenis buku di sebuah toko (dalam ribu eksemplar).",
+        "Novel: 50 (2023), 60 (2024)<br>Komik: 40 (2023), 36 (2024)<br>Biografi: 20 (2023), 25 (2024)<br>Ensiklopedia: 10 (2023), 10,5 (2024)",
+        "Harga per eksemplar tidak berubah selama dua tahun: komik Rp30.000,00, novel Rp80.000,00, biografi Rp100.000,00, dan ensiklopedia Rp150.000,00."
+      ]
+    },
+    {
+      "id": "konteks_pm5",
+      "title": "Teks untuk soal 17–20",
+      "text": [
+        "Di sebuah toko alat tulis, harga 3 buku tulis dan 2 pulpen adalah Rp26.000,00, sedangkan harga 2 buku tulis dan 5 pulpen adalah Rp32.000,00."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Tarif taksi untuk perjalanan sejauh 8 km adalah ....",
+      "options": {
+        "A": "Rp32.000,00",
+        "B": "Rp35.000,00",
+        "C": "Rp28.000,00",
+        "D": "Rp56.000,00",
+        "E": "Rp39.000,00"
+      },
+      "answer": "B",
+      "explanation": "7.000 + 7 × 4.000 = Rp35.000."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Tarif taksi lebih murah daripada tarif ojek daring untuk perjalanan sejauh ....",
+      "options": {
+        "A": "berapa pun jaraknya",
+        "B": "kurang dari 4 km",
+        "C": "kurang dari 3 km",
+        "D": "tepat 3 km",
+        "E": "lebih dari 3 km"
+      },
+      "answer": "C",
+      "explanation": "Taksi: 3.000 + 4.000d. Ojek: Rp15.000 untuk d ≤ 4 km, lalu 3.500d. d = 1: 7.000 < 15.000; d = 2: 11.000 < 15.000; d = 3: sama (15.000); d ≥ 4: taksi lebih mahal (dan karena 4.000 > 3.500, selisihnya makin besar). Jadi taksi lebih murah untuk jarak kurang dari 3 km."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Seorang penumpang membayar tarif taksi sebesar Rp47.000,00. Jarak perjalanannya adalah ... km.",
+      "options": {
+        "A": "9",
+        "B": "11",
+        "C": "13",
+        "D": "12",
+        "E": "10"
+      },
+      "answer": "B",
+      "explanation": "3.000 + 4.000d = 47.000 → d = 11 km."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm1",
+      "question": "Pada malam hari, tarif taksi untuk setiap kilometer setelah kilometer pertama naik 25%, sedangkan tarif kilometer pertama dan tarif ojek daring tetap. Selisih tarif taksi malam dan ojek daring untuk perjalanan 10 km adalah ....",
+      "options": {
+        "A": "Rp9.000,00",
+        "B": "Rp8.000,00",
+        "C": "Rp17.000,00",
+        "D": "Rp22.000,00",
+        "E": "Rp13.000,00"
+      },
+      "answer": "C",
+      "explanation": "Tarif per km taksi malam = Rp5.000. Taksi: 7.000 + 9 × 5.000 = 52.000. Ojek: 10 × 3.500 = 35.000. Selisih Rp17.000."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm2",
+      "question": "Jumlah penduduk desa itu pada awal tahun 2021 adalah ... jiwa.",
+      "options": {
+        "A": "8.050",
+        "B": "8.500",
+        "C": "12.000",
+        "D": "8.400",
+        "E": "8.800"
+      },
+      "answer": "D",
+      "explanation": "8.000 × 1,05 = 8.400."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Jumlah penduduk desa itu pada awal tahun 2022 adalah ... jiwa.",
+      "options": {
+        "A": "8.840",
+        "B": "8.800",
+        "C": "8.820",
+        "D": "8.400",
+        "E": "9.000"
+      },
+      "answer": "C",
+      "explanation": "8.400 × 1,05 = 8.820. (Pertambahan bukan 400 lagi, karena 5% dihitung dari jumlah tahun sebelumnya.)"
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Jumlah penduduk t tahun setelah awal 2020 dapat dinyatakan dengan ....",
+      "options": {
+        "A": "N(t) = 8.000 × 1,5<sup>t</sup>",
+        "B": "N(t) = 8.000 + 400t",
+        "C": "N(t) = 8.000 × 0,05<sup>t</sup>",
+        "D": "N(t) = 8.000 × 1,05<sup>t</sup>",
+        "E": "N(t) = 8.000 + 1,05t"
+      },
+      "answer": "D",
+      "explanation": "Pertumbuhan 5% per tahun dari tahun sebelumnya adalah pertumbuhan eksponensial dengan faktor 1,05."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm2",
+      "question": "Jumlah penduduk desa itu pertama kali melebihi 10.000 jiwa pada awal tahun ....",
+      "options": {
+        "A": "2024",
+        "B": "2026",
+        "C": "2030",
+        "D": "2025",
+        "E": "2027"
+      },
+      "answer": "D",
+      "explanation": "8.000 × 1,05<sup>t</sup> > 10.000 ⇔ 1,05<sup>t</sup> > 1,25. 1,05<sup>4</sup> ≈ 1,2155 dan 1,05<sup>5</sup> ≈ 1,2763. Jadi t = 5, yaitu awal tahun 2025 (≈ 10.210 jiwa)."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Volume air jika kolam terisi penuh adalah ... liter.",
+      "options": {
+        "A": "250.000",
+        "B": "500.000",
+        "C": "750.000",
+        "D": "37.500",
+        "E": "375.000"
+      },
+      "answer": "E",
+      "explanation": "Luas dinding trapesium = (1 + 2)/2 × 25 = 37,5 m². Volume = 37,5 × 10 = 375 m³ = 375.000 liter."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Kolam kosong diisi dengan pompa berdebit 250 liter per menit. Waktu yang diperlukan hingga kolam penuh adalah ... jam.",
+      "options": {
+        "A": "25",
+        "B": "15",
+        "C": "20",
+        "D": "1.500",
+        "E": "30"
+      },
+      "answer": "A",
+      "explanation": "375.000 ÷ 250 = 1.500 menit = 25 jam."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Kedalaman kolam pada titik yang berjarak 10 m dari ujung dangkal adalah ... m.",
+      "options": {
+        "A": "1,6",
+        "B": "1,2",
+        "C": "1,5",
+        "D": "1,8",
+        "E": "1,4"
+      },
+      "answer": "E",
+      "explanation": "Kedalaman bertambah 1 m sepanjang 25 m, yaitu 0,04 m per meter. Pada 10 m: 1 + 0,4 = 1,4 m."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm3",
+      "question": "Keempat dinding kolam akan dilapisi ubin dengan biaya Rp120.000,00 per m<sup>2</sup>. Biaya pelapisan dinding seluruhnya adalah ....",
+      "options": {
+        "A": "Rp12.600.000,00",
+        "B": "Rp15.000.000,00",
+        "C": "Rp4.500.000,00",
+        "D": "Rp9.000.000,00",
+        "E": "Rp10.800.000,00"
+      },
+      "answer": "A",
+      "explanation": "Dua dinding trapesium: 2 × 37,5 = 75 m². Dinding ujung dangkal 10 × 1 = 10 m² dan ujung dalam 10 × 2 = 20 m². Total 105 m² × Rp120.000 = Rp12.600.000."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Manakah dari tiga pernyataan berikut yang bernilai benar?<br>(1) Banyaknya buku yang terjual pada tahun 2024 lebih banyak daripada tahun 2023.<br>(2) Penjualan biografi naik 25%.<br>(3) Nilai penjualan komik pada tahun 2024 lebih besar daripada nilai penjualan ensiklopedia pada tahun 2024.",
+      "options": {
+        "A": "Semua pernyataan benar",
+        "B": "Pernyataan (1) dan (2) SAJA yang benar",
+        "C": "Pernyataan (1) dan (3) SAJA yang benar",
+        "D": "Pernyataan (2) dan (3) SAJA yang benar",
+        "E": "Tidak ada pernyataan yang benar"
+      },
+      "answer": "B",
+      "explanation": "(1) 2023: 120 ribu; 2024: 131,5 ribu (benar). (2) (25 − 20)/20 = 25% (benar). (3) Komik 36 × 30.000 = Rp1,08 miliar < ensiklopedia 10,5 × 150.000 = Rp1,575 miliar (salah)."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Jenis buku yang banyak penjualannya bertambah paling banyak dari tahun 2023 ke 2024 adalah ....",
+      "options": {
+        "A": "komik",
+        "B": "biografi dan novel sama banyak",
+        "C": "biografi",
+        "D": "ensiklopedia",
+        "E": "novel"
+      },
+      "answer": "E",
+      "explanation": "Pertambahan: novel +10 ribu, komik −4 ribu, biografi +5 ribu, ensiklopedia +0,5 ribu. Terbanyak novel."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Perbandingan nilai penjualan novel dan biografi pada tahun 2023 adalah ....",
+      "options": {
+        "A": "5 : 4",
+        "B": "8 : 5",
+        "C": "5 : 2",
+        "D": "2 : 1",
+        "E": "4 : 5"
+      },
+      "answer": "D",
+      "explanation": "Novel: 50 × 80.000 = Rp4 miliar. Biografi: 20 × 100.000 = Rp2 miliar. Perbandingannya 2 : 1."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm4",
+      "question": "Jenis buku yang banyak penjualannya naik atau turun paling sedikit 10% dari tahun 2023 ke 2024 adalah ....<br>(1) novel<br>(2) komik<br>(3) biografi<br>(4) ensiklopedia",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "A",
+      "explanation": "Novel +20%, komik −10%, biografi +25% (ketiganya memenuhi). Ensiklopedia +5% (tidak). Jadi (1), (2), dan (3)."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Harga 1 buku tulis dan 1 pulpen adalah ....",
+      "options": {
+        "A": "Rp10.000,00",
+        "B": "Rp9.000,00",
+        "C": "Rp11.600,00",
+        "D": "Rp12.000,00",
+        "E": "Rp8.000,00"
+      },
+      "answer": "A",
+      "explanation": "Selesaikan: 3b + 2p = 26.000 dan 2b + 5p = 32.000 → b = 6.000 dan p = 4.000. Jumlahnya Rp10.000."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm5",
+      "question": "Selisih harga 1 buku tulis dan 1 pulpen adalah ....",
+      "options": {
+        "A": "Rp6.000,00",
+        "B": "Rp2.000,00",
+        "C": "Rp1.500,00",
+        "D": "Rp1.000,00",
+        "E": "Rp3.000,00"
+      },
+      "answer": "B",
+      "explanation": "b − p = 6.000 − 4.000 = Rp2.000."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Dani membawa uang Rp50.000,00 dan membeli 4 buku tulis. Sisa uangnya dibelikan pulpen sebanyak-banyaknya. Banyaknya pulpen yang dapat dibeli Dani adalah ....",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "6",
+        "D": "7",
+        "E": "5"
+      },
+      "answer": "C",
+      "explanation": "Sisa uang = 50.000 − 4 × 6.000 = 26.000. 26.000 ÷ 4.000 = 6,5, sehingga paling banyak 6 pulpen."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Toko itu memberi diskon 10% untuk setiap buku tulis jika membeli paling sedikit 5 buku tulis. Ani membeli 5 buku tulis dan 5 pulpen. Ia harus membayar ....",
+      "options": {
+        "A": "Rp45.000,00",
+        "B": "Rp50.000,00",
+        "C": "Rp48.000,00",
+        "D": "Rp42.300,00",
+        "E": "Rp47.000,00"
+      },
+      "answer": "E",
+      "explanation": "Buku: 5 × 5.400 = 27.000. Pulpen (tanpa diskon): 5 × 4.000 = 20.000. Total Rp47.000."
+    }
+  ]
+}

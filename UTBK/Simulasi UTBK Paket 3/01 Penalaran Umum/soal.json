@@ -1,0 +1,429 @@
+{
+  "title": "Simulasi UTBK Paket 3 - Bagian 1: Penalaran Umum",
+  "topic": "Penalaran Deduktif, Penalaran Induktif, dan Penalaran Kuantitatif",
+  "subtitle": "Simulasi 30 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal (10 deduktif, 10 induktif, 10 kuantitatif) dengan 5 pilihan jawaban. Waktu UTBK: 30 menit.",
+  "total_questions": 30,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "question": "Jika listrik padam, pompa air mati. Jika pompa air mati, bak mandi tidak terisi.<br>Pagi ini bak mandi terisi.<br><br>Manakah simpulan yang BENAR?",
+      "options": {
+        "A": "Pagi ini listrik tidak padam.",
+        "B": "Pagi ini listrik padam, tetapi pompa air menyala.",
+        "C": "Bak mandi terisi apabila listrik padam.",
+        "D": "Pompa air tidak memerlukan listrik.",
+        "E": "Pagi ini pompa air mati."
+      },
+      "answer": "A",
+      "explanation": "Listrik padam → pompa mati → bak tidak terisi. Bak terisi, sehingga pompa tidak mati, dan karena itu listrik tidak padam (modus tollens)."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "question": "Semua peserta lomba esai mengumpulkan naskah sebelum 1 Mei. Laras mengumpulkan naskahnya pada 3 Mei.<br><br>Manakah simpulan berikut yang BENAR?",
+      "options": {
+        "A": "Sebagian peserta lomba esai terlambat mengumpulkan naskah.",
+        "B": "Laras peserta lomba esai yang terlambat.",
+        "C": "Laras tidak pandai menulis esai.",
+        "D": "Lomba esai diundur hingga 3 Mei.",
+        "E": "Laras bukan peserta lomba esai."
+      },
+      "answer": "E",
+      "explanation": "Semua peserta mengumpulkan sebelum 1 Mei. Laras tidak mengumpulkan sebelum 1 Mei, sehingga Laras bukan peserta lomba esai."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "question": "Semua atlet pelatnas menjalani tes kebugaran bulanan. Sebagian atlet yang menjalani tes kebugaran bulanan berasal dari Papua.<br><br>Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": {
+        "A": "Semua atlet dari Papua adalah atlet pelatnas.",
+        "B": "Tidak ada atlet pelatnas yang berasal dari Papua.",
+        "C": "Atlet yang tidak menjalani tes kebugaran bulanan bukan atlet pelatnas.",
+        "D": "Sebagian atlet pelatnas berasal dari Papua.",
+        "E": "Semua atlet yang menjalani tes kebugaran adalah atlet pelatnas."
+      },
+      "answer": "C",
+      "explanation": "Kontraposisi “semua atlet pelatnas menjalani tes”: yang tidak menjalani tes bukan atlet pelatnas. Atlet Papua yang menjalani tes belum tentu atlet pelatnas."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "question": "Sebagian penerbangan ditunda apabila cuaca buruk. Cuaca buruk apabila angin bertiup kencang.<br><br>Manakah simpulan berikut yang BENAR?",
+      "options": {
+        "A": "Semua penerbangan ditunda apabila angin bertiup kencang.",
+        "B": "Cuaca buruk apabila sebagian penerbangan ditunda.",
+        "C": "Angin bertiup kencang apabila sebagian penerbangan ditunda.",
+        "D": "Sebagian penerbangan ditunda apabila angin tidak bertiup kencang.",
+        "E": "Sebagian penerbangan ditunda apabila angin bertiup kencang."
+      },
+      "answer": "E",
+      "explanation": "Angin kencang → cuaca buruk → sebagian penerbangan ditunda. Jadi sebagian penerbangan ditunda apabila angin bertiup kencang."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "question": "“Jika siswa terlambat, siswa itu tidak boleh mengikuti upacara.”<br><br>Pernyataan yang setara dengan pernyataan tersebut adalah ....",
+      "options": {
+        "A": "Siswa terlambat atau siswa itu tidak boleh mengikuti upacara.",
+        "B": "Siswa tidak terlambat atau siswa itu tidak boleh mengikuti upacara.",
+        "C": "Jika siswa tidak terlambat, siswa itu boleh mengikuti upacara.",
+        "D": "Jika siswa tidak boleh mengikuti upacara, siswa itu terlambat.",
+        "E": "Siswa terlambat dan siswa itu boleh mengikuti upacara."
+      },
+      "answer": "B",
+      "explanation": "p → q setara dengan ~p ∨ q: siswa tidak terlambat atau tidak boleh mengikuti upacara. Pilihan kedua adalah konvers dan pilihan ketiga invers; keduanya tidak setara."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "question": "Lima pelari, yaitu Rudi, Sari, Tomi, Umar, dan Vina, mencapai garis akhir pada waktu yang berbeda. Rudi tiba sebelum Sari, tetapi setelah Tomi. Umar tiba paling akhir. Vina tiba tepat setelah Sari.<br><br>Pelari yang tiba di urutan kedua adalah ....",
+      "options": {
+        "A": "Vina",
+        "B": "Rudi",
+        "C": "Sari",
+        "D": "Umar",
+        "E": "Tomi"
+      },
+      "answer": "B",
+      "explanation": "Tomi sebelum Rudi, Rudi sebelum Sari, Vina tepat setelah Sari, dan Umar terakhir. Urutannya Tomi, Rudi, Sari, Vina, Umar."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "question": "Apabila Mira lembur, ia makan malam di kantor. Apabila tidak hujan, Mira bersepeda pulang.<br><br>Apabila Mira tidak makan malam di kantor atau tidak bersepeda pulang, manakah simpulan berikut yang BENAR?",
+      "options": {
+        "A": "Mira lembur dan hari hujan.",
+        "B": "Mira lembur atau hari tidak hujan.",
+        "C": "Mira tidak lembur dan hari hujan.",
+        "D": "Mira lembur, tetapi hari tidak hujan.",
+        "E": "Mira tidak lembur atau hari hujan."
+      },
+      "answer": "E",
+      "explanation": "Kontraposisi premis 1: tidak makan di kantor → tidak lembur. Kontraposisi premis 2: tidak bersepeda pulang → hujan. Yang diketahui berbentuk “atau”, sehingga simpulannya: Mira tidak lembur atau hari hujan."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "question": "Ayu, Bayu, Cici, dan Dedi duduk berderet pada kursi nomor 1 sampai 4.<br>• Ayu tidak duduk di kursi paling ujung.<br>• Bayu duduk tepat di sebelah Cici.<br>• Dedi duduk di kursi nomor 1.<br><br>Jika Cici duduk di kursi nomor 4, Ayu duduk di kursi nomor ....",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "tidak dapat ditentukan",
+        "D": "4",
+        "E": "1"
+      },
+      "answer": "A",
+      "explanation": "Dedi di kursi 1 dan Cici di kursi 4. Bayu tepat di sebelah Cici, yaitu kursi 3. Tersisa kursi 2 untuk Ayu (memenuhi syarat bukan di ujung)."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "question": "Lomba karya ilmiah terbuka bagi siswa SMA yang berusia di bawah 18 tahun. Dimas adalah siswa kelas XI SMA. Berdasarkan informasi itu, disimpulkan bahwa Dimas boleh mengikuti lomba tersebut.<br><br>Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": {
+        "A": "Simpulan tersebut pasti benar.",
+        "B": "Simpulan tersebut mungkin benar, tetapi belum dapat dipastikan.",
+        "C": "Simpulan tersebut pasti salah.",
+        "D": "Simpulan tersebut bertentangan dengan syarat lomba.",
+        "E": "Simpulan tersebut tidak berkaitan dengan informasi yang diberikan."
+      },
+      "answer": "B",
+      "explanation": "Dimas siswa SMA, tetapi usianya tidak diketahui. Siswa kelas XI umumnya berusia di bawah 18 tahun, tetapi belum tentu."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "question": "Semua dokter di Rumah Sakit X memiliki surat izin praktik. Tidak ada pemilik surat izin praktik yang bekerja tanpa pengawasan komite medis. Sebagian dokter di Rumah Sakit X adalah dokter spesialis anak.<br><br>Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": {
+        "A": "Sebagian dokter di Rumah Sakit X bekerja tanpa pengawasan komite medis.",
+        "B": "Semua dokter spesialis anak bekerja di Rumah Sakit X.",
+        "C": "Sebagian dokter spesialis anak memiliki surat izin praktik.",
+        "D": "Ada pemilik surat izin praktik yang tidak bekerja di Rumah Sakit X.",
+        "E": "Sebagian dokter di Rumah Sakit X bukan spesialis anak."
+      },
+      "answer": "A",
+      "explanation": "Semua dokter RS X memiliki izin praktik, dan tidak ada pemilik izin praktik yang bekerja tanpa pengawasan. Jadi tidak mungkin ada dokter RS X yang bekerja tanpa pengawasan."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "question": "Warung A dan Warung B berada di kompleks yang sama dan menjual menu yang sama dengan harga yang mirip. Sejak minggu lalu, Warung B jauh lebih ramai daripada Warung A.<br><br>Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": {
+        "A": "Kedua warung memakai bahan dari pasar yang sama.",
+        "B": "Warung A berdiri lebih dahulu daripada Warung B.",
+        "C": "Sejak minggu lalu Warung A menambah satu menu baru.",
+        "D": "Pemilik Warung B tinggal di luar kota.",
+        "E": "Sejak minggu lalu Warung B melayani pesan-antar tanpa ongkos kirim."
+      },
+      "answer": "E",
+      "explanation": "Penjelasan yang tepat adalah perbedaan yang menguntungkan Warung B dan mulai berlaku sejak minggu lalu."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "question": "Sebuah sekolah memasang kamera pengawas di lorong kelas. Kepala sekolah yakin kasus kehilangan barang akan berkurang.<br><br>Manakah yang PALING MUNGKIN menjadi asumsi yang mendasari keyakinan tersebut?",
+      "options": {
+        "A": "Semua kasus kehilangan terjadi di luar sekolah.",
+        "B": "Kamera pengawas tidak pernah rusak.",
+        "C": "Orang enggan mengambil barang milik orang lain jika tahu sedang diawasi kamera.",
+        "D": "Kamera pengawas lebih murah daripada satpam.",
+        "E": "Siswa tidak pernah membawa barang berharga."
+      },
+      "answer": "C",
+      "explanation": "Kamera hanya mengurangi kehilangan jika keberadaannya membuat orang enggan mencuri (atau pelaku mudah diketahui)."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "question": "Seorang peneliti menyimpulkan bahwa pohon di halaman sekolah menurunkan suhu ruang kelas di dekatnya.<br><br>Manakah pernyataan berikut yang, jika benar, akan MEMPERKUAT simpulan peneliti tersebut?",
+      "options": {
+        "A": "Kelas yang dekat pohon juga menggunakan pendingin ruangan.",
+        "B": "Pohon di halaman sekolah ditanam sepuluh tahun lalu.",
+        "C": "Pohon juga menghasilkan oksigen.",
+        "D": "Pada ruang kelas dengan bangunan dan arah jendela yang sama, kelas yang dekat pohon rata-rata 2 °C lebih sejuk.",
+        "E": "Banyak siswa senang bermain di bawah pohon."
+      },
+      "answer": "D",
+      "explanation": "Perbandingan dengan kondisi lain yang disamakan mendukung simpulan. Pendingin ruangan justru menjadi penjelasan lain sehingga memperlemah."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "question": "Kepala dinas pariwisata menyimpulkan bahwa kenaikan jumlah wisatawan pada bulan Juli disebabkan oleh promosi di media sosial yang dimulai pada bulan itu.<br><br>Manakah pernyataan berikut yang, jika benar, akan MEMPERLEMAH simpulan tersebut?",
+      "options": {
+        "A": "Banyak wisatawan mengaku mengetahui tempat wisata dari media sosial.",
+        "B": "Unggahan promosi itu disukai ribuan orang.",
+        "C": "Kenaikan wisatawan terjadi di semua tempat wisata kabupaten itu.",
+        "D": "Kabupaten tetangga yang tidak berpromosi juga mengalami kenaikan wisatawan pada bulan Juli karena libur sekolah.",
+        "E": "Promosi di media sosial memerlukan biaya besar."
+      },
+      "answer": "D",
+      "explanation": "Jika daerah lain tanpa promosi juga naik pada waktu yang sama karena libur sekolah, ada penyebab lain yang lebih mungkin."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "question": "Ahli A menyatakan, “Prestasi belajar siswa terutama ditentukan oleh lamanya waktu belajar.”<br>Ahli B menyatakan, “Prestasi belajar siswa terutama ditentukan oleh kecukupan tidur.”<br><br>Data penelitian menunjukkan bahwa di antara siswa dengan lama belajar yang sama, siswa yang tidurnya cukup memperoleh nilai jauh lebih tinggi.<br><br>Manakah pernyataan berikut yang PALING TEPAT mengenai data tersebut?",
+      "options": {
+        "A": "Memperlemah pernyataan ahli A dan ahli B.",
+        "B": "Tidak relevan dengan pernyataan ahli A dan ahli B.",
+        "C": "Memperkuat pernyataan ahli B dan memperlemah pernyataan ahli A.",
+        "D": "Memperkuat pernyataan ahli A dan memperlemah pernyataan ahli B.",
+        "E": "Memperkuat pernyataan ahli A dan ahli B."
+      },
+      "answer": "C",
+      "explanation": "Lama belajar disamakan, tetapi nilai berbeda mengikuti kecukupan tidur. Data mendukung ahli B dan menunjukkan lama belajar bukan penentu utama perbedaan itu."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "question": "Kopi dapat meningkatkan kewaspadaan. Namun, kopi yang diminum pada malam hari dapat mengganggu tidur sebagian orang.<br><br>Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": {
+        "A": "Minuman yang bermanfaat dapat menimbulkan efek yang tidak diharapkan pada sebagian orang.",
+        "B": "Kopi sebaiknya tidak diminum oleh siapa pun.",
+        "C": "Hanya kopi yang dapat meningkatkan kewaspadaan.",
+        "D": "Orang yang sulit tidur pasti minum kopi.",
+        "E": "Semua orang yang minum kopi pada malam hari tidak bisa tidur."
+      },
+      "answer": "A",
+      "explanation": "Teks menyebut manfaat dan efek yang tidak diharapkan pada sebagian orang. Pilihan lain menggeneralisasi secara berlebihan."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "question": "Di Kabupaten R, angka putus sekolah menurun dalam lima tahun terakhir. Penurunan terbesar terjadi di desa-desa yang menerima program beasiswa dan transportasi gratis.<br><br>Berdasarkan paragraf tersebut, manakah yang PALING MUNGKIN BENAR mengenai Kabupaten R?",
+      "options": {
+        "A": "Program beasiswa dan transportasi gratis membantu menekan angka putus sekolah.",
+        "B": "Jumlah sekolah di Kabupaten R bertambah.",
+        "C": "Semua siswa di Kabupaten R menerima beasiswa.",
+        "D": "Desa yang tidak menerima program pasti mengalami kenaikan angka putus sekolah.",
+        "E": "Lima tahun lalu semua anak di Kabupaten R putus sekolah."
+      },
+      "answer": "A",
+      "explanation": "Penurunan terbesar terjadi di desa penerima program, sehingga yang paling mungkin adalah program itu membantu."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "question": "Sistem kekebalan tubuh bekerja seperti satpam di sebuah kompleks perumahan. Satpam mengenali para penghuni, memeriksa setiap orang asing, dan mengingat wajah pencuri yang pernah datang sehingga dapat mengusirnya lebih cepat.<br><br>Berdasarkan paragraf tersebut, manakah simpulan yang PALING MUNGKIN BENAR?",
+      "options": {
+        "A": "Sistem kekebalan tubuh dijaga oleh satpam.",
+        "B": "Semua orang asing yang masuk ke tubuh adalah pencuri.",
+        "C": "Penghuni kompleks perumahan tidak pernah sakit.",
+        "D": "Sistem kekebalan tubuh hanya bekerja pada malam hari.",
+        "E": "Tubuh dapat melawan kuman yang pernah masuk dengan lebih cepat pada kesempatan berikutnya."
+      },
+      "answer": "E",
+      "explanation": "Satpam yang mengingat wajah pencuri setara dengan sistem kekebalan yang mengingat kuman yang pernah masuk, sehingga dapat melawannya lebih cepat."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Survei di sebuah kota menunjukkan bahwa warga yang memakai aplikasi belanja daring lebih sering berbelanja daripada warga yang tidak memakainya. Survei yang sama menemukan bahwa pengguna aplikasi itu umumnya berpenghasilan lebih tinggi.<br><br>Manakah simpulan yang DIDUKUNG oleh bacaan tersebut?<br>(1) Ada hubungan antara pemakaian aplikasi belanja dan frekuensi berbelanja.<br>(2) Aplikasi belanja pasti menjadi satu-satunya penyebab warga sering berbelanja.<br>(3) Penghasilan mungkin ikut memengaruhi perbedaan frekuensi berbelanja.<br>(4) Semua warga yang tidak memakai aplikasi tidak pernah berbelanja.",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "B",
+      "explanation": "(1) dan (3) didukung. (2) dan (4) terlalu pasti dan tidak dinyatakan oleh survei."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Seorang pakar menyatakan bahwa memperpanjang jam buka perpustakaan sekolah hingga pukul 18.00 akan meningkatkan jumlah peminjaman buku.<br><br>Berapa banyak pernyataan berikut yang MEMPERLEMAH pendapat pakar tersebut?<br>(1) Sebagian besar siswa sudah pulang sebelum pukul 16.00.<br>(2) Survei menunjukkan siswa jarang meminjam karena koleksi bukunya sudah usang.<br>(3) Banyak siswa mengeluh perpustakaan tutup sebelum les tambahan mereka selesai.<br>(4) Dinding perpustakaan baru saja dicat ulang.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "C",
+      "explanation": "(1) dan (2) memperlemah. (3) memperkuat dan (4) tidak relevan. Jadi ada 2."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "question": "Perhatikan barisan bilangan berikut: 5, 8, 14, 26, 50, .... Bilangan berikutnya adalah ....",
+      "options": {
+        "A": "98",
+        "B": "102",
+        "C": "96",
+        "D": "100",
+        "E": "74"
+      },
+      "answer": "A",
+      "explanation": "Polanya dikali 2 lalu dikurangi 2: 50 × 2 − 2 = 98."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "question": "Nilai akhir uji kompetensi dihitung dari ujian teori (bobot 40%) dan ujian praktik (bobot 60%).<br><br>Peserta P: teori 90, praktik 75<br>Peserta Q: teori 80, praktik 85<br>Peserta R: teori 70, praktik 95<br>Peserta S: teori 95, praktik 72<br>Peserta T: teori 85, praktik 82<br><br>Peserta manakah yang memperoleh nilai akhir PALING TINGGI?",
+      "options": {
+        "A": "T",
+        "B": "R",
+        "C": "P",
+        "D": "Q",
+        "E": "S"
+      },
+      "answer": "B",
+      "explanation": "P = 81; Q = 83; R = 28 + 57 = 85; S = 81,2; T = 83,2. Tertinggi R."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "question": "Produksi padi dua desa pada tahun 2020–2024 adalah sebagai berikut (dalam ton).<br><br>Desa A: 50, 58, 61, 70, 74<br>Desa B: 45, 53, 64, 66, 76<br><br>Kenaikan produksi yang PALING BESAR terjadi pada ....",
+      "options": {
+        "A": "Desa B, 2020–2021",
+        "B": "Desa A, 2022–2023",
+        "C": "Desa B, 2023–2024",
+        "D": "Desa B, 2021–2022",
+        "E": "Desa A, 2020–2021"
+      },
+      "answer": "D",
+      "explanation": "Kenaikan A: 8, 3, 9, 4. Kenaikan B: 8, 11, 2, 10. Terbesar 11 ton: Desa B, 2021–2022."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sedang",
+      "question": "Banyaknya pesanan katering A pada lima hari terakhir adalah 15, 18, 16, 19, 17, sedangkan katering B adalah 30, 26, 29, 25, 28. Jika polanya tetap, banyaknya pesanan katering A dan B pada hari ke-6 berturut-turut adalah ....",
+      "options": {
+        "A": "18 dan 31",
+        "B": "20 dan 24",
+        "C": "18 dan 24",
+        "D": "20 dan 31",
+        "E": "15 dan 27"
+      },
+      "answer": "B",
+      "explanation": "A: +3, −2, +3, −2 → 17 + 3 = 20. B: −4, +3, −4, +3 → 28 − 4 = 24."
+    },
+    {
+      "number": 25,
+      "difficulty": "Mudah",
+      "question": "Manakah di antara bilangan berikut yang nilainya PALING MENDEKATI hasil penjumlahan 5/4 + 85%?",
+      "options": {
+        "A": "1,85",
+        "B": "2,25",
+        "C": "1,95",
+        "D": "2,45",
+        "E": "2,05"
+      },
+      "answer": "E",
+      "explanation": "5/4 = 1,25 dan 85% = 0,85, jumlahnya 2,10. Yang paling dekat 2,05 (selisih 0,05)."
+    },
+    {
+      "number": 26,
+      "difficulty": "Sedang",
+      "question": "Bumbu sambal terdiri atas 1/5 bagian cabai, 3/10 bagian bawang merah, dan 1/2 bagian tomat. Jika bawang merah yang digunakan 450 gram, berapa gram tomat yang diperlukan?",
+      "options": {
+        "A": "450",
+        "B": "900",
+        "C": "750",
+        "D": "300",
+        "E": "1.500"
+      },
+      "answer": "C",
+      "explanation": "Bawang merah 3/10 bagian = 450 g, sehingga seluruh bumbu 1.500 g. Tomat = 1/2 × 1.500 = 750 g."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sulit",
+      "question": "Sebuah buku telah dibaca 2/5 bagian. Setelah membaca 36 halaman lagi, bagian yang telah dibaca menjadi 2/3 buku. Tebal buku tersebut adalah ... halaman.",
+      "options": {
+        "A": "108",
+        "B": "90",
+        "C": "120",
+        "D": "135",
+        "E": "180"
+      },
+      "answer": "D",
+      "explanation": "2/3 − 2/5 = 4/15 bagian = 36 halaman. Tebal buku = 36 × 15/4 = 135 halaman."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sulit",
+      "question": "Dua keran, X dan Y, digunakan bersama-sama untuk mengisi sebuah bak. Berikut informasi mengenai pengisian tersebut.<br>(i) Keran X saja dapat mengisi bak sampai penuh dalam 30 menit.<br>(ii) Keran X dan Y bersama-sama mengisi bak sampai penuh dalam 12 menit.<br>(iii) Volume bak adalah 600 liter.<br>(iv) Keran Y terbuat dari kuningan.<br><br>Informasi manakah yang diperlukan untuk menentukan debit keran Y dalam liter per menit?",
+      "options": {
+        "A": "(ii) dan (iii)",
+        "B": "(i) dan (iii)",
+        "C": "(ii), (iii), dan (iv)",
+        "D": "(i), (ii), dan (iii)",
+        "E": "(i) dan (ii)"
+      },
+      "answer": "D",
+      "explanation": "Dari (i) dan (ii): laju Y = 1/12 − 1/30 = 1/20 bak per menit. Dengan (iii): 600/20 = 30 liter per menit. (iv) tidak relevan."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sedang",
+      "question": "Harga dan isi lima kemasan beras adalah sebagai berikut.<br><br>Kemasan P: 5 kg, Rp70.000<br>Kemasan Q: 10 kg, Rp135.000<br>Kemasan R: 2 kg, Rp29.000<br>Kemasan S: 25 kg, Rp330.000<br>Kemasan T: 20 kg, Rp268.000<br><br>Kemasan yang harga per kilogramnya PALING MURAH adalah ....",
+      "options": {
+        "A": "Q",
+        "B": "P",
+        "C": "R",
+        "D": "S",
+        "E": "T"
+      },
+      "answer": "D",
+      "explanation": "Per kg: P 14.000; Q 13.500; R 14.500; S 13.200; T 13.400. Termurah S."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "question": "Rata-rata gaji delapan karyawan adalah Rp5.000.000,00. Seorang karyawan bergaji Rp9.000.000,00 berhenti dan digantikan karyawan baru sehingga rata-rata gaji menjadi Rp4.750.000,00. Gaji karyawan baru tersebut adalah ....",
+      "options": {
+        "A": "Rp4.750.000,00",
+        "B": "Rp9.000.000,00",
+        "C": "Rp7.000.000,00",
+        "D": "Rp6.000.000,00",
+        "E": "Rp8.000.000,00"
+      },
+      "answer": "C",
+      "explanation": "Jumlah semula 40 juta, jumlah baru 8 × 4,75 = 38 juta. Gaji baru = 38 − (40 − 9) = 7 juta."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "title": "Simulasi UTBK Paket 2 - Bagian 6: Literasi dalam Bahasa Inggris",
+  "topic": "Literary Text, a History-of-Technology Text, and Paired Science Texts",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, teks dari sumber nyata: cerpen “The Last Leaf” (O. Henry) dan artikel Simple English Wikipedia, termasuk sepasang teks. Waktu UTBK: 20 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "text_lbe1",
+      "title": "Text for questions 1–7: from “The Last Leaf”",
+      "text": [
+        "At the top of a squatty, three-story brick Sue and Johnsy had their studio. “Johnsy” was familiar for Joanna. One was from Maine; the other from California. They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so congenial that the joint studio resulted.",
+        "That was in May. In November a cold, unseen stranger, whom the doctors called Pneumonia, stalked about the colony, touching one here and there with his icy finger. Over on the east side this ravager strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.”",
+        "Mr. Pneumonia was not what you would call a chivalric old gentleman. A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer. But Johnsy he smote; and she lay, scarcely moving, on her painted iron bedstead, looking through the small Dutch window-panes at the blank side of the next brick house.",
+        "One morning the busy doctor invited Sue into the hallway with a shaggy, gray eyebrow.",
+        "“She has one chance in—let us say, ten,” he said, as he shook down the mercury in his clinical thermometer. “And that chance is for her to want to live. This way people have of lining-up on the side of the undertaker makes the entire pharmacopeia look silly. Your little lady has made up her mind that she’s not going to get well. Has she anything on her mind?”",
+        "“She—she wanted to paint the Bay of Naples some day,” said Sue.",
+        "“Paint?—bosh! Has she anything on her mind worth thinking about twice—a man, for instance?”",
+        "“A man?” said Sue, with a jewsharp twang in her voice. “Is a man worth—but, no, doctor; there is nothing of the kind.”",
+        "“Well, it is the weakness, then,” said the doctor. “I will do all that science, so far as it may filter through my efforts, can accomplish. But whenever my patient begins to count the carriages in her funeral procession I subtract 50 per cent. from the curative power of medicines. If you will get her to ask one question about the new winter styles in cloak sleeves I will promise you a one-in-five chance for her, instead of one in ten.”",
+        "After the doctor had gone Sue went into the workroom and cried a Japanese napkin to a pulp. Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.",
+        "Johnsy lay, scarcely making a ripple under the bedclothes, with her face toward the window. Sue stopped whistling, thinking she was asleep.",
+        "She arranged her board and began a pen-and-ink drawing to illustrate a magazine story. Young artists must pave their way to Art by drawing pictures for magazine stories that young authors write to pave their way to Literature.",
+        "As Sue was sketching a pair of elegant horseshow riding trousers and a monocle on the figure of the hero, an Idaho cowboy, she heard a low sound, several times repeated. She went quickly to the bedside. Johnsy’s eyes were open wide. She was looking out the window and counting—counting backward.",
+        "“Twelve,” she said, and a little later “eleven;” and then “ten,” and “nine;” and then “eight” and “seven,” almost together.",
+        "Sue looked solicitously out the window. What was there to count? There was only a bare, dreary yard to be seen, and the blank side of the brick house twenty feet away. An old, old ivy vine, gnarled and decayed at the roots, climbed half way up the brick wall. The cold breath of autumn had stricken its leaves from the vine until its skeleton branches clung, almost bare, to the crumbling bricks.",
+        "“What is it, dear?” asked Sue.",
+        "“Six,” said Johnsy, in almost a whisper. “They’re falling faster now. Three days ago there were almost a hundred. It made my head ache to count them. But now it’s easy. There goes another one. There are only five left now.”",
+        "“Five what, dear. Tell your Sudie.”",
+        "“Leaves. On the ivy vine. When the last one falls I must go, too. I’ve known that for three days. Didn’t the doctor tell you?”",
+        "<small>Source: O. Henry, “The Last Leaf”, in <i>The Trimmed Lamp</i> (1907), excerpt; text from English Wikisource (public domain).</small>"
+      ]
+    },
+    {
+      "id": "text_lbe2",
+      "title": "Text for questions 8–13",
+      "text": [
+        "The printing press is a machine for printing. It makes many copies of identical pages. The printing press today is used to print books and newspapers. It had a great influence on society, especially western society. It was \"one of the most potent agents... of western civilization in bringing together the scattered ideas of thinkers\".",
+        "Woodcut printing has been done for several centuries. Words and pictures for whole pages were carved into blocks of wood. In the 15th century Johannes Gutenberg improved the process. He used separate alloy letters screwed into a frame. This way a large set of letters could make almost any page for printing. This process was called typesetting. Each letter was in a block of metal, fixed in a frame. He could then move paper and ink over it, much like a stamp. This method was called letterpress. The letters would leave ink on the paper in the shape of the letters, creating text or illustrations.",
+        "Bigger and much faster presses were invented in the industrial revolution. The main improvements were made in the 19th century. Two ideas altered the design of the printing press entirely. First was the use of steam power to run the machinery. Second was the replacement of the printing flatbed with the rotary motion of cylinders. Both were done by the German printer Friedrich Koenig between 1802 and 1818. Having moved to London in 1804, Koenig got financial support for his project in 1807. In 1810, Koenig patented a steam press \"much like a hand press connected to a steam engine\".",
+        "Soon other inventions were added, such as the making of cheaper paper by using wood pulp instead of rags. Later in the 19th century came machines which speeded up typesetting, which was previously done by hand, letter by letter. A machine for hot metal typesetting was designed by Linotype Inc. It turned molten lead into type ready for printing.",
+        "Many further developments in printing happened in the 20th century. Today printing presses are controlled by special-purpose computers, and the material to be printed is prepared on computers. As a consequence of these inventions, the cost of printing has fallen significantly compared to other commodities. Now the price of a book or magazine is less determined by its production, and more by other factors, such as marketing.",
+        "<small>Source: Simple English Wikipedia, article “Printing press” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "text_lbe3",
+      "title": "Texts for questions 14–20",
+      "text": [
+        "<b>Text 1</b>",
+        "A placebo is a treatment for a disease or condition which is deliberately ineffective. The motive usually is that if a person believes that a medicine, diet, or other treatment is good for them, then it is good for them.",
+        "Sometimes sick people who receive a placebo feel like they are getting better, and sometimes their bodies actually do get better. When patients have that response, it is called the \"placebo effect\". The term placebo effect (or placebo response) was introduced in 1920. It is the response of the subject which causes the observed effect, not the substance.",
+        "<b>Text 2</b>",
+        "A vaccine is a biological preparation. It is given to prevent a specific infectious or malignant disease. It only works against the microorganism for which it is prepared. It is usually given by injection, and called vaccination.",
+        "At its best, vaccination gives immunity to an infectious disease caused by a particular microorganism (bacteria or virus). For example, the flu vaccine makes it very much less likely that a person will get the flu. The flu virus continually changes, and has many strains. That is why re-vaccination is needed every year.",
+        "At first, vaccines were usually made from something that is alive, or was alive. Now they may be built up by viral biochemistry. Each vaccine has its own history, and what is true of one might not be true of another.",
+        "The word \"vaccine\" comes from the Latin vacca, meaning \"cow\". In 1796, Edward Jenner used a milkmaid infected with cowpox (variolae vaccinae) to protect people against smallpox. The use of vaccines is called vaccination.",
+        "<small>Sources: Simple English Wikipedia, article “Placebo” (CC BY-SA 4.0) (excerpt) and Simple English Wikipedia, article “Vaccine” (CC BY-SA 4.0) (excerpt).</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "Who are Sue and Johnsy?",
+      "options": {
+        "A": "two sisters who own a restaurant",
+        "B": "a doctor and his patient",
+        "C": "a mother and her daughter",
+        "D": "two young women who share an art studio",
+        "E": "two collectors of paintings"
+      },
+      "answer": "D",
+      "explanation": "Paragraph 1: Sue and Johnsy have their studio at the top of a brick building; they met and found their tastes in art congenial, so “the joint studio resulted.”"
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "In the text, pneumonia is described as “a cold, unseen stranger … touching one here and there with his icy finger.” This description is an example of ....",
+      "options": {
+        "A": "a statistic",
+        "B": "an apology",
+        "C": "a flashback",
+        "D": "a dialogue",
+        "E": "personification"
+      },
+      "answer": "E",
+      "explanation": "The disease is given human qualities: it is a stranger who walks, touches people, and strides boldly. That is personification."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "According to the doctor, what is Johnsy's one real chance of recovery?",
+      "options": {
+        "A": "She must stop counting carriages.",
+        "B": "She must move to California.",
+        "C": "She must take stronger medicine.",
+        "D": "She must paint the Bay of Naples.",
+        "E": "She must want to live."
+      },
+      "answer": "E",
+      "explanation": "“She has one chance in—let us say, ten … And that chance is for her to want to live.”"
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "Why does Sue whistle ragtime as she goes into Johnsy's room after crying?",
+      "options": {
+        "A": "to annoy Johnsy",
+        "B": "to hide her sadness and seem cheerful for Johnsy",
+        "C": "because she wants to practise music",
+        "D": "to wake Johnsy up for her medicine",
+        "E": "because she has forgotten the doctor's news"
+      },
+      "answer": "B",
+      "explanation": "She has just “cried a Japanese napkin to a pulp”; whistling and swaggering in is a brave show of cheerfulness for her sick friend."
+    },
+    {
+      "number": 5,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "The word <b>solicitously</b> (“Sue looked solicitously out the window”) is closest in meaning to ....",
+      "options": {
+        "A": "with concern",
+        "B": "with boredom",
+        "C": "with anger",
+        "D": "with amusement",
+        "E": "with pride"
+      },
+      "answer": "A",
+      "explanation": "Sue is worried about her friend; to look solicitously is to look with anxious concern."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "What does Johnsy's counting reveal about her state of mind?",
+      "options": {
+        "A": "She is practising numbers to stay awake.",
+        "B": "She is counting the visitors to the studio.",
+        "C": "She wants to know how many days remain until winter.",
+        "D": "She is planning to paint the ivy vine.",
+        "E": "She has connected her own life to the falling leaves and expects to die."
+      },
+      "answer": "E",
+      "explanation": "She counts the leaves on the ivy vine and says, “When the last one falls I must go, too.” She has given up hope, just as the doctor feared."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "What does the doctor mean when he says that whenever a patient “begins to count the carriages in her funeral procession” he subtracts 50 per cent from the power of medicines?",
+      "options": {
+        "A": "He prefers patients who are already very ill.",
+        "B": "Medicine works better when the patient is busy.",
+        "C": "A patient who has given up hope is much harder to cure.",
+        "D": "Funerals in the colony are very expensive.",
+        "E": "He charges his patients half the usual price."
+      },
+      "answer": "C",
+      "explanation": "Imagining one's own funeral means expecting to die. The doctor believes this attitude halves the chance that medicine will help."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "Who improved the printing process in the 15th century?",
+      "options": {
+        "A": "Linotype Inc.",
+        "B": "Friedrich Koenig",
+        "C": "Johannes Gutenberg",
+        "D": "a woodcut artist",
+        "E": "a London printer"
+      },
+      "answer": "C",
+      "explanation": "Paragraph 2: “In the 15th century Johannes Gutenberg improved the process.”"
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "According to the text, what is typesetting?",
+      "options": {
+        "A": "pressing paper with a steam engine",
+        "B": "making paper from wood pulp",
+        "C": "arranging separate metal letters in a frame to make a page",
+        "D": "designing pages on a computer",
+        "E": "carving whole pages into blocks of wood"
+      },
+      "answer": "C",
+      "explanation": "Gutenberg used separate alloy letters screwed into a frame so that a set of letters could make almost any page; “This process was called typesetting.”"
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "What were the two ideas that “altered the design of the printing press entirely” in the 19th century?",
+      "options": {
+        "A": "wood pulp paper and hot metal type",
+        "B": "computers and marketing",
+        "C": "metal letters and ink",
+        "D": "steam power and rotating cylinders",
+        "E": "woodcut blocks and letterpress"
+      },
+      "answer": "D",
+      "explanation": "Paragraph 3: the use of steam power, and replacing the flatbed with the rotary motion of cylinders, both by Friedrich Koenig."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "The word <b>altered</b> in paragraph 3 is closest in meaning to ....",
+      "options": {
+        "A": "destroyed",
+        "B": "changed",
+        "C": "explained",
+        "D": "copied",
+        "E": "repeated"
+      },
+      "answer": "B",
+      "explanation": "Two ideas altered (changed) the design of the printing press entirely."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "What is the main purpose of paragraph 2?",
+      "options": {
+        "A": "to describe the invention of computers",
+        "B": "to argue that woodcut printing was better",
+        "C": "to list the newspapers printed in the 15th century",
+        "D": "to compare printing in China and Europe",
+        "E": "to explain how Gutenberg's method of printing worked"
+      },
+      "answer": "E",
+      "explanation": "Paragraph 2 contrasts carved wooden blocks with Gutenberg's movable metal letters and explains typesetting and letterpress."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "passage": "text_lbe2",
+      "question": "Based on the last paragraph, why is the price of a book now determined more by marketing than by production?",
+      "options": {
+        "A": "Governments control the price of printing.",
+        "B": "Marketing has become free for publishers.",
+        "C": "Fewer people buy books today.",
+        "D": "Technology has made printing itself very cheap.",
+        "E": "Books are no longer printed on paper."
+      },
+      "answer": "D",
+      "explanation": "Because of the inventions described, “the cost of printing has fallen significantly,” so production is now a smaller part of a book's price."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "According to Text 1, a placebo is ....",
+      "options": {
+        "A": "a treatment that is deliberately ineffective",
+        "B": "a vaccine made from a cow disease",
+        "C": "a special diet for sick people",
+        "D": "a strong medicine for serious diseases",
+        "E": "a test for measuring immunity"
+      },
+      "answer": "A",
+      "explanation": "Text 1, first sentence: “A placebo is a treatment for a disease or condition which is deliberately ineffective.”"
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "According to Text 1, what causes the placebo effect?",
+      "options": {
+        "A": "the price of the medicine",
+        "B": "the chemical substance in the placebo",
+        "C": "the doctor who gives the treatment",
+        "D": "the response of the person receiving the treatment",
+        "E": "the microorganism that causes the disease"
+      },
+      "answer": "D",
+      "explanation": "“It is the response of the subject which causes the observed effect, not the substance.”"
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "According to Text 2, why is flu vaccination needed every year?",
+      "options": {
+        "A": "People forget that they have been vaccinated.",
+        "B": "The flu virus keeps changing and has many strains.",
+        "C": "Vaccines are only produced once a year.",
+        "D": "The flu is caused by a bacterium.",
+        "E": "Flu vaccines stop working after one month."
+      },
+      "answer": "B",
+      "explanation": "Text 2: “The flu virus continually changes, and has many strains. That is why re-vaccination is needed every year.”"
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "The word <b>It</b> in “It is given to prevent a specific infectious or malignant disease” (Text 2) refers to ....",
+      "options": {
+        "A": "the flu",
+        "B": "a vaccine",
+        "C": "a microorganism",
+        "D": "an injection",
+        "E": "a disease"
+      },
+      "answer": "B",
+      "explanation": "The sentence before is “A vaccine is a biological preparation”; <i>It</i> refers to the vaccine."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sulit",
+      "passage": "text_lbe3",
+      "question": "Which sentence from Text 2 best shows that, unlike a placebo, a vaccine works only on a particular target?",
+      "options": {
+        "A": "“It is usually given by injection, and called vaccination.”",
+        "B": "“The use of vaccines is called vaccination.”",
+        "C": "“It only works against the microorganism for which it is prepared.”",
+        "D": "“Each vaccine has its own history.”",
+        "E": "“At first, vaccines were usually made from something that is alive.”"
+      },
+      "answer": "C",
+      "explanation": "A placebo works through belief, whatever the illness. The sentence stating that a vaccine only works against one specific microorganism shows its specific, biological effect."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "text_lbe3",
+      "question": "What is the relationship between Text 1 and Text 2?",
+      "options": {
+        "A": "Text 1 describes an effect caused by belief, while Text 2 describes a treatment that works through biology.",
+        "B": "Text 2 explains why placebos are used as vaccines.",
+        "C": "Both texts describe treatments that are deliberately ineffective.",
+        "D": "Text 2 argues that the placebo effect does not exist.",
+        "E": "Text 1 gives the history of vaccines described in Text 2."
+      },
+      "answer": "A",
+      "explanation": "Text 1: the effect comes from the patient's response, not the substance. Text 2: a vaccine is a biological preparation that gives immunity against a specific microorganism."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "text_lbe3",
+      "question": "Researchers testing a new flu vaccine give the vaccine to one group and a placebo injection to another group. Based on both texts, why do they use a placebo?",
+      "options": {
+        "A": "to tell whether improvements come from the vaccine itself or only from people's belief",
+        "B": "to change the strain of the flu virus",
+        "C": "to give the second group a stronger dose",
+        "D": "to make the vaccine cheaper to produce",
+        "E": "to protect the placebo group from the flu"
+      },
+      "answer": "A",
+      "explanation": "Text 1 shows that people may get better just because they believe they are treated. Comparing with a placebo group separates the real effect of the vaccine from the placebo effect."
+    }
+  ]
+}
