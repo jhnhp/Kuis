@@ -1,0 +1,350 @@
+{
+  "title": "Simulasi UTBK Paket 1 - Bagian 7: Penalaran Matematika",
+  "topic": "Masalah Kontekstual: KPK dan Penjadwalan, Bangun Ruang, Lingkaran dan Trigonometri, Penyajian Data, serta Sistem Persamaan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 5 konteks dengan masing-masing 4 soal seperti pada UTBK asli (termasuk tipe pernyataan benar-salah). Waktu UTBK: 42,5 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "konteks_pm1",
+      "title": "Teks untuk soal 1–4",
+      "text": [
+        "Sebuah klinik bekerja sama dengan tiga pemasok obat. Jadwal dan banyaknya obat yang dikirim adalah sebagai berikut.",
+        "Pemasok P: setiap 3 hari sekali, 40 kotak per pengiriman<br>Pemasok Q: setiap 4 hari sekali, 60 kotak per pengiriman<br>Pemasok R: setiap 6 hari sekali, 90 kotak per pengiriman",
+        "Ketiga pemasok mengirim obat bersama-sama pada tanggal 1 September 2025. Bulan September terdiri atas 30 hari."
+      ]
+    },
+    {
+      "id": "konteks_pm2",
+      "title": "Teks untuk soal 5–8",
+      "text": [
+        "Sebuah bak ikan berbentuk balok memiliki alas persegi panjang berukuran 80 cm × 50 cm dan tinggi t cm. Sebelum diisi air, dinding bagian dalam dan alas bak dilapisi cat kedap air. Sebuah keran mengalirkan 2 liter air setiap 15 detik ke dalam bak hingga tiga perempat kapasitas bak terisi, kemudian sejumlah ikan dimasukkan. Diketahui bahwa setiap 5 ekor ikan memerlukan minimal 12 liter air."
+      ]
+    },
+    {
+      "id": "konteks_pm3",
+      "title": "Teks untuk soal 9–12",
+      "text": [
+        "Sebuah jam besar di taman kota berbentuk lingkaran dengan 12 angka yang tersebar merata pada tepinya. Jarak lurus antara angka 12 dan angka 2 adalah 2 m. Pusat jam berada 5 m di atas tanah, dan angka 12 berada tepat di atas pusat jam."
+      ]
+    },
+    {
+      "id": "konteks_pm4",
+      "title": "Teks untuk soal 13–16",
+      "text": [
+        "Tabel berikut menunjukkan banyaknya penjualan lima produk sebuah toko alat tulis (dalam ribu unit) pada tahun 2023 dan 2024.",
+        "Buku tulis: 40 (2023), 43 (2024)<br>Pensil: 30 (2023), 28 (2024)<br>Pulpen: 25 (2023), 30 (2024)<br>Penghapus: 20 (2023), 18 (2024)<br>Penggaris: 10 (2023), 12 (2024)",
+        "Harga jual per unit penghapus adalah Rp2.000,00. Harga per unit produk lain, berurutan dari pensil, pulpen, penggaris, sampai buku tulis, mengikuti barisan aritmetika dengan beda Rp1.500,00 yang dimulai dari harga penghapus. Harga tidak berubah selama dua tahun tersebut."
+      ]
+    },
+    {
+      "id": "konteks_pm5",
+      "title": "Teks untuk soal 17–20",
+      "text": [
+        "Di sebuah kedai, harga 2 porsi nasi goreng, 3 gelas es teh, dan 1 porsi pisang goreng adalah Rp61.000,00, sedangkan harga 1 porsi nasi goreng dan 2 porsi pisang goreng adalah Rp38.000,00."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm1",
+      "question": "Setelah 1 September 2025, ketiga pemasok akan mengirim obat bersama-sama lagi untuk pertama kalinya pada tanggal ....",
+      "options": {
+        "A": "7 September 2025",
+        "B": "12 September 2025",
+        "C": "19 September 2025",
+        "D": "13 September 2025",
+        "E": "25 September 2025"
+      },
+      "answer": "D",
+      "explanation": "KPK dari 3, 4, dan 6 adalah 12. Jadi mereka bersama-sama lagi 12 hari setelah 1 September, yaitu 13 September 2025."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm1",
+      "question": "Banyaknya seluruh obat yang diterima klinik selama bulan September 2025 adalah ....",
+      "options": {
+        "A": "1.520 kotak",
+        "B": "1.140 kotak",
+        "C": "1.390 kotak",
+        "D": "1.330 kotak",
+        "E": "1.240 kotak"
+      },
+      "answer": "D",
+      "explanation": "P mengirim pada tanggal 1, 4, ..., 28 (10 kali); Q pada 1, 5, ..., 29 (8 kali); R pada 1, 7, 13, 19, 25 (5 kali). Total = 10 × 40 + 8 × 60 + 5 × 90 = 400 + 480 + 450 = 1.330 kotak."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm1",
+      "question": "Banyaknya hari pada bulan September 2025 ketika klinik tidak menerima kiriman dari pemasok mana pun adalah ....",
+      "options": {
+        "A": "12 hari",
+        "B": "7 hari",
+        "C": "17 hari",
+        "D": "10 hari",
+        "E": "15 hari"
+      },
+      "answer": "E",
+      "explanation": "Tanggal kiriman R selalu bertepatan dengan P (6 kelipatan 3). P: 10 hari; Q: 8 hari; P dan Q bersamaan pada tanggal 1, 13, 25 (3 hari). Hari dengan kiriman = 10 + 8 − 3 = 15. Hari tanpa kiriman = 30 − 15 = 15 hari."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm1",
+      "question": "Jika mulai 16 September 2025 pemasok Q hanya dapat mengirim 45 kotak pada setiap jadwal pengirimannya, banyaknya seluruh obat yang diterima klinik selama bulan September 2025 adalah ....",
+      "options": {
+        "A": "1.270 kotak",
+        "B": "1.255 kotak",
+        "C": "1.210 kotak",
+        "D": "1.285 kotak",
+        "E": "1.315 kotak"
+      },
+      "answer": "A",
+      "explanation": "Jadwal Q mulai 16 September: tanggal 17, 21, 25, dan 29 (4 kali). Pengurangan = 4 × (60 − 45) = 60 kotak. Total = 1.330 − 60 = 1.270 kotak."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Waktu yang diperlukan untuk mengisi bak dengan air adalah ... detik.",
+      "options": {
+        "A": "30t",
+        "B": "7,5t",
+        "C": "15t",
+        "D": "22,5t",
+        "E": "45t"
+      },
+      "answer": "D",
+      "explanation": "Luas alas = 8 dm × 5 dm = 40 dm². Kapasitas = 40 × (t/10) = 4t liter, dan yang diisi ¾-nya, yaitu 3t liter. Keran memerlukan 7,5 detik per liter sehingga waktunya 3t × 7,5 = 22,5t detik."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Manakah dari tiga pernyataan berikut yang bernilai benar?<br>(1) Jika t = 40, banyak ikan maksimal dalam bak adalah 50 ekor.<br>(2) Jika t = 60, banyak ikan maksimal dalam bak adalah 80 ekor.<br>(3) Jika t = 100, banyak ikan maksimal dalam bak adalah 125 ekor.",
+      "options": {
+        "A": "Semua pernyataan benar",
+        "B": "Pernyataan (2) SAJA yang benar",
+        "C": "Pernyataan (1) dan (3) SAJA yang benar",
+        "D": "Tidak ada pernyataan yang benar",
+        "E": "Pernyataan (1) dan (2) SAJA yang benar"
+      },
+      "answer": "C",
+      "explanation": "Volume air = 3t liter dan setiap 12 liter untuk 5 ekor, sehingga ikan maksimal = 3t ÷ 12 × 5 = 1,25t. Untuk t = 40: 50 ekor (benar). Untuk t = 60: 75 ekor, bukan 80 (salah). Untuk t = 100: 125 ekor (benar)."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm2",
+      "question": "Jika bak dapat diisi 100 ekor ikan, nilai minimal dari t adalah ....",
+      "options": {
+        "A": "60",
+        "B": "96",
+        "C": "100",
+        "D": "64",
+        "E": "80"
+      },
+      "answer": "E",
+      "explanation": "100 ekor memerlukan 100 ÷ 5 × 12 = 240 liter. Volume air = 3t ≥ 240 sehingga t ≥ 80."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm2",
+      "question": "Satu kaleng cat kedap air berharga Rp45.000,00 dan dapat digunakan untuk melapisi daerah seluas 0,5 m<sup>2</sup>. Jika t = 60, biaya yang harus dikeluarkan untuk membeli cat adalah ....",
+      "options": {
+        "A": "Rp180.000,00",
+        "B": "Rp270.000,00",
+        "C": "Rp176.400,00",
+        "D": "Rp225.000,00",
+        "E": "Rp135.000,00"
+      },
+      "answer": "A",
+      "explanation": "Luas alas = 80 × 50 = 4.000 cm². Luas dinding = keliling alas × tinggi = 260 × 60 = 15.600 cm². Jumlah = 19.600 cm² = 1,96 m². Kaleng yang diperlukan = 1,96 ÷ 0,5 = 3,92, dibulatkan ke atas menjadi 4 kaleng. Biaya = 4 × Rp45.000 = Rp180.000."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm3",
+      "question": "Panjang jari-jari jam tersebut adalah ... m.",
+      "options": {
+        "A": "2√3",
+        "B": "√3",
+        "C": "1",
+        "D": "4",
+        "E": "2"
+      },
+      "answer": "E",
+      "explanation": "Sudut pusat antara dua angka berurutan = 360° ÷ 12 = 30°, sehingga angka 12 dan angka 2 membentuk sudut pusat 60°. Segitiga yang dibentuk pusat, angka 12, dan angka 2 adalah segitiga sama sisi, jadi jari-jari = jarak kedua angka = 2 m."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Tinggi angka 1 dari permukaan tanah adalah ... m.",
+      "options": {
+        "A": "5 + 2√3",
+        "B": "6",
+        "C": "5 + √3",
+        "D": "7 − √3",
+        "E": "5 + √2"
+      },
+      "answer": "C",
+      "explanation": "Angka 1 membentuk sudut 30° dari arah vertikal (angka 12). Tinggi angka 1 di atas pusat = 2 cos 30° = √3 m. Tinggi dari tanah = 5 + √3 m."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm3",
+      "question": "Panjang busur tepi jam dari angka 12 sampai angka 5 searah putaran jarum jam adalah ... m.",
+      "options": {
+        "A": "5π/12",
+        "B": "5π/3",
+        "C": "5π/6",
+        "D": "2π",
+        "E": "10π/3"
+      },
+      "answer": "B",
+      "explanation": "Dari angka 12 ke angka 5 ada 5 selang, yaitu 150° atau 5/12 lingkaran. Panjang busur = 5/12 × 2π × 2 = 5π/3 m."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm3",
+      "question": "Jarak lurus antara angka 12 dan angka 4 adalah ... m.",
+      "options": {
+        "A": "3",
+        "B": "2√3",
+        "C": "2√2",
+        "D": "4",
+        "E": "√3"
+      },
+      "answer": "B",
+      "explanation": "Sudut pusat antara angka 12 dan angka 4 = 4 × 30° = 120°. Panjang tali busur = 2r sin(120°/2) = 2 × 2 × sin 60° = 2√3 m."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Manakah dari tiga pernyataan berikut yang bernilai benar?<br>(1) Pada tahun 2024, nilai penjualan pulpen lebih besar daripada nilai penjualan pensil.<br>(2) Rata-rata banyaknya penjualan kelima produk pada tahun 2023 adalah 25 ribu unit.<br>(3) Perbandingan banyaknya penjualan buku tulis pada tahun 2023 dan penggaris pada tahun 2024 adalah 10 : 3.",
+      "options": {
+        "A": "Pernyataan (2) SAJA yang benar",
+        "B": "Pernyataan (1) dan (3) SAJA yang benar",
+        "C": "Pernyataan (1) dan (2) SAJA yang benar",
+        "D": "Pernyataan (2) dan (3) SAJA yang benar",
+        "E": "Semua pernyataan benar"
+      },
+      "answer": "E",
+      "explanation": "Harga: penghapus 2.000; pensil 3.500; pulpen 5.000; penggaris 6.500; buku tulis 8.000. (1) Pulpen 30 × 5.000 = 150 juta > pensil 28 × 3.500 = 98 juta (benar). (2) (40 + 30 + 25 + 20 + 10) ÷ 5 = 25 (benar). (3) 40 : 12 = 10 : 3 (benar)."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm4",
+      "question": "Perbandingan nilai penjualan pulpen dan penggaris selama dua tahun tersebut adalah ....",
+      "options": {
+        "A": "5 : 2",
+        "B": "25 : 13",
+        "C": "25 : 11",
+        "D": "55 : 22",
+        "E": "10 : 13"
+      },
+      "answer": "B",
+      "explanation": "Pulpen: (25 + 30) × 5.000 = 275.000 (ribu rupiah). Penggaris: (10 + 12) × 6.500 = 143.000 (ribu rupiah). Perbandingan 275 : 143 = 25 : 13 (keduanya dibagi 11)."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm4",
+      "question": "Produk dengan nilai penjualan terendah pada tahun 2023 adalah ....",
+      "options": {
+        "A": "buku tulis",
+        "B": "pensil",
+        "C": "penghapus",
+        "D": "penggaris",
+        "E": "pulpen"
+      },
+      "answer": "C",
+      "explanation": "Nilai penjualan 2023 (juta rupiah): buku tulis 40 × 8 = 320; pensil 30 × 3,5 = 105; pulpen 25 × 5 = 125; penghapus 20 × 2 = 40; penggaris 10 × 6,5 = 65. Yang terendah adalah penghapus, meskipun unit yang terjual paling sedikit adalah penggaris."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm4",
+      "question": "Produk yang banyak penjualannya pada tahun 2024 naik atau turun paling sedikit 10% dibandingkan dengan tahun 2023 adalah ....<br>(1) pulpen<br>(2) buku tulis<br>(3) penghapus<br>(4) pensil",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "B",
+      "explanation": "Pulpen: naik 5/25 = 20% (memenuhi). Buku tulis: naik 3/40 = 7,5% (tidak). Penghapus: turun 2/20 = 10% (memenuhi). Pensil: turun 2/30 ≈ 6,7% (tidak). Jadi (1) dan (3)."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "konteks_pm5",
+      "question": "Jika Bu Rina membeli 1 porsi nasi goreng, 1 gelas es teh, dan 1 porsi pisang goreng di kedai tersebut, ia harus membayar ....",
+      "options": {
+        "A": "Rp36.000,00",
+        "B": "Rp35.000,00",
+        "C": "Rp33.000,00",
+        "D": "Rp30.000,00",
+        "E": "Rp31.000,00"
+      },
+      "answer": "C",
+      "explanation": "Misalkan N, T, P harga nasi goreng, es teh, dan pisang goreng. 2N + 3T + P = 61.000 dan N + 2P = 38.000. Jumlahkan: 3N + 3T + 3P = 99.000 sehingga N + T + P = 33.000."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm5",
+      "question": "Selisih harga 1 porsi pisang goreng dan 1 gelas es teh adalah ....",
+      "options": {
+        "A": "Rp5.000,00",
+        "B": "Rp6.000,00",
+        "C": "Rp3.000,00",
+        "D": "Rp4.000,00",
+        "E": "Rp7.000,00"
+      },
+      "answer": "A",
+      "explanation": "Persamaan pertama dikurangi dua kali persamaan kedua: (2N + 3T + P) − (2N + 4P) = 61.000 − 76.000 → 3T − 3P = −15.000 → P − T = 5.000."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sedang",
+      "passage": "konteks_pm5",
+      "question": "Jika Pak Dani membeli 5 porsi nasi goreng, 6 gelas es teh, dan 4 porsi pisang goreng di kedai tersebut, ia harus membayar ....",
+      "options": {
+        "A": "Rp198.000,00",
+        "B": "Rp165.000,00",
+        "C": "Rp150.000,00",
+        "D": "Rp160.000,00",
+        "E": "Rp137.000,00"
+      },
+      "answer": "D",
+      "explanation": "5N + 6T + 4P = 2(2N + 3T + P) + (N + 2P) = 2 × 61.000 + 38.000 = 160.000."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "konteks_pm5",
+      "question": "Harga makanan dan minuman di kedai itu naik. Kenaikan harga nasi goreng per porsi adalah ½ kali kenaikan harga es teh per gelas, sedangkan harga pisang goreng tidak naik. Jika selisih harga 1 porsi pisang goreng dan 1 gelas es teh sekarang Rp2.000,00, dengan pisang goreng tetap lebih mahal, jumlah harga 1 porsi nasi goreng, 1 gelas es teh, dan 1 porsi pisang goreng sekarang adalah ....",
+      "options": {
+        "A": "Rp37.500,00",
+        "B": "Rp42.000,00",
+        "C": "Rp39.000,00",
+        "D": "Rp34.500,00",
+        "E": "Rp36.000,00"
+      },
+      "answer": "A",
+      "explanation": "Semula P − T = 5.000. Setelah es teh naik x, selisihnya 5.000 − x = 2.000 sehingga x = 3.000. Kenaikan nasi goreng = ½ × 3.000 = 1.500. Jumlah harga baru = 33.000 + 3.000 + 1.500 = Rp37.500."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "title": "Simulasi UTBK Paket 1 - Bagian 5: Literasi dalam Bahasa Indonesia",
+  "topic": "Teks Sastra (Novel dan Puisi), Sosial Humaniora, dan Saintek",
+  "subtitle": "Simulasi 30 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal, 5 pilihan jawaban, 6 teks dari sumber nyata: novel Azab dan Sengsara (Merari Siregar), puisi Chairil Anwar, serta artikel Wikipedia bahasa Indonesia. Waktu UTBK: 42,5 menit.",
+  "total_questions": 30,
+  "passages": [
+    {
+      "id": "teks_lbi1",
+      "title": "Teks 1: Kutipan novel Azab dan Sengsara",
+      "text": [
+        "Hari yang panas itu berangsur-angsur menjadi dingin, karena matahari, raja siang itu, akan masuk ke dalam peraduannya, ke balik Gunung Sibualbuali, yang menjadi watas dataran tinggi Sipirok yang bagus itu. Langit di sebelah barat pun merah kuning rupanya, dan sinar matahari yang turun itu nampaklah di atas puncak kayu yang tinggi-tinggi, indah rupanya, sebagai disepuh dengan emas juwita. Angin gunung yang lemah-lembut itu pun berembuslah, sedap dan nyaman rasanya bagi orang-orang kampung yang sedang di perjalanan kembali dari kebun kopi, yang terletak di lereng gunung dan bukit-bukit yang subur itu. Maka angin itu pun bertambahlah sedikit kerasnya, sehingga daun dan cabang-cabang kayu itu bergoyang-goyang perlahan-lahan sebagai menunjukkan kegirangannya, karena cahaya yang panas itu sudah bertukar dengan hawa yang sejuk dan nyaman rasanya. Batang padi yang tumbuh di sawah yang luas itu pun dibuai-buaikan angin, sebagai ombak yang berpalu-paluan di atas laut yang lebar; sawah yang seluas itu pun tiadalah ubahnya dengan lautan, sedang daun padi itu sebagai air yang hijau rupanya.",
+        "Burung-burung pun beterbanganlah dari sana-sini, seraya berkumpul-kumpul di atas cabang beringin-beringin yang berdaun rimbun; masing-masing menyanyi memuji Tuhan dan memberi hormat kepada raja siang yang sedang turun ke balik gunung yang tinggi itu. Dari jauh terdengarlah bunyi kelintung kerbau berderang-derang, diiringi suara dendang anak gembala yang membawa binatangnya itu ke kandangnya. Di sana-sini nampaklah asap dari bubungan rumah orang desa, sedang azan orang di menara mesjid besar yang ada di Sipirok itu pun memperingatkan hamba Allah akan menyembah Dia dan mengucapkan syukur sebab rahmatnya yang besar itu.",
+        "Jalan dan lorong makin sunyi, laki-laki sedang sembahyang magrib dalam mesjid besar dan perempuan tengah bertanak hendak menyediakan makanan untuknya anak-beranak. Akan tetapi siapakah yang duduk di sana, di sebelah rusuk rumah yang beratap ijuk dekat sungai yang mengalir di tengah-tengah kota Sipirok itu?",
+        "Perempuan itu sedang muda remaja. Ia duduk memandang ke pohon beringin yang di tepi sungai itu. Akan tetapi pandangnya itu lain, yakni matanya saja yang menatap ke sana, tetapi daun beringin yang bergoyang-goyang itu tak nampak pada matanya, karena ada sesuatu yang dipikirkannya. Suara air yang mengalir di sungai yang berbelok-belok itu pun tak kedengaran di telinganya, karena angan-angannya sedang sibuk berkisar-kisar. \"Belumkah ia datang? Sakitkah dia? Apakah sebabnya ia sekian lama tak kulihat?\" tanya perempuan itu berulang-ulang dalam hatinya.",
+        "<small>Sumber: Merari Siregar, <i>Azab dan Sengsara</i> (Balai Pustaka, 1920), Bab 1; teks dari Wikisource bahasa Indonesia (domain publik).</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi2",
+      "title": "Teks 2: Puisi “Derai-Derai Cemara”",
+      "text": [
+        "cemara menderai sampai jauh<br>terasa hari akan jadi malam<br>ada beberapa dahan di tingkap merapuh<br>dipukul angin yang terpendam",
+        "aku sekarang orangnya bisa tahan<br>sudah berapa waktu bukan kanak lagi<br>tapi dulu memang ada suatu bahan<br>yang bukan dasar perhitungan kini",
+        "hidup hanya menunda kekalahan<br>tambah terasing dari cinta sekolah rendah<br>dan tahu, ada yang tetap tidak diucapkan<br>sebelum pada akhirnya kita menyerah",
+        "<small>Sumber: Chairil Anwar, “Derai-Derai Cemara” (1949); teks dari Wikisource bahasa Indonesia (domain publik).</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi3",
+      "title": "Teks 3: Subak",
+      "text": [
+        "Subak adalah organisasi kemasyarakatan yang khusus mengatur sistem pengairan sawah (irigasi) yang digunakan dalam bercocok tanam padi di Bali, Indonesia. Subak pada umumnya memiliki pura yang dinamakan Pura Uluncarik atau Pura Bedugul, yang khusus dibangun oleh para pemilik lahan dan petani. Pura tersebut diperuntukkan bagi Dewi Sri, yaitu dewi kemakmuran dan kesuburan menurut kepercayaan masyarakat Bali. Sistem irigasi ini diatur oleh seorang pemuka adat (Pekaseh) yang juga adalah seorang petani di Bali.",
+        "Sistem subak telah menjadi salah satu ciri khas dari masyarakat Bali. Sistem pengairan ini berkembang dalam pengaruh nilai-nilai ajaran agama Hindu yang kuat dan membentuk suatu kearifan lokal, yang membuat masyarakat petani di Bali dapat serasi dengan alam untuk memperoleh hasil panen yang optimal.",
+        "Dalam kajian sejarah, subak telah dikenal masyarakat Bali sejak abad ke-9 Masehi. Subak merupakan suatu sistem swadaya masyarakat yang berfungsi mengatur pembagian aliran irigasi yang mengairi setiap petak area persawahan. Sistem ini dikelola secara berkelompok dan bertingkat yang disertai dengan pembagian peran yang spesifik bagi setiap anggotanya.",
+        "Kekuatan subak sendiri terletak pada ketergantungan bersama terhadap air irigasi dan juga disatukan oleh adanya Pura Subak. Subak diikat oleh kepentingan fisik dan spiritual. Selain sistem strukturalnya, subak juga memiliki kekhasan tersendiri dalam hal upacara keagamaan yang berlangsung di dalamnya. Di dalam subak terdapat ritual yang berlaku secara perseorangan dan ritual berkelompok. Itulah sebabnya subak melaksanakan berbagai kegiatan ritual pada tingkat petani, subak, dan pada pura lain yang dianggap berkaitan dengan sumber air subak yang bersangkutan. Kegiatan ritual tersebut adalah bagian dari pelaksanaan Tri Hita Karana pada subak.",
+        "Sistem subak diakui oleh UNESCO sebagai warisan budaya dunia pada tanggal 29 Juni 2012 di kota Saint Petersburg, Rusia.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Subak” (lisensi CC BY-SA 4.0), dengan penyuntingan ejaan.</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi4",
+      "title": "Teks 4: Bonus Demografi",
+      "text": [
+        "Bonus demografi, berdasarkan istilah dari Dana Penduduk Perserikatan Bangsa-Bangsa, adalah potensi pertumbuhan ekonomi yang tercipta akibat perubahan struktur umur penduduk, di mana proporsi usia kerja (15-65 tahun) lebih besar daripada proporsi bukan usia kerja (0-14 tahun dan >65 tahun). Kondisi ini dapat terjadi ketika angka kelahiran dan angka kematian menurun pada suatu negara, di mana hal ini menyebabkan usia non-produktif (0-14 tahun) menurun dan penduduk usia kerja dapat hidup lebih lama untuk menghasilkan potensi pertumbuhan ekonomi. Secara angka, terjadinya Bonus Demografi dapat diukur dengan menurunnya rasio ketergantungan di suatu negara yang berarti proporsi usia produktif di negara tersebut meningkat.",
+        "Namun, Bonus Demografi tidak dapat serta merta terjadi ketika jumlah penduduk usia produktif besar, melainkan harus diiringi dengan peningkatan produktivitas dari penduduk usia kerja tersebut. UNFPA menyatakan bahwa suatu negara dapat menikmati bonus demografi ketika setiap orang menikmati kesehatan yang baik, pendidikan yang berkualitas, pekerjaan yang layak, dan kemandirian anak muda. Kondisi ini dapat terjadi ketika suatu negara yang memiliki potensi jumlah penduduk tersebut juga memiliki kebijakan yang baik.",
+        "Setiap negara pasti melalui era Bonus Demografi dan ini hanya terjadi sekali dalam sejarah suatu bangsa. Apabila suatu negara tidak siap dalam menghadapi bonus demografi, maka yang terjadi justru adalah bencana demografi, salah satunya angka pengangguran yang tinggi di mana dapat menimbulkan potensi konflik sosial. Negara-negara di Asia, termasuk Indonesia, saat ini sedang berada dalam era Bonus Demografi.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Bonus demografi” (lisensi CC BY-SA 4.0), dengan penyuntingan ringan.</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi5",
+      "title": "Teks 5: Polusi Plastik",
+      "text": [
+        "Polusi plastik adalah akumulasi dari produk plastik yang ada di lingkungan yang berdampak buruk terhadap satwa liar, habitat satwa liar, dan manusia. Plastik yang berperan sebagai polutan dikategorikan ke dalam mikro, meso, atau puing-puing makro, berdasarkan ukurannya. Plastik berharga murah, tahan lama, dan hasilnya tingkat produksi plastik oleh manusia menjadi tinggi. Namun, umumnya struktur kimia dari plastik membuat mereka tahan terhadap banyak proses alami degradasi dan akibatnya mereka lambat juga untuk didegradasi. Bersama-sama, kedua faktor inilah yang menyebabkan tingginya tingkat pencemaran plastik di lingkungan.",
+        "Polusi plastik dapat mengenai tanah, saluran air dan lautan. Organisme yang hidup, terutama hewan laut, dapat dirugikan baik oleh efek mekanis, seperti terjerat di dalam objek plastik atau masalah yang terkait dengan menelan limbah plastik, atau melalui paparan terhadap bahan kimia di dalam plastik yang mengganggu fisiologi mereka. Manusia pun juga dipengaruhi oleh polusi plastik, seperti melalui gangguan dari berbagai mekanisme hormonal.",
+        "Pada 2018, terdapat sekitar 380 juta ton plastik telah diproduksi di seluruh dunia setiap tahun. Dari tahun 1950 hingga tahun 2018, diperkirakan terdapat 6,3 miliar ton plastik telah diproduksi di seluruh dunia, yang diperkirakan 9% telah didaur ulang dan diperkirakan juga 12% lainnya telah dibakar.",
+        "Beberapa peneliti menyatakan bahwa pada tahun 2050 kemungkinan ada lebih banyak plastik daripada ikan di lautan berdasarkan pada beratnya.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Polusi plastik” (lisensi CC BY-SA 4.0), dikutip sebagian dengan penyuntingan ejaan.</small>"
+      ]
+    },
+    {
+      "id": "teks_lbi6",
+      "title": "Teks 6: Anemia",
+      "text": [
+        "Anemia (kurang darah) adalah keadaan saat jumlah sel darah merah atau jumlah hemoglobin (protein pembawa oksigen) dalam sel darah merah berada di bawah normal. Sel darah merah mengandung hemoglobin yang berperan mengangkut oksigen dari jantung yang diperoleh dari paru-paru, dan kemudian mengantarkannya ke seluruh bagian tubuh.",
+        "Seseorang dikatakan anemia bila konsentrasi hemoglobin (Hb) nya kurang dari 13,5 g/dL atau hematokrit (Hct) kurang dari 41% pada laki-laki, dan konsentrasi Hb kurang dari 11,5 g/dL atau Hct kurang dari 36% pada perempuan.",
+        "Anemia juga dapat menghambat tumbuh kembang anak-anak. Perkembangan otak anak sangat tergantung pada asupan nutrisi yang dikonsumsi. Salah satu nutrisi penting yang harus terpenuhi pada masa lima tahun pertama kehidupan anak untuk mendukung mengoptimalkan perkembangan otaknya adalah zat besi. Sebab, jika anak kekurangan asupan harian zat besi, maka bisa menyebabkan anemia defisiensi besi yang dapat menimbulkan dampak negatif permanen.",
+        "<small>Sumber: Wikipedia bahasa Indonesia, artikel “Anemia” (lisensi CC BY-SA 4.0), dikutip sebagian dengan penyuntingan ringan.</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi1",
+      "question": "Latar waktu peristiwa dalam kutipan novel tersebut adalah ....",
+      "options": {
+        "A": "petang hari menjelang malam",
+        "B": "tengah malam yang sunyi",
+        "C": "dini hari menjelang subuh",
+        "D": "pagi hari ketika matahari terbit",
+        "E": "tengah hari yang terik"
+      },
+      "answer": "A",
+      "explanation": "Matahari “akan masuk ke dalam peraduannya”, langit barat merah kuning, orang pulang dari kebun, dan laki-laki sedang sembahyang magrib. Semua itu menunjukkan petang menjelang malam."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Majas yang digunakan pada ungkapan <i>matahari, raja siang itu, akan masuk ke dalam peraduannya</i> adalah ....",
+      "options": {
+        "A": "litotes",
+        "B": "metonimia",
+        "C": "hiperbola",
+        "D": "personifikasi",
+        "E": "ironi"
+      },
+      "answer": "D",
+      "explanation": "Matahari digambarkan seperti manusia (raja) yang masuk ke peraduan atau tempat tidurnya. Pemberian sifat manusia kepada benda disebut personifikasi."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Suasana alam yang digambarkan pada paragraf pertama dan kedua kutipan tersebut adalah ....",
+      "options": {
+        "A": "suram dan menyedihkan",
+        "B": "riuh dan kacau",
+        "C": "mencekam dan menakutkan",
+        "D": "tenteram dan damai",
+        "E": "gersang dan panas"
+      },
+      "answer": "D",
+      "explanation": "Angin gunung yang sedap dan nyaman, burung bernyanyi, dendang anak gembala, dan azan menghadirkan suasana desa yang tenteram dan damai."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi1",
+      "question": "Hubungan antara gambaran alam pada awal kutipan dan keadaan batin tokoh perempuan pada paragraf terakhir adalah ....",
+      "options": {
+        "A": "alam yang ramai membuat tokoh lupa akan masalahnya",
+        "B": "alam yang damai dikontraskan dengan batin tokoh yang gelisah",
+        "C": "alam yang muram menguatkan kesedihan tokoh",
+        "D": "alam yang damai mencerminkan batin tokoh yang bahagia",
+        "E": "alam yang berubah menyebabkan tokoh jatuh sakit"
+      },
+      "answer": "B",
+      "explanation": "Alam dilukiskan sejuk dan damai, sedangkan perempuan itu tidak melihat daun yang bergoyang dan tidak mendengar air sungai karena sibuk dengan pertanyaan cemas, “Belumkah ia datang? Sakitkah dia?” Keduanya dikontraskan."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi1",
+      "question": "Manakah pernyataan berikut yang sesuai dengan isi kutipan tersebut?<br>(1) Orang-orang kampung sedang berjalan pulang dari kebun kopi.<br>(2) Perempuan itu asyik menikmati daun beringin yang bergoyang.<br>(3) Perempuan itu menanti seseorang yang sudah lama tidak dilihatnya.<br>(4) Pada waktu itu kaum laki-laki masih bekerja di sawah.",
+      "options": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) dan (3)",
+        "C": "(2) dan (4)",
+        "D": "(4)",
+        "E": "(1), (2), (3), dan (4)"
+      },
+      "answer": "B",
+      "explanation": "(1) benar: orang kampung “sedang di perjalanan kembali dari kebun kopi”. (3) benar: “Apakah sebabnya ia sekian lama tak kulihat?” (2) salah: daun itu “tak nampak pada matanya”. (4) salah: laki-laki sedang sembahyang magrib di masjid."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi2",
+      "question": "Tema puisi tersebut adalah ....",
+      "options": {
+        "A": "kerinduan pada masa sekolah dasar",
+        "B": "perenungan tentang hidup yang makin dekat dengan akhir",
+        "C": "kegembiraan menyambut masa dewasa",
+        "D": "keindahan pohon cemara pada malam hari",
+        "E": "kemarahan terhadap keadaan zaman"
+      },
+      "answer": "B",
+      "explanation": "Citraan hari yang “akan jadi malam”, dahan yang “merapuh”, serta larik “hidup hanya menunda kekalahan” dan “sebelum pada akhirnya kita menyerah” menunjukkan perenungan tentang hidup yang menuju akhir."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi2",
+      "question": "Makna larik <i>hidup hanya menunda kekalahan</i> adalah ....",
+      "options": {
+        "A": "manusia pada akhirnya tidak dapat mengelak dari kematian",
+        "B": "manusia harus menunda setiap pekerjaan yang berat",
+        "C": "kekalahan dapat dicegah dengan kerja keras",
+        "D": "hidup adalah perlombaan yang harus dimenangkan",
+        "E": "orang yang kalah sebaiknya mencoba lagi"
+      },
+      "answer": "A",
+      "explanation": "“Kekalahan” melambangkan kematian atau akhir hidup. Sekuat apa pun manusia bertahan, hidup hanya menunda datangnya akhir itu; hal ini ditegaskan larik terakhir, “sebelum pada akhirnya kita menyerah”."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi2",
+      "question": "Bait kedua puisi tersebut menggambarkan bahwa aku lirik ....",
+      "options": {
+        "A": "menyesal karena tidak pandai berhitung sejak kecil",
+        "B": "ingin kembali menjadi kanak-kanak karena takut pada malam",
+        "C": "marah kepada orang-orang yang menganggapnya kanak-kanak",
+        "D": "merasa telah dewasa dan tabah, tetapi menyadari ada yang hilang dari masa kecilnya",
+        "E": "bangga karena sudah mampu mengalahkan semua kesulitan"
+      },
+      "answer": "D",
+      "explanation": "“Aku sekarang orangnya bisa tahan / sudah berapa waktu bukan kanak lagi” menunjukkan kedewasaan dan ketabahan. “Tapi dulu memang ada suatu bahan / yang bukan dasar perhitungan kini” menunjukkan kesadaran bahwa sesuatu dari masa lalu tidak lagi menjadi pegangannya."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi2",
+      "question": "Suasana yang paling terasa dalam puisi tersebut adalah ....",
+      "options": {
+        "A": "tegang",
+        "B": "riang",
+        "C": "meriah",
+        "D": "jenaka",
+        "E": "muram"
+      },
+      "answer": "E",
+      "explanation": "Senja yang menjadi malam, dahan yang merapuh, keterasingan, dan penyerahan diri membangun suasana muram."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi2",
+      "question": "Larik <i>ada beberapa dahan di tingkap merapuh / dipukul angin yang terpendam</i> paling tepat ditafsirkan sebagai ....",
+      "options": {
+        "A": "lambang kekuatan hidup yang melemah karena tekanan yang tidak tampak",
+        "B": "ungkapan kekaguman pada kekuatan angin",
+        "C": "ajakan untuk menebang pohon yang sudah tua",
+        "D": "gambaran rumah tua yang jendelanya perlu diperbaiki",
+        "E": "peringatan akan datangnya badai pada malam hari"
+      },
+      "answer": "A",
+      "explanation": "Dahan yang merapuh melambangkan daya hidup yang mulai lemah; “angin yang terpendam” melambangkan tekanan atau derita yang tidak tampak. Tafsiran ini sejalan dengan bait berikutnya tentang hidup yang menuju kekalahan."
+    },
+    {
+      "number": 11,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi3",
+      "question": "Menurut teks tersebut, <i>pekaseh</i> adalah ....",
+      "options": {
+        "A": "upacara keagamaan di tingkat petani",
+        "B": "pura yang dibangun khusus oleh para pemilik lahan",
+        "C": "pemuka adat yang mengatur sistem irigasi dan juga seorang petani",
+        "D": "pejabat UNESCO yang menilai warisan budaya",
+        "E": "dewi kemakmuran dan kesuburan"
+      },
+      "answer": "C",
+      "explanation": "Paragraf pertama: sistem irigasi ini diatur oleh seorang pemuka adat (Pekaseh) yang juga adalah seorang petani di Bali."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Menurut teks tersebut, kekuatan subak terletak pada ....",
+      "options": {
+        "A": "luasnya lahan sawah yang dimiliki tiap petani",
+        "B": "bantuan dana dari pemerintah dan UNESCO",
+        "C": "ketergantungan bersama terhadap air irigasi dan ikatan Pura Subak",
+        "D": "larangan bagi petani untuk mengubah jadwal tanam",
+        "E": "penggunaan teknologi pengairan modern"
+      },
+      "answer": "C",
+      "explanation": "Paragraf keempat: kekuatan subak terletak pada ketergantungan bersama terhadap air irigasi dan juga disatukan oleh adanya Pura Subak."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Gagasan pokok paragraf keempat teks tersebut adalah ....",
+      "options": {
+        "A": "Tri Hita Karana merupakan ajaran agama Hindu",
+        "B": "subak melaksanakan ritual pada tingkat petani",
+        "C": "ritual perseorangan lebih penting daripada ritual berkelompok",
+        "D": "subak diikat oleh kepentingan fisik dan spiritual",
+        "E": "sumber air subak dijaga oleh pura lain"
+      },
+      "answer": "D",
+      "explanation": "Paragraf keempat menjelaskan bahwa subak disatukan oleh kebutuhan air (fisik) dan oleh pura serta ritual (spiritual). Kalimat tentang ritual hanyalah penjelas gagasan itu."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi3",
+      "question": "Pernyataan berikut yang <b>tidak</b> sesuai dengan isi teks adalah ....",
+      "options": {
+        "A": "Subak dikelola secara berkelompok dan bertingkat.",
+        "B": "Subak telah dikenal masyarakat Bali sejak abad ke-9 Masehi.",
+        "C": "Pura subak diperuntukkan bagi Dewi Sri.",
+        "D": "Pura subak dibangun oleh pemerintah daerah bagi para petani.",
+        "E": "Subak diakui UNESCO sebagai warisan budaya dunia pada 2012."
+      },
+      "answer": "D",
+      "explanation": "Menurut paragraf pertama, pura subak “khusus dibangun oleh para pemilik lahan dan petani”, bukan oleh pemerintah daerah. Pernyataan lain sesuai dengan teks."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi3",
+      "question": "Simpulan yang paling tepat berdasarkan teks tersebut adalah ....",
+      "options": {
+        "A": "Subak akan hilang karena masyarakat Bali tidak lagi bergantung pada air irigasi.",
+        "B": "Subak hanya dapat dijalankan oleh petani yang menjadi pemuka adat.",
+        "C": "Subak merupakan teknologi irigasi yang diciptakan atas permintaan UNESCO.",
+        "D": "Subak lebih mengutamakan upacara keagamaan daripada hasil panen.",
+        "E": "Subak bukan hanya cara mengairi sawah, melainkan juga tatanan sosial dan keagamaan masyarakat petani Bali."
+      },
+      "answer": "E",
+      "explanation": "Teks menekankan tiga sisi subak: pembagian air irigasi, organisasi swadaya yang berkelompok dan bertingkat, serta ritual yang terkait dengan Tri Hita Karana. Jadi, subak adalah sistem irigasi sekaligus tatanan sosial-keagamaan."
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi4",
+      "question": "Menurut teks tersebut, penduduk usia kerja adalah penduduk berusia ....",
+      "options": {
+        "A": "0–14 tahun",
+        "B": "15–65 tahun",
+        "C": "di atas 65 tahun",
+        "D": "17–55 tahun",
+        "E": "18–60 tahun"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama: proporsi usia kerja (15-65 tahun) lebih besar daripada proporsi bukan usia kerja (0-14 tahun dan >65 tahun)."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi4",
+      "question": "Menurut teks tersebut, terjadinya bonus demografi secara angka ditunjukkan oleh ....",
+      "options": {
+        "A": "menurunnya jumlah penduduk usia kerja",
+        "B": "meningkatnya jumlah penduduk lanjut usia",
+        "C": "meningkatnya angka kelahiran",
+        "D": "menurunnya rasio ketergantungan",
+        "E": "meningkatnya angka kematian"
+      },
+      "answer": "D",
+      "explanation": "Paragraf pertama: bonus demografi dapat diukur dengan menurunnya rasio ketergantungan, yang berarti proporsi usia produktif meningkat."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi4",
+      "question": "Pernyataan yang sesuai dengan isi paragraf kedua teks tersebut adalah ....",
+      "options": {
+        "A": "Bonus demografi pasti terjadi apabila jumlah penduduk usia produktif besar.",
+        "B": "Kesehatan dan pendidikan tidak berkaitan dengan bonus demografi.",
+        "C": "Banyaknya penduduk usia produktif baru menguntungkan jika produktivitas mereka meningkat.",
+        "D": "UNFPA menyatakan bahwa bonus demografi tidak memerlukan kebijakan pemerintah.",
+        "E": "Kemandirian anak muda menghambat pertumbuhan ekonomi."
+      },
+      "answer": "C",
+      "explanation": "Paragraf kedua menyatakan bahwa bonus demografi tidak serta-merta terjadi ketika jumlah penduduk usia produktif besar, melainkan harus diiringi peningkatan produktivitas."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi4",
+      "question": "Di Negara Z, proporsi penduduk usia kerja sangat besar, tetapi mutu pendidikan rendah dan lapangan kerja yang layak sangat terbatas. Berdasarkan teks tersebut, hal yang paling mungkin terjadi di Negara Z adalah ....",
+      "options": {
+        "A": "penurunan jumlah penduduk usia kerja dalam waktu singkat",
+        "B": "bonus demografi kedua pada generasi berikutnya",
+        "C": "bencana demografi berupa pengangguran tinggi yang berpotensi menimbulkan konflik sosial",
+        "D": "kenaikan angka kelahiran karena banyaknya penduduk usia kerja",
+        "E": "pertumbuhan ekonomi yang pesat karena rasio ketergantungan rendah"
+      },
+      "answer": "C",
+      "explanation": "Menurut paragraf ketiga, negara yang tidak siap justru mengalami bencana demografi, salah satunya pengangguran tinggi yang dapat menimbulkan konflik sosial. Teks juga menyatakan bonus demografi hanya terjadi sekali."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi4",
+      "question": "Berapa banyak pernyataan berikut yang sesuai dengan isi teks?<br>(1) Bonus demografi hanya terjadi sekali dalam sejarah suatu bangsa.<br>(2) Bonus demografi terjadi ketika angka kelahiran meningkat.<br>(3) Indonesia sedang berada dalam era bonus demografi.<br>(4) UNFPA menjamin setiap negara akan menikmati bonus demografi.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "C",
+      "explanation": "(1) sesuai dengan paragraf ketiga. (3) sesuai dengan kalimat terakhir. (2) tidak sesuai: kondisi itu terjadi ketika angka kelahiran dan kematian menurun. (4) tidak sesuai: UNFPA menyebut syarat, bukan jaminan. Jadi ada 2 pernyataan."
+    },
+    {
+      "number": 21,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi5",
+      "question": "Menurut teks tersebut, polusi plastik adalah ....",
+      "options": {
+        "A": "penurunan jumlah produksi plastik di seluruh dunia",
+        "B": "kegiatan mendaur ulang plastik menjadi barang baru",
+        "C": "akumulasi produk plastik di lingkungan yang berdampak buruk terhadap satwa liar, habitatnya, dan manusia",
+        "D": "proses pembakaran sampah plastik di tempat pembuangan",
+        "E": "kumpulan bahan kimia yang dipakai untuk membuat plastik"
+      },
+      "answer": "C",
+      "explanation": "Kalimat pertama teks memuat definisinya: akumulasi produk plastik di lingkungan yang berdampak buruk terhadap satwa liar, habitat satwa liar, dan manusia."
+    },
+    {
+      "number": 22,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Dua faktor yang menurut paragraf pertama menyebabkan tingginya pencemaran plastik adalah ....",
+      "options": {
+        "A": "harga plastik yang mahal dan plastik yang mudah rusak",
+        "B": "sedikitnya pabrik plastik dan banyaknya hewan laut",
+        "C": "pembakaran plastik dan daur ulang plastik",
+        "D": "ukuran plastik yang kecil dan warnanya yang beragam",
+        "E": "produksi plastik yang tinggi dan plastik yang lambat terurai"
+      },
+      "answer": "E",
+      "explanation": "Plastik murah dan tahan lama sehingga produksinya tinggi; struktur kimianya membuat plastik tahan terhadap degradasi alami sehingga lambat terurai. “Kedua faktor inilah” yang menyebabkan tingginya pencemaran."
+    },
+    {
+      "number": 23,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Yang termasuk <i>efek mekanis</i> polusi plastik terhadap hewan laut menurut teks tersebut adalah ....",
+      "options": {
+        "A": "terpapar bahan kimia di dalam plastik",
+        "B": "terganggunya mekanisme hormonal",
+        "C": "berubahnya suhu air laut",
+        "D": "berkurangnya kadar garam air laut",
+        "E": "terjerat di dalam objek plastik"
+      },
+      "answer": "E",
+      "explanation": "Paragraf kedua: efek mekanis, seperti terjerat di dalam objek plastik atau masalah akibat menelan limbah plastik. Paparan bahan kimia disebut sebagai jalur yang berbeda."
+    },
+    {
+      "number": 24,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi5",
+      "question": "Berdasarkan data pada paragraf ketiga, simpulan yang paling tepat tentang plastik yang diproduksi dari tahun 1950 hingga 2018 adalah ....",
+      "options": {
+        "A": "Sebagian besar, hampir empat perlimanya, tidak didaur ulang dan tidak dibakar.",
+        "B": "Seluruhnya telah dibakar atau didaur ulang.",
+        "C": "Sekitar 380 juta ton di antaranya telah didaur ulang.",
+        "D": "Lebih dari separuhnya telah didaur ulang.",
+        "E": "Jumlah yang dibakar lebih sedikit daripada jumlah yang didaur ulang."
+      },
+      "answer": "A",
+      "explanation": "Dari 6,3 miliar ton, 9% didaur ulang dan 12% dibakar, seluruhnya 21%. Sisanya sekitar 79%, hampir empat perlima, tidak didaur ulang dan tidak dibakar. Angka 380 juta ton adalah produksi per tahun pada 2018."
+    },
+    {
+      "number": 25,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi5",
+      "question": "Pernyataan berikut yang <b>tidak</b> sesuai dengan isi teks adalah ....",
+      "options": {
+        "A": "Polusi plastik dapat mengenai tanah, saluran air, dan lautan.",
+        "B": "Pada 2050 kemungkinan berat plastik di lautan melebihi berat ikan.",
+        "C": "Manusia juga terpengaruh oleh polusi plastik.",
+        "D": "Plastik berharga murah dan tahan lama.",
+        "E": "Plastik mudah terurai melalui proses alami."
+      },
+      "answer": "E",
+      "explanation": "Teks menyatakan struktur kimia plastik membuatnya tahan terhadap banyak proses degradasi alami sehingga lambat terurai, bukan mudah terurai."
+    },
+    {
+      "number": 26,
+      "difficulty": "Mudah",
+      "passage": "teks_lbi6",
+      "question": "Menurut teks tersebut, hemoglobin berperan ....",
+      "options": {
+        "A": "menyerap zat besi dari makanan",
+        "B": "mengangkut oksigen ke seluruh bagian tubuh",
+        "C": "membentuk sel darah merah yang baru",
+        "D": "menghentikan perdarahan yang berlebihan",
+        "E": "mengukur kadar hematokrit dalam darah"
+      },
+      "answer": "B",
+      "explanation": "Paragraf pertama: hemoglobin berperan mengangkut oksigen dan mengantarkannya ke seluruh bagian tubuh."
+    },
+    {
+      "number": 27,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi6",
+      "question": "Hasil pemeriksaan menunjukkan konsentrasi hemoglobin Pak Andi 13,0 g/dL dan Bu Sari 11,0 g/dL. Berdasarkan batas yang disebutkan dalam teks, pernyataan yang tepat adalah ....",
+      "options": {
+        "A": "Keduanya tidak mengalami anemia.",
+        "B": "Keadaan keduanya tidak dapat ditentukan tanpa data hematokrit.",
+        "C": "Hanya Bu Sari yang mengalami anemia.",
+        "D": "Hanya Pak Andi yang mengalami anemia.",
+        "E": "Pak Andi dan Bu Sari sama-sama mengalami anemia."
+      },
+      "answer": "E",
+      "explanation": "Batas anemia: Hb kurang dari 13,5 g/dL pada laki-laki dan kurang dari 11,5 g/dL pada perempuan. 13,0 < 13,5 dan 11,0 < 11,5 sehingga keduanya mengalami anemia. Teks memakai kata “atau” untuk Hb dan hematokrit sehingga data Hb saja sudah cukup."
+    },
+    {
+      "number": 28,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi6",
+      "question": "Menurut paragraf terakhir, zat besi penting pada lima tahun pertama kehidupan anak karena ....",
+      "options": {
+        "A": "mendukung perkembangan otak anak secara optimal",
+        "B": "menggantikan fungsi hemoglobin dalam darah",
+        "C": "menurunkan kadar hematokrit anak",
+        "D": "mencegah anak mengalami perdarahan",
+        "E": "membuat anak lebih cepat bertambah tinggi"
+      },
+      "answer": "A",
+      "explanation": "Paragraf terakhir: zat besi adalah salah satu nutrisi penting untuk mengoptimalkan perkembangan otak anak pada lima tahun pertama kehidupannya."
+    },
+    {
+      "number": 29,
+      "difficulty": "Sedang",
+      "passage": "teks_lbi6",
+      "question": "Yang dimaksud dengan <i>anemia defisiensi besi</i> dalam teks tersebut adalah anemia yang ....",
+      "options": {
+        "A": "disebabkan oleh kelebihan zat besi dalam darah",
+        "B": "disebabkan oleh kurangnya asupan zat besi",
+        "C": "hanya dialami oleh orang dewasa",
+        "D": "tidak berkaitan dengan makanan sehari-hari",
+        "E": "terjadi karena jumlah oksigen di paru-paru berkurang"
+      },
+      "answer": "B",
+      "explanation": "Teks menyebutkan: jika anak kekurangan asupan harian zat besi, hal itu bisa menyebabkan anemia defisiensi besi. Defisiensi berarti kekurangan."
+    },
+    {
+      "number": 30,
+      "difficulty": "Sulit",
+      "passage": "teks_lbi6",
+      "question": "Simpulan yang paling tepat dari paragraf terakhir teks tersebut adalah ....",
+      "options": {
+        "A": "Kecukupan zat besi pada anak perlu dijaga sejak dini karena akibat kekurangannya dapat menetap.",
+        "B": "Anemia pada anak akan sembuh dengan sendirinya setelah berusia lima tahun.",
+        "C": "Perkembangan otak anak hanya ditentukan oleh zat besi.",
+        "D": "Anemia defisiensi besi hanya dapat dicegah setelah anak berusia lima tahun.",
+        "E": "Anak yang mengalami anemia tidak dapat tumbuh menjadi dewasa."
+      },
+      "answer": "A",
+      "explanation": "Paragraf terakhir menyatakan anemia dapat menghambat tumbuh kembang anak dan anemia defisiensi besi dapat menimbulkan dampak negatif permanen. Karena itu, asupan zat besi perlu dijaga sejak dini. Zat besi disebut “salah satu” nutrisi penting, bukan satu-satunya."
+    }
+  ]
+}

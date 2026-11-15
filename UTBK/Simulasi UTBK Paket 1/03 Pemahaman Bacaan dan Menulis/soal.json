@@ -1,0 +1,342 @@
+{
+  "title": "Simulasi UTBK Paket 1 - Bagian 3: Pemahaman Bacaan dan Menulis",
+  "topic": "Pemilihan Gagasan, Penataan Gagasan, dan Perbaikan Gagasan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 teks yang diadaptasi dari Wikipedia bahasa Indonesia (sebagian sengaja diberi kesalahan untuk diperbaiki). Waktu UTBK: 25 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_pbm1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Pasar tradisional adalah tempat orang melakukan jual beli. <sup>2</sup>Lebih lengkapnya, pasar merupakan tempat bertemunya penjual dan pembeli yang ditandai dengan adanya <b>transaksi</b> jual beli secara langsung dan biasanya ada proses tawar-menawar. <sup>3</sup>Pasar umumnya terdiri dari <b>kios</b>, toko, los, dan dasaran terbuka yang dibuka oleh penjual atau pengelola pasar. <sup>4</sup>Pasar biasanya menyediakan kebutuhan sehari-hari, seperti bahan makanan, kain, pakaian, barang <b>elektronik</b>, dan jasa. <sup>5</sup>Pada umumnya, pasar terletak di dekat kawasan <b>pemukiman</b> penduduk agar memudahkan warga mencapai lokasi pasar. <sup>6</sup>Di Indonesia, pasar yang paling umum adalah pasar pagi yang <b>beroperasi</b> dari pagi hingga sore dan menjual bahan-bahan pangan yang masih segar. <sup>7</sup>[....], ada juga pasar malam yang buka pada sore hingga malam hari dan menyediakan beberapa wahana permainan untuk keluarga.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Pasar tradisional” (lisensi CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Batik adalah kain bergambar yang pembuatannya dilakukan secara khusus dengan menuliskan atau menerakan malam pada kain, kemudian mengolahnya melalui cara tertentu sehingga memiliki kekhasan. <sup>2</sup>Batik, sebagai keseluruhan teknik, teknologi, serta pengembangan motif dan budaya yang terkait, telah ditetapkan oleh UNESCO sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi sejak 2 Oktober 2009. <sup>3</sup>Sejak saat itu, 2 Oktober ditetapkan sebagai Hari Batik Nasional. <sup>4</sup>Teknik seni kain yang mirip batik dapat ditemukan pada berbagai kebudayaan di dunia. <sup>5</sup>Batik pesisir Indonesia dari Pulau Jawa dan Madura memiliki sejarah akulturasi yang panjang, dengan corak beragam yang dipengaruhi oleh berbagai budaya. <sup>6</sup>Batik, telah dianggap oleh masyarakat sebagai ikon budaya penting di Indonesia. <sup>7</sup>Masyarakat Indonesia mengenakan batik sebagai busana kasual dan formal yang dapat digunakan dalam beragam acara. <sup>8</sup>Oleh karena itu, [....].",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Batik” (lisensi CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Koperasi adalah sebuah organisasi ekonomi yang dimiliki dan dioperasikan oleh orang-orang demi kepentingan bersama. <sup>2</sup>Koperasi melandaskan kegiatan berdasarkan prinsip gerakan ekonomi rakyat yang berdasarkan asas kekeluargaan. <sup>3</sup>Koperasi mempunyai prinsip terbuka dan bersifat sukarela sehingga <i>siapapun</i> boleh menjadi anggota koperasi walau beda golongan, aliran, kepercayaan, dan agama. <sup>4</sup>Kerja sama dalam koperasi bertujuan untuk meningkatkan kesejahteraan anggota melalui perusahaan yang dikelola anggota, yang berkedudukan sebagai pemilik dan sekaligus pengguna jasa. <sup>5</sup>Meskipun dalam lapangan usaha ekonomi perlu mempertimbangkan kaidah-kaidah efisiensi, tetapi faktor manusia dan nilai kemanusiaan dalam koperasi harus dijunjung tinggi. <sup>6</sup>Agar masyarakat dapat menggunakan koperasi sebagai alat perjuangan dan wadah kerja sama ekonomi, kegiatan pendidikan perlu terus-menerus dikembangkan di dalam koperasi. <sup>7</sup>Dengan demikian, golongan masyarakat yang lemah secara bertahap akan memiliki sikap, perilaku, dan nilai-nilai yang lebih cocok bagi kemajuan mereka sendiri maupun masyarakat secara keseluruhan.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Koperasi” (lisensi CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    },
+    {
+      "id": "teks_pbm4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Noken adalah tas tradisional masyarakat Papua yang dibawa dengan menggunakan kepala dan terbuat dari serat kulit kayu. <sup>2</sup>Sama dengan tas pada umumnya, tas ini digunakan untuk membawa barang-barang kebutuhan sehari-hari. <sup>3</sup>Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian seperti sayuran dan umbi-umbian. <sup>4</sup>Mereka juga menggunakannya untuk membawa barang-barang dagangan ke pasar. <sup>5</sup>Karena keunikannya yang dibawa dengan kepala, noken ini di daftarkan ke UNESCO sebagai salah satu hasil karya tradisional dan warisan kebudayaan dunia. <sup>6</sup>Pada 4 Desember 2012, noken khas masyarakat Papua ditetapkan sebagai warisan kebudayaan tak benda UNESCO.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Noken” (lisensi CC BY-SA 4.0); beberapa bagian sengaja diubah untuk keperluan soal.</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Penulisan kata bercetak tebal yang salah pada teks tersebut terdapat pada kalimat ....",
+      "options": {
+        "A": "(2)",
+        "B": "(3)",
+        "C": "(4)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "D",
+      "explanation": "Untuk makna ‘daerah tempat bermukim’, bentuk yang baku adalah <i>permukiman</i>. <i>Pemukiman</i> bermakna ‘proses atau cara memukimkan’. Kata transaksi, kios, elektronik, dan beroperasi sudah benar."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Kata penghubung yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": {
+        "A": "Selain itu",
+        "B": "Dengan demikian",
+        "C": "Akan tetapi",
+        "D": "Akibatnya",
+        "E": "Oleh karena itu"
+      },
+      "answer": "A",
+      "explanation": "Kalimat (7) menambahkan jenis pasar lain setelah pasar pagi pada kalimat (6); kata <i>juga</i> menguatkan hubungan penambahan. Konjungsi yang tepat adalah <i>Selain itu</i>."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kata <i>dari</i> dalam kalimat (3) seharusnya ....",
+      "options": {
+        "A": "dibiarkan saja (sudah benar)",
+        "B": "diganti dengan kata <i>atas</i>",
+        "C": "diganti dengan kata <i>oleh</i>",
+        "D": "diganti dengan kata <i>dengan</i>",
+        "E": "dihilangkan"
+      },
+      "answer": "B",
+      "explanation": "Pasangan yang baku adalah <i>terdiri atas</i>, bukan <i>terdiri dari</i>."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (2)?",
+      "options": {
+        "A": "Pasar merupakan tempat.",
+        "B": "Pasar merupakan proses tawar-menawar.",
+        "C": "Transaksi jual beli dilakukan secara langsung.",
+        "D": "Pasar ditandai transaksi.",
+        "E": "Penjual dan pembeli bertemu."
+      },
+      "answer": "A",
+      "explanation": "Subjek kalimat (2) adalah <i>pasar</i>, predikatnya <i>merupakan</i>, dan pelengkapnya <i>tempat</i>. Bagian lain adalah perluasan yang menerangkan kata <i>tempat</i>."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm1",
+      "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut.<br><i>Karena itu, harga suatu barang di pasar tradisional dapat berbeda bagi setiap pembeli.</i><br>Kalimat tersebut paling tepat ditempatkan setelah kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(4)",
+        "E": "(6)"
+      },
+      "answer": "B",
+      "explanation": "Perbedaan harga bagi setiap pembeli adalah akibat adanya proses tawar-menawar, yang disebut pada kalimat (2)."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Penggunaan tanda koma yang salah terdapat pada kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "E",
+      "explanation": "Pada kalimat (6), koma memisahkan subjek (<i>Batik</i>) dari predikat (<i>telah dianggap</i>). Pada kalimat (2), sepasang koma mengapit keterangan tambahan sehingga benar; koma setelah <i>Sejak saat itu</i> (3) juga benar."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (6) dan (7)?",
+      "options": {
+        "A": "Batik telah dianggap oleh masyarakat sebagai ikon budaya penting di Indonesia, padahal dikenakan sebagai busana kasual dan formal dalam beragam acara.",
+        "B": "Batik telah dianggap oleh masyarakat sebagai ikon budaya penting di Indonesia, tetapi dikenakan sebagai busana kasual dan formal dalam beragam acara.",
+        "C": "Batik telah dianggap oleh masyarakat sebagai ikon budaya penting di Indonesia sehingga dikenakan sebagai busana kasual dan formal dalam beragam acara.",
+        "D": "Batik telah dianggap oleh masyarakat sebagai ikon budaya penting di Indonesia meskipun dikenakan sebagai busana kasual dan formal dalam beragam acara.",
+        "E": "Batik telah dianggap oleh masyarakat sebagai ikon budaya penting di Indonesia agar dikenakan sebagai busana kasual dan formal dalam beragam acara."
+      },
+      "answer": "C",
+      "explanation": "Kalimat (7) merupakan akibat atau wujud dari anggapan pada kalimat (6): karena dianggap ikon budaya, batik dikenakan dalam beragam acara. Konjungsi yang tepat adalah <i>sehingga</i>; konjungsi pertentangan (tetapi, padahal, meskipun) dan tujuan (agar) tidak sesuai."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kata yang paling tepat menggantikan kata <i>corak</i> dalam kalimat (5) adalah ....",
+      "options": {
+        "A": "perajin",
+        "B": "motif",
+        "C": "harga",
+        "D": "bahan",
+        "E": "ukuran"
+      },
+      "answer": "B",
+      "explanation": "Corak pada kain berarti gambar atau pola hiasannya; padanannya adalah <i>motif</i> (kata ini juga dipakai pada kalimat 2)."
+    },
+    {
+      "number": 9,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm2",
+      "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (8) adalah ....",
+      "options": {
+        "A": "batik perlu terus dilestarikan oleh generasi muda",
+        "B": "batik sebaiknya hanya dikenakan pada acara resmi",
+        "C": "batik dari negara lain tidak perlu dipelajari",
+        "D": "motif batik pesisir harus diseragamkan",
+        "E": "Hari Batik Nasional tidak perlu diperingati lagi"
+      },
+      "answer": "A",
+      "explanation": "Kalimat (8) adalah simpulan dari kedudukan batik sebagai warisan budaya dan ikon budaya. Simpulan yang selaras adalah ajakan melestarikannya."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat manakah yang isinya sama dengan kalimat (3)?",
+      "options": {
+        "A": "Sejak 2 Oktober, batik ditetapkan sebagai busana nasional.",
+        "B": "UNESCO menetapkan tanggal 2 Oktober sebagai Hari Batik Nasional.",
+        "C": "Hari Batik Nasional sudah diperingati sebelum penetapan oleh UNESCO.",
+        "D": "Hari Batik Nasional ditetapkan untuk menggantikan penetapan UNESCO.",
+        "E": "Tanggal 2 Oktober dijadikan Hari Batik Nasional setelah penetapan oleh UNESCO tersebut."
+      },
+      "answer": "E",
+      "explanation": "<i>Sejak saat itu</i> merujuk pada penetapan UNESCO pada 2 Oktober 2009. Kalimat (3) tidak menyebut UNESCO sebagai pihak yang menetapkan Hari Batik Nasional, tidak pula menyebut busana nasional."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang merupakan kalimat efektif dari kalimat (2)?",
+      "options": {
+        "A": "Koperasi berlandaskan kegiatan berdasarkan prinsip gerakan ekonomi rakyat yang berdasarkan asas kekeluargaan.",
+        "B": "Koperasi adalah melandaskan kegiatan berdasarkan prinsip gerakan ekonomi rakyat yang berdasar asas kekeluargaan.",
+        "C": "Koperasi melandaskan kegiatan berdasarkan pada prinsip gerakan ekonomi rakyat berdasarkan asas kekeluargaan.",
+        "D": "Koperasi melandaskan kegiatan berdasarkan prinsip gerakan ekonomi rakyat dan berdasarkan asas kekeluargaan.",
+        "E": "Koperasi melandaskan kegiatannya pada prinsip gerakan ekonomi rakyat yang berasas kekeluargaan."
+      },
+      "answer": "E",
+      "explanation": "Kalimat (2) boros karena <i>melandaskan</i> sudah bermakna ‘mendasarkan’, lalu masih diikuti dua kali <i>berdasarkan</i>. Bentuk yang hemat dan sejajar: <i>melandaskan kegiatannya pada prinsip ... yang berasas kekeluargaan</i>."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata <i>siapapun</i> dalam kalimat (3) seharusnya ditulis ....",
+      "options": {
+        "A": "siapapun (sudah benar)",
+        "B": "siapa pun",
+        "C": "sesiapapun",
+        "D": "siapa-pun",
+        "E": "siapa2 pun"
+      },
+      "answer": "B",
+      "explanation": "Partikel <i>pun</i> yang bermakna ‘juga/saja’ ditulis terpisah dari kata yang mendahuluinya: <i>siapa pun</i>, <i>apa pun</i>. Yang ditulis serangkai hanyalah kata penghubung seperti <i>meskipun</i> dan <i>walaupun</i>."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata yang harus dihilangkan pada kalimat (5) adalah ....",
+      "options": {
+        "A": "harus",
+        "B": "dalam",
+        "C": "dan",
+        "D": "tetapi",
+        "E": "perlu"
+      },
+      "answer": "D",
+      "explanation": "Kalimat (5) memakai dua konjungsi sekaligus, <i>meskipun</i> dan <i>tetapi</i>, sehingga tidak memiliki induk kalimat. Salah satunya harus dihilangkan; di antara pilihan yang ada, <i>tetapi</i>."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Apa judul yang paling tepat untuk teks tersebut?",
+      "options": {
+        "A": "Pendidikan bagi Golongan Masyarakat Lemah",
+        "B": "Perbedaan Koperasi dan Perusahaan Swasta",
+        "C": "Cara Mendaftar Menjadi Anggota Koperasi",
+        "D": "Koperasi sebagai Wadah Kerja Sama Ekonomi Rakyat",
+        "E": "Sejarah Berdirinya Koperasi di Indonesia"
+      },
+      "answer": "D",
+      "explanation": "Teks memaparkan pengertian, prinsip, tujuan, dan peran koperasi sebagai wadah kerja sama ekonomi. Sejarah, cara mendaftar, dan perbandingan dengan perusahaan swasta tidak dibahas."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata yang paling tepat menggantikan kata <i>wadah</i> dalam kalimat (6) adalah ....",
+      "options": {
+        "A": "akibat",
+        "B": "hasil",
+        "C": "sarana",
+        "D": "hambatan",
+        "E": "syarat"
+      },
+      "answer": "C",
+      "explanation": "Wadah kerja sama berarti tempat atau sarana untuk bekerja sama."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (3) dan (4)?",
+      "options": {
+        "A": "Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian seperti sayuran dan umbi-umbian, dan juga mereka menggunakannya juga untuk membawa barang-barang dagangan ke pasar.",
+        "B": "Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian seperti sayuran dan umbi-umbian karena mereka membawa barang-barang dagangan ke pasar.",
+        "C": "Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian, seperti sayuran dan umbi-umbian, serta barang-barang dagangan ke pasar.",
+        "D": "Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian seperti sayuran dan umbi-umbian, tetapi mereka juga membawa barang-barang dagangan ke pasar.",
+        "E": "Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian seperti sayuran dan umbi-umbian sehingga mereka membawa barang-barang dagangan ke pasar."
+      },
+      "answer": "C",
+      "explanation": "Kedua kalimat bersubjek dan berpredikat sama; yang berbeda hanya objeknya. Penggabungan yang hemat cukup merangkaikan kedua objek dengan <i>serta</i> tanpa mengulang subjek dan predikat."
+    },
+    {
+      "number": 17,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm4",
+      "question": "Kalimat yang penulisan katanya salah adalah kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "D",
+      "explanation": "Pada kalimat (5), <i>di daftarkan</i> seharusnya ditulis serangkai, <i>didaftarkan</i>, karena <i>di-</i> di situ adalah awalan pembentuk kata kerja pasif, bukan kata depan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (6)?",
+      "options": {
+        "A": "Noken ditetapkan sebagai warisan.",
+        "B": "Noken khas masyarakat Papua.",
+        "C": "UNESCO memiliki warisan kebudayaan.",
+        "D": "Warisan kebudayaan ditetapkan pada 2012.",
+        "E": "Masyarakat Papua menetapkan noken."
+      },
+      "answer": "A",
+      "explanation": "Subjek: <i>noken</i>; predikat: <i>ditetapkan</i>; pelengkap: <i>sebagai warisan</i>. <i>Pada 4 Desember 2012</i> adalah keterangan, sedangkan <i>khas masyarakat Papua</i> dan <i>kebudayaan tak benda UNESCO</i> adalah perluasan."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "question": "Perhatikan lima kalimat berikut.<br>1. Akibatnya, sebagian warga terpaksa membeli air dari mobil tangki.<br>2. Musim kemarau tahun ini berlangsung lebih panjang daripada biasanya.<br>3. Air itu ditampung dalam tandon bersama sebelum dibagikan ke setiap rumah.<br>4. Sumur-sumur warga pun mulai mengering sejak bulan lalu.<br>5. Dengan cara tersebut, kebutuhan air rumah tangga tetap terpenuhi.<br><br>Jika lima kalimat tersebut disusun menjadi paragraf, urutan kalimat yang tepat adalah ....",
+      "options": {
+        "A": "2, 1, 4, 3, 5",
+        "B": "2, 4, 3, 1, 5",
+        "C": "4, 2, 1, 5, 3",
+        "D": "4, 1, 2, 3, 5",
+        "E": "2, 4, 1, 3, 5"
+      },
+      "answer": "E",
+      "explanation": "Paragraf dibuka dengan sebab umum (2), diikuti akibatnya pada sumur (4, ditandai <i>pun</i>), lalu akibat lanjutan (1, <i>Akibatnya</i>), penjelasan tentang “air itu” (3), dan penutup “Dengan cara tersebut” (5)."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm4",
+      "question": "Kalimat yang paling tepat untuk mengakhiri teks tersebut adalah ....",
+      "options": {
+        "A": "Dengan demikian, noken tidak lagi dipakai untuk membawa hasil pertanian.",
+        "B": "Jadi, tas pada umumnya dibawa dengan menggunakan kepala.",
+        "C": "Penetapan itu menjadi pengakuan dunia atas karya tradisional masyarakat Papua.",
+        "D": "Oleh karena itu, noken sebaiknya diganti dengan tas yang lebih modern.",
+        "E": "Sebaliknya, serat kulit kayu makin sulit ditemukan di pasar."
+      },
+      "answer": "C",
+      "explanation": "Kalimat penutup harus melanjutkan gagasan kalimat (6) tentang penetapan UNESCO dan tidak bertentangan dengan isi teks. Hanya pilihan pertama yang memenuhi keduanya."
+    }
+  ]
+}

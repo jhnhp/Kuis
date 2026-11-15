@@ -1,0 +1,342 @@
+{
+  "title": "Simulasi UTBK Paket 1 - Bagian 2: Pengetahuan dan Pemahaman Umum",
+  "topic": "Makna Kata, Hubungan Kata, Imbuhan, Rujukan, dan Bahasa Buatan",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 bacaan pendek yang diadaptasi dari Wikipedia bahasa Indonesia. Waktu UTBK: 15 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_ppu1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Raden Mas Soewardi Soerjaningrat, atau lebih dikenal sebagai Ki Hadjar Dewantara, adalah aktivis, guru, kolumnis, dan politisi yang diakui sebagai pelopor pendidikan di Indonesia. <sup>2</sup>Ia adalah pendiri Perguruan Taman Siswa. <sup>3</sup>Perguruan Taman Siswa merupakan lembaga pendidikan pertama di Indonesia yang memberikan kesempatan bagi para pribumi untuk bisa memperoleh hak pendidikan seperti halnya para priyayi maupun orang-orang Belanda. <sup>4</sup>Pada 1959, atas jasa-jasanya dalam mengembangkan pendidikan di Indonesia, ia dianugerahi gelar sebagai Bapak Pendidikan Nasional oleh Presiden Soekarno. <sup>5</sup>Tanggal kelahiran Ki Hajar Dewantara sekarang diperingati di Indonesia sebagai Hari Pendidikan Nasional. <sup>6</sup>Bagian dari semboyan ciptaannya, <i>tut wuri handayani</i>, yang berarti “dari belakang mendukung”, menjadi slogan Kementerian Pendidikan Nasional Indonesia. <sup>7</sup>Namanya diabadikan sebagai salah satu nama sebuah kapal perang Indonesia, KRI Ki Hajar Dewantara. <sup>8</sup>Ia juga merupakan peletak dan perintis pendidikan nasional berbasis kebudayaan.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Ki Hadjar Dewantara” (lisensi CC BY-SA 4.0)</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Komodo, atau lengkapnya biawak komodo, adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, dan Gili Dasami di Provinsi Nusa Tenggara Timur, Indonesia. <sup>2</sup>Nama lain dari komodo adalah buaya darat, walaupun komodo bukanlah spesies buaya. <sup>3</sup>Komodo merupakan kadal terbesar di dunia, dengan rata-rata panjang 2–3 meter dan beratnya bisa mencapai 100 kg. <sup>4</sup>Komodo merupakan pemangsa puncak di habitatnya karena sejauh ini tidak diketahui adanya hewan karnivora besar lain selain biawak ini di persebaran geografisnya. <sup>5</sup>Tubuhnya yang besar dan reputasinya yang mengerikan membuat komodo menjadi salah satu hewan paling terkenal di dunia. <sup>6</sup>Sekarang, habitat komodo yang sesungguhnya telah [....] akibat aktivitas manusia sehingga lembaga IUCN memasukkan komodo sebagai spesies yang rentan terhadap kepunahan. <sup>7</sup>Biawak komodo telah ditetapkan sebagai hewan yang dilindungi oleh pemerintah Indonesia dan habitatnya dijadikan taman nasional, yaitu Taman Nasional Komodo.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Komodo” (lisensi CC BY-SA 4.0)</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Gotong royong merupakan istilah untuk bekerja bersama untuk mencapai suatu hasil yang didambakan. <sup>2</sup>Istilah ini berasal dari kata bahasa Jawa, yaitu <i>gotong</i> yang berarti “mengangkat” dan <i>royong</i> yang berarti “bersama”. <sup>3</sup>Istilah ini merujuk pada aktivitas bekerja bersama untuk mencapai tujuan bersama, tanpa mengutamakan kepentingan pribadi. <sup>4</sup>Gotong royong biasanya dilakukan secara sukarela, tanpa imbalan materi, dan lebih berorientasi pada manfaat bagi kelompok atau lingkungan sekitar. <sup>5</sup>Nilai ini tumbuh dari budaya agraris Nusantara, di mana masyarakat saling membantu dalam pekerjaan berat seperti membangun rumah, mengolah sawah, atau menyelenggarakan acara adat.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Gotong royong” (lisensi CC BY-SA 4.0)</small>"
+      ]
+    },
+    {
+      "id": "teks_ppu4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Sagu adalah tepung atau olahan yang diperoleh dari pemrosesan teras batang rumbia atau “pohon sagu”. <sup>2</sup>Tepung sagu memiliki karakteristik fisik yang mirip dengan tepung tapioka. <sup>3</sup>Dalam resep masakan, tepung sagu yang relatif sulit diperoleh sering diganti dengan tepung tapioka sehingga namanya sering kali dipertukarkan, meskipun kedua tepung ini berbeda. <sup>4</sup>Sagu merupakan makanan pokok bagi masyarakat di Indonesia sebelum beras mulai dikenal masyarakat seperti sekarang ini. <sup>5</sup>Sagu dimakan dalam bentuk papeda, semacam bubur, atau dalam olahan lain. <sup>6</sup>Sebagai sumber karbohidrat, sagu memiliki keunikan karena diproduksi di daerah rawa-rawa. <sup>7</sup>Kondisi ini memiliki keuntungan ekologis tersendiri, walaupun secara ekonomis kurang menguntungkan.",
+        "<small>Diadaptasi dari Wikipedia bahasa Indonesia, artikel “Sagu” (lisensi CC BY-SA 4.0)</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu1",
+      "question": "Kata dalam bacaan tersebut yang <b>tidak</b> digunakan dengan makna sebenarnya adalah ....",
+      "options": {
+        "A": "pendiri (kalimat 2)",
+        "B": "slogan (kalimat 6)",
+        "C": "guru (kalimat 1)",
+        "D": "Bapak (kalimat 4)",
+        "E": "kapal (kalimat 7)"
+      },
+      "answer": "D",
+      "explanation": "<i>Bapak</i> pada “Bapak Pendidikan Nasional” bermakna kias, yaitu pelopor atau orang yang dianggap berjasa besar, bukan ayah dalam arti sebenarnya."
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Kata <i>pelopor</i> pada kalimat (1) sama maknanya dengan kata ....",
+      "options": {
+        "A": "penerus",
+        "B": "pewaris",
+        "C": "pengamat",
+        "D": "pengikut",
+        "E": "perintis"
+      },
+      "answer": "E",
+      "explanation": "Pelopor adalah orang yang pertama-tama merintis jalan; sinonimnya <i>perintis</i> (kata ini juga muncul pada kalimat 8)."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Kata <i>dianugerahi</i> pada kalimat (4) sama maknanya dengan kata ....",
+      "options": {
+        "A": "dititipi",
+        "B": "dijanjikan",
+        "C": "dipinjami",
+        "D": "ditawari",
+        "E": "diberi"
+      },
+      "answer": "E",
+      "explanation": "Dianugerahi gelar berarti diberi gelar sebagai penghargaan."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu1",
+      "question": "Makna <i>pe-an</i> pada kata <i>pendidikan</i> dalam kalimat (3) sama dengan makna <i>pe-an</i> pada kata ....",
+      "options": {
+        "A": "perguruan (Ia belajar silat di perguruan itu.)",
+        "B": "pengajaran (Pengajaran bahasa daerah dimulai di kelas satu.)",
+        "C": "pendapatan (Pendapatan nelayan menurun.)",
+        "D": "pemandian (Kami berendam di pemandian air panas.)",
+        "E": "pegunungan (Desa itu terletak di pegunungan.)"
+      },
+      "answer": "B",
+      "explanation": "Pendidikan bermakna ‘hal atau proses mendidik’. Makna yang sama terdapat pada <i>pengajaran</i> (hal atau proses mengajar). Perguruan dan pemandian = tempat, pendapatan = hasil, pegunungan = kawasan."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu1",
+      "question": "Hubungan kata <i>pendiri</i> dan <i>Perguruan Taman Siswa</i> dalam bacaan sama dengan hubungan kata <i>pengarang</i> dan kata ....",
+      "options": {
+        "A": "toko buku",
+        "B": "penerbit",
+        "C": "novel",
+        "D": "perpustakaan",
+        "E": "pembaca"
+      },
+      "answer": "C",
+      "explanation": "Pendiri adalah orang yang menghasilkan (mendirikan) Perguruan Taman Siswa. Hubungan ‘pelaku : hasil karyanya’ sama dengan pengarang : novel."
+    },
+    {
+      "number": 6,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu2",
+      "question": "Kalimat (6) menjadi bermakna bila dilengkapi dengan kata ....",
+      "options": {
+        "A": "menyusut",
+        "B": "memanjang",
+        "C": "membaik",
+        "D": "menebal",
+        "E": "meluas"
+      },
+      "answer": "A",
+      "explanation": "Karena komodo menjadi rentan terhadap kepunahan akibat aktivitas manusia, habitatnya tentu berkurang. Kata yang tepat adalah <i>menyusut</i>."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Hubungan kata <i>komodo</i> dan kata <i>biawak</i> dalam bacaan sama dengan hubungan kata <i>mawar</i> dan kata ....",
+      "options": {
+        "A": "taman",
+        "B": "bunga",
+        "C": "duri",
+        "D": "merah",
+        "E": "harum"
+      },
+      "answer": "B",
+      "explanation": "Komodo adalah salah satu jenis biawak (hubungan jenis : golongan). Hubungan yang sama: mawar adalah salah satu jenis bunga."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>puncak</i> pada kalimat (4) bermakna ....",
+      "options": {
+        "A": "ujung atap bangunan",
+        "B": "bagian paling atas gunung",
+        "C": "tingkatan yang paling atas",
+        "D": "akhir suatu peristiwa",
+        "E": "saat yang paling ramai"
+      },
+      "answer": "C",
+      "explanation": "Pemangsa puncak adalah pemangsa yang berada pada tingkatan paling atas dalam rantai makanan, yaitu tidak dimangsa hewan lain."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu2",
+      "question": "Kata <i>rentan</i> pada kalimat (6) memiliki makna yang berlawanan dengan kata ....",
+      "options": {
+        "A": "langka",
+        "B": "peka",
+        "C": "lemah",
+        "D": "kebal",
+        "E": "rapuh"
+      },
+      "answer": "D",
+      "explanation": "Rentan berarti mudah terkena (penyakit, bahaya, kepunahan). Lawan katanya adalah <i>kebal</i> (tidak mudah terkena)."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu2",
+      "question": "Apabila gagasan pada bacaan tersebut dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah ....",
+      "options": {
+        "A": "(1) dan (2-3-4-5-6-7)",
+        "B": "(1-2) dan (3-4-5-6-7)",
+        "C": "(1-2-3) dan (4-5-6-7)",
+        "D": "(1-2-3-4) dan (5-6-7)",
+        "E": "(1-2-3-4-5) dan (6-7)"
+      },
+      "answer": "E",
+      "explanation": "Kalimat (1)–(5) memerikan komodo: persebaran, nama, ukuran, kedudukan sebagai pemangsa, dan ketenarannya. Kalimat (6)–(7) beralih ke ancaman terhadap habitat dan upaya perlindungannya, ditandai kata <i>Sekarang</i>."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata <i>didambakan</i> pada kalimat (1) sama maknanya dengan kata ....",
+      "options": {
+        "A": "ditakuti",
+        "B": "diwariskan",
+        "C": "diidamkan",
+        "D": "dihindari",
+        "E": "dipaksakan"
+      },
+      "answer": "C",
+      "explanation": "Didambakan berarti sangat diinginkan atau diidamkan."
+    },
+    {
+      "number": 12,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu3",
+      "question": "Kata dalam bacaan tersebut yang digunakan dengan makna kias adalah ....",
+      "options": {
+        "A": "tumbuh (kalimat 5)",
+        "B": "mengangkat (kalimat 2)",
+        "C": "bekerja (kalimat 1)",
+        "D": "dilakukan (kalimat 4)",
+        "E": "membangun (kalimat 5)"
+      },
+      "answer": "A",
+      "explanation": "Makna sebenarnya <i>tumbuh</i> berlaku untuk makhluk hidup. Pada kalimat (5), “nilai ini tumbuh” berarti nilai itu muncul dan berkembang (makna kias)."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata <i>sukarela</i> pada kalimat (4) memiliki makna yang berlawanan dengan kata ....",
+      "options": {
+        "A": "terpaksa",
+        "B": "sendiri",
+        "C": "cuma-cuma",
+        "D": "ikhlas",
+        "E": "bersama"
+      },
+      "answer": "A",
+      "explanation": "Sukarela berarti atas kemauan sendiri. Lawannya adalah <i>terpaksa</i>."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu3",
+      "question": "Kata <i>agraris</i> pada kalimat (5) berasosiasi dengan kata ....",
+      "options": {
+        "A": "pertambangan",
+        "B": "pertanian",
+        "C": "pelayaran",
+        "D": "perdagangan",
+        "E": "perindustrian"
+      },
+      "answer": "B",
+      "explanation": "Agraris berkaitan dengan pertanian; hal itu juga tampak dari contoh “mengolah sawah” pada kalimat yang sama."
+    },
+    {
+      "number": 15,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu3",
+      "question": "Kelompok kata yang berpasangan tetap adalah ....",
+      "options": {
+        "A": "lingkungan sekitar",
+        "B": "gotong royong",
+        "C": "tujuan bersama",
+        "D": "imbalan materi",
+        "E": "pekerjaan berat"
+      },
+      "answer": "B",
+      "explanation": "<i>Gotong royong</i> adalah gabungan kata yang unsurnya tetap: tidak dapat disisipi atau diganti unsur lain tanpa mengubah makna. Pilihan lain adalah frasa bebas yang unsurnya dapat diganti (misalnya <i>tujuan pribadi</i>, <i>pekerjaan ringan</i>)."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu4",
+      "question": "Kata <i>ini</i> dalam frasa <i>kondisi ini</i> pada kalimat (7) merujuk pada ....",
+      "options": {
+        "A": "sulitnya memperoleh tepung sagu",
+        "B": "pengolahan sagu menjadi papeda",
+        "C": "kemiripan tepung sagu dengan tepung tapioka",
+        "D": "diproduksinya sagu di daerah rawa-rawa",
+        "E": "sagu sebagai makanan pokok sebelum beras"
+      },
+      "answer": "D",
+      "explanation": "<i>Kondisi ini</i> merujuk pada hal yang disebut tepat sebelumnya, yaitu sagu diproduksi di daerah rawa-rawa (kalimat 6)."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sulit",
+      "passage": "teks_ppu4",
+      "question": "Bentuk <i>ke-an</i> pada kata <i>keunikan</i> dalam kalimat (6) mempunyai kesamaan makna dengan bentuk <i>ke-an</i> pada ....",
+      "options": {
+        "A": "Baju itu <i>kekecilan</i> untuk saya.",
+        "B": "Warga berkumpul di kantor <i>kelurahan</i>.",
+        "C": "Kami <i>kedatangan</i> tamu dari jauh.",
+        "D": "<i>Keindahan</i> pantai itu memikat wisatawan.",
+        "E": "Adik <i>kehujanan</i> sepulang sekolah."
+      },
+      "answer": "D",
+      "explanation": "Keunikan = hal atau sifat unik (dibentuk dari adjektiva). Makna yang sama terdapat pada <i>keindahan</i>. Kelurahan = wilayah, kehujanan = terkena, kekecilan = terlalu, kedatangan = mengalami."
+    },
+    {
+      "number": 18,
+      "difficulty": "Mudah",
+      "passage": "teks_ppu4",
+      "question": "Makna <i>makanan pokok</i> pada kalimat (4) adalah ....",
+      "options": {
+        "A": "makanan yang paling mahal harganya",
+        "B": "makanan pertama yang dikenal manusia",
+        "C": "makanan yang hanya disajikan pada upacara adat",
+        "D": "makanan yang terbuat dari tepung",
+        "E": "makanan utama yang dimakan sehari-hari"
+      },
+      "answer": "E",
+      "explanation": "Makanan pokok adalah makanan utama yang dikonsumsi sehari-hari sebagai sumber karbohidrat, seperti beras pada masa sekarang."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sedang",
+      "passage": "teks_ppu4",
+      "question": "Hubungan kata <i>sagu</i> dan kata <i>papeda</i> dalam bacaan sama dengan hubungan kata <i>kedelai</i> dan kata ....",
+      "options": {
+        "A": "tempe",
+        "B": "protein",
+        "C": "petani",
+        "D": "kacang",
+        "E": "sawah"
+      },
+      "answer": "A",
+      "explanation": "Papeda adalah olahan dari sagu (bahan : hasil olahan). Hubungan yang sama: tempe adalah olahan dari kedelai."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "question": "Ibu memasak nasi – <i>Lumo tarek sina</i><br>Ayah membeli ikan – <i>Rako pivet dola</i><br>Apa ibu membeli nasi? – <i>Pivet lumo ka’sina</i><br><br>Bagaimana cara mengatakan “Apa ayah memasak ikan?” dengan menggunakan bahasa tersebut?",
+      "options": {
+        "A": "Pivet rako ka’dola?",
+        "B": "Tarek lumo ka’dola?",
+        "C": "Tarek rako ka’dola?",
+        "D": "Rako tarek ka’dola?",
+        "E": "Tarek rako ka’sina?"
+      },
+      "answer": "C",
+      "explanation": "Dari kalimat 1 dan 2: lumo = ibu, tarek = memasak, sina = nasi, rako = ayah, pivet = membeli, dola = ikan. Pola kalimat tanya (kalimat 3): kata kerja + pelaku + <i>ka’</i> + objek. Jadi: <i>Tarek rako ka’dola?</i>"
+    }
+  ]
+}

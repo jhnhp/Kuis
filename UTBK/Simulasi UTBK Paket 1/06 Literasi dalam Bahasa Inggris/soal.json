@@ -1,0 +1,356 @@
+{
+  "title": "Simulasi UTBK Paket 1 - Bagian 6: Literasi dalam Bahasa Inggris",
+  "topic": "Literary Text, Paired Science Texts, and a Science-and-Society Text",
+  "subtitle": "Simulasi 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, teks dari sumber nyata: cerpen “The Story of an Hour” (Kate Chopin) dan artikel Simple English Wikipedia, termasuk sepasang teks seperti pada UTBK asli. Waktu UTBK: 20 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "text_lbe1",
+      "title": "Text for questions 1–7: from “The Story of an Hour”",
+      "text": [
+        "Knowing that Mrs. Mallard was afflicted with a heart trouble, great care was taken to break to her as gently as possible the news of her husband's death.",
+        "It was her sister Josephine who told her, in broken sentences; veiled hints that revealed in half concealing. Her husband's friend Richards was there, too, near her. It was he who had been in the newspaper office when intelligence of the railroad disaster was received, with Brently Mallard's name leading the list of \"killed.\" He had only taken the time to assure himself of its truth by a second telegram, and had hastened to forestall any less careful, less tender friend in bearing the sad message.",
+        "She did not hear the story as many women have heard the same, with a paralyzed inability to accept its significance. She wept at once, with sudden, wild abandonment, in her sister's arms. When the storm of grief had spent itself she went away to her room alone. She would have no one follow her.",
+        "There stood, facing the open window, a comfortable, roomy armchair. Into this she sank, pressed down by a physical exhaustion that haunted her body and seemed to reach into her soul.",
+        "She could see in the open square before her house the tops of trees that were all aquiver with the new spring life. The delicious breath of rain was in the air. In the street below a peddler was crying his wares. The notes of a distant song which some one was singing reached her faintly, and countless sparrows were twittering in the eaves. There were patches of blue sky showing here and there through the clouds that had met and piled one above the other in the west facing her window.",
+        "She sat with her head thrown back upon the cushion of the chair, quite motionless, except when a sob came up into her throat and shook her, as a child who has cried itself to sleep continues to sob in its dreams.",
+        "She was young, with a fair, calm face, whose lines bespoke repression and even a certain strength. But now there was a dull stare in her eyes, whose gaze was fixed away off yonder on one of those patches of blue sky. It was not a glance of reflection, but rather indicated a suspension of intelligent thought.",
+        "There was something coming to her and she was waiting for it, fearfully. What was it? She did not know; it was too subtle and elusive to name. But she felt it, creeping out of the sky, reaching toward her through the sounds, the scents, the color that filled the air.",
+        "Now her bosom rose and fell tumultuously. She was beginning to recognize this thing that was approaching to possess her, and she was striving to beat it back with her will — as powerless as her two white slender hands would have been. When she abandoned herself a little whispered word escaped her slightly parted lips. She said it over and over under her breath: \"free, free, free!\"",
+        "<small>Source: Kate Chopin, “The Story of an Hour” (1894), excerpt; text from English Wikisource (public domain).</small>"
+      ]
+    },
+    {
+      "id": "text_lbe2",
+      "title": "Texts for questions 8–14",
+      "text": [
+        "<b>Text 1</b>",
+        "Coral bleaching occurs when stony corals turn white.",
+        "Stony corals are simple animals that form large reefs. The animals live in an endosymbiotic relationship with single-celled algae. To get sunlight the corals live just below sea level. The algae make food products for the coral polyp by photosynthesis.",
+        "Coral polyps are sensitive to changes in their environment. This includes the temperature of the water they live in. Under stress, coral polyps may expel the algae which live inside their tissues. The algae provide up to 90% of the coral's energy. Bleached corals continue to live but begin to starve after bleaching. Some corals recover.",
+        "Warmer sea water temperatures caused by global warming is the leading cause of coral bleaching.",
+        "The United Nations Environment Programme says that the longest recorded global bleaching events happened between 2014 and 2016. Coral was killed on an unprecedented scale. In 2016, bleaching of coral on the Great Barrier Reef killed between 29 and 50 percent of the reef's coral.",
+        "Some corals change color instead of turning white when they are bleached. The colors can be very bright. In May 2020, scientists from the University of Southampton said that the colors act like sunscreen and protect the coral cells from light. The scientists said this means some corals can lose their algae for a while and might have developed bright colors as a way to make it easier for the algae to come back and to stay alive until then.",
+        "<b>Text 2</b>",
+        "Ocean acidification is the decrease in the pH (scale of acidity and alkalinity) and increase in acidity of the Earth's oceans. It is caused by the increase of carbon dioxide (CO2) that humans have put into the atmosphere. More than 30% of the carbon dioxide in the air goes into the oceans. Therefore, when carbon dioxide in the atmosphere increases, the carbon dioxide in the ocean increases, too.",
+        "When carbon dioxide enters the oceans, it makes it more acidic.",
+        "<small>Sources: Simple English Wikipedia, article “Coral bleaching” (CC BY-SA 4.0) (excerpt) and Simple English Wikipedia, article “Ocean acidification” (CC BY-SA 4.0).</small>"
+      ]
+    },
+    {
+      "id": "text_lbe3",
+      "title": "Text for questions 15–20",
+      "text": [
+        "Citizen science is when regular people help scientists study the world. Citizen scientists usually collect information and send it to a team of scientists, who examine and process it. Most citizen scientists are volunteers and do not get paid.",
+        "Sometimes scientists ask for help from people who are collecting information anyway. For example, scientists studying birds might ask birdwatchers to record which birds they see and hear and then tell the scientists. The National Audubon Society has been running a Christmas Bird Count since 1900.",
+        "Smartphones and GPS have made citizen science easier to do and easier for scientists to ask for and use. For example, in FrogWatch USA, citizen scientists go to places where frogs live and use their phones to make recordings of the sounds they hear.",
+        "Not all citizen science programs mean going outside. In EyeWire, volunteers visit a website and click on what they can see. This helps scientists tell how the brain works with things the eyes see.",
+        "In other citizen science programs, volunteers measure temperature to track climate change, tell scientists when different plants start to grow in the spring, search for aliens in space, and design better bicycle routes.",
+        "<small>Source: Simple English Wikipedia, article “Citizen science” (CC BY-SA 4.0).</small>"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "text_lbe1",
+      "question": "Why was great care taken in telling Mrs. Mallard about her husband's death?",
+      "options": {
+        "A": "She had not been told the truth before.",
+        "B": "She was working at the newspaper office.",
+        "C": "She had a heart problem.",
+        "D": "She disliked her sister Josephine.",
+        "E": "She was already very old."
+      },
+      "answer": "C",
+      "explanation": "The first sentence states that Mrs. Mallard “was afflicted with a heart trouble,” so the news was broken “as gently as possible.”"
+    },
+    {
+      "number": 2,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "According to the text, how was Mrs. Mallard's first reaction different from that of many other women?",
+      "options": {
+        "A": "She fainted in her sister's arms.",
+        "B": "She wept immediately instead of being unable to accept the news.",
+        "C": "She refused to believe the news until a second telegram came.",
+        "D": "She blamed Richards for bringing the news.",
+        "E": "She calmly asked for more details about the accident."
+      },
+      "answer": "B",
+      "explanation": "Many women hear such news “with a paralyzed inability to accept its significance,” but she “wept at once, with sudden, wild abandonment.”"
+    },
+    {
+      "number": 3,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "The word <b>forestall</b> in paragraph 2 is closest in meaning to ....",
+      "options": {
+        "A": "report to",
+        "B": "wait for",
+        "C": "apologize to",
+        "D": "argue with",
+        "E": "act before"
+      },
+      "answer": "E",
+      "explanation": "Richards hurried so that he would arrive before any “less careful, less tender friend.” To forestall someone is to act before them and so prevent what they would do."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "text_lbe1",
+      "question": "The sentence “She would have no one follow her” (paragraph 3) means that Mrs. Mallard ....",
+      "options": {
+        "A": "did not know where to go",
+        "B": "insisted on being alone",
+        "C": "wanted her sister to stay with her",
+        "D": "had no friends who cared about her",
+        "E": "was too weak to walk by herself"
+      },
+      "answer": "B",
+      "explanation": "“Would have no one follow her” means she would not allow anyone to follow her: she wanted to be alone in her room."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "The description of what Mrs. Mallard sees and hears through the open window (paragraph 5) mainly suggests ....",
+      "options": {
+        "A": "her memories of her husband",
+        "B": "danger approaching the house",
+        "C": "the end of the day",
+        "D": "new life and renewal",
+        "E": "the sadness of the whole town"
+      },
+      "answer": "D",
+      "explanation": "The trees are “aquiver with the new spring life,” there is the “delicious breath of rain,” singing, sparrows, and patches of blue sky: images of freshness and renewal, which prepare for her new feeling."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "What is “this thing that was approaching to possess her” (last paragraph)?",
+      "options": {
+        "A": "the ghost of her husband",
+        "B": "a second telegram",
+        "C": "a fatal heart attack",
+        "D": "a feeling of freedom",
+        "E": "a deep need for sleep"
+      },
+      "answer": "D",
+      "explanation": "When she finally gives in to the feeling, the word that escapes her lips is “free, free, free!” The “thing” approaching her is the realization that she is free."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sulit",
+      "passage": "text_lbe1",
+      "question": "What can be inferred about Mrs. Mallard's life before she received the news?",
+      "options": {
+        "A": "She had been living under some kind of restraint.",
+        "B": "She had lived alone for a long time.",
+        "C": "She had been planning to leave her husband.",
+        "D": "She had been seriously ill for many years.",
+        "E": "She had always been cheerful and carefree."
+      },
+      "answer": "A",
+      "explanation": "Her face has lines that “bespoke repression,” and the word she whispers is “free.” A person who feels freed must have felt restrained before. Nothing in the text says she planned to leave or lived alone."
+    },
+    {
+      "number": 8,
+      "difficulty": "Mudah",
+      "passage": "text_lbe2",
+      "question": "According to Text 1, how much of a coral's energy can the algae provide?",
+      "options": {
+        "A": "less than 10%",
+        "B": "exactly half",
+        "C": "about 30%",
+        "D": "between 29 and 50 percent",
+        "E": "up to 90%"
+      },
+      "answer": "E",
+      "explanation": "Text 1: “The algae provide up to 90% of the coral's energy.” The figure 29–50 percent refers to coral killed on the Great Barrier Reef in 2016."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "According to Text 1, what may coral polyps do when they are under stress?",
+      "options": {
+        "A": "move to deeper and cooler water",
+        "B": "push out the algae living in their tissues",
+        "C": "produce more food by photosynthesis",
+        "D": "build larger reefs",
+        "E": "stop living in a relationship with other corals"
+      },
+      "answer": "B",
+      "explanation": "Text 1: “Under stress, coral polyps may expel the algae which live inside their tissues.”"
+    },
+    {
+      "number": 10,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "The word <b>unprecedented</b> in Text 1 is closest in meaning to ....",
+      "options": {
+        "A": "never seen before",
+        "B": "easily repaired",
+        "C": "slowly decreasing",
+        "D": "widely expected",
+        "E": "carefully measured"
+      },
+      "answer": "A",
+      "explanation": "Unprecedented means that nothing like it has happened before: coral was killed on a scale never seen before."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "What is the main idea of Text 2?",
+      "options": {
+        "A": "The oceans are becoming more acidic because of carbon dioxide released by humans.",
+        "B": "The pH scale is used to measure acidity and alkalinity.",
+        "C": "Humans have put 30% more carbon dioxide into the oceans.",
+        "D": "Carbon dioxide in the air is decreasing because the oceans absorb it.",
+        "E": "Ocean water is more acidic than the atmosphere."
+      },
+      "answer": "A",
+      "explanation": "Text 2 defines ocean acidification and explains its cause: carbon dioxide that humans have put into the atmosphere goes into the oceans and makes them more acidic."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sedang",
+      "passage": "text_lbe2",
+      "question": "Which statement from Text 1 is presented as a possibility rather than as an established fact?",
+      "options": {
+        "A": "In 2016, bleaching killed between 29 and 50 percent of the reef's coral.",
+        "B": "The algae make food products for the coral polyp by photosynthesis.",
+        "C": "Some corals might have developed bright colors to help the algae come back.",
+        "D": "Bleached corals continue to live but begin to starve.",
+        "E": "Stony corals are simple animals that form large reefs."
+      },
+      "answer": "C",
+      "explanation": "The last paragraph uses the cautious wording “might have developed bright colors as a way to make it easier for the algae to come back,” which marks it as the scientists' interpretation."
+    },
+    {
+      "number": 13,
+      "difficulty": "Sulit",
+      "passage": "text_lbe2",
+      "question": "What is the relationship between Text 1 and Text 2?",
+      "options": {
+        "A": "Text 2 gives the main cause of the event described in Text 1.",
+        "B": "Both describe damage to the oceans that is linked to human effects on the atmosphere.",
+        "C": "Text 1 explains a solution to the problem described in Text 2.",
+        "D": "Text 2 disagrees with the research reported in Text 1.",
+        "E": "Both explain how corals recover after bleaching."
+      },
+      "answer": "B",
+      "explanation": "Text 1 names warmer water “caused by global warming” as the leading cause of bleaching; Text 2 describes acidification caused by carbon dioxide from humans. Text 1 does not name acidification as the cause of bleaching, so the second option goes beyond the texts."
+    },
+    {
+      "number": 14,
+      "difficulty": "Sulit",
+      "passage": "text_lbe2",
+      "question": "Based on both texts, which action would most likely help with the problems described in Text 1 and Text 2?",
+      "options": {
+        "A": "catching fewer fish near coral reefs",
+        "B": "moving corals closer to the surface of the sea",
+        "C": "reducing the amount of carbon dioxide that humans release",
+        "D": "adding algae to the open ocean",
+        "E": "measuring the pH of the ocean more often"
+      },
+      "answer": "C",
+      "explanation": "Text 2 blames carbon dioxide put into the atmosphere by humans; Text 1 blames global warming. Releasing less carbon dioxide addresses the cause named in Text 2 directly and is the action most closely tied to the warming in Text 1. The other actions do not address either cause."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "According to the text, what is citizen science?",
+      "options": {
+        "A": "scientists teaching science to ordinary people",
+        "B": "a science course for people who want to become citizens",
+        "C": "paid research done by government scientists",
+        "D": "ordinary people helping scientists study the world",
+        "E": "a competition between amateur scientists"
+      },
+      "answer": "D",
+      "explanation": "The first sentence: “Citizen science is when regular people help scientists study the world.”"
+    },
+    {
+      "number": 16,
+      "difficulty": "Mudah",
+      "passage": "text_lbe3",
+      "question": "Which project mentioned in the text can be done without going outside?",
+      "options": {
+        "A": "the Christmas Bird Count",
+        "B": "measuring temperature",
+        "C": "EyeWire",
+        "D": "tracking when plants start to grow",
+        "E": "FrogWatch USA"
+      },
+      "answer": "C",
+      "explanation": "Paragraph 4: “Not all citizen science programs mean going outside. In EyeWire, volunteers visit a website and click on what they can see.”"
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "What is the main purpose of paragraph 3?",
+      "options": {
+        "A": "to explain how frogs produce sounds",
+        "B": "to compare FrogWatch USA with the Christmas Bird Count",
+        "C": "to describe how GPS was invented",
+        "D": "to warn that smartphones distract volunteers",
+        "E": "to show how technology has made citizen science easier"
+      },
+      "answer": "E",
+      "explanation": "The paragraph opens with “Smartphones and GPS have made citizen science easier,” then gives FrogWatch USA as an example."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "The word <b>it</b> in “who examine and process it” (paragraph 1) refers to ....",
+      "options": {
+        "A": "help",
+        "B": "citizen science",
+        "C": "the world",
+        "D": "information",
+        "E": "a team of scientists"
+      },
+      "answer": "D",
+      "explanation": "“Citizen scientists usually collect information and send it to a team of scientists, who examine and process it.” Both uses of <i>it</i> refer to the information."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "text_lbe3",
+      "question": "Based on the text, which of the following would NOT be an example of citizen science?",
+      "options": {
+        "A": "A laboratory hires trained technicians to analyse water samples.",
+        "B": "Residents note the date when local trees begin to flower and send it to scientists.",
+        "C": "Volunteers record frog sounds with their phones.",
+        "D": "Birdwatchers report the birds they see to a research team.",
+        "E": "People click on images on a website to help brain research."
+      },
+      "answer": "A",
+      "explanation": "Citizen science involves regular people, usually unpaid volunteers, helping scientists. Hired, trained technicians are professional staff, not citizen scientists."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sedang",
+      "passage": "text_lbe3",
+      "question": "What can be inferred from the information that the Christmas Bird Count has been running since 1900?",
+      "options": {
+        "A": "Birds are the only animals studied by volunteers.",
+        "B": "The National Audubon Society pays its volunteers.",
+        "C": "Citizen science began with the invention of GPS.",
+        "D": "Bird counting is no longer useful to scientists.",
+        "E": "Citizen science existed long before smartphones."
+      },
+      "answer": "E",
+      "explanation": "A project that started in 1900 shows that ordinary people were helping scientists long before smartphones and GPS, which the text says only made citizen science easier."
+    }
+  ]
+}

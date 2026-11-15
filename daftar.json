@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T15:23:46",
+  "generated": "2026-11-15T08:56:37",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2666,6 +2666,18 @@
       "path": "UTBK/Pemahaman Bacaan dan Menulis/02 PBM - Latihan Campuran/soal.json"
     },
     {
+      "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Latihan Tipe UTBK)",
+      "topic": "Pemilihan Gagasan, Penataan Gagasan, dan Perbaikan Gagasan",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 4 teks berkalimat nomor dengan 5 pilihan jawaban dan tipe soal seperti UTBK asli: ejaan, konjungsi, kalimat inti, penggabungan dan perbaikan kalimat, urutan kalimat, penempatan kalimat, dan judul. Waktu UTBK: 25 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Pemahaman Bacaan dan Menulis",
+      "topik": [
+        "03 PBM - Latihan Tipe UTBK"
+      ],
+      "path": "UTBK/Pemahaman Bacaan dan Menulis/03 PBM - Latihan Tipe UTBK/soal.json"
+    },
+    {
       "title": "UTBK-SNBT - Penalaran Matematika (Tingkat Mudah)",
       "topic": "Masalah Kontekstual: Aritmetika Sosial, Statistika, Geometri, Persentase, dan Jarak-Kecepatan-Waktu",
       "summary": "100% Mudah. 20 soal dari 5 konteks sehari-hari (tarif parkir, penjualan, kebun, promo toko, dan perjalanan). Fokus pada merumuskan dan menghitung masalah nyata secara langsung. Waktu UTBK: 42,5 menit.",
@@ -2738,6 +2750,18 @@
       "path": "UTBK/Pengetahuan dan Pemahaman Umum/02 PPU - Latihan Campuran/soal.json"
     },
     {
+      "title": "UTBK-SNBT - Pengetahuan dan Pemahaman Umum (Latihan Tipe UTBK)",
+      "topic": "Makna Kata, Hubungan Kata, Imbuhan, Hubungan Antarkalimat, dan Bahasa Buatan",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 4 bacaan pendek berkalimat nomor dengan 5 pilihan jawaban dan tipe soal seperti UTBK asli: perumpamaan, sinonim-antonim, asosiasi, makna imbuhan, pembagian paragraf, dan bahasa buatan. Waktu UTBK: 15 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Pengetahuan dan Pemahaman Umum",
+      "topik": [
+        "03 PPU - Latihan Tipe UTBK"
+      ],
+      "path": "UTBK/Pengetahuan dan Pemahaman Umum/03 PPU - Latihan Tipe UTBK/soal.json"
+    },
+    {
       "title": "UTBK-SNBT - Pengetahuan Kuantitatif (Tingkat Mudah)",
       "topic": "Bilangan, Aljabar, Perbandingan, Geometri, Statistika, dan Peluang",
       "summary": "100% Mudah. Latihan konsep dasar aritmetika, aljabar, rasio, geometri, statistika, dan peluang.",
@@ -2760,6 +2784,90 @@
         "02 PK - Latihan Campuran"
       ],
       "path": "UTBK/Pengetahuan Kuantitatif/02 PK - Latihan Campuran/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 1: Penalaran Umum",
+      "topic": "Penalaran Deduktif, Penalaran Induktif, dan Penalaran Kuantitatif",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal (10 deduktif, 10 induktif, 10 kuantitatif) dengan 5 pilihan jawaban dan tipe soal seperti UTBK asli: PASTI BENAR, PALING MUNGKIN, asumsi, memperkuat/memperlemah. Waktu UTBK: 30 menit.",
+      "questions": 30,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "01 Penalaran Umum"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/01 Penalaran Umum/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 2: Pengetahuan dan Pemahaman Umum",
+      "topic": "Makna Kata, Hubungan Kata, Imbuhan, Rujukan, dan Bahasa Buatan",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 bacaan pendek yang diadaptasi dari Wikipedia bahasa Indonesia. Waktu UTBK: 15 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "02 Pengetahuan dan Pemahaman Umum"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/02 Pengetahuan dan Pemahaman Umum/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 3: Pemahaman Bacaan dan Menulis",
+      "topic": "Pemilihan Gagasan, Penataan Gagasan, dan Perbaikan Gagasan",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 4 teks yang diadaptasi dari Wikipedia bahasa Indonesia (sebagian sengaja diberi kesalahan untuk diperbaiki). Waktu UTBK: 25 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "03 Pemahaman Bacaan dan Menulis"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/03 Pemahaman Bacaan dan Menulis/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 4: Pengetahuan Kuantitatif",
+      "topic": "Bilangan, Aljabar dan Fungsi, Geometri dan Trigonometri, Statistika, Peluang, dan Kecukupan Data",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dengan tipe seperti UTBK asli: pilihan ganda biasa, kombinasi pernyataan (1)–(4), banyaknya pernyataan benar, hubungan kuantitas P dan Q, serta kecukupan data. Waktu UTBK: 20 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "04 Pengetahuan Kuantitatif"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/04 Pengetahuan Kuantitatif/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 5: Literasi dalam Bahasa Indonesia",
+      "topic": "Teks Sastra (Novel dan Puisi), Sosial Humaniora, dan Saintek",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 30 soal, 5 pilihan jawaban, 6 teks dari sumber nyata: novel Azab dan Sengsara (Merari Siregar), puisi Chairil Anwar, serta artikel Wikipedia bahasa Indonesia. Waktu UTBK: 42,5 menit.",
+      "questions": 30,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "05 Literasi dalam Bahasa Indonesia"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/05 Literasi dalam Bahasa Indonesia/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 6: Literasi dalam Bahasa Inggris",
+      "topic": "Literary Text, Paired Science Texts, and a Science-and-Society Text",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, teks dari sumber nyata: cerpen “The Story of an Hour” (Kate Chopin) dan artikel Simple English Wikipedia, termasuk sepasang teks seperti pada UTBK asli. Waktu UTBK: 20 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "06 Literasi dalam Bahasa Inggris"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/06 Literasi dalam Bahasa Inggris/soal.json"
+    },
+    {
+      "title": "Simulasi UTBK Paket 1 - Bagian 7: Penalaran Matematika",
+      "topic": "Masalah Kontekstual: KPK dan Penjadwalan, Bangun Ruang, Lingkaran dan Trigonometri, Penyajian Data, serta Sistem Persamaan",
+      "summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal, 5 pilihan jawaban, 5 konteks dengan masing-masing 4 soal seperti pada UTBK asli (termasuk tipe pernyataan benar-salah). Waktu UTBK: 42,5 menit.",
+      "questions": 20,
+      "kelas": "UTBK",
+      "mapel": "Simulasi UTBK Paket 1",
+      "topik": [
+        "07 Penalaran Matematika"
+      ],
+      "path": "UTBK/Simulasi UTBK Paket 1/07 Penalaran Matematika/soal.json"
     }
   ]
 }

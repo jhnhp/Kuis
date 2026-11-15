@@ -1,0 +1,336 @@
+{
+  "title": "UTBK-SNBT - Pemahaman Bacaan dan Menulis (Latihan Tipe UTBK)",
+  "topic": "Pemilihan Gagasan, Penataan Gagasan, dan Perbaikan Gagasan",
+  "subtitle": "Latihan 20 Soal, 5 Pilihan Jawaban",
+  "difficulty_summary": "20% Mudah | 50% Sedang | 30% Sulit. 20 soal dari 4 teks berkalimat nomor dengan 5 pilihan jawaban dan tipe soal seperti UTBK asli: ejaan, konjungsi, kalimat inti, penggabungan dan perbaikan kalimat, urutan kalimat, penempatan kalimat, dan judul. Waktu UTBK: 25 menit.",
+  "total_questions": 20,
+  "passages": [
+    {
+      "id": "teks_pbm1",
+      "title": "Teks 1",
+      "text": [
+        "<sup>1</sup>Industri kreatif menjadi salah satu <b>penopang</b> perekonomian nasional. <sup>2</sup>Kementerian terkait mencatat, sektor ini menyerap jutaan tenaga kerja dan menyumbang ratusan <b>triliun</b> rupiah bagi produk domestik bruto. <sup>3</sup>Subsektor kuliner, fesyen, dan kriya masih menjadi <b>andalan</b> utama. <sup>4</sup>Para pelaku usaha kini memanfaatkan <b>tekhnologi</b> digital untuk memperluas pasar. <sup>5</sup>[....], masih banyak pelaku usaha kecil yang belum memahami pemasaran daring. <sup>6</sup>Menurut pengamat mengatakan, pendampingan berkelanjutan diperlukan agar pelaku usaha kecil tidak tertinggal. <sup>7</sup>Pendampingan itu mencakup pelatihan <b>fotografi</b> produk, pengelolaan keuangan, dan layanan pelanggan."
+      ]
+    },
+    {
+      "id": "teks_pbm2",
+      "title": "Teks 2",
+      "text": [
+        "<sup>1</sup>Perpustakaan keliling adalah layanan peminjaman buku yang mendatangi pembaca di daerah yang jauh dari perpustakaan umum. <sup>2</sup>Layanan ini dijalankan sebagai upaya pemerataan akses bacaan serta <b>perbaikan</b> minat baca anak. <sup>3</sup>Tujuannya adalah mendekatkan buku kepada masyarakat. <sup>4</sup>Anak-anak menyambut kedatangan perpustakaan keliling dengan gembira. <sup>5</sup>Mereka dapat memilih sendiri buku yang ingin dibaca. <sup>6</sup>Kegiatan membaca bersama juga memberi kesempatan kepada anak untuk [....]. <sup>7</sup>Selain meminjamkan buku kepada anak-anak, petugas perpustakaan keliling juga mengadakan lomba bercerita."
+      ]
+    },
+    {
+      "id": "teks_pbm3",
+      "title": "Teks 3",
+      "text": [
+        "<sup>1</sup>Sampah plastik menjadi persoalan serius di banyak kota pesisir. <sup>2</sup>Setiap hari, berton-ton sampah plastik terbawa aliran sungai dan berakhir di laut. <sup>3</sup>Sampah tersebut mengakibatkan rusaknya terumbu karang sehingga para ikan-ikan di perairan itu semakin berkurang. <sup>4</sup>Hal ini tentu merugikan para nelayan yang menggantungkan hidup dari hasil laut. <sup>5</sup>Proses terjadinya penguraian plastik dapat berlangsung juga hingga ratusan tahun lamanya. <sup>6</sup>Beberapa pemerintah kota, telah membatasi penggunaan kantong plastik sekali pakai. <sup>7</sup>Oleh karena itu, [....]."
+      ]
+    },
+    {
+      "id": "teks_pbm4",
+      "title": "Teks 4",
+      "text": [
+        "<sup>1</sup>Kehadiran kecerdasan buatan tidak hanya mengubah cara orang bekerja. <sup>2</sup>Teknologi ini juga membuka <b>kondisi</b> baru bagi mereka yang mau belajar. <sup>3</sup>Pekerjaan yang bersifat rutin dan berulang makin banyak dikerjakan oleh mesin. <sup>4</sup>Sebaliknya, kebutuhan akan tenaga yang mampu merancang, mengawasi, dan memperbaiki sistem terus meningkat. <sup>5</sup>Karena itu, pekerja perlu [....] keterampilan baru untuk [....] perubahan tersebut. <sup>6</sup>Lembaga pelatihan dan perguruan tinggi pun mulai menyesuaikan kurikulumnya."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Penulisan kata bercetak tebal yang salah pada teks tersebut terdapat pada kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(4)",
+        "E": "(7)"
+      },
+      "answer": "D",
+      "explanation": "Penulisan yang baku adalah <i>teknologi</i>, bukan <i>tekhnologi</i>. Kata penopang, triliun, andalan, dan fotografi sudah benar."
+    },
+    {
+      "number": 2,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm1",
+      "question": "Kata penghubung yang paling tepat untuk melengkapi kalimat (5) adalah ....",
+      "options": {
+        "A": "Akan tetapi",
+        "B": "Dengan demikian",
+        "C": "Selain itu",
+        "D": "Oleh karena itu",
+        "E": "Selanjutnya"
+      },
+      "answer": "A",
+      "explanation": "Kalimat (4) menyatakan pelaku usaha memanfaatkan teknologi digital, sedangkan kalimat (5) menyatakan banyak yang belum memahami pemasaran daring. Hubungannya pertentangan sehingga dipakai <i>Akan tetapi</i>."
+    },
+    {
+      "number": 3,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm1",
+      "question": "Manakah kalimat berikut yang merupakan perbaikan kalimat (6)?",
+      "options": {
+        "A": "Pengamat mengatakan bahwa pendampingan berkelanjutan diperlukan agar pelaku usaha kecil tidak tertinggal.",
+        "B": "Menurut pengamat mengatakan bahwa pendampingan berkelanjutan diperlukan agar pelaku usaha kecil tidak tertinggal.",
+        "C": "Menurut pengamat mengatakan pendampingan berkelanjutan diperlukan agar pelaku usaha kecil tidak tertinggal.",
+        "D": "Menurut pengamat, bahwa pendampingan berkelanjutan diperlukan agar pelaku usaha kecil tidak tertinggal.",
+        "E": "Pengamat mengatakan tentang pendampingan berkelanjutan diperlukan agar pelaku usaha kecil tidak tertinggal."
+      },
+      "answer": "A",
+      "explanation": "“Menurut pengamat mengatakan” membuat kalimat tidak bersubjek. Perbaikannya: pilih salah satu, “Pengamat mengatakan bahwa ...” atau “Menurut pengamat, ...”. Hanya pilihan pertama yang benar strukturnya."
+    },
+    {
+      "number": 4,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm1",
+      "question": "Kata yang paling tepat menggantikan kata <i>andalan</i> dalam kalimat (3) adalah ....",
+      "options": {
+        "A": "tantangan",
+        "B": "ancaman",
+        "C": "tujuan",
+        "D": "tanggungan",
+        "E": "tumpuan"
+      },
+      "answer": "E",
+      "explanation": "Andalan berarti sesuatu yang diandalkan atau dijadikan sandaran. Padanan yang tepat adalah <i>tumpuan</i>."
+    },
+    {
+      "number": 5,
+      "difficulty": "Sulit",
+      "question": "Perhatikan lima kalimat berikut.<br>1. Akibatnya, sebagian warga terpaksa membeli air dari mobil tangki.<br>2. Musim kemarau tahun ini berlangsung lebih panjang daripada biasanya.<br>3. Air itu ditampung dalam tandon bersama sebelum dibagikan ke setiap rumah.<br>4. Sumur-sumur warga pun mulai mengering sejak bulan lalu.<br>5. Dengan cara tersebut, kebutuhan air rumah tangga tetap terpenuhi.<br><br>Jika lima kalimat tersebut disusun menjadi paragraf, urutan kalimat yang tepat adalah ....",
+      "options": {
+        "A": "4, 1, 2, 3, 5",
+        "B": "2, 1, 4, 3, 5",
+        "C": "2, 4, 3, 1, 5",
+        "D": "2, 4, 1, 3, 5",
+        "E": "4, 2, 1, 5, 3"
+      },
+      "answer": "D",
+      "explanation": "Paragraf dibuka dengan sebab umum (2), diikuti akibatnya pada sumur (4, ditandai <i>pun</i>), lalu akibat lanjutan (1, <i>Akibatnya</i>), penjelasan tentang “air itu” (3), dan penutup “Dengan cara tersebut” (5)."
+    },
+    {
+      "number": 6,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kata yang paling tepat menggantikan kata <i>perbaikan</i> dalam kalimat (2) adalah ....",
+      "options": {
+        "A": "pengubahan",
+        "B": "peningkatan",
+        "C": "pembaruan",
+        "D": "pelunasan",
+        "E": "pemulihan"
+      },
+      "answer": "B",
+      "explanation": "Minat baca tidak “diperbaiki”, melainkan “ditingkatkan”. Kata yang lazim berpasangan dengan <i>minat baca</i> adalah <i>peningkatan</i>."
+    },
+    {
+      "number": 7,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kalimat manakah yang paling tepat sebagai kalimat inti kalimat (7)?",
+      "options": {
+        "A": "Petugas perpustakaan keliling meminjamkan buku kepada anak-anak.",
+        "B": "Perpustakaan keliling meminjamkan buku.",
+        "C": "Petugas meminjamkan buku.",
+        "D": "Anak-anak mengadakan lomba bercerita.",
+        "E": "Petugas mengadakan lomba."
+      },
+      "answer": "E",
+      "explanation": "Induk kalimat (7) adalah “petugas perpustakaan keliling juga mengadakan lomba bercerita”. Intinya: Petugas (S) mengadakan (P) lomba (O). Bagian “Selain meminjamkan buku ...” hanyalah keterangan."
+    },
+    {
+      "number": 8,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (4) dan (5)?",
+      "options": {
+        "A": "Anak-anak menyambut kedatangan perpustakaan keliling dengan gembira, padahal mereka dapat memilih sendiri buku yang ingin dibaca.",
+        "B": "Anak-anak menyambut kedatangan perpustakaan keliling dengan gembira agar mereka dapat memilih sendiri buku yang ingin dibaca.",
+        "C": "Anak-anak menyambut kedatangan perpustakaan keliling dengan gembira, tetapi mereka dapat memilih sendiri buku yang ingin dibaca.",
+        "D": "Anak-anak menyambut kedatangan perpustakaan keliling dengan gembira, bahkan mereka dapat memilih sendiri buku yang ingin dibaca.",
+        "E": "Anak-anak menyambut kedatangan perpustakaan keliling dengan gembira karena dapat memilih sendiri buku yang ingin dibaca."
+      },
+      "answer": "E",
+      "explanation": "Kalimat (5) merupakan alasan kegembiraan pada kalimat (4) sehingga konjungsi yang tepat adalah <i>karena</i>. Subjek <i>mereka</i> pada anak kalimat dilesapkan agar hemat."
+    },
+    {
+      "number": 9,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm2",
+      "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah ....",
+      "options": {
+        "A": "berlatih menyimak dan berbicara di depan teman-temannya",
+        "B": "mengenal jenis-jenis kendaraan pengangkut buku",
+        "C": "membeli buku dengan harga murah",
+        "D": "menjadi petugas perpustakaan keliling",
+        "E": "memperbaiki buku-buku yang rusak"
+      },
+      "answer": "A",
+      "explanation": "Kegiatan <i>membaca bersama</i> paling logis memberi kesempatan berlatih menyimak dan berbicara. Pilihan lain tidak berkaitan dengan kegiatan membaca bersama."
+    },
+    {
+      "number": 10,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm2",
+      "question": "Kalimat berikut perlu dimasukkan dalam bacaan tersebut.<br><i>Dengan begitu, masyarakat tidak perlu menempuh perjalanan jauh untuk memperoleh bacaan.</i><br>Kalimat tersebut paling tepat ditempatkan setelah kalimat ....",
+      "options": {
+        "A": "(1)",
+        "B": "(2)",
+        "C": "(3)",
+        "D": "(5)",
+        "E": "(6)"
+      },
+      "answer": "C",
+      "explanation": "“Dengan begitu” merujuk pada tujuan mendekatkan buku kepada masyarakat pada kalimat (3). Akibat dari buku yang didekatkan adalah masyarakat tidak perlu pergi jauh."
+    },
+    {
+      "number": 11,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Penggunaan tanda koma yang salah terdapat pada kalimat ....",
+      "options": {
+        "A": "(2)",
+        "B": "(3)",
+        "C": "(4)",
+        "D": "(6)",
+        "E": "(7)"
+      },
+      "answer": "D",
+      "explanation": "Pada kalimat (6), tanda koma memisahkan subjek (<i>Beberapa pemerintah kota</i>) dari predikat (<i>telah membatasi</i>), padahal subjek dan predikat tidak boleh dipisahkan koma. Koma setelah keterangan di awal kalimat (2) dan setelah <i>Oleh karena itu</i> (7) sudah benar."
+    },
+    {
+      "number": 12,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm3",
+      "question": "Kalimat manakah yang merupakan kalimat efektif dari kalimat (5)?",
+      "options": {
+        "A": "Proses terjadinya penguraian plastik berlangsung juga ratusan tahun.",
+        "B": "Proses penguraian plastik dapat berlangsung juga hingga ratusan tahun lamanya.",
+        "C": "Penguraian plastik dapat berlangsung hingga ratusan tahun.",
+        "D": "Proses terjadinya penguraian plastik dapat berlangsung hingga ratusan tahun lamanya.",
+        "E": "Penguraian plastik dapat terjadi berlangsung hingga ratusan tahun."
+      },
+      "answer": "C",
+      "explanation": "Kalimat (5) boros: <i>proses terjadinya penguraian</i> (penguraian sudah bermakna proses), <i>juga</i> yang tidak diperlukan, dan <i>ratusan tahun lamanya</i>. Bentuk yang hemat: “Penguraian plastik dapat berlangsung hingga ratusan tahun.”"
+    },
+    {
+      "number": 13,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm3",
+      "question": "Kata yang harus dihilangkan pada kalimat (3) adalah ....",
+      "options": {
+        "A": "tersebut",
+        "B": "rusaknya",
+        "C": "para",
+        "D": "semakin",
+        "E": "itu"
+      },
+      "answer": "C",
+      "explanation": "<i>Para</i> sudah menyatakan jamak sehingga tidak boleh diikuti bentuk ulang <i>ikan-ikan</i>. Selain itu, <i>para</i> lazimnya dipakai untuk manusia."
+    },
+    {
+      "number": 14,
+      "difficulty": "Mudah",
+      "passage": "teks_pbm3",
+      "question": "Pernyataan yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": {
+        "A": "terumbu karang harus dipindahkan ke perairan lain",
+        "B": "sungai-sungai di kota pesisir perlu dilebarkan",
+        "C": "para nelayan perlu mencari pekerjaan lain",
+        "D": "plastik akan terurai dengan sendirinya di laut",
+        "E": "upaya mengurangi plastik sekali pakai perlu didukung oleh seluruh warga"
+      },
+      "answer": "E",
+      "explanation": "Kalimat (7) merupakan simpulan dari masalah sampah plastik dan upaya pembatasan pada kalimat (6). Simpulan yang selaras adalah ajakan mendukung pengurangan plastik sekali pakai."
+    },
+    {
+      "number": 15,
+      "difficulty": "Mudah",
+      "question": "Kalimat manakah yang penulisan huruf kapitalnya salah?",
+      "options": {
+        "A": "Pada hari Jumat, sekolah mengadakan kerja bakti.",
+        "B": "Novel <i>Laskar Pelangi</i> telah diterjemahkan ke berbagai bahasa.",
+        "C": "Ia mempelajari Bahasa Indonesia sejak kecil.",
+        "D": "Rapat itu dipimpin oleh Gubernur Jawa Barat.",
+        "E": "Kami berlibur ke Danau Toba pada bulan Juni."
+      },
+      "answer": "C",
+      "explanation": "Kata <i>bahasa</i> tidak diawali huruf kapital kecuali di awal kalimat: <i>bahasa Indonesia</i>. Nama geografi (Danau Toba), jabatan yang diikuti nama tempat (Gubernur Jawa Barat), nama hari, nama bulan, dan judul buku ditulis dengan huruf kapital."
+    },
+    {
+      "number": 16,
+      "difficulty": "Sedang",
+      "question": "Kalimat manakah yang penulisan katanya salah?",
+      "options": {
+        "A": "Ia menandatangani surat itu kemarin.",
+        "B": "Kami mengucapkan terimakasih atas bantuan Anda.",
+        "C": "Panitia mempertanggungjawabkan laporan keuangan.",
+        "D": "Olahraga pagi membuat badan terasa segar.",
+        "E": "Kerja sama antarsekolah itu berjalan dengan baik."
+      },
+      "answer": "B",
+      "explanation": "Gabungan kata <i>terima kasih</i> ditulis terpisah. <i>Antarsekolah</i> (bentuk terikat), <i>menandatangani</i> dan <i>mempertanggungjawabkan</i> (gabungan kata berawalan dan berakhiran), serta <i>olahraga</i> ditulis serangkai."
+    },
+    {
+      "number": 17,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Apa judul yang paling tepat untuk teks tersebut?",
+      "options": {
+        "A": "Kecerdasan Buatan dan Perubahan Dunia Kerja",
+        "B": "Kurikulum Baru Perguruan Tinggi",
+        "C": "Sejarah Perkembangan Kecerdasan Buatan",
+        "D": "Mesin Pengganti Manusia pada Masa Depan",
+        "E": "Cara Kerja Kecerdasan Buatan"
+      },
+      "answer": "A",
+      "explanation": "Seluruh teks membahas pengaruh kecerdasan buatan terhadap pekerjaan: yang hilang, yang dibutuhkan, dan penyesuaian pekerja serta lembaga pendidikan."
+    },
+    {
+      "number": 18,
+      "difficulty": "Sedang",
+      "passage": "teks_pbm4",
+      "question": "Kata yang paling tepat untuk melengkapi kalimat (5) adalah ....",
+      "options": {
+        "A": "<i>meminjam</i> dan <i>mencegah</i>",
+        "B": "<i>mewariskan</i> dan <i>mengabaikan</i>",
+        "C": "<i>meneliti</i> dan <i>menunda</i>",
+        "D": "<i>menguasai</i> dan <i>menghadapi</i>",
+        "E": "<i>menghindari</i> dan <i>menolak</i>"
+      },
+      "answer": "D",
+      "explanation": "Keterampilan baru perlu <i>dikuasai</i>, dan perubahan perlu <i>dihadapi</i>. Pasangan lain tidak sesuai dengan isi kalimat (3) dan (4)."
+    },
+    {
+      "number": 19,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm4",
+      "question": "Kalimat manakah yang isinya sama dengan kalimat (1)?",
+      "options": {
+        "A": "Kecerdasan buatan tidak mengubah cara orang bekerja.",
+        "B": "Kecerdasan buatan bukan hanya mengubah cara orang bekerja.",
+        "C": "Kecerdasan buatan hanya mengubah cara orang bekerja.",
+        "D": "Cara orang bekerja hanya dapat diubah oleh kecerdasan buatan.",
+        "E": "Cara orang bekerja berubah hanya karena kecerdasan buatan."
+      },
+      "answer": "B",
+      "explanation": "Kalimat (1) menyatakan bahwa mengubah cara kerja bukan satu-satunya dampak kecerdasan buatan (<i>tidak hanya</i> = <i>bukan hanya</i>). Pilihan lain mengubah makna menjadi pembatasan (<i>hanya</i>) atau pengingkaran."
+    },
+    {
+      "number": 20,
+      "difficulty": "Sulit",
+      "passage": "teks_pbm4",
+      "question": "Kata <i>kondisi</i> dalam kalimat (2) seharusnya ....",
+      "options": {
+        "A": "dibiarkan saja (sudah benar)",
+        "B": "diganti dengan kata <i>peluang</i>",
+        "C": "diganti dengan kata <i>suasana</i>",
+        "D": "didahului kata <i>berbagai</i>",
+        "E": "diganti dengan kata <i>keadaan</i>"
+      },
+      "answer": "B",
+      "explanation": "Yang lazim “dibuka” bagi orang yang mau belajar adalah <i>peluang</i>, bukan <i>kondisi</i>. <i>Keadaan</i> dan <i>suasana</i> bersinonim dengan kondisi sehingga tetap tidak tepat."
+    }
+  ]
+}
