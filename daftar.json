@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T21:35:52",
+  "generated": "2026-11-21T18:42:23",
   "kuis": [
     {
       "title": "IPA Kelas VII - Hakikat Ilmu Sains dan Metode Ilmiah",
@@ -2462,6 +2462,30 @@
       "path": "TKA SMP/Matematika/01 Bilangan/soal.json"
     },
     {
+      "title": "TKA Matematika SMP - Bilangan (Paket 2)",
+      "topic": "Bilangan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Bilangan"
+      ],
+      "path": "TKA SMP/Matematika/01 Bilangan/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Bilangan (Paket 3)",
+      "topic": "Bilangan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "01 Bilangan"
+      ],
+      "path": "TKA SMP/Matematika/01 Bilangan/soal_paket_3.json"
+    },
+    {
       "title": "TKA Matematika SMP - Persamaan dan Pertidaksamaan",
       "topic": "Persamaan dan Pertidaksamaan",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -2472,6 +2496,30 @@
         "02 Persamaan dan Pertidaksamaan"
       ],
       "path": "TKA SMP/Matematika/02 Persamaan dan Pertidaksamaan/soal.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Persamaan dan Pertidaksamaan (Paket 2)",
+      "topic": "Persamaan dan Pertidaksamaan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Persamaan dan Pertidaksamaan"
+      ],
+      "path": "TKA SMP/Matematika/02 Persamaan dan Pertidaksamaan/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Persamaan dan Pertidaksamaan (Paket 3)",
+      "topic": "Persamaan dan Pertidaksamaan",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "02 Persamaan dan Pertidaksamaan"
+      ],
+      "path": "TKA SMP/Matematika/02 Persamaan dan Pertidaksamaan/soal_paket_3.json"
     },
     {
       "title": "TKA Matematika SMP - Bentuk Aljabar",
@@ -2486,6 +2534,30 @@
       "path": "TKA SMP/Matematika/03 Bentuk Aljabar/soal.json"
     },
     {
+      "title": "TKA Matematika SMP - Bentuk Aljabar (Paket 2)",
+      "topic": "Bentuk Aljabar",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Bentuk Aljabar"
+      ],
+      "path": "TKA SMP/Matematika/03 Bentuk Aljabar/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Bentuk Aljabar (Paket 3)",
+      "topic": "Bentuk Aljabar",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "03 Bentuk Aljabar"
+      ],
+      "path": "TKA SMP/Matematika/03 Bentuk Aljabar/soal_paket_3.json"
+    },
+    {
       "title": "TKA Matematika SMP - Fungsi",
       "topic": "Fungsi",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -2496,6 +2568,30 @@
         "04 Fungsi"
       ],
       "path": "TKA SMP/Matematika/04 Fungsi/soal.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Fungsi (Paket 2)",
+      "topic": "Fungsi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Fungsi"
+      ],
+      "path": "TKA SMP/Matematika/04 Fungsi/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Fungsi (Paket 3)",
+      "topic": "Fungsi",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "04 Fungsi"
+      ],
+      "path": "TKA SMP/Matematika/04 Fungsi/soal_paket_3.json"
     },
     {
       "title": "TKA Matematika SMP - Baris dan Deret",
@@ -2510,6 +2606,30 @@
       "path": "TKA SMP/Matematika/05 Baris dan Deret/soal.json"
     },
     {
+      "title": "TKA Matematika SMP - Baris dan Deret (Paket 2)",
+      "topic": "Baris dan Deret",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "05 Baris dan Deret"
+      ],
+      "path": "TKA SMP/Matematika/05 Baris dan Deret/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Baris dan Deret (Paket 3)",
+      "topic": "Baris dan Deret",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "05 Baris dan Deret"
+      ],
+      "path": "TKA SMP/Matematika/05 Baris dan Deret/soal_paket_3.json"
+    },
+    {
       "title": "TKA Matematika SMP - Geometri dan Pengukuran",
       "topic": "Geometri dan Pengukuran",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -2520,6 +2640,30 @@
         "06 Geometri dan Pengukuran"
       ],
       "path": "TKA SMP/Matematika/06 Geometri dan Pengukuran/soal.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Geometri dan Pengukuran (Paket 2)",
+      "topic": "Geometri dan Pengukuran",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "06 Geometri dan Pengukuran"
+      ],
+      "path": "TKA SMP/Matematika/06 Geometri dan Pengukuran/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Geometri dan Pengukuran (Paket 3)",
+      "topic": "Geometri dan Pengukuran",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "06 Geometri dan Pengukuran"
+      ],
+      "path": "TKA SMP/Matematika/06 Geometri dan Pengukuran/soal_paket_3.json"
     },
     {
       "title": "TKA Matematika SMP - Data dan Peluang",
@@ -2534,6 +2678,30 @@
       "path": "TKA SMP/Matematika/07 Data dan Peluang/soal.json"
     },
     {
+      "title": "TKA Matematika SMP - Data dan Peluang (Paket 2)",
+      "topic": "Data dan Peluang",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "07 Data dan Peluang"
+      ],
+      "path": "TKA SMP/Matematika/07 Data dan Peluang/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Data dan Peluang (Paket 3)",
+      "topic": "Data dan Peluang",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 20,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "07 Data dan Peluang"
+      ],
+      "path": "TKA SMP/Matematika/07 Data dan Peluang/soal_paket_3.json"
+    },
+    {
       "title": "TKA Matematika SMP - Simulasi TKA",
       "topic": "Simulasi TKA",
       "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
@@ -2544,6 +2712,30 @@
         "08 Simulasi TKA"
       ],
       "path": "TKA SMP/Matematika/08 Simulasi TKA/soal.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Simulasi TKA (Paket 2)",
+      "topic": "Simulasi TKA",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "08 Simulasi TKA"
+      ],
+      "path": "TKA SMP/Matematika/08 Simulasi TKA/soal_paket_2.json"
+    },
+    {
+      "title": "TKA Matematika SMP - Simulasi TKA (Paket 3)",
+      "topic": "Simulasi TKA",
+      "summary": "30% Mudah | 50% Sedang | 20% Sulit. Kerjakan dengan jujur dan teliti.",
+      "questions": 40,
+      "kelas": "TKA SMP",
+      "mapel": "Matematika",
+      "topik": [
+        "08 Simulasi TKA"
+      ],
+      "path": "TKA SMP/Matematika/08 Simulasi TKA/soal_paket_3.json"
     },
     {
       "title": "Try Out 1 Matematika SMP Kelas IX",
